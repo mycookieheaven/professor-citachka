@@ -19,7 +19,21 @@ for path in glob.glob("src/lib/course-packs/*.json"):
 
 
 def check(url: str) -> tuple[str, object]:
-    request = urllib.request.Request(url, headers={"User-Agent": "ProfessorCitachka-SourceQA/1.0"})
+    # Use a browser user-agent. Several publishers answer automated clients with a
+    # misleading status instead of a bot-block: openmusictheory/Pressbooks returns 403 to
+    # a plain curl agent, and nia.nih.gov returns 405 (Method Not Allowed) to any
+    # non-browser agent on a plain GET. Both serve real content to a browser agent, so a
+    # non-browser check reports working sources as broken and buries the real dead links.
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+            ),
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        },
+    )
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
             return url, response.status
