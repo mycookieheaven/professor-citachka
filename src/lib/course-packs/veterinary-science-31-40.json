@@ -1,0 +1,733 @@
+{
+ "subject": "veterinary-science",
+ "levels": [
+  {
+   "title": "Technician-Relevant Clinical Care: Handling, Assessment and Monitoring",
+   "units": [
+    {
+     "title": "Safe Handling, Examination and Sampling Judgement",
+     "lessons": [
+      {
+       "id": "31",
+       "title": "Restrain a patient safely and read the feedback you are given",
+       "explanation": "Restraint is any restriction of an animal's movement that allows a necessary procedure to go ahead, and it ranges from controlling the room, to holding one limb, to giving a sedative. The 2022 AAFP/ISFM Cat Friendly Veterinary Interaction Guidelines deliberately dropped the older phrase minimal restraint, because restraint implies a lack of control or consent on the animal's side. The guidelines argue for cooperative care, in which the patient is offered choices and a sense of control, and they name handling methods that should never be used on cats, including scruffing and full body restraint. For a technician, the practical consequence is that handling is a clinical decision with a budget, not a test of willpower. Behaviour is the data that tells you what the plan is costing the patient, and it also tells you how safe the plan is for you. This lesson is education, not a treatment protocol: a veterinarian decides whether sedation is appropriate, and every real patient must be assessed with species, size and clinical context in mind.",
+       "example": "A fictional five-year-old cat arrives in a covered carrier for a blood pressure recheck after the veterinarian started a new treatment. You open the carrier door. The cat stays at the back, ears flattened and rotated outward, pupils wide, body crouched, silent. A weak plan is to reach in, lift the cat out and scruff it so the cuff can go on quickly. That plan treats the behaviour as obstruction, converts the carrier into a trap, and asks the cat to hold still while its blood pressure is being measured, which a frightened cat will not do reliably. A stronger plan uses the observation: dim the room, leave the carrier on a warm towel sprayed with synthetic pheromone, invite the cat out with your body low and your hand extended palm down, wait, and if the cat comes out, wrap loosely in a towel and measure in a quiet corner with the owner present. If the cat instead shows repelling behaviour such as hissing, striking or attempting to flee, and the procedure is not urgent, the correct technical move is to stop, report the finding and the number of attempts, and let the veterinarian consider rescheduling or pre-visit medication. The reasoning is not sentimentality. Failed handling raises injury risk for both the cat and the handler, and it can generate a lasting negative association that makes every future visit harder and every future measurement less trustworthy.",
+       "question": "Which response shows that you are using the patient's behaviour as clinical data rather than as an obstacle to push through?",
+       "answer": "Adjust the approach to the observed behaviour, keep a stop rule, and report a failed attempt so the veterinarian can change the plan",
+       "distractor": "Continue the same hold without change, because the procedure has already begun and stopping wastes the risk already taken",
+       "correction": "The right answer treats behaviour as information about cost and safety and puts the decision to change strategy with the veterinarian. The distractor assumes that effort already spent creates a reason to continue, which is exactly the reasoning that turns one difficult hold into an injury or into a patient that cannot be handled at all next time.",
+       "depth": {
+        "definitions": "Restraint is the restriction of movement to permit a procedure. Cooperative care is an approach in which the animal is given choices and a degree of control so that care can be delivered without coercion. Chemical restraint is the use of sedative or anaesthetic drugs to enable handling, and it is a veterinarian's decision, not a technician's. Protective behaviours are responses such as freezing, hiding, avoiding, hissing, growling, striking or biting, which serve to move the animal away from a perceived threat. Habituation and sensitisation describe the two opposite directions learning can take: repeated neutral experience may reduce a response, whereas a single aversive experience can make a response stronger and more durable. Handler safety means the plan must also be survivable for the people in the room.",
+        "mechanism": "Fear, anxiety, pain and frustration are the usual drivers of protective behaviour, and each one has predictable consequences. Arousal raises heart rate and blood pressure, alters respiratory pattern, and can shift glucose and other measured values, so a struggling patient produces data that are partly a measurement of the struggle. Learning runs on salience: an event that felt dangerous is remembered well, which is why one forceful hold can make a carrier, a scale or a stethoscope frightening for years. Force also has a mechanical cost. A twisting cat can be dropped, a rabbit kicking with unsupported hindquarters can fracture its own spine, and a frightened bird placed under restraint can be deprived of oxygen. The skilled approach therefore sequences options from least to most intrusive, keeps a stop rule, and uses the smallest effective hold for the shortest time, with all equipment ready before contact begins so that contact time is not wasted on searching for a tube or a cuff.",
+        "secondExample": "Now change the species and watch the plan change. A fictional rabbit needs a physical examination. Handling rules that would be defensible in a dog, such as lifting under the chest, are dangerous here, because the rabbit's hindlimbs must be supported and the spine must be kept from arching; a struggling rabbit that kicks while its hindquarters are loose can fracture its own lumbar spine. The rabbit is also a prey species in which quietness is not the same as comfort, so a motionless rabbit may be frozen rather than calm. A bird needing an examination carries a different specific risk again: the guidelines on pet birds warn that oxygen deprivation can occur during restraint, treatment or diagnostic sampling, so the plan minimises restraint time and may involve the veterinarian choosing sedation first. The general principle, that the animal's response governs the next step, survives the species change, while the specific hold, the specific risk and the specific stop rule do not.",
+        "mistake": "The most common misconception is that a still animal is a safe, willing animal, and that if nothing has gone wrong yet, the hold can continue. Freezing is a protective behaviour, not consent, and a patient that has stopped moving may be about to escalate, may be in pain, or may be unable to breathe freely. A second related error is treating the hold as the technician's personal skill test, so that asking for help or stopping feels like failure. The diagnostic correction is to ask, of every hold, three questions: what is the animal doing, what is this costing it, and what is the alternative? If the answers are unsatisfactory and the procedure is not time-critical, the finding is stopped and escalated.",
+        "application": "Write a five-line handling plan for a fictional patient of your choice that has just shown protective behaviour during a routine measurement. Your plan must state the species and the procedure, what the animal is doing and what that suggests, the least-intrusive option you would try next, the stop rule you would not cross, and who you would tell and what you would record. Self-review rubric: one point for identifying the behaviour without moralising about the animal; one for naming an option that is genuinely less intrusive rather than merely slower; one for a stop rule that is observable and specific rather than a feeling; one for naming the veterinarian as the decision-maker for chemical restraint; one for stating what is documented, including the number of attempts and the conditions. A plan that scores five describes handling as a clinical decision; a plan that scores two is a wish to be more careful, which is not the same thing.",
+        "summary": "Handling is a procedure like any other: it has a goal, a cost, a set of alternatives and a criterion for stopping. The species change alters the mechanical risk and the pharmacological risk, but not the structure of the judgement. Read the animal, spend the minimum necessary, keep the escape route open, and leave the drug decisions with the veterinarian. Everything else in this level, from venipuncture to blood pressure, happens through this door."
+       },
+       "readings": [
+        {
+         "title": "AAFP/ISFM: 2022 Cat Friendly Veterinary Interaction Guidelines (approach and handling techniques)",
+         "url": "https://catvets.com/publication/2022-aafp-isfm-cat-friendly-veterinary-interaction-guidelines-approach-and-handling-techniques/",
+         "note": "Read the abstract and the section listing handling methods that should never be used. The title page hosts the guidelines; the full text sits behind the journal page, so work from the abstract, the linked summary of recommendations (catvets.com/interactions) and any full text you can lawfully reach."
+        },
+        {
+         "title": "Mellor et al.: The 2020 Five Domains Model (Section 5, including human-animal interactions)",
+         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7602120/",
+         "note": "Read Section 5.2, Animals' Interactions with Humans, and Section 5.3, Grading the Negative and Positive Impacts of Humans. The paper argues that the human handler is itself a welfare variable, which is the academic basis for treating handling as a clinical decision rather than an unavoidable cost."
+        },
+        {
+         "title": "MSD Veterinary Manual: Management of Pet Birds (restraint and handling)",
+         "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/pet-birds/management-of-pet-birds",
+         "note": "Read the paragraph on restraint of psittacine birds and the warning that oxygen deprivation can occur during restraint, treatment or diagnostic sampling. It is the clearest short statement that the same hold carries different risk in different species."
+        }
+       ],
+       "visual": {
+        "title": "Handling as a staged decision with a stop rule",
+        "description": "Read the stages left to right. Each stage asks whether the previous one succeeded; only the last stage involves drugs, and only a veterinarian authorises it.",
+        "steps": [
+         "Observe before contact: posture, ears, pupils, vocalisation, movement, breathing",
+         "Change the environment first: light, noise, scent, surface, owner presence, exit route",
+         "Use the least intrusive cooperative option available for this species",
+         "Stop and report if protective behaviour escalates or repeats; record attempts and conditions",
+         "Veterinarian decides: reschedule, pre-visit medication, or chemical restraint on the day"
+        ]
+       }
+      },
+      {
+       "id": "32",
+       "title": "Perform a systematic physical examination and interpret each finding",
+       "explanation": "A physical examination is a diagnostic test whose value depends on being complete and repeatable. Clinical teaching gives the same instruction in several forms: recognise normal before you judge abnormal, work to a fixed order every time, examine from head to tail and do not detour to the obvious complaint, and record negative findings as well as positive ones. The general examination normally moves through distant observation, general inspection and body condition, the head and neck region, the thorax with auscultation, the abdomen, the urogenital and rectal area, skin and haircoat, and the musculoskeletal system, with a neurological assessment interwoven. Each finding is a datum with an implication, not a diagnosis. Pale mucous membranes raise the possibility of anaemia or poor perfusion; a capillary refill time longer than two seconds suggests poor perfusion or peripheral vasoconstriction; a pulse that is weaker than the heart sounds suggests a pulse deficit; muffled heart sounds in a patient that is not obese raise the possibility of fluid around the heart or in the chest. The veterinarian integrates those implications with signalment and history. Educational case reasoning only: no examination finding authorises a technician to diagnose or to begin treatment.",
+       "example": "A fictional fifteen-kilogram dog is presented because it did not finish its food yesterday. Before touching the dog, you observe from across the room: standing rather than lying, abdomen tucked, tail held low, shifting its weight forward, uninterested in the bowl of treats on the bench. You record the conditions of the examination as well as the values: heart rate, respiratory rate and effort, temperature, mucous membrane colour, capillary refill time, body condition, hydration. Then abdominal palpation, gentle and in a fixed order, produces tensing and a turn of the head towards your hand. That single finding does not tell you the cause, and it does not entitle you to name one. What it does do is change the plan: the dog stays on the list for the veterinarian's assessment before anything stressful is attempted, the observation and its conditions are documented, and the owner is asked specific questions about vomiting, drinking and the last normal meal. The reasoning is that a technician's examination is most valuable when it is a reliable, comparable row of data. A note that says the dog seemed uncomfortable in the abdomen is not comparable to the next examination; a note that says the room, the handling, the time, and the response at each abdominal region is.",
+       "question": "You are asked to examine a dog that is limping. Your fixed order says the abdomen comes before the limbs. What should you do?",
+       "answer": "Complete the whole examination in your fixed order, then examine the lame limb in more detail",
+       "distractor": "Skip the rest of the examination and concentrate on the limb, because the owner has already identified the problem",
+       "correction": "The fixed order exists because patients present with more than one problem and because a single-system examination is easy to abandon once a plausible explanation appears. The distractor is the classic shortcut that misses a second, sometimes more urgent, abnormality in the same patient.",
+       "depth": {
+        "definitions": "Signalment is the identifying biological context: species, breed where relevant, age, sex and reproductive status. The distant or observational examination is the assessment made before contact, including posture, gait, breathing pattern, body condition and behaviour. TPR refers to temperature, pulse and respiration, the traditional vital set. Body condition score is a semi-quantitative estimate of fat and muscle cover. Mucous membrane colour and capillary refill time are bedside perfusion cues. Auscultation is listening, percussion is tapping to assess underlying tissue, and palpation is examining by touch. Guarding is voluntary or reflex tensing of the abdominal wall. A negative finding is the deliberate recording that a system was examined and appeared normal, which is what makes a later change visible.",
+        "mechanism": "The examination works as a comparison engine. Comparing left with right, this visit with the last, and the patient with its own species norm converts an impression into a judgement. Symmetry is the cheapest comparison available: compare eyes, ears, joints, muscle mass and chest sounds against their opposite before deciding that something is abnormal. The patient's state also modulates what you measure. Fear and pain raise heart and respiratory rate, panting overtakes lung sounds, purring in cats produces a continuous vibration that can be mistaken for a murmur, and a cold room changes peripheral temperature and pulse quality. That is why the conditions of the examination belong in the record alongside the numbers, and why trends measured the same way each time beat single impressive readings. A technician cannot control these effects entirely, but can hold them constant enough that change means something.",
+        "secondExample": "Contrast the dog above with a fictional cat presented for weight loss. In cats the examination has a few different practical priorities: the thyroid region is palpated carefully because a slip of thyroid tissue can be found there, the oral cavity is examined because dental and oral disease is common, and the kidneys and intestines are assessed with the patient standing so that gravity helps place the organs. Because the cat may purr during abdominal palpation, the examiner notes that the purring may mask both an abnormality and a murmur. In the dog the central finding was abdominal discomfort and the plan became a targeted history; in the cat the central finding may be a small, irregular kidney or a mass, and the plan becomes a set of questions about appetite, thirst and litter tray use. Same exam, different priority list, and the difference comes from the species-specific list of common problems, not from a different method.",
+        "mistake": "Beginners often record conclusions rather than observations: bright, alert, responsive at the top of the sheet, followed by nothing that could be measured again. The misconception is that a warm general impression is equivalent to an examination and that precision is pedantry. The diagnostic correction is to ask whether another professional, arriving later with no memory of the animal, could repeat your examination from your record. If they cannot locate what you looked at and what you found, the entry is a mood, not a datum. A second common error is examining the patient only where the owner pointed, which is how a limp becomes the only recorded finding in a patient that is also febrile.",
+        "application": "Take a fictional patient of any species and write a complete examination checklist in your fixed order. Beside each item, write in one clause what a clearly abnormal finding there would imply in general terms, without naming a disease. Then mark which findings you would report to the veterinarian immediately rather than at the end. Self-review rubric: one point for an order that spans the whole body without gaps; one for each implication phrased as a possibility rather than a diagnosis; one point for conditions recorded with the values, such as handling and room; one point for correctly separating the findings that need immediate escalation from those that can wait for the summary. This task trains the habit that makes the examination worth repeating.",
+        "summary": "The examination is the textbook case where method matters more than drama. A fixed order, comparisons against the opposite side and against the previous visit, and a record precise enough to be repeated are what make a technician's findings usable by the veterinarian. Interpretation is the veterinarian's work; reliable observation with documented conditions is yours, and it is the raw material of every later decision."
+       },
+       "readings": [
+        {
+         "title": "University of Guelph: Clinical Medicine 1 Small Animal Clinical Skills Textbook, Unit 3, General Physical Examination of the Dog and Cat",
+         "url": "https://books.lib.uoguelph.ca/vetm3430/part/unit-3-general-physical-examination-of-the-dog-and-cat/",
+         "note": "Read Introduction to the Physical Examination and the list of examination sections. The chapter's teaching point, that you must recognise the normal examination before you can identify the abnormal, is the basis for the fixed-order method in this lesson."
+        },
+        {
+         "title": "MSD Veterinary Manual: The Cardiovascular System in Animals (evaluation of the heart)",
+         "url": "https://www.msdvetmanual.com/circulatory-system/cardiovascular-system-introduction/the-cardiovascular-system-in-animals",
+         "note": "Read the bulleted list of evaluation factors, from distant examination through mucous membrane colour, capillary refill time, auscultation, arterial pulses and jugular distension. It shows how several ordinary findings combine into one cardiovascular assessment."
+        },
+        {
+         "title": "MSD Veterinary Manual: Diagnosis of Heart Disease in Animals",
+         "url": "https://www.msdvetmanual.com/circulatory-system/diagnosis-of-heart-disease/diagnosis-of-heart-disease-in-animals",
+         "note": "Read the paragraph that lists physical examination findings which should prompt consideration of heart disease, including muffled heart sounds without obesity and pulse deficits. Use it as an example of findings functioning as prompts for a veterinarian's assessment, never as a diagnosis."
+        }
+       ],
+       "visual": {
+        "title": "Fixed-order examination with findings and implications",
+        "description": "Follow the order down the list. At each station the examiner records a value or an observation and only notes a general implication, deferring interpretation to the veterinarian.",
+        "steps": [
+         "Distant observation: posture, gait, breathing, body condition, behaviour, environment",
+         "Head and neck: eyes, ears, mouth, mucous membranes, lymph nodes, trachea",
+         "Thorax: respiratory pattern, lung sounds, heart sounds, pulse quality and rate",
+         "Abdomen and pelvic region: palpation, guarding, organ position, rectal temperature",
+         "Skin, haircoat, limbs and joints: symmetry, masses, range of motion, weight bearing",
+         "Record positives and negatives with the conditions, then report and hand over"
+        ]
+       }
+      },
+      {
+       "id": "33",
+       "title": "Change the plan for the species in front of you",
+       "explanation": "Species is not a label on the record; it changes what you can safely do, what you should look for first, and what a finding means. Comparative teaching sources make this concrete. Rabbits can be examined with many of the same techniques used in dogs and cats, but the oral examination including palpation of the face and jaw carries unusual weight because dental disease is common, and the sedation, venipuncture and anaesthesia planning differ because of body size, stress sensitivity and vascular anatomy. Pet birds mask illness until late, have a higher metabolic rate than mammals, and can be deprived of oxygen during restraint, treatment or diagnostic sampling, so a plan for a bird starts by minimising restraint time and may include sedation chosen by the veterinarian before examination. Reptiles are ectotherms whose handling involves species-specific tools such as towels, hooks and restraint tubes, whose vision may be restricted to facilitate examination, and whose tails must never be grasped because some species shed the tail in defence. Across all of them, the general structure of assessment is unchanged while the practical risk calculus is not. Any real decision about sedation, sampling or anaesthesia belongs to the veterinarian for that individual patient.",
+       "example": "Two fictional patients need the same test: a small blood sample. The first is a ten-kilogram dog with a visible cephalic vein. The plan is unremarkable: warm the room, restrain gently with the vein occluded proximally, clip and clean if needed, collect, apply pressure, transfer the sample, document. The second is a rabbit of similar body condition with reduced appetite. The same test now has different constraints. Blood in rabbits is commonly collected from the cephalic vein, the lateral saphenous vein or the jugular vein, and the auricular veins are used for some purposes; the veterinary manual notes that only physiologic crystalloid fluids should be given through the ear vein and that no drugs should be injected into the central ear artery, which can be accessed for direct blood pressure monitoring during anaesthesia. The auricular vessels are temperature sensitive, so warming the rabbit or at least the ear, and using a topical anaesthetic cream, greatly facilitates the procedure. The plan is therefore built around warming, around choosing a vessel appropriate to what the veterinarian wants, and around handling that supports the hindquarters and keeps restraint brief. The reasoning transfers to the bird with a jugular site and a much smaller margin for error, and to the reptile that may not need the test today at all if the room is too cold. The question is never which species needs the test, but which plan the species can survive comfortably.",
+       "question": "A colleague plans a short procedure on a bird using the same restraint and timing as a small dog. What is the main technical objection?",
+       "answer": "Birds have a higher metabolic rate and can become oxygen deprived during restraint, so restraint time and handling decisions must be planned differently",
+       "distractor": "Birds are simply more nervous than dogs, so the only real change is to speak more quietly during the procedure",
+       "correction": "The objection is physiological and specific: the risk of oxygen deprivation during restraint, treatment or sampling is documented for pet birds, which changes timing, equipment readiness and possibly sedation. The distractor reduces a physiological risk to a bedside manner issue and leaves the plan unchanged.",
+       "depth": {
+        "definitions": "Signalment includes species because species carries predictable anatomy, physiology, behaviour and disease patterns. A prey species is one whose survival strategy includes not advertising injury or illness. An ectotherm regulates body temperature largely through its environment, so ambient temperature is part of its physiology and part of any procedure. Masking refers to the concealment of clinical signs until late in a disease process. Stress is treated here as a measurable clinical load with physiological consequences, not as a synonym for unhappiness. Species-adapted planning means the same goal is reached by a route chosen for the patient in front of you.",
+        "mechanism": "Three mechanisms explain most species differences in the clinic. The first is mechanical: size, bone fragility, limb architecture and the direction a struggling animal can kick determine what hold is survivable. The second is physiological: metabolic rate, oxygen reserve and temperature dependence determine how long a patient can be restrained, sampled or held off heat before harm accumulates. The third is behavioural and evolutionary: whether the species is predator or prey shapes whether pain and fear are displayed loudly or concealed, and therefore whether quietness should be read as calm or as a warning. A fourth, quieter mechanism is that reference data, drug handling and equipment sizes are species-specific, so an error in species identification propagates through every later step of the plan.",
+        "secondExample": "Consider what changes when the same patient is examined at a different time of day or in a different room. A rabbit that is quiet and immobile in a warm, dim room with its familiar companion present may be genuinely relaxed, while the same rabbit on a cold, bright table in a ward next to a barking dog is showing the same posture for a completely different reason. The handler's reading of the behaviour therefore depends on the conditions the behaviour was recorded in. Contrast this with a reptile, where the concept of relaxed is not the only variable: if the patient is below its preferred temperature range, its metabolism and its responses are slowed in a way that is physiological rather than emotional, and the sensible plan is to wait for appropriate warmth before interpreting much at all. The comparison shows that species change is not one adjustment but a change of which variables dominate.",
+        "mistake": "The recurring error is scaling by size alone: assuming that because a patient is small, everything can simply be done more quickly and more delicately. Small may mean the opposite, because small animals have less reserve per unit of restraint time and less margin for fluid or heat loss. A second error is treating a still, quiet patient as compliant when the species commonly conceals distress. The correction is procedural: before any procedure, write down the species-specific risks you know about, the equipment you need in reach, the maximum handling time you are prepared to spend, and the alternative if that time runs out.",
+        "application": "Choose a fictional patient from two different species with the same presenting problem, for example reduced appetite in a rabbit and in a dog. Write a six-step plan for each that reaches the same goal, and annotate every step where the two plans differ and why. Self-review rubric: one point for naming a mechanical difference, one for a physiological difference, one for a behavioural difference, one for a species-specific equipment or vessel choice, one for an explicit stop rule, and one for identifying which decision cannot be made by a technician, such as sedation. Twelve marks is a genuinely comparative plan; six marks means you have described one plan twice.",
+        "summary": "Species change is the routine that keeps veterinary work honest. The same assessment goal is met through different holds, different timings, different vessels and different orders of priority, and the technician's competence lies in knowing which differences apply before touching the patient. The veterinarian decides the drug and the definitive plan; the technician builds a route the patient can tolerate."
+       },
+       "readings": [
+        {
+         "title": "MSD Veterinary Manual: Management of Rabbits (physical examination and sample collection)",
+         "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/rabbits/management-of-rabbits",
+         "note": "Read the subsection on physical examination and sample collection. Note the specific statements that only physiologic crystalloid fluids should be given by ear vein, that no drugs should be injected into the central ear artery, and that warming the ear plus topical anaesthetic facilitates the procedure. Those are the constraints that reshape a plan."
+        },
+        {
+         "title": "MSD Veterinary Manual: Management of Pet Birds (restraint and handling)",
+         "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/pet-birds/management-of-pet-birds",
+         "note": "Read the passage on why birds present late and why they are riskier patients to evaluate, then the restraint description for psittacine birds that leaves the thorax and abdomen free to expand. This is the clearest short source for the oxygen-deprivation risk that changes restraint timing."
+        },
+        {
+         "title": "MSD Veterinary Manual: Clinical Procedures for Reptiles",
+         "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/reptiles/clinical-procedures-for-reptiles",
+         "note": "Read the restraint paragraphs for snakes, lizards and chelonians, including the statements that lizards should never be grasped by the tail because of autotomy and that vision restriction often facilitates handling. Read it as a demonstration that technique is species-specific, not as instruction for unsupervised practice."
+        }
+       ],
+       "visual": {
+        "title": "Species-adapted plan: same goal, different route",
+        "description": "The centre column is a single clinical goal. The right-hand column shows how the route changes. The route, not the goal, is where species knowledge enters the plan.",
+        "steps": [
+         "Name the goal in one sentence: what data or care is actually needed today",
+         "List the species risks: mechanical, physiological, behavioural, and the equipment they imply",
+         "Choose the least intrusive route that reaches the goal, with everything ready before contact",
+         "Set a handling time budget and a stop rule that is specific to the species",
+         "Identify which decisions need the veterinarian, such as sedation, fluid choice or vessel choice",
+         "Record what was done, the conditions, and anything that must change next time"
+        ]
+       }
+      },
+      {
+       "id": "34",
+       "title": "Obtain a diagnostic blood sample and protect the sample chain",
+       "explanation": "Venipuncture is one of the most frequently delegated technical procedures, and its quality is decided in two halves: getting blood out of the vessel cleanly, and getting it to the analyser unchanged. Standard operating procedures teach the first half as a repeatable routine. Common sites in dogs include the external jugular, cephalic, lateral saphenous and accessory cephalic veins, and in cats the external jugular, cephalic, lateral and medial saphenous veins. The routine is: prepare the site, occlude the vein proximal to the puncture, insert the needle with the bevel up at a shallow angle, confirm access, release the occlusion, release suction before withdrawing, remove the needle, apply pressure until bleeding stops, then transfer the blood immediately. Releasing suction before removing the needle reduces bruising, and a suspected bleeding disorder is a reason to avoid the jugular, because a haematoma in the neck can compromise the airway. The second half is the pre-analytical chain. Haematology samples should be collected into an anticoagulant, with EDTA the preferred choice, mixed by gentle inversion and never shaken, because rough handling shears red cells and activates platelets. A small volume placed into a standard EDTA tube produces shrinkage of red cells, because the anticoagulant is relatively hypertonic, and that artefact changes measured cell size rather than the patient. Smears should be made from fresh blood, tubes kept cool but never in direct contact with ice, slides kept at room temperature rather than refrigerated, and the whole submission shipped promptly. Education only: this is not authorisation to sample a real animal unsupervised, and site and technique choices for a real patient are the veterinarian's to approve.",
+       "example": "A fictional four-year-old cat needs a complete blood count and a chemistry panel. The first attempt at the jugular vein yields nothing; a second attempt yields a slow trickle and the syringe is less than a quarter full. The sample is then emptied into a standard EDTA tube. Read only the result and you may see a mean cell volume above the reference interval and a raised mean corpuscular haemoglobin concentration, which could be interpreted as a real haematological finding. Read the process and you know something else: a small volume in a large EDTA tube causes red cells to shrink and produces exactly those changes, and a difficult, slow venipuncture precipitates platelet clumping, which can depress the platelet count and even be mistaken for an immune-mediated problem. The technician's obligations are therefore to choose the right container for the volume expected, to prefer a microtainer when only a small sample can be obtained and to mix it thoroughly by gentle inversion, and above all to document the difficulty. A note that two attempts were needed and that the final volume was small converts a possibly artefactual result into a result that the veterinarian can weigh correctly. That is the professional value of the pre-analytical record: it is the difference between a number and an interpretation.",
+       "question": "You collect a very small volume of blood and the only tube within reach is a standard 5 mL EDTA tube. What is the best technical response?",
+       "answer": "Use a smaller container if one is available, mix gently and thoroughly, and document the low volume and difficult collection so the result can be interpreted with that in mind",
+       "distractor": "Fill the large tube only part way and note nothing, because the anticoagulant is already in the tube and the analysis will sort out the rest",
+       "correction": "The right answer addresses the artefact at its source and declares it. A small volume in a large EDTA tube is a known cause of cell shrinkage and of falsely altered cell size indices, and difficult collection adds clumping and haemolysis. The distractor accepts a predictable artefact silently, which turns a sampling problem into a misread patient.",
+       "depth": {
+        "definitions": "Venipuncture is puncture of a vein to obtain blood. Occlusion is compression of a vein proximal to the intended puncture so that it fills. Anticoagulant is a substance that prevents clotting; EDTA achieves this by binding calcium, which is needed for the clotting cascade. Pre-analytical, analytical and post-analytical describe errors arising before analysis, during it, and in reporting. A microtainer is a small collection tube designed for small volumes. Haemolysis is rupture of red blood cells, which releases haemoglobin into the plasma. Crenation is shrinkage of red cells with a scalloped edge, and platelet clumping is aggregation of platelets that can be counted as absent. Chain of custody here means documented, traceable handling from collection to analysis.",
+        "mechanism": "Each artefact has a mechanism you can reason from. Anticoagulant acts by removing calcium, so adequate mixing during and immediately after collection is what prevents microclots, and shaking is what damages cells because it applies shear force. EDTA in a large tube relative to a small blood volume creates an osmotic gradient that moves water into or out of cells depending on concentration, which is why cell size indices shift without the patient having changed. Slow or traumatic venipuncture exposes blood to shear and to tissue factors that start clotting, so the handling technique is not merely comfort but data quality. Delayed separation of serum or plasma from cells lets cells continue consuming glucose and releasing potassium, so a tube that sits warm and unseparated produces chemistry that reflects the delay. Temperature is a two-way variable: cold slows cellular metabolism but freezing lyses cells, and that is why tubes travel cool but not against ice.",
+        "secondExample": "Consider a critically ill fictional patient with an indwelling intravenous catheter who needs repeated sampling for monitoring. Drawing from the catheter is convenient and reduces handling, but the line is full of fluid, so the sample can be diluted unless the line is flushed and the first portion of blood discarded; the veterinary teaching source describes exactly that, flush with sterile saline and discard the initial volume. Contrast this with the same patient sampled by a clean peripheral venipuncture: more handling, more stress, potentially better sample, unless the patient's bleeding or clotting status makes a peripheral site risky. Now the decision has four competing costs, patient stress, sample dilution, bleeding risk and vessel condition, and the sensible answer changes with the patient's status. That is why the technique is not a fixed recipe but an argument, and why the reasoning is documented next to the result.",
+        "mistake": "Two misconceptions recur. The first is that the analyser will detect and correct a bad sample, so the only real skill is getting the blood out. Instruments measure what arrives; they cannot know that the red cells shrank during transit. The second is that thorough mixing means vigorous mixing, so tubes are shaken to speed things up, producing haemolysis and platelet clumping. The diagnostic correction is to read the collection artefacts section of a laboratory source and then predict, before seeing a result, which values a given handling error would push in which direction. If you can make that prediction, you understand the chain; if you cannot, you are trusting luck.",
+        "application": "Write a one-page sample-handling audit for a fictional submission: a list of ten steps from patient identification to dispatch, with the failure mode at each step and the control that prevents it. Include at least one step covering the container-to-volume ratio, one covering mixing, one covering temperature, and one covering documentation of difficulty. Self-review rubric: one point per step that names a real failure mode rather than a vague risk; one point for each control that is a concrete action; one point for the container-volume reasoning stated in terms of what the patient's red cells do; one point for including the record of attempts. This audit is the form in which a technician makes a laboratory result defensible.",
+        "summary": "A blood sample is a chain of custody with a patient at one end and a number at the other. Technique determines whether the blood arrives as blood, and documentation determines whether the result can be read as the patient's or as the procedure's. Master the routine, then treat every deviation, difficult stick, low volume, delayed transfer, as something the next reader must know."
+       },
+       "readings": [
+        {
+         "title": "Virginia Tech Office of the University Veterinarian: SOP, Venipuncture in Dogs and Cats",
+         "url": "https://ouv.vt.edu/content/dam/ouv_vt_edu/sops/small-animal/sop-dogs-and-cats-venipuncture.pdf",
+         "note": "Read the procedure basics and the site-specific restraint descriptions. Note the instruction to release suction and occlusion before withdrawing the needle, and the contraindication for jugular venipuncture in suspected coagulation disorders. A published institutional SOP is a model of written technique; it is not authorisation for unsupervised practice."
+        },
+        {
+         "title": "Cornell eClinpath: Sample collection (haematology)",
+         "url": "https://eclinpath.com/hematology/sample-collection-heme",
+         "note": "Read EDTA as the preferred anticoagulant, the sample collection and handling guidelines, and the collection artefacts section covering difficult venipuncture, low sample volume, inappropriate mixing, dilution with fluids and rough handling. This is the source for the volume-to-anticoagulant reasoning used in the lesson."
+        },
+        {
+         "title": "Cornell eClinpath: Common artifacts",
+         "url": "https://eclinpath.com/test-basics/common-artifacts",
+         "note": "Read the summary table of haematology and chemistry changes caused by haemolysis, lipemia and other interferences. Use it to connect a handling error to a predictable direction of change, rather than treating artefacts as unpredictable noise."
+        }
+       ],
+       "visual": {
+        "title": "The sample chain from vein to result",
+        "description": "Each link can introduce a predictable change. The chain is only as trustworthy as the weakest documented link.",
+        "steps": [
+         "Identify the patient and confirm the request and container list before restraint begins",
+         "Choose a site appropriate to patient and clinical status; avoid the jugular if bleeding risk is suspected",
+         "Collect with a clean single puncture, release occlusion and suction before withdrawal, apply pressure after",
+         "Fill the correct container to the correct proportion and mix by gentle inversion, never by shaking",
+         "Handle for temperature: tubes cool but not frozen, slides at room temperature, never in direct contact with ice",
+         "Document attempts, volume, time and any deviation, then dispatch promptly with the request form"
+        ]
+       }
+      },
+      {
+       "id": "35",
+       "title": "Assess pain across species and turn a score into a plan",
+       "explanation": "Pain is a multidimensional experience with sensory and emotional components, and recognising it in animals is explicitly described as not intuitive, especially for anyone unfamiliar with the normal behaviour of that species or that individual. Veterinary teaching sources are candid about the limits. There is no gold standard for assessing pain in animals; many scoring methods exist and few have been validated; all current methods can under- or over-estimate; and scoring systems based on the presence or absence of species-specific behaviours tend to be more accurate than generic scales that lean on subjective interpretation. Physiological measures such as heart rate, respiratory rate, blood pressure and pupil dilation are useful for acute noxious stimuli, particularly under anaesthesia, and in some clinical situations, but they often do not distinguish a patient that has had surgery and is in pain from one that has not, and chronic pain may exist with entirely normal physiology. Behaviour can conceal pain: a dog may wag its tail and greet people while painful, a prey species may bunch with the flock, and a cat sitting quietly at the back of a cage after surgery may be in pain. Because of that, attention has moved toward structured behaviour assessment, including grimace scales developed for species such as cats, rabbits, horses, sheep and ferrets, and owner-completed questionnaires validated for chronic canine pain. A technician's job is to produce a defensible score, note the conditions, and report change. Analgesic decisions belong to the veterinarian, and a low score is evidence to weigh, not a conclusion that the patient is comfortable.",
+       "example": "A fictional cat is in the ward the morning after surgery. It is sitting quietly at the back of the cage with its head lowered, ears rotated back, front limbs tucked, eyes partly closed, and it has not touched food. A colleague glances in and writes comfortable, quiet, which reads like a low score. Read the behaviour against a structured, species-specific checklist instead: posture, ear position, facial expression, activity, response to gentle interaction, appetite and grooming. On that reading the same cat scores moderately high, and the point is not that the first colleague was careless but that they were using a scale calibrated for a different species and a different setting. You record the score, the time, the conditions, what the cat was doing when you looked, and what has changed since the previous assessment. You then report the score and the trend to the veterinarian, who decides the analgesic plan, and you repeat the assessment at the interval the practice uses, because the response to treatment is itself diagnostic information. A dog in the next cage is a useful contrast: it stands to greet you with a wagging tail, yet stiffens and pauses when rising, so the greeting and the rise disagree. The behaviour that matters is the one tied to function, and it is found by watching movement, not by reading the face alone.",
+       "question": "A post-operative cat scores low on a pain checklist. What is the correct interpretation?",
+       "answer": "A low score is one piece of evidence, not proof of comfort; record it with the conditions, keep reassessing and report any change to the veterinarian",
+       "distractor": "The low score confirms the patient is comfortable, so assessment can be deferred until the next scheduled check",
+       "correction": "Low scores can reflect a species that conceals pain, an unvalidated scale, or an observer unfamiliar with that animal's normal behaviour. The right answer treats the score as evidence with error bars and keeps the monitoring loop running. The distractor converts a fallible instrument into a discharge from attention.",
+       "depth": {
+        "definitions": "Nociception is the neural processing of a noxious stimulus; pain is the experience, which cannot be measured directly in animals. Acute pain follows injury or surgery and is usually more readily recognised; chronic pain persists and is often inferred from function, such as willingness to jump, walk, groom or interact. Adaptive pain protects tissue; maladaptive pain persists without protective value. A validated scale is one shown to measure consistently and meaningfully in a defined population. Inter-observer variability is disagreement between assessors, which structured behaviour-based scales aim to reduce. A grimace scale scores specific facial action units. An owner-completed questionnaire captures function at home, where the animal behaves normally.",
+        "mechanism": "Several mechanisms explain why pain assessment is genuinely hard. Animals cannot report an experience, so assessment runs through proxies: behaviour, posture, physiology and function, each with its own error structure. Behaviour has many causes, so fear, nausea, dyspnoea, cold and pain can produce similar postures. Physiology is confounded by stress and disease and is largely uninformative for chronic pain, where the animal may have adapted its behaviour so thoroughly that nothing obvious changes. Observer effects are real: familiarity with the individual improves sensitivity, while unfamiliarity biases toward underestimation. Species and individual differences multiply these effects, which is why sources insist that a scale must be species-specific, that the same observers should be used where possible, and that the best available test of whether pain is present is the response to an analgesic trial decided by the veterinarian.",
+        "secondExample": "Change the setting to an acute equine colic, where the physiological channel behaves differently. In acute severe pain in a horse, parameters such as heart rate and behaviour may change dramatically and are useful guides, which is why teaching sources cite acute colic as a situation where physiological measurement contributes. Now compare with chronic osteoarthritis in a fictional dog, where heart rate, temperature and respiratory rate are frequently unremarkable and the informative data are the owner's report of specific functions: reluctance on stairs, difficulty rising, less play. Same species in one case, different species in another, and in both the useful channel is the one where the condition actually shows itself. That is the transferable rule: choose the assessment channel the condition is most likely to disturb, then hold it constant so that change is visible.",
+        "mistake": "The dominant misconception is that a normal examination or a low score means the patient is not painful, so assessment can be closed out. The sources say the opposite: physiological measurements can be normal in pain, and absence of change should not be construed as absence of pain when other signs suggest otherwise. A second misconception is that a single observer's single score is the assessment, when the useful information is a comparable series of scores taken with the same method. The correction is a rule: never record a pain score without the time, the conditions and the previous score, and never let a low score end monitoring in a patient whose behaviour or function suggests otherwise.",
+        "application": "Write a behaviour-based pain assessment sheet for one species, with six observable items, a simple scoring rule, and a line for time, conditions, previous score and action taken. Then score three short fictional descriptions with the sheet, deliberately including one patient whose signals conflict, such as a greeting animal that is slow to rise. Self-review rubric: one point for every item that is observable rather than interpretive; one for the scoring rule being repeatable; one for including the trend rather than a single number; one for an explicit line stating who is told and when; one for identifying the conflicting-signal case and saying what a second assessment adds. A sheet that scores five could be used by two people who would mostly agree.",
+        "summary": "Pain assessment is measurement under uncertainty, and the technician's contribution is a well-instrumented series of observations rather than a verdict. Use a species-appropriate, behaviour-based tool, watch function as well as face and posture, record the conditions, and let the response to the veterinarian's plan refine the estimate. A score is a hypothesis about a patient, and a good record is what lets the hypothesis be tested."
+       },
+       "readings": [
+        {
+         "title": "MSD Veterinary Manual: Recognition and Assessment of Pain in Animals",
+         "url": "https://www.msdvetmanual.com/therapeutics/pain-assessment-and-management/recognition-and-assessment-of-pain-in-animals",
+         "note": "Read the opening sections on why recognition is difficult, the list of factors a pain scale should consider, the statement that there is no gold standard, the discussion of physiological versus behavioural measures, and the coverage of grimace scales and owner-completed questionnaires. This is the source for the limits described in the lesson."
+        },
+        {
+         "title": "WSAVA Global Pain Council: Guidelines for the Recognition, Assessment and Treatment of Pain (landing page and downloads)",
+         "url": "https://wsava.org/global-guidelines/pain-guidelines",
+         "note": "Read the executive summary and use the download for the full guideline. Note the recommendation to assess from a distance first, then interact, and that the caregiver's observations are essential, particularly for chronic pain. The treatment sections are for veterinarians; read the assessment sections for this lesson."
+        },
+        {
+         "title": "MSD Veterinary Manual: Pain Perception in Animals",
+         "url": "https://www.msdvetmanual.com/therapeutics/pain-assessment-and-management/pain-perception-in-animals",
+         "note": "Read the description of transduction, transmission, modulation, projection and perception, and the paragraph on peripheral and central sensitisation. It explains why persistent pain alters the nervous system, which is the reason early recognition carries clinical weight."
+        }
+       ],
+       "visual": {
+        "title": "Assessment loop that keeps a score honest",
+        "description": "The loop never terminates in a single score. Each cycle records conditions and trend, and the response to the plan is fed back as evidence.",
+        "steps": [
+         "Observe from a distance before interacting: posture, activity, appetite, position in the cage",
+         "Interact and assess the species-specific behaviour set, including facial expression and response to gentle touch",
+         "Assess function: rising, walking, jumping, grooming, interacting, eating",
+         "Record the score with the time, the conditions and the previous score",
+         "Report the score and the trend; the veterinarian decides the analgesic plan",
+         "Reassess at the practice's interval and treat the response to treatment as further evidence"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-vet-31-a",
+       "prompt": "A fictional dog is trembling in the examination room and will not hold still for a temperature reading. Which plan best respects the handling budget?",
+       "answer": "Reduce the stimulation, consider taking the reading later in the examination, and report the difficulty rather than forcing the hold",
+       "distractor": "Complete the temperature hold immediately with a firmer grip, because the reading is needed before anything else happens",
+       "correction": "Reordering a procedure and reducing stimulation can achieve the same measurement with less cost, and the difficulty is itself information. A firmer grip on a struggling patient raises injury risk and degrades the data it was meant to produce.",
+       "reviewLessonIds": [
+        "31"
+       ]
+      },
+      {
+       "id": "uq-vet-31-b",
+       "prompt": "A technician examining a fictional cat in fixed order finds a small irregular kidney, an ear that is painful to examine and a healed skin lesion. What should the record do with the skin lesion?",
+       "answer": "Record it as a negative or incidental finding with its location, so that a later change at that site is detectable",
+       "distractor": "Omit it, because the ear and the kidney are the clinically relevant findings of this visit",
+       "correction": "Recording incidental findings is what makes future change visible; a lesion that is undocumented cannot be compared later. Selecting only what seems relevant at the time removes the comparison baseline.",
+       "reviewLessonIds": [
+        "32"
+       ]
+      },
+      {
+       "id": "uq-vet-31-c",
+       "prompt": "A fictional reptile is presented on a cold morning and the technician notes that the patient barely responds to handling. What does the reasoning in this unit suggest?",
+       "answer": "Ambient temperature is part of the patient's physiology, so the response may reflect the temperature rather than calm or illness and should be recorded with the room conditions",
+       "distractor": "The reduced response indicates the patient is unusually tolerant and can be handled more than a mammal would allow",
+       "correction": "Ectotherms depend on environmental temperature for normal physiological function, so a cold patient cannot be read the way a mammal is read. Interpreting a temperature effect as temperament mislabels a physiological state.",
+       "reviewLessonIds": [
+        "33"
+       ]
+      },
+      {
+       "id": "uq-vet-31-d",
+       "prompt": "A fictional sample for a clotting test must be collected in a specific anticoagulant and exact proportion. The technician's syringe is slightly underfilled. What is the best practice?",
+       "answer": "Recognise that the anticoagulant-to-blood proportion is part of the test, and follow the collection protocol and its instruction to redraw when the ratio is not met",
+       "distractor": "Submit the underfilled sample and let the laboratory adjust the result mathematically",
+       "correction": "Tests with a defined anticoagulant ratio depend on that ratio, and laboratory guidance directs that a sample not meeting the required volume be redrawn. Assuming downstream correction turns a collection error into a misleading result.",
+       "reviewLessonIds": [
+        "34"
+       ]
+      },
+      {
+       "id": "uq-vet-31-e",
+       "prompt": "A fictional patient's owner reports that the dog no longer jumps into the car and hesitates on stairs, but the clinic examination is unremarkable. Which interpretation fits the sources in this unit?",
+       "answer": "Owner-reported functional change is essential evidence, particularly for chronic pain, and should be recorded even when the clinic examination is normal",
+       "distractor": "The normal examination outweighs the owner's report, so the function changes can be treated as behavioural preference",
+       "correction": "Chronic pain often produces normal clinic findings and shows itself as functional change at home, which is why owner observation is treated as essential evidence. Setting the clinic examination above the owner's report discards the channel where the problem is visible.",
+       "reviewLessonIds": [
+        "35"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Perioperative Monitoring, Fluids and Communication Under Pressure",
+     "lessons": [
+      {
+       "id": "36",
+       "title": "Monitor an anaesthetised patient parameter by parameter",
+       "explanation": "The 2020 AAHA Anesthesia and Monitoring Guidelines describe anaesthesia as a continuum of care rather than an event, with four phases: pre-anaesthesia, induction, maintenance and recovery. Their rationale is blunt: risk is inherent, and the use of guidelines, checklists and training reduces the risk of adverse events. The guidelines report that in healthy dogs and cats the estimated risk of anaesthetic-related death was approximately 0.05 percent, quoted as about 1 in 1,849, in dogs and 0.11 percent, about 1 in 895, in cats, with deaths occurring most frequently in the first three hours after surgery. That last detail is why monitoring does not stop at extubation. Patient status assessment, for instance the ASA physical status scale, frames how much stabilisation a patient needs. A technician's monitoring job is to watch several channels at once and to notice change: circulation, assessed through heart rate and rhythm, pulse quality, mucous membrane colour, capillary refill time and blood pressure; oxygenation, commonly through pulse oximetry; ventilation, commonly through end-tidal carbon dioxide and respiratory pattern; body temperature, since hypothermia is most commonly associated with anaesthesia in small animals and active warming is described as an essential component of therapy; and depth of anaesthesia, judged from several signs together rather than one. Pain is a monitoring parameter too. Machines support these judgements; they do not replace looking at the patient, and acceptable ranges for an individual patient are set by the veterinary team. This is education, not an anaesthetic protocol.",
+       "example": "A fictional patient is under maintenance anaesthesia. At 10:15 you count eight chest movements in fifteen seconds, which is thirty-two breaths per minute, and record it with the time. You also note that the reservoir bag reading fell from 1000 mL to 600 mL since the bag was changed at 08:15, a difference of 400 mL over two hours, which is 200 mL per hour. Neither number is a decision. What matters is the pair of facts, that you produced them by a defined method and that you recorded the time, because the next set of numbers is only useful as a comparison with these. When the pulse becomes weaker while the heart rate is unchanged, the correct response is to confirm the observation on the patient, for example re-checking the pulse, colour and refill time before trusting or distrusting the monitor, then report the finding and the trend to the anaesthetist promptly and in plain terms, with the earlier values to compare against. The reasoning is that a trend with a stated method is a clinical instrument, while an isolated value recalled from memory is not. If the pulse oximeter reading falls, the first question is whether the patient's perfusion has changed, which the oximeter also depends on, or whether the probe has moved; both are answered by looking at the patient.",
+       "question": "The monitor displays a falling oxygen saturation reading. What is the first technically sound step?",
+       "answer": "Check the patient and the probe to see whether the change reflects the patient or the measurement setup, then report the finding and trend",
+       "distractor": "Record the number as the patient's oxygenation and continue monitoring the display, since the instrument is calibrated",
+       "correction": "Oximetry depends on adequate perfusion and a stable probe position, so a change can come from the patient or from the measurement. The right answer confirms at the patient and reports with the trend; the distractor accepts a number as a fact about the patient when it is a measurement with conditions attached.",
+       "depth": {
+        "definitions": "The four anaesthetic phases are pre-anaesthesia, induction, maintenance and recovery. ASA physical status is a five-point scale describing a patient's health status and stabilisation needs before anaesthesia. Pulse oximetry estimates haemoglobin oxygen saturation. Capnography measures end-tidal carbon dioxide, which reflects ventilation and also circulates with perfusion. Doppler and oscillometric methods are common indirect blood pressure techniques. Anaesthetic depth is the level of central nervous system depression, judged from a combination of reflexes and responses. A parameter is a measurable quantity; a trend is a series of that quantity produced in the same way. Monitoring is the deliberate, time-stamped collection and reporting of such series.",
+        "mechanism": "Each channel integrates several physiological processes, which is why no single number is definitive. End-tidal carbon dioxide depends on metabolism, circulation and ventilation together, which is why it can confirm that a tube is in the trachea and can also change because circulation has failed. Pulse oximetry needs pulsatile flow, so poor perfusion, motion or a misplaced probe can each lower the display without a fall in true saturation. Hypothermia follows anaesthesia because drugs impair thermoregulation while heat is lost to the room, and it matters because it alters drug handling and delays recovery. Depth signs overlap with species and drug differences, so jaw tone, eye position, palpebral reflex and response to surgical stimulation must be read together, and the same cluster can mean different things in a cat and a dog. Monitoring therefore works by corroboration: several channels that should agree, checked against the patient, producing a series rather than an opinion.",
+        "secondExample": "Now consider the recovery phase, the period the guidelines identify as carrying the highest concentration of deaths. The monitoring logic inverts. Instead of depth signs under a known drug plan, the questions are whether the patient is breathing adequately on its own, whether its temperature is being restored, whether it is painful, and whether it is becoming dangerously excited or attempting to stand before it has control. A fictional patient that is shivering has both a temperature problem and an increased oxygen demand, and the response is to report it and act within the practice's written recovery plan rather than to wait for the next scheduled check. Contrast that with a patient in maintenance where a single weak pulse may mean the depth is changing or the blood pressure is falling. In one phase the technician is watching for the return of function; in the other, for its loss. Same equipment, same discipline, opposite questions.",
+        "mistake": "The most expensive misconception is that the monitor watches the patient, so attention can be divided. The second is that normal numbers mean a safe patient, when the useful signal is often the direction of change before any value leaves a stated range. A third is monitoring by memory rather than by record, so trends cannot exist. The diagnostic correction is to ask two questions at every measurement: does this agree with what I can see and feel on the patient, and how does it compare with the last value taken the same way? If a reading fails the first test, fix the measurement; if it fails the second, report the change.",
+        "application": "Build a one-page monitoring sheet for a fictional patient: a column for time, rows for the channels you will record, a space for method notes so each column says how the value was obtained, a space for patient confirmation such as pulse and colour, and a stated escalation line describing what you would report immediately and to whom. Self-review rubric: one point for a plausible channel set covering circulation, oxygenation, ventilation, temperature and depth; one for requiring the method beside any instrument value; one for a patient-confirmation line; one for a trend column or rule; one for an escalation statement that names the person and the trigger. A sheet scoring five could be handed to a colleague at shift change and understood.",
+        "summary": "Anaesthesia monitoring is the systematic collection of comparable values, corroborated on the patient and reported as trends. The physiology explains why each channel can deceive, and the record is what converts a series of readings into a clinical instrument. Recovery is part of monitoring, not the end of it, and the veterinary team sets every target."
+       },
+       "readings": [
+        {
+         "title": "AAHA: 2020 Anesthesia and Monitoring Guidelines for Dogs and Cats (full text PDF)",
+         "url": "https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/2020-anesthesia/anesthesia_and_monitoring_guidelines_final.pdf",
+         "note": "Read the abstract and introduction for the continuum-of-care framing, the reported risk figures for anaesthetic-related death, and the discussion of patient status assessment. Use the monitoring and recovery sections for how parameters are organised. The guideline states that it is a guideline only and not a standard of care."
+        },
+        {
+         "title": "MSD Veterinary Manual: Monitoring the Critically Ill Small Animal Using the Rule of 20",
+         "url": "https://www.msdvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20",
+         "note": "Read the opening rationale, that anticipation rather than reaction is the key, and the paragraphs on peripheral perfusion and blood pressure. Note the distinction between physical parameters such as mucous membrane colour and pulse quality and measured parameters such as blood pressure and lactate."
+        },
+        {
+         "title": "MSD Veterinary Manual: Cardiopulmonary Resuscitation of Small Animals (monitoring section)",
+         "url": "https://www.msdvetmanual.com/emergency-medicine-and-critical-care/specific-diagnostics-and-therapy/cardiopulmonary-resuscitation-of-small-animals",
+         "note": "Read the monitoring passages: end-tidal carbon dioxide, its use in confirming endotracheal intubation and as an early indicator of return of spontaneous circulation, and the role of electrocardiography. Read the arrest sections as context for why monitoring exists, not as a protocol to run."
+        }
+       ],
+       "visual": {
+        "title": "Monitoring channels, sources of error and confirmation",
+        "description": "Each channel is listed with what it integrates and how a technician confirms it on the patient before reporting.",
+        "steps": [
+         "Circulation: heart rate and rhythm, pulse quality, mucous membrane colour, capillary refill, blood pressure",
+         "Oxygenation: pulse oximetry, confirmed against colour, breathing effort and probe position",
+         "Ventilation: respiratory rate and pattern, end-tidal carbon dioxide, confirmed against chest movement",
+         "Temperature: measured value plus warming measures, reported because hypothermia is common under anaesthesia",
+         "Depth: reflexes, jaw tone, eye position and response read together, never one sign alone",
+         "Record with time and method, compare with the previous value, then report change to the anaesthetist"
+        ]
+       }
+      },
+      {
+       "id": "37",
+       "title": "Reason about fluid therapy as a plan, not a rate",
+       "explanation": "Fluid therapy is a plan with three questions: does this patient need volume, content or distribution addressed; what route and solution suit that goal; and what will tell us whether it is working? The 2013 AAHA/AAFP Fluid Therapy Guidelines open by saying that patients should be assessed for changes in volume, content and distribution, and that therapy must be individualised, tailored to each patient and constantly re-evaluated. They also explicitly reject an older habit, noting that the paradigm of generous crystalloid administration with higher volumes for anaesthesia-induced hypotension is not evidence-based and should be reassessed. Fluids come in classes with different jobs: crystalloids distribute across body fluid compartments and act as interstitial volume replacement, while colloids are used as intravascular volume replacement and are easier to overload, particularly in cats. Within crystalloids, replacement fluids are formulated for losses while maintenance solutions are formulated to match ongoing needs, and giving a replacement fluid for a long period to a patient with free water loss produces a predictable derangement. The veterinary manual's maintenance plan sets out three ongoing requirements, rehydration, maintenance and replacement of ongoing losses, and describes estimation formulas such as thirty times body weight in kilograms plus seventy millilitres per twenty-four hours for dogs and cats. That formula is an expectation of what maintenance means, not an instruction to give anything; the plan for a real patient is written by a veterinarian. A technician's contribution is verification and feedback: the right bag, set, label, route and pump rate against the written order, and then the observations that show whether the patient is responding.",
+       "example": "A fictional twelve-kilogram dog is on a written fluid order. The technician has three jobs. First, verification: confirm patient identity, the solution and its additives, the route, the delivery set, the pump setting against the written order, and the condition of the site, because a mismatch between order and reality is the most common avoidable error in any therapy delivered through equipment. Second, documentation of the arithmetic you can see: if the bag was replaced at 07:00 and now reads 400 mL delivered at 11:00, that is an observed administration of 100 mL per hour over four hours, which the team can compare against the intended plan; if the intended plan is expressed per day and per kilogram, a worked illustration of the manual's estimation method shows how the scale of the numbers is reasoned about, for example thirty times twelve plus seventy gives 430 millilitres per day for a fictional twelve-kilogram patient, which is about 17.9 millilitres per hour, and the point of that calculation is to know what order of magnitude a plan implies, not to authorise a rate. Third, feedback: watch for the signs of over-administration described by the AAHA toolkit, such as increased respiratory rate or effort, weight gain, peripheral or pulmonary oedema, and crackles as a late indicator, and for the signs of under-administration, such as persistent increased heart rate, poor pulse quality, hypotension and decreased urine output. Any of these is reported, with the time and the observed values, not held until the end of the shift.",
+       "question": "The written fluid order and the pump display disagree. What is the correct immediate action?",
+       "answer": "Stop and reconcile the order against the pump, bag, route and patient before continuing, then report and document the discrepancy",
+       "distractor": "Continue, because the pump is more precise than a handwritten order and small differences average out over a shift",
+       "correction": "A disagreement between intention and delivery is the central hazard of equipment-mediated therapy, so it is reconciled at the point of detection. The distractor assumes a machine setting represents the order, when the machine may be set to a different solution, route or rate than the one written.",
+       "depth": {
+        "definitions": "A crystalloid is a solution of small solutes that distributes across body fluid compartments; a colloid contains larger molecules intended to remain in the vascular space. Isotonic, hypotonic and hypertonic describe a solution's effective osmolarity relative to plasma. Replacement fluids are intended to replace losses; maintenance fluids are intended to meet ongoing needs with a lower sodium content. Rehydration describes restoring interstitial volume, ongoing losses are continued abnormal losses, and volume overload is excessive fluid in the body. Extravasation is leakage of fluid or drug outside the vessel. A prescription or written order is the veterinarian's instruction; an administration is what the patient actually receives, which is what the technician verifies and records.",
+        "mechanism": "The reason fluid plans cannot be reduced to a rate is that different problems require different fluid behaviour. A patient with a large loss of sodium-rich fluid needs volume replaced in the vascular and interstitial spaces, so an isotonic replacement crystalloid matches the deficit. A patient with a free water deficit, by contrast, has relatively too little water and too much sodium, so giving more sodium-rich replacement fluid makes the sodium problem worse while the volume problem improves, which is why the plan changes with the deficit type and not merely with its size. Colloids expand the vascular space with less total volume but are handled by the body as foreign macromolecules and can affect coagulation and the kidneys, and they are easier to overload than crystalloids, especially in cats. Whatever the plan, the patient answers it: monitoring converts a prescription into a hypothesis, and the observations of respiratory pattern, weight, perfusion, pulse quality, urine output and catheter site are the test.",
+        "secondExample": "Consider a fictional patient that develops a swollen, cool, painful limb at the catheter site during fluid administration. The plan is unchanged and the pump is delivering exactly as ordered, yet the therapy is failing at the interface. The finding is an extravasation, and it changes the immediate priority to stopping the infusion at that site, reporting it, and following the practice's protocol for the affected limb, while the patient's fluid requirement is reassessed by the veterinarian at another site. Compare this with a different failure mode in the same patient, a rising respiratory rate with weight gain and no other cause, which points to over-administration of the kind the toolkit lists. Both problems look nothing alike on the pump, which is why fluid therapy is monitored on the patient and the equipment together, and why the technician's observations, not the pump display, are the clinical evidence.",
+        "mistake": "Two misconceptions recur. The first is that fluids are harmless support, so the rate is a detail. Fluids are a therapy with their own adverse effects, from catheter-associated phlebitis, thrombosis and sepsis to volume overload, and the guidelines exist because the therapy can harm. The second is that the written order and the observed administration are the same fact. They are different facts, and reconciling them is a task with a defined purpose. The correction is to treat every fluid plan as a claim about a patient that the patient will either confirm or refute, and to record the confirmation.",
+        "application": "Take a fictional fluid order and write the four verification steps you would perform before starting it, then write the monitoring observations you would record at each check, separated into findings that suggest too much fluid and findings that suggest too little. Self-review rubric: one point per verification step that names a specific object, patient, bag, label, set, route or pump; one point for distinguishing over- and under-administration findings accurately; one for including the catheter site as a monitored item; one for a statement of what you would report and to whom. This exercise makes the difference between obeying a machine and monitoring a patient.",
+        "summary": "Fluid therapy is reasoned from the deficit to the solution to the response, and the technician's role sits in verification and feedback. Understand the classes and their jobs, know why the plan can legitimately change with the deficit type, and treat the patient's observations as the deciding evidence. Rates and prescriptions belong to the veterinarian; fidelity and observation belong to you."
+       },
+       "readings": [
+        {
+         "title": "MSD Veterinary Manual: Maintenance Fluid Plan in Animals",
+         "url": "https://www.msdvetmanual.com/therapeutics/fluid-therapy/maintenance-fluid-plan-in-animals",
+         "note": "Read the three ongoing requirements, the estimation formulas for maintenance volume, and the monitoring and complication lists including catheter-associated problems, over-administration and under-administration. The formulas are estimation methods described by the manual, not prescriptions."
+        },
+        {
+         "title": "AAHA/AAFP: 2013 Fluid Therapy Guidelines for Dogs and Cats (full text PDF)",
+         "url": "https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/fluid-therapy/fluid_therapy_guidelines.pdf",
+         "note": "Read the introduction, which frames fluid therapy as individualised and continuously re-evaluated, the perianaesthetic fluid section and the sick-patient section. Note the statement that the older routine high-rate crystalloid practice is not evidence-based and should be reassessed, and that the document is a guideline and not a standard of care."
+        },
+        {
+         "title": "AAHA/AAFP: 2013 Fluid Therapy Guidelines, implementation toolkit key tasks and monitoring",
+         "url": "https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/fluid-therapy/fluidtherapy_keytasks.pdf",
+         "note": "Read the fluid administration checklist and the monitoring fluid therapy list of signs of over-administration and under-administration. This is the source for what a technician watches for, and it is a checklist for teams rather than a dosing table."
+        }
+       ],
+       "visual": {
+        "title": "Fluid therapy as a plan with three questions and a feedback loop",
+        "description": "The plan is built from the deficit, then tested against the patient. The technician's two responsibilities are shown at the bottom of the loop.",
+        "steps": [
+         "Assess the disturbance: change in volume, change in content, or change in distribution",
+         "Set the goal with the veterinarian: rehydration, maintenance, replacement of ongoing losses, or resuscitation",
+         "Choose a solution class and route that matches the goal, not the convenience of the nearest bag",
+         "Verify before delivery: patient identity, solution, additives, set, route, pump setting, site",
+         "Monitor the patient for over-administration and under-administration signs, and the catheter site itself",
+         "Report and record findings with times; the response to therapy is evidence and the plan is re-evaluated"
+        ]
+       }
+      },
+      {
+       "id": "38",
+       "title": "Detect deterioration early and escalate in the right order",
+       "explanation": "Triage is the assignment of priority to emergency patients and their problems based on a rapid assessment of historical and physical parameters. Emergency teaching does not treat this as judgement in the abstract. It provides lists. Several historical or observed problems warrant transferring the animal to the treatment area regardless of physical findings: profuse vomiting, profuse diarrhoea, prolapsed or eviscerated organs, respiratory difficulty, seizures, substantial pain, snakebite, a swollen or painful abdomen or non-productive retching, toxin ingestion, and trauma or open wounds. The primary survey runs through airway, breathing, circulation, then disability and exposure or environment, assessing stability so that immediate treatment can start, with a secondary, thorough examination afterwards. The triage table converts ordinary observations into stated significance: mucous membrane colour, capillary refill time, heart rate ranges that differ by species and size, pulse rate and quality, and level of consciousness. Peripheral perfusion can be assessed through physical parameters such as heart rate, mucous membrane colour, pulse quality and mentation, and through measured parameters such as blood pressure, central venous pressure, urine output and lactate. The organising idea in critical care is stated plainly by the veterinary manual: anticipation, not reaction, is the key, because organs should be protected before failure. A technician's role is to detect change and escalate in a defined order, not to set targets; thresholds used by a team are clinical targets for the veterinary team, and any real patient's priority is a veterinary decision.",
+       "example": "A fictional cat arrives at 21:10 described as quiet since yesterday. You assess without delay and record times. A respiratory rate counted twice, thirty seconds apart, gives seven breaths in thirty seconds and later thirteen breaths in thirty seconds, which is fourteen breaths per minute and then twenty-six, an increase of twelve breaths per minute, or about eighty-six percent over the first count. Mucous membranes are pale, capillary refill time is three seconds, and the cat does not lift its head when the cage door opens. No single value in that set is a diagnosis, and none of them is your diagnosis to make. What the set does is change priority: pale membranes and a prolonged refill time are perfusion findings, a rising respiratory rate is a change rather than a level, and the reduced responsiveness is a level of consciousness finding. You act on the order: report immediately to the veterinarian in one sentence containing the numbers and the times, keep the patient under continuous observation rather than leaving to do paperwork, and document what you saw so the next assessment is a comparison. The reasoning is that in a deteriorating patient the variable that matters is time to intervention, and a technician's detection speed is often what determines it.",
+       "question": "Two patients arrive at the same time. One has a mild limp and has been waiting; the other has a swollen, painful abdomen and is retching without producing anything. Which consideration governs the order of assessment?",
+       "answer": "Priority is assigned by the urgency of the problems, so the retching patient with a painful abdomen is assessed and reported first even though it arrived second",
+       "distractor": "The first patient should be seen first because it has waited longer and a queue must be fair",
+       "correction": "Triage exists to direct scarce attention by urgency, and a painful distended abdomen with non-productive retching is explicitly listed among problems warranting immediate transfer to the treatment area. Ordering strictly by arrival time replaces the clinical criterion with an administrative one.",
+       "depth": {
+        "definitions": "Triage assigns priority by urgency rather than by arrival. The primary survey is the rapid stability assessment, commonly structured as airway, breathing, circulation, disability and exposure or environment. The secondary survey is the thorough examination performed once the patient is stable or stabilised. Perfusion is the delivery of blood to tissues, assessed by physical and measured parameters. Capillary refill time is the time for colour to return after blanching a mucous membrane. A pulse deficit is a difference between heartbeats and palpable pulses. Level of consciousness ranges from alert through depressed to stupor and coma. Escalation is the defined act of reporting a finding to the person who can act on it, in the order the practice specifies. Scope of practice is the boundary of what a technician may decide alone.",
+        "mechanism": "The triage method works because time-to-intervention dominates outcome in a subset of problems, and that subset is identifiable from a short list of cues. Airway and breathing problems kill by hypoxia, circulation problems by inadequate oxygen delivery, and neurological deterioration by mechanisms that are time-sensitive, so the survey is sequenced by threat rather than by anatomy. Trends matter more than thresholds for two reasons: individual patients vary around population values, and a value inside a reference interval can still represent a serious change from that patient's own baseline. Escalation is a system, not an individual virtue: a defined trigger, a named recipient and a documented time reduce the chance that a finding is noticed and then lost. Uncertainty about the mechanism is itself information to report rather than to resolve alone, because the capability to intervene lies elsewhere.",
+        "secondExample": "Consider a fictional patient whose single measured perfusion parameter is unremarkable but whose behaviour has changed completely within the hour: previously interactive, now withdrawn and unwilling to move. Reading only the parameter produces reassurance. Reading the comparison produces concern, because the change is the finding and the explanation is not yet known. Contrast this with a patient that is agitated and vocal after an painful procedure and has an expected rise in heart rate: here the change is explained and the appropriate response is to report it as an expected observation with the analgesia plan under review. The two patients may generate similar numbers, and the difference in the correct response comes from the context and the trajectory, which is why the practice asks for time-stamped series rather than isolated readings. A third patient, a foal or a bird, would add species-specific baseline variation to the same reasoning.",
+        "mistake": "The recurring error is waiting for certainty before escalating, on the assumption that a technician should only report findings they understand. Certainty is not required and is often not achievable; the reportable unit is a change with a time and the patient's condition. A second error is treating a single normal value as proof of stability, when a normal value can coexist with a serious problem and the decisive evidence was in the comparison. The correction is to write the escalation sentence before the shift: what you would report, in what words, to whom, and how quickly.",
+        "application": "You are given three fictional arrivals: a dog with a minor limp that has waited forty minutes, a cat with rapid open-mouthed breathing, and a puppy with one episode of vomiting after eating something unknown. Order them, and for each write one sentence of escalation containing an observation, a time, and a request for assessment. Then write a fourth line describing what would change the order. Self-review rubric: one point for each ordering decision justified by a listed criterion rather than by arrival time; one point for each escalation sentence containing a time; one point for a stated revision trigger; one point for avoiding a diagnosis. A set scoring five shows that you understand triage as an ordering system rather than as a queue.",
+        "summary": "Early detection is a discipline of comparison, defined triggers and fast, well-worded escalation. The primary survey gives the sequence, the triage cues give the priority, and the record gives the trend. Targets and diagnoses remain with the veterinarian, while noticing, timing and reporting are the technician's contribution to the outcome."
+       },
+       "readings": [
+        {
+         "title": "MSD Veterinary Manual: Initial Triage and Resuscitation of Small Animal Emergency Patients",
+         "url": "https://www.msdvetmanual.com/emergency-medicine-and-critical-care/evaluation-and-initial-treatment-of-small-animal-emergency-patients/initial-triage-and-resuscitation-of-small-animal-emergency-patients",
+         "note": "Read the definition of triage, the list of historical or observed problems that warrant moving the animal to the treatment area regardless of physical findings, and the primary survey components of airway, breathing, circulation, disability and exposure or environment."
+        },
+        {
+         "title": "MSD Veterinary Manual: Table, Parameters to Evaluate During Triage",
+         "url": "https://www.msdvetmanual.com/multimedia/table/parameters-to-evaluate-during-triage",
+         "note": "Read the table as a set of cues with their stated significance: mucous membrane colour, capillary refill time, heart rate ranges by species and size, pulse rate and quality, and level of consciousness. Use it to see how several ordinary observations become a priority decision."
+        },
+        {
+         "title": "MSD Veterinary Manual: Monitoring the Critically Ill Small Animal Using the Rule of 20",
+         "url": "https://www.msdvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20",
+         "note": "Read the opening rationale, that anticipation rather than reaction is the key, and the paragraphs on peripheral perfusion and blood pressure. Note the distinction between physical parameters such as mucous membrane colour and pulse quality and measured parameters such as blood pressure and lactate."
+        }
+       ],
+       "visual": {
+        "title": "From observation to escalation in a defined order",
+        "description": "The sequence moves from a short list of alarming problems to a structured survey, then to a comparison and a report. Diagnosis is not a step in this sequence.",
+        "steps": [
+         "Check the listed high-priority problems first: breathing difficulty, seizures, major haemorrhage, toxin ingestion, trauma, painful distended abdomen or non-productive retching, profuse vomiting or diarrhoea, prolapsed organs",
+         "Run the primary survey: airway, breathing, circulation, disability, exposure and environment",
+         "Record perfusion and consciousness cues with the time: mucous membrane colour, capillary refill, pulse quality, heart rate, responsiveness",
+         "Compare with the previous observation taken the same way and treat change as the finding",
+         "Report immediately in one sentence with the observation, the time and the request, to the person defined by the practice",
+         "Document the times of detection, report and any repeat assessment for the next reader"
+        ]
+       }
+      },
+      {
+       "id": "39",
+       "title": "Communicate with a distressed client without overpromising",
+       "explanation": "Client communication is part of clinical care, and it has a scope of practice like any other task. The veterinary technician gathers information, explains process, supports decision-making and raises problems, but does not deliver a prognosis, does not promise an outcome and does not guarantee a cost. Regulatory guidance states the standard in terms of shared understanding rather than politeness: the professional must communicate effectively with the client, use clear language, involve the client in decisions, and be aware that a client may not have understood and that staff should act on noticing this. Communication research summarised by the AVMA shows that the words used shape how clients perceive value and cost, and that an emotional appeal is more effective than a purely technical argument, which is a reason to speak plainly about the animal rather than in technical fragments. Guidance for difficult conversations recommends acknowledging the client's perspective, providing nonjudgmental support, using open-ended inquiry and reflective listening, being transparent, and presenting options with their pros, cons and costs rather than a single recommendation. Under stress this means three practical habits. First, name the situation without owning the verdict: state what is known, what is not known and when the veterinarian will speak. Second, check comprehension in small pieces rather than delivering a long explanation once, because a distressed listener retains fragments. Third, write down what was said and agreed, because the record is what protects the client and the animal in the next conversation.",
+       "example": "A fictional client telephones at 22:00 and asks whether their dog is dying. The weak answer is reassurance as a reflex: it will be fine, try not to worry, we see this all the time. That answer is not a kindness, because it substitutes an invented prognosis for information and it will be remembered as a promise. A defensible response has four moves. Acknowledge the fear explicitly, in plain words, without agreeing or disagreeing with the question. Say what is known and when: the veterinarian examined the patient at 19:30, blood has been sent, the results are expected in the morning, the patient is comfortable at the moment and is being checked at set intervals. Say what is not known, because a stated unknown is more trustworthy than a blurred reassurance, and say who will call and when. Then offer the immediate next step that the practice can promise, such as a call from the veterinarian within a stated window, and end by asking what the client has understood so far so that misunderstanding is caught now rather than later. If the client asks a question that belongs to the veterinarian, such as whether treatment will work or what it will cost, the correct move is to identify it as a question for the veterinarian and to make sure it is on the list rather than to improvise an answer. You document the time, the content and the commitments made.",
+       "question": "A distressed client asks whether their fictional pet will survive. What is the correct communication move?",
+       "answer": "Acknowledge the fear, state what is known and what is not known, and make clear that the veterinarian will give the assessment and the prognosis",
+       "distractor": "Give the client a hopeful answer to reduce distress now, since a calmer client will cope better until the veterinarian arrives",
+       "correction": "A prognosis is a veterinarian's assessment, and inventing hope substitutes a promise for information that will be tested within hours. The right answer reduces distress through honesty and a named next step; the distractor reduces it by building an expectation the team cannot control.",
+       "depth": {
+        "definitions": "Scope of practice is the boundary of what a role may decide alone. The veterinary-client-patient relationship is the professional basis on which advice and treatment are given. Informed consent is the client's agreement to a procedure after understanding its purpose, alternatives and costs; the veterinarian obtains it, and a technician may witness and clarify. Prognosis is the expected course and outcome of a condition, as distinct from diagnosis, which names the problem, and from plan, which states what will be done. Illness uncertainty is the client's experience of not knowing what is happening. Reflective listening is paraphrasing what the client expressed to confirm meaning. Chunk and check is giving small amounts of information and checking understanding before continuing.",
+        "mechanism": "Distress degrades comprehension, so the technical accuracy of an explanation does not determine what is remembered. Information given in a long sequence may be retained as fragments, and any fragment can be completed with an invention, which is why piecewise delivery with checks is more reliable than a single complete explanation. Trust forms from perceived acknowledgement rather than from certainty, so naming an emotion and stating a genuine unknown can increase credibility, while excessive reassurance reduces it once reality arrives. Words also carry an economic charge: research on veterinary client communication shows that the language used shapes how clients understand both value and cost, which is why plain, specific wording about the animal's benefit is more effective than abstract technical justification. Finally, the emotional load lands on the whole team, including people who knew the information before the client, which is why shared scripts and a documented handover protect staff as well as clients.",
+        "secondExample": "Consider a different stressor: an angry client at the desk disputing an invoice after a fictional emergency visit. The content is financial, but the mechanism is the same, an emotion that has to be named before information can be heard. The weak response argues the itemised account point by point, which reads as dismissal and escalates. A defensible response states what the practice charged for and why, acknowledges the client's position without conceding facts that have not been checked, separates the parts that can be answered immediately from those needing the practice manager, and gives a specific time and person for the follow-up. The contrast with the telephone scenario is instructive: in the first case the unknown was clinical and belonged to the veterinarian; in the second the unknown is administrative and belongs to the practice manager. A technician's skill is knowing which unknown belongs to whom, and never filling a gap with a confident guess.",
+        "mistake": "The most common misconception is that reassurance is kindness, so a hopeful statement is an act of care. Under stress it is a promise, and when it fails it destroys the trust that would have made the next conversation possible. A second is that a client who is upset is being unreasonable, which turns a communication task into a confrontation and stops the technician from hearing the actual question. The correction is procedural: before any difficult conversation, decide what you may state, what you must defer and to whom, and what you will write down; during it, name the emotion and check understanding; after it, document the commitments and hand them on.",
+        "application": "Write a thirty-second script for a fictional phone call in which a client asks whether their animal is going to be all right, and you do not have the answer. The script must contain an acknowledgement of the emotion, one statement of what is known with a time, one statement of what is not known, one named next step with a time and a person, and a question that checks what the client has understood. Then add two lines describing what you would document and what you would hand over. Self-review rubric: one point for acknowledgement without agreement; one for the accurate known and unknown statements; one for a next step that the practice can actually keep; one for the comprehension check; one for documentation; one for correctly refusing to give a prognosis. A script scoring six is a working instrument that another team member could use.",
+        "summary": "Communication under stress is a clinical skill with rules: plain language, named emotions, stated unknowns, named next steps and a written record. The technician's authority covers process, information gathering and support; prognosis, consent for treatment and clinical advice belong to the veterinarian. Honesty delivered in small, checked pieces is what makes distress survivable for the client, the patient and the team."
+       },
+       "readings": [
+        {
+         "title": "RCVS: 11. Communication and consent",
+         "url": "https://www.rcvs.org.uk/veterinary-professionals/conduct-and-guidance/supporting-guidance/11-communication-and-consent",
+         "note": "Read the client relationship, communication and discussion of fees subsections. Note the emphasis on shared understanding, plain language, participation in decisions, and the expectation that staff raise a client's misunderstanding rather than let it stand. This is UK regulatory guidance used as an exemplar of communication standards, not universal law."
+        },
+        {
+         "title": "AVMA: Communicating with clients, using the right language to improve care",
+         "url": "https://www.avma.org/resources-tools/practice-management/communicating-clients-using-right-language-improve-care",
+         "note": "Read the summary of the Language of Veterinary Care initiative findings on how wording shapes clients' perception of value and cost, and the recommendation to lead with an emotional rather than a purely technical appeal. It explains why plain, specific phrasing is a clinical tool rather than decoration."
+        },
+        {
+         "title": "AAHA: 2026 Oncology Guidelines, Section 4, Client Communication",
+         "url": "https://www.aaha.org/resources/2026-aaha-oncology-guidelines-for-dogs-and-cats/section-4-client-communication/",
+         "note": "Read the top three takeaways and the paragraph on communication skills for difficult conversations: open-ended inquiry, reflective listening, transparency, unconditional positive regard, and presenting options with their pros, cons and costs. Automated HTTP requests to this AAHA page return 403; the content was retrieved through web extraction. Reading it via a normal browser may also require an AAHA session."
+        }
+       ],
+       "visual": {
+        "title": "A defensible difficult conversation, step by step",
+        "description": "The sequence is designed so that no step requires the technician to invent information. The fragmenting of information into checked pieces is deliberate.",
+        "steps": [
+         "Acknowledge the emotion in plain words without agreeing with the client's worst assumption",
+         "State what is known, with times and who observed it",
+         "State what is not known and who will resolve it, naming the veterinarian for clinical questions",
+         "Give a next step the practice can keep, with a person and a time",
+         "Check understanding in small pieces and invite the client's questions for the veterinarian",
+         "Document what was said, what was promised and by when, and hand it to the next team member"
+        ]
+       }
+      },
+      {
+       "id": "40",
+       "title": "Reconstruct a critical case from the record",
+       "explanation": "A clinical record is the team's memory, and reconstructing a case from it is a technical skill in its own right. Record-keeping guidance sets the standard in terms of purpose rather than style: entries should be objective and timely, should support continuity of care, should be transferable promptly when responsibility moves, must respect confidentiality, and must preserve the audit trail, which is why amendments should not remove or obscure the original entry. Reconstruction means reading a record as evidence rather than as narrative. You build a timeline in which every item carries a time and a source, you separate data from interpretation, and you list explicitly what the record cannot tell you. Data are observations with conditions: a respiratory rate counted over thirty seconds, a body temperature with the method, a fluid volume with the interval and the bag change. Interpretation is a sentence such as comfortable, or doing well, or seemed painful. Both have value, but only one can be compared across shifts. When entries are missing times, written after the fact, or blended with conclusions, the reconstruction becomes a list of gaps, and the gaps are the useful output, because they tell the next clinician exactly which questions to ask. In an emergency this is the fastest route to a usable picture: what was known, when, by whom, what changed, and what remains unknown. Reconstruction is not diagnosis. It prepares the veterinarian's assessment, and it is one of the most valuable things a technician can hand over.",
+       "example": "A fictional overnight record for a patient admitted after a road traffic accident contains these entries, out of order: one at an unstated time saying the patient is quiet and stable, one timed 23:40 reporting a respiratory rate of twenty-four, one timed 00:05 reporting that fluids were changed, and one at 01:20 saying the patient seems more comfortable. A weak reconstruction reads the narrative and concludes that the patient is stable and improving, which is what the words suggest. A defensible reconstruction does something different. It builds a timeline: 23:40 respiratory rate twenty-four, method unstated, observer unstated; 00:05 fluid bag changed, no volume recorded; an untimed entry describing quiet and stable, converted into a gap rather than a data point; 01:20 an interpretation with no supporting observation. The same record now yields three questions that a colleague can act on: what was the respiratory rate trend before 23:40 and after, what volume was delivered between bag changes, and what specifically changed in the patient's posture or activity that produced the word comfortable. The reasoning behind the difference is that a reconstruction's output is not a conclusion but a short list of missing data and their significance. It tells the veterinarian where to look first, and it prevents a later reader from mistaking an impression for a measurement.",
+       "question": "A fictional record states that a patient was comfortable overnight, with no times or observations. What should a reconstruction produce?",
+       "answer": "A flagged gap: an interpretation without supporting data or time, plus the specific observations that would need to be recovered or repeated",
+       "distractor": "A conclusion that the patient was stable overnight, since the record contains no indication of a problem",
+       "correction": "An untimed impression cannot support a trend, so the honest output is a gap with the observations needed to fill it. The distractor treats absence of documented problems as documentation of absence, which is the error that reconstruction exists to prevent.",
+       "depth": {
+        "definitions": "A clinical record is the contemporaneous written account of observations, decisions and communications. Contemporaneous means made at or near the time of the event. Provenance is the origin and handling history of an item of information. An audit trail is the unbroken history of entries and amendments. Data are observations with their conditions and method; interpretation is a judgement about those observations. A handover is the transfer of responsibility, which requires that the receiving person can reconstruct what happened. Retrospective entries are written after the event and must be identified as such. Confidentiality restricts who may see or discuss the record.",
+        "mechanism": "Records fail in characteristic ways, and each failure has a mechanism. Timestamps are omitted because the writer assumes the order of the page is the order of events, which breaks as soon as entries are added later. Data are replaced by interpretation because interpretation feels more useful, but interpretation cannot be compared across observers and shifts, while a measurement with its method can. Conditions are omitted because they seem obvious to the writer, who forgets that the next reader was not in the room; restraint used, room temperature, whether the patient was panting, and how long the rate was counted for are exactly the conditions that change what a value means. Amending without preserving the original erases the trajectory that a reviewer needs. Reconstruction reverses each of these mechanically: attach a time, attach a source, classify each item as data or interpretation, then list the gaps.",
+        "secondExample": "Take a second fictional record in which the same phrase means two different things. At 14:00 the entry reads that the patient was quiet and settled during the examination, when the notes elsewhere show the patient had just been given a sedative for radiography. At 22:00 the entry reads that the patient is quiet and settled, and the notes show a painful procedure two hours earlier with no analgesia documented. The phrase is identical, the conditions differ completely, and the second occurrence is a possible under-recognition of pain rather than an improvement. A reconstruction that reads only the adjectives sees a stable day. A reconstruction that reads times and context produces a question for the veterinarian about whether the evening finding was comfort or masked pain. The comparison shows that the value of a record lies in the conditions attached to it, and that the technician's discipline of writing those conditions is what makes later reconstruction possible at all.",
+        "mistake": "The dominant misconception is that a complete record is a correct record, so a page full of sentences is treated as evidence. Completeness without times, conditions and separation of data from interpretation produces a document that cannot be reconstructed and cannot be compared. A second error is filling gaps with plausible inference, so a missing respiratory rate becomes assumed normal because nobody wrote otherwise, an invention that a reader cannot distinguish from a measurement. The correction is to write the reconstruction so that every line is either sourced or labelled unknown, and to prefer the unknown label over a guess even when the guess is likely to be right.",
+        "application": "Take a fictional overnight record of at least six entries and reconstruct it into four columns: time, item, classification as data or interpretation, and source. Below the table, write the three questions the record cannot answer and what observation would answer each one, then write the one-line summary you would give at handover, containing no diagnosis. Self-review rubric: one point for every item carrying the time the record actually states; one for correct data and interpretation classification; one for each gap paired with the observation that would resolve it; one for a handover line that is factual and usable in ten seconds; one for stating which decisions are the veterinarian's. A reconstruction scoring five is a clinical instrument, not a summary.",
+        "summary": "Reconstruction turns a pile of entries into a timeline of sourced data, interpretations and explicit gaps. Its value is that it tells the next clinician exactly what is known, what changed and what is missing, which is the fastest available route to a defensible picture in a deteriorating patient. Writing records as if they will be reconstructed is the other half of the same skill."
+       },
+       "readings": [
+        {
+         "title": "RCVS: 13. Clinical and client records",
+         "url": "https://www.rcvs.org.uk/veterinary-professionals/conduct-and-guidance/supporting-guidance/13-clinical-and-client-records",
+         "note": "Read the general principles and the clinical records subsections, including the requirement that amendments do not remove or obscure the original entry so that the audit trail survives. UK regulatory guidance used as a record-quality exemplar."
+        },
+        {
+         "title": "MSD Veterinary Manual: Emergency Medicine in Animals",
+         "url": "https://www.msdvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-introduction/emergency-medicine-in-animals",
+         "note": "Read the passage on therapy needing to be done at the right time, in the right amount and in the right order, and on the primary survey requiring a quick and accurate assessment of stability. It explains why sequence is a clinical variable."
+        },
+        {
+         "title": "Cornell eClinpath: Sample collection (haematology)",
+         "url": "https://eclinpath.com/hematology/sample-collection-heme",
+         "note": "Read the storage and shipping guidance and the collection artefacts section. It is the reference for what belongs in a submission record when the sample quality has been compromised."
+        }
+       ],
+       "visual": {
+        "title": "Four-column reconstruction of a critical case",
+        "description": "Each entry is placed on a timeline and classified. The gaps column is the output that the next clinician acts on.",
+        "steps": [
+         "List every entry with the time it states, and mark entries with no time as time unknown",
+         "Classify each item as data or interpretation, and write its source, person, monitor or owner report",
+         "Attach the conditions to each data item: method, restraint, environment, duration of counting",
+         "Compare like with like to produce a trend, and refuse to compare values obtained by different methods",
+         "Write the gaps: what cannot be determined, and the specific observation that would resolve each gap",
+         "Hand over a ten-second factual summary plus the gap list; leave diagnosis and decisions to the veterinarian"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-vet-36-a",
+       "prompt": "A fictional patient under anaesthesia has an unchanged heart rate but a weakening pulse, and the end-tidal carbon dioxide has fallen. Which response reflects the monitoring reasoning in this unit?",
+       "answer": "Confirm the change on the patient, check pulse quality and colour, and report the trend promptly rather than waiting for a value to leave a stated range",
+       "distractor": "Continue as planned, because the heart rate has not changed and a single channel is easier to interpret than several",
+       "correction": "Pulse quality and carbon dioxide carry circulation information that heart rate alone does not, and change before thresholds is the useful signal. Ignoring those channels because one is unchanged discards the earliest evidence of deterioration.",
+       "reviewLessonIds": [
+        "36"
+       ]
+      },
+      {
+       "id": "uq-vet-36-b",
+       "prompt": "A fictional patient's fluid order is written per day and per kilogram, and the technician wants to know whether the delivery is in the expected range. What is the defensible method?",
+       "answer": "Record the observed volumes and intervals and calculate what has actually been delivered, then compare with the intended plan and report any discrepancy",
+       "distractor": "Estimate the rate by eye from the chamber and adjust the pump directly to match the estimated number",
+       "correction": "Observed delivery over a measured interval is evidence, while an eyeball estimate is an impression, and adjusting a prescription independently exceeds a technician's role. The right answer produces a comparison and reports it to the person who owns the plan.",
+       "reviewLessonIds": [
+        "37"
+       ]
+      },
+      {
+       "id": "uq-vet-36-c",
+       "prompt": "A fictional patient's respiratory rate rises from fourteen to twenty-six breaths per minute over twenty minutes, and the cat is now difficult to rouse. What is the best action?",
+       "answer": "Report immediately in one sentence with both values and times, stay with the patient and keep observing rather than leaving to complete paperwork",
+       "distractor": "Record the values and continue routine tasks, then present the full picture when the veterinarian next visits the ward",
+       "correction": "The change and the reduced responsiveness are priority findings, and the interval before a routine round may be the interval in which intervention mattered. The right answer protects detection speed; the distractor trades time for tidiness of reporting.",
+       "reviewLessonIds": [
+        "38"
+       ]
+      },
+      {
+       "id": "uq-vet-36-d",
+       "prompt": "A fictional client asks what the final bill will be and whether treatment is worth continuing. What is the correct technical response?",
+       "answer": "Acknowledge the concern, take the question to the right person, and state clearly who will answer and when, without estimating or advising",
+       "distractor": "Offer a rough estimate to keep the conversation moving, since the client mainly wants reassurance about cost",
+       "correction": "Estimates and treatment recommendations belong to the veterinarian or the practice's process, and an improvised figure becomes a commitment. The right answer keeps the client informed without making promises the technician cannot keep.",
+       "reviewLessonIds": [
+        "39"
+       ]
+      },
+      {
+       "id": "uq-vet-36-e",
+       "prompt": "A fictional overnight record contains six entries, four of which have no time and two of which read doing well. What does a reconstruction produce?",
+       "answer": "A timeline with time unknown against four entries, a classification of the two phrases as interpretations, and a list of the specific observations needed to establish a trend",
+       "distractor": "A short narrative summary stating that the patient was stable overnight, since no entry records a problem",
+       "correction": "Untimed entries cannot form a trend and interpretations cannot substitute for observations, so the honest output is a gap list. A narrative summary of stability converts missing data into a claim the record does not support.",
+       "reviewLessonIds": [
+        "40"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "lq-vet-31-a",
+     "prompt": "A frightened fictional cat needs a blood pressure measurement and has already refused to leave its carrier twice. The technician notices that the plan has not changed between attempts. Which restructuring is best?",
+     "answer": "Stop, document the two attempts and the behaviour, and let the veterinarian reconsider timing, pre-visit medication or chemical restraint before further handling",
+     "distractor": "Continue the same approach a third time but hold harder and longer so that the measurement is completed today",
+     "correction": "Repeating an unchanged plan after two failed attempts adds cost without adding information, and the escalation is the veterinarian's decision. Holding harder increases injury risk to patient and handler and worsens the learning that makes future visits difficult.",
+     "reviewLessonIds": [
+      "31",
+      "04"
+     ]
+    },
+    {
+     "id": "lq-vet-31-b",
+     "prompt": "A fictional rabbit is examined on a cold, bright table next to a barking dog and is completely motionless. A colleague records the rabbit as calm and cooperative. What is the most defensible correction?",
+     "answer": "Motionlessness in a prey species under those conditions may be freezing, so record the conditions and treat the posture as ambiguous rather than as consent",
+     "distractor": "Motionlessness proves the rabbit is not stressed, so the conditions do not need to be recorded",
+     "correction": "Species behaviour and environmental context determine how stillness should be read, and recording conditions is what allows a later reader to judge. Treating stillness as proof of calm removes the only evidence that would flag a problem.",
+     "reviewLessonIds": [
+      "31",
+      "33",
+      "02"
+     ]
+    },
+    {
+     "id": "lq-vet-31-c",
+     "prompt": "A fictional patient resists abdominal palpation of one region, and the technician is unsure whether this is pain, ticklishness or a technical error. What should the record contain?",
+     "answer": "The region, the response, the handling used, the time, and the fact that the finding was reported for the veterinarian's assessment",
+     "distractor": "The conclusion that the patient has abdominal pain localised to that region, written only once at the end of the examination",
+     "correction": "A reproducible description lets the next examiner test the finding, whereas a conclusion fixes an interpretation that may have another cause. Reporting and documenting are the technician's contribution; localising and diagnosing are the veterinarian's.",
+     "reviewLessonIds": [
+      "32",
+      "21"
+     ]
+    },
+    {
+     "id": "lq-vet-31-d",
+     "prompt": "A fictional cat needs a complete blood count. The only blood obtained is a small volume in a large EDTA tube after two difficult attempts. Which submission note best preserves the interpretation?",
+     "answer": "A note stating the volume, the container, the difficult collection and the time, so cell-size and clotting artefacts can be weighed",
+     "distractor": "A note stating only that the sample was adequate, so the laboratory is not influenced by the technician's opinion",
+     "correction": "Small volume in a large EDTA tube and traumatic venipuncture both produce recognisable artefacts, and the laboratory can only account for what it is told. Withholding the collection conditions hides information that changes the result's meaning.",
+     "reviewLessonIds": [
+      "34",
+      "22"
+     ]
+    },
+    {
+     "id": "lq-vet-31-e",
+     "prompt": "A fictional dog greets staff with a wagging tail but stiffens and pauses when rising from lying down. A colleague records the patient as comfortable. Which assessment is stronger?",
+     "answer": "Function is the more informative channel here, so the rise should be scored and the conflicting signals reported with the time and conditions",
+     "distractor": "The greeting is the more reliable indicator because it was observed first and the dog looked pleased to see people",
+     "correction": "Greeting behaviour can persist despite pain, while difficulty rising is directly tied to function, which is why the conflicting pair is the useful finding. Preferring the more pleasant observation is exactly how under-recognition happens.",
+     "reviewLessonIds": [
+      "35",
+      "08",
+      "25"
+     ]
+    },
+    {
+     "id": "lq-vet-31-f",
+     "prompt": "A fictional bird and a fictional dog both need a brief examination. The technician plans identical restraint time and identical preparation for both. Which critique is correct?",
+     "answer": "Birds have a higher metabolic rate and can become oxygen deprived during restraint, so preparation, timing and possibly sedation must differ",
+     "distractor": "Preparation can be identical because a shorter procedure is automatically safer in a smaller patient",
+     "correction": "Oxygen deprivation during restraint, treatment or sampling is documented in pet birds, so the plan changes materially with species. Assuming small means safer ignores the physiological mechanism and the need for the veterinarian to consider sedation.",
+     "reviewLessonIds": [
+      "33",
+      "31"
+     ]
+    },
+    {
+     "id": "lq-vet-31-g",
+     "prompt": "A technician records a heart rate of 160 in a fictional frightened dog and reports tachycardia. The veterinarian asks what else was recorded. Which answer reflects the correct reasoning?",
+     "answer": "The examination conditions and the dog's behaviour, so the value can be separated from the effect of fear and the trend can be compared",
+     "distractor": "Nothing else, because a measured value is objective and the circumstances do not change the number",
+     "correction": "Fear, pain and exertion raise heart rate, so a single value without context invites over-interpretation. Recording conditions is what allows the value to be read as patient data rather than as a measurement of the situation.",
+     "reviewLessonIds": [
+      "32",
+      "23"
+     ]
+    },
+    {
+     "id": "lq-vet-31-h",
+     "prompt": "A fictional venipuncture produces a slow, difficult trickle, and the technician notices platelet clumping on the smear. Which pairing of artefact and mechanism is correct?",
+     "answer": "Difficult venipuncture activates platelets and can cause clumping, which may falsely reduce the counted platelet number",
+     "distractor": "Platelet clumping means the patient has an immune-mediated platelet disorder and the result should be reported as such",
+     "correction": "Collection artefact is a known cause of platelet clumping that laboratory teaching explicitly warns can mimic immune-mediated disease. Attributing it to the patient reverses the direction of the reasoning and can drive an incorrect clinical picture.",
+     "reviewLessonIds": [
+      "34",
+      "15"
+     ]
+    },
+    {
+     "id": "lq-vet-31-i",
+     "prompt": "A fictional patient is assessed after surgery and scores low on a behaviour-based pain scale, but is unwilling to eat and avoids moving. What does the best practice look like?",
+     "answer": "Continue systematic reassessment, report the score, trend and conflicting observations, and leave the analgesic decision with the veterinarian",
+     "distractor": "Conclude that the score settles the question and reduce assessment frequency so the patient can rest",
+     "correction": "Scores are fallible and can under-recognise pain, especially in species that conceal it, so reassessment continues while conflicting evidence is reported. Reducing monitoring converts an uncertain measurement into an unjustified certainty.",
+     "reviewLessonIds": [
+      "35",
+      "28",
+      "17"
+     ]
+    },
+    {
+     "id": "lq-vet-31-j",
+     "prompt": "A fictional rabbit needs blood for a panel. A colleague proposes the ear vein for a routine injection and mentions using the central ear artery for a drug. Which response is correct?",
+     "answer": "Recheck the species-specific guidance before proceeding, because only physiologic crystalloid fluids are described for the ear vein and no drugs should go into the central ear artery",
+     "distractor": "Proceed as planned, since the ear vessels are convenient and all vessels are equivalent for administration",
+     "correction": "Species-specific vascular guidance exists precisely because vessel choice is not interchangeable, and source guidance for rabbits restricts ear vein use and prohibits drugs in the central artery. Convenience does not override the documented constraint.",
+     "reviewLessonIds": [
+      "33",
+      "34",
+      "14"
+     ]
+    },
+    {
+     "id": "lq-vet-31-k",
+     "prompt": "During a fictional examination the technician finds pale mucous membranes and a capillary refill time of three seconds in a patient presented for a minor complaint. What is the best action?",
+     "answer": "Treat these perfusion findings as urgent, report them immediately to the veterinarian and continue monitoring while awaiting assessment",
+     "distractor": "Finish the routine examination quietly and mention the findings at the end, because the presenting complaint was minor",
+     "correction": "Perfusion cues can indicate a problem more urgent than the scheduled complaint, which is why triage teaching treats any abnormality in them as warranting urgent veterinary evaluation. Sequence matters when time to intervention is the deciding variable.",
+     "reviewLessonIds": [
+      "32",
+      "38",
+      "11"
+     ]
+    },
+    {
+     "id": "lq-vet-31-l",
+     "prompt": "A fictional record contains the note: animal quiet, ok, no time. A later reader must decide whether the patient improved or deteriorated overnight. Which reconstruction step is most useful?",
+     "answer": "Mark the entry as an interpretation without a data point or time, list what cannot be determined from it, and request the missing observations",
+     "distractor": "Infer from context that quiet meant comfortable, since the note does not suggest a problem to the writer",
+     "correction": "Reconstruction separates data from interpretation and records the gaps explicitly, whereas inference fills a gap with a plausible guess that may reverse the trend. The listed unknowns are the useful output of a reconstruction.",
+     "reviewLessonIds": [
+      "40",
+      "30",
+      "10"
+     ]
+    }
+   ]
+  }
+ ]
+}

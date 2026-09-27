@@ -1,0 +1,662 @@
+{
+ "subject": "philosophy",
+ "levels": [
+  {
+   "title": "Epistemology, the self, and the reach of reason: knowledge, mind, freedom, and value",
+   "units": [
+    {
+     "title": "Knowing, doubting, and being the same self",
+     "lessons": [
+      {
+       "id": "71",
+       "title": "Knowledge as justified true belief, and Gettier’s challenge",
+       "explanation": "For most of the twentieth century the standard account held that knowledge is justified true belief. On this tripartite analysis, you know that p just when three conditions are met: p is true, you believe that p, and your belief is justified. Truth is required because you cannot know what is false; if a claim is false, however confident you are, you are merely mistaken. Belief is required because knowledge is a state of a mind, and you cannot know a proposition you do not hold. Justification is required to rule out lucky guesses: a person who believes the winning lottery numbers by pure whim does not know them even if the numbers are correct. Each condition is doing distinct work, and the analysis is not an arbitrary list. The intuition behind it is that knowledge must be belief that is both aimed at the truth and backed by adequate grounds. Notice that this account uses the word ‘justified’ in a technical sense: it means that your grounds are adequate, not that you could defend them in court or that you feel certain. That technical glossary matters for every argument in this unit.",
+       "example": "Suppose Smith is told on good authority that Jones owns a Ford, and Smith has seen Jones drive a Ford for years. Smith is therefore justified in believing that Jones owns a Ford. Smith then reasons: either Jones owns a Ford, or Brown is in Barcelona. This weaker disjunctive belief is justified too, because if a disjunction has a justified disjunct, the whole disjunction is justified. Now suppose it turns out that Jones does not own a Ford at all (he has recently been renting), but, entirely coincidentally, Brown happens to be in Barcelona. Smith’s belief that (Jones owns a Ford or Brown is in Barcelona) is now true and justified. Yet Smith does not know it. His grounds are reliable enough to justify, but the fact that makes the disjunction true is Brown’s location, something Smith had no evidence about whatsoever. Premise one: justified belief can be built on a false warrant. Premise two: a true belief can be true for a reason unrelated to that warrant. Conclusion: justified true belief can still fail to be knowledge. This is the shape of the counterexamples that Edmund Gettier published in 1963, and it is why the tripartite analysis is now considered inadequate rather than simply false.",
+       "question": "In the Smith example, why is Smith’s belief not knowledge even though it is true and justified?",
+       "answer": "Because the true warrant and the fact making the belief true are disconnected, so the belief is only accidentally true",
+       "distractor": "Because Smith cannot prove the belief to anyone in a courtroom, so justification is missing",
+       "correction": "Justification is present; what fails is the connection between the grounds and the truth-maker. Uncertainty or inability to prove is a different problem and does not capture Gettier’s structure.",
+       "depth": {
+        "definitions": "A proposition is what a declarative sentence says, the kind of thing that is true or false. Knowledge in the relevant sense is propositional knowledge (knowing that something is so), distinguished from knowledge by acquaintance (knowing a person or place) and from practical skill (knowing how to swim). The tripartite analysis is the conjunction of the truth condition, the belief condition, and the justification condition. A disjunction is true when at least one of its disjuncts is true. A justified belief is one held on adequate grounds; justification is a property of the believer’s grounds, while truth is a property of the proposition. A counterexample, in this unit, is a case in which a proposed analysis’s stated conditions are all met but the analysed concept still does not apply. The analysis is vindicated only if it survives attempts to build such cases.",
+        "mechanism": "Why do these cases arise at all? Because justification and truth are separate relations. Justification tracks your grounds; truth depends on how the world is. When the world cooperates, the two line up. When the world is contrived to line up accidentally, the two come apart, and beliefs can land on truth through no merit of their grounds. Gettier’s two famous cases share this structure: an agent carries an inference from a justified-but-false belief into a conclusion that is, as it happens, true. Philosophers have responded along several lines, and no response commands consensus. One family adds a fourth condition, such as the no-false-lemmas requirement, which says the truth cannot depend on any false step. A second family replaces justification with a modal condition, such as safety, which says that in nearby possible worlds where you form the belief the same way, it would not have been false. A third response treats knowledge as grounded in an appropriate causal or explanatory connection. A fourth abandons the project of analysis by definitions and treats knowledge as a prototype concept. It is contested whether any of these repairs fully succeeds, and each new repair has spawned counterexample cases of its own. What is settled is narrower but real: the original three-condition analysis, as formulated, is refuted by cases of this type.",
+        "secondExample": "Contrast the Smith case with ordinary reliable testimony. A pathologist examines a sample with a well-calibrated microscope and correctly identifies a pathogen. Her belief is true, and her evidence does not merely happen to point at the truth: the same method, used the same way in nearby similar cases, would have produced the truth and would have produced a different, also-correct verdict had the sample been different. This is exactly the robustness that the Smith case lacks. The contrast shows that the Gettier problem is not about justification being worthless; it is about the strength and the modal shape of the connection between grounds and truth. It also shows why philosophers reach for safety and sensitivity conditions: these try to capture, in precise form, the intuition that knowledge is belief that could not easily have been mistaken. The lesson to carry forward is diagnostic: when asked whether someone knows, do not check the three boxes mechanically; ask how the belief’s truth relates to the grounds that support it.",
+        "mistake": "A frequent error is to read Gettier as proving that knowledge is impossible, or that no belief can ever be justified. That is not the argument. Gettier cases require a belief that is justified and true while still not knowledge; the existence of *some* justified false beliefs, or of *some* merely lucky true beliefs, does nothing to refute the analysis. A second error is to equate justification with proof or with certainty, so that a merely well-supported belief is treated as unjustified and the case is dissolved. A third error is to think the problem is merely verbal, a matter of which English word we use. The defenders of the problem argue that the differences between a lucky true believer and a knower are substantive for theory building, for testimony, and for attributions of responsibility. Ask which premise of the analysis the case attacks; if you cannot identify a condition that is met while knowledge is absent, you have not yet understood the counterexample.",
+        "application": "Nonblocking practice: a student believes that the historic house on her street was built in 1880 because a plaque says so. The plaque is authentic and the date is correct, but the plaque was attached to the wrong house by a careless restorer; the true 1880 house is next door. Decide whether this is a Gettier-style case and defend your verdict. Model response: the belief is true and justified by the plaque, but the grounds here point at a different building, so the truth is connected only accidentally to the evidence, which is Gettier-shaped. Self-review rubric: (1) did you state the three conditions and check each? (2) did you identify the gap between the warrant and the truth-maker, rather than merely expressing doubt? (3) did you consider the strongest reply, namely that testimony is defeasible and a careful reader would double-check the address? For a serious objection, consider whether justification should be understood as whatever a responsibly careful person would believe, in which case the careless restorer’s plaque might fail to justify at all.",
+        "summary": "Knowledge occupies a demanding position: it must involve a true belief whose truth the believer’s grounds actually support. The tripartite analysis made that demand explicit but turned out to be too permissive, because grounds can justify a belief whose truth they do not explain. Your working method for this level is to hold conditions fixed and vary the relation between grounds and truth, asking which one delivers the verdict you intuitively want. That method is the same instrument you will use against scepticism, against theories of the self, and against arguments about freedom. Next, the deeper question that Gettier exposed: what makes a belief justified in the first place, and how do justifications support one another?"
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘The Analysis of Knowledge’ — sections 1 and 3",
+         "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+         "note": "Section 1 states the justified-true-belief analysis condition by condition; section 3 presents Gettier-style counterexamples to the tripartite analysis and the no-false-lemma response. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘The Analysis of Knowledge’ — sections 4–5",
+         "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+         "note": "Sections 4 and 5 cover no-false-lemmas and the modal conditions (sensitivity, safety, relevant alternatives). The same page is reused deliberately: read it as a structured menu of competing repairs and note which the entry regards as unresolved."
+        }
+       ],
+       "visual": {
+        "title": "The three-condition model and where Gettier cases enter",
+        "description": "Show truth, belief, and justification as three overlapping conditions that jointly define knowledge, then mark the region where a justified true belief is nonetheless only accidentally true.",
+        "steps": [
+         "Belief + truth alone → lucky guess, not knowledge",
+         "Belief + justification + truth, where grounds support the truth-maker → knowledge",
+         "Belief + justification + truth, where the truth-maker is disconnected from the grounds → Gettier case"
+        ]
+       }
+      },
+      {
+       "id": "72",
+       "title": "Justification and the regress of reasons: foundationalism and coherentism",
+       "explanation": "Once knowledge is understood as depending on justification, a question presses: what justifies a justification? Suppose every justified belief must be supported by another justified belief. Then supporting belief A requires belief B, which requires C, and so on. Three outcomes seem available: the chain goes on forever, it eventually returns to a belief that supports itself or needs no support, or it circles back. The first looks humanly impossible, the second looks like an arbitrary stopping point, and the third looks viciously circular. This is the regress problem, and the main theories of justification are best understood as competing answers to it. Foundationalism says some beliefs are basic: justified non-inferentially, not by other beliefs. Coherentism says justification is a matter of a belief’s fitting into a mutually supporting network; no belief is basic, but circularity is not vicious when the circle is large and systematic. Infinitism accepts an endless chain of ever-available reasons. These are structural theories, and each can be combined with either internalism, which requires that you be aware of your justifying grounds, or externalism, which allows a belief to be justified by a reliable process of which you need no awareness.",
+       "example": "Run the regress argument explicitly. Premise one: to be justified inferentially, a belief needs support from another belief that is itself justified. Premise two: if every justified belief needs another justified belief, no belief can be justified to a conclusion (an infinite chain of finite minds never completes). Premise three: something is justified. Conclusion: some beliefs must be justified without inference from further beliefs, so foundationalism holds. A classical foundationalist grounds these basic beliefs in experience: when a red after-image fills your visual field, the belief that you are appeared to redly is not inferred, and it is the kind of thing that cannot be wrong, because it reports your experience rather than the external world. Coherentism denies premise one’s universal scope. On a coherentist account, a belief is justified when it belongs to a comprehensive, consistent, mutually supportive system. A detective does not reduce her case to basic beliefs; she shows that each clue supports the others and the whole explains the evidence. Neither theory is proven by this argument alone: the regression is a dilemma, and each theory accepts a cost.",
+       "question": "What does the regress argument’s first premise presuppose, which a coherentist would deny?",
+       "answer": "That every justified belief must ultimately be supported by a further belief standing in a linear chain of support",
+       "distractor": "That no belief can be justified unless the believer can prove it to another person",
+       "correction": "The disputed premise is about the linear structure of support, not about public proof. Coherentists allow holistic, network support; they reject the assumption that justification must be a one-directional chain ending in basics.",
+       "depth": {
+        "definitions": "Inferential justification is justification that depends on other beliefs; non-inferential justification does not. A basic belief is one that is justified without inference. Internalism about justification is the thesis that a belief’s justification depends on factors accessible to the believer; externalism denies that requirement and allows justification by reliably produced processes (including ones the believer cannot introspect). The Given is the supposed non-conceptual, non-belief sensory content that a classical foundationalist appeals to; the Sellarsian dilemma presses the question whether such content can stand in evidential relations to beliefs at all. Epistemic circularity occurs when the support for a belief ultimately invokes that same belief or its near kin. Coherence, in the technical sense, usually involves consistency plus comprehensiveness plus mutual support relations; some accounts define it probabilistically, so that a belief’s set raises the probability of its members.",
+        "mechanism": "Why is each option costly? Foundationalism promises a stopping point but owes an account of how a non-belief (an experience, say) can justify a belief. Sellars’s dilemma presses exactly here: if the base item is non-conceptual it cannot bear logical relations to a proposition, and if it is already conceptual it looks like just another belief in need of support. Coherentism avoids the base, but it faces the input objection: a system could cohere beautifully while having no adequate contact with the world, and then justification would not track truth. It also faces the alternative-systems problem, since several incompatible but internally coherent systems seem equally coherent; coherentists respond by refining coherence beyond mere consistency, for instance to include explanatory integration, and by adding a perceptual-input constraint. Infinitism insists a reason is available at each step even though no finite person states them all, so the process is completable in principle. Externalist foundationalism rescues the base by dropping the awareness requirement: a perceptual belief can be justified because the belief-forming process is reliable, whether or not the believer can argue for it. Which package is correct is contested; what is settled is the shape of the trade-offs and that any viable view must say something about the base, the network, and the role of experience.",
+        "secondExample": "Contrast a mathematical proof with a historical reconstruction. In the proof, justification seems chained: a theorem rests on lemmas, which rest on axioms, which are not proved within the system. If you simply declare the axioms basic and refuse all argument for them, you have the classic foundationalist cost, which is that the choice of axioms looks like a stipulation. Now take a historian establishing that a treaty was signed. She does not reach indubitable basics; she assembles letters, dates, diplomatic records, and material evidence into a mutually reinforcing account, and the strength of each item depends on the whole story. Here the coherentist picture looks far more natural than a chain to basic beliefs. The contrast isolates a genuine difference between two styles of justification, and it also exposes how hard it is to say, in a general way, which one governs all justified belief.",
+        "mistake": "A very common error is to think coherentism equates truth with coherence, so that a well-organised fiction would count as true. Coherentist theories are theories of justification, not usually of truth; they typically preserve a correspondence notion of truth precisely because the isolation objection is a threat they take seriously. A second error is to treat ‘basic’ as a synonym for ‘obvious’ or ‘certain’. Basic beliefs are non-inferentially justified, which is weaker: they may be revisable and may rest on fallible experience. A third error is to hear externalism as a licence for dogmatism. Externalism denies that you must be able to articulate your grounds; it does not deny that there is such a thing as irresponsible belief formation.",
+        "application": "Nonblocking practice: a software team says it trusts a configuration because each parameter is corroborated by every other parameter in a long, internally consistent document. A reviewer objects that consistency with itself cannot justify anything. Classify the disagreement and state what is missing. Model response: the reviewer is pressing the coherentist’s input and alternative-systems worries, so the team must show that the network connects to independent evidence, such as a test run or an outside record, not merely internal agreement. Self-review rubric: (1) did you name the structural theory at issue? (2) did you distinguish justification from truth? (3) did you specify the missing element rather than merely expressing doubt? For a bounded additional step, consider how a foundationalist would handle the same case: she would ask whether any parameter can be fixed by a non-inferential observation such as a direct reading.",
+        "summary": "Justification raises a regress, and the major theories are positions on how the regress is stopped or absorbed: basic beliefs, a coherent network, or an infinite chain of reasons. Each pays a price at a specific pressure point. Your transferable skill is to locate the pressure point rather than treat these as slogans, and to separate justification (how a belief is supported) from truth (whether it holds). That separation is exactly what the sceptic exploits next, by asking whether any of our support reaches all the way to the world."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Foundationalist Theories of Epistemic Justification’ — sections 1–2 and 3.2",
+         "url": "https://plato.stanford.edu/entries/justep-foundational/",
+         "note": "Section 1 gives the regress argument for foundationalism, section 2 the classical analysis of basic justification, and section 3.2 presents the Sellarsian dilemma against it. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Coherentist Theories of Epistemic Justification’ — sections 1, 2, and 5",
+         "url": "https://plato.stanford.edu/entries/justep-coherence/",
+         "note": "Sections 1–2 contrast coherentism with foundationalism and restate the regress problem; section 5 examines justification by coherence beginning from scratch, which is where the input and isolation objections are addressed. Open access."
+        }
+       ],
+       "visual": {
+        "title": "Three answers to the regress of reasons",
+        "description": "Show a chain of beliefs each supported by the previous, then three terminations: a basic belief, a network that loops back, and an infinite chain.",
+        "steps": [
+         "Belief A needs support from B; B needs support from C; the chain continues",
+         "Foundationalism terminates in a non-inferentially justified basic belief",
+         "Coherentism replaces the chain with a mutually supporting network; infinitism keeps both ends open"
+        ]
+       }
+      },
+      {
+       "id": "73",
+       "title": "Scepticism and its limits: hyperbolic doubt and the closure argument",
+       "explanation": "Philosophical scepticism asks not whether people are careful but whether knowledge is possible at all. Two traditions matter here and they differ sharply. Descartes employs hyperbolic doubt methodically: he doubts whatever can be doubted in order to find something that cannot, and he raises the hypothesis of an omnipotent deceiver to cast doubt even on mathematics. His doubt is a method, and it ends in the certainty that he exists as a thinking thing. Pyrrhonian scepticism, by contrast, is a way of life: faced with equally convincing arguments on both sides, the Pyrrhonist suspends judgement and reports that this suspension brings tranquillity. The modern argument that most threatens ordinary knowledge rests on a principle called closure. Closure says that if you know one thing and know that it entails another, you can know the entailed thing. Add the claim that you do not know you are not a brain in a vat, whose experiences are being simulated. Then even your knowledge that you have hands comes under attack, because that knowledge entails that you are not a vat-brain. The argument is valid. Everything depends on which premise you give up.",
+       "example": "State the sceptical argument in standard form. Premise one: if you know you have hands, then you know you are not a brain in a vat. Premise two: you do not know you are not a brain in a vat. Conclusion: you do not know you have hands. This is a hypothetical syllogism in a valid form, and premise one follows from closure granted that having hands entails not being a vat-brain. Premise two is supported by underdetermination: the sensory evidence you have would be exactly the same whether or not you were a vat-brain, so no test could settle it. A defender of ordinary knowledge has three targets. The Moorean rejects premise two and asserts, in the face of the argument, that she knows she has hands; the proof is simply holding them up. The closure-denier accepts that we know everyday things but denies that knowledge always flows through entailment. The contextualist accepts premise two in sceptical contexts but holds that the word ‘know’ works against different standards in ordinary and philosophical conversation, so that premise one is false in the ordinary context where premise two seemed true. Each move has defenders and costs, and the debate is genuinely open, not a case of scepticism having been refuted.",
+       "question": "What is the Moorean strategy in the sceptical argument?",
+       "answer": "To reject the premise that we do not know we are not vat-brains, since we plainly know ordinary facts such as that we have hands",
+       "distractor": "To reject closure and deny that knowledge ever passes through logical entailment",
+       "correction": "Closure-denial is the relevant-alternatives strategy, not Moore’s. Moore accepts closure and takes the ordinary knowledge claim as a fixed point, which forces him to deny premise two.",
+       "depth": {
+        "definitions": "Global scepticism denies knowledge generally; local scepticism denies it about a specific domain, such as other minds or the past. Underdetermination is the situation in which the evidence supports two competing hypotheses equally, so evidence cannot choose between them. The closure principle, in its knowledge form, says that knowledge is closed under known entailment. The relevant-alternatives view denies closure for knowledge and says you need only rule out the alternatives that are relevant, which vary with context. Contextualism about ‘knows’ holds that the standards for applying the term shift with the conversational context; in philosophy the standards rise, which is why premise two about the vat seems true. Hyperbolic doubt is Descartes’s methodological extreme doubt; his deceiver hypothesis is a possible scenario rather than an evidence-supported one. Equipollence is the Pyrrhonian condition in which opposing arguments seem equally weighty. Epochē is the resulting suspension of judgement.",
+        "mechanism": "The sceptical challenge is powerful because it separates justification from truth and then removes the connection. If your evidence is compatible with a sceptical scenario, then nothing in your grounds guarantees the ordinary world. Notice what the sceptic does and does not need. She does not need the deceiver to be probable, only possible; she needs only that you cannot rule it out with the resources you claim. That is why the reply ‘the vat hypothesis is absurd’ misses the mark: possibility and plausibility are different. But the sceptic also pays a price. A rigorous scepticism is self-limiting, because the argument against knowledge applies equally to the sceptic’s own reasoning. The Cartesian programme concedes this: doubt is meant to clear the ground until a foundation resistant to doubt appears. Pyrrhonism makes no such concession and insists its conclusion is not a dogmatic claim but a state, which raises the problem of whether the sceptic can even state her position without asserting it. The debate over which premise to abandon is unresolved. What is settled is that closure-based scepticism cannot be dismissed as a mere verbal puzzle, and that each diagnosis accepts a real cost.",
+        "secondExample": "Contrast a local and answerable sceptical worry with the global one. A worried investor suspects a document is forged. This is a genuine epistemic challenge, but it is local and tractable: the paper can be inspected, the issuer contacted, the seal dated, and a specific defeater can be found that resolves the case. The challenge is settled by evidence because the alternative is testable against an independent standard. The vat hypothesis is not local in this way; it is designed so that no independent standard is available, because it would simulate all your standards. This contrast shows why philosophers distinguish the demand for ruling out relevant alternatives from the demand to rule out every possibility, and it explains why context seems to matter: the standards we apply in auditing a document and the standards we apply when writing epistemology are different, and much of the debate is over whether that difference reflects a shifting meaning of ‘know’ or a shifting degree of scrutiny. Neither diagnosis has been established beyond controversy.",
+        "mistake": "The most common mistake is to think the sceptical conclusion amounts to the modest idea that we cannot be absolutely certain. That is not the claim; the claim is stronger, that the ordinary attribution of knowledge is false. A second mistake is to treat Descartes as having concluded that we know nothing. Descartes used doubt as a method and held that doubt terminates in a certainty that resists the deceiver, the certainty that he exists as a thinking being. A third mistake is to take the slogan that the sceptic cannot be refuted as a reason to ignore the argument, or to take the Moorean gesture as obviously available. Both the Moorean and the contextualist replies are live positions with sophisticated defences; the sign of understanding is being able to say which premise a reply revises and why.",
+        "application": "Nonblocking practice: an engineer argues that since a simulated test environment could in principle produce every log entry she sees, she cannot know whether her code ran on real hardware. Evaluate this challenge and respond. Model response: the challenge is local and defeasible, since independent checks (physical inspection, external parties, hardware serials) can discriminate, so the relevant-alternatives standard is met; the argument becomes a global sceptical argument only if those independent standards are also stipulated to be simulated, at which point it stops being an engineering question. Self-review rubric: (1) did you identify the entailment the challenge relies on? (2) did you say which premise you accept and which you revise? (3) did you state what additional evidence would count as a defeater? For a serious objection, consider whether the engineer can rule out a systematic failure that is confined to her lab, which shows how the line between local and global cases can itself be contested.",
+        "summary": "Scepticism comes in two historical forms, methodological and therapeutic, and one modern argument built on closure and underdetermination. The argument is valid, so it can only be answered by identifying a premise to revise, and every revision has a cost. Carry forward a disciplined habit: when someone denies knowledge, ask whether the doubt is testable and local or global and rule-proof, and ask which premise the objection silently uses. This same discipline governs the identity debates ahead, where the question of what counts as the same thing across time is asked under artificially hard cases."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Skepticism’ — sections 2, 4, and 5",
+         "url": "https://plato.stanford.edu/entries/skepticism/",
+         "note": "Section 2 distinguishes basic forms of philosophical scepticism, section 4 sets out the closure-based argument for Cartesian scepticism and its premises, and section 5 explains contextualism as one diagnosis. Open access."
+        },
+        {
+         "title": "René Descartes, Meditations on First Philosophy, Meditations I–II (free modernized English translation, Early Modern Texts)",
+         "url": "https://www.earlymoderntexts.com/assets/pdfs/descartes1641.pdf",
+         "note": "Read Meditation I for the deceiver hypothesis and the scope of hyperbolic doubt, and Meditation II for the cogito and the wax. This is Jonathan Bennett’s free modernized translation, not a critical scholarly edition, so its wording is simplified."
+        }
+       ],
+       "visual": {
+        "title": "The closure argument and its three exit routes",
+        "description": "Display the valid sceptical argument and the three points at which a defender may revise it, with the cost attached to each.",
+        "steps": [
+         "Closure + ‘I do not know I am not a vat-brain’ → ‘I do not know I have hands’",
+         "Moorean route: deny the second premise; cost is that you must reject an initially compelling sceptical claim",
+         "Closure-denial or contextualism: revise closure or the meaning of ‘know’; cost is explaining ordinary knowledge attributions"
+        ]
+       }
+      },
+      {
+       "id": "74",
+       "title": "Personal identity over time: psychological continuity and its rivals",
+       "explanation": "What makes you the same person as the child in your photograph and the older person you will become? Two questions must be separated. The characterisation question asks what sort of thing a person is: a soul, an animal, a stream of mental states. The persistence question asks what is required for one and the same person to exist at different times. Numerical identity is identity of an individual, the relation a thing bears to itself and nothing else; qualitative similarity is resemblance. Locke proposed that personal identity consists in continuity of consciousness, especially the capacity to extend present awareness backward through memory. Many contemporary theories keep the psychological orientation but drop the simple memory criterion: what matters, they say, is overlapping chains of psychological connectedness and continuity in memory, character, and intention. Against these stands animalism, which holds that you are essentially a human organism and that your persistence is the persistence of that organism, whatever happens to your psychology. Bodily continuity, brain continuity, and four-dimensionalist accounts that treat you as a temporally extended whole, all compete here.",
+       "example": "Parfit’s fission case makes the structure visible. Suppose your brain is divided and each half is transplanted into a separate body, and each resulting person has your memories, character, and plans, one continuing from your left hemisphere and the other from your right. Ask who is you. There appear to be only three answers, and each has trouble. Not both, because two numerically distinct people cannot each be the single earlier person. Not exactly one, because the halves are symmetrical; choosing one arbitrarily would give the survivor a fact that does not exist. So, apparently, neither is you, which means you have ceased to exist even though two people survive who remember being you. Parfit takes this result to show that what we care about is not identity at all, but psychological continuity and connectedness; on his view we should say that each survivor is psychologically continuous with you, and that this relation carries whatever matters, whether or not it is identity. That is a genuinely revisionary conclusion: it implies, for instance, that in survival questions we should weigh degrees of continuity rather than treat the question as yes or no.",
+       "question": "What does the fission case force us to reconsider?",
+       "answer": "Whether identity is what matters, since psychological continuity can be preserved without identity when a person fissions",
+       "distractor": "Whether memories can ever be reliable enough to establish who committed a past act",
+       "correction": "Memory reliability is a separate evidential question. Fission is a case about the logic of identity: continuity can branch, identity cannot, so the two cannot be the same relation.",
+       "depth": {
+        "definitions": "Numerical identity is sameness of one individual over time; qualitative identity is exact resemblance. The persistence question asks what is necessary and sufficient for a person at one time to be identical with a person at another. Psychological connectedness is direct overlap in memory, intention, and character between adjacent times; continuity is the ancestral relation: overlapping chains reaching back, with no necessary direct overlap between distant times. Fission is the division of one person into two subsequent people. The transplanted-brain case, of the sort Locke and moderns discuss, preserves psychological features in a new body. Animalism is the thesis that we are human animals, identified by biological continuity. The too-many-thinkers objection says a brain that supports both a person and an animal would contain two thinkers, which many find implausible. Four-dimensionalism treats persisting objects as sums of temporal parts.",
+        "mechanism": "Locke’s memory criterion faces an objection Reid pressed: memory presupposes identity. If a general remembers being flogged as an officer, and the officer remembers being flogged as a boy, but the general does not remember the boyhood flogging, then by the simple memory criterion the general is the officer and the officer is the boy but the general is not the boy, which violates the transitivity of identity. The move to overlapping chains of connectedness repairs this by abandoning the requirement that the link be a single memory. Parfit’s framework then makes continuity come in degrees, which conflicts with identity, which cannot come in degrees. Animalists reply that this whole framework is overcomplicated: a person is a particular living human organism, and its identity conditions are the biological ones, determinate in almost all real cases. Psychological views reply that in thought experiments, and increasingly in medicine, the organism and the person can be prized apart, so animalism gives counterintuitive verdicts about what has happened when higher mental function is permanently lost. Neo-Lockean views face the too-many-thinkers objection; animalists face the claim that they cannot accommodate what really matters to us. Which family of views is correct is contested.",
+        "secondExample": "Contrast a memory-preserving transplant with a progressive dementia case. Under a psychological-continuity theory, a person whose memories, character, and intentions are gradually and irreversibly erased eventually ceases to exist as a person, even though the human animal lives on. Under animalism, the person is the organism and remains the same individual throughout, so the sense in which she has gone is a loss of capacities, not a loss of identity. This difference is not academic: advance directives, the authority of earlier preferences over later ones, and the standing to consent depend on which verdict we adopt. Notice too that the gradual case is harder for the psychological theorist than the transplant case, because there is no sharp threshold of connectedness, and identity, if it is identity, is not gradual. The case therefore pressures the psychological view either to deny the relevance of identity or to supply a threshold, and the choice between those options is contested.",
+        "mistake": "The classic error is to conflate qualitative similarity with numerical identity. A perfect duplicate of you would resemble you completely and would still not be you; keeping the two apart is what makes the fission argument work. A second error is to assume the answer is obvious and that common sense already settles it. Ordinary usage is inconsistent, treating a person as the same through radical psychological change but also as gone after certain changes, and the philosophical question is which of these usages, if any, tracks the truth. A third error is to assume that if identity is not what matters, nothing matters; Parfit’s claim is the opposite, that a more precise description of what matters can be given without identity. A fourth error is to dismiss thought experiments as idle; brain-division and related cases are used precisely because real medicine raises them in altered form.",
+        "application": "Nonblocking practice: a person signs an advance directive refusing certain treatments, then suffers a stroke that leaves her cheerfully consenting to those treatments, with no memory of the directive and a substantially changed personality. Decide whether the directive should bind her, stating which theory of identity you are using. Model response: an animalist treats her as the same individual, so the earlier directive has prima facie authority; a psychological-continuity theorist must ask how much connectedness survives, and if the change is radical may treat the later person as a new subject whose agreement has standing. Self-review rubric: (1) did you name the theory and apply it consistently? (2) did you distinguish the identity question from the practical question of respecting present autonomy? (3) did you acknowledge the cost your verdict imposes on the competing view? For a serious objection, consider whether a legal system could coherently treat identity as the animal while protecting the earlier person’s expressed wishes as a kind of contract.",
+        "summary": "Persistence questions force a choice among psychological continuity, animal or bodily continuity, and more exotic accounts, and each says something different in cases where the organism and the person come apart. The method you should retain is to push a proposed criterion until it branches or fades, and then to see which cost it can bear. This same method of stress-testing a criterion against hard cases is what the debates about free will and about mind both require, where the question becomes what kind of thing can bear responsibility, and what kind of thing a mind is."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Personal Identity’ — sections 3, 4, and 5",
+         "url": "https://plato.stanford.edu/entries/identity-personal/",
+         "note": "Section 3 surveys accounts of our persistence, section 4 develops psychological-continuity views in detail, and section 5 presents fission and the questions it raises about what matters. Open access."
+        },
+        {
+         "title": "John Locke, An Essay Concerning Human Understanding, Book II, Chapter XXVII, ‘Of Identity and Diversity’",
+         "url": "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm",
+         "note": "The primary text. Read the chapter in Book II on identity and diversity for Locke’s consciousness-based criterion and the day-man and night-man discussion. Public-domain Project Gutenberg edition; spelling and punctuation are archaic."
+        }
+       ],
+       "visual": {
+        "title": "Fission as a stress test for identity",
+        "description": "Show one person dividing into two psychologically continuous successors, and mark why identity cannot follow both.",
+        "steps": [
+         "Person A at t1 with connected memories and character",
+         "A’s brain divides; two successors each carry A’s psychology at t2",
+         "Identity cannot branch, so A’s identity appears lost even though continuity is doubled"
+        ]
+       }
+      },
+      {
+       "id": "75",
+       "title": "Free will and determinism: compatibilism, libertarianism, hard determinism",
+       "explanation": "Determinism is the thesis that, given the laws of nature and the state of the world at any time, there is exactly one future. The question is what this implies for free will and moral responsibility. Incompatibilism holds that free will and determinism cannot both be true; compatibilism holds that they can. Among incompatibilists, hard determinists accept determinism and therefore deny free will, while libertarians accept free will and therefore deny determinism or deny that it applies to human action. Among compatibilists, the central idea is that freedom is not the absence of causes but the absence of the wrong kind of cause: a choice is free when it flows from the agent’s own desires and deliberations, without coercion, compulsion, or manipulation. This debate is often separated into the leeway question, whether you could have done otherwise, and the sourcehood question, whether the action is properly attributable to you as its source. Much of the modern discussion turns on which question we should be asking.",
+       "example": "Van Inwagen’s consequence argument is the strongest contemporary statement of incompatibilism, and it deserves to be stated carefully. Premise one: if determinism is true, then our acts are the consequences of the laws of nature together with events in the remote past. Premise two: it is not up to us what went on before we were born. Premise three: it is not up to us what the laws of nature are. Premise four: if those two things are not up to us, and our acts follow from them, then our acts are not up to us either. Conclusion: if determinism is true, none of our acts is up to us, so we lack free will. The crux is premise four, which is an inference rule sometimes called the transfer principle. Compatibilists do not all challenge the rule; some accept it and reinterpret what it means for an act to be up to us, holding that it can be up to us in the sense that matters, namely that we do it because we choose it, even if the choice is caused. The dispute is thus not over a computation but over the correct analysis of a modal notion, and it is unresolved.",
+       "question": "Which premise of the consequence argument is the main target of compatibilist replies?",
+       "answer": "The transfer principle in the fourth premise, which moves from the past and laws not being up to us to our acts not being up to us",
+       "distractor": "The first premise, because compatibilists deny that determinism implies any causal connection between the past and our acts",
+       "correction": "Compatibilists almost never deny that acts have causes; that is the point of compatibilism. They contest the inference from causal determination to the absence of the kind of control that grounds responsibility.",
+       "depth": {
+        "definitions": "Determinism is the thesis that the past and the laws fix a unique future; it is a metaphysical thesis, not an empirical finding, though physics may bear on it. Free will is the control condition relevant to moral responsibility; analyses divide into leeway views, which require the ability to do otherwise, and sourcehood views, which require that the action originate in the agent in the right way. The principle of alternative possibilities says a person is morally responsible for an action only if she could have done otherwise. A Frankfurt case is a scenario in which an agent acts on her own and would have been forced to so act had she not, which is used to argue that alternative possibilities are not necessary for responsibility. The conditional analysis of ‘could have done otherwise’ says it means that you would have done otherwise had you chosen to. Reactive attitudes are Strawson’s term for the participant emotions, such as resentment and gratitude, that structure interpersonal responsibility.",
+        "mechanism": "The debate moved historically from leeway to sourcehood for a reason. The conditional analysis, which defined the ability to do otherwise as a counterfactual about what you would do if you chose, was attacked by cases such as the locked room or the willing prisoner, where the agent could not have done otherwise in any sense yet seems to act freely because she does not want to, so the counterfactual is trivially satisfied and the analysis looks empty. Frankfurt’s cases then attacked the principle of alternative possibilities directly, by describing an agent who acts on her own reasons while a manipulator stands ready to compel her, and who therefore could not have done otherwise, yet who seems responsible. Compatibilists who accept this result look for the source of an action in the agent’s own motivational structure, distinguishing the unwilling addict, who is moved against her will, from the willing addict, who endorses her compulsion. Libertarians instead argue that sourcehood must involve a form of causation no determinist can allow, either agent causation, in which the agent is an uncaused cause, or event causation with indeterministic gaps; critics reply that adding randomness to a physical process does not add control. Hard determinism takes the incompatibilist diagnosis and denies the conclusion that responsibility is needed to ground punishment, replacing retributive justification with consequential ones. None of these positions has been established; what is settled is that determinism alone does not entail that we cannot hold anyone responsible, because that entailment requires an incompatibilist premise.",
+        "secondExample": "Contrast two agents under identical deterministic laws. The first is an unwilling addict, compelled by craving she repudiates; the second is a committed athlete who trains and eats as she deliberately decided, with no coercion. A compatibilist denies the compulsion while granting determinism to both, so the first acts unfreely and the second acts freely; the difference is whether the action flows from the agent’s own settled judgement. Now suppose we add covert manipulation: the athlete’s character was engineered by a neuroscientist who implanted her values. Compatibilists divide over such cases, which is exactly why the manipulation argument is one of the strongest challenges to compatibilism. Some compatibilists require that the action be one the agent would endorse after appropriately informed reflection, others add a historical condition that the values were not externally implanted. The manipulation argument shows that the compatibilist cannot simply point to the present shape of the agent’s will; she must say something about how that will came to be, and that requirement is contested.",
+        "mistake": "A widespread error is to infer that determinism, by itself, abolishes moral responsibility. That inference needs an additional premise, that responsibility requires the ability to do otherwise in an incompatibilist sense, and that premise is exactly what is in dispute. A second error is to think quantum indeterminacy rescues free will. Randomness in a physical process gives you unpredictability, not authorship; the libertarian must explain how indeterminism is harnessed by the agent, and critics argue this is incoherent. A third error is to assume compatibilism is merely the view that responsibility is a useful fiction. Most compatibilists take responsibility to be genuine, grounded in the actual structure of the agent’s will and the ethics of our reactive attitudes. A fourth error is to treat the debate as decided by common sense; common sense about freedom is unstable and supports both sides.",
+        "application": "Nonblocking practice: a company claims a driver is fully responsible because she chose her route, while an investigator notes that the route was the only one permitted by company policy and that refusal would have ended her employment. Assess responsibility, being explicit about the premises you use. Model response: on a sourcehood compatibilism, ask whether the choice reflected the driver’s own deliberative endorsement or was made under duress that defeats authorship; on a leeway view, ask whether any genuine alternative was available. Self-review rubric: (1) did you state whether you are using a leeway or a sourcehood analysis? (2) did you avoid assuming determinism settles the matter? (3) did you separate responsibility for the act from any further question about punishment? For a serious objection, consider whether duress makes an action unfree on the compatibilist’s own terms, and if so, whether the everyday notion of free action does more work than the determinist debates suggest.",
+        "summary": "Free will is best approached by separating two questions: whether you could have done otherwise, and whether the action originates in you. Compatibilism, libertarianism, and hard determinism answer the pair differently and each faces a characteristic pressure: the conditional analysis and the manipulation argument for compatibilists, the randomness objection for libertarians, and the question of what responsibility is for on the part of hard determinists. Carry forward the habit of identifying the premise that does the work, and treat the verdict as contested. This is the same discipline the next unit applies to the mind, where the question becomes what kind of thing is doing the choosing."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Free Will’ — sections 2 and 3",
+         "url": "https://plato.stanford.edu/entries/freewill/",
+         "note": "Section 2 analyses the nature of free will, separating freedom to do otherwise from sourcehood accounts; section 3 surveys arguments against and for the reality of free will. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Compatibilism’ — sections 1, 3.1, and 4",
+         "url": "https://plato.stanford.edu/entries/compatibilism/",
+         "note": "Section 1 introduces the causal-determinism problem and compatibilist replies, section 3.1 states the consequence argument, and section 4 covers contemporary compatibilism. Open access."
+        },
+        {
+         "title": "David Hume, An Enquiry Concerning Human Understanding, Section VIII, ‘Of Liberty and Necessity’",
+         "url": "https://www.gutenberg.org/files/9662/9662-h/9662-h.htm",
+         "note": "Primary text for a classical reconciliationist position: read the section for Hume’s claim that liberty means acting according to the will when not constrained. Public-domain Gutenberg text with archaic spelling."
+        }
+       ],
+       "visual": {
+        "title": "Leeway and sourcehood as two control conditions",
+        "description": "Separate the question of alternate possibilities from the question of authorship and place the major positions on the two axes.",
+        "steps": [
+         "Leeway axis: could the agent have done otherwise?",
+         "Sourcehood axis: did the action originate in the agent’s own will?",
+         "Compatibilism: determinism true, responsibility preserved by sourcehood; libertarianism: sourcehood requires indeterminism; hard determinism: no sourcehood, responsibility reconsidered"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-71-a",
+       "prompt": "A nurse believes a patient is allergic to a drug because the chart says so; the chart is accurate. In fact the chart was copied from a different patient with the same surname, and the real patient also happens to be allergic. Best evaluation?",
+       "answer": "The belief is true and justified, but the warrant points at another person, so the truth is connected to the evidence only accidentally",
+       "distractor": "Because the nurse’s belief matches reality, it is knowledge regardless of how the evidence was obtained",
+       "correction": "Truth and justification are both present, yet the truth-maker is a fact other than the one the evidence supported. This is the Gettier structure, and it shows the tripartite analysis is too permissive.",
+       "reviewLessonIds": [
+        "71"
+       ]
+      },
+      {
+       "id": "uq-72-a",
+       "prompt": "A student defends her reading of a novel by showing that every chapter interpretation is consistent with every other and that the whole is remarkably unified, with no external checking. A classmate says coherence with itself proves nothing about the book. What is the classmate pressing?",
+       "answer": "The coherentist’s input and isolation problem, that a self-consistent network may fail to connect to independent evidence",
+       "distractor": "The regress problem, that each chapter interpretation needs an infinite chain of further interpretations",
+       "correction": "Consistency among interpretations is the coherentist’s own standard; the pressure here is whether the system contacts input beyond itself. The regress is about how support terminates, not about external contact.",
+       "reviewLessonIds": [
+        "72"
+       ]
+      },
+      {
+       "id": "uq-73-a",
+       "prompt": "A defendant argues that since every piece of forensic evidence could in principle have been fabricated by an undetectable forger, the jury cannot know he was present. Which diagnosis fits best?",
+       "answer": "The challenge is only compelling if no independent standard is available; forensic evidence can ordinarily be tested, so the relevant alternatives can be ruled out",
+       "distractor": "The challenge is decisive because any possibility at all defeats a claim to knowledge",
+       "correction": "Possibility alone does not defeat knowledge. The sceptical force depends on the impossibility of testing; where independent checks exist, the argument is local and answerable.",
+       "reviewLessonIds": [
+        "73"
+       ]
+      },
+      {
+       "id": "uq-74-a",
+       "prompt": "A surgeon says a patient with severe irreversible amnesia and a wholly changed personality is nonetheless the same person who signed a research consent, while a colleague says that person no longer exists. What is the disagreement really about?",
+       "answer": "Which criterion of personal identity governs, psychological continuity or the continuity of the living organism",
+       "distractor": "Whether memories in such cases are ever reliable enough to be admitted as clinical evidence",
+       "correction": "Both parties can grant the empirical description; they differ on what constitutes persistence. Reliability of memory is a separate evidential question from what makes someone the same person.",
+       "reviewLessonIds": [
+        "74",
+        "71"
+       ]
+      },
+      {
+       "id": "uq-75-a",
+       "prompt": "An employee says she acted freely because she decided to sign, though her contract left no alternative and refusal would end her career. Which pair of questions must be separated to assess her claim?",
+       "answer": "Whether she could have done otherwise and whether the act originated in her own will rather than in duress",
+       "distractor": "Whether the outcome was predictable and whether the employer had accurate information about the contract",
+       "correction": "Predictability and information are separate matters. The assessment turns on the leeway question and the sourcehood question, and duress is what defeats authorship on a sourcehood analysis.",
+       "reviewLessonIds": [
+        "75"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Mind, value, and the discipline of argument",
+     "lessons": [
+      {
+       "id": "76",
+       "title": "The nature of mind: dualism, physicalism, and the explanatory gap",
+       "explanation": "The mind–body problem asks how mental phenomena relate to physical ones. Dualism says mind is not physical: substance dualism treats mind and body as two kinds of thing, while property dualism accepts one kind of substance but holds that some properties, notably conscious experience, are non-physical. Physicalism says everything, minds included, is physical or wholly constituted by the physical; it comes in reductive forms, which analyse mental states in physical or functional terms, and non-reductive forms, which allow mental properties to be real while denying they can be reduced. Functionalism, a widely held physicalist view, identifies a mental state by its causal role rather than its material substrate, so a state is a pain if it plays the pain role in the system’s economy of inputs, outputs, and other states. The dispute is not merely terminological. It turns on whether consciousness, the felt character of experience, can be captured by a description of structure and function, and each side has a characteristic argument. Dualists appeal to conceivability and to knowledge; physicalists appeal to the completeness of physical explanation and to the causal closure of the physical world.",
+       "example": "Frank Jackson’s knowledge argument is the clearest worked case. Mary is a colour scientist who has lived her whole life in a black-and-white room, and who knows every physical fact there is to know about colour vision: the wavelengths, the neurology, the behaviour. When she leaves the room and sees red for the first time, she learns something she did not know before. Premise one: before leaving, Mary knew all the physical facts. Premise two: after leaving, she learns a new fact. Premise three: if she learned a new fact, that fact was not among the physical facts. Conclusion: physicalism is false. The argument is valid; the dispute is whether premise two is true as stated. The ability hypothesis replies that Mary does not acquire a new propositional fact but a new ability, the ability to recognise, imagine, and remember red, and abilities are not facts. The acquaintance reply says she gains a new kind of cognitive contact with an old fact, a new mode of presentation rather than a new item in the world. Mary’s case therefore does genuine work: it forces physicalism to specify exactly what knowledge is, and it is unresolved which reply succeeds.",
+       "question": "What do the ability hypothesis and the acquaintance reply have in common as responses to the knowledge argument?",
+       "answer": "Both deny that Mary acquires a new physical-independent fact, treating her gain as an ability or a new mode of access to an old fact",
+       "distractor": "Both accept that Mary learns a new non-physical fact and then explain why such facts are causally inert",
+       "correction": "That is the property dualist’s route, not the physicalist reply. The ability and acquaintance responses concede the learning but deny it is a new fact about the world.",
+       "depth": {
+        "definitions": "Physicalism is the thesis that the physical facts determine all the facts, often expressed as the claim that mental facts supervene on physical facts. Supervenience means that there can be no difference in the mental without a difference in the physical. Substance dualism posits two kinds of entity; property dualism posits non-physical properties of a single kind of entity. Qualia are the introspectively accessible qualitative characters of experience, such as the redness of red. The explanatory gap is the alleged inability of physical explanation to make the character of experience intelligible, as distinct from merely correlating it. A philosophical zombie is a being physically identical to you with no conscious experience, used to test whether consciousness is entailed by the physical. The knowledge argument is Jackson’s Mary case; the conceivability argument moves from the apparent conceivability of zombies to their possibility and hence to the falsity of physicalism.",
+        "mechanism": "Physicalism draws its strength from two convergent considerations. First, the causal closure of the physical: every physical event that has a cause has a sufficient physical cause, and conscious experience appears to make a difference to behaviour, so if experience were non-physical it would have to reach into the physical order, which faces the interaction problem that dualists have never fully solved. Second, the success of reduction elsewhere: temperature was identified with molecular kinetic energy and water with H2O, so it seems methodologically sound to expect the mental to be located in the physical story too. Dualism draws its strength from the apparent failure of the same pattern here. Mary would know everything structural and functional about colour vision and would still not know what red is like; a zombie seems conceivable no matter how much physics you supply; and the first-personal character of experience resists description in the third person. Non-reductive physicalists try to occupy the middle ground, accepting that mental properties are real and irreducible while insisting they supervene on physical ones. Critics of that position ask what work an irreducible property does if the physical is causally closed, and property dualists answer that it does work in explanation even if not in causation, which is a costly but coherent position. Whether any view has the resources to explain consciousness is contested; the existence of lively disagreement among specialists is itself evidence that the problem is open.",
+        "secondExample": "Contrast Mary’s case with a case of ordinary scientific discovery. Suppose a student learns for the first time that water is H2O. It is natural to say the student learns a new fact, but the fact is not a new item in the universe; it is an old fact about water which she did not previously grasp, and her gain is a new concept and a new mode of presenting the same substance. Physicalists extend this model: Mary learns the same physical fact under a new, phenomenal mode of presentation. The crucial question is whether the two cases are really alike. In the water case we can state the old fact in a way that makes the identity transparent once understood, whereas in the colour case there appears to be no description that closes the gap, and this asymmetry is exactly what property dualists press. The contrast therefore does not settle the issue but locates the precise point of disagreement: whether the phenomenal mode of presentation is a mode of access to a physical fact or evidence that there is a further fact to access.",
+        "mistake": "Students often assume either that science has already shown the mind is the brain, full stop, or that dualism is obviously true because experience feels non-physical. Both are overconfident. Neuroscience has established extensive correlations, but correlation is not the same as an explanation of consciousness, and the hard problem is precisely the question of whether any such explanation is available in principle. A second mistake is to identify dualism with religious belief; the arguments are metaphysical and largely independent of theology, and there are non-religious property dualists. A third mistake is to think functionalism makes consciousness easy. Functionalism handles cognitive states well, which is why it is popular, but its treatment of the felt character of experience is exactly what critics call its hardest case, since a system could in principle implement the pain function without feeling anything on many accounts. A fourth mistake is to treat the explanatory gap as a proof that consciousness is non-physical; an explanatory gap is a fact about our understanding, and whether it corresponds to a gap in nature is the disputed question.",
+        "application": "Nonblocking practice: a researcher can predict every behaviour of a model organism from its neural wiring, but says she still has no account of why its states feel like anything at all. State what position her remarks support and what she would need to show to refute physicalism. Model response: her remarks express the explanatory gap and are congenial to property dualism, but to refute physicalism she needs an argument that the phenomenal facts are not fixed by the physical facts, for instance a successful knowledge argument or a defensible zombie conceivability premise, not merely the observation that we cannot yet explain consciousness. Self-review rubric: (1) did you distinguish an epistemic gap from a metaphysical one? (2) did you state which argument would carry the burden, and what its weak premise is? (3) did you avoid claiming science has settled the question? For a serious objection, consider the physicist’s reply that failure to explain a phenomenon at a given time is poor evidence of its irreducibility, given the history of science.",
+        "summary": "The mind–body debate turns on whether consciousness can be captured by physical or functional description, and it is conducted with arguments whose structure you can now assess: conceivability, causal closure, and the knowledge argument. The mature posture is to state the strongest version of the opposing view before criticising it, and to say whether you are pressing an epistemic or a metaphysical point. Keep the explanatory gap distinct from a proof of dualism, and keep the interaction problem on the table for the dualist. The next lesson turns from what exists to what is true in ethics, where the same question of realism and its alternatives reappears."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Dualism’ — sections 3 and 4",
+         "url": "https://plato.stanford.edu/entries/dualism/",
+         "note": "Section 3 distinguishes varieties of dualism including substance, property, interactionism, and epiphenomenalism; section 4 surveys the arguments for dualism. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Physicalism’ — sections 2 and 3",
+         "url": "https://plato.stanford.edu/entries/physicalism/",
+         "note": "Section 2 covers the completeness question and the supervenience and identity formulations; section 3 distinguishes reductive from non-reductive and a priori from a posteriori physicalism. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Qualia: The Knowledge Argument’ — sections 2, 3, and 4",
+         "url": "https://plato.stanford.edu/entries/qualia-knowledge/",
+         "note": "Section 2 states the basic argument, section 3 clarifies its versions, and section 4 sets out the objections, including the ability hypothesis at 4.3 and the acquaintance hypothesis at 4.5. Open access."
+        }
+       ],
+       "visual": {
+        "title": "The mind–body problem as two axes",
+        "description": "Place theories by whether they posit one or two kinds of substance and whether mental properties reduce to physical ones.",
+        "steps": [
+         "Substance dualism: mental and physical are distinct kinds of thing",
+         "Property dualism / non-reductive physicalism: one kind of substance, mental properties not reducible",
+         "Reductive physicalism and functionalism: mental states identified with or realised by physical/functional states"
+        ]
+       }
+      },
+      {
+       "id": "77",
+       "title": "Moral realism versus anti-realism: truth, error, and expression",
+       "explanation": "Two independent questions structure metaethics. The first is semantic: are moral claims truth-apt, that is, do they express beliefs that can be true or false, or do they express attitudes and prescriptions? Cognitivism says moral sentences express beliefs and are truth-apt; non-cognitivism denies this. The second is metaphysical: are there moral facts that hold independently of anyone’s attitudes? Realism says yes; anti-realism says no, and anti-realism comes in several forms. Error theory is cognitivist and anti-realist: it holds that moral claims are truth-apt but that they are all false, because there are no moral facts of the required kind. Non-cognitivism is anti-realist by a different route: moral claims are not in the business of stating facts at all. Constructivism and subjectivism occupy further positions: on constructivism, moral truths are fixed by what agents would converge on under suitable procedures, which yields objectivity without mind-independent facts; on simple subjectivism, a moral claim reports the speaker’s attitude. The distinction matters because the slogan ‘morality is subjective’ conflates positions that disagree with one another profoundly.",
+       "example": "Take Mackie’s error theory, which is the strongest argument that morality is a fiction. Mackie offers two arguments. The argument from relativity observes that moral codes vary widely across times and cultures, and argues that the best explanation of this is not that some societies are failing to detect independent moral truths but that different societies have different practices, which morality then codifies. The argument from queerness observes that if objective moral values existed, they would be entities or qualities of a very strange sort, intrinsically action-guiding and knowable only through a special faculty, and nothing in our ontology or epistemology can accommodate them. These arguments, if good, show that ordinary moral thought is systematically in error rather than merely incomplete. Now take the non-cognitivist alternative. Ayer and later Blackburn hold that ‘lying is wrong’ typically expresses a disapproval rather than describing a fact; on Blackburn’s quasi-realism, we can earn the right to talk of moral truth and knowledge as a projection of our attitudes, without any queerness. The realist replies that relativism has an equally good explanation on realist terms, that moral convergence on some core prohibitions is real, and that the phenomenology of moral experience presents moral demands as discovery rather than preference. Each reply has weight; the debate is open.",
+       "question": "How do error theory and non-cognitivism differ, given that both are anti-realist?",
+       "answer": "Error theory holds that moral claims are truth-apt but all false, while non-cognitivism holds that moral claims are not truth-apt statements about facts at all",
+       "distractor": "Error theory denies that moral claims have meaning, while non-cognitivism holds that only some moral claims are false",
+       "correction": "Error theory does not deny meaning and is a cognitivist position; the difference is at the semantic level, over whether moral sentences express beliefs. Non-cognitivism rejects the fact-stating reading altogether.",
+       "depth": {
+        "definitions": "Cognitivism holds that moral judgements express beliefs and are truth-apt. Non-cognitivism holds that they express non-cognitive states such as approval, disapproval, or plans. Realism holds that moral truths are stance-independent, that is, they do not depend on what anyone approves or desires. Error theory is the cognitivist anti-realist view that moral claims have truth value and are systematically false. Expressivism is a non-cognitivist programme that explains moral language as the expression of attitudes, with quasi-realism added to legitimate talk of moral truth. Constructivism holds that moral truths are the output of a suitable procedure, for instance what agents would agree to under conditions of fairness. The Frege–Geach problem concerns how expressivism can handle moral vocabulary in embedded, unasserted contexts, such as conditionals. The open question argument, from Moore, argues that any naturalistic identification of goodness leaves open the question whether the natural property is good, which is used against naturalist realism. The is–ought gap concerns the move from descriptive premises to normative conclusions.",
+        "mechanism": "The structure of the dispute is best seen through what each view must explain. Any metaethical view owes an account of (i) moral language, including embedded uses in conditionals and negations; (ii) moral disagreement, which looks like disagreement about a matter of fact; (iii) moral knowledge or its absence; and (iv) the practicality of moral judgement, the way moral beliefs seem to move us to act. Non-cognitivism is attractive precisely on count (iv): if a moral judgement just is a species of desire-like state, the connection to motivation is immediate, whereas a belief that something is wrong seems to need a separate desire to explain why it moves you. Its difficulty is count (i), the Frege–Geach problem: ‘if lying is wrong, then getting your brother to lie is wrong’ does not express disapproval of lying, and a theory that treats the moral words as univocal owes an account of what they contribute in such contexts. Expressivists have developed sophisticated responses, and whether they succeed is contested. Realism is strong on counts (i) and (ii) and weak on (iv). Mackie’s queerness argument is strong against a naive realism that posits irreducibly action-guiding entities, which is why many realists prefer a naturalist or non-naturalist realism carefully defended. Legal and moral analogues help: a legal fact is stance-dependent but real, and arguing whether morality is more like law or more like arithmetic is one way to structure the issue.",
+        "secondExample": "Contrast a robust realist account with a constructivist one on the same case, torture for amusement. The robust realist says the wrongness is a fact that holds independently of what anyone thinks, discovered by moral reflection much as one discovers a mathematical truth. The constructivist agrees the wrongness is objective, meaning that any agent reasoning under suitably fair conditions would reject the practice, but denies there is any fact that floats free of all practical reasoning, so wrongness is constituted by what such reasoning yields rather than tracked by it. The contrast is instructive because it shows that ‘objective’ and ‘mind-independent’ are not synonyms. The constructivist secures objectivity and universality without queerness, at the cost of explaining why the suitable conditions are the right ones; the robust realist secures the seeming independence of moral truth, at the cost of Mackie’s queerness challenge. Which picture fits the phenomenology and the metaphysics is contested, and the honest verdict is that neither has a decisive advantage at present.",
+        "mistake": "The commonest error is to run together non-cognitivism, subjectivism, and relativism, as if all three said morality is merely a matter of taste. They differ: a non-cognitivist can hold that moral attitudes are constrained by consistency, a constructivist can hold that moral truth is objective though procedurally constituted, and Mackie’s error theory denies that moral truth exists while retaining a robust moral psychology. A second error is to think realism implies dogmatism or moral certainty. Realism is a thesis about the status of moral claims, not about how confident we may be; a realist can be a fallibilist who thinks moral knowledge is hard. A third error is to treat the is–ought gap as showing that no descriptive premise can be relevant to a normative conclusion; the gap concerns entailment, not relevance, and descriptive facts plainly bear as evidence on what follows. A fourth error is to hear the queerness argument as merely anecdotal; it is an explanatory argument and must be met with an explanatory reply.",
+        "application": "Nonblocking practice: a colleague says that since moral views have changed over history, morality is just what people happen to believe. Identify the inference and evaluate it. Model response: the move is from observed variation to anti-realism, which is Mackie’s argument from relativity, but variation is equally compatible with realism if moral error is common and knowledge is hard; the argument needs the further premise that realism would predict convergence, which itself needs defence. Self-review rubric: (1) did you name which metaethical thesis is at stake? (2) did you state the missing premise explicitly? (3) did you give the realist’s best reply before judging? For a serious objection, consider whether an error theory can explain the intensity of moral commitment better than a constructivism that treats it as constrained but invented.",
+        "summary": "Metaethics separates two questions: whether moral claims are truth-apt, and whether there are stance-independent moral facts. Realism, error theory, non-cognitivism, and constructivism answer the pair differently and each faces a specific explanatory burden, from the Frege–Geach problem to the queerness challenge. Retain the habit of separating the semantic, metaphysical, and motivational strands rather than collapsing them under the word ‘subjective’. These same tools now bear on the political question of what we owe to a state that claims our obedience, since claims of justice inherit the metaethical stakes of moral truth."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Realism’ — sections 1, 3, and 6",
+         "url": "https://plato.stanford.edu/entries/moral-realism/",
+         "note": "Section 1 uses moral disagreement to frame the issue, section 3 examines the metaphysics of moral facts, and section 6 discusses semantic questions. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Anti-Realism’ — sections 1 and 3",
+         "url": "https://plato.stanford.edu/entries/moral-anti-realism/",
+         "note": "Section 1 characterises anti-realism and section 3.2 develops error theory, with section 3.1 on noncognitivism. Read this alongside the realism entry for the opposing case. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Cognitivism vs. Non-Cognitivism’ — sections 2 and 3.1",
+         "url": "https://plato.stanford.edu/entries/moral-cognitivism/",
+         "note": "Section 2 details varieties of non-cognitivism including emotivism, prescriptivism, and expressivism; section 3.1 presents the open question argument as a motivation. Open access."
+        }
+       ],
+       "visual": {
+        "title": "Two independent axes in metaethics",
+        "description": "Plot theories by whether moral claims are truth-apt and whether stance-independent moral facts exist.",
+        "steps": [
+         "Semantic axis: truth-apt moral belief (cognitivism) or attitude expression (non-cognitivism)",
+         "Metaphysical axis: stance-independent moral facts (realism) or not (anti-realism)",
+         "Positions: realism; error theory (cognitivist, no facts); expressivism (non-cognitivist); constructivism (truth-apt, facts constituted by procedure)"
+        ]
+       }
+      },
+      {
+       "id": "78",
+       "title": "Justice and political obligation: the particularity problem and philosophical anarchism",
+       "explanation": "The earlier level asked what justifies authority. This lesson asks a narrower and harder question: what binds you specifically to this state. The moral bond a citizen is supposed to have is called political obligation. The particularity problem, pressed by A. John Simmons, is that the standard defences explain why we should support just institutions in general, but not why we should support the particular institutions that happen to rule us. A natural duty to support justice, if it exists, tells you to help any just institution you encounter, and it gives no special weight to your own. Consent theories do target your state, but the evidence that most people consent is weak, and the earlier lesson showed why residence is not automatically consent. Simmons’s conclusion is philosophical anarchism: no existing state imposes a general moral obligation to obey, though he adds at once that this is compatible with a state being legitimate in the narrower sense that it may permissibly coerce and enforce, and compatible with obeying the law for independent moral reasons. He distinguishes a priori from a posteriori philosophical anarchism, the latter holding that particular states may acquire obligations under specific historical conditions.",
+       "example": "State Simmons’s argument in standard form. Premise one: political obligation must be a special moral bond linking a particular person to a particular state, not a general duty to support justice wherever it appears. Premise two: none of the usual grounds, consent, fair play, or the natural duty of justice, delivers a bond of that particular form. Premise three: no alternative ground has been shown to deliver it either. Conclusion: no one is, merely as a member of a state, under a general political obligation to obey it. The argument’s weakest point is premise two, and a serious discussion must take its strongest opponents seriously. Fair play theorists reply that, unlike a pure natural duty, fair play binds you to the scheme that actually produced benefits you accepted, which is particular enough. Associative theorists, such as Horton and Gilbert, argue that membership in a community generates role obligations that are particular by nature, like obligations to family, and need no voluntary undertaking. Kantian natural duty theorists reply that the duty to enter and sustain a just state selects your actual state, because the requirement is to escape the state of nature here and now. Each reply has force; Simmons’s counter-replies turn on whether the obligations really are particular and whether the benefits or membership were genuinely voluntary. This is a live dispute, not a settled verdict.",
+       "question": "What exactly does the particularity problem allege against the natural duty of justice?",
+       "answer": "That a general duty to support just institutions cannot explain why you are bound specifically to the state that governs you rather than to any other just institution",
+       "distractor": "That the natural duty of justice is impossible to state without contradiction, so no duty to support justice can exist",
+       "correction": "The problem is about the scope and specificity of the bond, not about logical consistency. A general duty may be perfectly coherent and yet fail to be particular to one’s own state.",
+       "depth": {
+        "definitions": "Political obligation is the moral duty to obey one’s state’s laws because they are its laws. Legitimacy is the state’s standing to make and enforce law; a state can be legitimate in that sense while some subjects lack an obligation, which is what makes the two notions worth separating. The particularity requirement states that political obligation must be particular both to the individual and to the state. Philosophical anarchism holds that no state’s subjects have a general obligation, while accepting that states may be legitimate and that laws may bind for independent moral reasons; a priori anarchism denies obligation in principle for all states, a posteriori anarchism allows that some could acquire it under specific conditions. Fair play, in this context, is the obligation to do one’s share in a cooperative scheme that benefits you and to which others are conforming. Associative obligation is obligation arising from a constitutive relationship rather than from a voluntary act. Natural duty of justice is the impartial duty to support and comply with just institutions.",
+        "mechanism": "Why is particularity a real problem rather than a quibble? Consider what an obligation is supposed to explain. If political obligation exists, it gives the state a distinctive moral claim on your obedience and the standing to demand, punish, and expect compliance even when its particular law is not independently required. A general natural duty cannot do this work, because it is impartial: it tells you to support justice, but it does not single out the government of the country you happen to live in from a more just institution across a border. Consent would do the work because it is intrinsically particular, but the empirical and normative difficulty of showing that nearly everyone has consented is severe, and hypothetical consent concerns what you would agree to rather than what you did. Fair play is the most promising middle position because the acceptance of benefits is historically specific, and the debate therefore turns on whether people really accept the benefits of their state in the relevant sense rather than merely receive them unsolicited, which is the unsolicited-benefits objection. Associative theories relocate the ground to membership itself. Each response has a characteristic cost: consent is too demanding empirically, natural duty too weak in particularity, fair play uncertain on acceptance, associative membership open to a charge of conservatism. Simmons’s conclusion is modest and often misread: philosophical anarchism denies a general obligation, not the possibility of legitimacy, and not the wisdom of obeying most laws.",
+        "secondExample": "Contrast political obligation with legal obligation inside a single case so the distinction becomes concrete. A judge must apply a valid statute: that is a legal obligation grounded in institutional role, and it holds whether or not the statute is morally binding on the population. Now consider a tenant obliged by a signed lease to pay rent: that is a moral and legal obligation, particular to her and to that landlord, because she undertook it. Compare a person who simply lives in a neighbourhood where others maintain a shared garden, and who enjoys the flowers without ever agreeing to contribute. Fair play theorists think she owes a share because she accepted the benefit; others reply that unsolicited enjoyment is not acceptance. The pair of cases shows the difference between an obligation that is particular by construction, as the lease is, and one that a theory must generate, as the citizen’s obligation to her state must be, and it shows why consent and fair play are natural candidates where natural duty struggles.",
+        "mistake": "The main misconception is that philosophical anarchism means revolution, lawlessness, or the claim that no state can ever be legitimate. Simmons explicitly allows both legitimacy and widespread independent reasons to comply, and he describes his position as a thesis about a specific kind of moral bond. A second error is to think the problem is dissolved by noting that people mostly obey; that is a question about motivation and enforcement, not about whether a moral duty exists. A third error is to assume that a state’s being democratic supplies particularity automatically; a democratically produced law may bind only those who authorised it, which raises the same question. A fourth error is to think that if obligation fails, everything is permitted; the natural duty of justice, if it holds, still constrains both citizens and officials, and it simply fails to be particular rather than failing altogether.",
+        "application": "Nonblocking practice: two residents of the same state, one a naturalised citizen who took an oath and one who was born there and has never affirmed anything. Under Simmons’s argument, does the state have the same claim on both? Write a short answer that takes the natural duty reply seriously. Model response: Simmons would distinguish them, since the naturalised citizen undertook an obligation while the other did not; the natural duty theorist replies that both are bound equally because both are required to sustain just institutions, and the question is whether that duty selects this state. Self-review rubric: (1) did you separate legal validity from moral obligation? (2) did you state which ground of obligation you are testing? (3) did you present the strongest reply before judging Simmons? For a serious objection, consider whether associative membership might generate genuinely particular obligations even without any voluntary act, as family obligations seem to, and whether that analogy survives inspection.",
+        "summary": "Political obligation is a particular moral bond between a person and a state, and the particularity problem is that our best general defences of authority struggle to generate it. Philosophical anarchism is the resulting modest position: no general obligation, though legitimacy and independent reasons to obey remain. Learn to keep three questions apart: whether a state is legitimate, whether a particular law is just, and whether this person has a duty to comply. The unit now turns to the method that makes all of these debates tractable, the construction and evaluation of arguments."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Political Obligation’ — sections 2, 3.1, and 4",
+         "url": "https://plato.stanford.edu/entries/political-obligation/",
+         "note": "Section 2 works through the conceptual distinctions between obligation and duty, political and legal; section 3.1 states philosophical anarchism; section 4 surveys contemporary theories of obligation. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Political Obligation’ — sections 1.3, 1.5, and 3.2",
+         "url": "https://plato.stanford.edu/entries/political-obligation/",
+         "note": "Read the same entry at 1.3 on the social contract and 1.5 on Kant’s account of legitimacy and obligation for the historical roots of the natural duty view, then 3.2 for replies to philosophical anarchism."
+        }
+       ],
+       "visual": {
+        "title": "Separating legitimacy, justice, and obligation",
+        "description": "Display three independent questions and show that answering one does not answer the others.",
+        "steps": [
+         "Is this state legitimate, with standing to coerce and enforce?",
+         "Is this particular law just?",
+         "Does this person have a particular moral duty to obey because it is the law? — the particularity problem lives here"
+        ]
+       }
+      },
+      {
+       "id": "79",
+       "title": "Constructing a philosophical argument: premises, validity, and charity",
+       "explanation": "An argument, in the philosophical sense, is a set of propositions in which some, the premises, are offered as support for another, the conclusion. It is not an assertion, a report, or an insult. Two distinct virtues must be kept apart. An argument is valid when it is impossible for the premises to be true and the conclusion false; validity concerns the form of the inference alone. It is sound when it is valid and all its premises are true. Arguments that are not deductively valid can still be good: an inductive argument makes its conclusion probable, and an abductive argument infers the best explanation among competitors. Much real philosophy arrives in prose with premises unstated, so the first task is standardisation: identify the conclusion, list the premises that are explicitly offered, and then supply the implicit premises the argument needs to work. Doing that charitably, which means choosing the strongest reasonable reading before evaluating, is a methodological commitment rather than a courtesy, because it is the only way to avoid defeating a claim nobody holds.",
+       "example": "Take a passage: ‘Of course she will eventually accept our theory of the case. Every careful person has, and she is careful.’ Reconstruct it. Conclusion: she will accept the theory. Premise one: every careful person has accepted the theory. Premise two: she is careful. As it stands the argument is invalid, because accepting the theory at some point in the future is not entailed by having been careful up to now; the conclusion needs a bridge. The charitable reconstruction supplies the missing premise: careful people who have examined the theory accept it, and she has examined it. With that premise added, the argument becomes valid in form, and the burden shifts to whether premise one is true, which is an empirical claim easily tested and easily doubted. Notice what standardisation accomplished. It converted a jibe into a testable argument and located the dispute at a specific premise, rather than at the rhetoric. It also revealed a hidden assumption about timing, which is exactly the sort of gap that makes bad arguments look persuasive. Inclusion of an implicit premise whose truth is doubtful is itself a legitimate criticism, provided the arguer would accept it.",
+       "question": "What does adding an implicit premise to make an argument valid show about the original argument?",
+       "answer": "That the original prose left a gap, and the burden now falls on whether the necessary added premise is true",
+       "distractor": "That the original argument was meaningless and its author was not really arguing at all",
+       "correction": "Unstated premises do not make an argument meaningless; they make it incomplete. Reconstruction makes the argument evaluable and shifts the dispute to the truth of the enounced premise.",
+       "depth": {
+        "definitions": "A premise is a proposition offered as support; the conclusion is what is supported. Validity is the property of a form in which true premises cannot have a false conclusion. Soundness is validity plus true premises. A counterexample to validity is a case with the same form in which the premises are true and the conclusion false. An enthymeme is an argument with an unstated premise or conclusion. Standardisation is the activity of setting an argument out as a numbered list of premises and a conclusion, supplying what is needed for the stated inference. Charity, or the principle of interpretational charity, directs you to adopt the strongest interpretation consistent with the text. Deduction, induction, and abduction are the main types of inference; an abductive argument recommends a hypothesis as the best explanation. Begging the question is arguing from a premise the arguer is entitled to only by already accepting the conclusion.",
+        "mechanism": "Why does charity earn its keep as method? Because the target of criticism is the truth of a claim and the strength of an inference, not the elegance of someone’s prose. If you refute a weak paraphrase, you have refuted nothing and have reinforced a false sense of superiority, which is the straw-man failure. The steelman discipline instead asks: what is the most defensible position here, and does it survive? There are limits, and the limits are methodological. Over-charity is a genuine risk: if you repair an argument so thoroughly that it becomes a different argument, you are no longer evaluating what was claimed, and the repair can quietly smuggle in premises the author rejects. The rule of thumb is to add only premises the author would endorse and to mark them as supplied. Equally important is keeping kinds of criticism straight. Showing a premise false is a different criticism from showing the inference invalid, and confusing them is the most common error in student work. A third discipline is separating an argument from its rhetoric: a well-organised ad hominem is still not an argument for the conclusion, and a badly expressed but valid argument is still valid.",
+        "secondExample": "Contrast a valid but unsound argument with an inductive argument. Valid but unsound: premises, all ferrous metals sink and this metal sinks, conclusion, this metal is ferrous. The form is the fallacy of affirming the consequent, so we must first repair or reject the inference; supplied charitably with the premise that only ferrous metals sink, it becomes valid, and then we can see that this premise is false, since aluminium is not ferrous. Now take an inductive argument: ninety-nine of a hundred surveyed bridges in the region passed a stress test, so the next bridge will probably pass. This has no deductive validity at all, yet it is a reasonable argument whose strength depends on sample size, representativeness, and base rates. The contrast teaches that ‘valid’ and ‘good’ are not the same, and that evaluating an argument requires knowing which kind of inference is being made. Treating a statistical inference as if it must be deductively valid is a category error, and it is a common way to dismiss legitimate arguments.",
+        "mistake": "The most frequent error is to call an argument invalid when in fact a premise is false. Validity is about the inference, and an argument can be valid with a false premise; the criticism should be aimed correctly. A second error is to accuse any argument whose conclusion appears among its premises of begging the question. Begging the question is a diagnosable vice, but a defence may legitimately use premises the opponent also accepts, and circular arguments can be dialectically useful in some contexts, which is why the charge needs argument rather than slogan. A third error is to assume that formal validity requires the words if and then to appear; many valid arguments have no conditional in them, and many invalid ones use the conditional carelessly. A fourth error is over-charity, reconstructing the argument so generously that you defend a view the author never held, which makes the exercise pointless.",
+        "application": "Nonblocking practice: standardise this passage and evaluate it. ‘We should not teach critical thinking, because students who think critically challenge teachers, and disruption in classrooms harms learning.’ Model response: conclusion, we should not teach critical thinking. The argument is an enthymeme: the needed premise is that challenging teachers is always classroom disruption and that this harm outweighs the benefits of critical thinking, both of which are questionable. With those supplied, the inference is valid and the dispute shifts to the premises, where the first is clearly too strong and a counterexample is available. Self-review rubric: (1) did you list premises and conclusion in order? (2) did you mark every supplied premise as supplied? (3) did you aim your criticism at the specific premise you think fails? For a serious objection, argue the other side of the pedagogy question, granting the classroom-disruption premise and testing whether the conclusion follows anyway.",
+        "summary": "Arguments are premises offered in support of a conclusion, and the two virtues to track are validity of inference and truth of premises, with inductive and abductive arguments evaluated on their own terms. Standardising in charity converts prose into testable claims and locates the real disagreement. Retain three habits of this lesson: identify the conclusion, supply only premises the author would accept, and keep the criticism of inference separate from the criticism of premises. The next lesson takes the same materials and turns them into tools of criticism, testing principles with counterexamples and reducing positions to absurdity."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Argument and Argumentation’ — sections 1 and 2",
+         "url": "https://plato.stanford.edu/entries/argument/",
+         "note": "Section 1 clarifies terminology and section 2 distinguishes deduction, induction, abduction, and analogy, with fallacies at 2.5. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Informal Logic’ — section 3",
+         "url": "https://plato.stanford.edu/entries/logic-informal/",
+         "note": "Section 3 covers standardising arguments, including implicit premises and conclusions at 3.1 and the diagramming or tabulation of components at 3.2. Open access."
+        }
+       ],
+       "visual": {
+        "title": "From prose to standard form",
+        "description": "Show how a persuasive paragraph is converted into numbered premises and a conclusion, with any gap made explicit.",
+        "steps": [
+         "Identify the conclusion the passage is trying to establish",
+         "List the premises actually offered",
+         "Supply the implicit premise the inference needs, mark it as supplied, then test validity and each premise"
+        ]
+       }
+      },
+      {
+       "id": "80",
+       "title": "Evaluating arguments: counterexamples, reductio, and the strongest objection",
+       "explanation": "Once an argument is standardised, there are only a few honest ways to attack it. You may attack a premise as false. You may attack the inference as invalid, and the standard way to do that is a counterexample: a case with the same form whose premises are true and whose conclusion is false. You may also use reductio ad absurdum, which assumes the target claim and derives a consequence the target’s own defenders must reject, thereby showing the claim cannot be held. For arguments about principles, the method of cases is central: you test a general claim, such as that knowledge requires certainty, by producing a case that satisfies the claim’s conditions and yet violates the intuition it was meant to capture, and you then repair the claim rather than abandon it. Fallacies are named patterns of bad inference, and they are useful, but naming one is not an argument. The label does work only when you show that the specific inference has the bad pattern and that the pattern is indeed bad here, which is why the most common abuse in argument is the confident invocation of a fallacy name.",
+       "example": "Test a universal principle with counterexamples and then with a reductio, using a claim from earlier in the level. Candidate principle: a belief counts as knowledge only if it is certain, that is, only if it could not have been false. A counterexample presses this: consider your belief that you had lunch today. You could be wrong in elaborate scenarios, so by the principle you do not know it, yet the claim that you know it seems defensible and certainly is treated as knowledge in ordinary life. The counterexample shows the principle is too strong. Now use a reductio on a stronger neighbour: suppose that only what is certain is knowledge. Then no empirical belief about the external world is knowledge, since the sceptical scenarios of lesson seventy-three cannot be ruled out with certainty. But the principle was offered to preserve knowledge, and it delivers the opposite. Because the consequence is one the principle’s own defenders reject, the reductio succeeds against that formulation. Note what the two methods share: both locate the fault in a claim by deriving something the claimant cannot accept, and both then invite a repair, such as weakening the principle to fallible justification.",
+       "question": "What must a reductio show in order to succeed?",
+       "answer": "That the target claim, together with premises its defenders accept, entails a consequence those defenders must reject",
+       "distractor": "That the target claim leads to a consequence the critic personally finds unpleasant or surprising",
+       "correction": "The derived consequence must be untenable by the defender’s own lights. If it is merely unwelcome to the critic, the argument shows a disagreement about values, not an inconsistency in the target.",
+       "depth": {
+        "definitions": "A counterexample is a case inconsistent with a general claim, used to refute universal principles. A reductio ad absurdum assumes a claim and derives a contradiction or an unacceptable consequence, thereby refuting the assumption. A fallacy is a pattern of reasoning that tends to be bad; formal fallacies violate a rule of valid inference, informal fallacies are defective in content or context rather than form. Begging the question assumes a premise available only by accepting the conclusion. A false dilemma presents two options as exhaustive when they are not. Equivocation trades on a shift in the meaning of a term. A defeater is a consideration that undermines a justification or a claim. Burden of proof is the obligation to support a claim, and shifting it improperly is itself a defect in argument. Expressive inconsistency is the charge that one’s practice contradicts one’s stated principle.",
+        "mechanism": "Why is naming a fallacy usually insufficient? Because fallacy names are diagnoses of inference forms, and a form that is defective in one setting can be acceptable in another. Appeal to authority is a paradigm case: it is only fallacious when the authority is unidentified, irrelevant, or the field is one where expertise is not credible; citing a relevant, identified expert is a perfectly good evidential move, and the strength of such an appeal varies with the field’s consensus. Similarly, the correlation-causation warning is a caution, not a refutation; correlations can be strong evidence for causes, and refusing to reason from correlation is itself unreasonable. The discipline is to state the defect precisely: which inference, which premise, which alternative explanation is unaddressed. The same care is needed with the straw man. To show a straw man, you must display the argument the opponent actually made or would make and show that your target was weaker; merely disliking the position is not a demonstration. Finally, the strongest objections are the ones you would least enjoy receiving. A useful test is to write the objection as the defender would write it, with their best premises, and to see whether your criticism still bites; if it does not, you have found a criticism of a weaker view and should return to the drawing board.",
+        "secondExample": "Contrast a genuine question-begging objection with a charge of circularity that fails, so the distinction can be seen in operation. Suppose an epistemologist argues that a belief is justified just when it coheres well with a comprehensive system. A critic objects that the criterion is circular, since the belief that the criterion is right must itself cohere with the system. If the epistemologist replies that the criterion is offered as the correct analysis of justification and its defence may legitimately be the very sort of coherence it analyses, this is a disputed move, and the faithful description is that the coherentist accepts a form of theoretical circularity on principle while the objector treats any circularity as vicious. Contrast this with the Moorean reply in the scepticism lesson, where the defender asserts ordinary knowledge against the sceptical argument. Here the criticism that the reply begs the question must specify which question and show that the premise does work only because the conclusion is presupposed; the diagnosis is available but it must be argued, and it is contested whether Moore is guilty. Both cases teach the same point: circularity charges are arguments with premises, not exclamations.",
+        "mistake": "The commonest abuse is the drive-by fallacy label: accusing someone of a straw man or a false dilemma without showing that the alternatives are non-exhaustive or that the target was misdescribed. A second error is treating a defect in an argument as a defect in the conclusion; an argument can be badly presented and its conclusion true, and the failure of one argument leaves the conclusion standing until refuted. A third error is to assume that every dialectically asymmetrical situation has a unique correct burden of proof, when burden is often negotiable and can shift with what is agreed. A fourth error is to confuse an insult with a criticism: ad hominem criticism of a person’s character is relevant only if it bears on the reliability of their testimony about this matter, and noting that is not the same as dismissing moral criticism of conduct as a fallacy, which is itself a misuse of the fallacy label.",
+        "application": "Nonblocking practice: a manager argues, ‘everyone on the team agreed, so the plan must be sound.’ Write the strongest objection and the strongest reply, keeping names of fallacies out of the objection text itself. Model response: the strongest objection is that agreement establishes consensus, not correctness, and consensus can arise from shared bias, deference to seniority, or absence of dissent; the objection is not merely that the argument is fallacious but that the bridge from agreement to soundness is missing. The strongest reply is that in the special case where the group is diverse, informed, and incentivised to disagree, agreement is real evidence, so the original argument is at best an enthymeme with an unstated premise about the quality of the group. Self-review rubric: (1) did you state the missing inference rather than name a fallacy? (2) did you give the best reply you could? (3) did you separate the quality of the argument from the truth of the plan? For a serious objection, consider whether there are conditions under which the number of people holding a view is itself a reason to hold it, and how those conditions would be tested.",
+        "summary": "Evaluation of arguments reduces to a small set of disciplined moves: refute a premise, refute an inference with a counterexample, or refute a claim by reductio, always in a form the view’s own defenders must reject. Fallacy names are shorthand for diagnoses that must be supplied, and the strongest objection is the one that engages the strongest version of the target. This concludes the method of the level. You now have a single toolkit used across all ten lessons: separate the semantic from the metaphysical question, state the strongest version of a view, locate the premise that does the work, and test it with cases. Apply it to any philosophical text you meet next."
+       },
+       "readings": [
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Fallacies’ — sections 1 and 3",
+         "url": "https://plato.stanford.edu/entries/fallacies/",
+         "note": "Section 1 surveys the core fallacies with their definitions and caveats, and section 3 examines new approaches that treat fallacies as context-sensitive. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Informal Logic’ — section 4",
+         "url": "https://plato.stanford.edu/entries/logic-informal/",
+         "note": "Section 4 covers testing arguments, which supplies the procedural counterpart to the fallacy catalogue. Read it as the method for converting a criticism into a testable claim. Open access."
+        },
+        {
+         "title": "Stanford Encyclopedia of Philosophy, ‘Argument and Argumentation’ — section 2.5",
+         "url": "https://plato.stanford.edu/entries/argument/",
+         "note": "Section 2.5 places fallacies within the taxonomy of argument types, which helps keep the fallacy label subordinate to the analysis of the inference. Open access."
+        }
+       ],
+       "visual": {
+        "title": "Three honest ways to attack an argument",
+        "description": "Display the attack surface of a standardised argument and the tool that fits each point.",
+        "steps": [
+         "Attach the premises: show a premise is false or unsupported",
+         "Attack the inference: give a counterexample with the same form, true premises, false conclusion",
+         "Attack a principle: derive an unacceptable consequence by reductio, then repair rather than discard"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-76-a",
+       "prompt": "A theorist says a system could implement all the functional roles of pain with no inner feeling whatever. What does this claim do to functionalism?",
+       "answer": "It presses the objection that functional analysis may capture the role of a mental state without capturing its felt character",
+       "distractor": "It refutes physicalism by showing that mental states are non-physical properties of a single substance",
+       "correction": "The claim targets functionalism about experience, and many non-reductive physicalists accept the objection while remaining physicalists. It does not by itself establish property dualism.",
+       "reviewLessonIds": [
+        "76"
+       ]
+      },
+      {
+       "id": "uq-77-a",
+       "prompt": "Someone argues that because moral codes differ across cultures, moral claims are merely expressions of approval. Which conflation should a careful reader flag?",
+       "answer": "It runs together observed variation, which is Mackie’s argument from relativity, with non-cognitivism about the meaning of moral sentences",
+       "distractor": "It assumes that moral codes never differ, which is contradicted by the historical record",
+       "correction": "Argument from relativity supports an anti-realist conclusion but does not establish the semantic claim that moral sentences are not truth-apt. These are distinct theses on different axes.",
+       "reviewLessonIds": [
+        "77"
+       ]
+      },
+      {
+       "id": "uq-78-a",
+       "prompt": "A person born in a state and never having affirmed anything is treated by one theory as bound by a general duty to support just institutions. What is the particularity problem for that theory?",
+       "answer": "Such a general duty would bind the person to any just institution, not specifically to the state that governs her",
+       "distractor": "Such a duty cannot be stated without logical contradiction about who counts as a citizen",
+       "correction": "The duty may be perfectly coherent; the objection is that it is impartial rather than particular, so it cannot explain a bond to this state rather than to a more just one elsewhere.",
+       "reviewLessonIds": [
+        "78"
+       ]
+      },
+      {
+       "id": "uq-79-a",
+       "prompt": "A passage argues that since careful readers accept the theory and she is careful, she will accept it. A student wants to refute it. What should the student do first?",
+       "answer": "Supply the implicit premise the inference needs, mark it as supplied, and then test that premise and the form",
+       "distractor": "Declare the passage invalid because it reaches a future conclusion from present evidence about the past",
+       "correction": "The gap is real, but the disciplined response is to reconstruct charitably and then attack the necessary premise or the repaired form, which locates the actual disagreement.",
+       "reviewLessonIds": [
+        "79"
+       ]
+      },
+      {
+       "id": "uq-80-a",
+       "prompt": "A critic says an opponent is guilty of the straw man fallacy but gives no argument. What is missing?",
+       "answer": "The criticism must display the argument the opponent actually makes and show that a weaker version was targeted",
+       "distractor": "The criticism must show that the opponent’s conclusion is false, since a straw man charge implies the conclusion fails",
+       "correction": "A straw man charge is a claim about the treatment of an argument, not about the truth of its conclusion. Naming the fallacy is not yet an argument; the misdescription must be shown.",
+       "reviewLessonIds": [
+        "80"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "lq-71-80-a",
+     "prompt": "A laboratory reports a true result from an instrument that, unknown to everyone, happened to display the correct figure while malfunctioning. Compare this with the Smith disjunction case and state the best verdict and the reason.",
+     "answer": "Both are cases of an accidentally true belief whose warrant does not connect to the truth-maker, so knowledge is lacking in the same way",
+     "distractor": "The instrument case is knowledge because instruments are usually reliable, whereas the disjunction case is not because testimony is weaker",
+     "correction": "Reliability in general does not repair this token case; what matters is whether the actual grounds connect to the fact that makes the belief true. The structure of the two cases is the same.",
+     "reviewLessonIds": [
+      "71"
+     ]
+    },
+    {
+     "id": "lq-71-80-b",
+     "prompt": "Explain why a coherentist need not claim that truth is coherence, using the isolation problem as your starting point.",
+     "answer": "Justification can be a matter of fit within a system while truth remains a correspondence relation, precisely so that the system must have adequate input",
+     "distractor": "Coherentism does equate truth with coherence, and the isolation objection therefore leaves it untouched",
+     "correction": "Equating truth with coherence is exactly what makes the isolation objection fatal. Most coherentists keep truth as correspondence and address the input requirement separately.",
+     "reviewLessonIds": [
+      "72"
+     ]
+    },
+    {
+     "id": "lq-71-80-c",
+     "prompt": "A politician says that because we cannot know for certain that a rumour is false, we must act as though it were true. Using the lessons on scepticism and on argument evaluation, identify the defects.",
+     "answer": "It treats a bare possibility as decisive and slides from lacking certainty about something to accepting a different claim, which the closure argument does not license",
+     "distractor": "It is refuted because the rumour is about the past, and knowledge of the past always rests on testimony",
+     "correction": "The relevant flaw is the inflation of possibility into defeat and the unlicensed inference, not the subject matter. Testimony about the past is ordinary evidence.",
+     "reviewLessonIds": [
+      "73",
+      "80"
+     ]
+    },
+    {
+     "id": "lq-71-80-d",
+     "prompt": "A hospital must decide whether an advance directive binds a patient whose memory and personality have changed almost completely. Which theory would say the directive binds because the patient is the same individual, and what is its cost?",
+     "answer": "Animalism, which preserves the individual’s continuity but must explain why it subsumes the present person’s autonomy under an earlier decision",
+     "distractor": "Psychological continuity theory, which preserves the individual’s continuity by counting the patient as the same person throughout",
+     "correction": "Psychological continuity is precisely the theory that may find the patient no longer the same person. Animalism preserves identity, at the cost of a hard question about present autonomy.",
+     "reviewLessonIds": [
+      "74"
+     ]
+    },
+    {
+     "id": "lq-71-80-e",
+     "prompt": "An agent acts exactly as she wanted to, but a hidden device would have compelled the same act had she wavered. What do compatibilists take from this case, and what remains contested?",
+     "answer": "It suggests that alternative possibilities are not necessary for responsibility, though it is contested whether manipulation of the agent’s history defeats responsibility",
+     "distractor": "It shows determinism is false, since a possible intervention means the future was never fixed in advance",
+     "correction": "The device is real in the scenario, so determinism is not the issue. The case bears on the principle of alternative possibilities, and the manipulation argument is the open pressure point.",
+     "reviewLessonIds": [
+      "75"
+     ]
+    },
+    {
+     "id": "lq-71-80-f",
+     "prompt": "A debater claims a machine cannot be conscious because its states are only functional. Reconstruct this as an argument and identify the premise a physicalist would deny.",
+     "answer": "The suppressed premise that whatever is functionally analysable lacks felt character, which the non-reductive physicalist and the functionalist both contest",
+     "distractor": "The suppressed premise that machines cannot exist, which is plainly false and so the argument fails immediately",
+     "correction": "Nobody involved denies that machines exist. The disputed bridge is the move from functional analysability to absence of experience.",
+     "reviewLessonIds": [
+      "76",
+      "71"
+     ]
+    },
+    {
+     "id": "lq-71-80-g",
+     "prompt": "Two philosophers agree that torture for amusement is objectively wrong but disagree about whether this truth exists independently of all practical reasoning. Which distinction are they drawing, and which positions do they occupy?",
+     "answer": "The distinction between objectivity, secured by a procedure, and stance-independence, so one is a constructivist and the other a robust realist",
+     "distractor": "The distinction between cognitivism and non-cognitivism, so one thinks moral sentences are truth-apt and the other does not",
+     "correction": "Both accept truth-aptness, so cognitivism is shared. The split is metaphysical, over whether objectivity requires a stance-independent fact.",
+     "reviewLessonIds": [
+      "77"
+     ]
+    },
+    {
+     "id": "lq-71-80-h",
+     "prompt": "Use the particularity problem to explain why a general duty to support just institutions cannot by itself justify a state punishing a citizen who has refused to obey a just law.",
+     "answer": "The duty may support compliance with just institutions wherever they are, but it does not single out this state’s claim on this citizen, which is what punishment presupposes",
+     "distractor": "The duty is incoherent, so it cannot support any punishment, just or unjust",
+     "correction": "The duty is coherent but impartial. What is missing is the particular bond, which is exactly what Simmons locates as the gap in natural duty theories.",
+     "reviewLessonIds": [
+      "78"
+     ]
+    },
+    {
+     "id": "lq-71-80-i",
+     "prompt": "A speaker says an argument is unsound because it is invalid. What is wrong, and how would you repair the criticism?",
+     "answer": "Soundness requires validity plus true premises, so showing validly-with-false-premise is the right target; state which premise fails instead",
+     "distractor": "Nothing is wrong, since invalid arguments can never be sound and so the criticism is automatically sufficient",
+     "correction": "The verdict may be correct while the reason is wrong. Precision matters: identify whether the inference or a premise is the defect, and supply the counterexample or the false premise.",
+     "reviewLessonIds": [
+      "79",
+      "80"
+     ]
+    },
+    {
+     "id": "lq-71-80-j",
+     "prompt": "A critic refutes a claim by deriving a consequence that she personally finds distasteful, even though its defenders would accept it. Using the reductio standard, evaluate the criticism.",
+     "answer": "The reductio fails as stated, because the derived consequence must be untenable by the defenders’ own commitments, not merely unwelcome to the critic",
+     "distractor": "The reductio succeeds, because showing that a claim has unattractive implications is sufficient to refute it",
+     "correction": "Disagreement about an implication is not inconsistency in the target. A working reductio must derive something the view’s own supporters must reject.",
+     "reviewLessonIds": [
+      "80"
+     ]
+    },
+    {
+     "id": "lq-71-80-k",
+     "prompt": "A student is told to steelman an opponent before replying. Explain what this requires and why it is a method rather than mere politeness.",
+     "answer": "Reconstruct the strongest reasonable version using only premises the opponent accepts; otherwise the criticism refutes nothing that was claimed",
+     "distractor": "Agree with the opponent’s conclusion first, then raise any objection that comes to mind, so that no reply is ruled out",
+     "correction": "Charity targets the strongest form of the argument and keeps supplied premises to those the author would endorse. Conceding the conclusion is not the method.",
+     "reviewLessonIds": [
+      "79"
+     ]
+    },
+    {
+     "id": "lq-71-80-l",
+     "prompt": "Integrate the level: how should a careful reader handle a dispute where one side attacks a premise and the other asserts that the position is simply false?",
+     "answer": "Standardise the argument, mark supplied premises, keep attacks on premises separate from attacks on inference, and then identify which contested premise carries the disagreement",
+     "distractor": "Invoke the fallacy names available for the opponent’s move, since a defect in the argument defeats the position",
+     "correction": "Naming fallacies is not an argument, and a defective argument leaves the conclusion standing. The productive move is to isolate the premise or inference on which the disagreement really turns.",
+     "reviewLessonIds": [
+      "79",
+      "80",
+      "71"
+     ]
+    }
+   ]
+  }
+ ]
+}

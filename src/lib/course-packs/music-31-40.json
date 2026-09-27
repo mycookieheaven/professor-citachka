@@ -1,0 +1,695 @@
+{
+  "subject": "music",
+  "levels": [
+    {
+      "title": "Reading the page, naming the harmony, and capturing a first performance",
+      "units": [
+        {
+          "title": "Counting, intervals and keys you can name before you play",
+          "lessons": [
+            {
+              "id": "31",
+              "title": "Count note values and rests without losing the pulse",
+              "explanation": "Your objective is to read a written rhythm aloud, settle its durations before touching the instrument, and then play it at a chosen tempo. Earlier lessons gave you a steady pulse, half-beat counting, and intentional rests; this lesson adds the written values that describe those events on paper. Western rhythmic values are hierarchical: a whole note divides into two halves, four quarters, eight eighths, and sixteen sixteenths, and the same ladder applies to rests. A rest is a written duration with no intended attack, not suspended time. A dot adds half of the value it follows, so a dotted quarter equals three eighths. A tie joins two notes of the same pitch into one longer sound without a new attack. Reading is a separate skill from playing, and it is worth practising deliberately: count with a voice, tap with a hand, and only then play, so a misread duration cannot hide behind a confident strum.",
+              "example": "Work in 4/4 at 90 quarter-note beats per minute, where one beat lasts 60/90 = 0.667 seconds, a bar lasts 2.667 seconds, and a sixteenth lasts 0.167 seconds. Bar one: a quarter note on beat one, two eighths on beat two, a quarter on beat three, a quarter rest on beat four. Bar two: a dotted quarter on beat one tied to an eighth, holding the same pitch across beats one and two, then a quarter on beat three and a quarter on beat four. Say the count aloud before playing: one, two-and, three, four, then one-and-two-and with no new attack in the middle, three, four. Sum the values in each bar to check the arithmetic: 1 + 1 + 1 + 1 = 4 beats, and 1.5 + 0.5 + 1 + 1 = 4 beats. On the guitar, play bar one on one open string with the fretting hand resting, and keep the right hand silent through the counted rest. Hold the tied note through the second bar's count without re-plucking it: the tie means one sound, two written values.",
+              "question": "In 4/4, how many beats does a dotted quarter note occupy, and why?",
+              "answer": "One and a half beats, because a dot adds half of the original value",
+              "distractor": "Two beats, because the dot doubles the value",
+              "correction": "A dot adds half the note's duration, so a quarter (one beat) plus half a beat equals three eighths, which is why a tie or a dotted value is needed whenever a duration of two full beats is wanted.",
+              "depth": {
+                "definitions": "A beat is a regularly recurring pulse whose length is set by the tempo. Note and rest values are relative durations, not fixed amounts of time: their seconds depend on the beat unit and the tempo. The lower number of a time signature names the beat unit, and the upper number counts how many of them fill a measure. A tie connects two or more notes of the same pitch and suppresses rearticulation; a slur connects different pitches and affects articulation without changing duration. A dot extends a value; a double dot adds half of the previous dot's value as well. Prerequisites here are pulse, subdivision, and the distinction between a rest and stopping time.",
+                "mechanism": "The mechanism of notation is arithmetic inside a frame: each bar must sum to the meter, and every symbol expresses a share of the beat. Counting aloud works because speech, tap, and instrument can be layered in that order, letting you check each layer separately instead of trusting a single rushed gesture. Ties exist because written values are limited: a duration of five beats cannot be written as one symbol in 4/4, so it is written as a bar of four tied to a quarter. Notation also has limits. It encodes onset and duration relationships, not microtiming. Swing, rubato, and the deliberate push or delay of a phrase are performance conventions that the page does not fully specify. A DAW stores the same durations as ticks at a chosen resolution, so the two systems agree on proportion while differing in what they can express.",
+                "secondExample": "A contrasting case is a waltz in 3/4. At 72 beats per minute one beat lasts 0.833 seconds and a bar lasts 2.5 seconds; a bar of quarter, quarter rest, quarter is counted one, two, three with beat two silent but never skipped, so the pulse continues while the instrument does not sound. If the second bar is written as a dotted half, it fills all three beats with one sound, and the count still passes through two and three. A limitation worth naming is that 6/8 is a compound meter: its beat divides into three rather than two, so the same symbols are grouped and counted differently. Do not carry the 4/4 counting words into compound meter without checking the note the beat is measured in.",
+                "mistake": "Two misconceptions recur. The first treats a rest as time off: the player stops counting, then re-enters late. The diagnostic is to count the rest aloud with the same energy used on sounding beats, and to notice whether the following attack arrives without a rush. The second reads the dot as a vague instruction to hold longer, or as a mark meaning short and detached. The check is arithmetic: write the note values underneath the bar and add them. If your total is not exactly the meter, the reading is wrong rather than merely imprecise. A third, quieter error is confusing a tie with a slur in a guitar part and re-plucking a note that should continue; if the two notes share a pitch, it is a tie.",
+                "application": "For a three-minute nonblocking lab, write two bars of 4/4 containing at least one rest and one tie, count them aloud twice without the instrument, then tap the rhythm with one hand on your thigh while the other keeps the beat. Finally play it on a single open string at a slow tempo. The rubric has four checks: each bar sums correctly; rests are counted aloud rather than omitted; the tied note is held without rearticulation; the pulse does not accelerate. A model self-review reads: I counted both bars correctly, but I re-plucked the tied note; I will count one-and-two-and out loud while holding the finger down, then play again. If counting aloud and playing at once feels crowded, keep the count and reduce the part to one attack per bar until the frame is stable.",
+                "summary": "Written durations are quantities you can calculate, not impressions you imitate. Once a rhythm is read correctly, tempo becomes the only variable you change, and the same arithmetic transfers to any style, instrument, or software grid. The habit to carry forward is the layering order: voice, then hand, then instrument. The next lesson leaves duration behind and measures the other fundamental quantity, the distance between two pitches, so that the chords you already play can be described rather than merely recognised."
+              },
+              "readings": [
+                {
+                  "title": "[9] Open Music Theory — Notating Rhythm",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/notating-rhythm/",
+                  "note": "Read the Key Takeaways, then the sections Note Values, Rest Values, and Dots and ties. Use the dot and tie examples to check the arithmetic in this lesson. The site occasionally blocks automated tooling; open it in an ordinary browser if a fetch fails."
+                },
+                {
+                  "title": "[6] Open Music Theory — Simple Meter and Time Signatures",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/",
+                  "note": "Read Counting in Simple Meter for the numbering system used here, and A Note on Ties for the distinction between a tie and a repeated attack."
+                }
+              ],
+              "visual": {
+                "title": "Count note values and rests without losing the pulse — reasoning sequence",
+                "description": "Durations are computed inside a metrical frame before any playing begins.",
+                "steps": [
+                  "Frame: 4/4 at 90 BPM; beat = 0.667 s; bar = 2.667 s.",
+                  "Bar 1: quarter (1) + two eighths (1) + quarter (1) + quarter rest (1) = 4 beats.",
+                  "Bar 2: dotted quarter (1.5) tied to eighth (0.5) = 2 beats of one sound; then quarter (1) + quarter (1).",
+                  "Check order: count aloud, tap the pulse, play last."
+                ]
+              }
+            },
+            {
+              "id": "32",
+              "title": "Measure intervals and hear their tension",
+              "explanation": "An interval is the distance between two pitches, described by a size and a quality. Size counts letter names inclusively, so C to E spans C, D, E and is a third; quality makes it specific, and for our purposes the most reliable way to check quality is to count semitones. C to E is four semitones, a major third; C to E-flat is three, a minor third; C to G is seven, a perfect fifth; C to F-sharp is six, a tritone. A semitone is the distance between adjacent keys on a keyboard, and on a guitar it is one fret. Musicians describe some intervals as more stable and others as more in need of resolution, but that tension is a context-sensitive judgement rather than a fixed property: the same size can sound settled in one style and unsettled in another. What can be measured, and therefore taught first, is the distance itself.",
+              "example": "Measure four intervals from C without touching an instrument. C to E: letter names C, D, E give a third; semitones give four, so a major third. C to E-flat: a third with three semitones, so a minor third. C to G: a fifth with seven semitones, a perfect fifth. C to F-sharp: a fourth or fifth by name depending on spelling, six semitones, a tritone. Now verify each on the keyboard, playing the pair twice, once as two separate notes (a melodic interval) and once together (a harmonic interval). On the guitar, play the open A string, then the same string at the second fret: two semitones, a major second. Then play the fifth fret of the low E string against the seventh fret of the A string: the pitches are A and E, seven semitones apart, the same perfect fifth you measured on the keyboard. Compare the A string numbers with the DAW: a note at MIDI 60 is C4, and a note four numbers higher is a major third above it, so the editor can confirm a measurement you have already predicted.",
+              "question": "How many semitones are in a major third, and how many in a minor third?",
+              "answer": "Four semitones for major, three for minor",
+              "distractor": "Three semitones for major, four for minor",
+              "correction": "The major third is the larger of the two: C to E spans four semitones while C to E-flat spans three, which is exactly the change that alters a major triad into a minor one when the third is lowered.",
+              "depth": {
+                "definitions": "Size, or generic interval, counts staff positions inclusively and ignores accidentals. Quality, or specific interval, adds the exact semitone count and the labels major, minor, perfect, augmented, and diminished. Seconds, thirds, sixths, and sevenths take major and minor forms; unisons, fourths, fifths, and octaves take perfect forms. A melodic interval is sounded successively and a harmonic interval simultaneously. A simple interval spans an octave or less; a compound interval exceeds it. A cent is one hundredth of an equal-tempered semitone, which allows precise comparison of tunings. Conventional consonance and dissonance describe relative stability as if an interval either needs no resolution or invites one, and they are style-dependent categories rather than a ranking of pleasantness.",
+                "mechanism": "Why do intervals determine how chords sound? A triad is built from intervals above a root, so its quality follows from the sizes and qualities of those intervals: a four-semitone third with a seven-semitone fifth is major, a three-semitone third with a seven-semitone fifth is minor, and a six-semitone fifth makes it diminished. Measurement also explains tuning. A pure perfect fifth is a frequency ratio of 3:2, which is about 701.955 cents, while the equal-tempered fifth used by most piano and guitar tuning is 700 cents: a compromise of roughly two cents that allows the same instrument to play in every key. A pure major third at 5:4 is about 386.3 cents against 400 in equal temperament, a wider 13.7-cent compromise. The limitation of the measurement view is that it predicts distance, not effect: register, timbre, duration, and style all change how stable an interval seems.",
+                "secondExample": "Inversion is a contrasting application of the same arithmetic. Move the lower note of an interval up an octave and the interval inverts: a minor third (three semitones) becomes a major sixth (nine), and a perfect fourth (five) becomes a perfect fifth (seven). Notice the two rules: generic sizes sum to nine, and semitone counts sum to twelve. Test this on the keyboard by playing C to E-flat, then moving C up an octave to play E-flat to C. The sounding distance changes and the two notes are the same pair, which is why inverting an interval is a practical way to check a difficult measurement, and why the same chord can be rearranged without changing its identity.",
+                "mistake": "The commonest error is an off-by-one in size: counting the starting note as zero and calling C to E a second. Size counts positions inclusively, so the letter names must be counted out loud: C, D, E is a third. A related error is diagnosing quality by ear alone when a fret or key has been missed, so a played minor third is labelled major. Measure first, then listen. The third misconception treats one interval as inherently ugly or unusable; a tritone can be a stable colour in some idioms and a punctuation mark in others. The diagnostic for all three is the same: name the two pitches, count letter names, count semitones, and only then describe your impression of tension, using a sentence that would let another musician predict what you heard.",
+                "application": "For a three-minute nonblocking task, choose three intervals from a list you write yourself, predict each quality in writing before playing, then play all three on the keyboard and on the guitar's lowest strings in frets you find comfortable. Record whether each prediction was right. The rubric asks for predictions written before playing, correct semitone counts, comfortable physical execution or a stated alternative, and one spoken or written sentence describing the interval's stability rather than its mood. A model response reads: I predicted a perfect fifth from A to E and it was seven semitones; it sounded settled on both instruments and needed no resolution, while the tritone in the second pair seemed to pull. If a stretch is uncomfortable, play the two pitches one at a time and label them as a melodic interval instead of forcing a harmonic one.",
+                "summary": "Intervals are the atoms of harmony: chord quality, melody writing, and transposition can all be described as interval arithmetic. Having measured distance directly, you can now predict the notes of a key rather than learning each scale as an isolated fact. The next lesson uses the same semitone counting to read key signatures and derive the chords available in a key."
+              },
+              "readings": [
+                {
+                  "title": "[12] Open Music Theory — Intervals",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intervals/",
+                  "note": "Read the Key Takeaways, then the material on interval size and quality, simple and compound intervals, intervallic inversion, and the consonance and dissonance discussion. The inversion examples let you check the size-sum and semitone-sum rules stated here."
+                }
+              ],
+              "visual": {
+                "title": "Measure intervals and hear their tension — reasoning sequence",
+                "description": "Size is counted in letter names; quality is counted in semitones.",
+                "steps": [
+                  "Name both pitches and count letter names inclusively: C, D, E -> a third.",
+                  "Count semitones: C to E = 4 -> major third; C to E-flat = 3 -> minor third.",
+                  "Verify: C to G = 7 (perfect fifth); C to F-sharp = 6 (tritone).",
+                  "Invert to check: 3 + 9 = 12 semitones; 5 + 7 = 12 semitones."
+                ]
+              }
+            },
+            {
+              "id": "33",
+              "title": "Use key signatures to predict the notes you will play",
+              "explanation": "A key signature is a compact instruction: it states which notes of a piece are altered, so the same alteration does not have to be written before every occurrence. Its contents are not arbitrary. Sharps always appear in the order F, C, G, D, A, E, B, and flats always appear in the reverse order, B, E, A, D, G, C, F. From that order two rules let you name the key: in a sharp signature the last sharp is a semitone below the tonic, and in a flat signature the second-to-last flat is the tonic. Every major key shares its signature with a relative minor key whose tonic lies three semitones below the major tonic. The practical payoff is prediction: given a signature, you can say which notes to expect, which chords are likely, and where your fingers are likely to land, before you have heard a note.",
+              "example": "Take a signature with one sharp, F-sharp. Apply the rule: the last sharp is a semitone below the tonic, so F-sharp implies G, and the key is G major, whose notes are G, A, B, C, D, E, F-sharp. Its relative minor is three semitones below G, which is E, so the signature also serves E minor; both keys contain the same seven pitch classes. Now the practical consequences. The diatonic triads of G major are G, Am, Bm, C, D, Em and F-sharp diminished, so the common loop I-V-vi-IV becomes G, D, Em, C. On the guitar, the altered note F-sharp appears at the second fret of the low E string, the second fret of the high E string, the fourth fret of the D string, and the seventh fret of the B string. Derive a flat key the same way: two flats are B-flat and E-flat, and the second-to-last flat is B-flat, so the key is B-flat major, with G minor as its relative minor because G is three semitones below B-flat.",
+              "question": "A key signature contains one sharp. Which major key is it, and what is its relative minor?",
+              "answer": "G major, with E minor as the relative minor",
+              "distractor": "C major, with A minor as the relative minor",
+              "correction": "The last sharp in the signature is a semitone below the tonic, so F-sharp indicates G major rather than C major, and the relative minor's tonic lies three semitones below the major tonic, giving E minor.",
+              "depth": {
+                "definitions": "A scale is an ordered collection of pitches. A key is the organised system of expectations around a tonic, including the chords that tend to appear. A key signature is the notational convention that lists the altered notes of a key at the start of a staff. A tonic is the pitch that names the key. An accidental is a sign that alters a note in the music and typically applies for the rest of the bar unless it is cancelled. Relative keys share a signature and differ by a minor third in tonic; parallel keys share a tonic and differ in signature. The circle of fifths arranges the twelve major keys by number of accidentals. Enharmonic spellings name the same sounding pitch with different letters.",
+                "mechanism": "Why does the sequence of sharps always follow the same order? Because each new sharp is added a fifth above the previous one, which corresponds to the leading tone of the next key around the circle: add F-sharp for G major, then C-sharp for D major, then G-sharp for A major. The visual order also keeps the pattern legible across clefs. The prediction mechanism is the useful part. Once you know the signature and the tonic, you can build the diatonic triads by stacking scale degrees, and their qualities are fixed in every major key: I, IV, and V are major; ii, iii, and vi are minor; vii is diminished. That invariability is why one Roman numeral analysis can describe music in any key. The limitation is that a signature proposes a pitch collection rather than proving one: applied chords, borrowed chords, and modal writing all introduce accidentals that the signature does not show.",
+                "secondExample": "Contrast the two kinds of relationship with the same letters. G major and E minor share a signature but have different tonics, so they are relative keys. G major and G minor share the tonic but not the signature: G minor carries two flats, B-flat and E-flat. A learner who mixes the two relationships will misread the signature of every minor key. A second contrast shows that numerals travel and letters do not: I-V-vi-IV is G, D, Em, C in G major and B-flat, F, Gm, E-flat in B-flat major, yet the analysis is identical in both. In software, scale highlighting or a chord helper can display a pitch collection, but it cannot decide whether a chromatic note is an applied chord or an error, so the analytical step remains yours.",
+                "mistake": "Three errors are common. The first is reciting signature facts without the derivation rule, which fails as soon as the key is unusual: derive the tonic from the last sharp or the second-to-last flat every time until the facts are automatic. The second is treating the signature as a permission list, so a chromatic passing note is assumed to be a mistake; accidentals are ordinary. The third is confusing relative and parallel minors, calling C minor the relative of C major when C minor has three flats and A minor is the relative. Diagnose by writing the seven notes of the key, checking each against the signature, and marking where any chromatic note appears and what it does. Pencil marks in a DAW piano roll, with the expected scale tones named, serve the same purpose in a project.",
+                "application": "For a four-minute nonblocking task, choose one sharp key and one flat key, derive both from the rules, and write out the seven notes plus the seven diatonic triads with Roman numerals. Then play a short four-note melody in one key on the keyboard, repeat it in the other, and note where the corresponding notes sit on the guitar. The rubric asks for the derivation rule stated in your own words, correctly altered notes, correct triad qualities and numerals, comfortable playing or a stated alternative, and at least one observation about a physical consequence such as where the one altered note appears in first position. A model report reads: one sharp means G major, the fourth chord is C major, and the F-sharp sits at the second fret of the outer strings, so my open chords in that key need no change.",
+                "summary": "A key signature compresses a whole pitch collection into a few symbols, and the derivation rules let you expand it back into notes and chords. This is the analytical half of playing in a key; the physical half is choosing shapes that fit your hands, which is the subject of two lessons from now. The next lesson stays inside a key and builds its chords systematically, so that progressions can be named by function rather than memorised as finger patterns."
+              },
+              "readings": [
+                {
+                  "title": "[10] Open Music Theory — Major Scales, Scale Degrees, and Key Signatures",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/major-scales/",
+                  "note": "Read Major Scales, then Scale Degrees, Solfege, and Scale-Degree Names, then Key Signatures and The Circle of Fifths. The key-signature section states the last-sharp and second-to-last-flat rules used above."
+                },
+                {
+                  "title": "[11] Open Music Theory — Minor Scales, Scale Degrees, and Key Signatures",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/",
+                  "note": "Read The Parallel and Relative Relationships and Minor Key Signatures to fix the three-semitone relationship and to see why natural, harmonic, and melodic forms exist while the signature usually reflects natural minor."
+                }
+              ],
+              "visual": {
+                "title": "Use key signatures to predict the notes you will play — reasoning sequence",
+                "description": "Signature, tonic, and chord qualities are derived in order.",
+                "steps": [
+                  "Order of sharps: F, C, G, D, A, E, B. Order of flats: B, E, A, D, G, C, F.",
+                  "One sharp (F-sharp): last sharp is a semitone below the tonic -> G major.",
+                  "Relative minor: three semitones below G -> E minor.",
+                  "Diatonic triads of G major: I G, ii Am, iii Bm, IV C, V D, vi Em, vii dim."
+                ]
+              }
+            },
+            {
+              "id": "34",
+              "title": "Build triads from a key and name the progression",
+              "explanation": "A triad is a three-note chord whose members can be stacked in thirds, and inside a key you can build one on every scale degree by taking that note, the third above it, and the fifth above it. The resulting qualities are not random: in a major key the chords on the first, fourth, and fifth degrees are major, the chords on the second, third, and sixth are minor, and the chord on the seventh is diminished. Roman numerals record both facts at once in a single symbol, so I means a major triad on the first scale degree and vi means a minor triad on the sixth. This notation describes function rather than pitch, which is why a progression can be transposed into any key without rethinking its shape. Contemporary popular music draws heavily on four of these chords, and knowing their numerals lets you recognise and predict a progression instead of memorising song by song.",
+              "example": "Build the chords of C major and check each by counting semitones. I is C-E-G: a major third of four semitones and a perfect fifth of seven. ii is D-F-A: three and seven, minor. iii is E-G-B: three and seven, minor. IV is F-A-C: four and seven, major. V is G-B-D: four and seven, major. vi is A-C-E: three and seven, minor. vii is B-D-F: three and six, diminished. Now play the loop I-V-vi-IV, which is C, G, Am, F, holding each chord for one bar at 90 beats per minute; one bar lasts 2.667 seconds, so the loop is 10.667 seconds. Play it once blocked on the keyboard with a relaxed hand in the middle register, then play the same numerals in G major as G, D, Em, C. On the guitar, the same loop uses the open shapes G, D, Em, and C. Notice that the numerals did not change while the letters and the shapes did, and that the sixth chord sounds minor in both keys.",
+              "question": "In a major key, which of the three chords IV, V, and vi is minor?",
+              "answer": "vi, the triad on the sixth scale degree",
+              "distractor": "V, because every chord with a raised leading tone is minor",
+              "correction": "In a major key the qualities follow the scale pattern: I, IV, and V are major, ii, iii, and vi are minor, and vii is diminished. V is major because its third is the leading tone and a major third above the dominant.",
+              "depth": {
+                "definitions": "A triad is a three-note chord that can be stacked in thirds; its lowest note in that stack is the root, the middle is the third, and the top is the fifth. Quality names the interval pattern: major, minor, diminished, or augmented. Diatonic means belonging to the key without chromatic alteration. A scale degree is a numbered position in the scale, and a Roman numeral names the chord built on it, with uppercase for major, lowercase for minor, and a small circle for diminished. Function describes the role a chord tends to play rather than a mood. An inversion places a chord member other than the root in the bass, which changes the sound of an arrival without changing the chord's identity. A schema is a recognisable chord sequence shared by many songs.",
+                "mechanism": "Why are the qualities fixed? Because the major scale's half steps fall in the same places relative to every tonic. Stacking thirds from degree one produces a four-semitone third and a seven-semitone fifth; from degrees two, three, and six it produces a three-semitone third with the same seven-semitone fifth; from degree seven the fifth itself shrinks to six semitones. Since transposition preserves all the intervals, the pattern repeats in every major key, which is what makes numeral analysis portable. Two limits are worth stating. A Roman numeral analysis assumes a key, so a passage that is not clearly tonal resists it; and identifying a chord by stacking it requires deciding which note is the root, since the lowest sounding note may be the third or fifth instead.",
+                "secondExample": "Minor keys behave differently and are a useful contrast. In A minor the diatonic triads are Am, B diminished, C, Dm, Em, F, and G, that is i, ii, iii, IV, v, VI, and VII. Because the seventh degree of natural minor is a whole tone below the tonic rather than a semitone, the fifth chord is minor, and the dominant effect so common in tonal music requires raising that seventh degree, which turns v into a major V. Roman numeral analysis records the change, which is why a minor-key progression may show both v and V. This also explains how a four-chord loop can be analysed either from a major tonic or from its relative minor: the singer-songwriter schema read as vi-IV-I-V in the major is i-VI-III-VII in the relative minor.",
+                "mistake": "The most frequent error is naming a chord from its lowest sounding note, so a first-inversion triad is mislabelled after its bass. Diagnose by restacking the chord in thirds and reading root, quality, then bass separately. A second error is assuming chord symbols specify a voicing: Am names a pitch collection, not a hand position, which is why the same numeral can appear in many shapes. A third is treating major and minor as mood labels and then forcing an analysis to match the mood: a minor-key passage can be animated and a major-key passage reflective. The check is always structural: name the root, count the intervals, state the quality, and then describe what you hear.",
+                "application": "For a four-minute nonblocking task, write a I-V-vi-IV loop as Roman numerals in two keys, then write the chord symbols for both, then play or programme them with one chord per bar at 80 beats per minute, where a bar lasts 3 seconds. The rubric asks for correct numerals, correct qualities, correctly spelled chord symbols in both keys, a loop you can complete without stopping or a sequenced equivalent, and one observation about which key was physically easier and why. A model report reads: I-V-vi-IV in C is C, G, Am, F and in G is G, D, Em, C; the same four shapes recur with different letters, and G was easier on the guitar because all four chords were open shapes. Keep the sketch next to the recording so the analysis and the sound stay connected.",
+                "summary": "Chord construction turns a scale into a set of labelled options, and progressions become sequences of functions rather than lists of shapes. The next lesson moves from knowing which chords to play to playing them cleanly and safely, which is a physical problem with its own postures, warm-ups, and volume precautions."
+              },
+              "readings": [
+                {
+                  "title": "[5] Open Music Theory — Triads",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/triads/",
+                  "note": "Read Triadic Qualities and Spelling Triads to verify the semitone counts used above, and note the statement that triads have particular qualities by scale degree within major and minor keys."
+                },
+                {
+                  "title": "[13] Open Music Theory — Roman Numerals",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/roman-numerals/",
+                  "note": "Read Roman Numerals and Quality, then Roman Numeral Analysis. The chapter's procedure, identify the key, find the root, write the numeral with correct case, matches the practice sequence in this lesson."
+                },
+                {
+                  "title": "[14] Open Music Theory — Four-Chord Schemas",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/4-chord-schemas/",
+                  "note": "Read the Key Takeaways and the Doo-wop, Singer/Songwriter, and Hopscotch sections for named rotations of I, IV, V, and vi. Note the relative-minor reinterpretations listed for the singer/songwriter schema."
+                }
+              ],
+              "visual": {
+                "title": "Build triads from a key and name the progression — reasoning sequence",
+                "description": "Scale degrees become labelled chords whose qualities are predictable.",
+                "steps": [
+                  "Stack scale degrees 1-3-5, then 2-4-6, and so on through the key.",
+                  "Count semitones: 4+7 = major; 3+7 = minor; 3+6 = diminished.",
+                  "C major: I C, ii Dm, iii Em, IV F, V G, vi Am, vii B diminished.",
+                  "I-V-vi-IV in C = C G Am F; in G = G D Em C: same numerals, new letters."
+                ]
+              }
+            },
+            {
+              "id": "35",
+              "title": "Change guitar chords cleanly with a relaxed hand",
+              "explanation": "Your objective is to move between chords in time without gripping harder than the strings require, and to set up your body so that a twenty-minute session leaves no ache. The physical problem split in this lesson is this: accuracy of the fretting hand, timing of the change, and comfort of the whole body. Sit on a chair with a flat seat and both feet supported; for a right-handed player, rest the guitar body on the right thigh with the neck angled up so the fretting wrist stays close to straight. Keep the thumb behind the neck rather than hooked over the top, place each fingertip just behind its fret rather than on it, and use only the pressure that makes the note ring cleanly. Problems are diagnosed by symptom: a buzz usually means a finger is too far behind the fret or is muting a neighbouring string, not that you need more force.",
+              "example": "Practise one change, G to C, at 72 quarter-note beats per minute, where a bar lasts 3.33 seconds. Form G, strum once on beat one, then count two, three, four aloud while lifting the fingers a centimetre and forming the C shape silently in the air above the strings; the fingers arrive on the new shape before you need them, and beat one of the next bar is a relaxed strum rather than a scramble. Then repeat, changing every two beats instead of every four, and finally every beat, keeping the strum itself a small wrist motion. Add the timing check last: with a metronome at 72, sixteen bars of one-bar chords take 53.3 seconds, so a single pass of four changes is about thirteen seconds. If your hand tightens when the tempo rises, return to the silent preparation step at the slower tempo rather than squeezing harder.",
+              "question": "Where should the fretting thumb sit, and why does it matter?",
+              "answer": "Behind the neck, roughly opposite the middle fingers, supporting the hand instead of squeezing the neck",
+              "distractor": "Hooked over the top edge of the neck so the hand can grip harder",
+              "correction": "A thumb behind the neck gives the fingers room to reach without over-curling and discourages the excess grip force that causes fatigue; gripping over the top shortens the reach and increases tension in the hand and forearm.",
+              "depth": {
+                "definitions": "Posture is the arrangement of the whole body while playing, not only the hands. Wrist position describes how far the wrist deviates from its straight alignment. Action is the distance between the strings and the frets; higher action requires more force. A warm-up is a period of slow, easy playing before demanding material. A playing-related musculoskeletal disorder, as the source used here defines it, is weakness, numbness, pain, tingling, or another symptom that interferes with playing at your usual level. A practice break is a planned reduction of load, not only a pause for refreshment. Monitoring level is how loud you hear yourself through headphones or an amplifier, which is separate from whether the signal is correct.",
+                "mechanism": "Why does tension matter more than any single note? Sustained static postures and repetitive movements load tendons and muscles in the hand, wrist, and forearm, and the load depends on both force and duration. Gripping harder than necessary multiplies force without improving the note. Planning time is the second mechanism: a chord change is easier when your fingers are already travelling during the previous chord's duration, which is why counting aloud while moving silently works. The published evidence base is limited and should be read carefully. The University of Iowa guitar protocol page reports a Portuguese survey of 105 players in which 53 percent reported an injury related to practice, calculated as roughly one injury per 2,381 hours of practice, and it reports that failure to warm up was the only variable statistically associated with increased injury risk. That is an association in one survey, not proof that warming up prevents all injury.",
+                "secondExample": "Contrast the same change with a barre chord. A full barre asks one finger to press several strings at once and is often the first shape that produces fatigue, so a beginner can play a reduced three-note version of the same chord, or study the full voicing as note data in the piano roll, while strength develops gradually. Instrument condition belongs here too: if the action is very high or the neck relief is wrong, every chord costs more effort, and the appropriate response is to have the instrument checked by a qualified technician rather than to practise through it. Monitor level belongs to the same discussion: if your ears ring or feel dull after a session, the level or the duration was too high, and hearing loss from unsafe listening is a documented public-health concern.",
+                "mistake": "The commonest error is diagnosing a buzz as insufficient strength and pressing harder, when the real causes are usually a fingertip sitting behind the fret rather than just behind it, a collapsed finger muting a neighbouring string, or a finger that has drifted off its string entirely. The diagnostic is to move the finger forward without adding force and listen again. A second error is raising the volume of an amplifier or headphones to make a change sound better, which disguises the problem and raises hearing risk instead of reducing grip. A third is adding speed before accuracy, practising a change so fast that the silent preparation stage disappears. Test whether the change is reliable by playing it slowly, then check whether it still holds at speed; if it does not, the speed was borrowed from your accuracy rather than earned.",
+                "application": "For a five-minute session, choose two chords, set a slow tempo such as 72, and run the three stages: silent preparation during the count, change every four beats, then every two. Assess four things: changes arrive on time, no note buzzes, the wrist and shoulder stay comfortable, and a two-minute break follows fifteen minutes of playing. A model report reads: my G to C change was on time at four beats per change but late at two; the ring finger was landing flat, so I will move it closer to the fret and keep the slower stage for one more session. If playing is not possible, write the change as note data in the piano roll, mark each finger's path on paper, and state the intention you would test physically. Persistent pain is a reason to consult a qualified health professional, not a reason to push through.",
+                "summary": "Clean changes are the joint product of accurate placement, planned timing, and a low-tension setup, and each of the three can be assessed separately. Because a change that arrives late cannot be repaired by timing edits alone, this lesson also improves what you are able to record. The next lesson leaves the instrument behind and sets up the MIDI keyboard, where the goal is not to make sound but to produce instructions that software can play."
+              },
+              "readings": [
+                {
+                  "title": "[16] University of Iowa — Music and Medicine: Guitar Playing, Part 1: Health Considerations",
+                  "url": "https://iowaprotocols.medicine.uiowa.edu/protocols/guitar-playing-part-1-health-considerations-music-and-medicine-monday",
+                  "note": "Read the Overview and Definitions, then the practical guidance on warming up, keeping the wrist as straight as comfortably possible, avoiding a very low strap, taking breaks, and the ergonomics note on seated versus standing play. This is educational material from a university clinical protocol, not individual medical advice."
+                },
+                {
+                  "title": "[17] World Health Organization — Deafness and hearing loss (fact sheet)",
+                  "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+                  "note": "Read Key facts and Causes for the statement that over a billion young adults are at risk of permanent, avoidable hearing loss from unsafe listening practices. Relevant whenever you monitor through headphones or an amplifier."
+                }
+              ],
+              "visual": {
+                "title": "Change guitar chords cleanly with a relaxed hand — reasoning sequence",
+                "description": "Setup, preparation, and timing are checked separately.",
+                "steps": [
+                  "Seated setup: flat seat, both feet supported, guitar on the right thigh, neck angled up.",
+                  "Hand: thumb behind the neck, wrist close to straight, fingertip just behind the fret, least pressure that rings.",
+                  "Timing: strum on beat 1, count 2-3-4 while forming the next shape silently, arrive before the next 1.",
+                  "Check: no buzz, no grip increase as tempo rises, break after 15 minutes."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "music-u3-a",
+              "prompt": "A bar of 4/4 contains a dotted quarter, an eighth note, and a quarter note. Which single value completes the bar?",
+              "answer": "A quarter note, one more beat",
+              "distractor": "A half note, two more beats",
+              "correction": "1.5 + 0.5 + 1 = 3 beats, so exactly one beat is missing. A half note would overshoot the meter, which is why the values are added before the bar is played.",
+              "reviewLessonIds": [
+                "31"
+              ]
+            },
+            {
+              "id": "music-u3-b",
+              "prompt": "A learner writes C to E-flat as a major third because the two notes sit close together on the staff.",
+              "answer": "It is a minor third: three semitones, while the major third spans four",
+              "distractor": "It is a major third because E-flat is written a third above C",
+              "correction": "Size counts letter names inclusively, so both intervals are thirds. Quality counts semitones: three here, four for C to E. Lowering a chord's third is exactly what changes a major triad into a minor one.",
+              "reviewLessonIds": [
+                "32"
+              ]
+            },
+            {
+              "id": "music-u3-c",
+              "prompt": "A signature contains two flats and a learner names the key as E-flat major.",
+              "answer": "The key is B-flat major, with G minor as its relative minor",
+              "distractor": "The key is E-flat major, with C minor as its relative minor",
+              "correction": "Two flats are B-flat and E-flat, and the second-to-last flat names the tonic, so the key is B-flat major. E-flat major would require three flats, and its relative minor would be C minor.",
+              "reviewLessonIds": [
+                "33"
+              ]
+            },
+            {
+              "id": "music-u3-d",
+              "prompt": "A progression is labelled I-V-vi-IV, and a learner expects to use the same four finger shapes in every key.",
+              "answer": "The numerals remain identical while the letters and shapes change; in G major the loop is G, D, Em, C",
+              "distractor": "The finger shapes remain identical while only the note names change",
+              "correction": "Roman numerals describe function by scale degree, so transposition alters pitch names and physical shapes but leaves the analysis intact. Physical ease varies by key, which is a technique constraint rather than a theoretical one.",
+              "reviewLessonIds": [
+                "34"
+              ]
+            },
+            {
+              "id": "music-u3-e",
+              "prompt": "After forty minutes without a break a player's forearm aches, and the chosen response is to detune the guitar.",
+              "answer": "Shorten sessions and add warm-ups and breaks while reducing grip pressure; detuning does not reduce playing load",
+              "distractor": "Continue as before, because discomfort disappears once the hand grows stronger",
+              "correction": "Load depends on force and duration, so the response belongs to technique, session length, and instrument setup. Detuning changes pitch rather than the demand placed on the hand, and persistent symptoms call for qualified advice rather than more practice.",
+              "reviewLessonIds": [
+                "35"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "From MIDI controller to a first captured arrangement",
+          "lessons": [
+            {
+              "id": "36",
+              "title": "Use the MIDI keyboard as a controller, not a recorder",
+              "explanation": "A MIDI keyboard produces instructions, not sound. What travels from the keys is control data: which note, how hard, for how long, plus continuous messages from wheels, pedals, and knobs. The note itself becomes audible only when a sound source, usually a plugin instrument in your project, receives that data. Image-Line states this plainly in its MIDI settings documentation: MIDI does not transmit audio, it is a control-data connection. The practical consequence is that a silent controller is usually not broken; the chain is incomplete. Your setup sequence is therefore: connect the keyboard, open MIDI settings, select the input device, enable it, confirm that the activity indicator responds when you play, and make sure the instrument you intend to hear is loaded and selected. Everything you then play can be recorded as note data and edited note by note.",
+              "example": "Open the MIDI settings, select your keyboard in the input list, and click enable; play a few notes and watch for the activity indicator, which blinks when controller data is received. Now play C-E-G in the middle of the keyboard and inspect what arrived. The piano roll shows three horizontal bars: the vertical position is pitch, the horizontal position is onset time, and the width is the held duration. Check the numbers: middle C is MIDI note 60 and the A above it is note 69, which sounds at 440 hertz. Play one note softly and one firmly and compare the velocity values, which are usually numbers between 1 and 127. Finally, change the plugin instrument that is receiving the data. The notes stay in exactly the same places while the sound changes completely, which is the clearest practical demonstration that the notes were never the recording.",
+              "question": "The keyboard is connected and its activity indicator blinks, but the software makes no sound. What is the most likely explanation?",
+              "answer": "No sound source is loaded or selected for the channel that receives the data",
+              "distractor": "MIDI needs an audio preamp between the keyboard and the computer",
+              "correction": "Data is arriving, as the indicator shows, so the missing link is at the end of the chain: a plugin instrument must be present and selected to turn note data into audio. MIDI carries no audio signal, so a preamp would have nothing to amplify.",
+              "depth": {
+                "definitions": "MIDI is a protocol describing performance instructions: note numbers, velocities, durations, and control changes. A note-on begins a note and a note-off ends it; velocity is a per-note value that the sound source interprets. A control change is a continuous or switch message such as a sustain pedal, commonly numbered CC64. A channel is a numbered route that lets one controller address several instruments. A controller is hardware that sends data; an instrument is what produces sound; an audio interface converts between analogue and digital audio. Latency is the delay between your action and what you hear, and a buffer is the block of samples the audio device processes at once. Octave shift moves which pitches the keys represent.",
+                "mechanism": "The signal path explains both silence and delay. Your key sends a note-on with a note number and velocity to a MIDI input port; the software routes that to a channel; the plugin instrument converts it into audio; the audio travels to a mixer track and out to your monitoring. Latency lives in the audio path, not in the MIDI message. A buffer of 256 samples at 48,000 samples per second is 5.33 milliseconds one-way, and 512 samples is 10.67 milliseconds; players notice the larger value as sluggish even though the note data itself is accurate. Image-Line documents a playback tracking offset control for correcting note-start timing errors caused by system latency, and warns to check whether input quantising is responsible first, since a global snap setting can quantise live input.",
+                "secondExample": "Two contrasting cases sharpen the distinction. First, the same phrase played on the guitar and recorded as audio produces a waveform: its timing exists as recorded sound and cannot be moved note by note with the same transparency. Second, when you play the keyboard without recording, the software still keeps recent note activity, and Image-Line notes that the last three minutes from external controllers can be dumped into the piano roll, so an unrecorded idea can be recovered as data. That recovery is possible precisely because nothing audible was stored. A useful discipline follows: choose deliberately whether you are capturing instructions or capturing sound, and say which one you are doing when you save.",
+                "mistake": "The most persistent misconception is that MIDI sounds bad or thin, which mistakes the instructions for the instrument: the same data played by a different sound source can be convincing or poor. The diagnostic is to send one unchanged phrase to two different plugins and compare. A second error is blaming MIDI for a delay that originates in the audio buffer, then editing the note data to compensate and losing the intended timing; check the buffer and the playback offset instead. A third is playing much harder when the monitoring is quiet, since tension appears as uneven velocity rather than as anything the software can repair. Inspect the recorded velocity range before deciding that your touch is inconsistent.",
+                "application": "For a four-minute setup and test, connect and enable the keyboard, confirm the activity indicator, record eight notes including at least one soft and one firm attack, then change the plugin instrument and compare. Write a four-line log: device name, plugin selected, observed velocity range, and whether the latency felt comfortable while playing. The rubric asks for a working data path, correct identification of pitch and velocity in the piano roll, a demonstrated change of sound without a change of data, and comfortable posture and monitoring. A model log reads: keyboard enabled and blinking; held instrument was a soft pad, which hid the attacks, so I switched to a plucked sound; velocities ranged from about 40 to about 100; I would reduce the buffer before recording a fast part.",
+                "summary": "Treating the keyboard as a controller explains its silence, its editability, and its latency. Note data can be corrected, transposed, re-timed, or re-instrumented after the fact, which makes it the most forgiving capture format available to you. The next lesson records both kinds of material, instructions from the keyboard and audio from the guitar, with a repeatable procedure for takes and monitoring."
+              },
+              "readings": [
+                {
+                  "title": "[19] MIDI.org — About MIDI, Part 1: Overview",
+                  "url": "https://midi.org/about-midi-part-1overview",
+                  "note": "Read the section headed MIDI is not audio and the following paragraphs on flexibility. The sheet-music analogy there is the basis for the distinction between instructions and recorded sound."
+                },
+                {
+                  "title": "[20] Image-Line — Controller/MIDI Settings",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/envsettings_midi.htm",
+                  "note": "Read Basics of connecting a MIDI Device: choose the input device, click enable, watch the activity light. The page also states that MIDI is a control-data connection and points to the debug log for diagnosing controller numbers."
+                },
+                {
+                  "title": "[21] Image-Line — Hardware Controllers",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/basics_controllers.htm",
+                  "note": "Read Types of Controllers for keyboard, pad, and knob-based options, and note the linked-controller procedure and the score-log dump command mentioned in the notes."
+                }
+              ],
+              "visual": {
+                "title": "Use the MIDI keyboard as a controller, not a recorder — reasoning sequence",
+                "description": "Data and audio occupy different positions in one chain.",
+                "steps": [
+                  "Key press -> note-on with note number and velocity (MIDI data only).",
+                  "Input port -> channel -> plugin instrument.",
+                  "Instrument -> audio -> mixer track -> monitoring.",
+                  "Buffer size sets latency in the audio stage: 256 samples at 48 kHz = 5.33 ms one way."
+                ]
+              }
+            },
+            {
+              "id": "37",
+              "title": "Record a part with a count-in and honest takes",
+              "explanation": "Recording is a procedure you repeat, not a moment of luck. Two different things get recorded, and keeping them separate prevents most beginner problems. Note data from the keyboard is instructions and can be corrected afterwards. Guitar audio is the recorded sound itself, captured on a mixer track that has been armed, and it carries the timbre, the room, and every stumble as a waveform. Your sequence is: decide which of the two you are capturing, set the recording filter so only that kind of data is recorded, select a pattern or a track, give yourself a count-in, set the input level so the loudest strum sits safely below the point where the meter shows overload, monitor quietly, and record several takes rather than gambling on one. Image-Line documents that for disk recording the effects on the armed track are recorded too, so decide whether you want a dry take before you start.",
+              "example": "Record a two-bar part at 80 beats per minute, where a bar lasts 3 seconds. First the MIDI version: set the recording filter to note data, select the pattern, play the count-in, and record the chord change plus a short melody line; repeat three times, keeping all takes, and choose one by listening rather than by feel. Then the guitar version: arm a mixer track, select the input your guitar is connected to, set the record level so that the loudest chord peaks comfortably below overload with the meter still showing green, and record three two-bar takes with the click in headphones at a low level. If a single strum distorts while quieter playing is clean, the problem is at the input stage, not in your playing or in the export, so reduce the record level and record again.",
+              "question": "A recorded guitar take distorts only on the loudest strum. Which change addresses the cause?",
+              "answer": "Reduce the input level that feeds the armed mixer track, then record again",
+              "distractor": "Lower the monitoring or headphone volume and export again",
+              "correction": "The overload happens before the signal reaches the monitoring stage, so a quieter listening level cannot repair a clipped recording. The monitor volume control only changes what you hear, not what is written to the file.",
+              "depth": {
+                "definitions": "A take is one recorded attempt. Loop recording captures several takes of the same passage in succession. Punch recording replaces a defined region. A count-in is counted time before recording begins, so the part starts on a downbeat. Arming a track prepares it to receive a signal. The recording filter selects which data types the transport records: audio, note data, or automation. Input gain sets how much the interface amplifies your instrument before conversion. Clipping is the loss of information when a signal exceeds the range that can be stored. Monitoring is how you listen while playing; direct monitoring comes from the interface and software monitoring comes back through the project, which is where latency is heard.",
+                "mechanism": "The two capture paths diverge at the end. Audio recording converts the performance to samples and stores them, so the sound is fixed; the note data path stores instructions and re-generates sound at playback, so pitches, timing, and instrument can all be changed later. This is why the manual advises recording the audio of any external hardware if you want that sound inside an offline render, and why a project can sound correct while an exported file lacks a part. A second mechanism concerns level: digital recording has a fixed ceiling, so the useful habit is to leave room rather than to aim high. Monitoring creates its own trap, since louder monitoring sounds better to almost everyone; the manual records that the monitor volume knob has no effect on rendered levels, which means you can lower it freely without changing the mix.",
+                "secondExample": "Contrast two correction strategies after a flawed take. With note data, you can move one onset a few milliseconds and leave the rest untouched, or fix a wrong pitch, without touching the sound. With guitar audio, moving the region shifts the whole performance including the room tone, and stretching it risks audible artefacts, so re-recording is often the cleaner route. A third case is the accidental hybrid: a controller take that drives an external instrument, where editing the notes changes the performance but not the recorded sound of the instrument, which must be captured separately. Naming this before recording prevents the common disappointment of discovering, after an hour, that the take which sounded right during the session cannot be delivered as the file that was wanted.",
+                "mistake": "Three errors are common. The first is monitoring so loudly that the guitarist cannot hear the guitar, and then compensating by playing harder, which adds tension and reduces accuracy; keep the click and the monitor quiet enough to hear the instrument itself. The second is leaving effects on the armed audio track and recording reverb permanently into the performance; use a dry route if you may want to change the effects later. The third is treating one take as the goal, and therefore stopping the session after a single failed attempt rather than building a repeatable procedure. A quieter but real error is ignoring ringing ears after a session: the documented risk of avoidable hearing loss from listening practices makes that a signal to reduce level and duration.",
+                "application": "For a ten-minute task, record three takes of a two-bar part at 80 beats per minute, then choose one and write a four-line log: setup used, count-in, number of takes, and the reason the chosen take won. The rubric asks for a correctly armed path for the material type, a level that does not clip, takes that start on the downbeat, and a stated choice based on listening. A model log reads: armed track one with a dry input, click at low level, three takes each two bars; the second take was chosen because the chord change arrived before the downbeat and the third take had a buzz on the first chord. If audio recording is unavailable, sequence the part as note data and keep exactly the same log, marking clearly that no audio was captured.",
+                "summary": "A finished part is the product of a repeatable procedure: correct capture type, adequate level, a count-in, several takes, and a documented choice. The next lesson examines the timing of what you have just captured, where the decision is no longer whether to correct it but how much of the performance's deviation was intentional."
+              },
+              "readings": [
+                {
+                  "title": "[22] Image-Line — Recording Audio, Scores (Notes) & Automation Overview",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording.htm",
+                  "note": "Read the list of data types FL Studio can record, then the sections on the recording filter for audio, notes, automation, and clips. This is the map for deciding what a session captures."
+                },
+                {
+                  "title": "[23] Image-Line — Note/MIDI Recording",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_scores.htm",
+                  "note": "Read Setup, especially Filtering MIDI data and Timing issues, which explains the playback tracking offset and warns to check input quantising first."
+                },
+                {
+                  "title": "[24] Image-Line — Audio Recording",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_audio.htm",
+                  "note": "Read Pre-requisites for recording external audio, Recording into the Playlist, and Loop recording for multiple takes; the notes on arming a mixer track and on effects being recorded correspond to the cautions in this lesson."
+                },
+                {
+                  "title": "[18] World Health Organization — Make Listening Safe",
+                  "url": "https://www.who.int/activities/making-listening-safe",
+                  "note": "Skim the initiative's aim of reducing the risk of noise-induced hearing loss from recreational listening. It supports the monitoring-level habit in this lesson."
+                }
+              ],
+              "visual": {
+                "title": "Record a part with a count-in and honest takes — reasoning sequence",
+                "description": "Capture type determines what can be edited later.",
+                "steps": [
+                  "Choose capture type: note data (instructions) or audio (recorded sound).",
+                  "Prepare: filter set, pattern or armed track, input selected, dry route if effects may change.",
+                  "Set level so the loudest strum is below overload; monitor quietly with a count-in.",
+                  "Record several takes; choose by listening; write the log line by line."
+                ]
+              }
+            },
+            {
+              "id": "38",
+              "title": "Weigh quantisation against groove",
+              "explanation": "Quantisation moves note events toward timing positions supplied by a grid or a template. It is a choice with trade-offs, not a default repair. The quantiser in FL Studio accepts a groove template, which is an ordinary score file used for its note positions and lengths rather than its pitches; it offers a strength control that mixes the original start time with the quantised one; a sensitivity setting that decides how close a note must be before it is affected; and modes that choose whether duration or end time is quantised or left alone. Because a template is interpreted as a set of candidate positions, choosing a swung template changes both where notes land and the grid the piano roll displays. The musical question is whether the deviation you are removing was noise or intention, and the only reliable way to answer it is to keep the original and compare.",
+              "example": "Build a straight sixteenth-note pattern at 90 beats per minute, where one sixteenth lasts 166.7 milliseconds and a pair of sixteenths occupies 333.3 milliseconds. Keep an untouched copy. In the second copy, apply a groove template with roughly sixty per cent swing, which places the first note of each pair at about 200 milliseconds and the second at about 133.3 milliseconds, a ratio of three to two. A template of about sixty-seven per cent swing instead gives about 222 milliseconds and about 111 milliseconds, very close to the two-to-one ratio of a triplet feel. Listen to the three versions at the same level with the screen hidden, and count which one matches the feel you intended. If the straight version was deliberate, the honest outcome is to keep it rather than to accept an edit that merely looks tidier.",
+              "question": "A part is quantised to a straight sixteenth grid and sounds mechanical although all the notes are correct. What is the most appropriate experiment?",
+              "answer": "Compare the original with a partial-strength or groove-template version that matches the intended feel",
+              "distractor": "Quantise every note again at maximum strength so the grid is as exact as possible",
+              "correction": "Exact alignment to a straight grid removes exactly the deviations that create a groove. A template or a partial strength setting lets you remove accidental drift while retaining the intended placement, and keeping the original makes the comparison possible.",
+              "depth": {
+                "definitions": "A grid, or snap, is the set of positions the software will align events to. Pulse per quarter note is the project's timing resolution; at 96 PPQ one quarter note is 96 ticks, a sixteenth is 24 ticks, and a 4/4 bar is 384 ticks. Strength mixes the original and quantised positions, so fifty per cent strength on a note that is thirty milliseconds late moves it about fifteen milliseconds. Sensitivity decides which events are close enough to be affected at all. A groove template supplies real played positions. Duration is the interval between note-on and note-off; end time is the absolute position of note-off. Swing describes a long-short pairing of subdivisions. Humanisation adds deliberate variation, which is not the same as random scatter.",
+                "mechanism": "Why can a template sound better than a grid? A grid states mathematical equality, while a template states where notes were actually played by an instrument or a person, including the slight anticipation that gives a strum its drive. Because the quantiser moves each onset to the nearest position in the template, a template with fine subdivisions preserves relationships that a coarse grid destroys: a note intended at a triplet position cannot be represented by a sixteenth grid at all. The manual also records that some global snap settings quantise live input, which is quantisation happening before you can judge it, and that a template's note velocities set to zero delete the corresponding notes, so templates are data with consequences. Quantisation cannot fix a wrong pitch, a wrong chord, or an unsuitable sound, and it treats recorded audio differently, since moving a waveform moves the entire recorded event.",
+                "secondExample": "Contrast two decisions with the same tool. A sixteenth-note rhythm guitar part that should push slightly ahead of the beat is best left with a low strength or no quantisation, because removing the push removes the effect. A bass line with one note arriving forty milliseconds late on the second beat is best corrected at that note alone, with everything else untouched. A third contrast concerns the direction of the edit: quantising durations tightens every note's release, while the mode that leaves duration alone keeps each note's individual length. Because those produce different phrasings from identical onsets, the mode choice is a musical decision rather than a technical detail, and it should be written into the edit log.",
+                "mistake": "The default failure is select all, quantise at full strength, assume improvement. That can erase deliberate offbeats, shorten notes into a brittle texture, or disguise a rhythm that was misconceived from the start. The opposite error is equally common: defending every irregularity as expressive without being able to describe or reproduce the intention. A third error is leaving a swung groove template active and then judging the part against a straight metronome, which produces an apparent timing problem that does not exist. Diagnose by naming the intended rhythm first, choosing the template that can express it, editing only the events you can justify, and listening with the screen hidden before and after.",
+                "application": "For a five-minute lab, build a straight sixteenth pattern, make an independent copy, and apply either a sixty per cent swing template or hand edits that move alternate sixteenths. Write an edit log with the arithmetic: the pair is 333.3 milliseconds, so the swung first note is about 200 milliseconds and the second about 133.3 milliseconds; state the template, strength, sensitivity, and mode you used, and which version you keep. The rubric asks for an independent original, a stated intention, one identified deviation, preservation of deliberate placements, and a before-and-after listening check. Keeping the original when nothing improves is a correct outcome and should be recorded as such.",
+                "summary": "Timing edits are arguments about intent, and the grid is only one possible argument. You now hold a small decision framework: state the intended feel, choose positions that can express it, change as little as possible, and keep the source. The next lesson turns from time to space, layering two recorded parts so that each remains audible rather than competing."
+              },
+              "readings": [
+                {
+                  "title": "[7] Image-Line — Piano roll Quantizer",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll_qnt.htm",
+                  "note": "Read Groove Template, Strength, the Quantize mode options, and Action buttons, then the notes on making groove templates, including the statement that only note position and length are used and that zero velocities delete notes. Note also the remark that Global Snap controls real-time input quantising."
+                },
+                {
+                  "title": "[15] Open Music Theory — Other Rhythmic Essentials",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/other-rhythmic-essentials/",
+                  "note": "Read Borrowed Divisions for triplets and the idea that a division can be borrowed from another meter, then Syncopation for how ties, dots, rests, and accents create off-beat emphasis. Useful background for deciding what a grid can and cannot represent."
+                },
+                {
+                  "title": "[1] Image-Line — Piano roll",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll.htm",
+                  "note": "Read Piano roll Basics for the description of notes as horizontal bars and the relationship between the grid, snap, and zoom. Helpful before changing a division setting."
+                }
+              ],
+              "visual": {
+                "title": "Weigh quantisation against groove — reasoning sequence",
+                "description": "Position, strength, and mode are three separate decisions.",
+                "steps": [
+                  "State the intended feel: straight, pushed, shuffled, or triplet-based.",
+                  "Choose positions: grid division or groove template (.fsc) that can express it.",
+                  "Choose strength and sensitivity; keep the original copy untouched.",
+                  "Choose the mode: quantise duration, quantise end time, leave duration, or leave end time."
+                ]
+              }
+            },
+            {
+              "id": "39",
+              "title": "Layer guitar and keyboard without masking",
+              "explanation": "Two parts that occupy the same pitch range compete, and the quieter one loses. This is masking: overlapping energy in the same frequency region makes one sound harder to hear even when nothing is technically wrong. Your guitar in first position spans roughly 82 hertz at the low E string to 330 hertz at the high E string, while keyboard triads played in the middle of the instrument sit between about 131 and 523 hertz, so the two overlap across most of the guitar's range. The ordering of fixes matters. First change the arrangement: move one part to a different register, thin a voicing, or give the parts different rhythmic roles. Then adjust level, then panning, and only then equalisation, which is a refinement rather than a solution to a compositional collision. Decide the roles before touching a fader: for example a sustained keyboard pad above the guitar's rhythmic figure, with the root carried by the lowest note available.",
+              "example": "Take a guitar strummed on the chord roots around the middle of the instrument and a keyboard triad at the same octave. Both occupy roughly the same band, and the pad will smear the guitar's attacks. First fix, register: move the keyboard voicing down an octave, which halves its frequency, so a note at about 262 hertz becomes about 131 hertz and the guitar's upper range clears; alternatively move it up so the two parts no longer share a band. Second fix, density: reduce the triad to two notes, or hold one sustained note instead of a chord. Third, level: small moves are enough, remembering that a 6 decibel reduction in level corresponds to about half the amplitude and 12 decibels leaves roughly a quarter of the original level, so a three decibel change is already substantial. Finally, check on one speaker or in mono, because panning that appears to separate the parts in stereo often reveals the collision when the two channels are combined.",
+              "question": "A keyboard pad disappears whenever the guitar plays. Which action addresses the masking most directly?",
+              "answer": "Change the register, voicing, or rhythmic role of one part so the two occupy different ranges, then rebalance",
+              "distractor": "Raise the pad's level until it can be heard over the guitar",
+              "correction": "If both parts occupy the same frequency region, raising the level simply moves the competition and consumes headroom. Separating them in range or density lets each part be heard at a lower, more comfortable level.",
+              "depth": {
+                "definitions": "Masking is the reduction in audibility of one sound caused by another in the same frequency region and time. Register is the range of pitches a part occupies. Voicing is how the members of a chord are distributed and spaced. Doubling means two parts playing the same material, which thickens one line rather than adding a second. Panning places a signal between the stereo channels and does not separate parts when the channels are later combined. Headroom is the margin between the signal's level and the ceiling where information is lost. An equaliser raises or lowers the level of specific frequency bands; the parametric equaliser in FL Studio offers peaking, shelf, high-pass, low-pass, band-pass, and notch shapes. An octave is a doubling or halving of frequency and spans 1200 cents.",
+                "mechanism": "The mechanism of masking is physical rather than stylistic: within a critical band of frequencies, a louder component reduces the audibility of a quieter one, and sustained dense material tends to cover the attacks of a transient line more than the reverse. This is why attacks are the last thing to survive a crowded mix, and why a pad that seems gentle alone can erase a strummed figure. The remedies follow the same logic. Separation in frequency reduces overlap; separation in rhythm lets each part's events fall when the other is quiet; separation in level changes who dominates; separation in the stereo field works only for stereo listeners. Practical limits matter: equalisation that carves a deep notch out of one part to make room may remove the character that made the part worth recording, and heavy level changes on the master affect everything at once, which is a blunt instrument for a local problem.",
+                "secondExample": "Contrast a collision in the low register. Two parts playing roots around the low E string and the lowest keyboard octave fight over a narrow band, and both consume headroom, so their sum can approach the level where the rendered mix clips. Here the fix is usually allocation rather than equalisation: let one part own the root, move the other up a fifth or an octave, or reduce one part to a single note, then check the combined level in the fullest bar. Now contrast a deliberate collision: two parts playing the same line in unison is a doubling, an intentional thickening. The diagnostic question is therefore not whether two parts overlap but whether the overlap was chosen; if it was, keep it and manage the level, and if it was not, change the arrangement first.",
+                "mistake": "The usual error is reaching for equalisation and level first, carving a notch out of the pad or pushing the guitar up, when the collision was created by two parts sharing a register. The diagnostic is to mute each part in turn and ask what it contributes where it sits. A second error is judging balance only in the fullest passage and never in the sparse one, or the reverse, so the balance is tuned for one texture and fails in the other. A third is panning a part far to one side, hearing an improvement, and never checking the mono sum, where the separation disappears. Finally, do not repair a performance problem with processing: an out-of-time or out-of-tune part cannot be mixed into sounding intentional, and it should be re-recorded or corrected at its source.",
+                "application": "For a five-minute balance pass, name each part's role and range in writing, mute and restore each part to hear what it contributes, make at most one arrangement change and at most one level or equaliser change, then listen to the fullest four bars at a comfortable level and again on a single speaker or in mono. The rubric asks for both parts to remain traceable, roles stated in advance, changes that are minimal and reversible, a mono check performed, and monitoring kept at a safe level. A model report reads: the pad was masking the guitar's upper strings; I moved the pad down an octave and reduced it slightly; both lines are now audible in mono and I did not need equalisation. Save before making changes so the experiment can be undone.",
+                "summary": "Layering is a sequence of role decisions, and the arrangement can solve what a fader cannot. You now have the two production judgements a first arrangement needs: what belongs in each range, and how loudly. The next lesson assembles the recorded parts into sections with planned dynamics and delivers a documented file rather than an unfinished project."
+              },
+              "readings": [
+                {
+                  "title": "[8] Image-Line — Levels, Mixing & Clipping",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer_levelsandmixing.htm",
+                  "note": "Read Setting Output Mix Levels, Using peak meters, and The dB scale used on meters, where the manual gives the correspondences used here, including 6 decibels as about half the level and 12 decibels as about a quarter. Note that the monitor volume knob does not affect rendered levels."
+                },
+                {
+                  "title": "[28] Image-Line — Fruity Parametric EQ 2",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Parametric%20EQ%202.htm",
+                  "note": "Read the introduction and Parameters for the band types, centre frequency, and width controls, plus the global gain slider. The page frames equalisation as changing the level of specific frequencies, which is the role assumed here."
+                },
+                {
+                  "title": "[29] Image-Line — Fruity Balance",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Balance.htm",
+                  "note": "A short page describing a simple level and pan effect. Useful for the reference to panning before reaching for equalisation."
+                },
+                {
+                  "title": "[3] Image-Line — Mixer Functions",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer.htm",
+                  "note": "Consult the routing material when a part's level seems to change the wrong thing; it is the reference for where each channel's audio actually goes."
+                }
+              ],
+              "visual": {
+                "title": "Layer guitar and keyboard without masking — reasoning sequence",
+                "description": "Fix overlap in the arrangement before touching a fader.",
+                "steps": [
+                  "State each part's role: pad, rhythm figure, melody, or bass.",
+                  "Compare ranges: guitar first position about 82-330 Hz; keyboard middle register about 131-523 Hz.",
+                  "Change arrangement first: register, voicing density, or rhythmic role.",
+                  "Then level (-6 dB is about half), then pan, then equalisation; finish with a mono check."
+                ]
+              }
+            },
+            {
+              "id": "40",
+              "title": "Assemble a first arrangement with sections, dynamics and a delivery note",
+              "explanation": "An arrangement is a plan for time. Your parts are recorded and balanced; the remaining work is deciding when each of them sounds, what changes at a section boundary, and how the piece ends. Section changes must be audible without looking at the screen, which means a change in material, density, or articulation rather than a renamed marker. Dynamics here means planned changes in density and level across the piece; an automation clip implements such a plan because it moves a linked control along a drawn line and repeats identically every playback. Practical plan for a first piece: four sections of four bars at 96 beats per minute, where a bar lasts 2.5 seconds, giving ten seconds per section and forty seconds of musical body. Then export the audio, listen to the actual file from the first note to the end of the tail, and write a delivery note that states what you intended, what you delivered, what you heard, and what you will revise.",
+              "example": "Plan the piece in bar counts and seconds before assembling it. Section one, four bars, guitar figure alone, ten seconds. Section two, the same four bars plus the keyboard pad, so density rather than material changes. Section three, the keyboard takes the melody in a higher register while the guitar becomes sparse, which changes role. Section four, a return of the original figure with the fullest texture, ending with a deliberate release. In the playlist, place a pattern clip and an audio clip for the parts, then create one automation clip on the pad's level so it rises across section two instead of appearing abruptly. Because automation clips are stored as data linked to a control and drawn in the playlist, the change is repeatable and editable rather than a gesture lost after playback. Render the audio, open the file, and confirm the four sections and the release by listening.",
+              "question": "The second section should feel bigger without adding another instrument. Which solution is repeatable and editable?",
+              "answer": "An automation clip that moves a linked control, such as a level or filter, across that section",
+              "distractor": "Playing the section louder by hand each time you listen, without recording the movements",
+              "correction": "An automation clip stores the change as linked control data that plays back identically and can be edited later, while unrecorded movements exist only for the moment they were made and cannot be reproduced or refined.",
+              "depth": {
+                "definitions": "Form is the organisation of material over time. A section is a passage with a recognisable role. Density is how much happens at once; texture describes which kinds of part are sounding. Dynamics are planned changes in level and intensity. An automation clip moves a linked control and appears in the playlist as an editable line graph; event automation edits individual values inside a pattern instead. A transition links two sections. A tail is sound that continues after the last scheduled event. Rendering, or exporting, computes an audio file from instruments, clips, routing, effects, and the selected options. A delivery note documents intent and files. A stem is a grouped audio contribution, not necessarily a single instrument.",
+                "mechanism": "Why do sections need to be audible rather than labelled? Listeners track expectation, and a repeated figure establishes a reference against which change becomes meaningful, so a boundary is created by what actually sounds. Two mechanisms make the change reliable. First, arrangement changes alter the material or its density, which survives any playback system. Second, automation changes a parameter along a defined curve, so the same result recurs on every pass; Image-Line notes that automation clips are not bound to a pattern and exist as a special generator in a channel. Recording automation with the mouse or a linked controller produces a dense stream of values, which is why the manual observes that at 96 pulses per quarter note an unedited pass can contain 384 control points per bar and recommends converting it into a clip before editing.",
+                "secondExample": "Contrast two ways to mark the same boundary, and then a technical contrast in delivery. Adding a layer changes the material, while automating an existing part changes its behaviour: a pad that opens in level or filter can create the same sense of arrival without a new part, and both must be audible at a comfortable monitoring level. On delivery, the distinction between note data and audio decides what travels. A project file depends on the same instruments and routing being available on the destination system; a MIDI file contains instructions and needs a sound source; an audio render contains the sound itself. If a part depends on external hardware controlled by MIDI, its audio must be recorded for an ordinary offline render to include it, so a project that sounds right in your room can still deliver an incomplete file.",
+                "mistake": "The most common failure is treating file existence as delivery: the export finishes, so the work is declared complete without listening from beginning to end. Another is ending with an abrupt cut or with unintended silence, which the section plan would have caught; check the tail deliberately and decide whether the extra duration is intended. A third is confusing loudness with quality and describing a file as mastered because it is loud. A fourth is adding new parts whenever a section feels static, instead of removing or thinning something, which is often the more audible change. Finally, do not claim listening checks you did not perform; a truthful note about an unverified file is more useful than a confident claim, and the level quiz cannot substitute for a file-level listen.",
+                "application": "For a twenty-minute build, write a plan with four sections, each with a bar count and a duration at your tempo, assemble the recorded parts, add at least one automation change that implements a dynamic decision, render the audio, then listen to the exported file from the first attack to the end of the tail at a comfortable level. Write a delivery note with four headings: intent, files, listening findings, next revision. The rubric asks for a plan with stated durations, an audible difference at each boundary, one automation change that is repeatable, a documented listen to the actual file, and at most one revision priority per cycle. A model note reads: the pad enters in section two through a rising automation clip; the export contains all four sections and a natural release; the third section's melody is partly covered, so the next revision will thin the pad rather than raise the melody.",
+                "summary": "This level's portfolio is a counted rhythm exercise, a set of predicted intervals, two derived key signatures, two labelled progressions, a documented guitar change drill, a MIDI setup log, a set of recorded takes, a quantisation comparison with arithmetic, a two-part balance pass, and a rendered arrangement with a delivery note. Together they show how reading, harmony, physical technique, and production decisions support one another, and where each can fail. A quiz score can check the reasoning in this list but cannot demonstrate that any of it was played, recorded, or heard, so the recorded and written artifacts remain the evidence that matters."
+              },
+              "readings": [
+                {
+                  "title": "[27] Image-Line — Automation Clips",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/playlist_automationclip.htm",
+                  "note": "Read Automation Clips, Automation Clip Focus, and Creating Automation Clips. The page explains that automation clips move linked controls, are not bound to a pattern, and appear in the playlist as a line graph."
+                },
+                {
+                  "title": "[26] Image-Line — Recording Automation",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_automation.htm",
+                  "note": "Read Setup and Recording automation, then the note about control-point density at 96 pulses per quarter note and the option to turn a recording into an automation clip."
+                },
+                {
+                  "title": "[2] Image-Line — The Playlist",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/playlist.htm",
+                  "note": "Read Patterns, Audio Clips and Automation Clips and Working with Clips for the distinction between the three clip types you place in an arrangement."
+                },
+                {
+                  "title": "[4] Image-Line — Exporting Audio & MIDI",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm",
+                  "note": "Read the material on rendering, output formats, effects options, and external hardware. Note that a MIDI file is not a recording of your instrument's sound and that hardware audio must be recorded to appear in a render."
+                }
+              ],
+              "visual": {
+                "title": "Assemble a first arrangement with sections, dynamics and a delivery note — reasoning sequence",
+                "description": "Sections are planned in bars and seconds, then verified in the exported file.",
+                "steps": [
+                  "Four sections of four bars at 96 BPM: 2.5 s per bar, 10 s per section, 40 s body.",
+                  "Sections 1-4: guitar figure alone -> add pad -> melody changes register -> return plus release.",
+                  "Automate one linked control across a boundary so the change repeats identically.",
+                  "Render, listen to the exported file end to end, then write intent, files, findings, next revision."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "music-u4-a",
+              "prompt": "The MIDI keyboard's activity indicator blinks, yet the project stays silent and nothing appears in the piano roll.",
+              "answer": "The recording filter is not set to record note data",
+              "distractor": "The keyboard is transmitting audio that the piano roll cannot display",
+              "correction": "The indicator proves that data is arriving. Note data is stored only when the recording filter includes it, and MIDI never carries audio, so a display problem cannot be caused by an audio signal.",
+              "reviewLessonIds": [
+                "36",
+                "37"
+              ]
+            },
+            {
+              "id": "music-u4-b",
+              "prompt": "In a recorded guitar take a single loud strum is distorted while the quieter playing is clean.",
+              "answer": "Reduce the record level feeding the armed track, then record the take again",
+              "distractor": "Lower the headphone volume and export the project again",
+              "correction": "The overload happened before the monitoring stage, so the stored samples are already clipped. Exporting again reproduces the same damaged file, whereas a correct input level prevents the problem at its source.",
+              "reviewLessonIds": [
+                "37"
+              ]
+            },
+            {
+              "id": "music-u4-c",
+              "prompt": "A rhythm part that should push slightly ahead of the beat sounds lifeless after full-strength quantisation to a straight grid.",
+              "answer": "Keep the original and compare it with a lower-strength or groove-template version that matches the played feel",
+              "distractor": "Quantise the same part again with identical settings to remove the remaining deviation",
+              "correction": "Full strength removed the intended anticipation along with accidental drift. Partial strength and templates are designed to mix original and template positions, and preserving the source makes the comparison possible.",
+              "reviewLessonIds": [
+                "31",
+                "38"
+              ]
+            },
+            {
+              "id": "music-u4-d",
+              "prompt": "Two parts sound clearly separated in stereo, but the pad covers the guitar as soon as the mix is heard in mono.",
+              "answer": "Panning separated them only in stereo, so their registers or densities must be changed",
+              "distractor": "Pan the two parts further apart until the mono version also improves",
+              "correction": "Panning collapses when the channels are combined, so overlapping frequency content returns. Register, voicing, and rhythmic role are the changes that survive a mono listen, with level and equalisation used afterwards.",
+              "reviewLessonIds": [
+                "39"
+              ]
+            },
+            {
+              "id": "music-u4-e",
+              "prompt": "A section of the arrangement should feel fuller on every playback, without adding another instrument.",
+              "answer": "Draw an automation clip that moves a linked level or filter control across the section",
+              "distractor": "Give the section a longer name and a different clip colour",
+              "correction": "Automation stores a linked parameter change as editable data that repeats identically, while names and colours document form without producing any audible difference.",
+              "reviewLessonIds": [
+                "40"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "music-l2-a",
+          "prompt": "A two-bar 4/4 pattern at 90 beats per minute begins with a dotted quarter tied to an eighth note on the same pitch. How long does that single sound last?",
+          "answer": "About 1.33 seconds: one beat plus one third of a beat",
+          "distractor": "About 1.00 second, because the tie does not add duration",
+          "correction": "At 90 beats per minute a beat lasts 0.667 seconds, a dotted quarter lasts 1.0 second, and the tied eighth adds 0.333 seconds, giving about 1.33 seconds for one uninterrupted sound.",
+          "reviewLessonIds": [
+            "31"
+          ]
+        },
+        {
+          "id": "music-l2-b",
+          "prompt": "A recorded triad contains notes whose MIDI numbers are 60, 63, and 67. Which chord is it?",
+          "answer": "C minor: a minor third of three semitones with a perfect fifth",
+          "distractor": "C major: a major third of four semitones with a perfect fifth",
+          "correction": "Note 60 is C, 63 is three semitones above it, and 67 is seven semitones above it. A minor third with a perfect fifth is a minor triad, so the editor's numbers confirm the quality.",
+          "reviewLessonIds": [
+            "32"
+          ]
+        },
+        {
+          "id": "music-l2-c",
+          "prompt": "A song carries a key signature of one sharp. Which note must be altered, and where does it appear on the low E string of a standard-tuned guitar?",
+          "answer": "F-sharp, at the second fret of the low E string",
+          "distractor": "F natural, at the first fret of the low E string",
+          "correction": "One sharp is F-sharp, which makes the key G major rather than F, and the second fret of the low E string sounds the note a semitone above the tonic's neighbour; F natural belongs to the key of C.",
+          "reviewLessonIds": [
+            "33"
+          ]
+        },
+        {
+          "id": "music-l2-d",
+          "prompt": "A chart asks for I-V-vi-IV in D major. Which chords does that produce?",
+          "answer": "D, A, Bm, G",
+          "distractor": "D, G, Bm, A",
+          "correction": "In D major the tonic is D, the dominant is A, the sixth-degree triad is B minor, and the fourth-degree triad is G. Swapping G and A would place the subdominant where the dominant belongs, changing the progression's function.",
+          "reviewLessonIds": [
+            "34",
+            "32"
+          ]
+        },
+        {
+          "id": "music-l2-e",
+          "prompt": "A player rehearses for two hours without a break and reports hand fatigue, having read that one survey of guitarists calculated about one practice-related injury per 2,381 hours, with failure to warm up the only variable statistically associated with higher risk.",
+          "answer": "Shorten sessions, add warm-ups and breaks, and reduce unnecessary grip force, seeking qualified advice if symptoms persist",
+          "distractor": "Extend the sessions so the hand adapts to the load",
+          "correction": "Load depends on force and duration, and the reported association points to preparation and pacing. The survey is a single reported dataset rather than proof that a warm-up prevents all injury, so the response is risk reduction plus qualified advice when symptoms continue.",
+          "reviewLessonIds": [
+            "35"
+          ]
+        },
+        {
+          "id": "music-l2-f",
+          "prompt": "A project uses a 512-sample audio buffer at a 48 kilohertz sample rate, and playing fast parts feels sluggish. What is the approximate one-way delay, and what follows from reducing it?",
+          "answer": "About 10.7 milliseconds, and a smaller buffer lowers the delay while raising processor load and the risk of dropouts",
+          "distractor": "About 1.07 milliseconds, with no compensatory disadvantage",
+          "correction": "512 divided by 48,000 is about 0.0107 seconds. The delay lives in the audio path rather than in the MIDI message, and shrinking the buffer trades latency against processing stability.",
+          "reviewLessonIds": [
+            "36"
+          ]
+        },
+        {
+          "id": "music-l2-g",
+          "prompt": "While recording with a click, a player raises the headphone level because the guitar is hard to hear, then plays noticeably harder.",
+          "answer": "Lower the monitoring level and keep the playing effort unchanged, since monitoring does not set the recorded level",
+          "distractor": "Raise the record level to match the harder playing",
+          "correction": "Monitor level changes only what you hear, so it can be reduced freely to hear the instrument. Playing harder to compensate raises tension and clip risk, and raising the record level would move the overload point rather than the performance.",
+          "reviewLessonIds": [
+            "36",
+            "37"
+          ]
+        },
+        {
+          "id": "music-l2-h",
+          "prompt": "Sixteenth notes at 90 beats per minute are reinterpreted with a groove template that places about sixty per cent of each pair on the first note. Roughly how long is that first note of every pair?",
+          "answer": "About 200 milliseconds",
+          "distractor": "About 133 milliseconds",
+          "correction": "A pair of sixteenths lasts about 333 milliseconds at this tempo; sixty per cent of that is about 200 milliseconds and the remainder is about 133 milliseconds, which is a three-to-two long-short pairing.",
+          "reviewLessonIds": [
+            "31",
+            "38"
+          ]
+        },
+        {
+          "id": "music-l2-i",
+          "prompt": "A guitar figure becomes unclear only when a keyboard pad enters, although nothing clips and the pad is not loud. What is the least invasive first change?",
+          "answer": "Move one part's register or thin its voicing so the two occupy different ranges, then rebalance",
+          "distractor": "Boost the guitar with a limiter until it sits above the pad",
+          "correction": "This is masking, which is a problem of overlapping range rather than of level. Changing register or density removes the overlap; limiting only raises the guitar's level, consumes headroom, and leaves the two parts competing in the same band.",
+          "reviewLessonIds": [
+            "39"
+          ]
+        },
+        {
+          "id": "music-l2-j",
+          "prompt": "An eight-bar arrangement is exported and the file is longer than the calculated body of the piece. What must be established before the file is delivered?",
+          "answer": "Whether the extra duration is an intended release tail or unintended silence, by listening against the section plan",
+          "distractor": "That the export is invalid, because a file must end precisely on the last note-off",
+          "correction": "Note instructions and audible tails are different things, so a reverb or instrument release can legitimately extend a file. The section plan and a listen decide whether the duration was intended, and unintended trailing silence is a revision rather than a mathematical error.",
+          "reviewLessonIds": [
+            "30",
+            "40"
+          ]
+        },
+        {
+          "id": "music-l2-k",
+          "prompt": "A four-section sketch is planned as four bars per section at 96 beats per minute, and the second section must gain energy without a new instrument.",
+          "answer": "Automate a linked control across the section and confirm the change on every playback",
+          "distractor": "Depend on playing the section more forcefully each time it is heard",
+          "correction": "At 96 beats per minute a bar lasts 2.5 seconds, so each four-bar section lasts ten seconds. Automation clips store a linked parameter change as editable data that repeats identically, whereas an unrecorded performance decision cannot be reproduced or revised.",
+          "reviewLessonIds": [
+            "28",
+            "40"
+          ]
+        },
+        {
+          "id": "music-l2-l",
+          "prompt": "A project file is sent to a collaborator; it opens, but one part is silent even though the same part plays correctly in your studio.",
+          "answer": "That part depends on an instrument, plugin, or external device that was not delivered, so audio should be rendered or the dependency documented",
+          "distractor": "MIDI files contain recorded audio, so the transferred file must be corrupted",
+          "correction": "Note data is instructions that require a sound source, and hardware audio must be recorded to appear in a render. Delivering a rendered audio file, or documenting the instrument and routing, prevents a correct project from arriving incomplete.",
+          "reviewLessonIds": [
+            "36",
+            "37",
+            "40"
+          ]
+        }
+      ]
+    }
+  ]
+}

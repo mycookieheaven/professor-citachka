@@ -1,0 +1,675 @@
+{
+  "subject": "finance",
+  "levels": [
+    {
+      "title": "Compounding, Risk, and Reading Financial Evidence",
+      "units": [
+        {
+          "title": "Compounding, Purchasing Power, and the Price of Risk",
+          "lessons": [
+            {
+              "id": "31",
+              "title": "Compound growth: frequency, contributions, and the Rule of 72",
+              "explanation": "The objective is to predict how a balance grows when returns are earned on earlier returns, and to state every assumption that makes the prediction meaningful. Compounding means a return is applied to a balance that already includes previous returns. Three choices change the result: how often a return is credited, how large and how frequent the contributions are, and what is deducted along the way. The Rule of 72 is a mental shortcut for doubling time, not a rule of nature. Lesson 21 built date discipline for separate receipts; this lesson builds the arithmetic of a single growing account, so that a projection can be described as conditional rather than announced as a fact. Every figure below states its rate, its compounding convention, its horizon, and its fee and tax treatment.",
+              "example": "Place a hypothetical $10,000 in an account with a stated 6% nominal annual rate, no fees, no taxes, and no withdrawals. If interest is credited once a year, the balance after ten years is 10,000 times 1.06 to the tenth power, or $17,908.48. If the same stated 6% is credited monthly at 0.5% per month, the balance is 10,000 times 1.005 to the one hundred twentieth power, or $18,193.97. Compounding more often does not raise the rate; it raises the base to which later credits apply, adding $285.49 over a decade at this rate. Expressed annually, the monthly convention produces an effective rate of 1.005 to the twelfth power minus one, or 6.1678%. The Rule of 72 predicts a doubling time of 72 divided by 6, or 12 years; the exact solution, the natural logarithm of two divided by the natural logarithm of 1.06, is 11.8957 years, so the shortcut overshoots by roughly five weeks here.",
+              "question": "A deposit earns a stated 6% nominal rate with monthly compounding. Is one year of growth exactly 6%?",
+              "answer": "No; it is about 6.17%, because interest is credited twelve times",
+              "distractor": "Yes; the stated rate is always the annual growth rate",
+              "correction": "(1 + 0.06/12)^12 − 1 equals 6.1678%. Stated and effective rates diverge whenever returns are credited more than once a year, and the gap widens as the rate rises.",
+              "depth": {
+                "definitions": "Principal is the amount on which a return is calculated. A stated or nominal rate is quoted for a period, usually a year, together with a convention for how often it is credited. The compounding period is the interval between credits. The effective annual rate converts any convention into one comparable yearly number. A contribution is money added to the account; contributions made at the end of each period form an ordinary annuity, while contributions at the beginning form an annuity due. The Rule of 72 is an approximation: 72 divided by a percentage rate gives an estimated doubling time in years. None of these terms describes the likelihood that an assumed rate will be earned.",
+                "mechanism": "Compounding is repeated multiplication along a timeline. With one annual credit, each year multiplies the balance by 1 + i. With m credits per year, the same stated rate i is divided into m pieces, so one year multiplies the balance by (1 + i/m)^m, which exceeds 1 + i for every m greater than one and approaches the exponential constant raised to i as m grows without limit. Frequency therefore has a real but bounded effect: at 6% the annual and monthly conventions differ by 0.1678 of a percentage point, and at 2% they differ by only 0.0184 of a point. The arithmetic says nothing about whether the assumed rate will be paid. Fees are subtracted from the assets that earn, taxes remove part of the gain, inflation changes what the final number buys, and withdrawals change the base. A contribution stream adds a second layer of timing, because each contribution compounds for a different number of periods.",
+                "secondExample": "Now replace a one-time deposit with a monthly contribution schedule. Assume $300 is added at the end of every month for 30 years at the same 6% nominal rate credited monthly, with no fees, taxes, or withdrawals. The future value of that ordinary annuity is 300 times the quantity (1.005 to the 360th power minus one) divided by 0.005, which is $301,354.51. Contributions total $108,000, so $193,354.51 of the ending balance is accumulated return rather than money deposited. If the saver instead starts ten years later, contributing monthly for only 20 years, the ending balance is $138,612.27. The delay removes $162,742.24, more than half the total, from a schedule whose monthly payment never changed. That is the arithmetic of time, and it is also entirely conditional on an assumed rate being earned every month for thirty years.",
+                "mistake": "The most common error is to add the stated rate to a balance once a year while the contract credits it monthly, which understates growth and hides the effective-rate difference. A second error is to treat the Rule of 72 as exact: at 3% it predicts 24 years while the exact solution is 23.4498 years, and the discrepancy grows with the rate. A third is to read a projection such as $301,354.51 as an outcome rather than an implication of an assumption. Diagnose the model by writing three labels next to every number: the period covered, the compounding convention, and what has been excluded. If any label is missing, the figure cannot be checked by a reviewer, and an unchecked figure should not be presented to a decision maker as a plan.",
+                "application": "Optional practice: open the SEC investor education compound interest calculator, enter $300 per month for 30 years at a 6% assumed rate, and compare the tool's output with $301,354.51. Then change only the compounding frequency, then the rate by one percentage point, and note which input moves the result most. Model response: the monthly-contribution figure reproduces closely when the calculator compounds the same way; a one point change in the assumed rate shifts the result by tens of thousands of dollars, far more than a change in frequency. Self-review criteria: the rate is labeled as assumed; the horizon and contribution timing are stated; the result is described as conditional; and no sentence promises that 6% will be earned.",
+                "summary": "Compounding rewards time and penalizes delay, but only under stated assumptions. Frequency matters modestly, contribution timing matters a great deal, and the assumed rate matters most of all. The transferable skill is to convert any headline about growth into a sentence containing a rate, a convention, a horizon, and an exclusion list. The next lesson reverses the operation and asks the harder question: what rate should be used to move a future amount back to today, and on what evidence."
+              },
+              "readings": [
+                {
+                  "title": "Investor.gov (SEC) — Compound Interest Calculator, accompanying explanations",
+                  "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator",
+                  "note": "Read the calculator's four labeled steps as the SEC presents them: 'Initial Investment', 'Contribute' (an amount added to the principal every month, or a negative number for a monthly withdrawal), 'Interest Rate' (with a range above and below the rate you set, so the tool displays an outcome band rather than a single figure), and 'Compound It' (the number of times per year interest is compounded). Use it to reproduce this lesson's $17,908.48 and $301,354.51 figures and to see how the tool itself frames the frequency choice. The calculator is an educational tool for hypothetical inputs; it is not a forecast, and this lesson's values are derived from the discrete formulas rather than copied from the tool."
+                },
+                {
+                  "title": "OpenStax, Principles of Finance — 8.4 Stated versus Effective Rates",
+                  "url": "https://openstax.org/books/principles-finance/pages/8-4-stated-versus-effective-rates",
+                  "note": "Read the sections 'The Difference between Stated and Effective Rates' and 'Effective Rates and Period of Compounding'. The textbook works a credit-card example and shows that a stated 1.5% per month compounds to an effective 19.56% a year; check that figure yourself as (1.015)^12 − 1 before using it to make the same point at a lower rate."
+                }
+              ],
+              "visual": {
+                "title": "Two conventions, one stated rate — labeled growth path",
+                "description": "A labeled comparison of annual and monthly crediting of the same stated rate, followed by the contribution-timing contrast. Read in order; no relationship depends on colour.",
+                "steps": [
+                  "Start: 10,000 at a stated 6% nominal rate; year zero",
+                  "Annual crediting: ten multiplications by 1.06; end 17,908.48",
+                  "Monthly crediting: 120 multiplications by 1.005; end 18,193.97; effective rate 6.1678%",
+                  "Contribution track: 300 per month for 360 months; 108,000 contributed; end 301,354.51",
+                  "Delayed start: the same 300 per month for only 240 months; end 138,612.27"
+                ]
+              }
+            },
+            {
+              "id": "32",
+              "title": "Discounting: the rate is an assumption, not a fact",
+              "explanation": "The objective is to move future money back to today correctly and to defend the rate used for that move. Present value divides a future amount by a growth factor. The operation is simple; the difficulty lies entirely in what the discount rate represents. A rate stands for what the same resources could earn elsewhere at comparable risk and maturity, plus expected inflation, plus compensation for the chance that the expected cash does not arrive as modeled. Two analysts working with identical receipts can honestly reach different present values because they disagree about the opportunity cost. That is not a defect to be smoothed over with more decimal places. It is the single most important input in the calculation, and it must be stated, justified, and tested for sensitivity rather than presented as a property of the cash flow itself.",
+              "example": "A household wants $50,000 in fifteen years and is deciding what to set aside today, with fees and taxes ignored to isolate the rate choice. At an assumed 5% effective annual rate the required amount is 50,000 divided by 1.05 to the fifteenth power, or $24,050.85. At an assumed 4% it is 50,000 divided by 1.04 to the fifteenth power, or $27,763.23. One percentage point on the assumed rate changes today's required deposit by $3,712.37, roughly 13% of the lower amount. The same sensitivity appears when valuing a stream: five year-end receipts of $25,000 each, discounted at 5%, have a present value of $108,236.92, while the identical receipts discounted at 7% are worth $102,504.94, which is 5.30% less. Nothing about the receipts changed. Only the assumed rate did, and the rate is a claim about alternatives that must be argued.",
+              "question": "Two analysts value the same five year-end receipts of $25,000. At 5% one obtains $108,236.92; at 7% the other obtains $102,504.94. Which made an arithmetic error?",
+              "answer": "Neither; they used different discount-rate assumptions",
+              "distractor": "The 5% analyst, because the higher value must be inflated",
+              "correction": "Both used the same annuity formula on the same dated receipts. The disagreement is about the opportunity cost, which is an assumption to be defended with evidence rather than a number that can be looked up.",
+              "depth": {
+                "definitions": "Present value is the amount today that is equivalent to a stated future amount under a stated rate. The discount factor is 1 divided by (1 + r)^t, the multiplier that moves a payment at date t back to the valuation date. A discount rate is the opportunity cost of capital applied to that valuation; a required return is the same idea stated as a hurdle. An annuity is a level stream of payments at regular intervals. A nominal rate includes expected inflation while a real rate excludes it. Sensitivity analysis recomputes a result while changing one input. None of these is a forecast of a market outcome; they are modeling conventions whose appropriateness must be argued case by case.",
+                "mechanism": "Discounting and compounding are inverses because each year of waiting multiplies a value by one plus the rate. Dividing by the same factor moves a value backwards along the timeline. Because the factor is raised to a power, present value falls disproportionately as the horizon lengthens: moving a payment from year five to year fifteen at 5% cuts its present value by more than half, even though the number of years tripled. The rate must match the cash flows. Nominal receipts belong with a nominal rate; receipts already stated in today's purchasing power belong with a real rate; a rate appropriate for a short government-guaranteed deposit is not appropriate for an uncertain business receipt. Finally, a single rate applied to all horizons is a simplification: genuine markets quote different rates for different maturities, and the shape of that term structure is itself an economic question this lesson does not solve.",
+                "secondExample": "Now reverse the direction. An investment of $10,000 becomes $18,000 after ten years, with no fees, taxes, or interim flows. The total return is 80%, and a promotional summary might call that 8% a year because 80 divided by 10 equals 8. Compounding shows the error: $10,000 at a true 8% would reach $21,589.25 in ten years, not $18,000. The consistent annual rate solves (18,000/10,000)^(1/10) − 1, which is 6.0540%. Dividing a total return by a number of years always overstates the annual rate because it ignores that earlier growth would itself have grown. The same rule applies in reverse to discounting: a ten-year annuity factor is not ten times a one-year factor, and a reviewer who checks that multiplication will find the error immediately.",
+                "mistake": "Three errors recur. The first divides a total return by the number of years and reports the result as an annual rate, overstating it by 1.95 points in the example above. The second applies a nominal discount rate to receipts already expressed in today's purchasing power, which charges for inflation twice and produces an artificially low present value. The third treats the chosen rate as an established fact about the investment rather than as a judgement about alternatives, so that a present value is presented with no accompanying argument. Diagnose all three by asking what the rate represents, what it is measured against, and what happens to the conclusion if it moves by one percentage point. A present value that survives none of those questions is not evidence.",
+                "application": "Optional practice: write four lines for the $50,000 goal — the assumed rate, the horizon, the present value, and one sentence naming the alternative use of the money that justifies the rate. Then recompute at one percentage point higher and lower and state the range. Model response: at 4%, 5% and 6% the required deposits are approximately $27,763, $24,051 and $20,863, so the plan should be described as a range tied to an assumption rather than a single number. Self-review criteria: units and dates are labeled; the rate is explicitly called assumed; the sensitivity is reported; and the answer does not claim the investment will return the discount rate.",
+                "summary": "Present value is arithmetic laid on top of a judgement. The arithmetic can be checked by a reviewer; the judgement can only be argued, tested, and disclosed. Treat the discount rate as the most contestable number in the model, and present a range whenever the conclusion depends on it. The next lesson takes one component of that judgement — expected inflation — and shows why a nominal figure and a real figure can differ so much over a long horizon that they tell opposite stories about the same balance."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 7.3 Methods for Solving Time Value of Money Problems",
+                  "url": "https://openstax.org/books/principles-finance/pages/7-3-methods-for-solving-time-value-of-money-problems",
+                  "note": "Read the learning outcomes list, which includes explaining how present and future dollar amounts are calculated and describing how discount rates, growth rates, and periods of time are calculated, then read the section 'Using Timelines to Organize TVM Information' with its Tables 7.1 and 7.2, which lay a five-year 5% example along a timeline before any formula is applied. The textbook uses a financial calculator and spreadsheets; the underlying identity is the same one used here, and the practice of drawing the timeline before computing is the habit this lesson is testing."
+                },
+                {
+                  "title": "Investor.gov (SEC) — Glossary entry, Compound Interest",
+                  "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest",
+                  "note": "A deliberately short glossary entry defining compound interest as interest paid on principal and on accumulated interest, with a link to the SEC's compound interest calculator. Read it as a definition rather than an explanation; it is included here because a regulator's plain statement of the mechanism is useful when someone challenges the direction of the arithmetic."
+                }
+              ],
+              "visual": {
+                "title": "One goal, three rates — sensitivity sequence",
+                "description": "A labeled sequence showing how the same future goal produces different required deposits as the assumed rate changes, then how the same receipts produce different present values. Read in order.",
+                "steps": [
+                  "Goal: 50,000 in fifteen years; assumption must be stated first",
+                  "At 4%: deposit 27,763.23 today",
+                  "At 5%: deposit 24,050.85 today",
+                  "Five receipts of 25,000: 108,236.92 at 5%, 102,504.94 at 7%",
+                  "Total return 80% over ten years: 6.0540% a year compounded, not 8%"
+                ]
+              }
+            },
+            {
+              "id": "33",
+              "title": "Inflation and purchasing power: nominal versus real figures",
+              "explanation": "The objective is to keep two units of measurement apart. A nominal amount is measured in the currency units of the day it is received. A real amount is measured in the purchasing power of a chosen base date. Inflation is a general rise in the price level, measured by an index rather than by any single product, so no household's experience is exactly the index. A balance that never falls in nominal terms can still lose a large share of what it buys, and a payment contract that fixes a nominal amount for decades quietly transfers purchasing power away from the recipient. This lesson continues the nominal-and-real distinction introduced earlier for return conventions, and applies it to balances, fixed payments, and the difference between a nominal gain and a real one.",
+              "example": "Set aside $100,000 in an account paying nothing, and assume general inflation of 2.5% a year for twenty years, with no fees or taxes because none arise. The nominal balance stays at $100,000, yet its purchasing power is 100,000 divided by 1.025 to the twentieth power, or $61,027.09 measured at today's prices. That is a loss of about 39% of real value, produced without a single negative balance. Turn next to a positive nominal return: an investment earning a nominal 4% while inflation runs at an assumed 3% has a real return of 1.04 divided by 1.03, minus one, or 0.9709%. Subtracting 3 from 4 gives 1%, which is close enough for conversation but not for a long-horizon model, because the approximation omits the interaction between the two rates.",
+              "question": "A fixed payment of $3,000 a month continues for fifteen years while prices rise at an assumed 2.5% a year. What happens to what it buys?",
+              "answer": "Its purchasing power falls to about $2,071 in today's prices",
+              "distractor": "Nothing, because the nominal payment never changes",
+              "correction": "Deferring a fixed nominal amount by 1.025^15 gives $2,071.40, a reduction of 30.95%. The contract is stable in currency units and shrinking in goods and services, which is the distinction the index measures.",
+              "depth": {
+                "definitions": "A price index measures the change in the price of a defined group of goods and services over time. Nominal values are stated in the currency of their own date. Real values are restated in the purchasing power of a base date. The real interest rate is the nominal rate adjusted for inflation using (1 + nominal)/(1 + inflation) − 1. Deflating means dividing a nominal amount by the cumulative index to restate it. A fixed nominal payment is a stream whose currency amount is contractually constant. Indexation is a contractual or statutory adjustment that changes a payment with an index. Each index reflects its own basket, so a personal inflation rate can differ materially from the headline figure.",
+                "mechanism": "The mechanism behind the loss is that prices and balances move in different units. A nominal balance grows only if something adds to it; a price level grows on its own as money is spent through the economy. Because the gap compounds, small annual differences become large over long horizons: at 2.5% a year, twenty years of deferral remove roughly 39% of purchasing power, and the time required for prices to double is 72 divided by 2.5, or 28.8 years by the Rule of 72 approximation, against an exact 28.0710 years. Federal Reserve education is explicit that inflation is a general increase in the overall price level rather than the rising price of one or two products, and that different indexes can therefore send different signals. Two consequences follow for financial statements: the nominal/real convention must match the discount rate, and any comparison across decades must be made in one unit or the other, never mixed.",
+                "secondExample": "Consider a real return calculation that is easy to get wrong in the opposite direction. A deposit pays a nominal 2% while an assumed inflation rate is 3%, with interest taxed as it accrues at a hypothetical 20% marginal rate and no other fees. The real pre-tax return is 1.02 divided by 1.03 minus one, or about −0.9709%: the saver loses purchasing power before tax is considered. Applying the hypothetical 20% tax to the nominal interest of $20 per $1,000 leaves a nominal 1.6% return, which deflates to 1.016 divided by 1.03 minus one, or about −1.3592%. The tax is levied on a nominal gain while the real gain is negative, which is the mechanism some commentators call the inflation tax: the additional cost arises because the tax base is nominal. Whether and how such a gain is taxed depends on the account, the product, and the jurisdiction, and the rates used here are hypothetical illustration rather than a statement of current law.",
+                "mistake": "The usual error is to compare a nominal balance with a real goal. A saver who targets '$100,000 in twenty years' has not specified what that $100,000 should buy, and at 2.5% assumed inflation it is worth $61,027 in today's terms. A second error is to assume that a wage, a pension, or a rental contract keeps pace with prices automatically; indexation exists because it does not. A third is to treat one published inflation rate as the reader's own rate: baskets differ, and housing, medical, and education costs move differently from the headline index. Diagnose by writing the base date beside every amount in the plan, and treat any figure lacking that label as not yet usable.",
+                "application": "Optional practice: restate one long-term goal from the earlier lessons in real terms — for example, a target balance expressed in today's purchasing power — and write the assumed inflation path beside it. Model response: the goal is written with its base date, the inflation assumption is labeled as an assumption, and the nominal equivalent is computed for the target year rather than substituted for it. Self-review criteria: every amount carries a unit label; the inflation rate is described as an assumption rather than a prediction; no figure is presented as guaranteed; and the response states that a personal inflation rate can differ from any published index because baskets differ.",
+                "summary": "Money is a unit of account and a store of value, and the two functions can separate. Whenever a plan spans years, choose one unit — nominal or real — and hold it consistently in both the cash flows and the rate. State the assumed inflation path explicitly, because it is a judgement like any other assumption. The next lesson turns from the changing value of money to the variability of returns, and separates the average return a projection can report from the range of outcomes a saver actually experiences."
+              },
+              "readings": [
+                {
+                  "title": "Board of Governors of the Federal Reserve System — FAQ: What is inflation, and how does the Federal Reserve evaluate changes in the rate of inflation?",
+                  "url": "https://www.federalreserve.gov/faqs/economy_14419.htm",
+                  "note": "Read the first two paragraphs and the list of evaluation steps. The Fed states that inflation cannot be measured by the price change of one or even several products, and that different indexes track different goods and are calculated differently. Use this to support the distinction between an index and a household's experience, and to avoid asserting a single universal inflation rate."
+                },
+                {
+                  "title": "Board of Governors of the Federal Reserve System — FAQ: Why does the Federal Reserve aim for inflation of 2 percent over the longer run?",
+                  "url": "https://www.federalreserve.gov/faqs/economy_14400.htm",
+                  "note": "Read the explanation of the longer-run goal and its rationale. The purpose here is precision about language: a central bank target is a policy objective, not a promise about prices, and it is not a forecast that a household can treat as a guaranteed input to a fifty-year plan."
+                }
+              ],
+              "visual": {
+                "title": "Nominal balance, real purchasing power — diverging lines",
+                "description": "A labeled sequence showing two measures of the same balance over twenty years, then the real-return conversion. Read in order; the divergence is described in words.",
+                "steps": [
+                  "Nominal line: 100,000 stays at 100,000 with no interest credited",
+                  "Inflation assumption stated: 2.5% a year",
+                  "Real line: 100,000 / 1.025^20 = 61,027.09 at today's prices",
+                  "Fixed payment: 3,000 a month for 15 years is worth 2,071.40 today",
+                  "Real return of a 4% nominal return with 3% inflation: 0.9709%, not 1.0000%"
+                ]
+              }
+            },
+            {
+              "id": "34",
+              "title": "Risk and return: dispersion, not a promise",
+              "explanation": "The objective is to separate three things that casual language merges: the average outcome a model reports, the range of outcomes that could occur, and the compensation a market demands for bearing that range. Risk in finance means the degree of uncertainty and the potential for financial loss, not merely an unpleasant feeling. As risk rises, investors demand higher expected returns to compensate themselves, which is why a higher expected return is a signal of higher risk rather than a promise of greater reward. Expected return is a probability-weighted average across a stated set of outcomes, and in general it is not itself one of the outcomes. This lesson extends the earlier treatment of expected values by insisting that the distribution, not the mean alone, governs whether a plan survives.",
+              "example": "Two hypothetical assets both have a 5% expected annual return, and fees, taxes, and inflation are ignored to isolate dispersion. Asset A pays exactly 5% in every state of the world. Asset B has three states: a 25% chance of a −25% return, a 50% chance of +5%, and a 25% chance of +35%. The probabilities sum to 1.00, and the expectation is 0.25 × (−25%) + 0.50 × (5%) + 0.25 × (35%), which is 5.00%, identical to A. Yet B's variance is 0.25 × (−30)^2 + 0.50 × (0)^2 + 0.25 × (30)^2, or 450, so its standard deviation is 21.2132%. The most likely single outcome for B is +5%, and a 25% loss occurs in one state of four. A saver who must spend the money in a specific month cannot rely on an average that is realized only across many repeated states.",
+              "question": "Asset B has a 5% expected return and a 21.2132% standard deviation. Is 5% the result a one-year plan should budget for?",
+              "answer": "No; 5% is a weighted average and the stated states include a 25% chance of a 25% loss",
+              "distractor": "Yes; the expectation is the outcome a plan should use",
+              "correction": "The expectation is a summary of the distribution, not a state that occurs. A plan that cannot tolerate the loss state has not been tested by quoting the mean, and the mean says nothing about losses beyond the listed states.",
+              "depth": {
+                "definitions": "A state is a specified outcome of the modeled world. Probabilities in an exhaustive, mutually exclusive state set must be nonnegative and sum to one. Expected value weights outcomes by those probabilities. Variance is the probability-weighted average squared deviation from the mean; standard deviation is its square root, expressed in the same units as the return. Realized return is what actually happened; required return is what a buyer demands in advance. Business risk, volatility risk, inflation risk, interest rate risk, and liquidity risk are distinct sources of loss, and a single volatility number does not describe them. None of these definitions implies that a loss will be temporary.",
+                "mechanism": "Risk and expected return are linked by competition for capital rather than by physics. If two investments offered the same expected return and one carried visibly more uncertainty, buyers would prefer the calmer one and its price would rise, lowering its expected return until the difference compensated someone for bearing the uncertainty. That reasoning predicts a positive association between expected return and dispersion; it does not determine the size of the compensation, and it does not operate reliably for a single investor at a single moment. Three limits deserve emphasis. Expectations are model outputs, so an omitted state silently removes a risk. Historical frequencies are not probabilities when the economy's structure has changed. And dispersion is not the same as the risk of failing a dated obligation, because a portfolio can be volatile without imperilling a distant goal and stable yet unable to meet a bill next month.",
+                "secondExample": "Now take a two-year path rather than a distribution. An investment gains 40% in the first year and loses 20% in the second, with no fees, taxes, or flows. The arithmetic mean return is 10% a year, and a summary written from that number would describe a decade of such average performance as satisfactory. The actual path multiplies wealth by 1.40 and then by 0.80, giving a cumulative factor of 1.12: a 12% total gain over two years, which compounds at 5.8301% a year. The gap between 10% and 5.8301% is the arithmetic-versus-geometric difference, and it widens as dispersion grows. It matters because withdrawals and spending are governed by the balance path, not by the average of the percentages: money removed after the loss year is money that never participates in the recovery.",
+                "mistake": "The most consequential error is to read a historical or projected average annual return as the return the holder will receive, when the average is an arithmetic mean over volatile years and the compounded outcome is lower. A closely related error is to treat a higher expected return as a promise, which reverses the direction of the reasoning: the higher expectation exists because the outcome is less certain. A third error narrows risk to price volatility and ignores inflation risk, interest rate risk, and liquidity risk, then concludes that a low-volatility holding is safe for a purpose it cannot serve. Diagnose by asking what specific dated obligation the money must meet and whether the plan was tested in the states where that obligation coincides with a loss.",
+                "application": "Optional practice: take the three-state asset B and write one sentence describing what happens to a saver who must withdraw a fixed amount at the end of the year in each state, without choosing an allocation for anyone. Model response: in the −25% state the withdrawal removes a larger share of a smaller balance, in the +5% state the plan is roughly neutral, and in the +35% state the withdrawal is easily met; the same average return covers three different lived experiences. Self-review criteria: the states and probabilities are labeled as hypothetical; the expectation is shown not to equal any single state; the loss state is treated as a case to be survived rather than averaged away; and no individual investment is recommended.",
+                "summary": "Averages summarize; distributions decide. An expected return is the price of uncertainty, not payment for it, and it must always be reported with the dispersion and the loss states beside it. Compounded results are governed by the path, so a plan should be tested against the outcomes it must endure rather than against the mean it hopes to achieve. The next lesson asks how several exposures can be combined so that dispersion falls, and why that reduction is always partial and sometimes illusory."
+              },
+              "readings": [
+                {
+                  "title": "Investor.gov (SEC) — What is Risk?",
+                  "url": "https://www.investor.gov/introduction-investing/investing-basics/what-risk",
+                  "note": "Read the opening definition and the sections on business risk, volatility risk, inflation risk, interest rate risk, and liquidity risk. The SEC's framing — that investment risk is the degree of uncertainty and potential financial loss, and that investors generally seek higher returns to compensate for higher risk — is the basis for treating a higher expected return as a symptom of uncertainty. The page lists risk categories rather than forecasting returns, and the lesson's numbers are its own hypothetical illustration."
+                },
+                {
+                  "title": "U.S. Securities and Exchange Commission — Mutual Funds and ETFs: A Guide for Investors, sections 'Avoiding Common Pitfalls — Past Performance' and 'Key Points to Remember'",
+                  "url": "https://www.sec.gov/investor/pubs/sec-guide-to-mutual-funds.pdf",
+                  "note": "Read the 'Past Performance' subsection of 'Avoiding Common Pitfalls' (listed at page 41 of the brochure) and the 'Key Points to Remember' block on the opening pages, which states that funds are not guaranteed or insured and that all funds have costs that lower returns. Use these to support the distinction between a recorded average and a prospective promise. Access note: sec.gov refused this lesson's automated HTTP request with a 403 status; the document was retrieved through the Hermes web-extraction tool, which returned the table of contents and the key-points text cited here. No figure from the brochure is reproduced."
+                }
+              ],
+              "visual": {
+                "title": "Equal means, unequal paths — state distribution compared",
+                "description": "A labeled comparison of two assets with the same expected return and different dispersion, followed by the two-year path example. Read in order.",
+                "steps": [
+                  "Asset A: 5% in every state; dispersion zero",
+                  "Asset B: 25% chance of −25%, 50% chance of +5%, 25% chance of +35%",
+                  "Both expectations: 5.00%; B's standard deviation: 21.2132%",
+                  "Two-year path: ×1.40 then ×0.80 = 1.12 total, 5.8301% a year",
+                  "Arithmetic mean of those years: 10.0000%; the holder received less"
+                ]
+              }
+            },
+            {
+              "id": "35",
+              "title": "Diversification and correlation: what combining can and cannot remove",
+              "explanation": "The objective is to explain why combining exposures can reduce variability, and to be precise about the part that reduction cannot reach. A portfolio's return is a weighted average of its components' returns, but its dispersion is not a weighted average of theirs. Dispersion depends on how the components move relative to one another, which is measured by covariance and its standardized version, correlation. When exposures do not move in perfect lockstep, some variation offsets and portfolio dispersion falls below the weighted average of the parts. What remains is the shared, economy-wide component that diversification cannot remove. The practical implication is that counting products is not the same as counting sources of risk: two funds can be one bet with two names.",
+              "example": "Combine two hypothetical assets in equal weights, with annual return standard deviations of 18% and 12%, no fees or taxes, and fixed starting weights for a single period. If their correlation is +1, the portfolio standard deviation is exactly the weighted average, 15.0000%. At a correlation of 0.3 it falls to 12.2229%, and at a correlation of zero it falls to 10.8167%. Against the perfectly correlated case, the 0.3 assumption reduces variance by 33.60%. Note what the calculation does and does not say. It says that imperfect co-movement mechanically shrinks dispersion under the stated assumptions. It does not say that 12.2229% is a maximum loss, that the correlation will remain 0.3, or that a portfolio so constructed will earn any particular return; correlation is an estimate from a sample, and samples are historical.",
+              "question": "Two funds hold the same seven of their ten largest companies. What does the number of funds tell a reviewer?",
+              "answer": "Little; the shared holdings concentrate the same exposure under two names",
+              "distractor": "That the portfolio is diversified because it holds two funds",
+              "correction": "Diversification depends on the relationships between exposures, not on the number of account labels. Looking through to the holdings list shows that one set of companies drives both positions, so a single shock reaches both.",
+              "depth": {
+                "definitions": "A portfolio weight is the proportion of total value in each component. Covariance is the expected product of two assets' deviations from their means; correlation divides covariance by the product of the two standard deviations, giving a number between −1 and +1 when both are nonzero. Idiosyncratic risk is specific to a firm, sector, or narrow activity; systematic risk comes from broad shared factors such as the economy, interest rates, or a common customer. A look-through analysis examines underlying holdings rather than product names. Rebalancing restores target weights and is a separate decision from diversification. None of these terms implies that losses are impossible or temporary.",
+                "mechanism": "Portfolio variance equals the weighted variances of the components plus a cross term containing their covariance. When deviations tend to offset, the cross term is smaller than it would be under perfect positive co-movement, and total dispersion falls. This is arithmetic, not a property of any product. The mechanism has three boundaries. First, an estimate of correlation comes from a chosen sample and period, and relationships change; in periods of shared stress, correlations among risky assets often rise, precisely when reduction is wanted. Second, zero correlation is a weaker condition than statistical independence, so a zero-correlation assumption does not rule out joint extreme outcomes. Third, and most important for a household, the relevant exposures include income, currency, and dated liabilities: a worker whose salary depends on one industry holds a large, illiquid exposure to it whether or not any account statement mentions it.",
+                "secondExample": "Extend the look-through idea with a contrast that is not a renamed first example. Suppose the same person holds an employer's shares directly, a fund whose largest positions are competitors in that employer's industry, and cash reserved for a payment due next month. Adding a second and third fund of the same kind raises the count of holdings while leaving the dominant exposure unchanged. Diversification across labels has not diversified the causes of loss, and the salary may weaken in the same downturn that reduces the holdings. The stress test that matters is joint: ask what happens to spending, income, and the value of the holdings if one shared factor deteriorates at the same time, and whether the near-dated cash requirement is met from a source that does not depend on that factor. This is a question about constraints, and it can be asked without prescribing an allocation for any particular person.",
+                "mistake": "The common error is to treat the number of holdings or funds as a measure of diversification. A second is to assume that a low correlation estimated over a calm sample will persist through a stressed one. A third mistakes diversification for protection of a dated obligation: a portfolio can be diversified and still be unable to fund a bill on a specific date, because diversification reduces dispersion and does not create liquidity. Diagnose by looking through to the underlying holdings, naming the shared factors in plain language, and asking which payment dates collide with a plausible joint loss. If the answer to the last question is unclear, the analysis is unfinished regardless of how many products are listed.",
+                "application": "Optional practice: write a note describing one portfolio in terms of causes of loss rather than products — the shared factors, the dated obligations it must meet, and the evidence you used for the holdings. Model response: the note names two or three common factors instead of listing funds, identifies at least one obligation with a date, and cites the holdings disclosure or an equivalent document as evidence rather than an impression. Self-review criteria: the portfolio is described by exposure and not by count; correlation or co-movement estimates are labeled as sample-based; a liquidity question is separated from a diversification question; and the response does not recommend an allocation to any particular person.",
+                "summary": "Diversification reduces dispersion by combining exposures whose deviations partially offset; it cannot remove the shared component and cannot convert an illiquid position into a payment. The measuring instruments are covariance and the holdings list, both of which are estimates and evidence rather than guarantees. The transferable skill is to describe a portfolio in terms of causes of loss rather than product names. The next lesson turns to the documents investors actually receive, and asks which numbers on them are standardized, which are marketing, and which are conspicuously absent."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 15.2 Risk and Return to Multiple Assets",
+                  "url": "https://openstax.org/books/principles-finance/pages/15-2-risk-and-return-to-multiple-assets",
+                  "note": "Read the learning outcomes list — which includes explaining the benefits of diversification and comparing firm-specific with systematic risk — and then the 'Diversification' section, which contrasts putting an entire sum into one stock with spreading it across ten. The section is the textbook's version of this lesson's point that dispersion, not the count of holdings, is what changes; verify the 18%/12% example in this lesson independently and note where the textbook's framing of the reduction stops short of a guarantee."
+                },
+                {
+                  "title": "Investor.gov (SEC) — Glossary entry, Diversification",
+                  "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/diversification",
+                  "note": "A brief glossary entry rather than a tutorial; it sits in the SEC's glossary of investing terms and links onward to the fund and asset-allocation material that explains the concept at length. Access note: the page loads its content dynamically, so the text of the definition itself did not render for automated retrieval; the entry is included as the regulator's index to the concept, and the lesson's substantive explanation and calculation are the author's own rather than a paraphrase of this page."
+                }
+              ],
+              "visual": {
+                "title": "Correlation controls the size of the reduction — labeled comparison",
+                "description": "A labeled table-like sequence showing three portfolio dispersions for the same weights and the same component volatilities, then a look-through check. Read in order.",
+                "steps": [
+                  "Weights: 50% in an 18% volatility asset, 50% in a 12% volatility asset",
+                  "Correlation +1: portfolio standard deviation 15.0000% — identical to the weighted average",
+                  "Correlation 0.3: portfolio standard deviation 12.2229% — variance down 33.60%",
+                  "Correlation 0: portfolio standard deviation 10.8167%",
+                  "Look-through test: seven shared companies means two names and one exposure"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-finance-31-a",
+              "prompt": "One provider advertises a '6% annual rate compounded monthly' and another advertises '6.17% compounded annually'. A saver asks which is larger. What is the defensible answer?",
+              "answer": "They describe almost the same effective annual growth",
+              "distractor": "The monthly offer is 0.17 points better, and frequency compounds that advantage again",
+              "correction": "(1 + 0.06/12)^12 − 1 = 6.1678%, which is essentially the 6.17% competing quote. Comparing stated rates without their compounding conventions is the error, not the small remaining difference.",
+              "reviewLessonIds": [
+                "31"
+              ]
+            },
+            {
+              "id": "uq-finance-31-b",
+              "prompt": "A brochure reports an '80% total return over ten years' and summarizes it as '8% a year'. A reviewer checks the arithmetic. What does the check show?",
+              "answer": "Compounding a true 8% would produce $21,589.25 per $10,000, above the $18,000 actually reached",
+              "distractor": "Total returns cannot be converted into an annual rate at all",
+              "correction": "The implied compound rate is (18,000/10,000)^(1/10) − 1 = 6.0540%. Dividing the total by the number of years overstates the annual rate because it discards the growth of earlier growth.",
+              "reviewLessonIds": [
+                "32"
+              ]
+            },
+            {
+              "id": "uq-finance-31-c",
+              "prompt": "A saver notes that her account's nominal balance has risen every year for two decades but says she feels poorer. What single piece of evidence would test that claim?",
+              "answer": "Restate the balance in the purchasing power of a stated base year",
+              "distractor": "Compare the balance with last month's balance to confirm the direction",
+              "correction": "$100,000 held without growth for twenty years at an assumed 2.5% inflation buys about $61,027 in today's prices. A rising nominal balance and a falling real balance are consistent, and the base date makes the comparison testable.",
+              "reviewLessonIds": [
+                "33"
+              ]
+            },
+            {
+              "id": "uq-finance-31-d",
+              "prompt": "A fund advertises a '10% average annual return'. The two years shown gained 40% and then lost 20%. What does the path arithmetic show?",
+              "answer": "A 12% cumulative gain, which compounds at about 5.8301% a year",
+              "distractor": "A 10% annual gain, because the arithmetic average is 10%",
+              "correction": "1.40 × 0.80 = 1.12, so the holder's money rose 12% in total. The arithmetic mean of the yearly percentages describes the percentages, not the balance the holder owned.",
+              "reviewLessonIds": [
+                "34"
+              ]
+            },
+            {
+              "id": "uq-finance-31-e",
+              "prompt": "A portfolio holds two funds with different strategies, but seven of the ten largest companies in each are the same. Both fall sharply when that industry falls. Was the portfolio diversified in the relevant sense?",
+              "answer": "No; a single economic exposure was held under two product names",
+              "distractor": "Yes; two separate funds cannot move in the same direction",
+              "correction": "Effective correlation between the two positions is high because the same companies drive both. The holdings list, not the fund count, is the evidence, and it shows one source of loss rather than two.",
+              "reviewLessonIds": [
+                "35"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fees, Taxes, Statements, and Debt: Reading the Documents",
+          "lessons": [
+            {
+              "id": "36",
+              "title": "Read a fund's required disclosures: what a fact sheet leaves out",
+              "explanation": "The objective is to know which fund documents are standardized and which are marketing, so that a comparison rests on regulated disclosure rather than on a summary written to sell. In the United States a fund's prospectus must contain a fee table and a risk/return summary, and a registered fund must deliver a shareholder report to investors twice a year. Those reports must contain specified items in a specified order, including expense information, performance information, statistical data, a graphical representation of the holdings, and material changes. A fact sheet, by contrast, is a convenience summary whose selection and emphasis are the distributor's choice. Share classes of the same fund carry different fees and therefore different results, so the figures must belong to the class actually owned. Past performance is required to be shown and is not a forecast.",
+              "example": "Compare two share classes of one hypothetical fund that earn the same 6% gross return each year, with no sales charges, no taxes, and no advisory fee. Class L carries annual operating expenses of 0.05%, so it nets 5.95%; Class H carries 1.05%, so it nets 4.95%. A $10,000 investment held for ten years reaches $17,824.18 in Class L and $16,211.55 in Class H, a difference of $1,612.64 on identical gross performance. The same compounding appears in the SEC's own investor bulletin, whose chart shows a $100,000 portfolio growing at 4% for twenty years with ongoing fees of 0.25%, 0.50%, and 1.00%. Applying those same inputs here gives $208,815.20, $198,978.89, and $180,611.12, which agree with the bulletin's approximate chart values. The exercise is not to reproduce a chart but to notice that a figure described as one percentage point is a claim on twenty years of a growing asset base.",
+              "question": "A fact sheet shows the average annual return of the fund's cheapest share class, but the investor owns a more expensive class. What must be checked before using that number?",
+              "answer": "Which share class the figures belong to, and that class's own fees and performance",
+              "distractor": "Nothing; all share classes of a fund report identical returns",
+              "correction": "Classes differ in fees and therefore in results, and the SEC's shareholder-report bulletin directs investors to the report for the class they own. Comparing a figure from another class with your own costs produces a mismatch that no amount of precision can repair.",
+              "depth": {
+                "definitions": "A prospectus is the disclosure document in which a fund must describe its objectives, strategies, risks, fees, and performance in required formats. The risk/return summary is the standardized opening section containing the fee table and performance presentation. An expense ratio is total annual fund operating expenses expressed as a percentage of average net assets. Net asset value per share is the fund's assets minus liabilities, divided by shares outstanding. A share class is a version of the same portfolio with a different fee structure. Portfolio turnover measures how much of the portfolio was replaced in a period. These labels describe disclosure obligations; they do not describe whether a fund is suitable for a given person.",
+                "mechanism": "The mechanism connecting documents to outcomes is that a fund's expenses are charged against the pool of assets, so the reported return and the investor's return are the same number only when the class and period match. Standardisation exists precisely because funds are otherwise difficult to compare: the fee table places management fees, distribution fees, other expenses, and total annual operating expenses in fixed categories. Two gaps are worth naming. The fee table does not capture everything a fund's trading costs, since transaction costs paid by the portfolio are disclosed elsewhere in the fund's reporting rather than inside the expense ratio. And a shareholder report is a report card for a period, not a forecast: it shows what happened, while the required performance presentation is accompanied by the regulatory warning that past performance does not predict future results. Reading order therefore matters: find the class, find the fees, find the period, and only then read the numbers.",
+                "secondExample": "Contrast two funds by their turnover and the question each raises. Fund P reports a portfolio turnover rate of 20%, meaning roughly a fifth of the portfolio was replaced in the year; Fund Q reports 100%, meaning the portfolio was substantially reconstituted. A high turnover rate is not by itself a criticism, and a low one is not by itself a virtue: the rate says nothing about why securities were bought or sold, and a fund may trade to follow an index, to adjust risk, or because its strategy requires it. What the rate does is prompt a question the fact sheet usually does not answer — how much trading cost was incurred to produce the reported return, and where that cost appears in the fund's reporting. A disciplined reader records the turnover rate and the expense ratio separately, then checks the fund's own documents for transaction-cost disclosure rather than assuming the expense ratio is the whole cost.",
+                "mistake": "The characteristic failure is to compare funds using whichever document is easiest to obtain and whichever period is most flattering. A fund that has just had three strong years will present them prominently; a fund that has not will present a category average, an inception-to-date figure, or a hypothetical illustration. A second error is to assume the fund's name or category describes its holdings, which the SEC's guidance to investors warns against. A third is to treat a summary document's return as net of every cost when it may exclude a sales charge, a platform fee, or an advisory fee paid separately. Diagnose by insisting on four labels for every performance figure: the share class, the period, the fee basis, and the source document. A number with fewer than four labels is not yet comparable.",
+                "application": "Optional practice: take one fund you can examine publicly, identify the share class, write down its expense ratio from the fee table, note the period of the performance figures, and list one cost the expense ratio does not include. Model response: a typical entry names the class, quotes the total annual operating expenses, states that the performance shown covers a ten-year period ending on a stated date, and notes that portfolio transaction costs are reported outside the expense ratio. Self-review criteria: the class is named, no number is compared across classes, the period is stated, and one limitation of the summary document is identified in plain language rather than as a slogan.",
+                "summary": "Fund documents are read in a fixed order for a reason: identity first, costs second, performance third, and caveats last, because each layer changes the meaning of the one before it. A fact sheet is a starting point for locating the regulated documents, not a substitute for them. The transferable skill is to convert every performance figure into a labeled object with a class, a period, a fee basis, and a source. The next lesson isolates the largest of those labels, the fee, and follows it through the arithmetic of a growing balance."
+              },
+              "readings": [
+                {
+                  "title": "Investor.gov (SEC) — Updated Investor Bulletin: How to Read a Mutual Fund or ETF Shareholder Report",
+                  "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/updated-investor-bulletin-how-read-mutual-fund-or-etf-shareholder-report",
+                  "note": "Read 'What are shareholder reports?', the paragraph on multiple share classes, and the tabulated list of items required in a shareholder report and the order in which they appear. The share-class warning and the required item list are what make the lesson's comparison discipline a disclosure requirement rather than a preference."
+                },
+                {
+                  "title": "Investor.gov (SEC) — Mutual Funds",
+                  "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds",
+                  "note": "Read 'What are mutual funds?', the reasons investors hold them (including diversification and liquidity), and 'How do I earn money from mutual funds?' — dividends, capital gains distributions, and changes in net asset value. This is a regulator's plain description of the product; nothing on the page makes a return guaranteed, and the page links onward to the fee and shareholder-report bulletins used above."
+                }
+              ],
+              "visual": {
+                "title": "Identity, cost, performance, caveat — reading order for a fund document",
+                "description": "A labeled reading sequence that resolves a performance figure into a comparable object, then applies it to two share classes. Read in order.",
+                "steps": [
+                  "Step 1: identify the fund, the share class, and the reporting period",
+                  "Step 2: record total annual fund operating expenses for that class",
+                  "Step 3: note the performance figures and whether a sales charge is included",
+                  "Step 4: read the drawdown, holdings graphic, and material changes",
+                  "Comparison: 10,000 for 10 years nets 17,824.18 at 5.95% and 16,211.55 at 4.95%"
+                ]
+              }
+            },
+            {
+              "id": "37",
+              "title": "Fee disclosure: the arithmetic of a percentage point",
+              "explanation": "The objective is to compute what a stated fee costs, to distinguish the fee charged from the wealth given up, and to find the fee in the documents where it is actually disclosed. Fees come in two broad categories. Transaction fees are charged when an investment is bought, sold, or exchanged, and appear on a confirmation. Ongoing fees are charged regularly regardless of trading, and the most important of them for a fund investor is the expense ratio, which is deducted from the fund's assets so that it never appears as a line on an account statement. Because the deduction is proportional to the asset base, the cost grows as the account grows, and the money removed never earns the return it would otherwise have earned. The SEC's investor education is explicit about both halves of that effect, and it also tells investors to ask what they pay, when, and why.",
+              "example": "Place $100,000 in a portfolio earning a hypothetical 4% a year gross for twenty years, with no taxes and no other charges. With no fee, the ending value is 100,000 × 1.04^20, or $219,112.31. With a 1.00% ongoing annual fee, the fee is charged against the assets, so the net growth rate is 3%, and the ending value is 100,000 × 1.03^20, or $180,611.12. The wealth difference is $38,501.19 — nearly eight and a half times the single year's fee on the opening balance. If instead the portfolio is modeled with the fee deducted from the balance at each year end and the remainder growing at the full 4%, the ending value is $179,213.48 and the sum of the twenty annual fee amounts is $26,761.31. Both figures are useful, and they answer different questions: $26,761.31 is what was charged, while $38,501.19 is what was given up.",
+              "question": "A fund's expense ratio is 1% and its assets earn 4% gross. What does the fee remove?",
+              "answer": "Both the amount charged and the return that the charged amount would have earned",
+              "distractor": "Exactly 1% of the opening balance, charged once",
+              "correction": "The ongoing fee is proportional to a growing asset base, so the wealth given up exceeds the sum of the fee amounts. The SEC bulletin states this mechanism directly: the fee reduces the balance and also the return that balance would have earned.",
+              "depth": {
+                "definitions": "An expense ratio is annual operating expenses divided by average net assets. A management fee compensates the adviser; distribution and service fees, often called 12b-1 fees after the rule that authorizes them, cover distribution expenses; other expenses include items such as legal and accounting costs. Shareholder fees, such as a sales load, a redemption fee, or an account fee, are charged to the investor rather than paid from the fund's assets. An advisory fee is charged by an adviser on the value of an account. A break-even question asks how much an investment must gain before the investor is back where they started after costs. Fee structures and disclosure obligations depend on the product and the jurisdiction.",
+                "mechanism": "The arithmetic of a fee is the arithmetic of a negative return applied repeatedly, which is why it compounds. Two features make it difficult to perceive. First, invisibility: an expense ratio is netted from the fund's assets, so the investor sees a slightly lower return rather than a charge, and a confirmation will not show it. Second, growth: because the charge is a percentage of assets, the dollar amount rises automatically as the balance rises, so a fee that costs $1,000 in year one can cost several thousand dollars a year by year twenty on the same percentage. The SEC investor bulletin recommends concrete questions — which fees apply, when they are charged, how they will be shown on statements, and how much the investment must rise to break even — and notes that a fund with higher costs must perform better than a lower-cost fund to deliver the same result to the investor. Comparative tools exist for the same reason; the comparison is only meaningful between products serving the same purpose.",
+                "secondExample": "Take a smaller fee difference over a longer horizon. Assume $50,000 grows for thirty years at a hypothetical 6% gross return, with no taxes and no other charges. At the full 6% the balance reaches $287,174.56. With a 0.75 percentage-point drag applied to the growth rate, the same $50,000 reaches $232,077.55. The difference is $55,097.00, on a fee difference that most people describe as three-quarters of one percent. Two cautions belong beside that figure. The comparison assumes the fee difference persists for thirty years, which depends on the investor's choices and the products available, and the two funds are assumed to have identical gross performance, which in practice they will not. The purpose of the calculation is not to predict an outcome but to show that fee arithmetic operates on a compounding base, so small annual percentages are large lifetime amounts.",
+                "mistake": "The first mistake is to read the expense ratio as a one-time cost, which turns a compounding claim on assets into a single deduction. The second is to assume that a fund labeled as having no sales charge is therefore inexpensive; ongoing expenses, platform fees, and advisory fees may still apply, and a fund's expense ratio says nothing about its holdings or its risk. The third, and the most consequential for advice, is to treat a low-cost product as automatically appropriate: cost is one input among objectives, horizon, risk, and taxes. Diagnose by writing the fee as a percentage per year, then multiplying it by a projected average balance to obtain an annual dollar amount, then asking what that dollar amount would have earned. A fee is not a fact to be looked up but a rate to be applied, and any comparison that does not state the base and the horizon is not yet a comparison.",
+                "application": "Optional practice: for a $40,000 portfolio, compute the twenty-year ending value at a hypothetical 5% gross return with and without an additional 0.50% annual fee, then state in one sentence why the difference exceeds twenty times the fee on the opening balance. Model response: the no-fee value is 40,000 × 1.05^20 = $106,131.91 and the net value is 40,000 × 1.045^20 = $96,454.05, a difference of $9,677.86 against $4,000 of opening-balance-based charges, because the fee is charged on a rising base and the money charged does not compound. Self-review criteria: the fee is expressed per year, the horizon and gross return are labeled as assumptions, taxes are explicitly excluded, and the conclusion describes cost rather than forecasting return.",
+                "summary": "A fee is a rate applied to a compounding base, so its lifetime cost is always larger than its first-year cost and usually larger than the sum of the amounts charged. Distinguish what was charged from what was given up, and find the fee where disclosure rules place it rather than where marketing places it. The next lesson follows a related distinction through the tax code: money deferred is not money forgiven, and the account chosen changes when a tax is paid rather than whether one is owed."
+              },
+              "readings": [
+                {
+                  "title": "U.S. Securities and Exchange Commission (Office of Investor Education and Advocacy) — Investor Bulletin: How Fees and Expenses Affect Your Investment Portfolio",
+                  "url": "https://www.sec.gov/investor/alerts/ib_fees_expenses.pdf",
+                  "note": "Read the opening statements on how fees affect a portfolio, the distinction between transaction fees and ongoing fees, and the list of questions the bulletin recommends putting to a financial professional, including how much an investment must increase before breaking even. Note for access: sec.gov refused this lesson's automated HTTP request with a 403 status, so the text was retrieved through the Hermes web-extraction tool, which returned the document. The bulletin's own illustration uses a $100,000 portfolio at a 4% annual return over 20 years with ongoing fees of 0.25%, 0.50%, and 1.00%; the lesson recomputes those inputs independently rather than reproducing the chart."
+                },
+                {
+                  "title": "Investor.gov (SEC) — Mutual Fund and ETF Fees and Expenses, Investor Bulletin",
+                  "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/mutual-fund-and-etf-fees-and-expenses-investor-bulletin",
+                  "note": "Read 'The Prospectus Fee Table' and its two sub-lists: annual fund operating expenses (management fees, distribution and service fees, other expenses, and the total expressed as the expense ratio) and shareholder fees (sales loads and redemption fees). This is the standardized structure in which a fund must present its costs, and it is the reason a fee comparison can be made across funds at all. The bulletin is a staff statement without legal force; it is educational, not a rule."
+                }
+              ],
+              "visual": {
+                "title": "One percent, two numbers — fee charged versus wealth given up",
+                "description": "A labeled sequence separating the sum of fees charged from the wealth difference caused by the fee. Read in order.",
+                "steps": [
+                  "Start: 100,000 earning a hypothetical 4% gross for twenty years",
+                  "No fee: 100,000 × 1.04^20 = 219,112.31",
+                  "One percent ongoing: net 3%; 100,000 × 1.03^20 = 180,611.12",
+                  "Wealth given up: 38,501.19",
+                  "Sum of the twenty year-end fee amounts under a coarser model: 26,761.31"
+                ]
+              }
+            },
+            {
+              "id": "38",
+              "title": "Taxes and account types in general terms",
+              "explanation": "The objective is to understand the structure of tax-advantaged saving well enough to reason about it, without pretending that rates and thresholds can be taught as constants. Two questions organize most of the subject. First, when is the income taxed: before it goes in, while it grows, or when it comes out? Second, at what rate? An account that allows a deduction now defers tax to withdrawal, where the entire balance may be taxed at whatever rate then applies. An account funded with already-taxed money may allow qualified withdrawals to be tax-free. Those two designs are not opposites in value; they are bets on the relationship between the rate now and the rate later. Everything concrete — contribution limits, penalties for early access, required distributions, which gains qualify for preferential treatment — is set by statute in a jurisdiction and changes over time, so this lesson teaches the structure and marks the numbers as hypothetical.",
+              "example": "Assume a 22% marginal tax rate, a 30-year horizon, a hypothetical 6% annual return, and no fees, limits, penalties, or state taxes. A saver with $5,000 of pre-tax income can contribute the full $5,000 to a deductible account; it grows to 5,000 × 1.06^30, or $28,717.46, and when withdrawn and taxed at 22% it leaves $22,399.62. Alternatively the saver pays 22% now, keeps $3,900, and contributes that to a tax-free account, where it grows to $22,399.62 and is withdrawn without further tax. The two outcomes are identical to the cent. The equality is not a coincidence: both paths multiply the same gross amount by (1 − 0.22) and by the same growth factor, and multiplication is commutative. Deferral changes when tax is paid, not whether it is paid, when the two rates match.",
+              "question": "The same pre-tax amount goes into a deductible account or, after 22% tax, into a tax-free account; growth is 30 years at 6% and the withdrawal rate is again 22%. Which ends higher?",
+              "answer": "They end equal, at $22,399.62",
+              "distractor": "The tax-free account, because no tax was ever paid on it",
+              "correction": "5,000 × 1.06^30 × 0.78 and 3,900 × 1.06^30 both equal $22,399.62. The tax-free account is not free: 22% was paid at the start, and the comparison changes only when the two rates differ.",
+              "depth": {
+                "definitions": "A marginal tax rate applies to the next unit of income and is the relevant rate for comparing a deduction with a future withdrawal. A deduction reduces taxable income now; a credit reduces tax directly. Deferral postpones taxation; exemption removes it. A qualified distribution is one that meets the conditions for favorable treatment. A required minimum distribution is a statutory obligation to withdraw a minimum amount, which can force taxation at an unplanned time. A capital gain is the increase in value of an asset realized on sale, and preferential treatment for long-held assets, where it exists, is defined by statute. Every one of these definitions is jurisdiction-specific and subject to legislative change.",
+                "mechanism": "The reasoning tool is a comparison of present values. Paying tax at rate t0 on an amount contributed and at rate t1 on withdrawal produces the same result when t0 equals t1, because both paths scale the same gross amount. Deferral adds value when the rate at withdrawal is lower and destroys value when it is higher, and neither rate is known at the time of the decision, which is why the choice is a forecast rather than a calculation. Two further mechanisms break the simple equality. Account rules differ: limits cap contributions, penalties may apply to early access, and required distributions may force taxable withdrawals in years the saver did not choose. And asset location matters: whether interest, dividends, and realized gains are taxed annually or only on disposal changes the effective drag, so the same portfolio can produce different after-tax results depending on which account holds which asset. Those interactions are governed by the rules of the investor's jurisdiction.",
+                "secondExample": "Now vary the withdrawal rate while holding everything else fixed. If the saver's rate at withdrawal is 12% rather than 22%, the deductible account leaves 28,717.46 × 0.88, or $25,271.36, which beats the tax-free account's $22,399.62. If the withdrawal rate is 32%, the deductible account leaves 28,717.46 × 0.68, or $19,527.87, which is worse. The choice therefore depends on facts not yet known, and a decision made today is a bet on a future relationship. A second, separate computation shows why holding period matters for taxable accounts: a $10,000 realized gain taxed at a hypothetical 22% ordinary rate costs $2,200, while the same gain treated at a hypothetical 15% preferential rate costs $1,500, a difference of $700. The qualifying periods, the rates, and the income thresholds at which they apply are set by law in each jurisdiction and change; the figures here illustrate the structure and must not be relied on as current rules.",
+                "mistake": "The most common misconception is that a tax-deferred account is a tax-free account, which understates the future liability on the entire balance rather than on the original contribution. A second is to value a deduction at its face amount rather than at the saver's marginal rate, which overstates its worth for someone in a low bracket. A third is to compare a contribution to one account with a contribution of the same dollar amount to another without holding the pre-tax amount constant, which compares two different economic transactions and always flatters the account whose tax was paid from a separate source. Diagnose all three by writing the pre-tax amount, the rate now, the rate later, and the horizon on one line. If any of the four is missing, the comparison has not been specified and a conclusion drawn from it is a guess.",
+                "application": "Optional practice: for your own situation, write the structure rather than the numbers — which account types you can access, whether contributions are deducted now or taxed now, when withdrawals trigger tax, and which rules you are unsure about. Model response: the list contains the account types, the direction of taxation, a note that the applicable limits and penalties must be checked against current official guidance, and an explicit statement that no rate has been assumed. Self-review criteria: no threshold or rate is asserted as current; the jurisdiction is named; and the response does not recommend a product, a contribution amount, or a tax position. Where a decision has material consequences, the appropriate step is to consult a qualified professional in that jurisdiction.",
+                "summary": "Tax-advantaged accounts are a timing structure, and timing is worth something only when the rate at one end differs from the rate at the other. Hold the pre-tax amount constant, write both rates and the horizon, and treat every threshold as a moving part set by statute. The transferable skill is to refuse to answer a tax question that has not specified a jurisdiction, a rate, and a date. The next lesson moves from personal accounts to a company's published statements, and asks the same question in a different place: where did the money actually go?"
+              },
+              "readings": [
+                {
+                  "title": "Internal Revenue Service — Individual retirement arrangements (IRAs)",
+                  "url": "https://www.irs.gov/retirement-plans/individual-retirement-arrangements-iras",
+                  "note": "Read 'Types of IRAs', which states that traditional IRA contributions may be deductible while Roth IRA contributions are not deductible but qualified distributions may be tax free, then read the 'Contribution limits', 'Distributions', and 'Rollovers' links. This is one jurisdiction's rule set and it changes; consult the current version rather than relying on any figure quoted from memory, and note that other countries define equivalent accounts differently."
+                },
+                {
+                  "title": "Internal Revenue Service — Topic no. 409, Capital gains and losses",
+                  "url": "https://www.irs.gov/taxtopics/tc409",
+                  "note": "Read the section 'Short-term or long-term', which states that holding an asset for more than one year before disposal generally makes the gain or loss long-term while one year or less makes it short-term, and that exceptions exist for property acquired by gift or from a decedent, for commodity futures under Publication 550, and for other cases cross-referenced there. Read it for the structure of the rule and its exceptions rather than for a rate: the rates and the conditions attached to them are set by statute and change, so the lesson's 22% and 15% figures are hypothetical illustrations of the distinction rather than statements of current law."
+                }
+              ],
+              "visual": {
+                "title": "Two accounts, one gross amount — when the tax is paid",
+                "description": "A labeled parallel sequence comparing a deductible account with a tax-free account of the same pre-tax amount, then a rate-shift variant. Read in order.",
+                "steps": [
+                  "Gross income available: 5,000 at a hypothetical 22% marginal rate",
+                  "Path one: contribute 5,000 pre-tax; grow 6% for 30 years to 28,717.46; withdraw at 22% → 22,399.62",
+                  "Path two: pay 22% now; contribute 3,900; grow 6% for 30 years → 22,399.62, tax free",
+                  "Rate shift to 12% at withdrawal: path one gives 25,271.36",
+                  "Rate shift to 32% at withdrawal: path one gives 19,527.87"
+                ]
+              }
+            },
+            {
+              "id": "39",
+              "title": "Reading a balance sheet and a cash-flow statement",
+              "explanation": "The objective is to read a company's two most revealing statements together and to stop treating reported profit as equivalent to money. The balance sheet is a snapshot at one date: what the entity owns and what it owes, with the difference belonging to its owners. The cash-flow statement covers a period and explains the change in cash by grouping flows into operating, investing, and financing activities. The income statement, which reports performance over a period, is prepared on an accrual basis, meaning revenue and expense are recognized when earned or incurred rather than when cash moves. This distinction is exactly the one developed for working capital earlier in the course; here it is applied to published statements, where the same numbers that report a healthy profit can sit beside a shrinking bank balance.",
+              "example": "Take a fictional company with no taxes, no interest-bearing debt other than the borrowing described, and one year of operations. It reports net income of $60,000. Depreciation of $15,000 is a non-cash charge, so it is added back. Receivables increased by $25,000 and inventory increased by $10,000: both consume cash because resources went out while no cash came in. Payables increased by $5,000, a supplier-financed inflow. Operating cash flow is therefore 60,000 + 15,000 − 25,000 − 10,000 + 5,000, or $45,000. The company also spent $70,000 on capital expenditure, an investing outflow, leaving free cash flow before financing of −$25,000, and it borrowed $40,000. The net change in cash is 45,000 − 70,000 + 40,000, or +$15,000, so opening cash of $20,000 ends at $35,000. The company is profitable, its operations generated a quarter more than net income, and it still needed new borrowing to fund the year.",
+              "question": "A company reports $60,000 net income with $15,000 depreciation, receivables up $25,000, inventory up $10,000, and payables up $5,000. What is operating cash flow?",
+              "answer": "$45,000",
+              "distractor": "$60,000, because reported profit is cash",
+              "correction": "60,000 + 15,000 − 25,000 − 10,000 + 5,000 = 45,000. Depreciation is added back because it charged no cash, while growth in receivables and inventory consumed cash before collection or sale occurred.",
+              "depth": {
+                "definitions": "Assets are resources controlled by the entity; liabilities are obligations; equity is the residual. A classified balance sheet separates current items, expected to convert within a year or an operating cycle, from noncurrent ones. The indirect method of presenting operating cash flow begins with net income and adjusts for non-cash items and changes in working capital. Free cash flow deducts capital expenditure from operating cash flow. Accrual accounting recognizes revenue when earned, which requires estimates for allowances and impairments; the notes to the statements describe those policies. A reporting framework such as a national generally accepted accounting principles set or international standards governs the form and content, so the same label can mean slightly different things in different jurisdictions.",
+                "mechanism": "The statements connect in a chain that a reader can follow and test. Net income closes into retained earnings within equity; the change in cash on the cash-flow statement equals the change in the cash line on the balance sheet; and the working-capital movements that appear in operating activities are the same movements visible when comparing two balance sheet dates. Those links are why a discrepancy is informative. An increase in receivables raises revenue-based profit without raising cash, an increase in payables raises cash without improving economics, and depreciation reduces profit without touching cash. None of this implies misconduct: accrual accounting is required precisely because matching revenue to the period in which it is earned is more informative than tracking cash alone. It does imply that a reader who consults only the income statement is reading one third of the story, and that estimates such as depreciation schedules and impairment assumptions mean the statements are informed judgements rather than measurements.",
+                "secondExample": "Run the same mechanism in two directions. First, a company with $30,000 of net income, $8,000 of depreciation, receivables up $50,000, and no capital expenditure reports operating cash flow of 30,000 + 8,000 − 50,000, or −$12,000. It earned a profit and consumed cash, because it sold on credit faster than it collected. Second, consider an entity that recognized a $40,000 non-cash impairment and collected $20,000 of previously outstanding receivables while its depreciation was $8,000. Its net income is −$10,000, a reported loss, yet its operating cash flow is −10,000 + 8,000 + 40,000 + 20,000, or $58,000. The loss is an accounting judgement about the value of an asset written down in this period; the cash is a fact about this period. Neither figure alone describes the business, and a reader who wants to know whether the entity can pay its bills needs the cash-flow statement, the maturity schedule of its obligations, and the balance sheet.",
+                "mistake": "The classic error is to read revenue or profit as cash and then conclude that an entity is liquid because it is profitable. The opposite error is equally common: treating a loss as proof of a cash crisis when the loss arose from a non-cash charge, or treating positive operating cash flow as proof of health when it came from delaying payments to suppliers or selling inventory faster than it is replaced. A third error is to compare a balance sheet from one date with an income statement covering a different period and draw a conclusion as though the two described the same interval. Diagnose by reconstructing the change in the cash line yourself from the three sections, then checking that it matches; if the reconciliation does not close, either the statement has been misread or a definition differs from the one you assumed.",
+                "application": "Optional practice: find a company's most recent annual statements and compute operating cash flow, capital expenditure, and the net change in cash, then write two sentences stating what the change in cash was financed by. Model response: the response names the net change, identifies whether operations generated or consumed cash, and identifies financing or reserve drawdowns as the source; it does not characterise the company as healthy or unhealthy from one year of data. Self-review criteria: the period and currency are stated; the reconciliation closes; the interpretation distinguishes profit from cash; and the note that accounting policy choices and estimates affect the figures is included rather than assumed away.",
+                "summary": "A balance sheet answers what an entity owns and owes at a date; a cash-flow statement answers where the money went during a period; the income statement answers how the period's activity was recognized. Reading them as a set, and reconciling the change in cash, converts three documents into one auditable story. The final lesson applies the same discipline to a household decision — ordering debt repayment — and to the claims made about it in advertising."
+              },
+              "readings": [
+                {
+                  "title": "U.S. Securities and Exchange Commission — Beginners' Guide to Financial Statements",
+                  "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide",
+                  "note": "Read the 'Balance Sheets' section — which states that a balance sheet shows what a company owns and owes at a fixed point in time, gives the equation ASSETS = LIABILITIES + SHAREHOLDERS' EQUITY, and distinguishes current from noncurrent items — then read 'Income Statements' and 'Bringing It All Together', which says that cash flows are related to, but not equivalent to, net income. Access note: sec.gov refused this lesson's automated HTTP request with a 403 status, so the page was retrieved through the Hermes web-extraction tool, which resolved this canonical URL and returned the body text cited above; the lesson's own numbers are original worked figures, not the brochure's examples."
+                },
+                {
+                  "title": "OpenStax, Principles of Finance — 5.5 The Statement of Cash Flows",
+                  "url": "https://openstax.org/books/principles-finance/pages/5-5-the-statement-of-cash-flows",
+                  "note": "Read 'Importance of the Statement of Cash Flows' and the start of 'Operating Activities'. The section states directly that a firm can be profitable and still lack adequate cash flow, that the indirect method reconciles net income to cash, and that users compare earnings with cash flow to assess the quality of reported earnings. Pair this with 5.2 The Balance Sheet on the same site for the classified balance sheet layout used in the lesson's definitions."
+                }
+              ],
+              "visual": {
+                "title": "Three sections, one reconciliation — cash flow from operations to closing cash",
+                "description": "A labeled sequence building the cash-flow statement from net income and checking the change against opening cash. Read in order.",
+                "steps": [
+                  "Operating: 60,000 net income + 15,000 depreciation − 25,000 receivables − 10,000 inventory + 5,000 payables = 45,000",
+                  "Investing: −70,000 capital expenditure → free cash flow before financing −25,000",
+                  "Financing: +40,000 new borrowing",
+                  "Net change in cash: +15,000; opening 20,000 → closing 35,000",
+                  "Check: the change in cash must equal the change in the cash line on the balance sheet"
+                ]
+              }
+            },
+            {
+              "id": "40",
+              "title": "Debt payoff order and auditing a financial claim",
+              "explanation": "The objective is to compare two repayment strategies honestly and then to subject an advertised claim to the same arithmetic. Both strategies pay the contractual minimum on every debt and direct all remaining money at one target. The highest-rate-first method, often called the avalanche, aims at the most expensive debt and minimizes interest under the stated assumptions. The smallest-balance-first method, the snowball, aims at the debt that can be eliminated soonest, which produces an early, visible result. The CFPB presents these as two legitimate options with different pros and cons, and explicitly notes that the smaller-balance approach may cost more overall while offering momentum. The arithmetic answer and the behavioral answer are both real, and the mistake is to confuse one with the other. The lesson then applies the same discipline to claims: find the assumptions, fix the budget, and check whether the promise survives the numbers.",
+              "example": "Assume three fixed-rate debts, monthly interest at the annual rate divided by twelve, on-time payments, no fees or new borrowing, and a total monthly payment of $500. The debts are A: $4,200 at 22% with a $95 minimum; B: $900 at 6% with a $25 minimum; and C: $9,000 at 12% with a $200 minimum. The minimums total $320, so the extra applied each month is $180. Under highest-rate-first (A, then C, then B) the schedule ends after 34 payments with $2,894.50 of interest. Under smallest-balance-first (B, then A, then C) it ends after 35 payments with $3,127.85. The ordering difference is $233.36, about 7.46% of the interest in the snowball case. The snowball's advantage is visible: B is cleared in month 5, while the highest-rate strategy's first cleared debt is A in month 19.",
+              "question": "With a fixed $500 monthly budget, highest-rate-first costs $2,894.50 and smallest-balance-first costs $3,127.85. What follows?",
+              "answer": "Order matters, but the extra payment above the minimums matters far more",
+              "distractor": "The two strategies are mathematically equivalent",
+              "correction": "The $233.36 difference is real. Against paying only the $320 minimum, however, the extra $180 changes the outcome enormously: that schedule takes 66 payments and costs $6,875.16, so the extra payment saves $3,980.66 and 32 payments on the same balances.",
+              "depth": {
+                "definitions": "A minimum payment is the contractual amount due each period. The avalanche or highest-rate method targets the highest interest rate first; the snowball targets the smallest balance first. Both require the minimum on every account. An amortizing schedule shows how each payment splits between interest and principal. APR is an annualized cost measure whose composition is defined by disclosure rules that vary by product and jurisdiction, which is why the monthly rate used here is a modeling simplification. A promotional rate is a temporary contractual rate; a transfer fee is a charge for moving a balance. None of these definitions implies advice for a particular borrower.",
+                "mechanism": "The mechanism behind the ranking is that interest accrues on balances at different rates, so a dollar of repayment applied to a 22% balance saves about 1.8333% of that dollar each month, while a dollar applied to a 6% balance saves about 0.5%. Over a fixed schedule, applying scarce extra dollars where the monthly saving is highest minimizes total interest, which is why the avalanche wins on arithmetic whenever rates differ. The snowball wins a different contest: it reduces the number of separate obligations sooner, and the CFPB's materials treat the resulting momentum as a legitimate reason some people persist with a plan. Two boundaries deserve emphasis. First, holding the monthly budget constant is essential; if one plan simply spends more per month it pays less interest for an uninteresting reason. Second, the model is a simplification: real contracts may allocate payments between fees, interest, and principal in an order set by the agreement and by jurisdiction-specific law, may accrue interest daily rather than monthly, and may include promotional rates that revert mid-schedule — any of which can change the ranking.",
+                "secondExample": "Test a promotional offer against the same arithmetic, and then test the claim that usually accompanies it. Debt A is $4,200 at 22%. Moving that balance to a card offering a 12-month promotional 0% rate with a 3% transfer fee costs $126. Left untouched, the same balance accrues $1,023.11 of interest over twelve months at 22% if nothing is repaid. On those two numbers the transfer appears favorable, and it may be. The conclusion depends on conditions the headline does not state: that the balance is repaid within the promotional window, that the post-promotional rate and any deferred interest are known, that the fee is 3% of the transferred amount rather than of the original balance once further transfers occur, and that the emptied card is not refilled, since new spending at the standard rate can erase the saving. This is the general shape of an advertised financial claim: a favorable comparison computed under unstated conditions, surrounded by terms that decide whether it holds.",
+                "mistake": "One error is to assert that only the highest-rate-first method is rational and that anyone preferring the snowball is simply mistaken; the CFPB treats the choice as including motivation, which is a genuine factor in whether a plan is carried out. The mirror error is to claim the two methods are mathematically equivalent, when the example above shows a $233.36 difference on the same budget. A third error is to compare strategies without fixing the monthly budget, which measures the size of the payment rather than the order of repayment. A fourth, and the most serious, is to treat an advertised schedule as a commitment: 'debt-free in 24 months' is true only under stated assumptions, and the example above needs 34 payments at $500 on these balances. Diagnose by holding the budget constant, then asking which assumptions would have to hold for the advertised result to occur, and finally by checking whether the promoter guarantees the result. Guaranteed outcomes and up-front fees to reduce debt are warning signs that the SEC's investor education material asks people to treat as such.",
+                "application": "Optional practice: for three debts of your own choosing, list the rate, the balance, and the minimum; fix a monthly budget; compute either strategy's payoff with a spreadsheet; then write three sentences stating the assumptions and one condition that would change the ranking. Model response: the response names the rates and balances, states the monthly budget, reports total interest and the number of payments, and identifies a condition such as a promotional rate expiring or a minimum payment that exceeds the extra amount. Self-review criteria: the budget is held constant across strategies; interest is computed rather than estimated; the description avoids recommending a strategy for a specific person; and no claim of a guaranteed debt-free date is made. Where a debt is unmanageable or a collector is involved, the appropriate step is a qualified professional or a recognized non-profit service in that jurisdiction.",
+                "summary": "Debt ordering is a small optimization inside a much larger decision. The extra payment above the minimums dominates the result, the choice of target changes it modestly, and both are conditional on rates, fees, and behavior that the model assumes and the contract decides. The same four questions audit any financial claim: what is promised, what is assumed, what is excluded, and who benefits. With that discipline, the arithmetic computed in this lesson becomes a tool for testing a claim rather than a reason to trust it."
+              },
+              "readings": [
+                {
+                  "title": "Consumer Financial Protection Bureau — Your Money, Your Goals: Debt action plan tool",
+                  "url": "https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_debt-action-plan_tool_2018-11.pdf",
+                  "note": "Read the two-column comparison 'Pay smallest debt first' against 'Pay highest interest rate first', including each column's stated pro and con. The CFPB states plainly that one strategy is not better than the other and that the choice should account for what motivates the borrower, while noting that paying smaller balances first may cost more over the life of the debt. This lesson's simulation supplies the magnitude of that extra cost under explicitly stated assumptions."
+                },
+                {
+                  "title": "Consumer Financial Protection Bureau — How to reduce your debt",
+                  "url": "https://www.consumerfinance.gov/about-us/blog/how-reduce-your-debt",
+                  "note": "Read the descriptions of the snowball and highest-interest-rate methods and the surrounding advice on budgeting and working with collectors. The blog is the plain-language counterpart to the worksheet above and is useful for checking that a summary of the strategies has not exaggerated either one."
+                },
+                {
+                  "title": "Investor.gov (SEC) — How to Avoid Fraud",
+                  "url": "https://www.investor.gov/protect-your-investments/fraud/how-avoid-fraud",
+                  "note": "Read the warning signs and the recommended checks, including verifying registration and the people involved, and the emphasis on unsolicited offers and pressure to act quickly. Use this as the reference for the claim-audit habit in the lesson: guarantees of outcomes, urgency, and up-front payments are the patterns regulators ask people to stop and examine."
+                }
+              ],
+              "visual": {
+                "title": "Same budget, two orders, one dominated factor",
+                "description": "A labeled sequence comparing two payoff orders under a fixed monthly budget, then the minimum-only baseline and the claim audit. Read in order.",
+                "steps": [
+                  "Debts: A 4,200 at 22% (min 95), B 900 at 6% (min 25), C 9,000 at 12% (min 200); budget 500",
+                  "Highest rate first (A, C, B): 34 payments; interest 2,894.50",
+                  "Smallest balance first (B, A, C): 35 payments; interest 3,127.85; B cleared in month 5",
+                  "Minimums only at 320: 66 payments; interest 6,875.16",
+                  "Claim audit: state the budget, the rates, and what happens if a promotional rate expires"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-finance-36-a",
+              "prompt": "A fund's marketing page shows a ten-year average return. The prospectus shows the same fund with three share classes and three different expense ratios. What does the difference between the two sources establish?",
+              "answer": "That the marketing figure is not comparable until the class, period, and fee basis are identified",
+              "distractor": "That the prospectus is more precise and therefore must be the higher figure",
+              "correction": "Share classes carry different fees and therefore different results, and the SEC's shareholder-report bulletin directs investors to the report for the class owned. Precision does not repair a mismatch between the class in the document and the class in the account.",
+              "reviewLessonIds": [
+                "36"
+              ]
+            },
+            {
+              "id": "uq-finance-37-a",
+              "prompt": "An adviser describes a 0.75 percentage-point fee difference as 'negligible'. On $50,000 growing for thirty years at a hypothetical 6% gross, how does that description hold up?",
+              "answer": "Poorly; the difference is about $55,097 because the fee is charged on a compounding base",
+              "distractor": "Well; a difference below one percent is a rounding matter",
+              "correction": "50,000 × 1.06^30 = 287,174.56 against 50,000 × 1.0525^30 = 232,077.55. A fee is a rate applied each year to a growing balance, so small annual percentages become substantial lifetime amounts.",
+              "reviewLessonIds": [
+                "37"
+              ]
+            },
+            {
+              "id": "uq-finance-38-a",
+              "prompt": "A colleague says a tax-free account is 'better because no tax is ever paid on the growth' and a deductible account is 'worse because the whole balance is taxed later'. Under a constant rate, what does the arithmetic show?",
+              "answer": "Neither is better; the two produce the same figure when the rates match",
+              "distractor": "The tax-free account is better by roughly the tax paid on the original contribution",
+              "correction": "5,000 × 1.06^30 × 0.78 equals 3,900 × 1.06^30, which is $22,399.62 either way. The ranking changes only when the rate at contribution differs from the rate at withdrawal, and those rates depend on jurisdiction and future law.",
+              "reviewLessonIds": [
+                "38"
+              ]
+            },
+            {
+              "id": "uq-finance-39-a",
+              "prompt": "A company reports a $30,000 profit while receivables rose $50,000, depreciation was $8,000, and no capital spending occurred. An analyst calls the year 'a solid cash-generating year'. What does the reconciliation show?",
+              "answer": "Operations consumed $12,000 of cash despite the reported profit",
+              "distractor": "Operations generated $38,000 because depreciation is added back",
+              "correction": "30,000 + 8,000 − 50,000 = −12,000. Sales recorded on credit raise accrual profit before collection, which is why the cash-flow statement is read beside the income statement rather than instead of it.",
+              "reviewLessonIds": [
+                "39"
+              ]
+            },
+            {
+              "id": "uq-finance-40-a",
+              "prompt": "A borrower has $500 a month available, three debts, and two possible payoff orders. A promoter says any plan will take about the same time and charges a fee for 'optimizing' the order. What is the strongest criticism?",
+              "answer": "The order is a modest optimization; the size of the extra payment and the guarantee are what need scrutiny",
+              "distractor": "The order is irrelevant, so no analysis of the debts is needed",
+              "correction": "Under the stated assumptions the orders differ by $233.36 while the $180 extra payment saves $3,980.66 and 32 payments against minimums alone. A fee to guarantee a debt-free date is also the kind of guaranteed outcome the SEC asks investors to stop and check.",
+              "reviewLessonIds": [
+                "40"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-finance-31-a",
+          "prompt": "A product is advertised as growing '8% a year' in a brochure that names no compounding convention, no fee, no tax treatment, and no inflation assumption. A review is commissioned before any money moves. Which set of questions must be answered before the claim can even be tested?",
+          "answer": "The compounding convention, the annual fee, the tax treatment of the growth, and whether 8% is a nominal or a real rate",
+          "distractor": "Whether the provider's name sounds like an established index and how long the firm has existed",
+          "correction": "Each missing element changes the number. Frequency moves a stated 6% to a 6.1678% effective rate; an ongoing fee removes both the amount charged and the return that amount would have earned; tax treatment determines what is retained; and a nominal figure that ignores inflation overstates purchasing power. A claim with none of these specified is not yet a testable claim.",
+          "reviewLessonIds": [
+            "31",
+            "33",
+            "37"
+          ]
+        },
+        {
+          "id": "lq-finance-31-b",
+          "prompt": "An offer promises $50,000 in fifteen years and asks for $26,000 today. Discounted at an assumed 5% effective annual rate the promise is worth $24,050.85; at 4% it is worth $27,763.23. What should the reviewer report?",
+          "answer": "That the offer is acceptable only if a rate below about 5% is defensible, and that the rate must be argued rather than chosen",
+          "distractor": "That the offer should be accepted because $50,000 is nearly double the $26,000 requested",
+          "correction": "The comparison is decided by the discount rate, and the rate stands for the alternatives available at comparable risk and timing. Taking the offer at a 5% opportunity cost means giving up $26,000 for something worth $24,050.85, a shortfall of $1,949.15; at 4% it is worth $27,763.23 and the shortfall disappears. The reviewer must state the rate, justify it, and show the range.",
+          "reviewLessonIds": [
+            "32",
+            "33"
+          ]
+        },
+        {
+          "id": "lq-finance-31-c",
+          "prompt": "Two assets each have a 5.00% expected annual return. One pays 5% in every state; the other has a 25% chance of −25%, a 50% chance of +5%, and a 25% chance of +35%, with a standard deviation of 21.2132%. Money is needed for a payment in six months. What governs the decision?",
+          "answer": "The dispersion and the payment date, because the average is not a state that can be spent",
+          "distractor": "The expected return alone, since the two means are identical and the risk question therefore cancels",
+          "correction": "An expectation is a probability-weighted average across states that did not all occur. In one state in four the money available at the payment date is materially reduced, and a dated obligation cannot wait for the average to be realized. Equal means with unequal dispersion are not equivalent holdings for a dated purpose.",
+          "reviewLessonIds": [
+            "33",
+            "34"
+          ]
+        },
+        {
+          "id": "lq-finance-31-d",
+          "prompt": "A fund's fact sheet quotes a 0.20% expense ratio, its prospectus fee table shows 0.95% for the share class the investor holds, and a platform document shows a 0.35% account fee. Which figure belongs in the comparison, and on what basis?",
+          "answer": "The prospectus fee table figure for the class actually held, with the separate account fee noted as an additional cost",
+          "distractor": "The lowest figure, because it represents the fund's own cost of operation",
+          "correction": "Share classes differ in fees and therefore in results, and the SEC's bulletin directs investors to the disclosure for the class they own; the standardized fee table is the intended comparison source. An account or platform fee is charged outside the fund and does not reduce the expense ratio, so both belong in the total cost while only one belongs in the ratio.",
+          "reviewLessonIds": [
+            "36",
+            "37"
+          ]
+        },
+        {
+          "id": "lq-finance-31-e",
+          "prompt": "A $100,000 portfolio earning a hypothetical 4% gross for twenty years reaches $219,112.31 with no fee and $180,611.12 with a 1.00% ongoing fee. The fee amounts charged over the period sum to less than the $38,501.19 difference. How are both numbers explained?",
+          "answer": "The fee removes assets that would themselves have earned a return, so the wealth given up exceeds the amounts charged",
+          "distractor": "The state of the disclosure is mistaken, because a fee must equal the reduction in the balance",
+          "correction": "An ongoing proportional fee acts as a negative return applied repeatedly. Each year's charge reduces the base for every later year, so the investor loses the charge plus the compounding it would have produced. The SEC's investor bulletin makes this mechanism explicit, and it is why the lifetime cost of a small annual percentage is larger than a first-year estimate suggests.",
+          "reviewLessonIds": [
+            "31",
+            "37"
+          ]
+        },
+        {
+          "id": "lq-finance-31-f",
+          "prompt": "A saver assumes a 22% marginal tax rate at contribution and at withdrawal when choosing between a deductible account and a tax-free account, and both options end at $22,399.62. What does that result require the saver to verify?",
+          "answer": "Whether the withdrawal rate will match the contribution rate, given that rates, thresholds, and account rules are set by law and change",
+          "distractor": "Nothing further, because a constant rate is a reasonable assumption on the grounds that tax law is stable",
+          "correction": "The equality holds only because the same rate multiplies the same gross amount. At a withdrawal rate of 12% the deductible account leaves $25,271.36 and at 32% it leaves $19,527.87, so the choice is a forecast about the future relationship between two rates and about rules the saver's jurisdiction may change. The rate at each end and the applicable rules must be checked against current official guidance.",
+          "reviewLessonIds": [
+            "32",
+            "38"
+          ]
+        },
+        {
+          "id": "lq-finance-31-g",
+          "prompt": "A company reports $30,000 of net income, receivables up $50,000, depreciation of $8,000, and no capital spending; its board proposes to accelerate debt repayment from operating cash. What does the reconciliation imply for that proposal?",
+          "answer": "Operating cash flow is negative $12,000, so faster repayment would require reserves or new financing",
+          "distractor": "Profit of $30,000 provides the cash, so the repayment can proceed as planned",
+          "correction": "30,000 + 8,000 − 50,000 = −$12,000. Sales recorded on credit raised accrual profit without collecting the cash, and depreciation added back only $8,000 of non-cash expense. The proposal is a financing decision layered on a period that consumed cash, and the payment capacity question must be answered from the cash-flow statement rather than from the income statement.",
+          "reviewLessonIds": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "id": "lq-finance-31-h",
+          "prompt": "A borrower has three debts and can commit $500 a month. Highest-rate-first finishes in 34 payments with $2,894.50 of interest, smallest-balance-first in 35 payments with $3,127.85, and paying only the $320 of minimums takes 66 payments and costs $6,875.16. A coach advertises 'we will choose the order that saves you the most'. What is the missing analysis?",
+          "answer": "That the extra $180 above the minimums accounts for $3,980.66 and 32 payments, dwarfing the $233.36 ordering difference",
+          "distractor": "That ordering is the only variable that matters, so the $180 is irrelevant",
+          "correction": "Both the order and the payment size affect interest, but their magnitudes are very different. Fixing the budget at $500 is what makes the comparison meaningful, and the unavoidable conclusion is that sustaining the extra payment is the dominant decision. The coach's claim is true as far as it goes and misleading by omission.",
+          "reviewLessonIds": [
+            "40",
+            "31"
+          ]
+        },
+        {
+          "id": "lq-finance-31-i",
+          "prompt": "A saver holds a deposit paying a nominal 2% while an assumed inflation rate is 3%, interest is taxed at a hypothetical 20% as it accrues, and no other fees apply. What must any statement about the result include?",
+          "answer": "The inflation assumption, the tax rate applied to a nominal gain, and the saver's jurisdiction",
+          "distractor": "Only the 2% coupon rate, because the deposit's value cannot fall",
+          "correction": "The real pre-tax return is 1.02/1.03 − 1, about −0.9709%, and applying the hypothetical 20% tax to nominal interest gives a real after-tax result of roughly −1.3592%. Taxing a nominal gain while the real gain is negative is a structural feature of taxing nominal income, and how such interest is taxed depends on the account and the jurisdiction. A nominal balance that never falls can still buy less each year.",
+          "reviewLessonIds": [
+            "33",
+            "38"
+          ]
+        },
+        {
+          "id": "lq-finance-31-j",
+          "prompt": "A debt-relief firm advertises that 'all your debt can be gone in 24 months for a small up-front enrolment fee, guaranteed'. The client's own figures need 34 payments at $500 a month. What is the appropriate response?",
+          "answer": "Request the repayment arithmetic and its assumptions, and treat the guarantee and up-front fee as warning signs",
+          "distractor": "Proceed, because the up-front fee schedule has been disclosed in writing",
+          "correction": "The advertised schedule does not hold for the client's rates and balances unless the budget is larger or the rates lower, and the promoter has not stated which. Disclosure of a fee does not establish a performance claim, and the SEC's investor education material asks people to stop and verify when an offer promises a guaranteed result or requires payment in advance.",
+          "reviewLessonIds": [
+            "36",
+            "40"
+          ]
+        },
+        {
+          "id": "lq-finance-31-k",
+          "prompt": "A household holds an employer's shares, a fund whose largest positions are companies in that same industry, and one month's expenses in cash. The employer announces a restructuring. Which exposures are not separately diversified, and why does the cash matter?",
+          "answer": "The shares, the fund, and the wage income share one industry factor, while the near-dated cash meets a requirement the holdings cannot",
+          "distractor": "Adding a third and fourth fund of the same kind would complete the diversification",
+          "correction": "Effective correlation is high because one economic factor drives the holdings and the salary, so a downturn can reduce both together. Additional funds holding the same companies change the count of products, not the count of causes. Cash for a dated obligation is a liquidity answer rather than a diversification answer, and the two questions must be tested separately.",
+          "reviewLessonIds": [
+            "34",
+            "35"
+          ]
+        },
+        {
+          "id": "lq-finance-31-l",
+          "prompt": "An advertisement projects a $301,354.51 balance from $300 contributed monthly for thirty years. A reader asks whether the projection is honest. What is the defensible assessment?",
+          "answer": "The arithmetic is correct as a conditional calculation and incomplete as a claim, because the rate convention, fees, taxes, and inflation are unstated",
+          "distractor": "The projection is dishonest because no long-term return can be projected at all",
+          "correction": "300 times ((1.005)^360 − 1)/0.005 does equal $301,354.51 at a 6% nominal rate credited monthly, so the arithmetic checks out. The claim still needs the compounding convention, the ongoing fee, the tax treatment, and whether the ending figure is nominal or real; and it needs the statement that the result depends on an assumed rate being earned every month for thirty years, which no one can promise.",
+          "reviewLessonIds": [
+            "31",
+            "32",
+            "37"
+          ]
+        }
+      ]
+    }
+  ]
+}

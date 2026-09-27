@@ -1,0 +1,683 @@
+{
+ "subject": "literature",
+ "levels": [
+  {
+   "title": "Voice, form and the discipline of interpretation",
+   "units": [
+    {
+     "title": "Who speaks: voice, access and irony in narrative",
+     "lessons": [
+      {
+       "id": "31",
+       "title": "First-person narration and the divided self: Great Expectations, chapter I",
+       "explanation": "When a novel says ‘I’, two speakers share the pronoun: the person who lived the events and the person who now tells them. Great Expectations opens with the older Pip describing a churchyard scene in which he was a small, terrified boy, and the chapter gives you both at once. The first sentence reports facts about his name that no infant could know; the sentences that follow report what the child believed and feared. Separating these two voices is the first skill of reading first-person fiction, because it changes what you may conclude. A sentence about a tombstone is knowledge assembled long afterwards; the frightened pleading in direct speech belongs to the boy at the moment. Readers who collapse the two into a single ‘Pip’ then misjudge the chapter: they read the adult’s dry phrasing as the child’s composure, or the child’s panic as the novel’s verdict on the world. Ask of every sentence who could have known this, and when [1].",
+       "example": "Take the opening two sentences with that question in hand. Pip gives Pirrip as his father’s family name ‘on the authority of his tombstone and my sister’, and notes that he never saw either parent. Gravestones and marriage registers are adult documentary facts; a boy who read his parents’ names off a stone is supplying a child’s inference in an adult’s archival idiom. The next move is different in kind: ‘Oh! Don’t cut my throat, sir,’ he pleads, and the narration then gives us what he saw — ‘A fearful man, all in coarse grey, with a great iron on his leg.’ That inventory is exactly what a small boy’s line of sight supplies: cloth, iron, broken shoes. The man’s crime, sentence and name are missing, and they are missing because the boy did not know them. Step one: label the tombstone sentence retrospective. Step two: label the leg-iron sentence perception restricted to a child standing in a churchyard. Step three: draw the inference, which is that the chapter’s tension comes from a gap between a knowing teller and a knowing-nothing child, with the reader occupying both positions at once. A counterreading deserves a hearing and is partly right: the older voice never intrudes as a separate character, so some readers prefer to speak of one Pip whose voice simply deepens. The test is not which atmosphere you prefer, but which sentences require knowledge the child demonstrably lacked [1].",
+       "question": "Which sentence from chapter I requires knowledge the boy in the churchyard cannot have had?",
+       "answer": "‘I give Pirrip as my father’s family name, on the authority of his tombstone and my sister’",
+       "distractor": "‘Oh! Don’t cut my throat, sir,’ I pleaded in terror.",
+       "correction": "The tombstone sentence presupposes documents, a family name and a sister’s testimony, none of which the frightened child commands in the moment; it belongs to the narrating adult. The plea is immediate speech inside the scene. Label by available knowledge, not by how vivid a sentence feels.",
+       "depth": {
+        "definitions": "A first-person narrator says ‘I’ and takes part in the story; narratology calls this homodiegetic narration, and autodiegetic when the narrator is also the protagonist. Retrospection means the telling happens after the events. Narrative distance is the space between the narrating self and the experiencing self, and it can be decades wide, as here, or almost none. Focalization names whose perception organises a scene, which is not always the person who speaks. Prerequisites: you should be able to tell direct speech from narrated report, and a character’s view from the narrator’s summary. Note that reliability and retrospection are independent variables: a narrator may be well-informed and partial, or uninformed and honest. Keep Charles Dickens the author, Pip the narrator and the boy in the churchyard as three separate entities; sentences belong to the middle one [2].",
+        "mechanism": "The split voice works in four mechanical ways. First, order: retrospective narration can arrange information as the child never experienced it, so the tombstone sentence arrives before the fear, making identity a document before it is a feeling. Second, register: the adult borrows the vocabulary of careful sourcing (‘on the authority of’) at a moment when no sources exist, and that mismatch generates an irony the boy cannot intend. Third, restriction: because the boy does not know the man’s offence, the chapter’s suspense is built from a child’s ignorance rather than from withheld adult detail. Fourth, tense and modality: statements about what a child ‘believed’ or ‘was afraid of’ are evaluations made later, and each one is a small claim about the past self. Limits matter. One chapter cannot establish a general unreliability, and distance is not deception; nothing in chapter I shows Pip misleading us. Because the teller knows how the story ends, later chapters can import hindsight into earlier scenes, so check whether a sentence reports or evaluates. Narratology insists on the author/narrator distinction and treats unreliability as a claim requiring evidence rather than a mood [2].",
+        "secondExample": "Set beside this the diary frame of Wuthering Heights, which opens with Lockwood writing ‘1801—I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with.’ That is also first person, but it is written close to events, dated, with almost no hindsight, so Lockwood’s misjudgements reach us as they are made instead of being framed by a wiser self. Pip’s chapter gives a child’s terror re-narrated by an adult; Lockwood’s gives an adult’s complacency reported almost at the moment of formation. Both are first person, and the deciding variables are when the telling occurs, what the teller has learned since, and what the teller wants from the reader. Apply the same three questions to a memoir, a witness statement or a work email written the next morning.",
+        "mistake": "The commonest error is to read ‘I’ as the author, so that Pip’s fear becomes Dickens’s opinion about marsh country, or his phrasing a transparent window. A second error assumes a narrator must be either truthful or lying, when the interesting middle case occupies this chapter: accurate in facts, adult in judgement, with a child’s perceptions embedded in both. Diagnose yourself by highlighting every sentence in chapter I containing information the boy could not have had — a date, a name, a social evaluation, a comparison to adult life. If the highlight lands on a sentence you had been reading as the child’s thought, you have found narration doing more work than you noticed. A subtler error treats the adult’s irony as the chapter’s final meaning; the terror is not cancelled by the wit, only framed by it.",
+        "application": "Choose three sentences from chapter I and label each as (a) the boy’s present perception, (b) the adult’s retrospective knowledge, or (c) genuinely both. Then write 180–220 words on how one ‘both’ sentence produces its effect. Self-review rubric: two points for correct labels with stated reasons; two for showing how vocabulary or word order differs between the voices; two for naming one limitation of your labels, for instance that a single sentence can slide from perception into hindsight; one for stating what evidence would change your mind. Model direction: the leg-iron detail is perception with a documentary residue — the boy sees iron, the adult knows what leg-irons mean — so the gap is carried by a noun rather than by commentary.",
+        "summary": "A first-person narrator is a constructed position, not a window, and Great Expectations stages the construction openly in ten pages. The transferable habit is the two-part question — who could know this, and when — which you can apply to testimony, letters, diaries and retrospective journalism. Carry three tools into later lessons: distance between teller and character, restriction of perception, and the difference between reporting an event and evaluating it."
+       },
+       "readings": [
+        {
+         "title": "[1] Charles Dickens, Great Expectations, chapter I (1867 edition text)",
+         "url": "https://www.gutenberg.org/ebooks/1400.txt.utf-8",
+         "note": "Read chapter I only, from ‘My father’s family name being Pirrip’ to the end of the chapter, and stop at chapter II. This transcription of the 1867 edition uses curly quotation marks and Victorian punctuation; quote from it exactly as printed rather than from memory of a modern paperback. Public domain in the USA."
+        },
+        {
+         "title": "[2] Living Handbook of Narratology, ‘Narrator’",
+         "url": "https://www.lhn.uni-hamburg.de/node/44.html",
+         "note": "Read only the sections ‘Definition’ and ‘Explication’ for the distinction between narrator and author, and for the typology of first-person narration. The ‘History of the Concept’ section is reference material you can postpone. Free scholarly handbook, no paywall."
+        }
+       ],
+       "visual": {
+        "title": "Two voices in one pronoun",
+        "description": "Separating the experiencing child from the narrating adult in a first-person chapter, and showing why the gap produces both terror and irony.",
+        "steps": [
+         "Adult narrator writes long after the events and selects the order of information",
+         "Child perceives only what a boy in a churchyard can see: cloth, iron, broken shoes",
+         "Reader holds both positions at once, so fear and hindsight-irony arrive together"
+        ]
+       }
+      },
+      {
+       "id": "32",
+       "title": "Third-person access: what a narrator is allowed to know in Middlemarch",
+       "explanation": "In third-person fiction the interesting question is not who says ‘I’ but what the narration is permitted to know. Middlemarch opens with a Prelude spoken by a voice that surveys centuries and typifies human lives; chapter I then describes a young woman’s dress and profile, enters her mind, summarises her friend’s temperament, and issues generalisations about conduct. Those are different warrants doing different work. Describing Dorothea’s plain dress is reportable by any observer; declaring her mind ‘theoretic’ is an inference about her inner disposition; announcing that ‘Here and there is born a Saint Theresa, foundress of nothing’ makes a claim about history and human types that no character could verify. A reader who treats all three as the same kind of statement will over-credit the generalisations and under-notice how much of the chapter is interpretation [1].",
+       "example": "Work on the novel’s first description: ‘Miss Brooke had that kind of beauty which seems to be thrown into relief by poor dress.’ Three things are observable. The verb is hedged — beauty that ‘seems’ thrown into relief is an effect on a viewer, not a measurable property of a body. The word ‘relief’ is a term from painting and sculpture, and the next sentence confirms the register by comparing her sleeves to drapery in Italian paintings. And the sentence compares her to a tradition of images, which means the speaker commands a cultural range no neighbour in Tipton could. Step one: identify the sentence as evaluative description with a visual metaphor. Step two: note the comparisons that reveal the teller’s scope — Italian painters, then Pascal and Jeremy Taylor read by heart. Step three: conclude that this voice has access to learning, to interiors and to other people’s temperaments, and that access is a convention of the telling, not evidence about real minds. A counterreading keeps the narrator’s scope but questions his authority: because chapter I also shows Celia judging her sister with practical sense, the narrator’s aesthetic framing is one account among several in the scene, and later chapters test it [1].",
+       "question": "Which sentence shows the narrator granting Celia a quality no observer in the room could verify?",
+       "answer": "‘Celia mildly acquiesced in all her sister’s sentiments, only infusing them with that common-sense which is able to accept momentous doctrines without any eccentric agitation’",
+       "distractor": "‘Miss Brooke had that kind of beauty which seems to be thrown into relief by poor dress.’",
+       "correction": "The dress sentence is an evaluative description of a visible effect, available in principle to anyone watching. The Celia sentence names an inward disposition and a habitual temper, which the narration reports directly. Locate the claim’s object: appearance is public, temperament is a narrator’s gift.",
+       "depth": {
+        "definitions": "Omniscient narration can report the inner life of more than one character and generalise beyond the scene. Limited, or figural, narration restricts what is told to what one character can perceive or think, so its knowledge is bounded. Narratology separates who sees from who speaks: focalization is the perceiving filter, voice is the telling instance, and the two can be separated in one sentence. Prerequisites: you should be able to distinguish description from inference, and direct speech from reported speech. Useful sub-terms: internal focalization (through a mind), external focalization (behaviour only), and free indirect discourse, treated in the next lesson. Remember that ‘omniscient’ describes the narrator’s permissions, not the narrator’s trustworthiness [2].",
+        "mechanism": "Access is established by small permissions rather than by announcements. In chapter I the narration grants itself four resources: inside knowledge of Dorothea’s beliefs and yearnings; inside knowledge of Celia’s temperament; evaluative metaphors from art; and transhistorical generalisation in the Prelude. Each resource has a cost. Interior report cannot be checked by any character, so the reader must accept it as narrative convention or treat it as the narrator’s interpretation. Generalisation is the riskiest of the four, because a sentence about what is ‘born’ here and there invites agreement while offering no scene as evidence; notice that the Prelude names its own pattern of failure — an ardent nature dispersed among hindrances — and the novel then spends eight hundred pages as the test case. Limits: interiors cannot serve as evidence about real psychology, and the narrator’s sweeping claims are rhetorical positions inside the book, not the book’s verdict. When a narrator generalises, mark it and wait for a scene to confirm or complicate it [2].",
+        "secondExample": "Set the narrator’s summary beside the same chapter’s presentation of Dorothea through her own words and choices. The narrator tells us her mind is ‘theoretic’ and that she is ‘enamoured of intensity and greatness’; the scene also shows her deciding, in front of Celia, to give away their mother’s jewels and then keeping back the set she likes. Two routes to the same character: a direct interior claim, and a choice from which the reader must infer. The contrast is instructive because it gives you two kinds of evidence with different strengths. The summary is unverifiable inside the story but efficient; the choice is verifiable and the reader must supply the interpretation, so different readers may take away a slightly different Dorothea. Strong criticism uses both and says which load each is carrying [1].",
+        "mistake": "The first misconception is that third person equals neutral or objective report. Test it by hunting a sentence that names an inward state; objectivity cannot survive an interior claim. The second is that an omniscient narrator is always right, so a generalisation in the Prelude settles the novel’s meaning. Diagnose by asking what evidence inside the story would confirm the claim, and whether later scenes supply it. The third is calling the narrator ‘George Eliot’ and reading opinions as the author’s biography. The narrator is a constructed voice with limited permissions; assignment of an opinion to the author needs external evidence, and even then the novel’s meaning is not settled by that assignment. A quick diagnostic: rewrite the sentence in first person with ‘I think’ in front. If it becomes obviously contestable, it never was an innocent fact.",
+        "application": "Choose three sentences from chapter I. Classify each as (a) external description, (b) reported interiority, or (c) generalisation beyond the scene. Then write 150–200 words arguing which class carries the most interpretive risk here and why. Self-review rubric: two points for correct classification with reasons; two for naming the textual marker that gave the class away (hedged verb, inner-state noun, plural timeless subject); two for one limitation, such as the fact that a single sentence can contain two classes at once; one for a stated consequence if your classification is wrong. Model direction: the ‘seems to be thrown into relief’ clause is description with an evaluative hedge, so the safest paraphrase is that the narrator reports an effect while reserving judgement.",
+        "summary": "Third-person narration is defined by permissions, not neutrality. Middlemarch hands its teller access to interiors, comparison across cultures and generalisation across centuries, and each permission is a place where a reader should notice who is speaking and on what warrant. The transferable habit is to classify every narrative sentence as description, interior report, or generalisation, because the three kinds fail in different ways and support different conclusions."
+       },
+       "readings": [
+        {
+         "title": "[1] George Eliot, Middlemarch, Prelude and Book I, chapter I",
+         "url": "https://www.gutenberg.org/ebooks/145.txt.utf-8",
+         "note": "Read the ‘Prelude’ and Book I, chapter I only; stop at chapter II. The Prelude is unnumbered, so read it before the chapter headed ‘CHAPTER I’. Public domain in the USA; the transcription uses curly quotation marks, so copy quoted words exactly as printed."
+        },
+        {
+         "title": "[2] Living Handbook of Narratology, ‘Perspective – Point of View’",
+         "url": "https://www.lhn.uni-hamburg.de/node/26.html",
+         "note": "Read the ‘Definition’ and ‘Explication’ sections for the distinction between who perceives (focalization) and who narrates (voice), and for the difference between internal and external perspective. Skip the bibliography on first reading."
+        }
+       ],
+       "visual": {
+        "title": "Four permissions of a third-person teller",
+        "description": "A ladder from public description to unverifiable generalisation, showing what kind of evidence each narrative statement offers.",
+        "steps": [
+         "External description: dress and profile, available to any observer",
+         "Reported interiority: Dorothea’s yearnings, Celia’s temper — no witness can check these",
+         "Evaluative comparison: art, Pascal, Italian painters — reveals the teller’s cultural range",
+         "Transhistorical generalisation: ‘a Saint Theresa, foundress of nothing’ — claims about human types"
+        ]
+       }
+      },
+      {
+       "id": "33",
+       "title": "Free indirect discourse: whose judgement is inside the sentence?",
+       "explanation": "Free indirect discourse is third-person narration that borrows a character’s vocabulary, feelings and question forms without quotation marks or a reporting clause. Nothing announces the shift; the sentence looks like ordinary narration and sounds like a mind. Emma’s first chapter gives a textbook case. The narrator opens with a summary that hedges — Emma ‘seemed to unite some of the best blessings of existence’ — and then, a few paragraphs later, writes: ‘The real evils, indeed, of Emma’s situation were the power of having rather too much her own way, and a disposition to think a little too well of herself.’ Read literally, the narrator agrees that Emma’s independence is one of her ‘evils’. Read again, and the moral accounting may belong to Emma’s own scale, which the chapter has just shown to be unreliable. The following sentence settles nothing: the danger ‘was at present so unperceived, that they did not by any means rank as misfortunes with her’. Somebody is calling these things evils and somebody is failing to perceive them, and the two parties may not be the same [1].",
+       "example": "Work the passage as a detective. Test one, deictic anchoring: ‘at present’ and ‘with her’ place the sentence inside Emma’s moment rather than in the narrator’s retrospective survey, although the grammar is past tense and third person. Test two, evaluative vocabulary: ‘evils’, ‘disadvantages’, ‘alloy’, ‘enjoyments’ and ‘misfortunes’ form a coherent bookkeeping of pleasure and cost, and the chapter attributes exactly that kind of bookkeeping to Emma elsewhere by describing her as having considered the marriage a blessing. Test three, negative control: a sentence that could only be written by a narrator with knowledge beyond the scene cannot be free indirect discourse, because no character inside the story could have produced it. Step one: isolate the sentence about ‘real evils’. Step two: apply the three tests and record which features you actually found. Step three: state the result as a hypothesis rather than a fact — the sentence is double-voiced, and its irony depends on hearing both the moralist and the girl. A counterreading deserves weight: perhaps the narrator really does judge Emma’s self-will, and the discomfort we feel is Austen’s moral seriousness rather than ambiguity. That reading is defensible, but it must then explain the hedge in ‘seemed to unite’ and the ‘unperceived’ clause that closes the paragraph [1][2].",
+       "question": "Which feature most reliably marks the sentence about Emma’s ‘real evils’ as free indirect discourse rather than plain narration?",
+       "answer": "Present-time deictic words such as ‘at present’ joined to a ledger of pleasures and costs that belongs to Emma’s own scale",
+       "distractor": "The sentence uses past tense and third person, which is the ordinary grammar of narration.",
+       "correction": "Past tense and third person are exactly what free indirect discourse shares with plain narration, so they cannot distinguish it. The markers are borrowed from the character’s position: present-time adverbs, evaluative vocabulary and emotional anchoring. Find the words that could only have come from inside a mind.",
+       "depth": {
+        "definitions": "Speech representation runs along a spectrum. Direct speech reproduces words in quotation marks with a reporting clause; indirect speech reports them in the narrator’s grammar (‘she said that the danger was unperceived’); free indirect discourse removes both marks and clause while keeping the character’s idiom, deixis and evaluative stance. Narratology treats this as one technique among several for representing consciousness, and notes that the source of a given judgement may stay permanently ambiguous. Prerequisites: you should be able to identify deictic words such as now, here, today and at present, to distinguish evaluative from neutral vocabulary, and to recognise irony. Related terms: double-voiced discourse, where narrator and character are audible in one utterance, and psychonarration, where a narrator reports thought in his own idiom [2].",
+        "mechanism": "Three grammatical adjustments produce the effect. Person shifts to the third, tense shifts to the past, but the character’s present-time adverbs, questions and value-words remain, so past-tense syntax carries present-tense feeling. Because no reporting clause is supplied, the reader receives no assignment of the thought and must infer the source from context — which is what makes irony possible, since one sentence can be both the narrator’s accurate summary and the character’s self-flattering accounting. The technique has limits and failure modes. Readers over-detect it, treating every evaluative adjective as a character’s thought, so a claim should name the borrowed features rather than report a feeling. It cannot represent material outside the character’s knowledge, because the borrowing would have no source. And although its ambiguity is a feature rather than a defect, the ambiguity must be argued for; ‘it sounds like her’ is not evidence [2].",
+        "secondExample": "Compare a sentence in the same chapter that is unambiguously narrator summary: ‘Sorrow came—a gentle sorrow—but not at all in the shape of any disagreeable consciousness.’ Its shape is a narrator’s antithesis and its abstractions are not Emma’s speech, yet ‘gentle’ and the careful measurement of what is or is not ‘disagreeable’ to her tilt the sentence toward her valuation of events. This is the disputed middle of the spectrum and the most instructive place to practise, because you must decide how much borrowing is enough. Contrast it with Northanger Abbey’s narrator, whose irony is plainly his own because it measures a character against literary conventions she has never heard of. Two questions separate the cases: could this character have framed the judgement, and does the surrounding text assign the judgement to anyone else [1][2]?",
+        "mistake": "The first misconception is that any narration reporting thoughts is free indirect discourse; most of it is psychonarration in the narrator’s own idiom. The second is that free indirect discourse means the narrator agrees with the character. The technique exists to leave agreement undecided, which is why so many arguments about Austen’s irony are arguments about a sentence’s source. The third misreading treats ambiguity as a licence for any interpretation. Diagnose by rewriting the sentence as direct speech: ‘the power of having rather too much my own way is my real evil’ is a plausible thought for Emma and an implausible unironic statement for her narrator. If the direct-speech version sounds like the character, you have a candidate; if it sounds like nobody, you have an overreading.",
+        "application": "Take two sentences from chapter I and rewrite each as (a) direct speech and (b) plain narrator summary, then write 150–200 words on what is gained and lost. Self-review rubric: two points for rewrites that preserve the original’s evaluative vocabulary; two for naming the borrowed features that justified your reading; two for a stated falsification condition, such as evidence that the narrator uses the same idiom about a different character; one for a limitation, such as the fact that the chapter’s irony does not require you to settle the source. Model direction: restoring quotation marks gives the thought an owner and destroys the irony, while summarising it in flat terms deletes Emma’s scale of values; the original keeps both in play.",
+        "summary": "Free indirect discourse lets a narrator report a mind from inside without relinquishing the telling voice, and its interpretive payoff is controlled ambiguity about who judges what. Practise the three markers — present-time deixis, borrowed evaluative vocabulary, absent reporting clause — and always state the falsification condition for your reading. Carry the question ‘who owns this judgement?’ into every third-person novel you open."
+       },
+       "readings": [
+        {
+         "title": "[1] Jane Austen, Emma, volume I, chapter I",
+         "url": "https://www.gutenberg.org/ebooks/158.txt.utf-8",
+         "note": "Read volume I, chapter I only, from ‘Emma Woodhouse, handsome, clever, and rich’ to the paragraph introducing Mr Knightley; stop before chapter II. This transcription labels volumes and chapters separately, so confirm you are inside VOLUME I. Public domain in the USA."
+        },
+        {
+         "title": "[2] Living Handbook of Narratology, ‘Speech Representation’",
+         "url": "https://www.lhn.uni-hamburg.de/node/47.html",
+         "note": "Read the ‘Definition’ and ‘Explication’ sections, which set out the direct/indirect/free-indirect spectrum and the problem of attributing a represented thought. The ‘History of the Concept’ section is optional background."
+        }
+       ],
+       "visual": {
+        "title": "One sentence, two owners",
+        "description": "How a free-indirect sentence splits into a narrator’s report and a character’s accounting, and how a reader decides where the judgement sits.",
+        "steps": [
+         "Grammar shifts to third person and past tense, matching ordinary narration",
+         "Lexis stays with the character: ‘evils’, ‘alloy’, ‘enjoyments’, ‘at present’",
+         "No reporting clause appears, so ownership of the judgement is left open",
+         "Irony arises when a reader hears both the moralist and the girl inside one clause"
+        ]
+       }
+      },
+      {
+       "id": "34",
+       "title": "Frames and filters: interested testimony in Wuthering Heights, chapter I",
+       "explanation": "Wuthering Heights reaches us at several removes. A dated diary by an outsider, Mr Lockwood, frames a long account by the housekeeper Nelly Dean, which in turn contains letters, servants’ reports and characters’ own narrations. Chapter I is our only sustained, unmediated access to Lockwood’s voice, and it is the voice of a man who reads other people badly. He calls the country ‘a perfect misanthropist’s Heaven’, decides that Heathcliff and he are ‘such a suitable pair to divide the desolation between us’, and takes an obvious snub for tacit understanding. The frame is therefore not a neutral delivery system but a filter with opinions, tastes and blind spots. Reading framed fiction means tracking the chain of custody of every piece of information: who speaks, at which level, to whom, and with what stake [1].",
+       "example": "Compare two sentences from the same page. ‘Wuthering Heights is the name of Mr. Heathcliff’s dwelling’ is a report; any visitor could confirm it, and it explains the provincial adjective used in the name. ‘A perfect misanthropist’s Heaven—and Mr. Heathcliff and I are such a suitable pair to divide the desolation between us’ is an interpretation, and a self-flattering one. Step one: label the first report and the second interpretation. Step two: notice what the interpretation reveals about the interpreter — he wants to be thought a misanthrope, he assumes a reciprocity nobody has offered, and he has just been received with a growling dog, an unfriendly servant and a grudging welcome. Step three: extract the method. When a narrator judges another character, ask what the judgement tells us about the judge, and whether later evidence corroborates it. Here the answer to the second question arrives fast and unflatteringly. A counterreading has force: Lockwood’s comic obtuseness is deliberately useful, because his misreadings make the reader suspicious of confident judgements about Heathcliff and so prepare us to distrust even the frame that carries the whole story [1].",
+       "question": "What does the sentence calling Heathcliff and himself ‘such a suitable pair to divide the desolation between us’ chiefly contribute to the chapter?",
+       "answer": "An interpretation of Heathcliff that reveals Lockwood’s vanity and his weakness as a judge of people",
+       "distractor": "A reliable report of a mutual understanding that the rest of the novel goes on to confirm.",
+       "correction": "Nothing in the scene grants reciprocity: Lockwood invents a kinship the household has refused him. The sentence’s value is diagnostic — it measures the interpreter. Treating the frame as neutral is the error this item tests.",
+       "depth": {
+        "definitions": "A frame narrative encloses one story inside another, producing narrative levels: an outer teller (here Lockwood’s diary) transmits an inner account (Nelly’s narration), which may contain further reports such as letters. A homodiegetic narrator tells a story he or she took part in; a heterodiegetic narrator did not. Testimony is an account offered by a witness, and it arrives with interests. Unreliability describes a narrator whose account diverges from the norms the work implies, and the concept is contested because readers disagree about where those norms sit. Prerequisites: you should be able to distinguish a character’s words from a narrator’s report and to say which narrator is speaking on a given page [2][3].",
+        "mechanism": "Framing works by delegation. Each level can supply what the level below cannot vouch for, so facts, hearsay, letters and opinions arrive in one stream with no marker indicating how much weight each deserves. Three effects follow. Access: an outsider can describe furniture and interiors, but only a servant can know the family history, and only a letter can carry a dead character’s voice. Distribution of blame: no single teller owns the novel’s ugliest events, which makes judgement diffuse and compels the reader to choose what to credit. Dramatised interpretation: Lockwood is a bad reader inside the book, so the reader is invited to read better than he does. Limits and cautions: unreliability is not lying, and the narratological literature warns against applying the label to any narrator who has a perspective and a stake, which is every narrator, since all telling selects. Keep two claims apart: this narrator is interested, and this narrator is factually unreliable. The first is easy to establish; the second needs specific contradictions [2][3].",
+        "secondExample": "Return to the chapter’s first factual line: ‘1801—I have just returned from a visit to my landlord—the solitary neighbour that I shall be troubled with.’ The date is a report; ‘I shall be troubled with’ is a forecast saturated with the diarist’s mood, and everything that follows inherits its temperature. A frame therefore supplies not only information but an atmosphere. Set beside it Nelly Dean’s later narration, where the teller is an eyewitness raised inside the household, with loyalties to particular family members, a servant’s class position, and reasons to justify her own conduct during crises. Both tellers are interested, but the interests differ in kind: the outsider wants to seem interesting and to have understood something, the insider wants to be exonerated. Comparing their accounts of the same incident is the work the frame demands [1].",
+        "mistake": "The usual error says a first-person account must be either reliable or a lie, then hunts for factual conflicts to settle the question. Frames are more often interested than false, so the productive question is not ‘is he lying?’ but ‘what does this teller know, want and value?’ A second error treats framing as plumbing, assuming the outer narrator transparently relays the inner story. Diagnose by marking levels on a page: underline Lockwood’s own report once, Nelly’s quoted narration twice, anything Nelly reports at second hand three times. If a passage’s emotional force comes from a level you had not noticed, you have been reading a framed novel as a single voice. A third error transfers one teller’s judgement to the whole book, so Lockwood’s opinion of Heathcliff becomes the novel’s verdict.",
+        "application": "Build an evidence table for one incident in chapter I with four columns: statement, narrative level and speaker, the speaker’s apparent stake, corroboration status (confirmed, unexplained, unsupported). Then write 150–200 words on which item deserves most caution and why. Rubric: two points for correct level attribution; two for specific stakes rather than generic talk of bias; two for honest corroboration status; one for a stated falsification condition. Model direction: Lockwood’s report that a servant unlocked a gate is a plain observation, while his inference that Heathcliff’s reserve springs from an aversion to showy feeling belongs to Lockwood alone and is contradicted by later scenes.",
+        "summary": "Framed narration makes every statement a position in a chain of custody, and Wuthering Heights uses a badly reading outsider to make that visible. The transferable skills are level-marking, stake-identification and corroboration-checking, which apply equally to journalism, oral history and institutional reports. Keep interested and false apart, because most real narration sins by the first and only rarely by the second."
+       },
+       "readings": [
+        {
+         "title": "[1] Emily Brontë, Wuthering Heights, chapter I",
+         "url": "https://www.gutenberg.org/ebooks/768.txt.utf-8",
+         "note": "Read chapter I only, from the date ‘1801’ to the end of the chapter, stopping before Lockwood’s second visit. Note that the diary frame is dated 1801 and resumes much later in the novel, so chapter I is a deliberately partial introduction. Public domain in the USA."
+        },
+        {
+         "title": "[2] Living Handbook of Narratology, ‘Narrative Levels’",
+         "url": "https://www.lhn.uni-hamburg.de/node/32.html",
+         "note": "Read the ‘Definition’ and ‘Explication’ sections for frame and embedded narration and for the vocabulary of extradiegetic, diegetic and metadiegetic levels used in this lesson."
+        },
+        {
+         "title": "[3] Living Handbook of Narratology, ‘Unreliability’",
+         "url": "https://www.lhn.uni-hamburg.de/node/66.html",
+         "note": "Read the ‘Definition’ and ‘Explication’ sections, which set out the disputed criteria for calling a narrator unreliable — the best available resistance to labelling every interested teller a liar."
+        }
+       ],
+       "visual": {
+        "title": "Chain of custody in one novel",
+        "description": "From Lockwood’s diary outward to letters and hearsay, with the question each layer requires.",
+        "steps": [
+         "Lockwood’s dated diary gives an outsider’s observations and his own misjudgements",
+         "Nelly Dean’s spoken account gives eyewitness history with a servant’s loyalties",
+         "Letters and reported conversations carry further voices at a third remove",
+         "Reader assigns each statement a level, a stake and a corroboration status"
+        ]
+       }
+      },
+      {
+       "id": "35",
+       "title": "Irony: when the sentence means more, or less, than it says",
+       "explanation": "Irony occurs when a sentence’s literal sense and its point diverge, or when an outcome overturns an expectation the text has encouraged. Northanger Abbey opens with a sentence that performs both: ‘No one who had ever seen Catherine Morland in her infancy would have supposed her born to be an heroine.’ Taken literally, it is an unremarkable prediction about an ordinary child. Taken as a move in a novel, it is a joke at the expense of the convention that heroines are born rather than made, and a signal that this book will measure its heroine against a template she cannot know. The chapter then supplies her disqualifications in a register of mock-serious deflation: a father who was ‘a clergyman, without being neglected, or poor’, a man who ‘had never been handsome’, and a girl who ‘was often inattentive, and occasionally stupid’. The reader must decide whom the irony touches: Catherine, the conventions of fiction, or both [1].",
+       "example": "Work the opening sentence through a three-step procedure. Step one: produce the literal claim — nobody who saw Catherine as a baby would have predicted she would become a heroine. Step two: ask what the sentence presupposes. It presupposes that heroines exist as a recognisable type, that infancy might reveal one, and that a novel’s interest depends on its heroine being exceptional; the rest of the chapter spends its energy denying each in turn. Step three: check who could be speaking. Because the sentence knows how novels are built, its speaker has knowledge Catherine does not possess about herself, and is therefore not Catherine’s thought; this is not free indirect discourse, where the source is deliberately blurred, but narration with an explicit bone to pick. Then test the literal reading for coherence. If we take the sentence straight, the following paragraphs become a flat list of failings and the joke in ‘Not that Catherine was always stupid—by no means’ loses its point. The ironic reading explains more of the chapter’s word choices, and that explanatory gain is the evidence for it. A counterreading stays available: the irony targets Catherine, and the narrator is mocking a provincial girl. The chapter’s defence of her good nature and its later treatment of her courage make that reading costly, but it is a reading to weigh rather than dismiss [1][2].",
+       "question": "What is the best evidence that the irony of ‘No one who had ever seen Catherine Morland in her infancy would have supposed her born to be an heroine’ belongs to the narrator rather than to Catherine?",
+       "answer": "The sentence presupposes the conventions of fictional heroism, knowledge about herself that Catherine does not have",
+       "distractor": "The sentence is in the third person, and third-person statements always belong to the narrator.",
+       "correction": "Person is not the test, as the previous lesson on free indirect discourse showed: third-person sentences can carry a character’s judgement. What settles this case is the knowledge the sentence requires — novelistic convention, which Catherine cannot be measuring herself against.",
+       "depth": {
+        "definitions": "Verbal irony occurs when a speaker means something different from, often opposite to, the literal sense. Structural, or situational, irony occurs when events or a text’s arrangement defeat the expectations they create. Dramatic irony occurs when an audience knows something a character does not. An unreliable narrator is one whose account diverges from the work’s implied norms; irony and unreliability are often confused but are independent, since a wholly reliable narrator can be relentlessly ironic. The implied author names the norm-governed construct a reader infers from the whole work, which is what allows a tone to be heard as ironic at all. Sarcasm is a mode of mockery, not a synonym for irony. Prerequisites: narrative levels from lesson 34 and free indirect discourse from lesson 33 [2].",
+        "mechanism": "Irony has a mechanism and therefore a standard of evidence. It requires a norm: the reader constructs, from the pressure of the surrounding text, a sense of what the work values, and a sentence that violates that sense while appearing to endorse it reads as ironic. Detection has three moves. First, literal paraphrase. Second, coherence test: does the literal reading make the surrounding passages work, or turn them into noise? Third, entitlement test: who is positioned to know what the sentence knows? In Northanger Abbey all three moves converge, because the chapter’s own jokes depend on the literal reading failing. The mechanism of structural irony differs: the narrator plants expectations borrowed from the gothic novel, and the plot quietly declines to supply them, so the reader feels the gap between what the form promises and what the story gives. Limits matter as well. Irony can be over-claimed, since any sentence becomes ironic if the reader supplies a hostile norm, so a claim of irony should name the norm, quote the textual pressure that establishes it, and concede whatever the literal reading explains [2].",
+        "secondExample": "Consider the sentence describing Catherine’s education as a heroine: ‘from fifteen to seventeen she was in training for a heroine; she read all such works as heroines must read to supply their memories with those quotations which are so serviceable and so soothing in the vicissitudes of their eventful lives.’ Here the irony is structural as well as verbal. The vocabulary of ‘training’ reduces literary accomplishment to equipment; ‘so serviceable and so soothing’ mocks the novel’s habit of furnishing its heroines with ready-made quotations; and the expectation of an ‘eventful’ life is planted for a plot that will supply a mild courtship instead of shipwrecks. A reader who knows only verbal irony will take the sentence as a sneer at Catherine. A reader tracking structure will see that the mockery is aimed at a form the novel is itself using, which is why the book can be affectionate and satirical at once. The practical difference between the readings is that the second makes a testable claim about the novel’s later plot, while the first does not [1].",
+        "mistake": "Three misconceptions recur. The first says irony means saying the opposite, which flattens the cases where irony adds a second layer rather than reversing the first. The second equates ironic narration with unreliability. Northanger Abbey’s narrator is consistent and authoritative, and the irony depends on that consistency: a narrator who could not be trusted to hold a norm could not produce irony at all. The third assumes that if a character fails to notice the joke there is no joke. Catherine cannot hear the irony about heroines because she does not know she is a character in a novel; the reader can, and that asymmetry is the mechanism. Diagnose a disputed case by writing out the literal reading in full and asking what textual evidence would be lost if you adopted it. If the only loss is ‘the tone feels mocking’, you have a preference; if specific jokes, repetitions and plot expectations collapse, you have a case.",
+        "application": "Choose two sentences from chapter 1. For each, write a literal paraphrase and an ironic paraphrase, then 150–200 words on which is better supported, naming the norm you are attributing to the work and the evidence that establishes it. Self-review rubric: two points for two genuinely distinct paraphrases; two for naming the norm rather than asserting a tone; two for handling one sentence where the literal reading retains force; one for a stated falsification condition, such as a later scene in which the narrator uses the same language without irony. Model direction: the mock-solemn account of Catherine’s father is best read ironically because its criteria of eligibility for a heroine come from fiction, not from life, and the chapter abandons them immediately.",
+        "summary": "Irony is a relation between a text’s literal sense and the norms the text establishes, which is why it needs evidence rather than intuition: paraphrase the sentence, test coherence, and ask who is entitled to the judgement. Distinguish verbal from structural and dramatic irony, and keep irony separate from unreliability, since an ironic narrator may be entirely trustworthy. The habit to carry forward is to name the norm you are attributing to the work before claiming that a sentence mocks it."
+       },
+       "readings": [
+        {
+         "title": "[1] Jane Austen, Northanger Abbey, chapter 1",
+         "url": "https://www.gutenberg.org/ebooks/121.txt.utf-8",
+         "note": "Read the section headed ‘CHAPTER 1’ only, from ‘No one who had ever seen Catherine Morland in her infancy’ to the end of that section, stopping before chapter 2. This transcription numbers chapters in Arabic numerals and preserves the phrase ‘an heroine’; quote it exactly as printed. Public domain in the USA."
+        },
+        {
+         "title": "[2] Living Handbook of Narratology, ‘Implied Author’",
+         "url": "https://www.lhn.uni-hamburg.de/node/58.html",
+         "note": "Read the ‘Definition’ and ‘Explication’ sections on the norm-governed construct that lets readers hear irony, and the long-standing objection that the concept is unnecessary. Read it critically: this entry presents a disputed term, not settled doctrine."
+        }
+       ],
+       "visual": {
+        "title": "How an ironic sentence is tested",
+        "description": "A three-step procedure for deciding whether a sentence is ironic, applied to the novel’s opening claim about heroines.",
+        "steps": [
+         "Literal paraphrase: nobody would have predicted she would become a heroine",
+         "Coherence test: does taking it straight make the chapter’s jokes work, or dissolve them?",
+         "Entitlement test: the sentence knows novelistic convention, so the narrator owns it, not Catherine",
+         "Weigh the rival reading that mocks Catherine herself, and price what it costs"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-31-a",
+       "prompt": "A student claims that because Pip narrates as an adult, the terror in chapter I must be invented for effect rather than remembered. Which correction best fits the chapter?",
+       "answer": "Retrospection affects phrasing and order but provides no basis for calling the experience invented",
+       "distractor": "Adult narration proves that every reported feeling has been retrospectively fabricated",
+       "correction": "The two claims are separate: distance licenses judgements about how events are told, not verdicts about whether they happened. Ask which words require later knowledge rather than treating distance as deception.",
+       "reviewLessonIds": [
+        "31"
+       ]
+      },
+      {
+       "id": "uq-32-a",
+       "prompt": "In an essay draft, a writer states that Middlemarch’s narrator must be correct about Dorothea because the narration can enter her mind. Which repair is needed?",
+       "answer": "Interior access shows a permission granted by the telling, not a guarantee that the narrator’s judgement is right",
+       "distractor": "Interior access proves the narrator reports psychological facts rather than interpretations",
+       "correction": "Reported inner life is a convention of the telling and cannot be checked by any character. Separate the narrator’s access from the narrator’s authority, then test the generalisations against scenes.",
+       "reviewLessonIds": [
+        "32"
+       ]
+      },
+      {
+       "id": "uq-33-a",
+       "prompt": "A reader marks the sentence about Emma’s ‘real evils’ as the narrator’s settled moral verdict. Which evidence in the same passage most complicates that verdict?",
+       "answer": "The closing clause reports that the danger was unperceived by Emma, blending her evaluation with the narrator’s report",
+       "distractor": "The word ‘indeed’ shows the narrator asserting a conclusion without qualification",
+       "correction": "‘Indeed’ concedes emphasis but cannot cancel the sentence’s borrowed scale of values and its shift into Emma’s ‘at present’. Locate the deictic and evaluative markers before assigning the judgement.",
+       "reviewLessonIds": [
+        "33"
+       ]
+      },
+      {
+       "id": "uq-34-a",
+       "prompt": "A study guide asserts that because Lockwood is a poor judge of character, his statements of fact about the house may be disregarded. What is the precise correction?",
+       "answer": "Poor judgement about people affects his interpretations of them, not his reports of what he saw",
+       "distractor": "Any narrator who misjudges a person is unreliable about every statement he makes",
+       "correction": "Mark level and type: observation versus interpretation. Unreliability in one line of evidence does not transfer automatically to another, and the narratological literature treats unreliability as a claim needing contradictions.",
+       "reviewLessonIds": [
+        "34"
+       ]
+      },
+      {
+       "id": "uq-35-a",
+       "prompt": "A reader argues that Northanger Abbey’s opening sentence cannot be ironic because Catherine herself never notices any mockery. How should this be answered?",
+       "answer": "Irony depends on norms the reader can infer, so a character’s unawareness is compatible with, and even necessary to, the joke",
+       "distractor": "Irony requires the character addressed to recognise the mockery for it to exist",
+       "correction": "Catherine cannot hear a joke about heroines because she does not know she is measured against fictional convention. Ask who holds the norm, not who fails to notice it.",
+       "reviewLessonIds": [
+        "35"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Craft and evidence: close reading, form, setting, and the defensible claim",
+     "lessons": [
+      {
+       "id": "36",
+       "title": "Characterisation through action: the love test in King Lear, Act 1, scene 1",
+       "explanation": "Readers often assume characterisation means descriptive adjectives handed out by a narrator. King Lear has no narrator, and its opening scene characterises by conduct. Lear turns an inheritance into a public auction — ‘Which of you shall we say doth love us most?’ — and asks his daughters to name a price in affection. Goneril bids: ‘Sir, I love you more than word can wield the matter’ Cordelia answers ‘Nothing, my lord’, and when pressed repeats the word before explaining, ‘Unhappy that I am, I cannot heave / My heart into my mouth: I love your majesty / According to my bond; no more nor less.’ Kent interrupts and is banished for it. Nobody in the scene tells us what anyone is like; the scene makes conduct visible and lets us compare costs. That is characterisation by action, and it has an evidence standard: claims about character must rest on patterns of behaviour under pressure, not on a single speech [1][2].",
+       "example": "Read the exchange as a sequence of decisions. Step one: observe what each speaker treats as the relevant currency. Lear wants quantities of love, and Goneril supplies quantity — ‘more than word can wield the matter’, ‘Dearer than eyesight, space, and liberty’, ‘beyond what can be valu’d, rich or rare’. Cordelia refuses that currency and answers in the grammar of obligation, offering ‘nothing’ and then a bond. Step two: notice what each speaker is willing to risk. Goneril risks nothing; Kent risks everything, saying ‘See better, Lear; and let me still remain / The true blank of thine eye’ and adding ‘Kill thy physician, and the fee bestow / Upon the foul disease’. France accepts a disinherited bride: ‘Fairest Cordelia, that art most rich, being poor’ Step three: infer characters provisionally, then look for repetition later in the play. The play corroborates Kent by making him return in disguise to serve the king he contradicted, and it corroborates Goneril through her later conduct. A counterreading deserves respect: Cordelia’s refusal can be read as rigid pride that half-causes the catastrophe, and the play leaves room for that judgement because it supplies no narrator to referee. Both readings rest on the same evidence, which is why the argument is worth having; what would not be defensible is praising or blaming a figure on the strength of one sentence [1].",
+       "question": "Which feature of Act 1, scene 1 best supports characterisation by action rather than description?",
+       "answer": "Each person’s conduct carries a visible cost the scene registers, such as Kent’s banishment for speaking plainly",
+       "distractor": "The scene contains long speeches, and length of speech indicates depth of character.",
+       "correction": "Speech length measures rhetoric, not character, and Goneril’s longest speech is the emptiest. Characterisation by action asks what a person risks and does under pressure, then checks the pattern later in the play. Kent knowingly accepts a cost.",
+       "depth": {
+        "definitions": "Characterisation by action means inferring traits from what figures do, choose, refuse and pay for. It contrasts with direct description, where a narrator or another character supplies the trait in words; narratology frames the pair as telling and showing, with the caveat that showing also requires interpretation. A speech act is an action performed in words — demanding, promising, refusing, granting. Dramatic character is a pattern of choices plus the reports others give of it, and in drama the pattern is filtered through staging, casting and textual variation. Prerequisites: you should be able to tell what a figure says from what the scene shows to be true, and to see who bears a cost in an exchange [1][2].",
+        "mechanism": "Action-based characterisation works through four levers. Incentives: Lear structures a contest with land as the prize, so every answer is also a bid, and bids can be compared with risks. Cost: the scene records who pays for speaking, which converts words into deeds — Kent’s plainness costs him his place, Cordelia’s costs her a dowry. Contrast: the flatterers’ metaphors of measurement sit beside a refusal to measure, so style itself becomes evidence about motive. Corroboration: because one scene cannot fix a character, the play supplies later tests, and a defensible trait-claim predicts them. Limits: an inferred trait is a hypothesis about a pattern, not a fact about a person; performance and editions vary in emphasis; and the scene also exposes the court’s standards, so what characters say about Cordelia is evidence about the court as well as about her [2].",
+        "secondExample": "Apply the same method to France, who has the least to gain. Burgundy withdraws once the dowry disappears; France takes the dowerless daughter, saying ‘Thee and thy virtues here I seize upon: / Be it lawful, I take up what’s cast away.’ His conduct is measurable against a stated price, so the audience learns something about him, and the test continues: the play corroborates France by keeping him clear of the disasters and, in the Folio text, bringing him back at the end as a possible ruler, so a trait-claim about his steadiness can be checked. Now reverse the direction with Edmund’s fabricated letter in the following scene, where a document makes a character look treacherous to someone who cannot check it. Two applications, two evidence routes: conduct under visible cost, and conduct refracted through others’ reports, of which only the first supplies direct evidence [1].",
+        "mistake": "The first misconception treats characters as acquaintances known from description, so a vivid adjective feels like proof. The second reads a whole character from a single act and then defends the claim by restating the act. Diagnose both with two questions: does the trait recur across the play, and would a competing trait explain the same scenes at least as well? Cordelia’s silence, for instance, supports integrity and inflexibility alike, so a good answer says which it favours and names the scenes that would settle it. A third error imports a narrator’s knowledge into drama, pronouncing on inner thoughts when the text supplies only words and actions. Lear’s intent is available because he states it; Goneril’s inner state is not, and the judgement should stop where the evidence stops.",
+        "application": "Build a conduct table for one figure in Act 1, scene 1 with four columns: act or words, cost borne by the speaker, effect on others, later corroboration in the play. Then write 180–220 words defending one trait with two pieces of evidence and one serious counterreading. Rubric: two points for accurate, located evidence; two for identifying real costs rather than symbolic ones; two for a counterreading a reasonable reader could hold; one for a revision condition, such as a later scene that would change your mind. Model direction: Kent is best described as loyal and imprudent rather than simply loyal, because his ‘See better, Lear’ speech escalates after the king threatens him, and the play later shows him tempering that bluntness by serving in disguise.",
+        "summary": "In drama, character is inferred from conduct under pressure, and the evidence standard is recurrence plus corroboration rather than vividness. The love test is an unusually clean laboratory because it attaches a stated price and a visible cost to each speech, letting you compare what people say with what they risk. Carry the habit of pricing conduct into prose fiction as well, where a narrator’s judgements are also a kind of bid."
+       },
+       "readings": [
+        {
+         "title": "[1] William Shakespeare, King Lear, Act 1, scene 1, in The Complete Works",
+         "url": "https://www.gutenberg.org/ebooks/100.txt.utf-8",
+         "note": "Read Act 1, scene 1 only, from the entrance of Kent and Gloucester through the departure of France and Cordelia. This edition modernises most spelling; where it prints ‘Nothing will come of nothing: speak again’ a modern scholarly edition may punctuate with a full stop, so check the punctuation against the second reading before quoting. Public domain in the USA."
+        },
+        {
+         "title": "[2] Folger Shakespeare Library, King Lear, Act 1, scene 1",
+         "url": "https://www.folger.edu/explore/shakespeares-works/king-lear/read/1/1/",
+         "note": "Read lines 88–105, which carry the love test from Lear’s endowment of Goneril to Cordelia’s ‘no more nor less’. The Folger text is line-numbered, so you can cite by line, and its punctuation of the ‘Nothing will come of nothing’ line differs from the Gutenberg text — exactly the kind of variation lesson 38 asks you to notice."
+        },
+        {
+         "title": "[3] Living Handbook of Narratology, ‘Telling vs. Showing’",
+         "url": "https://www.lhn.uni-hamburg.de/node/84.html",
+         "note": "Read the ‘Definition’ and ‘Explication’ sections. The article concerns prose narration rather than drama, so treat it as a transfer: what it says about showing and inferring applies to a playwright’s management of action."
+        }
+       ],
+       "visual": {
+        "title": "Conduct under a stated price",
+        "description": "The love test read as an auction in which every speech carries a risk, and the audience infers character from the risks taken.",
+        "steps": [
+         "Lear sets the incentive: land in exchange for a public declaration of love",
+         "Goneril and Regan bid in quantities without risk; Cordelia refuses the currency",
+         "Kent speaks plainly and is banished; France accepts a dowerless bride",
+         "Reader infers provisional traits, then checks them against later scenes"
+        ]
+       }
+      },
+      {
+       "id": "37",
+       "title": "Close reading line by line: Shakespeare’s Sonnet 73",
+       "explanation": "Close reading means accounting, in order, for how specific words produce specific effects, and separating what the text states from what you infer. Sonnet 73 makes three comparisons, one per quatrain, then turns in a couplet. It opens: ‘That time of year thou mayst in me behold / When yellow leaves, or none, or few, do hang / Upon those boughs which shake against the cold, / Bare ruin’d choirs, where late the sweet birds sang.’ Nothing states the speaker’s age. What we have is a demonstrative pointing at a season, a second-person addressee invited to look, and an image that will be applied to the speaker’s body. The next quatrain repeats the gesture in a new domain, and the third repeats it again: this is an argument by analogy built from three instances. The couplet concludes: ‘This thou perceiv’st, which makes thy love more strong, / To love that well, which thou must leave ere long.’ A close reading must show which words carry that conclusion, because the couplet asserts a causal relation between awareness and love without arguing for it [1].",
+       "example": "Take the first quatrain phrase by phrase. ‘That time of year’ points without naming a season, so the reader supplies autumn; ‘thou mayst in me behold’ fixes the addressee as a beholder and the speaker as the object beheld. ‘When yellow leaves, or none, or few, do hang’ suspends a choice among three states of depletion, and the order moves from more to fewer to almost nothing, so the line performs thinning rather than describing it. ‘Upon those boughs which shake against the cold’ gives branches the agency of resistance through a verb, and ‘Bare ruin’d choirs’ doubles the image: choirs are both groups of singers and the stalls they sang in, so the branches are simultaneously architecture and the absence of music, an ambiguity completed by ‘where late the sweet birds sang’, in which ‘late’ can mean recently or, to a modern ear, deceased. Step one: list observations of this kind, each tied to words on the page. Step two: separate inferences — that the speaker is ageing, that the addressee is younger, that the poem concerns mortality — and record which words license each one. Step three: assemble the reading the observations support, namely that the poem substitutes seasons and architecture for the plain statement ‘I am old’, and that its repetitions are an incremental argument rather than decoration. A counterreading keeps the structure while doubting the sentiment: the couplet’s claim that awareness strengthens love may be wishful, and the poem leaves readers to decide whether the addressee’s love is a consolation or a calculation [1].",
+       "question": "Which statement about Sonnet 73 is an observation rather than an inference?",
+       "answer": "The second and third quatrains repeat the frame ‘In me thou see’st’ introduced by ‘That time of year thou mayst in me behold’",
+       "distractor": "The speaker is an old man addressing a much younger lover.",
+       "correction": "The repeated frame is visible on the page and can be counted. The speaker’s age is nowhere stated: the poem supplies seasons, twilight and ashes, and the age reading is an interpretation of those images. Keeping the two categories apart is the discipline this lesson teaches.",
+       "depth": {
+        "definitions": "Close reading is the analysis of a short passage’s wording, syntax, sound and structure in order to justify a reading of it. A quatrain is a four-line unit and a couplet is two lines; the volta is the turn in argument, conventionally at line 9 or at the couplet, though not always. Metaphor can be described through tenor (the subject meant) and vehicle (the image used), and ambiguity as a genuine plurality of senses in one word. Paraphrase restates content in different words and is a tool, not an interpretation. Prerequisites: line numbering, and the ability to distinguish what a text states from what a reader concludes. Shakespeare’s sonnets reached print in 1609 with their own accidentals, and modern editions differ in punctuation, so cite the edition you actually read [1].",
+        "mechanism": "Features produce effects in traceable ways. Word order can postpone or suspend a noun, as ‘or none, or few’ does. A verb of resistance in a description of plants converts scenery into agency. A compound such as ‘ruin’d choirs’ carries two referents at once, so its ambiguity is structural rather than vague. Repetition of a frame establishes a template, and the third instance is then read as culmination, which is how three images become an argument. The couplet’s causal claim, ‘which makes thy love more strong’, is asserted rather than demonstrated, and that is a genuine interpretive crux. Limits matter: not every detail is significant, and over-reading is a real risk, so a feature matters only if naming it changes a defensible reading of the passage. Ambiguity claims need particular care, because any word has several dictionary senses; the question is which senses the line actually activates, and pronunciation has changed since the poem was written [2].",
+        "secondExample": "Compare Sonnet 116 to see the same architectural form running a different kind of argument: ‘Let me not to the marriage of true minds / Admit impediments. Love is not love / Which alters when it alteration finds’ Where Sonnet 73 proceeds by images that must be decoded, Sonnet 116 proceeds by definitions and negations, refusing to let change gain a foothold and relying on abstractions rather than a season. Both are fourteen lines of iambic pentameter in alternating rhyme with a closing couplet, and both end by claiming something absolute about love. The contrast shows that form does not dictate content: the same container can hold an image-argument or a definition-argument, and the analyst’s job is to say which one is running and by what means, rather than to describe the sonnet shape and stop [1].",
+        "mistake": "The commonest error equates close reading with hunting hidden meanings, which yields a list of features with no bearing on any reading. Diagnose by stating your reading first, then the feature, then what would change if the feature were absent; if nothing changes, the feature is decoration and should be dropped. A second error treats paraphrase as interpretation: rewording ‘When yellow leaves, or none, or few, do hang’ as ‘I am near the end of life’ discards the suspension and the order, so paraphrase should be a first step and never the destination. A third error says ‘the poet’ where a dramatic speaker is the relevant voice, smuggling biographical claims into a reading of a poem whose speaker is a construction.",
+        "application": "Choose two consecutive lines. Draw a two-column table with observation (a feature you can point to) and inference (what you conclude from it). Then write 200–250 words arguing which inference is strongest, naming a rival reading and stating what textual evidence would defeat yours. Rubric: two points for genuinely checkable observations; two for stating the reading each observation supports; two for a rival reading supported by evidence rather than a straw alternative; one for a falsification condition; one for keeping the speaker distinct from the poet. Model direction: the strongest inference is often the local one — that ‘or none, or few’ enacts depletion — because it rests on word order alone, while claims about the addressee’s feelings rest on the couplet and are correspondingly more fragile.",
+        "summary": "Close reading is a discipline of ordering: observe the wording, label the inference, and test whether each feature earns its place in the argument. Sonnet 73 rewards the method because three images build a case that the couplet converts into a claim about love. Use the observation/inference split whenever a reading starts to feel obvious, since the check on any interpretive claim is what on the page would have to be different for it to be false."
+       },
+       "readings": [
+        {
+         "title": "[1] William Shakespeare, Shakespeare’s Sonnets, sonnets LXXIII and CXVI",
+         "url": "https://www.gutenberg.org/ebooks/1041.txt.utf-8",
+         "note": "Read sonnet LXXIII, beginning ‘That time of year thou mayst in me behold’, and then sonnet CXVI, beginning ‘Let me not to the marriage of true minds’, for the contrast. This transcription numbers sonnets in Roman numerals and preserves spellings such as ‘ruin’d’ and ‘see’st’; quote as printed. Public domain in the USA."
+        },
+        {
+         "title": "[2] Academy of American Poets, glossary entry ‘Sonnet’",
+         "url": "https://poets.org/glossary/sonnet",
+         "note": "Read the definition and the sections on the Petrarchan and Shakespearean forms, especially the account of octave, sestet and concluding couplet, to place the two sonnets on a map of the form. Free access; a general reference rather than a scholarly apparatus."
+        }
+       ],
+       "visual": {
+        "title": "Observation and inference in a quatrain",
+        "description": "Sorting what the text states from what a reader concludes, using the first quatrain of Sonnet 73.",
+        "steps": [
+         "Observation: ‘That time of year’ points at a season without naming it",
+         "Observation: ‘or none, or few’ orders three states of depletion inside one line",
+         "Inference: the addressee is younger and the speaker is nearing death — licensed by the images, not stated",
+         "Observation: ‘In me thou see’st’ repeats, so three images become one cumulative argument"
+        ]
+       }
+      },
+      {
+       "id": "38",
+       "title": "Metre and form: what ballad measure and the sonnet do to meaning",
+       "explanation": "Metre is a pattern of stressed and unstressed syllables; form is the arrangement of lines, rhyme and stanzas. Both are machinery, and the machinery shapes what a poem can say. Take a stanza from the 1798 printing of ‘The Rime of the Ancyent Marinere’: ‘Water, water, every where / And all the boards did shrink; / Water, water, every where, / Ne any drop to drink.’ Lines one and three carry four stresses (WA-ter, WA-ter, EV-ery, WHERE) and seven syllables; lines two and four carry three stresses (ALL, BOARDS, SHRINK; AN, DROP, DRINK) and six syllables. The rhyme arrives only on the even lines, so the stanza couples shrink with drink, and lines one and three are not a rhyme but an exact repetition. Form is thus doing work: the identical line returns twice, the only change is the rhyme word, and the effect is a situation that will not move. Note also that this edition prints ‘Ne any drop to drink’, where later printings read ‘Nor any drop’ — a small reminder that metrical and textual claims must name their edition [1][2].",
+       "example": "Scan the stanza deliberately. Step one: mark stresses rather than syllables, since metre counts beats, not letters; ‘every where’ is printed as two words here and takes two beats. Step two: describe the pattern — four beats, three beats, four beats, three beats, with the rhyme on the shorter lines. Step three: ask what the pattern enables. Because the odd line is longer, the stanza has room for the repeated phrase ‘Water, water, every where’ and for the shock of the even line’s brevity; because the rhyme is on the even line, each half-stanza closes on a jolt. Now measure the contrast with the sonnet’s iambic pentameter: ‘That time of year thou mayst in me behold’ has ten syllables and five beats, arranging its material in fourteen lines with the rhyme pairing quatrains and a final couplet, so its shape is architectural and its turns fall where the rhyme allows. One caution before generalising: this stanza is not the strict 8.6.8.6 of hymn-book common metre, because anapaests replace iambs and shorten the lines, so the honest description is ballad measure in its looser narrative sense, with four and three stresses and even-line rhyme. A counterreading worth weighing is that such patterns are conventions heard rather than rules obeyed, and that a listener with no theory still feels the jolt; the reply is that the feeling is real and the description of its cause is what lets you compare poems [2][3].",
+       "question": "What is the best description of the metrical pattern in the stanza ‘Water, water, every where’?",
+       "answer": "Four stresses in the odd lines and three in the even lines, with the rhyme falling on the even lines",
+       "distractor": "Five stresses throughout, since the lines all occupy about ten syllables.",
+       "correction": "The lines have seven and six syllables respectively, so a five-beat pentameter is impossible. Count beats, not letters or line length: WATER, WATER, EVery, WHERE is four, and AND ALL THE BOARDS DID SHRINK is three. The even-line rhyme then links lines two and four.",
+       "depth": {
+        "definitions": "Metre is a recurring pattern of stressed and unstressed syllables; a foot is one unit of that pattern (iamb: unstressed then stressed; anapaest: two unstressed then stressed; trochee: the reverse of an iamb); pentameter is five feet per line. Ballad measure is a four-line stanza with longer odd and shorter even lines and rhyme on the even lines; common metre names the strict hymn variant of eight and six syllables. A caesura is an internal pause, enjambment runs a sentence past a line ending, and blank verse is unrhymed iambic pentameter. Prerequisites: you should be able to hear stress in ordinary words — WATER, not waTER — and to read a line aloud without imposing a sing-song beat [2][3].",
+        "mechanism": "Metrical form acts in three ways. It creates expectation, and any substitution of a different foot becomes emphasis: an anapaest where the reader expected an iamb speeds the line, a reversed foot halts it. It couples lines through rhyme, so the second line comments on the first by pairing with it, which is why the Rime’s rhyme words carry unusual weight. And it makes repetition audible: an identical line repeated inside a stable pattern registers as insistence, while the same sentence in prose would read as mere re-statement. Limits matter. Scansion is a hypothesis, not a measurement, because stress is relative and pronunciation has changed since the poems were written; ‘-every’ in 1798 is two syllables where a modern reader may hear three. Copy-texts also differ, as ‘Ne any drop’ and ‘Nor any drop’ show, so a metrical claim is a claim about one printing. Finally, metre constrains meaning without determining it: a pattern cannot by itself prove an interpretation, but it can make one reading more comfortable than another [1][2].",
+        "secondExample": "Compare the Rime’s rhyming quatrain with blank verse from King Lear: ‘Nothing will come of nothing: speak again.’ That line is unrhymed iambic pentameter carrying an argument, with the stresses falling on ‘nothing’ twice and on ‘speak’, so the emphasis lands on the logical key words rather than on rhyme sounds. Because nothing rhymes, no sound closes the thought; the sentence must be completed by syntax, and the next line answers it. A third comparison sharpens the point. In the later printing of the Rime, in the collection of Coleridge’s poetical works, the same poem carries marginal prose glosses such as ‘The Wedding-Guest is spell-bound by the eye of the old seafaring man’, where the 1798 text has no glosses at all. Same poem, same metre, different apparatus: ‘form’ extends to the page’s editorial furniture, which is one reason metre must always be discussed alongside the edition [2][3].",
+        "mistake": "Three misconceptions recur. The first counts syllables and calls it scansion; a line can have ten syllables and four beats, and counting letters proves nothing. The second treats form as decoration detachable from meaning, so a poem’s argument is summarised and its shape noted separately. Diagnose by asking what the line-endings do: if a sentence would read identically as prose, the form may indeed be neutral, but if rhyme, repetition or line breaks alter emphasis, the form is part of the claim. The third misconception assumes iambic pentameter means exactly five iambs and ten syllables per line in every line; in practice substitutions are normal, and a good description says where they occur and why. A useful check on any metrical statement is to read it aloud and ask whether the stress pattern you have written down matches what you hear — if it does not, revise the description rather than the ear.",
+        "application": "Write out a four-line stanza or four-line verse passage with stresses marked above the stressed syllables, rhyme letters beside each line, and a syllable count. Then write 180–220 words on one place where the metre’s expectation and the sentence’s grammar pull apart, offering an alternative scansion and saying which you prefer. Rubric: two points for a defensible scansion; two for correct rhyme labelling; two for naming the effect of the tension; one for considering the alternative scansion honestly. Model direction: in ‘And all the boards did shrink’ the three beats sit on three monosyllables that are all content words, so the line’s brevity and the rhyme on ‘drink’ make scarcity audible rather than stated.",
+        "summary": "Metre and form are the machinery through which emphasis, closure and repetition become perceptible, and describing them precisely is what allows comparison between poems and between editions. Scan by beats, name the edition, and treat scansion as a defensible hypothesis; then ask what the pattern makes easier or harder to say. The same questions transfer to free verse, where line breaks and the absence of pattern carry the emphasis that rhyme and beat carry elsewhere."
+       },
+       "readings": [
+        {
+         "title": "[1] Wordsworth and Coleridge, Lyrical Ballads, with a Few Other Poems (1798), ‘The Rime of the Ancyent Marinere’, Parts I–II",
+         "url": "https://www.gutenberg.org/ebooks/9622.txt.utf-8",
+         "note": "Read the poem’s opening quatrains in Part I and the water stanza in Part II. This is the 1798 first printing, so expect archaic spellings (‘ancyent’, ‘Marinere’, ‘Ne any drop’) and no marginal glosses; quote from this text, not from a modern anthology. Public domain in the USA."
+        },
+        {
+         "title": "[2] Samuel Taylor Coleridge, The Complete Poetical Works, ‘The Rime of the Ancient Mariner’",
+         "url": "https://www.gutenberg.org/ebooks/29090.txt.utf-8",
+         "note": "Read the opening of ‘The Rime of the Ancient Mariner’ in the later text, which modernises ‘ancyent Marinere’ to ‘ancient Mariner’ and adds marginal glosses, one of which begins ‘The Wedding-Guest is spell-bound’. Use it only for comparison with the 1798 printing; this edition also carries textual notes and variant readings at the back of the volume."
+        },
+        {
+         "title": "[3] Academy of American Poets, glossary entry ‘Ballad’",
+         "url": "https://poets.org/glossary/ballad",
+         "note": "Read the definition and the ‘History of the Ballad Form’ section, which describes the quatrain, the number of stresses per line and the even-line rhyme. Free access; a general reference rather than a scholarly apparatus."
+        }
+       ],
+       "visual": {
+        "title": "Same poem, two forms of page",
+        "description": "Comparing the 1798 printing of the Rime with the later text, showing metrical and apparatus differences that a quotation must declare.",
+        "steps": [
+         "1798: four-stress odd lines, three-stress even lines, rhyme on the even lines, no glosses",
+         "1798 prints ‘It is an ancyent Marinere’ and ‘Ne any drop to drink’",
+         "Later text prints ‘ancient Mariner’ and ‘Nor any drop’, with marginal prose glosses",
+         "Reader records which edition a metrical or quoted claim comes from"
+        ]
+       }
+      },
+      {
+       "id": "39",
+       "title": "Setting as argument: Coketown in Hard Times, chapter V",
+       "explanation": "A setting can be neutral background, or it can be an argument about how a society works. Hard Times makes the argument explicit before it describes anything: ‘COKETOWN, to which Messrs. Bounderby and Gradgrind now walked, was a triumph of fact; it had no greater taint of fancy in it than Mrs. Gradgrind herself.’ The famous paragraph then converts description into inference. Brick ‘would have been red if the smoke and ashes had allowed it’, so the town’s colour is an effect of its industry; chimneys produce ‘interminable serpents of smoke’ that ‘never got uncoiled’; the piston works ‘monotonously up and down, like the head of an elephant in a state of melancholy madness’; streets are ‘all very like one another’ and their inhabitants ‘equally like one another’, doing ‘the same work’ at ‘the same hours’. The paragraph’s implied claim is that industrial organisation manufactures sameness. Then, in the same movement, the narrator concedes a counterweight, since ‘against them were to be set off, comforts of life which found their way all over the world’. An interpretive claim about setting has to account for that concession rather than ignore it [1].",
+       "example": "Work the serpents of smoke clause as a specimen. Step one, observe the figure: smoke is compared to serpents that trail themselves and never get uncoiled, which gives industrial exhaust the attributes of living, malicious animals and of a knot that cannot be untied. Step two, list the inferences it licenses: the town is represented as ensnared by its own processes; the damage is ongoing rather than accidental; and the imagery of serpents imports a suggestion of something cursed or fallen, which the phrase ‘unnatural red and black like the painted face of a savage’ reinforces with a comparison that modern readers should also notice as a stereotype, since it describes an English town by way of a disparaging image of a racialised other. Step three, state the reading and its price: the paragraph treats a physical environment as evidence about a mental and social condition, which is the ‘fact’ the novel’s first chapter attacks. Then apply the same method to the clause about inhabitants who are ‘equally like one another’. The sameness is presented as an effect of schedules and pavements, not as a defect of the people, and this distinction decides how the claim should be paraphrased. A counterreading holds that the narrator is simply rhetorical and the description decorative; the reply is that the same chapter’s concession about ‘comforts of life’ anticipates an objection, which decorative prose has no reason to do [1].",
+       "question": "Which sentence in the Coketown paragraph most clearly shows the setting making an argument rather than supplying background?",
+       "answer": "Streets and inhabitants are described as alike because they share the same hours, pavements and work, which presents sameness as a social product",
+       "distractor": "The paragraph names the town and states that Bounderby and Gradgrind walked through it.",
+       "correction": "Naming and walking are background functions. The sameness clause draws a causal inference from an arrangement of labour to a condition of persons, which is an argument about industrial organisation. Test any descriptive sentence by asking what it claims beyond what it shows.",
+       "depth": {
+        "definitions": "Setting is the represented place, time and social environment of a narrative. In narratology, space is treated as constructed rather than copied: selection, scale and perspective determine what a place means within a story, and space may be framed by a character’s perception or by a narrator’s survey. An implied claim is a proposition a passage invites without stating it. A simile compares explicitly, a personification attributes agency to a non-human thing, and synecdoche substitutes a part for a whole. Related terms in this novel: the opposition of ‘fact’ and ‘fancy’, announced in chapter I where Gradgrind insists, ‘NOW, what I want is, Facts.’ Prerequisites: description/inference from lesson 32 and figurative reading from the next lesson [1][2].",
+        "mechanism": "Setting carries argument through four operations. Selection decides which features exist at all: bricks, chimneys, canal, dye, windows, pistons, and no park, church or market. Scale moves from material to human and back to time, so a paragraph about buildings ends by comparing years to each other. Personification converts a process into an agent, which makes responsibility easier to attach and harder to locate precisely. Concession then regulates the claim, because the same narrator who indicts the town also states that its products spread comfort; a reader who ignores that sentence has turned a qualified argument into propaganda, and one who leans only on it has turned a critique into a travel brochure. A further caution concerns the narrator: nothing here proves the narrator’s verdict is the novel’s, and the novel’s action, with Stephen Blackpool’s ruined life and Bounderby’s exposed self-invention, is a separate stream of evidence that can be compared with the description. Where the two streams disagree, prefer the scene, since it is more tightly constrained by events [1][2].",
+        "secondExample": "Contrast a setting that argues about society with one that expresses an observer. In Wuthering Heights, Lockwood describes the house and the moor, but the description is saturated with his own temperament: he calls the place ‘a perfect misanthropist’s Heaven’ and imagines that he and Heathcliff are ‘such a suitable pair to divide the desolation between us’. The Coketown paragraph generalises about a social order and anticipates objections; Lockwood’s paragraph reports a mood and misreads his host. Both are vivid, and the difference is structural: one has a thesis with a concession, the other has a temperament with a blind spot. When you analyse setting, ask whether the description’s claims are about a society or about a perceiver, and whether the text flags either kind as limited [1][3].",
+        "mistake": "Two misconceptions dominate. The first treats descriptive passages as neutral containers, so a student summarises Coketown as ‘a polluted Victorian town’ and misses the argument. Diagnose by asking what the paragraph selects and what it leaves out, and by finding the sentence that states a consequence. The second hunts for symbolic meanings without warrant, so the smoke becomes ‘evil’ and the dye becomes ‘sin’. Test such claims by stating the literal function first: smoke is industrial exhaust that also functions in the sentence as a figure for entrapment. A third error generalises the narrator into the author, treating the indictment as Dickens’s unqualified opinion about industrial cities; the concession sentence and the novel’s sympathetic treatment of individual workers make an unqualified version hard to sustain. Keep description, inference and attribution separate, and the argument will stay honest.",
+        "application": "Choose one sentence from the Coketown paragraph. State its implied claim in a single sentence of your own, list two textual features that support the claim, name one counterweight from the same chapter, and write 200–250 words defending the claim while acknowledging the counterweight. Rubric: two points for a precise implied claim; two for features that are quoted and located; two for a fair counterweight; two for noting one limitation of your attribution, such as the difference between the narrator’s view and the novel’s. Model direction: the piston simile implies that mechanised labour approaches madness in its monotony; the evidence is the adverb repeated from the machine’s motion and the elephant comparison, while the concession about exported comforts prevents the claim from becoming a blanket indictment.",
+        "summary": "Setting becomes argument when a description selects, scales and personifies in order to draw a conclusion about how a society works, and the strongest analyses also handle the passage’s concessions and limit what can be attributed to the novel. Distinguish social argument from an observer’s mood, keep the literal function of images in view, and check description against dramatic action. The method transfers to travel writing, reportage and campaign journalism, where place is nearly always made to argue."
+       },
+       "readings": [
+        {
+         "title": "[1] Charles Dickens, Hard Times, Book the First, chapter V, ‘The Keynote’",
+         "url": "https://www.gutenberg.org/ebooks/786.txt.utf-8",
+         "note": "Read Book the First, chapter V only, from ‘COKETOWN, to which Messrs. Bounderby and Gradgrind now walked’ to the end of the chapter. Chapter I of the same book contains Gradgrind’s ‘NOW, what I want is, Facts.’ if you want the pairing; this transcription uses curly quotation marks. Public domain in the USA."
+        },
+        {
+         "title": "[2] Living Handbook of Narratology, ‘Space’",
+         "url": "https://www.lhn.uni-hamburg.de/node/55.html",
+         "note": "Read the ‘Definition’ and the opening of ‘Explication’ for the argument that narrated space is constructed by selection and perspective rather than copied from the world. The later survey sections are optional."
+        },
+        {
+         "title": "[3] The Victorian Web, ‘Some Discussions of Dickens’s Hard Times’",
+         "url": "https://victorianweb.org/authors/dickens/hardtimes/index.html",
+         "note": "Use this index to find scholarly short essays, notably ‘The Poetics of Air Pollution in Hard Times’, on how the novel’s pollution imagery works and what it is used to argue. Read one essay and treat it as a secondary interpretation to be tested against the chapter, not as an authority that replaces it."
+        }
+       ],
+       "visual": {
+        "title": "How a place becomes a claim",
+        "description": "Four operations that turn Coketown from a location into an argument, together with the concession that qualifies it.",
+        "steps": [
+         "Selection: brick, chimneys, canal, dye, pistons — and no park, market or church",
+         "Personification and simile: serpents of smoke, a piston like the head of an elephant",
+         "Scale: buildings give way to streets, then to people, then to repeating years",
+         "Concession: exported comforts are set off against the town’s conditions"
+        ]
+       }
+      },
+      {
+       "id": "40",
+       "title": "Symbol, over-reading and the defensible interpretive claim: The Scarlet Letter, chapters I–II",
+       "explanation": "A symbol is a concrete thing in a text that carries significance beyond itself, and the danger of symbolic reading is claiming meanings the text does not authorise. The Scarlet Letter is unusually useful because its narration proposes meanings openly and hedges them. At the end of chapter I the narrator plucks a rose from the bush beside the prison door and writes: ‘It may serve, let us hope, to symbolise some sweet moral blossom that may be found along the track, or relieve the darkening close of a tale of human frailty and sorrow.’ Notice the modals ‘may serve’ and ‘let us hope’ and the indefinite ‘some’. The narration offers an emblem as a proposal with two possible jobs, so the reader is invited neither to accept nor reject a fixed key but to watch what the object does. In chapter II the letter is described through its effects on spectators, and the decisive clause is social rather than inherent: the embroidered letter ‘had the effect of a spell, taking her out of the ordinary relations with humanity, and enclosing her in a sphere by herself’. Its power is produced by a crowd’s reading of a punishment as much as by Hester’s needlework [1].",
+       "example": "Practise the test on two candidate readings of the same objects. Candidate one: ‘the burdock, pig-weed and apple-pern symbolise the moral decay of the Puritan settlement.’ Support is real but partial. The narration calls the prison ‘the black flower of civilised society’, so flowers and institutions are being compared, and it reports that the weeds ‘evidently found something congenial in the soil’, so growth and social ground are linked. The reading is warranted, though it should be phrased as a resemblance the passage draws rather than as a hidden code. Candidate two: ‘the rose symbolises Hester’s hope of escape.’ Nothing in chapters I or II connects the rose to Hester; she does not see it, and the narrator assigns it to the prisoner and the condemned criminal at the door and to the reader’s consolation. The claim cannot be defeated by anything in the text, which is the operational sign of an over-reading. Step one: locate the object and every mention of it. Step two: state the literal function, which here is a weed-grown bank, a rose beside a doorway, and a stitched letter that is also a legal sentence. Step three: test the proposed meaning against more than one passage and ask what evidence would defeat it. A counterreading should be weighed honestly: because the novel lets the letter accumulate new meanings across its chapters, a claim of fixed symbolism is less defensible than a claim that the community’s readings contest what the letter means [1][2].",
+       "question": "What makes the claim that the rose ‘symbolises Hester’s hope of escape’ weaker than the claim that the weeds evoke the prison’s soil?",
+       "answer": "The rose is never connected to Hester in these chapters, and no passage could defeat the escape reading",
+       "distractor": "The rose is a natural object, and natural objects cannot carry symbolic meaning.",
+       "correction": "Natural objects carry meaning readily here, since the narration explicitly offers the rose as a symbol. The weakness is evidential: the escape reading has no supporting connection and no falsification condition, while the weeds reading rests on the narration’s own comparison of soil, growth and the prison.",
+       "depth": {
+        "definitions": "A symbol is a concrete element whose significance extends beyond its literal function; an image is any sensory representation; a motif is a recurring element that accrues meaning through repetition. Allegory is a sustained structure of systematic, largely fixed correspondences, which is not what this novel offers. Over-reading is the attribution of significance without textual warrant, and the intentional fallacy names the error of settling meaning by appeal to what an author meant. An interpretive warrant is the reason a piece of evidence supports a claim, and a falsification condition is the evidence that would defeat it. The hermeneutic circle names the reciprocal adjustment of part and whole in interpretation. Prerequisites: description versus inference, and the norm-based account of irony [1][2][3].",
+        "mechanism": "Symbolic reading has markers that can be checked. Repetition, foregrounding at a scene’s edge, explicit commentary, structural placement and unexplained prominence all raise the probability that an object carries significance, while a decorative object typically appears once and does nothing. Interpretation then proceeds in five steps: state the claim; quote the evidence and say where it sits; give the warrant connecting evidence to claim; name the strongest counterreading and price it; state what would falsify the claim. The fifth step separates a defensible reading from a mood, because an unfalsifiable claim can be neither tested nor taught. This novel demonstrates a further mechanism, namely that meaning can be generated by characters’ readings, so the letter’s force is partly the crowd’s work, and analysis should distinguish what the text says about an object from what its characters make of it. Limits: some interpretive disputes are genuinely unresolved, and the honest response is to say which reading you weight and why rather than to declare the matter closed [2][3].",
+        "secondExample": "Apply the procedure to the letter itself. Claim: in chapter II the letter functions less as a mark of guilt than as an instrument that isolates Hester from ordinary social relations. Evidence: the narration says the letter ‘transfigured the wearer’, that it was ‘so fantastically embroidered and illuminated upon her bosom’, and that it ‘had the effect of a spell, taking her out of the ordinary relations with humanity, and enclosing her in a sphere by herself’. Warrant: the clause about ordinary relations specifies a social effect, and the spectators’ talk in the same chapter shows that isolation being enacted. Counterreading: the isolation is the town’s punishment rather than the object’s power, so the letter is a legal instrument and the embroidery only intensifies its display; this reading is compatible with the first and should be stated as a qualification rather than a refutation. Falsification condition: a later passage attributing Hester’s isolation entirely to her own withdrawal, with no reference to public reading, would weaken the claim. That is what a defensible interpretation looks like on paper [1][3].",
+        "mistake": "Four errors recur. The first treats every repeated object as a symbol, so the scaffold, the brook and the letter all get fixed keys. Diagnose by asking what the object literally does in the scene; if it does only literal work, a symbol claim has to argue for more rather than assume it. The second treats a symbol’s meaning as fixed by the author, turning interpretation into code-breaking, when texts repeatedly show meaning changing as communities reinterpret an object. The third confuses depth with quality, supposing a darker reading is automatically better; an unsupported dark reading is worse than a supported plain one. The fourth is unfalsifiability, the reading no passage could refute. Diagnose it by completing the sentence ‘if the evidence were X, I would abandon my claim’. If nothing can occupy X, the claim describes your preferences rather than the text and should be labelled as such.",
+        "application": "Capstone task: write 250–300 words interpreting one passage from chapters I–II. Include a single-sentence claim, at least two quotations with chapter locations, a warrant for each, one substantial counterreading with its cost, and one falsification condition. Rubric: three points for a claim specific enough to be tested; three for evidence quoted accurately from the named text; two for warrants that explain the connection; two for the counterreading; two for the falsification condition. Model sentence: ‘In chapter I the narration offers the rose as a proposed emblem whose meaning it declines to fix, hedging with ‘may serve’ and ‘let us hope’, and that hedge models the reader’s task instead of settling it.’",
+        "summary": "Symbolic reading is a hypothesis about an object’s significance and should be tested like one: markers, multiple passages, a warrant, a counterreading, a falsification condition. The Scarlet Letter rewards the method because its narrator proposes a meaning and qualifies it in the same breath, and because its central symbol is partly produced by the characters who read it. The habit to carry away is to ask what would have to be different on the page for a reading to fail, since that question converts an opinion into an argument."
+       },
+       "readings": [
+        {
+         "title": "[1] Nathaniel Hawthorne, The Scarlet Letter, chapters I–II",
+         "url": "https://www.gutenberg.org/ebooks/33.txt.utf-8",
+         "note": "Read chapter I, ‘THE PRISON DOOR’, and chapter II, ‘THE MARKET-PLACE’. The sentence beginning ‘It may serve, let us hope’ closes chapter I, and the description of the letter on Hester’s bosom falls early in chapter II. This transcription uses curly quotation marks and prints the letter in small capitals; quote as printed. Public domain in the USA."
+        },
+        {
+         "title": "[2] Stanford Encyclopedia of Philosophy, ‘Hermeneutics’",
+         "url": "https://plato.stanford.edu/entries/hermeneutics/",
+         "note": "Read section 1.3, ‘The Hermeneutical Circle’, on the reciprocal adjustment of part and whole, and section 5, ‘Symbol, Metaphor, and Narrative’, on interpreting symbols and metaphors. Both are scholarly surveys with further references; sections 2–4 are historical background you can postpone."
+        },
+        {
+         "title": "[3] Living Handbook of Narratology, ‘Fictionality’",
+         "url": "https://www.lhn.uni-hamburg.de/node/138.html",
+         "note": "Read the sections ‘Definition’ and ‘Fictionality as a feature of fiction’ for the distinction between statements about a fictional world and statements about the real one. It underwrites the rule used throughout this level: claims about a character’s motives are claims inside a constructed world, not psychological findings."
+        }
+       ],
+       "visual": {
+        "title": "Testing a symbolic reading",
+        "description": "A five-step procedure applied to the rose, the weeds and the letter, showing why one reading fails and two others qualify each other.",
+        "steps": [
+         "Locate every mention of the object and its literal function in the scene",
+         "Quote the evidence and mark where it sits in the passage",
+         "State the warrant that connects evidence to the proposed meaning",
+         "Price the counterreading, here that the town rather than the object produces the isolation",
+         "State a falsification condition — the test that separates an argument from a mood"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-36-a",
+       "prompt": "An examiner asks for evidence that Kent’s character is defined by his conduct rather than by reputation. Which answer is strongest?",
+       "answer": "He speaks plainly after Lear threatens him with death, and the scene records his banishment as the price",
+       "distractor": "He has the longest speech in the scene, which shows the depth of his loyalty",
+       "correction": "Length is rhetoric; cost is conduct. The scene makes the risk visible, and later scenes corroborate the trait by showing him returning in disguise to serve.",
+       "reviewLessonIds": [
+        "36"
+       ]
+      },
+      {
+       "id": "uq-37-a",
+       "prompt": "A student writes that Sonnet 73 proves the speaker is old. Which revision follows the lesson’s standard?",
+       "answer": "The poem gives seasons, twilight and ashes rather than an age, so age is a licensed inference from images",
+       "distractor": "The poem names the speaker’s age in the couplet, so no inference is required",
+       "correction": "No line states an age, and the couplet speaks of leaving rather than of years. Observations must be tied to words on the page, and inferences labelled as such.",
+       "reviewLessonIds": [
+        "37"
+       ]
+      },
+      {
+       "id": "uq-38-a",
+       "prompt": "A contributor claims the Rime’s water stanza is written in strict common metre, 8.6.8.6. What correction is required?",
+       "answer": "The stanza runs to four stresses and seven syllables in the odd lines and three stresses and six syllables in the even lines, so it is loose ballad measure",
+       "distractor": "The stanza alternates five-beat lines, which also produces eight and six syllables",
+       "correction": "Count beats and syllables in the 1798 printing rather than importing the hymn-book pattern. Anapaestic substitutions shorten the lines, so the description should be the looser ballad measure.",
+       "reviewLessonIds": [
+        "38"
+       ]
+      },
+      {
+       "id": "uq-39-a",
+       "prompt": "A draft calls the Coketown paragraph an unqualified indictment of industrial towns. Which single sentence most complicates that claim?",
+       "answer": "The sentence setting off against the town’s conditions the comforts of life that spread all over the world",
+       "distractor": "The sentence describing the piston as working like the head of an elephant in melancholy madness",
+       "correction": "The elephant simile intensifies the indictment, while the concession sentence states benefits and thereby qualifies it. Locate the clause that anticipates an objection.",
+       "reviewLessonIds": [
+        "39"
+       ]
+      },
+      {
+       "id": "uq-40-a",
+       "prompt": "A reader asserts that the rose in chapter I represents Hester’s child. What is the decisive objection?",
+       "answer": "No passage in these chapters connects the rose to Hester or her child, and nothing could disconfirm the claim",
+       "distractor": "Flowers cannot function as symbols in a novel that treats them literally",
+       "correction": "The problem is evidential rather than one of kind: the narration explicitly makes the rose a symbol, but for the prisoner at the door and the reader, and the claim has no falsification condition.",
+       "reviewLessonIds": [
+        "40"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "lq-31-a",
+     "prompt": "Two essays disagree about the same sentence, one calling it narration and the other calling it a character’s thought. Which cumulative procedure from this level best adjudicates the dispute?",
+     "answer": "Check the borrowed markers — present-time deixis and evaluative vocabulary — then test whether the surrounding text assigns the judgement to anyone else",
+     "distractor": "Decide by the sentence’s grammatical person, since third person belongs to the narrator",
+     "correction": "Person cannot settle the question, as the free-indirect lesson shows, and distance of itself proves nothing. The markers plus the surrounding attribution test give a checkable answer, and the losing reading should still be priced rather than mocked.",
+     "reviewLessonIds": [
+      "31",
+      "33"
+     ]
+    },
+    {
+     "id": "lq-31-b",
+     "prompt": "A reviewer writes that an interested narrator and an unreliable narrator are the same failing. Which distinction should a cumulative answer preserve?",
+     "answer": "Interest is unavoidable in any selection of material, while unreliability is a specific claim about a narrator’s divergence from the work’s norms that needs contradictory evidence",
+     "distractor": "Both terms describe a narrator whose account contains deliberate falsehoods about events",
+     "correction": "Every teller selects and shades, so interest alone proves nothing about truthfulness. Reserve unreliability for documented divergence, and treat lying as a further, stronger claim still needing proof.",
+     "reviewLessonIds": [
+      "31",
+      "34"
+     ]
+    },
+    {
+     "id": "lq-32-a",
+     "prompt": "One essay praises Middlemarch’s narrator for knowing Dorothea’s mind, another praises King Lear for providing no narrator at all. Which cumulative formulation is defensible?",
+     "answer": "Both are governed by permission: one text grants interior and generalising access, the other makes character available only through conduct and report",
+     "distractor": "The novel is more sophisticated because interior access gives readers access to verified psychological facts, which drama cannot supply",
+     "correction": "Interior access is a convention and not a psychological verification, and drama’s restriction is not a deficiency. The comparative claim should be about kinds of evidence and their different strengths.",
+     "reviewLessonIds": [
+      "32",
+      "36"
+     ]
+    },
+    {
+     "id": "lq-33-a",
+     "prompt": "An argument claims a passage is ironic because the narrator disagrees with the character, then claims the passage is free indirect discourse because the narrator agrees with her. What has gone wrong?",
+     "answer": "The two claims use the same words to mean opposite things, so no norm has been specified for either",
+     "distractor": "The two claims contradict each other only because a single passage cannot use more than one narrative technique",
+     "correction": "Irony needs a stated norm that the sentence violates; free indirect discourse needs evidence of borrowed markers. Without naming the norm, ‘disagrees’ and ‘agrees’ are unfalsifiable labels.",
+     "reviewLessonIds": [
+      "33",
+      "35"
+     ]
+    },
+    {
+     "id": "lq-34-a",
+     "prompt": "A reader builds a case from three separate tellers’ accounts of one incident in a framed novel. Which check should the case include before it is accepted?",
+     "answer": "A corroboration column recording which statements rest on observation, which on hearsay and which on an interested teller’s inference",
+     "distractor": "A word count showing that the longest account carries the most authority because it is the most detailed",
+     "correction": "Length and detail are not corroboration. Chain-of-custody evidence separates levels and sources, and the resulting table tells you where the case is weakest before an examiner does.",
+     "reviewLessonIds": [
+      "34",
+      "40"
+     ]
+    },
+    {
+     "id": "lq-35-a",
+     "prompt": "A draft claims that a description is ironic and that its imagery is also deeply symbolic, without naming a norm or a falsification condition for either claim. What cumulative diagnosis applies?",
+     "answer": "Both claims are unfalsifiable as stated, so they describe the reader’s preferences rather than evidence about the text",
+     "distractor": "Both claims are acceptable because irony and symbolism are matters of individual reading",
+     "correction": "Each claim has a procedure: norm and coherence for irony, markers and a warrant for symbol. Run the procedures, then state what would defeat the reading; otherwise the essay cannot be argued with.",
+     "reviewLessonIds": [
+      "35",
+      "40"
+     ]
+    },
+    {
+     "id": "lq-36-a",
+     "prompt": "An essay argues that a character is generous because the narrator calls her generous, then argues that a town is cruel because its description lists only machinery. Which shared weakness should a cumulative review identify?",
+     "answer": "Both inferences rest on one stream of evidence where the text offers another that can be checked against it",
+     "distractor": "Both inferences fail because descriptions of persons and of places cannot support claims at all",
+     "correction": "Character reports can be checked against later conduct, and setting claims against dramatic action; the strongest reading compares the streams instead of relying on one.",
+     "reviewLessonIds": [
+      "36",
+      "39"
+     ]
+    },
+    {
+     "id": "lq-37-a",
+     "prompt": "A close reading asserts that a line’s enjambment enacts delay, and a metrical note asserts that the same line has five feet. Which combined standard applies?",
+     "answer": "Both assertions are checkable claims: mark the line break’s effect on the sentence, and count the beats while naming the edition scanned",
+     "distractor": "Both assertions are interpretive, so no textual check is available for either one",
+     "correction": "Line breaks, punctuation and beats are on the page, and the edition matters because copy-texts vary. Observations become evidence only when tied to a named text and to a stated consequence for the reading.",
+     "reviewLessonIds": [
+      "37",
+      "38"
+     ]
+    },
+    {
+     "id": "lq-38-a",
+     "prompt": "A quotation uses modernised spellings and asserts a three-stress second line, but the cited edition prints archaic forms. What should the revision do?",
+     "answer": "Quote the edition actually cited, or cite the edition the quotation comes from, and then re-check the beat count against that text",
+     "distractor": "Standardise the quotation to modern spelling and keep the scansion, since meaning is unaffected by accidentals",
+     "correction": "Metrical claims are claims about a specific printing, and spellings affect syllable counts. A quotation detached from its edition cannot be checked, which is why the earlier lessons pair every claim with a named text.",
+     "reviewLessonIds": [
+      "38",
+      "37"
+     ]
+    },
+    {
+     "id": "lq-39-a",
+     "prompt": "A student treats a narrator’s generalisation about a whole society as the novel’s conclusion. Which cumulative correction is best?",
+     "answer": "Attribute the sentence to its narrator, then look for scenes and concessions that qualify it before treating it as the work’s verdict",
+     "distractor": "Treat the generalisation as the author’s direct opinion, since an omniscient narrator speaks for the author",
+     "correction": "Narrator and author are distinct, and generalisations are rhetorical positions inside the book. Concessions in the same paragraph and later action supply the test.",
+     "reviewLessonIds": [
+      "39",
+      "32"
+     ]
+    },
+    {
+     "id": "lq-40-a",
+     "prompt": "Two readings of one image are offered: one lists markers and a counterreading, the other supplies strong feeling and no possible disconfirmation. Which cumulative standard decides between them?",
+     "answer": "The reading that states what textual evidence would defeat it, because a falsifiable claim can be examined and taught while an unfalsifiable one cannot",
+     "distractor": "The reading that feels deeper, because literary interpretation ultimately rests on a reader’s response",
+     "correction": "Depth without warrant is preference. Markers, warrants, counterreadings and a falsification condition make a reading arguable; the affective response may accompany it but cannot replace the evidence.",
+     "reviewLessonIds": [
+      "40",
+      "34"
+     ]
+    },
+    {
+     "id": "lq-40-b",
+     "prompt": "Task: build one claim spanning a prose passage and a verse passage from this level. Which plan follows the level’s method?",
+     "answer": "Quote both passages from named editions, state one claim that both support, give a warrant for each piece of evidence, then name a counterreading and the evidence that would defeat the claim",
+     "distractor": "Quote both passages, summarise their meanings, and conclude that each is rich and complex in its own way",
+     "correction": "Summary is not argument, and richness is not a claim. The cumulative test is whether the passages constrain one another: each must supply evidence the other cannot, with a stated falsification condition for the whole.",
+     "reviewLessonIds": [
+      "40",
+      "37"
+     ]
+    }
+   ]
+  }
+ ]
+}

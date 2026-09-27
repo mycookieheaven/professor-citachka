@@ -1,0 +1,992 @@
+{
+ "subject": "russian",
+ "levels": [
+  {
+   "title": "Cases in real sentences, verb aspect, and narrating time",
+   "units": [
+    {
+     "title": "Cases that carry a whole sentence: object, place, and source",
+     "lessons": [
+      {
+       "id": "51",
+       "title": "The accusative for people and for things",
+       "explanation": "You already build a direct object with a noun whose ending changes: Я читаю книгу (ya chee-TA-yu KNEE-gu) — I am reading a book. Now extend that skill to the harder half of the accusative: nouns that name living beings. Compare three objects of the same verb. Я читаю книги (ya chee-TA-yu KNEE-gee) — I read books: the plural of книга (KNEE-ga) — book is spelled exactly like the subject form. Я вижу Анну (ya VEE-zhoo AN-noo) — I see Anna: Анна (AN-na) — Anna now ends in -у. Я вижу студентов (ya VEE-zhoo stoo-DYEN-taf) — I see the students: the plural looks exactly like the genitive plural you met with quantity words. Russian therefore splits its accusative into two shape families. Nouns naming beings copy the genitive shape; nouns naming things copy the nominative shape. Only the feminine -а group has its own unmistakable accusative ending, -у. The grammatical name for this split is animacy, and it is a fact about the noun, not about the sentence. Spanish offers a partial bridge: Spanish marks an animate direct object with the preposition a, as in veo a Ana (I see Ana). Russian marks the same contrast inside the noun ending instead, and it never adds a preposition. That difference is worth remembering, because inserting an extra word where Russian changes a vowel is the classic translation error here.",
+       "example": "Imagine a photograph and describe whom you see, one person at a time, keeping the verb Я вижу (ya VEE-zhoo) — I see fixed. For a woman named Anna you say Я вижу Анну (ya VEE-zhoo AN-noo) — I see Anna. For your brother you say Я вижу брата (ya VEE-zhoo BRA-ta) — I see my brother; the dictionary form брат (brat) — brother has no ending at all, and the accusative of an animate masculine singular noun is the genitive shape брата. For a group of students you say Я вижу студентов (ya VEE-zhoo stoo-DYEN-taf) — I see the students, again the genitive plural shape. Now describe objects in the same photograph: Я вижу дом (ya VEE-zhoo dom) — I see a house, and Я вижу книги (ya VEE-zhoo KNEE-gee) — I see books. Nothing visible changed in дом or книги. Decide first whether the noun names a being or a thing, then retrieve the shape that family uses. Read each pair slowly with the marked stress, then say the same pair at a normal pace; the endings, not the speed, carry the meaning.",
+       "question": "Why does Я вижу студентов (ya VEE-zhoo stoo-DYEN-taf) — I see the students look exactly like a genitive plural?",
+       "answer": "Because plural nouns that name living beings use the genitive shape for the accusative, which is how Russian marks animacy in object position.",
+       "distractor": "Because the students own something in the sentence, so the genitive is required for a possessor.",
+       "correction": "Possession is a different job for the genitive. Here no one owns anything: the noun is the direct object of see, and animate nouns borrow the genitive shape in that role. Identify the role first (direct object), then check animacy (a being, not a thing), and only then choose the shape. The same sentence with a thing would read Я вижу книги (ya VEE-zhoo KNEE-gee) — I see books, using the nominative plural shape instead.",
+       "depth": {
+        "definitions": "Animacy is a grammatical classification: animate nouns normally name beings (people, animals), inanimate nouns name things, places, and abstractions. The classification is grammatical, so it belongs to the dictionary entry rather than to biology alone, and a dictionary records it for nouns where usage is not obvious. The accusative is the case of the direct object and also, as you saw with the library, of a destination after certain prepositions. The nominative is the subject and dictionary form; the genitive is the case of possession, absence, quantity, and a set of prepositions. Cornell groups nouns into declension classes (the a-declension in -а/-я, the o-declension of neuters, and the zero-ending class), and the accusative shapes differ by class as well as by animacy.[1]",
+        "mechanism": "Historically the old accusative form collapsed: for inanimate nouns it merged with the nominative, for animate nouns with the genitive. What survives is the pattern you are practising, a syncretism in which one form does two jobs.[2] The practical consequence is that the accusative is often invisible, and visibility is not evidence of grammatical case. Cornell presents the singular endings of animate o-declension and zero-ending nouns beside the plural endings for all declensions, precisely because the shapes are shared across categories.[1] Two limits deserve stating plainly. First, animacy only partly tracks biology: a few nouns are classified in ways a beginner would not predict, which is why a dictionary entry, not intuition, settles doubtful cases. Second, animacy matters here for the accusative and for some other constructions, but it does not turn every object into a genitive-lookalike, and it never licenses an added preposition.",
+        "secondExample": "Hold the verb Я вижу (ya VEE-zhoo) — I see fixed and change only the noun. Я вижу брата (ya VEE-zhoo BRA-ta) — I see my brother is animate masculine singular and takes the genitive shape. Я вижу стол (ya VEE-zhoo stol) — I see a table is inanimate masculine singular and keeps the dictionary shape. In the plural the same contrast reads Я вижу братьев (ya VEE-zhoo BRAT-yef) — I see my brothers, genitive-shaped, against Я вижу столы (ya VEE-zhoo sta-LY) — I see tables, nominative-shaped. One verb, four objects, two shape families. Notice that the meaning of see never changes, so nothing in the verb tells you which shape to use; the noun's classification and number decide it.",
+        "mistake": "Three errors recur. The first keeps the dictionary plural after an animate noun and produces Я вижу студенты (ya VEE-zhoo stoo-DYEN-ty) — I see the students, a sentence a Russian speaker hears as broken. The second overcorrects and puts an animate ending on a thing, as in Я вижу стола. The third transfers Spanish personal a and inserts a preposition before the person. Diagnose by labelling the object's noun as being or thing and its number before touching the ending, and by checking whether any preposition appears in the Russian model, which it does not. If your role analysis is right and only the ending is wrong, record a form-retrieval gap rather than concluding that the case itself is unclear to you.",
+        "application": "Optional practice: open a photograph with people and objects in it and write six sentences with the same verb, three about beings and three about things, mixing singular and plural. Model response for a pair: Я вижу Анну (ya VEE-zhoo AN-noo) — I see Anna uses the feminine accusative ending -у, while Я вижу окно (ya VEE-zhoo ak-NO) — I see a window keeps the dictionary form because the noun names a thing. Self-review checks four things: the object role, the animacy decision, the number, and the absence of an added preposition. Then read your six sentences aloud and mark each noun as visible-change or invisible-change, which turns an abstract rule into a checklist you can run in conversation. The task is nonblocking and worth repeating after a week.",
+        "summary": "The accusative expresses the role of the object; the noun's animacy decides which shape family expresses it. Beings borrow genitive shapes, things borrow nominative shapes, and only feminine -а nouns have a distinctive accusative ending of their own. Learn every new noun with its animacy recorded, exactly as you learn it with its gender."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Accusative singular and plural endings, and animacy",
+         "url": "https://russian.cornell.edu/grammar/html/gr04_c.htm",
+         "note": "Read the opening definition of animate versus inanimate nouns, then use the accusative plural table reached through the on-page 'acc_plur' anchor further down. The lesson's брата, студентов, and столы models come from this page's categories. Access caveat: this is a 1981/1991 teaching grammar; its legacy encoding renders stress marks as unfamiliar glyphs, so read the Cyrillic forms for their endings rather than for their accent marks."
+        },
+        {
+         "title": "[2] Wikipedia — Accusative case, section 'Russian'",
+         "url": "https://en.wikipedia.org/wiki/Accusative_case",
+         "note": "Read only the Russian section. It states the two things this lesson depends on: that the accusative also marks a goal of motion after в and на, and that masculine Russian distinguishes animate from inanimate nouns, with only animates carrying a marker in this case. The same section explains why first-declension singular nouns in -а are the only group with a distinct accusative. Encyclopaedia summary, not a substitute for a teaching grammar."
+        }
+       ],
+       "visual": {
+        "title": "Which shape does the object wear? — animacy decision sequence",
+        "description": "A labelled sequence for choosing an accusative shape for any noun after a transitive verb such as вижу or читаю.",
+        "steps": [
+         "Name the action and confirm the noun is the direct object, not the subject.",
+         "Ask whether the noun names a being (person, animal) or a thing, and check the dictionary if unsure.",
+         "If it names a being, use the genitive shape: -у for feminine -а nouns, the genitive forms for masculine singular and all plurals.",
+         "If it names a thing, keep the dictionary shape, which is why many objects look unchanged.",
+         "Say the sentence and confirm no preposition was inserted before the object."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я вижу Анну",
+         "latin": "ya VEE-zhoo AN-noo",
+         "meaning": "I see Anna"
+        },
+        {
+         "text": "Я вижу брата",
+         "latin": "ya VEE-zhoo BRA-ta",
+         "meaning": "I see my brother"
+        },
+        {
+         "text": "Я вижу студентов",
+         "latin": "ya VEE-zhoo stoo-DYEN-taf",
+         "meaning": "I see the students"
+        },
+        {
+         "text": "Я читаю книги",
+         "latin": "ya chee-TA-yu KNEE-gee",
+         "meaning": "I read books"
+        },
+        {
+         "text": "Я вижу дом",
+         "latin": "ya VEE-zhoo dom",
+         "meaning": "I see a house"
+        }
+       ]
+      },
+      {
+       "id": "52",
+       "title": "Location and topic in the prepositional case",
+       "explanation": "You already contrast a library location with a library destination: Я в библиотеке (ya v beeb-lee-a-TYE-kye) — I am in the library against Я иду в библиотеку (ya ee-DOO v beeb-lee-a-TYE-ku) — I am going to the library on foot. This lesson turns that single pair into a working system with two jobs. The prepositional case answers where? (location) after в and на, and about what? (topic) after о or об. Four models carry the whole lesson. Я живу в Москве (ya zhee-VOO v mask-VYE) — I live in Moscow shows the ordinary ending -е. Я учусь в университете (ya oo-CHOOS v oo-nee-veer-see-TYE-tye) — I study at the university shows the same ending on a longer noun. Я думаю о работе (ya DOO-ma-yu a ra-BO-tye) — I am thinking about work shows that about uses the same case with a different preposition. Мы говорим об Анне (my ga-va-REEM ab AN-nye) — We are talking about Anna shows the variant об, which appears before a vowel sound. Nouns whose dictionary form ends in -ия behave differently: Москва (mask-VA) — Moscow becomes в Москве, but Россия (ra-SEE-ya) — Russia becomes в России (v ra-SEE-ee), with -ии. Treat the ending as the noun's obligation, not as your stylistic choice.",
+       "example": "A colleague asks where you live and what occupies you this week. Answer in two clauses: Я живу в Москве (ya zhee-VOO v mask-VYE) — I live in Moscow, а сейчас я думаю о работе (a see-CHAS ya DOO-ma-yu a ra-BO-tye) — and right now I am thinking about work. The first clause uses в plus the prepositional ending -е to locate you; the second uses о plus the very same ending to name a topic. Notice how much the two clauses share: the same case, the same -е shape, and only the preposition changes the relationship. Now move the topic to a person and watch the preposition change shape instead of the ending: Мы говорим об Анне (my ga-va-REEM ab AN-nye) — We are talking about Anna, where об stands before the vowel that begins Анна. Finally, compare a place name with a different stem ending: Я живу в России (ya zhee-VOO v ra-SEE-ee) — I live in Russia. The noun in -ия takes -ии, and no new meaning is added. Speak the four sentences slowly once, then at a natural pace, keeping the case ending audibly distinct from the dictionary form.",
+       "question": "Why does Россия become России after в, while Москва becomes Москве?",
+       "answer": "Because the prepositional ending follows the noun's stem type: ordinary hard-stem nouns take -е, and nouns in -ия take -ии.",
+       "distractor": "Because Москва is a city while Россия is a country, and countries take a different case from cities.",
+       "correction": "The contrast is morphological, not geographical. Москва ends in a hard consonant and takes -е; Россия ends in -ия and takes -ии. A city name in -ия would take -ии too, and a country name in a hard stem would take -е. Cornell's ending chart presents the prepositional shapes as a table organised by declension and by adjective or noun, which is exactly the right way to think about it: the noun's form class decides, not its meaning.",
+       "depth": {
+        "definitions": "The prepositional case is used only after a preposition. Its two teaching functions here are location after в or на and topic after о or об. Location answers Где? (GDYE) — where?; destination answers Куда? (ku-DA) — where to?. A variant is a second form of the same word used for phonetic reasons: об appears before a vowel sound, о elsewhere. Cornell notes that a small set of nouns also keeps an older locative form with stressed -у in fixed expressions, and treats these as marginal cases rather than as a new case to master.[3]",
+        "mechanism": "Two decisions run in sequence. First choose the relationship: am I locating something, or naming what a thought or speech is about? Second choose the shape the noun requires. Cornell's ending chart gives -е for the ordinary noun classes, with -ии for the -ия group, and its preposition page gives the о/об distribution before vowels.[3][4] The reason the two functions share one case is historical: the old locative supplied the form, and the topic use extended from it, so Russian reuses one set of endings after several prepositions rather than inventing a separate case for each relation. The limit to state honestly is that not every в or на phrase is a location. The same prepositions take the accusative for a goal of motion, so the ending, not the preposition, tells your listener which relationship you mean. A second limit: the stressed -у locative survives in expressions such as на мосту (na mast-OO) — on the bridge, which dictionaries and idiom lists record individually rather than by rule.",
+        "secondExample": "Take one noun, работа (ra-BO-ta) — work, and change only the relationship. Я на работе (ya na ra-BO-tye) — I am at work locates you with на plus the prepositional. Я думаю о работе (ya DOO-ma-yu a ra-BO-tye) — I am thinking about work names a topic with о plus the same form. Now use the same noun to name an origin, and the case changes because the relationship changed: Я пришёл с работы (ya pree-SHYOL s ra-BO-ty) — I came from work uses the genitive after с, a construction the next lesson expands. Three relationships, one noun, three prepositions, two case shapes. The noun itself never changed meaning, which is the point: in Russian the relationship, expressed by preposition plus case, does the work that English word order and prepositions do together.",
+        "mistake": "The dominant error keeps the dictionary form after a topic preposition, producing думаю о работа or говорю о Анна; the repair is to choose the prepositional shape before speaking. A second error uses the accusative for a location, as in Я в библиотеку for I am in the library, which a listener hears as a destination. A third error adds a preposition where none is needed, or omits об before a vowel. Diagnose by naming the relationship first and the required shape second. A learner who identifies the relationship correctly but falters on -е versus -ии has a retrieval gap, not a conceptual problem, and should practise the two endings as a contrast rather than replaying the whole explanation.",
+        "application": "Optional practice: write four true sentences about yourself, two locations with в or на and two topics with о or об, then underline the ending in each and label the noun's stem type. Model response: Я живу в Москве (ya zhee-VOO v mask-VYE) — I live in Moscow uses -е on a hard stem, while Я думаю о России (ya DOO-ma-yu a ra-SEE-ee) — I am thinking about Russia uses -ии on an -ия noun. Self-review checks four features: the relationship, the preposition including its об variant, the ending, and the absence of an English-style article such as a or the. Read each sentence to a partner or record it once and confirm the ending is audible. The task is nonblocking.",
+        "summary": "The prepositional case has no life of its own: it exists after prepositions, and it serves location after в and на and topic after о and об. The ending follows the noun's stem type, and a handful of masculine nouns keep an older stressed locative in fixed phrases. Next, the same case pattern will be contrasted with the genitive after prepositions of origin and absence."
+       },
+       "readings": [
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — Prepositional case forms (nouns and adjectives)",
+         "url": "https://russian.cornell.edu/grammar/html/gr03_a_1_a.htm",
+         "note": "Read the ending table only, and note the spelling-rule note about -ем/-ей beside -ом/-ой. This table supplies the -е and -ии shapes used in the lesson's Moscow, university, and Russia models; the stressed -у locative is not on this chart and must be looked up in a dictionary or idiom list."
+        },
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — The functions of the Prepositional case",
+         "url": "https://russian.cornell.edu/grammar/html/gr03_a_2.htm",
+         "note": "Read the motion versus location contrast, which is the source of the lesson's claim that the ending, not the preposition alone, signals whether a place is a setting or a goal. You met this page in lesson 32; here it supplies the system rather than one pair."
+        },
+        {
+         "title": "[4] Cornell Beginning Russian Grammar — The preposition variants о/об",
+         "url": "https://russian.cornell.edu/grammar/html/le12_21_a.htm",
+         "note": "Short page: read it for the statement that об is used before vowel sounds, with the учебник and книга pairs as evidence. This is the page behind the lesson's об Анне model."
+        }
+       ],
+       "visual": {
+        "title": "Location or topic — two prepositions, one case",
+        "description": "A labelled decision sequence for choosing between a location phrase and a topic phrase and then shaping the noun.",
+        "steps": [
+         "Decide whether the phrase says where something is or what something is about.",
+         "If it says where, choose в or на; if it says what about, choose о before a consonant and об before a vowel.",
+         "Read the noun's dictionary form and identify its stem type: hard stem takes -е, -ия takes -ии.",
+         "Attach the ending and say the whole phrase, checking that the same phrase with a destination would need the accusative instead."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я живу в Москве",
+         "latin": "ya zhee-VOO v mask-VYE",
+         "meaning": "I live in Moscow"
+        },
+        {
+         "text": "Я учусь в университете",
+         "latin": "ya oo-CHOOS v oo-nee-veer-see-TYE-tye",
+         "meaning": "I study at the university"
+        },
+        {
+         "text": "Я думаю о работе",
+         "latin": "ya DOO-ma-yu a ra-BO-tye",
+         "meaning": "I am thinking about work"
+        },
+        {
+         "text": "Мы говорим об Анне",
+         "latin": "my ga-va-REEM ab AN-nye",
+         "meaning": "We are talking about Anna"
+        },
+        {
+         "text": "Я живу в России",
+         "latin": "ya zhee-VOO v ra-SEE-ee",
+         "meaning": "I live in Russia"
+        }
+       ]
+      },
+      {
+       "id": "53",
+       "title": "The genitive after prepositions: origin, absence, and purpose",
+       "explanation": "In lesson 33 the genitive marked an absent resource: У меня нет книги (u mee-NYA nyet KNEE-gee) — I do not have a book. The same case now becomes a road with many exits, because several frequent prepositions require it. Learn them as preposition plus case plus meaning, never as a preposition alone. Я из Москвы (ya eez mask-VY) — I am from Moscow names a place of origin. Я получил письмо от брата (ya pa-loo-CHEEL pees-MO at BRA-ta) — I received a letter from my brother names a person as the source. Чай без сахара (chaj BYES SA-ha-ra) — tea without sugar states an absence inside a noun phrase. Это для Анны (EH-ta dlya AN-ny) — this is for Anna marks a beneficiary. От дома до работы (at DO-ma da ra-BO-ty) — from home to work builds a route with two genitive prepositions. Около дома (O-ka-la DO-ma) — near the house places something loosely. Spanish speakers can map part of this quickly: de, sin, para, and cerca de behave similarly in Spanish. The mapping is only partial, because Spanish desde covers both sources, while Russian separates из for places from от for people, and Russian stores the required case with each preposition rather than leaving the noun unchanged.",
+       "example": "Suppose you are explaining a journey and a gift in one short account. Я из Москвы (ya eez mask-VY) — I am from Moscow sets your origin with из plus the genitive Москвы. Я живу около работы (ya zhee-VOO O-ka-la ra-BO-ty) — I live near work uses около plus the genitive работы. Я иду от дома до работы (ya ee-DOO at DO-ma da ra-BO-ty) — I am walking from home to work has two genitive prepositions, one at each end of the route, and the walking verb stays in the middle. Then the gift: Это для Анны (EH-ta dlya AN-ny) — this is for Anna uses для plus the genitive Анны, which is the shape you first saw with её нет. Notice that Anna's name takes the same -ы ending in a far more positive sentence. The case is not a mood and not a negation marker; it is simply the shape these prepositions require. Say the five models once with stress marked, then at a natural pace.",
+       "question": "Why does the letter sentence use от rather than из for a brother?",
+       "answer": "Because из marks origin from a place, while от marks origin from a person; a brother is a person, so от plus the genitive is required.",
+       "distractor": "Because из may only be used with capital cities, and Moscow is the only place the lesson names.",
+       "correction": "Из is not restricted to cities; it marks source when the source is a place or an enclosed space, as in Я из Москвы (ya eez mask-VY) — I am from Moscow. От is used when the source is a person, as in от брата. Cornell states the division directly and pairs из Москвы with от Саши, one place and one person, which is exactly the contrast you should keep in your study notes. Choosing by the kind of source, not by the English word from, prevents the common error of saying из брата.",
+       "depth": {
+        "definitions": "Government is the requirement that a word or construction impose a particular grammatical form on another word; here, each preposition governs a case. Origin answers Откуда? (at-KOO-da) — from where?. A beneficiary is the person for whose benefit something is done. A source in these models is whatever a thing comes from: a place, a person, or a container. Cornell lists the genitive prepositions as a group and notes that у, от, and из invariably take the genitive.[5]",
+        "mechanism": "The practical unit of learning is the triple preposition, case, and typical meaning, because the same preposition can govern different cases with different meanings. Cornell's preposition page lists the basic meanings of у, от, из, до, and без together, and a word list alone would not tell you which case each requires.[6] The same logic explains why из and от both translate from yet divide the work: they encode different kinds of source, and the learner's task is to classify the source before choosing the word. Three limits belong in your notes. First, около and у are not interchangeable: у presents something as being at a person's or an object's own place, while около means in the vicinity and also approximates quantities. Second, some prepositions split across two cases with different meanings, as с does between the genitive and the instrumental. Third, the genitive covers many further relations, including possession and quantity, so a single English gloss will never be a definition.",
+        "secondExample": "Contrast two sources with the same verb of receiving. Я получил письмо от брата (ya pa-loo-CHEEL pees-MO at BRA-ta) — I received a letter from my brother uses от because the source is a person. Я получил письмо из Москвы (ya pa-loo-CHEEL pees-MO eez mask-VY) — I received a letter from Moscow uses из because the source is a place. Now compare purpose and possession with the same noun: Это для Анны (EH-ta dlya AN-ny) — this is for Anna belongs to a purpose construction, while Это книга Анны (EH-ta KNEE-ga AN-ny) — this is Anna's book uses the genitive with no preposition at all. Four genitives, four jobs: source from a person, source from a place, beneficiary, possessor. Recognition of the job, not the ending, is what makes the choice correct.",
+        "mistake": "The commonest error is translating an English preposition word for word, which produces из брата for a person or от Москвы for a place. The second error leaves the noun in its dictionary form, as in без сахар, because English does not change a noun after without. The third confuses two ways of naming a recipient: a dative recipient in Я даю книгу Анне (ya da-YU KNEE-gu AN-nye) — I am giving a book to Anna marks the person receiving a transferred object, while для Анны marks a person for whose benefit something is intended, where the object need not move to them at all. Diagnose by asking what kind of relation the English sentence is really describing before choosing between a dative and a genitive construction.",
+        "application": "Optional practice: write five true sentences, one each with из, от, без, для, and около, and label the kind of source or relation in each. Model response: Я из Москвы (ya eez mask-VY) — I am from Moscow labels a place source; Чай без сахара (chaj BYES SA-ha-ra) — tea without sugar labels an absence inside a phrase. Self-review checks the preposition, the genitive shape of the noun, and whether your label matches the relation your English sentence expresses. Then rewrite one sentence with у instead of около, and state in English what changed about where the thing is said to be. A rubric of three criteria is enough here: correct preposition, correct case, and an accurate relation label.",
+        "summary": "Prepositions come with cases attached, and several of the most frequent take the genitive. Classify the relation first, then retrieve the pair: place source, person source, absence, purpose, route, or vicinity. The next lesson moves from these prepositional phrases to the quantity and absence uses of the same case."
+       },
+       "readings": [
+        {
+         "title": "[5] Cornell Beginning Russian Grammar — Genitive after the prepositions у, от, and из",
+         "url": "https://russian.cornell.edu/grammar/html/gr04_b_2_3.htm",
+         "note": "Read the whole short page; it opens with the statement that these prepositions invariably take the genitive and gives a glass-of, letter-from-Masha, and letter-from-Moscow set. The lesson's от брата and из Москвы models come from this contrast."
+        },
+        {
+         "title": "[6] Cornell Beginning Russian Grammar — Basic meanings of по, к/ко, на, в/во, от/ото, у, о/об, and из",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_b_1.htm",
+         "note": "Use this as a reference list rather than a reading to memorise. Note that the page itself says the meaning of a preposition often depends on the case that follows it, which is the reason to learn preposition and case together."
+        },
+        {
+         "title": "Wikipedia — Genitive case, section 'Slavic languages: Prepositional constructions'",
+         "url": "https://en.wikipedia.org/wiki/Genitive_case",
+         "note": "Read the short 'Prepositional constructions' subsection for its list of Russian prepositions that take the genitive (от, до, без, около, у, and others). Encyclopaedia-level overview; a teaching grammar remains the better source for drills and for the из-versus-от distinction, which you should read on the Cornell page instead."
+        }
+       ],
+       "visual": {
+        "title": "Classify the source, then choose the preposition",
+        "description": "A labelled sequence for building a genitive prepositional phrase from an English intention.",
+        "steps": [
+         "Say what relation you mean: place origin, person origin, absence, purpose, route, or vicinity.",
+         "Choose the preposition paired with that relation: из for a place, от for a person, без, для, около, or до.",
+         "Put the noun into its genitive form, consulting the dictionary for nouns whose stem changes.",
+         "Say the phrase and check that no second preposition was added from the English phrasing."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я из Москвы",
+         "latin": "ya eez mask-VY",
+         "meaning": "I am from Moscow"
+        },
+        {
+         "text": "Я получил письмо от брата",
+         "latin": "ya pa-loo-CHEEL pees-MO at BRA-ta",
+         "meaning": "I received a letter from my brother"
+        },
+        {
+         "text": "Чай без сахара",
+         "latin": "chaj BYES SA-ha-ra",
+         "meaning": "tea without sugar"
+        },
+        {
+         "text": "Это для Анны",
+         "latin": "EH-ta dlya AN-ny",
+         "meaning": "this is for Anna"
+        },
+        {
+         "text": "От дома до работы",
+         "latin": "at DO-ma da ra-BO-ty",
+         "meaning": "from home to work"
+        }
+       ]
+      },
+      {
+       "id": "54",
+       "title": "Genitive plural: counting and absence at scale",
+       "explanation": "In lesson 45 you learned that quantity words and higher numerals require the genitive, and the shapes then were mostly singular. Now learn the plural half of the same case, which is what you need for whole sets and for absence at scale. Compare У меня нет книги (u mee-NYA nyet KNEE-gee) — I do not have a book with У меня нет книг (u mee-NYA nyet kneek) — I do not have any books. The first is genitive singular, the second genitive plural, and the plural form is simply книг, with the -а gone and nothing added. That zero ending is normal for feminine -а nouns and for neuters: работа (ra-BO-ta) — work gives работ, окно (ak-NO) — window gives окон. Masculine nouns usually add -ов or -ев: стол (stol) — table gives столов (sta-LOF). Nouns in a soft sign take -ей: тетрадь (teet-RAT) — notebook gives тетрадей. Mass and abstract nouns often stay singular: У нас нет времени (u nas nyet VRYE-mee-nee) — We have no time. And a measure phrase keeps the singular for what is measured: стакан чая (sta-KAN CHA-ya) — a glass of tea. Cornell divides this neatly into genitive plural endings on one page and quantity words on another, and both are worth having open the first time you write a list.",
+       "example": "You are checking supplies before a study session. For one missing item: У меня нет ручки (u mee-NYA nyet ROOCH-kee) — I do not have a pen. For a whole category: У меня нет тетрадей (u mee-NYA nyet teet-ra-DYEY) — I do not have any notebooks, with the soft-sign noun taking -ей. For an amount you do have: пять студентов (pyat stoo-DYEN-taf) — five students uses the genitive plural after a numeral above four, exactly as lesson 45 taught, and много работы (MNO-ga ra-BO-ty) — a lot of work keeps the singular because work is not counted in units. Finally, a measure: стакан чая (sta-KAN CHA-ya) — a glass of tea keeps чай in the genitive singular because the measure word, not the count, is what you are naming. Read the four together and label each one: absent countable, numeral plural, mass, measured substance. The label tells you which shape to expect before you speak.",
+       "question": "Why does У меня нет книг have no ending after книг, while пять студентов ends in -ов?",
+       "answer": "Because книга is a feminine noun, whose genitive plural ending is zero, whereas студент is a masculine noun that adds -ов.",
+       "distractor": "Because books are uncountable, so Russian leaves the word unmarked, while students are counted individually.",
+       "correction": "Books are perfectly countable, and the numeral five would still require a plural after any countable noun. The difference is the noun's declension: feminine -а nouns and neuters normally take a zero ending in the genitive plural, while masculine hard-stem nouns add -ов or -ев. Compare пять книг (pyat kneek) — five books with пять студентов; both follow a numeral above four, and only the masculine noun shows an -ов. Cornell's genitive plural page lists -ов/-ей as the basic endings with zero for the feminine and neuter classes, which is the pattern behind both examples.",
+       "depth": {
+        "definitions": "The genitive plural is the plural form of the case used for quantity, absence, and possession. A zero ending means the case is marked by the absence of a final vowel rather than by an added syllable. A mass noun names something not counted in units, such as time or tea; an abstract noun names something like work in the sense of activity. A measure word names how much of a substance is meant, as in a glass of. Cornell notes that quantity words such as сколько (SKOL-ka) — how many, много (MNO-ga) — a lot, and мало (MA-la) — few all take the genitive, and that measure words behave the same way.[7]",
+        "mechanism": "Two separate mechanisms produce the forms in this lesson, and separating them prevents confusion. The first is declensional: each noun class has its own genitive plural ending, with -ов/-ев typical of masculine hard stems, -ей typical of soft stems, and zero for feminine -а nouns and neuters.[8] The second is selectional: certain words require the genitive at all, including нет, сколько, много, and measure nouns, and numerals above four take a genitive plural object. A further limit is that a few high-frequency nouns have awkward or suppletive plurals, so a dictionary check is part of the procedure rather than a beginner's crutch. Note also that the genitive singular you already know and the genitive plural you are learning now may look identical in some masculine nouns, and identical-looking forms with different numbers are normal in Russian rather than a sign you have misremembered.",
+        "secondExample": "Compare four shortages of increasing specificity. У нас нет времени (u nas nyet VRYE-mee-nee) — We have no time is a mass noun in the genitive singular. У нас нет денег (u nas nyet DYE-nyek) — We have no money is a plural-only noun with a zero-ending genitive plural. У нас нет студентов (u nas nyet stoo-DYEN-taf) — We have no students is animate masculine and takes the same shape you met as an accusative in lesson 51. У нас нет окон (u nas nyet O-kan) — We have no windows is a neuter plural whose genitive inserts a vowel between the consonants. Four absences, four shapes, one case. The value of the set is that it stops you from producing one memorised ending for every noun, which is the single habit that most slows the acquisition of this case.",
+        "mistake": "The first error uses the nominative plural after нет, producing нет книги for several books; the repair is to decide first whether you are denying one item or a whole set. The second error adds -ов to feminine nouns, giving книгов. The third treats a measure phrase as a count and writes стакан чаёв. A fourth mistake is conceptual: learners sometimes conclude that the genitive plural is simply irregular, when in fact the endings follow the declension classes and only a small set of nouns needs a dictionary. When a form surprises you, ask which class the noun belongs to and whether the noun is count, mass, or measure, and then check the dictionary for that specific noun.",
+        "application": "Optional practice: prepare a ten-item list for a study session, stating for each item whether you have it, lack one, or lack several, using нет with a singular, нет with a plural, and a numeral above four at least once. Model response: У меня нет тетрадей (u mee-NYA nyet teet-ra-DYEY) — I do not have any notebooks, пять студентов (pyat stoo-DYEN-taf) — five students, много работы (MNO-ga ra-BO-ty) — a lot of work. Self-review checks the case, the number, the noun's class, and whether a measure phrase kept the singular. Then ask a partner the same list aloud and listen for whether your ending was audible; an inaudible ending is a pronunciation target, not a grammar error.",
+        "summary": "The genitive handles absence and quantity at every scale, and the plural shapes follow declension class: -ов and -ев for masculine hard stems, -ей for soft stems, and zero for feminine and neuter nouns. Mass nouns stay singular. The unit now closes by combining the three cases you have deepened into single sentences."
+       },
+       "readings": [
+        {
+         "title": "[7] Cornell Beginning Russian Grammar — Genitive with quantity words",
+         "url": "https://russian.cornell.edu/grammar/html/le51_56_a.htm",
+         "note": "Read the opening statement that сколько, много, and мало take the genitive, and the measure-word examples (bottle, glass). This page supports the lesson's много работы and стакан чая models. Access caveat: legacy page with odd stress glyphs; read the endings."
+        },
+        {
+         "title": "[8] Cornell Beginning Russian Grammar — Genitive plural endings",
+         "url": "https://russian.cornell.edu/grammar/html/gr07_c_3.htm",
+         "note": "Read the ending list for -ов, -ев/-ёв, and -ей with its examples. This is the source of the claim that feminine -а nouns and neuters take a zero ending while masculine hard stems add -ов, and of the student example behind пять студентов."
+        },
+        {
+         "title": "Cornell Beginning Russian Grammar — The нет construction",
+         "url": "https://russian.cornell.edu/grammar/html/gr04_b_2_1.htm",
+         "note": "Re-read the нет page from lesson 33, now looking specifically at the statement that the missing item stands in the genitive and that the construction is impersonal. It also records the past and future forms нет было and не будет, which you are not required to produce yet."
+        }
+       ],
+       "visual": {
+        "title": "From one missing item to a whole category",
+        "description": "A labelled sequence for choosing between genitive singular and genitive plural when stating absence or quantity.",
+        "steps": [
+         "Decide whether you are denying or counting one item, a whole set, a mass, or a measured quantity.",
+         "For one item use the genitive singular; for many countable items use the genitive plural.",
+         "Find the noun's declension class to choose between zero, -ей, and -ов/-ев in the plural.",
+         "Keep mass and abstract nouns singular, and keep the measured substance singular after a measure word.",
+         "Say the phrase and confirm the listener can hear the ending."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "У меня нет книг",
+         "latin": "u mee-NYA nyet kneek",
+         "meaning": "I do not have any books"
+        },
+        {
+         "text": "У нас нет времени",
+         "latin": "u nas nyet VRYE-mee-nee",
+         "meaning": "We have no time"
+        },
+        {
+         "text": "пять студентов",
+         "latin": "pyat stoo-DYEN-taf",
+         "meaning": "five students"
+        },
+        {
+         "text": "много работы",
+         "latin": "MNO-ga ra-BO-ty",
+         "meaning": "a lot of work"
+        },
+        {
+         "text": "стакан чая",
+         "latin": "sta-KAN CHA-ya",
+         "meaning": "a glass of tea"
+        }
+       ]
+      },
+      {
+       "id": "55",
+       "title": "Reading three cases inside one real sentence",
+       "explanation": "This lesson combines roles rather than introducing a new case. Take one sentence you could plausibly need: Вчера я купила книгу для Анны в магазине около дома (vchee-RA ya koo-PEE-la KNEE-goo dlya AN-ny v ma-ga-ZEE-nye O-ka-la DO-ma) — Yesterday I bought a book for Anna in a shop near the house. The speaker is female, so the past verb carries feminine agreement, купила (koo-PEE-la); a male speaker would say купил (koo-PEEL). Now separate the parts. Вчера (vchee-RA) — yesterday anchors the time and changes no ending. Я is the subject, in the dictionary form because that is the case of the subject. Купила is feminine past agreement, not a case at all. Книгу is accusative because it names the thing bought. Для Анны is genitive because для marks a beneficiary. В магазине is prepositional because it locates the purchase after в. Около дома is genitive because около requires that case. Six decisions, one sentence, and each one is a decision you have already practised in isolation. The purpose of this lesson is to show that fluency at this level means running these small checks fluently, not knowing a longer list of cases. Spanish helps here in the opposite way from usual: Spanish also changes nothing about a noun for a beneficiary, so you must learn to expect the Russian ending where Spanish leaves the word alone.",
+       "example": "Work through a second sentence in the same way: Он дал студенту книгу в библиотеке (on dal stoo-DYEN-too KNEE-goo v beeb-lee-a-TYE-kye) — He gave a student the book in the library. Он is the subject. Дал is masculine past. Студенту is dative because the student receives the transferred object, the role you met with Anna in lesson 34. Книгу is accusative because it is what changes hands. В библиотеке is prepositional because the library is the setting of the giving. Now change one fact: make the library a destination and say Он пошёл в библиотеку (on pa-SHYOL v beeb-lee-a-TYE-ku) — He went to the library on foot. The noun becomes accusative after the same preposition, which is the clearest proof you can have that the ending, not the preposition, distinguishes a setting from a goal. Finish by contrasting origin and location in one clause pair: Я из Москвы, но живу в Петербурге (ya eez mask-VY no zhee-VOO v pee-teer-BOOR-gye) — I am from Moscow, but I live in St Petersburg. The same speaker, two places, two cases, and a но to mark the contrast you learned in lesson 46.",
+       "question": "In Вчера я купила книгу для Анны в магазине около дома, why do two of the noun phrases take the genitive while only one takes the accusative?",
+       "answer": "Because the accusative marks the bought object, while the genitive is required by two different prepositions: для for the beneficiary and около for the vicinity.",
+       "distractor": "Because Russian prefers the genitive in long sentences and reserves the accusative for short ones.",
+       "correction": "Sentence length has no grammatical effect. Each noun phrase is governed by its own word: the verb купить selects an accusative object, the preposition для selects the genitive, and the preposition около also selects the genitive. The two genitives happen to share a shape but belong to different relations, which is why you should label the relation for every noun rather than counting how many endings repeat in a sentence.",
+       "depth": {
+        "definitions": "Coordination here means the arrangement of several phrases with different roles inside one clause. Government is the requirement that a specific word demand a specific case: купить demands an accusative object, для and около demand the genitive, and в demands an accusative for a goal and a prepositional for a setting. Agreement is the separate matter of matching the verb to the subject, which is why купила shows feminine past while no noun ending is involved. Cornell treats preposition and case as a single learned unit for exactly this reason, since a preposition's meaning shifts with the case that follows it.[9]",
+        "mechanism": "The workable procedure is to build the sentence in roles, not in words. Name the subject, choose the verb and its agreement, choose the transferred or affected object, then add each prepositional phrase by asking which relation it expresses. Cornell's verb-phrase page shows why this matters even for a single preposition: говорить requires на plus the prepositional for a language, играть takes на plus the prepositional for an instrument but в plus the accusative for a game, and попросить takes у plus the genitive for the person asked.[10] In other words, a case form is reliable only together with the word that selected it. Two limits keep this honest. First, this lesson's sentences are ordinary and concrete; longer literary sentences reuse the same roles with more embedding, which changes processing load rather than grammar. Second, a sentence can be fully grammatical and still misleading, so accuracy of roles does not establish accuracy of facts: купила does not tell your listener whether the shop was open, and для Анны does not tell them whether Anna accepted the book.",
+        "secondExample": "Rebuild the same content from a different starting point. Begin with the place: В магазине около дома я купила книгу для Анны (v ma-ga-ZEE-nye O-ka-la DO-ma ya koo-PEE-la KNEE-goo dlya AN-ny) — In the shop near the house I bought a book for Anna. The roles are identical and the cases are identical; only the order changed, and the sentence is still correct because the endings carry the relations. Now change the recipient to a dative recipient and watch the relation shift: Я дала Анне книгу (ya da-LA AN-nye KNEE-goo) — I gave Anna a book moves Anna from a beneficiary into a recipient, so she takes the dative Анне rather than the genitive Анны. The English glosses for the two sentences feel almost the same, which is precisely why the Russian contrast has to be learned as a relation rather than translated as a preposition.",
+        "mistake": "Three errors dominate at this stage. The first is building from English word order and leaving nouns in the dictionary form, which produces a sentence a listener cannot parse. The second is settling on a single case for a preposition: learners who learn that в takes the prepositional then write в библиотеку for a location, or who learn that для takes the genitive and use it for a recipient. The third is agreeing the verb with the nearest noun instead of the subject: in Вчера я купила книгу the verb follows я, not книга, and in the masculine version купил nothing changes in the object. Diagnose by writing the role above each word before checking any ending, and by recording which word selected the case whenever you meet a new construction.",
+        "application": "This closes a five-lesson unit, so the task is a short written project rather than a sentence drill. Write four sentences in Russian that together use all five roles from this unit: an animate direct object, a location, a destination, an origin, and a beneficiary. Model set: Я вижу Анну (ya VEE-zhoo AN-noo) — I see Anna; Я в библиотеке (ya v beeb-lee-a-TYE-kye) — I am in the library; Я иду в библиотеку (ya ee-DOO v beeb-lee-a-TYE-ku) — I am going to the library on foot; Я из Москвы (ya eez mask-VY) — I am from Moscow; Это для Анны (EH-ta dlya AN-ny) — this is for Anna. Self-review rubric with four criteria: (1) every noun's case matches the role you state, (2) every preposition carries a case you can name, (3) agreement follows the subject rather than the nearest noun, (4) no English preposition has been inserted or omitted. Mark each criterion secure, developing, or needs review, and cite one sentence as evidence for each judgement. The unit quiz that follows samples the same decisions in new situations; it is not a measure of general fluency.",
+        "summary": "Case endings are the skeleton of a Russian sentence, and a real sentence is a set of role decisions, each of which selects its own form. You can now place an object, a setting, a destination, an origin, and a beneficiary in a single clause. The next unit turns from how participants are marked to how an action is presented in time, which is the work of aspect."
+       },
+       "readings": [
+        {
+         "title": "[9] Cornell Beginning Russian Grammar — The preposition в/во and the meaning determined by the following case",
+         "url": "https://russian.cornell.edu/grammar/html/le12_21_b.htm",
+         "note": "Read the motion versus location pairs for theatre, library, and park, plus the note that the variant во appears before certain consonant clusters. These pairs are the direct source of the lesson's в магазине against в библиотеку contrast."
+        },
+        {
+         "title": "[10] Cornell Beginning Russian Grammar — Prepositions na, v, and u in verb phrases",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_b_2.htm",
+         "note": "Read the five verb-government examples. This page is the basis for the claim that a verb can require a specific preposition plus case, and it shows говорить на plus prepositional for a language and попросить у plus genitive for a person."
+        },
+        {
+         "title": "Cornell Beginning Russian Grammar — Cases of nouns: form and function",
+         "url": "https://russian.cornell.edu/grammar/html/gr01_b_2_a.htm",
+         "note": "Re-read the opening of this page, first seen in lesson 31. It states the principle you are now applying at sentence level: case endings tell you what role a word plays. Use it as the conceptual reference while you analyse your own four sentences."
+        }
+       ],
+       "visual": {
+        "title": "A sentence as a row of role decisions",
+        "description": "A labelled sequence for analysing or building a multi-phrase sentence without translating word by word.",
+        "steps": [
+         "Name the subject and set the verb's agreement to that subject.",
+         "Name the affected or transferred object and put it in the accusative.",
+         "Add each prepositional phrase by naming its relation first: setting, destination, origin, or beneficiary.",
+         "Retrieve the case each selecting word demands: в plus prepositional for a setting, в plus accusative for a goal, из or от plus genitive for origin, для plus genitive for a beneficiary.",
+         "Read the sentence aloud and confirm every ending is audible and no English preposition was added."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Вчера я купила книгу для Анны в магазине около дома",
+         "latin": "vchee-RA ya koo-PEE-la KNEE-goo dlya AN-ny v ma-ga-ZEE-nye O-ka-la DO-ma",
+         "meaning": "Yesterday I bought a book for Anna in a shop near the house (female speaker)"
+        },
+        {
+         "text": "Он дал студенту книгу в библиотеке",
+         "latin": "on dal stoo-DYEN-too KNEE-goo v beeb-lee-a-TYE-kye",
+         "meaning": "He gave a student the book in the library"
+        },
+        {
+         "text": "Он пошёл в библиотеку",
+         "latin": "on pa-SHYOL v beeb-lee-a-TYE-ku",
+         "meaning": "He went to the library on foot"
+        },
+        {
+         "text": "Я из Москвы, но живу в Петербурге",
+         "latin": "ya eez mask-VY no zhee-VOO v pee-teer-BOOR-gye",
+         "meaning": "I am from Moscow, but I live in St Petersburg"
+        },
+        {
+         "text": "Вчера я купил книгу",
+         "latin": "vchee-RA ya koo-PEEL KNEE-goo",
+         "meaning": "Yesterday I bought a book (male speaker)"
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-51-a",
+       "prompt": "A learner writes Я вижу студенты for I see the students. What is the correction, and what decision produced it?",
+       "answer": "The noun must be студентов, because plural nouns naming beings use the genitive shape as the accusative.",
+       "distractor": "The noun must take -ам, because every plural object receives a dative ending.",
+       "correction": "The object role calls for the accusative, and animacy then decides which shape family expresses it. Студенты is the nominative plural used for a subject; for an animate direct object the accusative borrows the genitive plural shape, giving студентов. Labelling the noun as a being and as plural before touching the ending is what prevents this error.",
+       "reviewLessonIds": [
+        "51"
+       ]
+      },
+      {
+       "id": "uq-51-b",
+       "prompt": "A schedule note says you are going to the university, and a separate note says you study there. The same preposition в appears in both. Which case does each phrase require?",
+       "answer": "The destination takes the accusative, and the location takes the prepositional.",
+       "distractor": "Both take the prepositional, because the preposition is identical in the two phrases.",
+       "correction": "The preposition does not decide the case on its own; the relationship does. A goal of motion after в takes the accusative, while a setting takes the prepositional, which is why the location phrase shows the -е ending and the destination phrase does not. Cornell presents в and на as pairs whose meaning shifts with the following case.",
+       "reviewLessonIds": [
+        "32",
+        "52"
+       ]
+      },
+      {
+       "id": "uq-51-c",
+       "prompt": "You report that a letter arrived from your brother and that a parcel is intended for your sister. Which prepositions and which case do the two sources require?",
+       "answer": "From a person takes от plus the genitive брата; a beneficiary takes для plus the genitive сестры.",
+       "distractor": "From a person takes из plus the genitive, and the beneficiary takes the dative сестре.",
+       "correction": "Из marks origin from a place and от marks origin from a person, so the brother requires от. The preposition для marks a beneficiary and takes the genitive; the dative сестре would name a recipient of a transferred object instead, as in I gave my sister something. Relation first, then the pair.",
+       "reviewLessonIds": [
+        "53"
+       ]
+      },
+      {
+       "id": "uq-51-d",
+       "prompt": "Before a study session you have no notebooks at all, not merely one missing. Which form does the noun take, and why does that differ from the book example in the lesson?",
+       "answer": "The genitive plural тетрадей, because the absence covers a whole set rather than one item.",
+       "distractor": "The genitive singular тетради, because нет always takes the singular.",
+       "correction": "Нет requires the genitive but does not fix the number; number follows what you are denying. One missing book gives нет книги, while a missing set gives нет книг or, for a soft-sign noun such as notebook, нет тетрадей. Decide first whether you are denying one item or a category, then choose the shape the noun's class requires.",
+       "reviewLessonIds": [
+        "54"
+       ]
+      },
+      {
+       "id": "uq-51-e",
+       "prompt": "In Вчера я купила книгу для Анны в магазине около дома, a learner says the sentence has two genitives because Russian avoids the accusative in long sentences. What is the correct analysis?",
+       "answer": "Each noun phrase is governed separately: the verb selects an accusative object, while для and около each select the genitive.",
+       "distractor": "Long Russian sentences replace the accusative with the genitive to avoid repeating the same ending.",
+       "correction": "There is no length rule. Купить selects an accusative object, so книгу is accusative; the prepositions для and около each require the genitive, so Анны and дома are genitive for two unrelated reasons. The shared shape is a coincidence of these two prepositions, and labelling the relation for every noun is what reveals it.",
+       "reviewLessonIds": [
+        "51",
+        "53",
+        "55"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Aspect and narrating past, present, and future",
+     "lessons": [
+      {
+       "id": "56",
+       "title": "Aspect pairs do not all look alike",
+       "explanation": "Russian verbs come in pairs: one member presents an action as a process or a repeated fact, the other as a single bounded whole. The problem for a learner is that pairs are not formed by one visible rule. Compare three patterns. Решать (ree-SHAT) — to work on solving takes a different verb form, решить (ree-SHEET), for the bounded result: Я решал задачу (ya ree-SHAL za-DA-choo) — I was working on the problem against Я решил задачу (ya ree-SHEEL za-DA-choo) — I solved the problem. Here the ending and stem differ rather than a prefix being added. Делать (DYE-lat) — to do against сделать (SDYE-lat) — to get done is a prefix pair: Я делал отчёт (ya DYE-lal at-CHYOT) — I was working on the report against Я сделал отчёт (ya SDYE-lal at-CHYOT) — I finished the report. A third kind has two different roots entirely: говорить (ga-va-REET) — to speak against сказать (ska-ZAT) — to say, as in Я говорил с Анной (ya ga-va-REEL s AN-nay) — I spoke with Anna against Я сказал Анне (ya ska-ZAL AN-nye) — I said to Anna. Cornell calls these aspect partners and warns that there is no reliable procedure for deriving one member from the other.[11] Learn pairs as units, the way you learn a noun together with its gender, and use a dictionary for any verb you have not met in a pair.",
+       "example": "Take one action through the whole lesson: carrying or taking. Я брал книгу (ya BRAL KNEE-goo) — I took the book, or used to take it, is the imperfective partner and describes the act as an activity, with no claim that a particular taking was completed. Я взял книгу (ya VZYAL KNEE-goo) — I took the book is the perfective partner and presents one completed act. The two forms share no root, so no rule could produce one from the other. Now use the same pair in a question you actually need: Ты брал мою книгу? (ty BRAL ma-YOO KNEE-goo) — Did you take my book at some point? asks about an activity that may or may not have occurred, and the answer Я взял её вчера (ya VZYAL ee-YO vchee-RA) — I took it yesterday commits to one completed act. Notice that the difference is not politeness, emphasis, or emphasis on the past: both sentences are past, and only the presentation changes. Write both pairs on one card, with the two roots visible side by side, and read the card aloud until the pair feels like a single item with two settings.",
+       "question": "Why is it unsafe to form a perfective partner by adding a prefix to any verb you meet?",
+       "answer": "Because a prefix may change the verb's meaning or produce a different verb altogether, and many pairs are formed by stem changes or by unrelated roots instead.",
+       "distractor": "Because prefixes work only on verbs of motion, and no other verb class accepts them.",
+       "correction": "Prefixes are one of several strategies, and they are not meaning-neutral. Cornell distinguishes three outcomes of prefixing a simple verb: a perfective partner with the same meaning, as писать and написать; a perfective verb with a different meaning, as вести and перевести; and sometimes a perfective formed from a completely different verb.[11] Since the same prefix can therefore add aspect or add a new meaning, a prefix cannot be applied mechanically. The dependable procedure is to take pairs from a dictionary or a teaching grammar and to record both members in your notes.",
+       "depth": {
+        "definitions": "Aspect is the grammatical presentation of an action's internal structure, distinct from tense, which locates an action in time. An aspect partner is the verb of the opposite aspect that matches a given verb in lexical meaning. Suppletion is the use of unrelated stems for related grammatical forms. Cornell's treatment of aspect partners explains that perfective verbs are commonly formed from imperfective ones by adding a prefix, while imperfective partners are formed from perfective ones by modifying the stem or ending, and that suppletion also plays a role.[12]",
+        "mechanism": "Four formation paths cover most of the inventory, and knowing them as categories is useful even though none of them is an algorithm. Prefixation produces pairs such as делать and сделать. Stem or suffix modification produces pairs such as решать and решить. The reverse direction produces secondary imperfectives, in which the imperfective is the derived member of the pair, as with the -ыва- and -ива- verbs. Suppletion produces pairs such as говорить and сказать or брать and взять. A genuine complication is that prefixes are not aspect-only devices: Cornell's page on the three types of perfective verbs shows that prefixing can leave the meaning intact, can create a new meaning, or can supply a perfective of a different verb, which is why vocabulary work and grammar work cannot be separated here.[11] Two further limits belong in your notes. First, the direction of derivation is not a reliable clue to aspect for a beginner, since you cannot tell by inspection whether a given imperfective is basic or derived. Second, and more important for accuracy, aspect partners are not always synonyms: some pairs differ in a shade of lexical meaning, so a dictionary entry rather than a guessed partner is the responsible choice.",
+        "secondExample": "Compare a pair whose members differ by stem against a pair whose members share a root. Я решал задачу весь вечер (ya ree-SHAL za-DA-choo vyes' VYE-cheer) — I was working on the problem all evening names a process, and Я решил задачу (ya ree-SHEEL za-DA-choo) — I solved the problem names the result; the stems differ and the endings differ. Then Я писал письмо (ya pee-SAL pees-MO) — I was writing a letter against Я написал письмо (ya na-pee-SAL pees-MO) — I wrote the letter: here the second form is transparently built from the first with a prefix. Both contrasts express the same aspectual difference, but only one of them has a recognisable shape relationship. That is the practical reason to record pairs rather than to derive them, and it is also why two learners can know the same rule and still disagree about a particular verb until they check.",
+        "mistake": "The first error assumes a single morphological recipe and invents partners such as сделовать. The second assumes that a prefix always adds aspect and nothing else, which is how learners produce sentences with the right aspect and the wrong meaning. The third treats an aspect pair as a tense pair, so that a past imperfective is taken to mean an unfinished action in reality rather than an action presented without an endpoint, a point established in lesson 38. Diagnose by asking two separate questions: is the verb I am using genuinely the partner of the one I meant, and does the sentence need a process presentation or a bounded one? If you cannot answer the first question from memory, look the verb up rather than guessing.",
+        "application": "Optional practice: make five pair cards, one for each of делать and сделать, решать and решить, говорить and сказать, брать and взять, and писать and написать. On each card write the pair, its formation type (prefix, stem change, or unrelated root), and one sentence for each member. Model card: брать and взять are unrelated roots; Я брал книгу (ya BRAL KNEE-goo) — I took the book, as an activity, and Я взял книгу (ya VZYAL KNEE-goo) — I took the book, as one completed act. Self-review checks formation type, sentence meaning, and whether the sentence asserts only what you intended. When you meet a new verb in reading, add its partner to the card set only after checking a dictionary, and mark the card's formation type honestly as unknown if the source does not say.",
+        "summary": "Aspect is a two-member system organised by vocabulary, not by a single rule. Prefixation, stem modification, and suppletion all occur, and prefixes may add meaning rather than aspect alone. Learn pairs as units and confirm doubtful cases in a dictionary. The next lesson shows what aspect does to tense, and in particular why the present tense belongs only to the imperfective."
+       },
+       "readings": [
+        {
+         "title": "[11] Cornell Beginning Russian Grammar — Three types of semantic relationships in aspect pairs",
+         "url": "https://russian.cornell.edu/grammar/html/gr14_b_a.htm",
+         "note": "Read the three numbered outcomes of prefixing a simple verb, with писать and написать and the вести and перевести contrast. This page is the basis for the lesson's warning that prefixing can preserve meaning, change meaning, or produce a different verb."
+        },
+        {
+         "title": "[12] Cornell Beginning Russian Grammar — Aspect partners with the same and with different roots",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_c_3.htm",
+         "note": "Read the opening distinction between partners that differ only by a prefix and partners whose roots differ. It also cross-references the general aspect page, which is the fuller treatment if you want the derivation categories in order."
+        },
+        {
+         "title": "Cornell Beginning Russian Grammar — Aspect partners: Perfective or Imperfective?",
+         "url": "https://russian.cornell.edu/grammar/html/gr08_b.htm",
+         "note": "Short page whose value is its honesty: it states plainly that there is no sure way to derive a verb's aspect partner, and it links lists of common pairs. Treat it as an index for building your card set, not as a page to memorise."
+        }
+       ],
+       "visual": {
+        "title": "Three roads to a perfective partner",
+        "description": "A labelled comparison of prefixation, stem change, and suppletion, using this lesson's five pairs.",
+        "steps": [
+         "Write the imperfective member and its meaning as a process or repeated fact.",
+         "Ask which formation type the pair uses: an added prefix, a changed stem, or an unrelated root.",
+         "Write the perfective member with a sentence that presents a single bounded whole.",
+         "Mark the card's formation type, and mark it unknown rather than guessed when a source does not state it.",
+         "Check a dictionary before using the pair in a new sentence."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я решал задачу",
+         "latin": "ya ree-SHAL za-DA-choo",
+         "meaning": "I was working on the problem"
+        },
+        {
+         "text": "Я решил задачу",
+         "latin": "ya ree-SHEEL za-DA-choo",
+         "meaning": "I solved the problem"
+        },
+        {
+         "text": "Я сделал отчёт",
+         "latin": "ya SDYE-lal at-CHYOT",
+         "meaning": "I finished the report"
+        },
+        {
+         "text": "Я сказал Анне",
+         "latin": "ya ska-ZAL AN-nye",
+         "meaning": "I said to Anna"
+        },
+        {
+         "text": "Я взял книгу",
+         "latin": "ya VZYAL KNEE-goo",
+         "meaning": "I took the book (one completed act)"
+        },
+        {
+         "text": "Я брал книгу",
+         "latin": "ya BRAL KNEE-goo",
+         "meaning": "I took the book / used to take it (activity)"
+        }
+       ]
+      },
+      {
+       "id": "57",
+       "title": "Why the present tense belongs to the imperfective",
+       "explanation": "In Russian the present tense exists only for imperfective verbs. This is one of the most useful structural facts in the language, and it removes a whole class of decisions. Сейчас я читаю статью (see-CHAS ya chee-TA-yu sta-TYOO) — Right now I am reading an article uses the imperfective читать (chee-TAT) in a non-past form, and the speaker means the present. Я сделаю это завтра (ya SDYE-la-yu EH-ta ZAF-tra) — I will do it tomorrow uses the perfective сделать (SDYE-lat) with the same kind of personal ending, and the meaning is future, not present. The endings look alike because they are the same non-past endings; aspect decides what time they refer to. Cornell states the rule directly: the present can be expressed only by the non-past endings on an imperfective verb, while future is expressed either by non-past endings on a perfective verb or by the auxiliary future of быть with an imperfective infinitive.[13] The imperfective present covers two jobs that English splits: Каждый день я читаю газету (KAZH-dy dyen ya chee-TA-yu ga-ZYE-too) — Every day I read a newspaper reports a habit, and Сейчас я читаю (see-CHAS ya chee-TA-yu) — Right now I am reading reports what is happening at this moment. Russian uses one form for both, and context or an adverb such as сейчас or каждый день does the disambiguating.",
+       "example": "A colleague asks what you are doing. Two answers are possible, and only one describes the present. Я пишу отчёт (ya pee-SHOO at-CHYOT) — I am writing the report uses the imperfective, so the sentence is present and describes an activity in progress. The perfective counterpart Я напишу отчёт (ya na-pee-SHOO at-CHYOT) — I will write the report cannot mean I am writing it now, because a perfective non-past form has future reference. The same verb pair, the same person ending, and a completely different time. Add a duration phrase to see how the imperfective present handles what English does with a perfect continuous: Я читаю эту книгу уже неделю (ya chee-TA-yu EH-too KNEE-goo oo-ZHE nee-DYE-lyu) — I have been reading this book for a week. The Russian sentence is present because the activity is still ongoing, and the time phrase measures how long it has lasted. English needs have been reading, Russian needs only the imperfective present plus уже and a duration.",
+       "question": "Why does Я сделаю это завтра refer to the future even though the ending looks like a present-tense ending?",
+       "answer": "Because сделать is perfective, and a perfective non-past form has future reference; the present tense in Russian exists only for imperfective verbs.",
+       "distractor": "Because завтра is present, so the verb must agree with the adverb rather than with the speaker.",
+       "correction": "Time adverbs do not control verb tense in that way; a time phrase only confirms or conflicts with the time the verb form already carries. The reason is aspectual: Russian builds the present from imperfective non-past forms, so a perfective verb in the non-past can only project a bounded event into the future. Remove завтра and the sentence still means I will do it, which shows that the adverb was never doing the work.",
+       "depth": {
+        "definitions": "The non-past endings mark person and number: they identify the speaker, the addressee, or a third party, as Cornell's non-past page sets out.[14] Non-past is the safer name for these endings because their time meaning depends on aspect. A habitual statement reports what happens repeatedly or as a rule; an actual present statement reports what is happening now. The copula is the verb corresponding to English be, which Russian omits in the present rather than inflecting. Aspect is the grammatical presentation of an action's structure, as introduced in lesson 38.",
+        "mechanism": "The asymmetry has a historical explanation worth knowing, because it makes the rule memorable rather than arbitrary. The perfective member of a pair originally had no present meaning at all: perfective verbs referred to a single completed change, and a change being completed is incompatible with being observed in progress. The non-past endings were then used for future reference whenever the verb was perfective, and for present reference whenever it was imperfective.[13] Two consequences follow for production. First, if you need a present-tense sentence, the verb choice is limited to imperfective forms, and searching for a perfective present is a search for something that does not exist. Second, the imperfective present is not vague: it distinguishes habit from current activity through context and adverbs, so a learner who omits those signals leaves the listener to guess. A limit worth stating is that the copula absence means many present sentences have no verb at all, as in Я в библиотеке (ya v beeb-lee-a-TYE-kye) — I am in the library, so the present is not always a matter of verb endings.",
+        "secondExample": "Take every-day study and shift the presentation without shifting the time. Habitual present: Каждый день я читаю по-русски (KAZH-dy dyen ya chee-TA-yu pa-ROO-skee) — Every day I read in Russian. Current present: Сейчас я читаю по-русски (see-CHAS ya chee-TA-yu pa-ROO-skee) — Right now I am reading in Russian. Future activity with the compound future: Завтра я буду читать по-русски (ZAF-tra ya BOO-du chee-TAT pa-ROO-skee) — Tomorrow I will be reading in Russian. Future bounded event with a perfective: Завтра я прочитаю статью (ZAF-tra ya pra-chee-TA-yu sta-TYOO) — Tomorrow I will read the article through. Four sentences, one verb pair, and the aspect plus construction choice does all the temporal work. Notice that only one of the four uses a present form, and it is imperfective, exactly as the rule predicts.",
+        "mistake": "The commonest error is a search for a perfective present, which produces sentences such as Я сделаю сейчас when the speaker means I am doing it now; the repair is to switch to the imperfective делаю. The second error reads a perfective non-past form as present and then contradicts it with a present-time adverb. The third error assumes that only the compound future with быть can refer to the future, which would make the perfective future forms unavailable; lesson 39 introduced both constructions, and both are ordinary. A fourth, subtler error is to treat the imperfective as the tense-less or vague option. It is not vague; it is unmarked for boundedness, and the speaker signals habit or current activity with adverbs and context.",
+        "application": "Optional practice: write eight short sentences about your day, four of them genuinely present and four genuinely future, and label each as habitual present, current present, future activity, or future bounded event. Model response: Сейчас я читаю статью (see-CHAS ya chee-TA-yu sta-TYOO) — Right now I am reading an article is current present; Завтра я прочитаю статью (ZAF-tra ya pra-chee-TA-yu sta-TYOO) — Tomorrow I will read the article through is a future bounded event. Self-review checks four criteria: every present sentence uses an imperfective verb; every perfective non-past sentence is read as future; habitual and current statements are distinguished by an adverb or a clear context; and no present-time adverb contradicts the form. Mark each criterion secure, developing, or needs review, and rewrite any sentence that fails rather than merely rereading it.",
+        "summary": "The present tense is an imperfective-only zone, and a perfective non-past form refers to the future. The imperfective present covers both habit and current activity, with adverbs and context doing the disambiguating. Next, time phrases are examined on their own terms, because some of them require one aspect and some the other."
+       },
+       "readings": [
+        {
+         "title": "[13] Cornell Beginning Russian Grammar — Verbs: expressing past, present, and future",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_c_2.htm",
+         "note": "Read the one-paragraph statement above the table, which gives the rule in exactly the form used in this lesson: present only with imperfective non-past endings; future with perfective non-past endings or with the auxiliary plus imperfective infinitive. The table's писать and написать row is a compact reference to keep."
+        },
+        {
+         "title": "[14] Cornell Beginning Russian Grammar — The non-past tense",
+         "url": "https://russian.cornell.edu/grammar/html/gr02_c_2.htm",
+         "note": "Read the account of what the non-past endings mark (person: speaker, addressee, third party). It explains why Russian uses one set of endings for forms with two different time meanings, which is the mechanical basis of this lesson."
+        },
+        {
+         "title": "Cornell Beginning Russian Grammar — Aspect usage: a specific instance vs. repeated occurrences",
+         "url": "https://russian.cornell.edu/grammar/html/le31_40_f.htm",
+         "note": "Read the contrast between using a perfective partner for a specific instance and an imperfective partner for doing something in general or as a habit. This page supplies the evidence behind the lesson's claim that the imperfective present covers both habit and current activity."
+        }
+       ],
+       "visual": {
+        "title": "One set of endings, two time meanings",
+        "description": "A labelled decision sequence showing how aspect assigns a time meaning to a non-past verb form.",
+        "steps": [
+         "Identify whether the verb in front of you is imperfective or perfective, consulting a dictionary if unsure.",
+         "If it is imperfective, the non-past form means present; decide whether the context is habitual or current and choose an adverb such as каждый день or сейчас.",
+         "If it is perfective, the non-past form means future; do not use it for an action happening now.",
+         "For future activity, use the auxiliary буду with an imperfective infinitive; for a bounded future event, use the perfective non-past form.",
+         "Say the sentence and check that any time adverb agrees with the time the form already carries."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Сейчас я читаю статью",
+         "latin": "see-CHAS ya chee-TA-yu sta-TYOO",
+         "meaning": "Right now I am reading an article"
+        },
+        {
+         "text": "Я сделаю это завтра",
+         "latin": "ya SDYE-la-yu EH-ta ZAF-tra",
+         "meaning": "I will do it tomorrow"
+        },
+        {
+         "text": "Каждый день я читаю газету",
+         "latin": "KAZH-dy dyen ya chee-TA-yu ga-ZYE-too",
+         "meaning": "Every day I read a newspaper"
+        },
+        {
+         "text": "Я пишу отчёт",
+         "latin": "ya pee-SHOO at-CHYOT",
+         "meaning": "I am writing the report"
+        },
+        {
+         "text": "Я читаю эту книгу уже неделю",
+         "latin": "ya chee-TA-yu EH-too KNEE-goo oo-ZHE nee-DYE-lyu",
+         "meaning": "I have been reading this book for a week"
+        }
+       ]
+      },
+      {
+       "id": "58",
+       "title": "Time phrases that choose the aspect for you",
+       "explanation": "Some time expressions are aspectually opinionated: they fit one presentation of an action so strongly that they effectively select the verb form for you. Learn four patterns and you can handle most scheduling talk. A bare duration in the accusative describes time spread across an activity, and it goes with the imperfective: Я делал это два часа (ya DYE-lal EH-ta dva chas-A) — I was doing it for two hours. The same quantity with за means the time it took to complete something, and it goes with the perfective: Я сделал это за два часа (ya SDYE-lal EH-ta za dva chas-A) — I did it in two hours. A duration introduced by на states the intended length of a future stay or undertaking: Я поеду туда на неделю (ya pa-YE-doo too-DA na nee-DYE-lyu) — I will go there for a week. And через with a time names the point at which something will have happened: Я вернусь через час (ya veer-NOOS CHYE-ryes chas) — I will be back in an hour. Cornell groups these distinctions under duration, intended time, and elapsed time, and the contrast between a bare accusative and на plus accusative is one of its standard teaching contrasts.[15] Adverbs behave similarly: весь вечер (vyes' VYE-cheer) — all evening and каждый день (KAZH-dy dyen) — every day pull toward the imperfective, while a single completed event often appears with a sequencing marker such as наконец (na-ka-NYETS) — finally.",
+       "example": "Take one task, writing a report, and change only the time phrase. Я писал отчёт два часа (ya pee-SAL at-CHYOT dva chas-A) — I was writing the report for two hours reports the duration of an activity, and the imperfective fits because nothing is said about reaching the end. Я написал отчёт за два часа (ya na-pee-SAL at-CHYOT za dva chas-A) — I wrote the report in two hours reports how long completion took, and the perfective fits because the sentence presents the completed result. Я писал отчёт весь вечер (ya pee-SAL at-CHYOT vyes' VYE-cheer) — I was writing the report all evening stretches the activity across a whole evening. Я напишу отчёт через два часа (ya na-pee-SHOO at-CHYOT CHYE-ryes dva chas-A) — I will have the report written in two hours places a bounded future event at a point in time, and the perfective form is non-past, so it means future, as lesson 57 established. Four phrases, one verb pair, four different jobs for time.",
+       "question": "Why does за two hours require a perfective verb while a bare два часа in the accusative fits the imperfective?",
+       "answer": "Because за with a time measures how long completion took, which presents the action as a bounded whole, while a bare accusative duration measures how long an activity lasted.",
+       "distractor": "Because numerals above one cannot appear with imperfective verbs at all.",
+       "correction": "Numerals have no aspect restrictions of their own; the same два часа appears in both sentences in this lesson. The difference is what the phrase measures. A bare accusative duration answers how long you spent, and spending time on an activity does not assert an endpoint, so the imperfective fits. За plus a time answers how long something took to be accomplished, which presupposes the accomplishment, so the perfective fits. Cornell treats the bare accusative as expressing duration simultaneous with the action and на plus accusative as expressing intended time, which is the same family of contrasts.",
+       "depth": {
+        "definitions": "Duration is how long an activity lasts. Time to completion is how long something took to be finished. Intended time is a stretch of time planned to follow an action, as in going somewhere for a week. Elapsed time is the interval before a future point, as in in an hour. Aspect is the presentation of an action as a process or as a bounded whole. Cornell distinguishes these senses on separate pages: duration with a bare accusative, intended time with на plus accusative, and elapsed time with через plus accusative.[15][16]",
+        "mechanism": "The patterns work because each phrase encodes a different question, and each question is compatible with only one presentation of the action. How long did you spend on it is a question about a stretch of activity, and an activity in progress has no built-in endpoint. How long did it take you to finish is a question about a completed whole, and completing is what the perfective presents. Saying that time phrases choose the aspect is therefore shorthand for a stronger claim: the phrase presupposes a particular way of regarding the action, and the verb form must agree with that presupposition. Three limits should be recorded. First, these are strong tendencies rather than mechanical triggers, and a speaker can construct contexts that override them. Second, the bare accusative duration and за plus duration can both appear with numerals, so the numeral is never the deciding feature. Third, repetition also pulls toward the imperfective: an action repeated several times is normally reported with the imperfective partner, which is why Я звонил тебе три раза (ya zva-NEEL tee-BYE tree RA-za) — I called you three times uses the imperfective even though every call was completed.[17]",
+        "secondExample": "Compare repetition against a single bounded event with the same verb. Я звонил тебе три раза (ya zva-NEEL tee-BYE tree RA-za) — I called you three times reports three acts as a repeated activity, and the imperfective is the ordinary choice. Я позвонил тебе вчера (ya pa-zva-NEEL tee-BYE vchee-RA) — I called you yesterday, but the sentence is naturally understood as one completed call, takes the perfective. Now add a duration to each. Я звонил тебе целый час (ya zva-NEEL tee-BYE TYE-lyj chas) — I was calling you for a whole hour measures a stretch of activity; Я дозвонился за десять минут (ya da-zva-NEEL-sya za DYE-seet mee-NOOT) — I got through in ten minutes measures time to completion. Same telephone event, four presentations, and the time phrase and the verb agree in every one. The exercise to run on your own sentences is to name which question the time phrase asks before you choose the verb.",
+        "mistake": "The first error pairs за plus a duration with an imperfective verb, producing Я делал это за два часа for I did it in two hours; the repair is to notice that за with a duration presupposes completion. The second error treats every duration phrase as a perfective trigger, producing Я написал отчёт весь вечер, which contradicts the idea of an evening-long activity. The third error assumes that repetition requires the perfective because each instance was completed, when in fact repetition is normally presented with the imperfective partner. Diagnose by naming the question the phrase asks: how long did you spend, how long did it take you to finish, how long are you going for, or when will it be done.",
+        "application": "Optional practice: write four sentences about one real task from your week, using a bare duration, за plus a duration, весь plus a time noun, and через plus a time. Model set: Я читала статью два часа (ya chee-TA-la sta-TYOO dva chas-A) — I read the article for two hours; Я прочитала статью за два часа (ya pra-chee-TA-la sta-TYOO za dva chas-A) — I read the article in two hours; Я читала статью весь вечер (ya chee-TA-la sta-TYOO vyes' VYE-cheer) — I read the article all evening; Я прочитаю статью через час (ya pra-chee-TA-yu sta-TYOO CHYE-ryes chas) — I will have read the article in an hour. Self-review rubric with four criteria: the time phrase's question is named correctly, the verb aspect matches that question, the numerals keep the correct noun forms, and any statement about completion is supported by the scenario. Mark each criterion secure, developing, or needs review.",
+        "summary": "Time phrases carry presuppositions, and aspect must agree with them. A bare duration and весь plus a time noun favour the imperfective; за plus a duration favours the perfective; на plus a duration states intended time; через plus a time locates a future point. Repetition also favours the imperfective."
+       },
+       "readings": [
+        {
+         "title": "[15] Cornell Beginning Russian Grammar — Intended time: for a week",
+         "url": "https://russian.cornell.edu/grammar/html/le95_102_g.htm",
+         "note": "Read the statement that на plus accusative expresses time following the action's completion, and the contrast it draws with the bare accusative, which expresses duration simultaneous with the action. This page is the direct source of the lesson's poyedu tuda na nedelyu and two-hour duration models."
+        },
+        {
+         "title": "[16] Cornell Beginning Russian Grammar — Time expressions: elapsed time",
+         "url": "https://russian.cornell.edu/grammar/html/gr10_d_c.htm",
+         "note": "Very short page. Read it for через plus the accusative meaning in a week or a week later, which supports the вернусь через час model. Note that it is a reference page rather than a lesson, and that it does not discuss aspect."
+        },
+        {
+         "title": "[17] Cornell Beginning Russian Grammar — Imperfective aspect and plurality",
+         "url": "https://russian.cornell.edu/grammar/html/le41_50_b.htm",
+         "note": "Read the numbered comparison in which the imperfective appears with an adverb such as often and plural objects while the perfective reports one written letter. This page is the evidence for the claim that repetition pulls toward the imperfective, and it is the basis of the звонил три раза model."
+        }
+       ],
+       "visual": {
+        "title": "Ask what the time phrase measures",
+        "description": "A labelled decision sequence matching four time-phrase types to the aspect they presuppose.",
+        "steps": [
+         "Read the time phrase and name the question it asks: how long spent, how long to finish, how long for, or when.",
+         "For how long spent, use the bare accusative with an imperfective verb.",
+         "For how long to finish, use за plus the accusative with a perfective verb.",
+         "For how long for, use на plus the accusative; for a future point, use через plus the accusative.",
+         "Say the sentence and confirm the verb presentation matches the phrase's presupposition."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я делал это два часа",
+         "latin": "ya DYE-lal EH-ta dva chas-A",
+         "meaning": "I was doing it for two hours"
+        },
+        {
+         "text": "Я сделал это за два часа",
+         "latin": "ya SDYE-lal EH-ta za dva chas-A",
+         "meaning": "I did it in two hours"
+        },
+        {
+         "text": "Я поеду туда на неделю",
+         "latin": "ya pa-YE-doo too-DA na nee-DYE-lyu",
+         "meaning": "I will go there for a week"
+        },
+        {
+         "text": "Я вернусь через час",
+         "latin": "ya veer-NOOS CHYE-ryes chas",
+         "meaning": "I will be back in an hour"
+        },
+        {
+         "text": "Я звонил тебе три раза",
+         "latin": "ya zva-NEEL tee-BYE tree RA-za",
+         "meaning": "I called you three times"
+        }
+       ]
+      },
+      {
+       "id": "59",
+       "title": "Background and foreground: telling one story with two aspects",
+       "explanation": "A story in Russian usually moves on two levels at once. The imperfective supplies the setting and the activity that was already under way; the perfective supplies the single event that interrupts, completes, or advances the account. Read one sentence and see the two levels: Я читал, когда позвонила Анна (ya chee-TAL kag-DA pa-zva-NEE-la AN-na) — I was reading when Anna called. The reading is the ongoing background, so читал is imperfective. The call is the event, so позвонила is perfective. Reverse the order and the meaning survives: Когда я вошёл, все читали (kag-DA ya va-SHYOL vsye chee-TA-lee) — When I came in, everyone was reading. My arrival is the event and takes the perfective вошёл; the readers' activity is the background and takes the imperfective читали. A sequence of events moves the account forward: Сначала мы говорили, потом я ушёл (sna-CHA-la my ga-va-REE-lee pa-TOM ya oo-SHYOL) — First we talked, then I left. The talking is presented as the activity of the first phase, the leaving as the event that ends it. This is often called foreground and background, and the label is a teaching metaphor rather than a formal rule; what it names is a real contrast that Cornell describes as using the perfective partner for a specific instance and the imperfective partner for doing something in general or as an ongoing matter.[18]",
+       "example": "Bring the two levels into a four-sentence account. Она писала письмо, когда я пришёл (a-NA pee-SA-la pees-MO kag-DA ya pree-SHYOL) — She was writing a letter when I arrived: писала is the background activity, пришёл the interrupting event. Потом она прочитала мне письмо (pa-TOM a-NA pra-chee-TA-la mnye pees-MO) — Then she read the letter to me: прочитала presents one completed act that advances the account. Мы говорили о работе (my ga-va-REE-lee a ra-BO-tye) — We talked about work: the imperfective presents the conversation as an activity, and the prepositional о работе is the same construction you practised in lesson 52. Наконец я ушёл домой (na-ka-NYETS ya oo-SHYOL da-MOY) — Finally I went home: ушёл is the closing event, and the closing marker from lesson 50 signals the end. Four sentences, three perfectives that carry the story forward, two imperfectives that hold the background, and one topic phrase that keeps the case work from the first unit in play.",
+       "question": "In Я читал, когда позвонила Анна, why is only one of the two verbs perfective?",
+       "answer": "Because the call is the single event that advances the account, while the reading is the ongoing activity that forms its background.",
+       "distractor": "Because a sentence may contain only one perfective verb, and Russian resolves any conflict by leaving the later verb imperfective.",
+       "correction": "There is no limit on perfective verbs per sentence; two events in sequence can both be perfective, as in Она прочитала письмо и ушла (a-NA pra-chee-TA-la pees-MO ee oo-SHLA) — She read the letter and left. The reason only one verb is perfective here is functional rather than grammatical: the reading is presented as an activity already under way, which is the imperfective's job, and the call is presented as a single completed occurrence. Choosing the aspect for each verb according to that function is the whole skill of this lesson.",
+       "depth": {
+        "definitions": "Background is the ongoing state or activity against which events occur. Foreground is the chain of single events that carries an account forward. A subordinate clause here is the clause introduced by когда (kag-DA) — when. Aspect is the grammatical presentation of an action as a process or as a bounded whole; tense is its location in time, and the two are independent. Cornell's lesson page sets out the contrast between a specific instance, which takes the perfective partner, and an action done in general or repeatedly, which takes the imperfective.[18]",
+        "mechanism": "The mechanism is packaging rather than time. Both clauses in the reading example refer to the past, so tense does not distinguish them; what distinguishes them is whether the verb presents an action as in progress or as a single occurrence with a boundary. Cornell's aspect page states that the perfective expresses the end point of an action and is used for events that are more specific and definite than those an imperfective describes, which is precisely the foreground function.[19] Two consequences follow for narration. First, a chain of perfectives will feel like a list of incidents, while a chain of imperfectives will feel like a description with no forward movement, so a story usually alternates. Second, the когда clause does not dictate the aspect of its own verb; a когда clause can hold either a background activity or an interrupting event, and the choice depends on which role you want it to play. A limit worth stating: this foreground and background contrast is a description of typical narrative organisation, not a law, and authors exploit the tension between the two levels deliberately.",
+        "secondExample": "Change one feature of the same scene and watch what happens to the aspect. First, make the arriving person's action the background instead: Когда я читал, Анна вошла (kag-DA ya chee-TAL AN-na va-SHLA) — While I was reading, Anna came in. The reading stays imperfective and Anna's entry becomes the perfective event, so the sentence now advances from Anna's arrival. Second, make both clauses events in a sequence: Я прочитал письмо и позвонил Анне (ya pra-chee-TAL pees-MO ee pa-zva-NEEL AN-nye) — I read the letter through and called Anna. Two perfectives, two completed acts, and the connector и from lesson 46 simply adds the second to the first. Third, make the whole account habitual: По вечерам я читал, а Анна звонила (pa vee-chee-RAAM ya chee-TAL a AN-na zva-NEE-la) — In the evenings I used to read and Anna used to call. Both verbs imperfective, because neither clause reports one occasion.",
+        "mistake": "The commonest error is choosing aspect by time of day or by the verb's English translation, which produces sentences such as Я прочитал, когда позвонила Анна, where the background activity has been turned into a completed event and the scene no longer makes sense. The second error assumes that a когда clause always takes a perfective verb, which the habit example disproves. The third error treats the imperfective in a narrative as a failure to finish, repeating the misconception corrected in lesson 38: the reading may well have been completed in reality, and the sentence simply does not assert it. Diagnose by asking of each verb what job it does in the account: is it holding a scene open, or is it moving the scene forward?",
+        "application": "Optional practice: write a five-sentence account of a real evening in which at least two verbs are imperfective and at least two perfective, using one когда clause and one sequencing marker. Model opening: Вчера вечером я читала, когда позвонила Анна (vchee-RA VYE-chee-ram ya chee-TA-la kag-DA pa-zva-NEE-la AN-na) — Yesterday evening I was reading when Anna called. Self-review rubric with four criteria: (1) each verb's aspect matches the job you assign it, background or event; (2) at least one когда clause is present and its aspect is justified; (3) the sequencing markers locate the listener in time; (4) no sentence claims a completion or an interruption the scenario does not support. Mark each criterion secure, developing, or needs review and cite one sentence as evidence. Then cover the model and rebuild the account from memory.",
+        "summary": "A Russian past-tense account alternates two levels: imperfective for what was already going on, perfective for the events that advance it. The contrast belongs to packaging, not to time, and it is a description of typical narrative practice rather than a rule that forbids other choices. The final lesson extends the same two-level organisation across past, present, and future."
+       },
+       "readings": [
+        {
+         "title": "[18] Cornell Beginning Russian Grammar — Aspect usage: a specific instance vs. repeated occurrences",
+         "url": "https://russian.cornell.edu/grammar/html/le31_40_f.htm",
+         "note": "Read the statement that the perfective partner reports a specific instance while the imperfective partner reports doing something in general, as a habit or a matter of principle, and note the adverb warning about всегда and часто. This page supplies the evidence behind this lesson's background-and-foreground contrast."
+        },
+        {
+         "title": "[19] Cornell Beginning Russian Grammar — Verbs: Aspect",
+         "url": "https://russian.cornell.edu/grammar/html/gr04_d.htm",
+         "note": "Re-read the opening definition from lesson 38, this time looking specifically at the claim that the perfective expresses the end point of an action and refers to events more specific and definite than those described imperfectively. That sentence is the source of the foreground claim."
+        },
+        {
+         "title": "Wikipedia — Grammatical aspect in the Slavic languages, sections 'General characteristics' and 'Formation'",
+         "url": "https://en.wikipedia.org/wiki/Grammatical_aspect_in_the_Slavic_languages",
+         "note": "Read the two named sections only. They restate that each Slavic verb is inherently perfective or imperfective and that pairs are formed by prefixes, stem modification, or suppletion, which is useful background for lesson 56. Encyclopaedia-level summary; it does not supply the narrative-use contrast, which the Cornell pages do."
+        }
+       ],
+       "visual": {
+        "title": "Two levels of one past-tense story",
+        "description": "A labelled sequence for assigning each verb in a narrative to the background or the foreground level.",
+        "steps": [
+         "List the sentences of the account and mark each verb as a scene, the state of affairs already under way, or an event that changes the situation.",
+         "Give every scene verb the imperfective partner, and every advancing event the perfective partner.",
+         "Choose the order of the clauses freely, placing the event clause where it reads best: before or after the когда clause.",
+         "Use a sequencing marker such as сначала, потом, or наконец so the listener can follow the alternation.",
+         "Read the account aloud and confirm every asserted completion or interruption is supported by the facts you intend."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я читал, когда позвонила Анна",
+         "latin": "ya chee-TAL kag-DA pa-zva-NEE-la AN-na",
+         "meaning": "I was reading when Anna called"
+        },
+        {
+         "text": "Когда я вошёл, все читали",
+         "latin": "kag-DA ya va-SHYOL vsye chee-TA-lee",
+         "meaning": "When I came in, everyone was reading"
+        },
+        {
+         "text": "Сначала мы говорили, потом я ушёл",
+         "latin": "sna-CHA-la my ga-va-REE-lee pa-TOM ya oo-SHYOL",
+         "meaning": "First we talked, then I left"
+        },
+        {
+         "text": "Она писала письмо, когда я пришёл",
+         "latin": "a-NA pee-SA-la pees-MO kag-DA ya pree-SHYOL",
+         "meaning": "She was writing a letter when I arrived"
+        },
+        {
+         "text": "Потом она прочитала мне письмо",
+         "latin": "pa-TOM a-NA pra-chee-TA-la mnye pees-MO",
+         "meaning": "Then she read the letter to me (through)"
+        }
+       ]
+      },
+      {
+       "id": "60",
+       "title": "One account across past, present, and future",
+       "explanation": "This lesson assembles everything in the level: roles marked by case, actions presented by aspect, and time located by tense. Take one realistic account and read it in three slots. Вчера я весь день писала отчёт (vchee-RA ya vyes' dyen pee-SA-la at-CHYOT) — Yesterday I wrote the report all day: past tense, imperfective verb, and a duration phrase of the kind that favours the imperfective because the sentence measures how the day was spent rather than asserting completion. Сейчас я читаю статью (see-CHAS ya chee-TA-yu sta-TYOO) — Right now I am reading an article: present tense, which in Russian exists only for imperfective verbs, with the accusative object статья in its -ю form. Завтра я напишу отчёт и отправлю его (ZAF-tra ya na-pee-SHOO at-CHYOT ee at-PRAV-lyu ee-VO) — Tomorrow I will finish the report and send it: two perfective non-past forms, which mean future, and no auxiliary verb at all. Add a bounded interval and the compound future appears instead: Через час я буду читать (CHYE-ryes chas ya BOO-du chee-TAT) — In an hour I will be reading, where буду carries the future and the imperfective infinitive carries the activity. Three time slots, three different arrangements of the same small system.",
+       "example": "Now revise a single fact and watch how far the change travels. Suppose tomorrow will not finish the report, because only an hour is free and no result is promised. Revise the last sentence to Завтра я буду писать отчёт (ZAF-tra ya BOO-du pee-SAT at-CHYOT) — Tomorrow I will be writing the report and leave the two earlier sentences untouched: yesterday's duration phrase and today's reading have not changed. The past sentences are not dragged along by the future revision, which is a discipline worth practising, because learners often rewrite an entire account when a single commitment changes. Now change a different kind of fact. Suppose the report has already been sent, so the account is entirely past: Вчера я весь день писала отчёт, а вечером я написала его и отправила (vchee-RA ya vyes' dyen pee-SA-la at-CHYOT a VYE-chee-ram ya na-pee-SA-la ee-VO ee at-PRA-vee-la) — Yesterday I wrote the report all day, and in the evening I finished it and sent it. The contrast between the day-long imperfective and the two evening perfectives is the background-and-foreground pattern from lesson 59, now inside one sentence pair.",
+       "question": "Why does Завтра я напишу отчёт use no future auxiliary, while Через час я буду читать does?",
+       "answer": "Because написать is perfective, so its non-past form already means future, while читать is imperfective and needs the auxiliary буду plus its infinitive to place the activity in the future.",
+       "distractor": "Because writing a report is a completed action while reading is not, and only completed actions may use the auxiliary.",
+       "correction": "The auxiliary is not reserved for incomplete actions; it is reserved for imperfective verbs. The compound future буду plus infinitive is the future construction of the imperfective, and the perfective builds its own future from the non-past endings. Both sentences describe future activity involving a report or an article; the difference is which aspect each verb belongs to. A useful check is to look for the auxiliary: if буду is present, the infinitive after it must be imperfective.",
+       "depth": {
+        "definitions": "A time slot in this lesson is a rough division of the timeline into past, present, and future. Aspect is the presentation of an action as a process or a bounded whole; tense locates the action in time. A compound future is the auxiliary буду with an imperfective infinitive; a simple future is a perfective verb in a non-past form. Cohesion is what holds a text together, including repeated participants, consistent time reference, and sequencing markers. Cornell's tense page presents the whole grid in one table, with past on both aspects, present only on the imperfective, and two distinct future constructions.[20]",
+        "mechanism": "Three decisions generate every sentence in the account, and keeping them separate is the point of this lesson. First, choose the participant roles and mark them by case: subject in the dictionary form, object in the accusative, a setting in the prepositional, an origin or beneficiary in the genitive. Second, choose the presentation: process or bounded whole. Third, choose the time slot and with it the construction that slot permits, which for the future means either буду plus an imperfective infinitive or a perfective non-past form.[20][21] Because the three decisions are independent, an error in one does not excuse an error in another, and a sentence can be right in time and wrong in aspect. Two limits belong here. First, aspect is not a register marker: using the perfective is not more confident or more polite than using the imperfective, it simply asserts a bounded event, and using it to sound decisive changes what the sentence claims. Second, no grammatical choice can guarantee that events occur, so a perfective future is a projection or an intention rather than evidence of success.",
+        "secondExample": "Rebuild the account from the perspective of a reader rather than a writer. Сейчас я читаю статью (see-CHAS ya chee-TA-yu sta-TYOO) — Right now I am reading an article is present and imperfective. Пока я читала, Анна написала отчёт (pa-KA ya chee-TA-la AN-na na-pee-SA-la at-CHYOT) — While I was reading, Anna finished the report sets a background activity beside one completed event, which is the two-level organisation of lesson 59 in a different pair of participants. Завтра я прочитаю статью и напишу отзыв (ZAF-tra ya pra-chee-TA-yu sta-TYOO ee na-pee-SHOO AT-zyf) — Tomorrow I will read the article through and write a review: two perfective futures in sequence, each presenting one bounded act. Now exchange one verb for a process and notice that the whole sentence changes its claim: Завтра я буду читать статью и писать отзыв (ZAF-tra ya BOO-du chee-TAT sta-TYOO ee pee-SAT AT-zyf) — Tomorrow I will be reading the article and writing a review promises time spent rather than results delivered. The participants are identical, the case forms are identical, and only the aspect of the verbs tells your listener what you are committing to.",
+        "mistake": "Four errors appear at this stage, and each has a different repair. The first is an aspect error, such as using a perfective verb with a duration phrase, which needs the time phrase and the presentation brought back into agreement. The second is a tense-construction error, such as буду писать from a perfective form or an auxiliary added to a perfective infinitive, which needs the two future patterns kept apart. The third is a case error inside a correctly chosen verb, which needs the role labelling you practised in the first unit. The fourth is a discourse error: a grammatically correct account with no sequencing markers and no consistent time reference, which needs markers and a stable anchor rather than more grammar. Diagnose by category and practise the category that failed; repeating the whole account faster will not repair a specific gap.",
+        "application": "This closes the level, so the task is a written project with a rubric rather than a drill. Write a six-sentence account of your real week with at least two sentences in the past, two in the present or immediate present, and two in the future; include at least one animate object, one location, one destination, one origin or beneficiary, one duration phrase, and one sequencing marker. Model account: Вчера я весь день писала отчёт (vchee-RA ya vyes' dyen pee-SA-la at-CHYOT) — Yesterday I wrote the report all day; Потом я читала статью о работе (pa-TOM ya chee-TA-la sta-TYOO a ra-BO-tye) — Then I read an article about work; Сейчас я живу около работы (see-CHAS ya zhee-VOO O-ka-la ra-BO-ty) — Right now I live near work; Каждый день я читаю по-русски (KAZH-dy dyen ya chee-TA-yu pa-ROO-skee) — Every day I read in Russian; Завтра я напишу отчёт и отправлю его (ZAF-tra ya na-pee-SHOO at-CHYOT ee at-PRAV-lyu ee-VO) — Tomorrow I will finish the report and send it; Через час я буду читать книгу для Анны (CHYE-ryes chas ya BOO-du chee-TAT KNEE-goo dlya AN-ny) — In an hour I will be reading a book for Anna. Self-review rubric with five criteria: (1) every case ending matches a role you can name; (2) every time phrase agrees with its verb's aspect; (3) present-tense sentences use only imperfective verbs; (4) every future sentence uses one of the two permitted constructions; (5) the account includes at least one sequencing marker so the listener can follow it. Mark each criterion secure, developing, or needs review, cite one sentence as evidence for each, and rewrite only the sentences that failed. No result on this task certifies general fluency; it reports the state of these specific skills.",
+        "summary": "Three independent decisions produce a Russian sentence: roles marked by case, presentation marked by aspect, and time marked by tense and construction. Keeping them separate is what allows you to revise one without damaging the others. The level assessment that follows samples these decisions in new combinations; reading it through is not evidence of the skills, and producing the account unaided is the better evidence."
+       },
+       "readings": [
+        {
+         "title": "[20] Cornell Beginning Russian Grammar — Expressing past, present, and future",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_c_2.htm",
+         "note": "Read the table again, this time as a whole: past on both aspects, present only on the imperfective, and the two future constructions. This page has supported three lessons in this level, and in this one it is the reference for the claim that each time slot permits particular constructions."
+        },
+        {
+         "title": "[21] Wikipedia — Russian grammar, section 'Verbs / Present-future tense'",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar#Present-future_tense",
+         "note": "Read the 'Present-future tense' subsection only, and note how it presents a single set of endings carrying either present or future meaning according to aspect. Encyclopaedia-level and much longer than you need; stop when the subsection ends."
+        },
+        {
+         "title": "Cornell Beginning Russian Grammar — Time expressions: elapsed time",
+         "url": "https://russian.cornell.edu/grammar/html/gr10_d_c.htm",
+         "note": "Re-read this short page for через plus the accusative in the account's final sentence (in an hour). It is a reference page rather than instruction; use it to confirm the phrase, not to learn aspect."
+        }
+       ],
+       "visual": {
+        "title": "Three time slots, one system",
+        "description": "A labelled sequence for building an account that moves from the past through the present to the future.",
+        "steps": [
+         "Anchor each sentence in one time slot and mark it with a time expression or a sequencing word.",
+         "For past sentences, choose the aspect that matches the job: process or scene for the imperfective, advancing event for the perfective.",
+         "For present sentences, use an imperfective verb only, and signal habit or current activity with an adverb such as каждый день or сейчас.",
+         "For future sentences, choose either буду with an imperfective infinitive to present activity, or a perfective non-past form to present a bounded event.",
+         "Assign case roles inside each sentence and check the endings, then read the account aloud and confirm the time reference never contradicts itself."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Вчера я весь день писала отчёт",
+         "latin": "vchee-RA ya vyes' dyen pee-SA-la at-CHYOT",
+         "meaning": "Yesterday I wrote the report all day (female speaker)"
+        },
+        {
+         "text": "Сейчас я читаю статью",
+         "latin": "see-CHAS ya chee-TA-yu sta-TYOO",
+         "meaning": "Right now I am reading an article"
+        },
+        {
+         "text": "Завтра я напишу отчёт и отправлю его",
+         "latin": "ZAF-tra ya na-pee-SHOO at-CHYOT ee at-PRAV-lyu ee-VO",
+         "meaning": "Tomorrow I will finish the report and send it"
+        },
+        {
+         "text": "Через час я буду читать",
+         "latin": "CHYE-ryes chas ya BOO-du chee-TAT",
+         "meaning": "In an hour I will be reading"
+        },
+        {
+         "text": "Завтра я буду писать отчёт",
+         "latin": "ZAF-tra ya BOO-du pee-SAT at-CHYOT",
+         "meaning": "Tomorrow I will be writing the report (no result promised)"
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-56-a",
+       "prompt": "You meet сказать in a text and need its imperfective partner for a sentence about speaking in general. How do you proceed?",
+       "answer": "Use говорить, a partner with a different root, and confirm partners in a dictionary rather than deriving them.",
+       "distractor": "Add the suffix -ыва- to сказать to build сказивать, since imperfectives are derived from perfectives by suffixation.",
+       "correction": "The -ыва- and -ива- suffixes do produce imperfective partners for many verbs, but they do not apply to every verb, and сказать is paired with говорить, which shares no root. Cornell states that there is no sure way to derive a verb's aspect partner, which is why the reliable route is a dictionary entry or a teaching list rather than a morphological guess.",
+       "reviewLessonIds": [
+        "56"
+       ]
+      },
+      {
+       "id": "uq-56-b",
+       "prompt": "A learner writes Я сделаю отчёт сейчас to mean I am getting the report done right now. What does the sentence actually mean, and what form is needed?",
+       "answer": "The perfective non-past form refers to the future, so the sentence means I will do the report; for the present, use the imperfective Я делаю отчёт.",
+       "distractor": "The sentence is present in meaning, but it needs the auxiliary буду to make the aspect match.",
+       "correction": "The form is not defective and no auxiliary will repair it. Сделать is perfective, and a perfective non-past form has future reference, so the sentence projects a bounded event. An action happening now requires an imperfective verb, which is why the present tense in Russian exists only for imperfective forms.",
+       "reviewLessonIds": [
+        "57"
+       ]
+      },
+      {
+       "id": "uq-56-c",
+       "prompt": "A learner writes Я делал это за два часа to mean it took me two hours to finish. What is the diagnosis and the repair?",
+       "answer": "За plus a duration presupposes completion, so the verb should be perfective: Я сделал это за два часа.",
+       "distractor": "The sentence is correct as written, because за expresses duration in the same way as a bare accusative.",
+       "correction": "The two phrases ask different questions. A bare accusative duration reports how long an activity lasted, which fits the imperfective, while за plus a duration reports how long completion took, which presupposes a bounded whole. Pairing за with the imperfective leaves the sentence asserting a duration for an activity whose endpoint was never claimed.",
+       "reviewLessonIds": [
+        "58"
+       ]
+      },
+      {
+       "id": "uq-56-d",
+       "prompt": "A learner drafts Я прочитал, когда позвонила Анна. Why does the sentence fail as narration, and what is the repair?",
+       "answer": "The reading is the ongoing background and needs the imperfective: Я читал, когда позвонила Анна.",
+       "distractor": "The call is too brief for the perfective, so both verbs should be imperfective.",
+       "correction": "Briefness is not the issue; the call is a single completed event and belongs in the perfective, which carries the account forward. The problem is the first verb, which has been turned into a completed act and therefore no longer supplies a scene for the call to interrupt. In this pattern the imperfective holds the background and the perfective supplies the event.",
+       "reviewLessonIds": [
+        "38",
+        "59"
+       ]
+      },
+      {
+       "id": "uq-56-e",
+       "prompt": "You must report that yesterday was spent writing the report and that tomorrow will finish it. Which forms fit, and why?",
+       "answer": "Use the imperfective past with the duration phrase for yesterday, and a perfective non-past form for tomorrow's completed result.",
+       "distractor": "Use perfective past for yesterday's work and буду plus the perfective infinitive for tomorrow's result.",
+       "correction": "Yesterday's sentence measures how the day was spent, so the duration phrase favours the imperfective regardless of the outcome: Вчера я весь день писала отчёт. Tomorrow's sentence asserts a bounded result, which the perfective non-past supplies: Завтра я напишу отчёт. The distractor fails on both counts, because буду never takes a perfective infinitive.",
+       "reviewLessonIds": [
+        "58",
+        "60",
+        "57"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "lq-51-a",
+     "prompt": "A feminine speaker reports that yesterday she saw Anna and read the book. Three endings must be chosen independently: the object Анна, the object книга, and the past verb. Analyse which word controls each ending, and explain why superficially similar endings do not share a single rule.",
+     "answer": "я controls the verb, so the past form is читала; both noun objects are feminine -а nouns, whose accusative ending is -у whatever their animacy, giving Анну and книгу.",
+     "distractor": "All three take -у because every feminine word in the sentence receives the same feminine ending.",
+     "correction": "Agreement and case are different systems. The subject я determines the verb's feminine singular past form, while each object's ending follows its own declension; for feminine -а nouns the accusative is -у for animate and inanimate nouns alike, and the animacy contrast shows up in the plural and in masculine singular nouns instead. Naming the controlling word for every ending prevents mistaking one repeated sound for one rule.",
+     "reviewLessonIds": [
+      "37",
+      "51"
+     ]
+    },
+    {
+     "id": "lq-51-b",
+     "prompt": "One message says you are at the university and the next says you are walking to the university. The same preposition в appears in both. State the case each phrase requires and explain what carries the difference for your reader.",
+     "answer": "The location takes the prepositional and the destination takes the accusative; the noun ending, not the preposition, carries the distinction.",
+     "distractor": "Both phrases take the accusative, because в always marks movement toward something.",
+     "correction": "В is neutral about movement; its meaning shifts with the case that follows it. A goal of motion takes the accusative, and a setting takes the prepositional, so the two sentences differ in the noun's form even though the preposition is identical. A learner who considers only the preposition cannot tell the two sentences apart, which is why relationship comes before form.",
+     "reviewLessonIds": [
+      "32",
+      "52"
+     ]
+    },
+    {
+     "id": "lq-51-c",
+     "prompt": "You report that a letter arrived from Moscow and that a parcel is intended for Anna. Choose the two prepositions and the case each requires, then explain the reasoning that keeps them from being confused with their near neighbours от and the dative.",
+     "answer": "Из plus the genitive Москвы marks a place source, and для plus the genitive Анны marks a beneficiary.",
+     "distractor": "От plus the genitive Москвы marks the source, and the dative Анне marks the beneficiary.",
+     "correction": "От is used when the source is a person, so it cannot be used of Moscow; из is used for places and enclosed spaces. Для marks a person for whose benefit something is intended and takes the genitive, whereas the dative Анне would mark a recipient of a transferred object, as in giving her the parcel directly. Classifying the relation first prevents both mistakes.",
+     "reviewLessonIds": [
+      "53",
+      "55"
+     ]
+    },
+    {
+     "id": "lq-51-d",
+     "prompt": "Your supply list must deny one notebook, deny several notebooks, and deny available time. Give the three phrases and explain what changes across them, using the noun's class and the kind of thing being denied.",
+     "answer": "Нет тетради for one notebook, нет тетрадей for several, and нет времени for time, which stays singular as a mass noun.",
+     "distractor": "Нет тетради for all three, because нет always takes the genitive singular.",
+     "correction": "Нет requires the genitive but does not fix the number; number follows what you deny. A single item is genitive singular, a countable set is genitive plural, and a mass noun such as time remains singular. The plural shape depends on the noun's class: a soft-sign feminine noun takes -ей, giving тетрадей, while a hard masculine noun would add -ов.",
+     "reviewLessonIds": [
+      "54"
+     ]
+    },
+    {
+     "id": "lq-51-e",
+     "prompt": "Analyse Вчера я купила книгу для Анны в магазине около дома. Name the case of each noun phrase and identify the word that selected it, then state which parts are agreement rather than case.",
+     "answer": "Я is the subject, купила agrees with it in feminine past, книгу is the verb's accusative object, для selected the genitive Анны, в selected the prepositional магазине as a setting, and около selected the genitive дома.",
+     "distractor": "Every noun phrase after the verb is genitive, because Russian marks all non-subject phrases with the genitive in long sentences.",
+     "correction": "There is no such general rule. Each phrase is governed by the word that introduces it: the verb купить selects an accusative object, для and около each select the genitive for unrelated reasons, and в selects the prepositional when the noun names a setting rather than a goal. Купила is agreement with the subject rather than a case at all, so agreement and government must be tracked separately.",
+     "reviewLessonIds": [
+      "51",
+      "53",
+      "55"
+     ]
+    },
+    {
+     "id": "lq-51-f",
+     "prompt": "A learner claims that any perfective partner can be produced by prefixing the imperfective verb. Give a counterexample from this level and explain the two distinct reasons the claim fails.",
+     "answer": "Брать and взять share no root, so no prefix could produce the partner; and a prefix may change a verb's meaning instead of only its aspect.",
+     "distractor": "The claim fails only for verbs of motion, because those have two imperfective forms instead of an imperfective and a perfective.",
+     "correction": "Pairs are formed in several ways, including stem modification and suppletion, so prefixation is only one route. Even where a prefix is present, Cornell distinguishes three outcomes of prefixing a simple verb: the same meaning as a perfective partner, a different meaning, or a different verb entirely. Since the same device can add aspect or add meaning, partners must be recorded and checked rather than derived.",
+     "reviewLessonIds": [
+      "56"
+     ]
+    },
+    {
+     "id": "lq-51-g",
+     "prompt": "Why can Я сделаю это сейчас not describe an action in progress, and what would you say instead? Explain the general principle that settles the choice without reference to this particular verb.",
+     "answer": "Сделать is perfective, so its non-past form refers to the future; the present requires an imperfective verb, as in Я делаю это сейчас.",
+     "distractor": "Сейчас cannot be used with a perfective verb, so the adverb is the reason the sentence fails.",
+     "correction": "The adverb is not the cause; remove it and the sentence still means I will do it. The general principle is that Russian builds the present only from imperfective non-past forms, so a perfective non-past form necessarily projects a bounded event into the future. The repair is a change of verb, not of adverb.",
+     "reviewLessonIds": [
+      "57"
+     ]
+    },
+    {
+     "id": "lq-51-h",
+     "prompt": "You report both that you were reading for two hours and that you read the article in two hours. Beyond the verb form, what changes, and how would you explain the difference to someone who thinks the two time phrases measure the same interval?",
+     "answer": "The phrases measure different things: a bare accusative measures how long the activity lasted, while за plus the same quantity measures how long completion took.",
+     "distractor": "Only the tense changes; both phrases measure the same interval and merely differ in formality.",
+     "correction": "Each phrase carries a presupposition. A duration answering how long you spent does not assert an endpoint, which suits the imperfective. За with a duration answers how long it took to finish, which presupposes completion, which suits the perfective. The interval may be numerically identical, but what the sentence claims about the action is not.",
+     "reviewLessonIds": [
+      "58"
+     ]
+    },
+    {
+     "id": "lq-51-i",
+     "prompt": "In Когда я вошёл, все читали, identify the event and the background, then explain what a reader would understand differently if both verbs were perfective.",
+     "answer": "Вошёл is the single event and читали is the background activity; making both perfective would present two completed incidents in sequence rather than a scene interrupted.",
+     "distractor": "A когда clause always supplies the background, so вошёл would have to be imperfective for the sentence to be coherent.",
+     "correction": "A когда clause can hold either level; the aspect of its verb decides. With an imperfective in that clause you present a scene; with a perfective you present an event that interrupts or advances the account. Two perfectives remain grammatical but change the reading from a description of a scene to a sequence of incidents.",
+     "reviewLessonIds": [
+      "38",
+      "48",
+      "59"
+     ]
+    },
+    {
+     "id": "lq-51-j",
+     "prompt": "Your plan states three things: you read all day yesterday, you will be reading in an hour, and you will finish the report tomorrow. Name the three constructions and justify each choice.",
+     "answer": "An imperfective past with the duration phrase, then буду plus an imperfective infinitive, then a perfective non-past form for tomorrow's result.",
+     "distractor": "A perfective past for yesterday, a perfective future for the reading, and буду plus a perfective infinitive for tomorrow.",
+     "correction": "Yesterday's sentence measures how the day was spent, so the imperfective is needed whichever verb you choose. The hour from now is an interval of activity, which the compound future presents with an imperfective infinitive. Tomorrow's sentence asserts a bounded result, which the perfective non-past supplies without an auxiliary. The distractor fails because буду never combines with a perfective infinitive.",
+     "reviewLessonIds": [
+      "58",
+      "60"
+     ]
+    },
+    {
+     "id": "lq-51-k",
+     "prompt": "A future commitment loses its endpoint, so tomorrow becomes reading time rather than a finished report. State exactly what must change in the account and what must stay as it is, with reasons.",
+     "answer": "The future construction changes from a perfective non-past form to буду plus an imperfective infinitive; the object's case and any earlier past sentences stay unchanged.",
+     "distractor": "Every sentence in the account becomes imperfective, including the past sentences, so that the whole account presents activity rather than results.",
+     "correction": "Revise the commitment that changed, not the facts that did not. The object remains accusative because the participant roles are untouched, and yesterday's sentences are unaffected by tomorrow's intention. Altering unrelated sentences damages information your listener may already be relying on, and it also obscures which decision you were actually revising.",
+     "reviewLessonIds": [
+      "39",
+      "40",
+      "60"
+     ]
+    },
+    {
+     "id": "lq-51-l",
+     "prompt": "A learner has read this level and recognises every model but cannot produce an unaided account. What should the feedback distinguish, and what single next action should it prescribe?",
+     "answer": "Distinguish recognition from independent production, and prescribe retrieval practice on the specific category that failed rather than more reading.",
+     "distractor": "Recognition of the models is sufficient evidence, so the level can be marked complete without further production practice.",
+     "correction": "Recognising a model and producing it under time pressure are different skills supported by different evidence. The feedback should name the failing category, for example case roles, aspect with time phrases, or the future constructions, and prescribe targeted retrieval and a rewritten account. Completing the readings is a record of reading position, not a claim about competence.",
+     "reviewLessonIds": [
+      "55",
+      "59",
+      "60"
+     ]
+    }
+   ]
+  }
+ ]
+}

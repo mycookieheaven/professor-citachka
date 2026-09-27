@@ -1,0 +1,698 @@
+{
+  "subject": "psychiatry",
+  "levels": [
+    {
+      "title": "Syndromes, criteria, and the architecture of psychiatric knowledge",
+      "units": [
+        {
+          "title": "Assessment, criteria, and how psychiatric knowledge is constructed",
+          "lessons": [
+            {
+              "id": "31",
+              "title": "Four levels of description: symptom, sign, syndrome, and diagnosis",
+              "explanation": "The objective is to separate four levels of description that ordinary language blends together. A symptom is what the person reports: 'my mood has been low for a month'. A sign is what an observer can document: slowed speech, reduced movement, visible weight change. A syndrome is a recognised cluster of signs and symptoms that tend to occur together, such as persistent low mood accompanied by changed sleep, appetite, and energy. A diagnosis is a named category applied when a defined criteria set is met, including required features, a minimum duration, functional consequences, and rules about what must be excluded. Earlier lessons treated the timeline, the formulation, and the symptom measure as separate sources of evidence. The added skill here is naming the level at which a claim is pitched, because each level licenses a different conclusion. This is an educational reasoning exercise using fictional cases; it is not a method for diagnosing yourself or anyone else.",
+              "example": "Consider a fictional person who says, 'I have no interest in anything and I am sleeping badly.' That is a report of symptoms. On examination the clinician notes a quiet, slowed manner of speaking and a marked change in weight, which are signs. Together with the reported loss of interest, the changed sleep, and reduced concentration, these features form a candidate syndrome. Whether a diagnosis is warranted then depends on further rules: how long the pattern has lasted, whether it causes distress or impairment, and whether another condition better accounts for it. The same visible cluster can arrive by different routes. Two people may look similar at the syndrome level and still differ in duration, course, and cause, which is why a syndrome is a prompt for reasoning rather than a conclusion.",
+              "question": "A clinician records low mood reported by the person, observed slowed speech, and a marked change in weight. At which level is the evidence so far?",
+              "answer": "Symptoms and signs that together suggest a candidate syndrome, with a diagnosis still requiring defined criteria",
+              "distractor": "A diagnosis, because several features of the same kind are present",
+              "correction": "Several co-occurring features suggest a syndrome. A diagnosis additionally requires an explicit criteria set, including duration, impact, and exclusion rules, which have not yet been checked.",
+              "depth": {
+                "definitions": "A symptom is a subjective experience reported by the person, such as low mood or hearing a voice. A sign is an observation made by someone else, such as restlessness, slowed movement, or a documented change in weight. A syndrome is a cluster of signs and symptoms that co-occur more often than chance would predict; the cluster is described before its cause is known. A diagnosis is a named category applied through an operational criteria set, usually specifying required features, a minimum duration, a threshold of distress or impairment, and conditions that must be excluded. Nosology is the study of how such categories are organised. A pathognomonic sign would be one unique to a single condition, and in psychiatry such signs are rare. A presentation is clinically abnormal when it departs meaningfully from the person's own baseline and causes harm, not merely when it is statistically uncommon.",
+                "mechanism": "The four levels answer different questions. Symptoms and signs are observations and reports; they carry no built-in explanation. Moving from features to a syndrome is an inference about clustering: these experiences tend to travel together. Moving from a syndrome to a diagnosis adds a rule written by a committee rather than discovered in nature. That distinction matters because one syndrome can have several causes, just as fever with joint pain can arise from infection, inflammation, or injury. NIMH notes that anxiety disorders involve more than occasional worry: for people with these disorders the anxiety does not go away, is felt in many situations, and interferes with daily life.[2] The World Health Organization describes a mental disorder as a clinically significant disturbance in cognition, emotional regulation, or behaviour, usually associated with distress or impairment in functioning.[3] Both descriptions include a threshold and an impact requirement, and neither asserts that the underlying mechanism is known, because in most cases it is not.",
+                "secondExample": "Contrast the earlier case with a fictional student who sleeps poorly for two nights before an examination and feels nervous. There is a symptom and a situational sign, but no syndrome: the features are brief, tied to a specific event, and resolve without lasting impairment. Now add weeks of unchanged low mood, withdrawal from friends, and failing grades. The same initial complaints have become part of a sustained, impairing cluster. The difference is not the presence of distress, which both people report, but persistence, breadth, and consequence. This comparison also shows why duration alone is not enough: a lifelong reserved manner is not a syndrome. Onset relative to baseline, breadth across settings, and impairment do the discriminating work.",
+                "mistake": "A frequent error is treating a list of symptoms as though it were a diagnosis, then treating the diagnosis as though it explained the symptoms. This is circular: the label is merely a shorter name for the list. A second error is the opposite one, dismissing a syndrome because its cause is unknown, as if a cluster could only matter once its mechanism were settled. Correct both by naming the level explicitly in your reasoning: this is a reported symptom, this is an observed sign, these features form a candidate syndrome, meeting this criteria set would justify this category. A third error is treating an unfamiliar presentation as automatically pathological without comparing it to the person's baseline and to norms within their community. Describe first; interpret second.",
+                "application": "Practice without using personal information. Label each item in this fictional list as symptom, sign, syndrome, or diagnosis: 'hearing a voice while falling asleep'; 'reported loss of pleasure in music'; 'observed flattened speech'; 'low mood, early waking, and weight loss continuing for six weeks'; 'major depressive episode'. Then write one sentence stating what additional information the diagnosis level would require. A model response labels the first two as symptoms, the third as a sign, the fourth as a candidate syndrome, and the fifth as a diagnosis-level claim, and notes that duration, impact, and exclusion rules must be verified before any category is applied. Self-review: your labels are internally consistent, and you did not treat the syndrome as proof of a cause. No quiz response establishes clinical competence.",
+                "summary": "The transferable habit is to ask at which level a claim operates before evaluating it. Symptoms and signs are data; syndromes are patterns; diagnoses are rule-governed categories. Confusing the levels produces both overconfidence and false dismissal. In the next lesson the same discipline is applied to the process that generates most of this information, the psychiatric history, where the quality of a chronology can matter more than the elegance of a conclusion."
+              },
+              "readings": [
+                {
+                  "title": "StatPearls: Mental Status Examination - Clinical Overview and recorded findings",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK546682/",
+                  "note": "Read the Clinical Overview category list and the sample described examination, noting how observations become recorded signs rather than diagnoses. A peer-reviewed clinical reference; the hosting site may occasionally present a short verification step. Source [1]."
+                },
+                {
+                  "title": "NIMH: Anxiety Disorders - what distinguishes a disorder from everyday worry",
+                  "url": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
+                  "note": "Read the sections distinguishing ordinary worry from an anxiety disorder, and the list of disorder types. Public health information, not a diagnostic manual. Source [2]."
+                },
+                {
+                  "title": "WHO fact sheet: Mental disorders - definition, ICD-11 basis, and key facts",
+                  "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+                  "note": "Read the opening definition of a mental disorder, the key facts, and the ICD-11 framing. Public fact sheet; prevalence figures are regional estimates, not individual risk. Source [3]."
+                }
+              ],
+              "visual": {
+                "title": "Four levels of description and what each licenses",
+                "description": "A labeled ladder from raw report to rule-governed category, showing that each rung adds a different kind of requirement.",
+                "steps": [
+                  "Symptom: what the person reports, with no explanation attached",
+                  "Sign: what an observer documents, using shared descriptive terms",
+                  "Syndrome: features that cluster, described before any cause is known",
+                  "Diagnosis: a named category requiring duration, impact, and exclusion rules"
+                ]
+              }
+            },
+            {
+              "id": "32",
+              "title": "The psychiatric history as structured inquiry",
+              "explanation": "The objective is to understand the psychiatric history as an instrument that generates and tests hypotheses, not as a form to be completed. A usable history covers the presenting problem, the history of the present difficulty, past psychiatric and medical conditions, current medicines, substance use, developmental and educational background, work and housing, relationships and supports, family history, and previous responses to any help received. It also establishes the person's own account of what the difficulty means. In psychiatry there is no laboratory test that settles a category, so the history carries an unusual share of the reasoning load. The skill is not to collect every possible detail but to identify which missing fact would change the current hypothesis. This lesson continues the timeline work from earlier levels and is an educational exercise using fictional cases only.",
+              "example": "A fictional referral describes a person as 'uncooperative, unmotivated, and resistant to treatment'. The history, taken properly, reveals shifts of night work that made three appointments impossible, an untreated painful injury that makes long waits unbearable, and a previous treatment that caused an intolerable side effect nobody recorded. The behaviour is unchanged; the explanation is transformed. Note what the history did and did not do. It did not prove a diagnosis, and it did not make the original difficulties disappear. It removed a moralising label and replaced it with testable practical questions: can appointments be moved, can pain be assessed, is the previous adverse effect documented. A history that only confirms the referral question has been wasted.",
+              "question": "A referral calls a person 'unmotivated' after three missed appointments. The history shows night shifts and untreated pain. What has the history accomplished?",
+              "answer": "It replaced an inferred motive with contextual facts that generate testable practical questions",
+              "distractor": "It proved that the person has no psychiatric difficulty at all",
+              "correction": "The history reframed the behaviour; it did not rule out distress or illness. Context and clinical questions must both be carried forward.",
+              "depth": {
+                "definitions": "The history of the present illness is the chronological account of the current difficulty. Collateral history is information from other sources, such as relatives or records, obtained with attention to consent and confidentiality. Longitudinal information describes change over time, while cross-sectional information describes a single point. Reliability of recall concerns how accurately events are remembered, and it varies with the emotional salience and recency of events. Triangulation means checking an account against independent sources rather than accepting any single one. NICE's depression guidance lists assessment domains including duration and course, functional effects, previous treatment response, lifestyle, relationships or social circumstances, and coexisting conditions.[2] Those domains are prompts for inquiry, not a checklist that produces a diagnosis.",
+                "mechanism": "History is unusually important in psychiatry because most categories are defined by patterns over time rather than by a single measurable marker. That makes the history a comparison instrument: it establishes a baseline against which current change can be judged. It is also vulnerable to systematic distortion. Anchoring occurs when an early framing shapes every later question, so a referral phrase such as 'resistant' can steer the whole interview. Availability and recency effects cause recent or vivid events to dominate. Recall is reconstructive, so accounts drift. NICE recommends that assessment also consider coexisting conditions and prior treatment response,[2] precisely because these change what a current presentation means. A good interviewer holds two things at once: the person's account as authoritative about their own experience, and the need for corroboration about dates and external events.",
+                "secondExample": "Contrast the previous case with a fictional person referred for what is described as severe depression, where the history reveals that the whole picture turned on a change in a prescribed medicine and a new physical illness, both within the preceding three weeks. The history did not supply a diagnosis; it supplied a tempo and a sequence that changed the priority of assessment. Where the first case pointed mainly to access and pain, this one points to an urgent review of recent medical and medication changes. The same interviewing skill produced different conclusions because the timelines differ. This is why a history should be written as a chronology first and an interpretation second, so that a reader can separate what was reported from what was inferred.",
+                "mistake": "The most common mistake is treating the history as a form-filling task in which the referral question is answered rather than tested. A second mistake is allowing one informant to become the sole authority: a relative may know an earlier period while the person knows their inner experience, and neither account should silently override the other. A third is recording judgemental shorthand, such as 'poor historian', which conceals that the problem may have been the interview's structure, language, or setting. Correct these by writing observable sequences with approximate dates, naming the source of each claim, and stating explicitly what remains unknown. An honest gap is more useful than a confident guess.",
+                "application": "Practice without disclosing personal information. For the fictional referral above, write five history questions that could discriminate between a motivation explanation and a practical-access explanation. A model response asks what a typical shift pattern looks like, what happens during a long wait, what side effect occurred previously and when, what the person believes is going on, and what a workable appointment would need to look like. Self-review: your questions test competing explanations rather than confirming one; at least one question addresses the person's own understanding; and no question is phrased as an accusation. A strong answer also states which answer would change your next step.",
+                "summary": "A history is strongest when it is chronological, sourced, and explicit about its own gaps. It earns its place by changing hypotheses, not by accumulating detail. Carrying an honest chronology forward is what makes every later judgment, including whether a criteria set is met, accountable to evidence rather than to the referral's first impression. The next lesson turns to the part of the assessment that happens live, in the room."
+              },
+              "readings": [
+                {
+                  "title": "Merck Manual Professional: Initial Psychiatric Assessment",
+                  "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/approach-to-the-patient-with-psychiatric-symptoms/initial-psychiatric-assessment",
+                  "note": "Read the description of what an initial psychiatric assessment covers, especially the separation of history, examination, and formulation. Professional reference; content is written for clinicians and is not a self-assessment tool. Source [1]."
+                },
+                {
+                  "title": "NICE NG222: Depression in adults - recognition, assessment, and treatment",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read section 1.2, Recognition and assessment, including the domains a comprehensive assessment should cover, noting how many of them are historical rather than cross-sectional. Public guidance for England; local pathways differ. Source [2]."
+                }
+              ],
+              "visual": {
+                "title": "From referral framing to tested hypothesis",
+                "description": "A labeled sequence showing how structured history replaces an inferred motive with checkable facts.",
+                "steps": [
+                  "Referral frame: an impression, often value-laden, that shapes later questions",
+                  "Chronology: dated events, sources, and approximations recorded separately from inference",
+                  "Comparison: current functioning set against the person's own earlier baseline",
+                  "Test: the specific missing fact that would change the current explanation"
+                ]
+              }
+            },
+            {
+              "id": "33",
+              "title": "The mental status examination as structured observation",
+              "explanation": "The objective is to understand the mental status examination as a cross-sectional, structured description of an encounter. It records appearance, behaviour, motor activity, speech, mood, affect, thought process, thought content, perceptual disturbances, cognition, insight, and judgment, though different clinicians organise and weight these areas differently.[1] Two distinctions do the most work. Mood is the emotion the person reports; affect is the examiner's description of the expression observed. Thought process concerns how thinking flows, while thought content concerns what the thinking is about. Because the examination is cross-sectional, it describes the person as they present now, whereas the history describes them over time. Neither replaces the other. This lesson teaches how these observations are recorded and interpreted; it is not a diagnostic procedure, and the readings are clinical references aimed at trained practitioners.",
+              "example": "Compare two ways of recording the same fictional interview. The first writes: 'Patient was psychotic and hostile.' The second writes: 'Speech was rapid and difficult to interrupt. The person reported hearing two voices commenting on their actions, and at times appeared to pause and look to one side. They declined to discuss the referral and asked twice when the interview would end.' The second record can be checked, discussed, and later compared with a new examination. The first compresses observation and inference into a single term and leaves nothing to reassess. Note that neither version is a diagnosis. Both may be compatible with several explanations, and the disciplined record is the one that preserves the difference between what was seen and what was concluded.",
+              "question": "Which statement correctly separates mood from affect in the mental status examination?",
+              "answer": "Mood is the emotion the person reports; affect is the examiner's description of the observed expression",
+              "distractor": "Mood is the examiner's impression; affect is the person's own words describing their feelings",
+              "correction": "The terms are not interchangeable. Mood is reported; affect is observed and described by the examiner, which is why it requires shared definitions to be reliable.",
+              "depth": {
+                "definitions": "The mental status examination is a structured description of the person's current state during an encounter. Cross-sectional means it describes a single point in time. Mood is the person's reported emotional state; affect is the observed expression, often described with terms such as restricted, blunted, labile, or elated. Thought process refers to the form and flow of thinking, including whether it is coherent and goal-directed. Thought content refers to the subject matter, including preoccupations, delusions, and suicidal or homicidal ideas. Perceptual disturbances include hallucinations and illusions. Insight is the person's understanding of their situation, and judgment concerns their reasoning about practical decisions. These categories are conventions of record-keeping, not natural partitions of the mind.",
+                "mechanism": "Structure improves communication because it gives clinicians a shared vocabulary and reduces the chance that an important area is simply omitted. It also creates a specific hazard: a categorical descriptor such as 'flat affect' or 'disorganised' compresses a judgement into one word, and readers may treat that word as an observation when it is an interpretation. Reliability between examiners depends on agreed definitions and on the conditions of the encounter. The same person can be described very differently in a noisy emergency department, in a language they are still learning, or by an examiner whose expectations about eye contact and turn-taking differ from their own. NICE's psychosis guidance asks for assessment to be comprehensive and culturally competent,[2] and the practical reason is that a description is only informative when the conditions that produced it are also recorded.",
+                "secondExample": "Contrast the earlier interview with a fictional examination in a quiet room with an interpreter present and written questions offered. The person speaks at greater length, describes the voices as occurring only while falling asleep, and reports they are currently employed and coping. The two examinations differ not only in tone but in conclusion. This does not mean the louder account of distress was false, and it does not mean the calmer account is reliable. It means the cross-sectional record is inseparable from its setting. A well-written examination therefore includes enough context for a reader to judge how much of what was observed belongs to the person and how much belongs to the conditions of the room.",
+                "mistake": "A common error is treating mental status descriptors as diagnostic conclusions, so that 'flat affect' or 'agitated' becomes a proxy for a category. A second is confusing mood with affect and using the terms interchangeably in a record, which makes the note ambiguous. A third is using jargon as efficient shorthand, so that 'poorly engaged' hides the observable fact that the person answered briefly while checking their phone for childcare messages. Correct these by writing what was observable first, adding in a separate clause whether the person reported anything about their own state, and reserving interpretation for the formulation. The examination should be reusable: a second clinician should be able to arrive at a similar description from your record.",
+                "application": "Practice without recording any real encounter. Rewrite this fictional note, which contains no observation at all: 'The patient was a poor historian, thought-disordered and insightless.' Separate it into an observable description, the person's own report, and whatever inference remains. A model response notes, for example, that dates were uncertain and inconsistent, that speech repeatedly moved between unrelated topics, and that the person described their difficulties as caused entirely by their employer, and then labels the remaining inference as a hypothesis. Self-review: every sentence can be traced either to something observed or to something reported, and no sentence presents an inference as a finding. This exercise develops record discipline only; it does not qualify anyone to conduct a clinical examination.",
+                "summary": "The mental status examination is a disciplined snapshot: precise, temporary, and inseparable from the conditions that produced it. Its value depends on keeping observation and interpretation distinguishable. Combined with a trustworthy history, it supports the next step in the reasoning chain: comparing plausible explanations rather than settling on the first one that fits."
+              },
+              "readings": [
+                {
+                  "title": "StatPearls: Mental Status Examination - Clinical Overview and recorded findings",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK546682/",
+                  "note": "Read the Clinical Overview for the full category list and the discussion of mood versus affect, then read the thought process and thought content sections and the sample described examination. Peer-reviewed clinical reference; a short verification step may appear. Source [1]."
+                },
+                {
+                  "title": "NICE CG178: Psychosis and schizophrenia in adults - assessment and care",
+                  "url": "https://www.nice.org.uk/guidance/cg178/chapter/recommendations",
+                  "note": "Read the sections on comprehensive assessment, including the physical and cultural dimensions of assessment. Public guidance for England; written for services rather than for self-diagnosis. Source [2]."
+                }
+              ],
+              "visual": {
+                "title": "Observation, report, and inference in the examination record",
+                "description": "A labeled sequence that keeps three kinds of statement apart so the record can be re-examined later.",
+                "steps": [
+                  "Observed: what an examiner could document, such as speech rate or gaze",
+                  "Reported: what the person said about their own state and experience",
+                  "Context: the setting, language, and conditions that shaped the encounter",
+                  "Inference: the interpretation, labelled as a hypothesis and kept separate"
+                ]
+              }
+            },
+            {
+              "id": "34",
+              "title": "Differential reasoning and why medical causes come first",
+              "explanation": "The objective is to understand differential reasoning as the comparison of competing explanations, and to see why the tempo of an onset changes which explanations are plausible. A differential is not a list of psychiatric labels; it is a ranked set of hypotheses, each with different implications for what to check next. Two principles drive the ranking. First, some explanations carry immediate consequences if missed, so they are tested early regardless of how likely they seem. Second, probabilities depend on context: a new disturbance in an older person, or an abrupt change in anyone, raises the prior probability of medical, medication-related, and substance-related contributions. NICE's delirium guidance treats recent changes or fluctuations in cognition, perception, physical function, or social behaviour as reasons for assessment in hospital and long-term-care settings.[1] This lesson teaches recognition and escalation, not how to investigate or treat anyone. In a real sudden or severe change, seek urgent clinical assessment.",
+              "example": "A fictional older adult is brought to a clinic with two days of agitation, poor sleep, and unfamiliar talkativeness. A purely psychiatric reading would reach for a mood or psychotic category. Differential reasoning asks instead what has changed recently: a new medicine, a urinary infection, dehydration, untreated pain, a fall, alcohol withdrawal. The acute tempo and the age of onset shift the ranking toward assessment for reversible medical contributors. Note the logic precisely. This does not mean the person has no psychiatric condition, and it does not mean the agitation is 'really' medical. It means that a hypothesis with urgent consequences and a plausible mechanism should be tested before a hypothesis whose missing it is less immediately harmful.",
+              "question": "An older adult develops new agitation and confusion over two days. Which reasoning step has priority?",
+              "answer": "Treat the acute change as requiring prompt clinical assessment before attributing it to a psychiatric cause",
+              "distractor": "Select the psychiatric category that best matches the visible behaviour",
+              "correction": "Acuity and age of onset change the ranking of explanations. Labeling by appearance can delay assessment of reversible medical contributions with urgent consequences.",
+              "depth": {
+                "definitions": "A differential diagnosis is a ranked set of competing explanations for the same presentation. An exclusion criterion is a rule within a criteria set stating that a category should not be applied when another condition better accounts for the features. A diagnostic hierarchy orders categories so that one takes precedence when both are present. Base rate is how common an explanation is in a given population, and it strongly affects how a new observation should be interpreted. Premature closure means settling on an explanation before the alternatives that carry the greatest consequences have been considered. Comorbidity means two conditions genuinely coexist; it is not a synonym for an exclusion, and the distinction matters because it changes both the reasoning and the plan.",
+                "mechanism": "Differential reasoning is probability reasoning done under uncertainty. A finding that is common in one explanation and rare in another shifts the ranking, and the same finding shifts it differently in different populations. Sudden onset in later life is unusual for slowly developing syndromes and common for several medical, medication-related, and substance-related causes, so acuity and age change the calculation. Consequences also enter the calculation independently of probability: an explanation that is unlikely but catastrophic if missed is tested early, which is why delirium guidance emphasizes noticing acute fluctuations even when they are quiet.[1] NICE's psychosis guidance likewise expects physical health and possible organic contributors to be considered as part of assessment rather than after it.[2] A differential is therefore a working order, not a verdict, and it should be rewritten as information arrives.",
+                "secondExample": "Contrast the older adult with a fictional twenty-year-old who describes six months of gradually increasing social withdrawal and unusual beliefs. The tempo is slow rather than abrupt, the onset is in the typical age range for several psychiatric syndromes, and the presentation is broadly consistent with a recognized pattern. Medical and substance-related contributions still belong on the list, but the ranking differs, and the questions that discriminate are different: what did the person's functioning look like a year ago, what substances are involved, is there a family history, and how distressing are the beliefs to the person themselves. The same method produces a different order because the context differs. Reasoning by appearance rather than by tempo and context is what makes a differential unreliable.",
+                "mistake": "The characteristic error is diagnostic overshadowing, where an existing label becomes the explanation for every new difficulty, so that a person with a known psychiatric condition is not assessed for an acute medical change. A second error is premature closure: choosing the first explanation that fits and treating the rest of the list as unnecessary. A third is the reverse, treating every presentation as a medical emergency, which wastes resources and can stigmatize ordinary distress. Correct all three by writing the differential with explicit reasons for the ranking, including which explanation would be most harmful if missed and which observation would change the order. Re-rank when new information arrives rather than defending the first arrangement.",
+                "application": "Practice with a fictional scenario containing no real personal details. A person with a long-standing psychiatric diagnosis becomes newly withdrawn over two days and is sleeping far more. Write a ranked differential of at least four explanations with one discriminating question each, and mark which explanation carries the greatest consequence if missed. A model response includes a recent medication change, an infection or metabolic disturbance, a substance-related change, and a recurrence of the underlying condition, and asks about recent medicines, fever or pain, recent use, and the timing relative to the diagnosis. Self-review: your ranking states its reasoning, no explanation is closed off, and the highest-consequence hypothesis is addressed early regardless of its probability. This is a reasoning exercise, not a guide to medical investigation.",
+                "summary": "Differential reasoning ranks explanations by consequence, probability, and context rather than by the familiarity of the label. Tempo and age are among the most informative facts because they shift probabilities sharply, and the highest-consequence explanation is tested early whatever its odds. The discipline of holding several hypotheses at once depends on having explicit criteria to compare them against, which is the subject of the next lesson."
+              },
+              "readings": [
+                {
+                  "title": "NICE CG103: Delirium - indicators, assessment, and causes",
+                  "url": "https://www.nice.org.uk/guidance/cg103/chapter/Recommendations",
+                  "note": "Read section 1.3 on indicators at presentation and the guidance on identifying and managing possible underlying causes, including combinations of causes. Hospital and long-term-care scope; public full text. Source [1]."
+                },
+                {
+                  "title": "NICE CG178: Psychosis and schizophrenia in adults - assessment and care",
+                  "url": "https://www.nice.org.uk/guidance/cg178/chapter/recommendations",
+                  "note": "Read the comprehensive assessment sections, noting where physical health, substance use, and organic contributors are addressed. Public guidance for England; not a self-assessment checklist. Source [2]."
+                },
+                {
+                  "title": "Merck Manual Professional: Medical Assessment of the Patient With Psychiatric Symptoms",
+                  "url": "https://www.merckmanuals.com/professional/psychiatric-disorders/approach-to-the-patient-with-psychiatric-symptoms/medical-assessment-of-the-patient-with-psychiatric-symptoms",
+                  "note": "Read the overview of medical assessment for people presenting with psychiatric symptoms, noting the categories of medical conditions that can present this way. Professional reference for clinicians. Source [3]."
+                }
+              ],
+              "visual": {
+                "title": "Ranking a differential by consequence and context",
+                "description": "A labeled sequence for ordering competing explanations rather than selecting the most familiar one.",
+                "steps": [
+                  "Describe: features, tempo, age of onset, and baseline",
+                  "List: competing explanations including medical, medication, and substance contributors",
+                  "Rank: by consequence if missed, then by probability given context",
+                  "Re-rank: as new information arrives, and record which observation would change the order"
+                ]
+              }
+            },
+            {
+              "id": "35",
+              "title": "What DSM and ICD criteria actually specify, and what they cannot settle",
+              "explanation": "The objective is to understand what a diagnostic criteria set is, what it is for, and what it cannot establish. Two systems dominate: the American Psychiatric Association's DSM-5-TR, described as the standard classification of mental disorders used by mental health professionals in the United States,[1] and the World Health Organization's ICD-11, which the WHO describes as the global standard for diagnostic health information.[2] A criteria set typically combines a list of qualifying features from which a minimum number must be met, a duration requirement, a requirement of distress or functional impairment, and exclusion rules about other conditions that better explain the picture. The systems exist mainly to make communication, research, and service planning comparable. They are classificatory instruments, not accounts of aetiology, and the criteria were produced by expert consensus rather than by identifying a lesion or a marker. This lesson examines how the systems are built; it does not ask you to diagnose anyone.",
+              "example": "Two fictional people both receive the same category. The first meets the required number of features through sleep disturbance, fatigue, and concentration difficulty, with a mild but persistent low mood. The second meets the same count through marked low mood, loss of pleasure, and appetite change, with no sleep complaint. They share only a minority of features and may differ in course, severity, and response to anything tried. A criteria set that allowed these two profiles to qualify is described as polythetic: no single feature is required. This is a deliberate design choice that improves coverage and reliability, and it produces heterogeneity. The label communicates a family resemblance, not an equivalence. Reading the criteria as if they described one uniform condition is the error the example is designed to expose.",
+              "question": "Two people meet the full criteria for the same category but share only two features. What does this demonstrate?",
+              "answer": "Polythetic criteria permit different feature combinations to satisfy the same category, so the label carries heterogeneity",
+              "distractor": "One of the two must have been assigned the category incorrectly",
+              "correction": "The category is defined by a rule about how many features from a list are present, not by an identical profile. Shared labels do not imply identical presentations.",
+              "depth": {
+                "definitions": "A criteria set is an operational definition: a rule specifying the features, counts, durations, and exclusions required for a category. A polythetic definition requires some minimum number from a larger list, whereas a monothetic definition requires all of a set. A threshold is the count or severity that must be reached. A duration criterion specifies how long features must persist. An exclusion states that a category should not be applied when another condition better explains the picture. A specifier adds descriptive detail within a category. Reliability concerns whether different assessors reach the same conclusion; validity concerns whether the category corresponds to a distinct underlying process. A classification is categorical when it assigns membership and dimensional when it places people on continuous scales.",
+                "mechanism": "The purpose of a classification determines what you should expect from it. If the goal is that two clinicians in different countries describe the same person similarly, then explicit criteria and agreed definitions serve that goal well. If the goal is to identify a shared biological mechanism or to predict which treatment will help a particular person, a criteria set is much weaker evidence, because it groups heterogeneous presentations under one name. Reliability can be high while validity remains contested; agreement between assessors does not prove that the category tracks a natural boundary. NIMH's Research Domain Criteria illustrates the concern directly, describing an approach that does not rely on disorder-based categories and stating that it is not intended to replace current diagnostic systems, while noting that clinical criteria for defining a disorder, though created through expert practitioner consensus, are somewhat arbitrary.[3] That is a research-framework statement, not a clinical instruction, and both systems continue to be used in practice.",
+                "secondExample": "Consider how the boundary of a category is set rather than whether it is met. A fictional service finds that a short duration threshold excludes people who are clearly distressed but recover quickly, while a longer threshold includes people whose difficulty resolves on its own. Moving the threshold changes who is described, who is offered what, and what the service counts. The underlying experiences have not changed at all, only the line drawn through them. This shows why threshold debates are real and why they are not resolved by closer reading of a manual. Dimensions can describe the same person without a line, at the cost of losing the convenient shorthand that services, insurers, and researchers rely on. Neither arrangement is free of trade-offs.",
+                "mistake": "The defining error is reification, treating a category as a thing that exists in nature rather than a convention maintained for communication. A related error is assuming that a category implies a cause, so that a label is used to explain the very features that produced it. A third is the opposite overreach, concluding that because categories are conventional they are useless; they remain indispensable for shared language and research. Correct all three by stating what the criteria did specify and what remains unknown: how many features, over how long, with what impact, and with what excluded. When a label is used, follow it with the evidence that supports it and the alternatives that remain open. That single habit prevents most misuse of a manual.",
+                "application": "Practice without applying anything to a real person. Take a fictional description: a person reports three weeks of low mood, difficulty sleeping, and reduced appetite, but continues working and describes the difficulties as manageable. Write what a criteria set would still need to check before the category could be applied, and name two alternative explanations that would have to be weighed. A model response asks whether the required number of features is present, whether the duration threshold is met, whether distress or impairment reaches the required level, and whether another condition or a substance better explains the picture, while noting that reduced sleep and appetite also occur in several other situations. Self-review: you distinguish the rule from the experience, and you do not treat meeting a count as establishing a cause. This is a documentation and reasoning exercise, not a diagnostic one.",
+                "summary": "Criteria sets are operational rules built for communication and comparison. They specify features, counts, durations, impact, and exclusions, and they deliberately tolerate heterogeneity. They do not identify causes, and agreement between assessors is not the same as validity. Holding both facts at once, prompt use of categories and scepticism about what they mean, is the mature position, and it is the one that a careful clinician can defend. The next unit turns from how categories are built to the main families of syndromes they describe."
+              },
+              "readings": [
+                {
+                  "title": "American Psychiatric Association: DSM-5-TR - the standard classification and its development",
+                  "url": "https://www.psychiatry.org/psychiatrists/practice/dsm",
+                  "note": "Read the description of DSM-5-TR as the standard classification and follow the link on the development of DSM-5-TR for how criteria were produced and revised. Publisher material; the manual itself is a paid publication. Source [1]."
+                },
+                {
+                  "title": "WHO: ICD-11 - the international classification of diseases",
+                  "url": "https://icd.who.int/en",
+                  "note": "Read the introduction to ICD-11 and use the ICD-11 Browser to see how a mental disorder is entered and coded, noting the chapter structure and the guidance fields. Public WHO resource. Source [2]."
+                },
+                {
+                  "title": "NIMH: About RDoC - a dimensional research framework",
+                  "url": "https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/about-rdoc",
+                  "note": "Read the sections explaining why the framework was developed, especially the statements that it is not a diagnostic guide, is not intended to replace current diagnostic systems, and that consensus-based clinical criteria are somewhat arbitrary. Research-framework material, not clinical guidance. Source [3]."
+                }
+              ],
+              "visual": {
+                "title": "Anatomy of a criteria set and its limits",
+                "description": "A labeled sequence showing the components of an operational definition and the questions it leaves open.",
+                "steps": [
+                  "Features: which signs and symptoms qualify, and how many must be present",
+                  "Duration: how long the pattern must persist",
+                  "Impact: the required distress or functional impairment",
+                  "Exclusions: which other explanations take precedence, and what remains unknown"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-31-a",
+              "prompt": "A trainee writes 'patient has depression' after hearing only that mood has been low and sleep has been poor for four days. Which correction best reflects the levels of description?",
+              "answer": "Four days of low mood and poor sleep are reported symptoms, which do not yet establish a syndrome or a diagnosis",
+              "distractor": "The label is acceptable once two related features are present",
+              "correction": "A count of features does not create a diagnosis. Duration, impact, and exclusion rules must still be checked, and the features have not yet been shown to form a sustained cluster.",
+              "reviewLessonIds": [
+                "31"
+              ]
+            },
+            {
+              "id": "uq-31-b",
+              "prompt": "A referral describes a person as 'uncooperative and unmotivated'. The history shows missed appointments because of night shifts and an untreated painful injury. What does this demonstrate about the history?",
+              "answer": "It supplies context that dissolves an inferred motive and generates practical, testable questions",
+              "distractor": "It confirms the label, because attendance is an objective measure of motivation",
+              "correction": "The behaviour is unchanged; the explanation is transformed. Attendance is objective, but its meaning depends on circumstances the history revealed.",
+              "reviewLessonIds": [
+                "32",
+                "31"
+              ]
+            },
+            {
+              "id": "uq-31-c",
+              "prompt": "Two clinicians examine the same person. One records 'flat affect', the other 'quiet and cautious in an unfamiliar setting'. What does this comparison best illustrate?",
+              "answer": "Examination descriptors are compressed judgements whose meaning depends on shared definitions and recording of context",
+              "distractor": "One clinician must have misjudged the person's emotional state",
+              "correction": "Both may be describing the same presentation. The difference shows how much depends on the terms used and whether the conditions of the encounter are recorded.",
+              "reviewLessonIds": [
+                "33"
+              ]
+            },
+            {
+              "id": "uq-31-d",
+              "prompt": "An older adult with no psychiatric history becomes agitated and confused across two days. A colleague suggests choosing the psychiatric category that fits the behaviour best. What should be considered first?",
+              "answer": "The acute tempo and late onset make prompt clinical assessment for medical and medication-related contributors the priority",
+              "distractor": "Matching the behaviour to the closest psychiatric category and proceeding",
+              "correction": "Acuity and age of onset sharply change the ranking of explanations. Selecting by appearance risks missing reversible contributors with urgent consequences.",
+              "reviewLessonIds": [
+                "34",
+                "31"
+              ]
+            },
+            {
+              "id": "uq-31-e",
+              "prompt": "Two people are given the same category. One has sleep disturbance, fatigue, and poor concentration with mild low mood; the other has marked low mood, loss of pleasure, and appetite change. They share two features. What follows?",
+              "answer": "Polythetic criteria permit different feature combinations to satisfy one category, so the shared label does not imply identical presentations",
+              "distractor": "At least one assignment must be wrong, since the profiles differ",
+              "correction": "The criteria define a rule about a minimum number of features from a list, not a single required profile. Heterogeneity within a category is expected by design.",
+              "reviewLessonIds": [
+                "35"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Syndrome families and the tools used to treat them",
+          "lessons": [
+            {
+              "id": "36",
+              "title": "Mood syndromes: depressive and bipolar patterns",
+              "explanation": "The objective is to distinguish the main families of mood syndrome by their core features, their time course, and the role of past episodes. Depressive syndromes centre on persistent low mood or a marked loss of interest or pleasure, usually accompanied by changes in sleep, appetite, energy, concentration, and activity, sustained over a defined period and causing distress or impairment. Bipolar syndromes require a history of at least one episode of abnormally elevated, expansive, or irritable mood with increased activity or energy, which is what separates them from unipolar depressive patterns. The single most consequential move in this area is not counting current symptoms but taking a history of past elevated periods, which is why the previous unit's historical method matters here. This lesson uses fictional cases to teach the pattern of reasoning; it is not advice about assessment or treatment for any actual person.",
+              "example": "A fictional person has been treated for recurrent low mood for several years. The current episode looks like the previous ones. A careful history asks whether there has ever been a period of several days when they needed far less sleep than usual and still felt energetic, when their thoughts raced, when they spent unusually and took on projects they later abandoned. The person recalls two such periods in their twenties that were attributed to a good mood at the time. Nothing about the current presentation changed; what changed is the classification question, because a history of an elevated episode of that kind alters which syndrome family is relevant and therefore which discussions, monitoring, and cautions apply. The example also shows why documenting past periods matters even when the current picture seems clear.",
+              "question": "A person's current low mood resembles previous episodes, but the history includes a period of several days with almost no need for sleep and greatly increased activity. What does this change?",
+              "answer": "It raises the possibility of a bipolar pattern, changing which syndrome category is relevant",
+              "distractor": "It confirms that the current low mood is more severe than before",
+              "correction": "A past elevated or irritable episode with increased energy and activity is what distinguishes bipolar from unipolar patterns. Severity of the current episode is a separate question.",
+              "depth": {
+                "definitions": "A mood episode is a bounded period of changed mood and related features. A depressive episode involves persistent low mood or loss of interest with associated changes. A manic episode involves abnormally elevated, expansive, or irritable mood with persistently increased activity or energy, lasting a defined minimum period and causing marked impairment or requiring intervention. A hypomanic episode has similar features but is shorter or less impairing. Unipolar describes a pattern of depressive episodes only, while bipolar describes a pattern including elevated episodes. A mixed episode or mixed features refers to the co-occurrence of depressive and elevated features. Course describes how episodes unfold over time, and a specifier adds descriptive detail within a category.",
+                "mechanism": "The reason history carries so much weight here is structural. Depressive features are common across many situations, so they discriminate weakly on their own. The presence of a past episode of abnormally elevated mood with increased energy and activity is rarer, which makes it far more informative when it appears. This is a question of likelihood ratios in ordinary language: a common feature moves the conclusion a little, an uncommon one can move it a great deal. It is also why the boundary between hypomania and unusually good mood is genuinely difficult. The distinction turns on observable change, duration, and consequences, not on whether the person felt good. NICE maintains separate guidance for depression in adults[1] and for bipolar disorder,[2] which reflects the practical differences in assessment, monitoring, and follow-up rather than a judgment that one condition is more serious.",
+                "secondExample": "Contrast the earlier case with a fictional person whose low mood followed the death of a close relative two weeks earlier. The features overlap: sadness, poor appetite, disturbed sleep, withdrawal. What differs is context and time course, and the question of whether the reaction is proportionate and expected within the person's culture and circumstances, or has become a sustained syndrome with functioning that fails to recover. This is not a mechanical distinction, and reasonable clinicians may weigh it differently. The point is that the same emotional state can sit in very different categories depending on duration, trajectory, and whether the person's own sense of proportion is preserved. Reading the mood alone will not settle it; the shape over time will.",
+                "mistake": "The most common mistake is treating all low mood as one phenomenon, so that the presence of a past elevated episode goes unasked. A related error is inferring the category from the response to a treatment: a favourable response to any particular medicine does not identify which syndrome was present, because treatments are not diagnostic tests. A third error is treating hypomania and ordinary high spirits as interchangeable, which erases the requirement of observable change, duration, and consequence. Correct all three by recording past episodes with approximate dates and durations, describing observable change rather than the person's mood alone, and keeping the category question separate from the severity and treatment questions.",
+                "application": "Practice without any personal information. For the fictional case above, write four history questions that would clarify whether a past elevated episode occurred, and one sentence stating how you would record a period you cannot date precisely. A model response asks about sleep need relative to usual, activity and energy change, whether others noticed a change, and whether there were consequences such as spending or abandoned plans, then suggests recording the period as an approximate range with the source of the information noted. Self-review: your questions distinguish change from ordinary happiness, you avoid leading the person toward a desired answer, and you record uncertainty honestly rather than rounding an unknown date into a confident one. This is an educational exercise and not a clinical interview.",
+                "summary": "Mood syndromes are distinguished less by the current feeling than by pattern across time and by the presence of past episodes of elevated mood with increased energy. That is why the historical method from the earlier unit is not a preliminary step but the central instrument in this area. In the next lesson the same reliance on duration and course recurs in a different family, where the boundary questions concern perception and belief rather than mood."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG222: Depression in adults - recognition, assessment, and treatment",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read the recognition and assessment sections on how a depressive episode is identified, and the treatment sections, noting how the guidance depends on duration, severity, and course. Public guidance for England; local pathways differ. Source [1]."
+                },
+                {
+                  "title": "NICE CG185: Bipolar disorder - assessment and management",
+                  "url": "https://www.nice.org.uk/guidance/cg185/chapter/Recommendations",
+                  "note": "Read the assessment sections on identifying past elevated or irritable episodes and on how the guidance distinguishes bipolar patterns from recurrent depression. Public guidance for England; not personal medical advice. Source [2]."
+                }
+              ],
+              "visual": {
+                "title": "Mood syndrome reasoning: current features plus past course",
+                "description": "A labeled sequence showing why a past elevated episode changes the category question while the current picture looks unchanged.",
+                "steps": [
+                  "Current features: mood, interest, sleep, appetite, energy, and activity",
+                  "Duration and impact: whether the pattern persists and impairs",
+                  "Past episodes: ask specifically about elevated or irritable mood with increased energy",
+                  "Category: the pattern across time, kept separate from severity and from treatment decisions"
+                ]
+              }
+            },
+            {
+              "id": "37",
+              "title": "Psychotic syndromes and the boundaries between them",
+              "explanation": "The objective is to understand how psychotic syndromes are separated, and why duration and course rather than the content of an experience do most of that work. Psychosis refers to a set of experiences that can include delusions, hallucinations, disorganised thinking and speech, and negative features such as reduced motivation and expression. The named syndromes in this family overlap heavily and are distinguished mainly by how long the disturbance has lasted, how it evolves, and how it relates to mood episodes. Someone can experience a brief psychotic episode that resolves, a longer disturbance that later recovers, or a sustained pattern with declining function. NIMH notes that people are usually first diagnosed between the ages of sixteen and thirty, after a first episode of psychosis, and that gradual changes in thinking, mood, and social functioning often appear beforehand.[2] This lesson teaches the reasoning structure using fictional cases; it does not offer assessment or treatment advice for any real person.",
+              "example": "Two fictional people each describe hearing voices. The first began three days after an intense loss, is distressed, retains insight that the experience is unusual, and is functioning at work. The second has had the experience for eight months, has stopped attending college and seeing friends, and is no longer sure whether the voices are real. The content of the voices may be identical. What differs is duration, course, insight, distress, and functional change, and those differences point toward different categories and very different levels of urgency. Note that the reasoning does not depend on deciding whether the voices are 'really' there. Both people are describing an experience that matters, and the clinical question is what the pattern over time implies.",
+              "question": "Two people describe hearing voices. Which features do most of the work in distinguishing candidate syndromes?",
+              "answer": "Duration, course, insight, and change in functioning, considered together",
+              "distractor": "The specific content of what the voices say",
+              "correction": "Content is clinically relevant but does not by itself separate syndromes, which turn mainly on how long the disturbance lasts and how it evolves over time.",
+              "depth": {
+                "definitions": "A delusion is a fixed belief held with strong conviction that is not explained by the person's background or culture and persists despite contrary evidence. A hallucination is a perception without an external stimulus. Formal thought disorder refers to disrupted organisation and flow of thinking reflected in speech. Negative features include reduced motivation, expression, and social engagement. The prodrome is a period of subtle change before a first episode. A brief psychotic episode has a short duration with eventual recovery, while longer-lasting presentations are classified by how many months the disturbance persists and by whether mood episodes dominate the picture. Insight refers to the person's understanding that the experience may be a symptom rather than a fact about the world.",
+                "mechanism": "The reason this family is organised around duration and course is that the experiences themselves are neither specific nor rare in isolation. Many people report hearing their name called during a transition to sleep, or hold unusual beliefs that their community shares. What discriminates is persistence, breadth, and consequence. The same reasoning appears in the way a first episode is treated as an opportunity: NIMH describes coordinated specialty care for early psychosis as recovery-oriented and emphasising shared decision-making among specialists, the person, and their family.[2] An earlier lesson established why acute change changes urgency; here the emphasis is on how the passage of time changes category. NICE's guidance for psychosis and schizophrenia sets out assessment expectations across a range of domains,[1] precisely because a first episode is not a single event to be labelled but a pattern to be characterised.",
+                "secondExample": "Contrast the two voice-hearers with a fictional person who holds a belief that their neighbours are monitoring them. The belief is unwelcome, causes them to avoid their own home, and persists although they can acknowledge it might be wrong. Now compare someone in a community in which a comparable belief is widely shared and supported, who is not distressed and whose life is not disrupted. The experience may be described similarly; the significance differs. The discriminating questions are whether the belief is shared and sanctioned within the person's own context, whether it is unwelcome and distressing, whether it is new, and whether it interferes with functioning. This is the culturally informed assessment from an earlier lesson applied to a difficult boundary, and it is one that reasonable clinicians may judge differently at the margins.",
+                "mistake": "The most damaging error is equating psychosis with dangerousness. Most people who experience psychosis are not violent, and this assumption produces stigma, delays help-seeking, and distorts risk assessment. A second error is treating a single unusual experience as a diagnosis, ignoring duration and course. A third is dismissing an odd belief as pathological without asking whether it is shared and valued within the person's community or whether it is distressing and disabling to them. Correct all three by describing duration, course, personal distress, functional change, and cultural context, and by keeping the category question separate from the risk question, which requires its own assessment rather than an inference from a label.",
+                "application": "Practice with fictional material only. Write a short comparison of the two voice-hearers that separates what is observed or reported from your inference, and add two questions that would help distinguish a brief disturbance from a sustained one. A model response records duration, insight, distress, and functional change separately, notes the loss of college attendance as a functional consequence, and asks when the experience started and whether there have been symptom-free periods. Self-review: no sentence equates the experience with danger, the cultural and personal meaning of the experience is not assumed, and the duration question is precise rather than approximate. This exercise develops descriptive discipline and does not qualify anyone to assess psychosis.",
+                "summary": "Psychotic syndromes are separated by the shape of the disturbance over time rather than by the vividness of any single experience. Duration, course, insight, distress, and functional change do the discriminating work, and cultural context matters at the boundary. In the next lesson a similar structural question appears in a family where the surface emotion is similar across categories but the maintaining process is different."
+              },
+              "readings": [
+                {
+                  "title": "NICE CG178: Psychosis and schizophrenia in adults - assessment and care",
+                  "url": "https://www.nice.org.uk/guidance/cg178/chapter/recommendations",
+                  "note": "Read the sections on assessment and on the care pathway for people with a first episode, noting the domains the guidance expects to be covered and how cultural context is addressed. Public guidance for England. Source [1]."
+                },
+                {
+                  "title": "NIMH: Schizophrenia - symptoms, course, and first-episode psychosis",
+                  "url": "https://www.nimh.nih.gov/health/topics/schizophrenia",
+                  "note": "Read the description of symptoms, typical age at first diagnosis, and the note that gradual changes often precede a first episode. Public health information for a general audience, not a diagnostic resource. Source [2]."
+                }
+              ],
+              "visual": {
+                "title": "Duration and course as the discriminators in psychotic syndromes",
+                "description": "A labeled sequence showing that the same experience leads to different category questions depending on its shape over time.",
+                "steps": [
+                  "Experience: what is reported and what is observed, described without labels",
+                  "Time: when it started, how long it has lasted, and whether it fluctuates",
+                  "Consequence: change in insight, distress, and everyday functioning",
+                  "Context: personal and cultural meaning, kept alongside the clinical description"
+                ]
+              }
+            },
+            {
+              "id": "38",
+              "title": "Fear, obsession, and trauma: three families that look alike",
+              "explanation": "The objective is to see why syndromes that all involve fear are nonetheless separated, and what distinguishes them. Anxiety syndromes centre on excessive fear or worry and related behavioural disturbance, severe enough to cause significant distress or impairment. The WHO describes anxiety disorders as characterised by excessive fear and worry, with several recognised kinds including generalised anxiety disorder, panic disorder, and social anxiety disorder.[3] Obsessive-compulsive patterns are distinguished by unwanted intrusive thoughts that the person attempts to neutralise, often through repeated rituals, and are not best understood as anxiety alone. Trauma-related syndromes are distinguished by the presence of a traumatic event and by features including intrusive re-experiencing, avoidance, negative changes in mood and thinking, and altered arousal, persisting beyond a defined period. The surface emotion may be identical across all three; the maintaining process and the treatment logic differ. This is an educational comparison using fictional cases.",
+              "example": "A fictional person checks the front door lock many times before leaving and returns twice to recheck it. One reading calls this anxiety. A discriminating question asks what happens if the check is skipped: does the person experience a rising sense of dread that fades on its own, or an intrusive image of harm occurring that the checking temporarily silences, followed by doubt about whether the check was done properly? The second pattern suggests a cycle in which the ritual reduces distress briefly and thereby strengthens the doubt that produced it. The first suggests a different structure. Neither reading is a diagnosis, and a person can have features of both. What the example shows is that identical behaviour can sit inside different maintaining processes, and that the question which best discriminates concerns function rather than appearance.",
+              "question": "A person repeatedly checks locks and seeks reassurance. Which question best helps distinguish an anxiety pattern from an obsessive-compulsive pattern?",
+              "answer": "Whether the behaviour is driven by an unwanted intrusive thought the person tries to neutralise",
+              "distractor": "Whether the person reports feeling anxious while checking",
+              "correction": "Reported anxiety is present in both. The discriminating feature is the presence of an intrusive unwanted thought and the effort to neutralise it, which changes the maintaining cycle.",
+              "depth": {
+                "definitions": "Fear is a response to a perceived immediate threat, while anxiety is anticipation of a possible future threat. A panic attack is a discrete surge of intense fear with physical symptoms; panic disorder involves recurrent unexpected attacks together with persistent concern or behavioural change. An obsession is an unwanted, intrusive thought, image, or urge that the person tries to ignore or suppress. A compulsion is a repetitive behaviour or mental act performed in response, often to reduce distress. Avoidance is any behaviour that prevents contact with a feared situation or memory. Intrusion in trauma-related syndromes refers to unwanted re-experiencing, and hyperarousal to a persistent state of heightened alertness. Functional impairment means that the pattern interferes with work, study, relationships, or self-care.",
+                "mechanism": "The reason these families are separated despite shared emotion is that the maintaining process differs, and effective help differs with it. Fear-based patterns are often maintained by avoidance, which prevents the natural decline of fear that would otherwise occur with repeated, safe exposure. Obsessive-compulsive patterns are often maintained by neutralising rituals, which reduce distress briefly and thereby strengthen the doubt or intrusion that prompted them. Trauma-related patterns are maintained by avoidance of memories and reminders together with altered arousal and meaning. NICE maintains separate guidance for generalised anxiety disorder and panic disorder,[1] for obsessive-compulsive disorder and body dysmorphic disorder,[2] and for post-traumatic stress disorder,[3] and the separation reflects these different processes rather than a preference for finer categories. This is also why reassurance, which reduces distress momentarily, can strengthen some patterns rather than resolve them.",
+                "secondExample": "Contrast the checking example with a fictional person who avoids busy streets after a road traffic collision. The behaviour looks like avoidance, but its content differs: what is avoided is a reminder of a specific event, and what intrudes are fragments of the memory rather than doubt about locks. Add nightmares, a startle response, and a changed sense of safety, and the picture points in a different direction again. Note that the reasoning depends on the presence of an identifiable traumatic event and on the persistence of the features beyond an initial period. A person may also have experienced trauma without developing such a pattern, and a person may develop it without the event being volunteered unless asked about directly. The presence of an event is necessary but not sufficient.",
+                "mistake": "A common error is collapsing these families into a single label such as 'anxiety', which then drives a single approach that does not fit the maintaining process. A second is assuming that anything resembling a fear response is disproportionate to the person's circumstances; sometimes the situation really is unsafe, and avoidance may be adaptive rather than a symptom. A third is treating reassurance and repeated checking as harmless support, when they can form part of the cycle that keeps a pattern going. Correct these by asking about the function of the behaviour, by checking whether the feared situation is genuinely dangerous, and by noticing whether a caring response is inadvertently reinforcing the very pattern it is meant to relieve.",
+                "application": "Practice without any personal details. Take the fictional lock-checking example and write three questions that would help you decide which maintaining process is more likely, plus one sentence about what you would do with an ambiguous answer. A model response asks what the person fears would happen if they did not check, whether an unwanted thought precedes the check, and whether the relief is brief and followed by doubt, and the sentence notes that ambiguity is common and that the answer would be recorded rather than resolved by assumption. Self-review: none of your questions presume a single category, at least one asks about function rather than frequency, and you have allowed for the possibility that the situation is genuinely unsafe. This is an educational reasoning task.",
+                "summary": "Similar surface emotions can belong to different syndromes when the process that keeps them going is different. Function, not appearance, discriminates, and function shapes which approach is likely to help. The same principle recurs in the next lesson, where the classes of medication used across these families are compared not by their branding but by their actions and the burdens they tend to produce."
+              },
+              "readings": [
+                {
+                  "title": "NICE CG113: Generalised anxiety disorder and panic disorder in adults",
+                  "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+                  "note": "Read the sections on recognition and on the stepped approach to generalised anxiety disorder and panic disorder, noting how severity and duration shape recommendations. Public guidance for England. Source [1]."
+                },
+                {
+                  "title": "NICE CG31: Obsessive-compulsive disorder and body dysmorphic disorder",
+                  "url": "https://www.nice.org.uk/guidance/cg31/chapter/Recommendations",
+                  "note": "Read the recognition and treatment sections and the description of the obsessive-compulsive cycle, including the function of neutralising behaviours. Public guidance for England; not self-treatment instruction. Source [2]."
+                },
+                {
+                  "title": "NICE NG116: Post-traumatic stress disorder",
+                  "url": "https://www.nice.org.uk/guidance/ng116/chapter/Recommendations",
+                  "note": "Read the recognition sections listing the features of post-traumatic stress disorder and the guidance on when to consider it. Public guidance for England; local pathways differ. Source [3]."
+                }
+              ],
+              "visual": {
+                "title": "Same emotion, three maintaining processes",
+                "description": "A labeled comparison showing why surface fear does not identify a syndrome family.",
+                "steps": [
+                  "Surface: what the person does and feels, which may be similar across families",
+                  "Function: what the behaviour accomplishes and what it prevents",
+                  "Cycle: avoidance reducing exposure, or ritual briefly reducing doubt, or memory avoidance maintaining arousal",
+                  "Direction: how the maintaining process points toward different kinds of help"
+                ]
+              }
+            },
+            {
+              "id": "39",
+              "title": "Medication classes: actions, burdens, and intellectual honesty",
+              "explanation": "The objective is to understand how the main classes of psychiatric medication differ in what they do pharmacologically and in the kinds of burden they tend to produce, while refusing a common overclaim about what that means. Antidepressants are commonly grouped into selective serotonin reuptake inhibitors, serotonin and noradrenaline reuptake inhibitors, tricyclic antidepressants, and monoamine oxidase inhibitors, with SSRIs usually prescribed first because their side effects are generally easier to manage and they are less likely to cause serious harm in overdose.[1] Antipsychotic medicines are used in psychotic syndromes and require monitoring of physical parameters. Mood stabilisers, including lithium, are used in bipolar patterns. Each class has a characteristic profile of effects and risks, but a class profile predicts the kind of burden that may occur, not whether a particular person will experience it. This lesson explains these distinctions; it gives no advice on starting, choosing, changing, or stopping any medicine, which requires a prescriber who knows the person.",
+              "example": "A fictional person asks why two medicines for the same problem carry such different warnings. A useful answer distinguishes three levels. At the level of drug action, the classes differ in which targets they affect and for how long, which is why one may be more sedating, another more likely to affect weight or metabolic measures, and another to interact with other medicines. At the level of typical burden, the pattern across many users shapes what prescribers watch for and what monitoring is arranged. At the level of this person, none of that determines what they will experience. The disciplined comparison therefore answers the question asked, attributes the class-level pattern to the class, and states plainly that individual experience varies. It also avoids the shortcut of saying that the medicine corrects a deficiency, which the class-level evidence does not support.",
+              "question": "A person asks why two medicines for the same problem cause different side effects. Which explanation is most accurate?",
+              "answer": "Classes differ in their pharmacological actions and therefore in the kinds of burden they tend to produce, though individual experience varies",
+              "distractor": "Because one class corrects a chemical imbalance and the other does not",
+              "correction": "The classes have different actions and characteristic profiles, but the 'correcting an imbalance' framing overstates what is known about causes and does not explain individual variation.",
+              "depth": {
+                "definitions": "Pharmacodynamics concerns what a medicine does to the body, and pharmacokinetics concerns what the body does to the medicine, including absorption, distribution, metabolism, and elimination. A receptor is a molecular target through which a medicine can act. Reuptake refers to the process by which a neurotransmitter is taken back into a neuron, and reuptake inhibition is one mechanism among several. Half-life describes how quickly a medicine is cleared and influences dosing intervals. An adverse effect is an unwanted consequence attributed to a medicine, while an adverse event is an unwanted occurrence during treatment without a causal judgment attached. Withdrawal describes symptoms arising when a medicine is reduced or stopped, and it can resemble the return of the original difficulty,[1] which is why differentiation requires clinical assessment.",
+                "mechanism": "The overclaim to avoid is a deterministic neurotransmitter story: that a difficulty is caused by low levels of a particular chemical and that a medicine works by restoring them. It is true that these medicines act on specific systems, and this is well characterised. It does not follow that the original difficulty was caused by a deficit in that system, because the same treatment can help conditions with different and incompletely understood contributors, and because acting on a system is not the same as identifying a cause. The NHS describes antidepressants as affecting the activity of chemicals in the brain called neurotransmitters, and describes serotonin and noradrenaline as linked to mood and emotion, using the language of what is thought rather than what is established.[1] That hedging is not evasion; it reflects the actual state of the evidence. The monitoring that accompanies these classes exists for a reason: some burdens are serious enough to require measurement, which is why NICE sets out physical health monitoring for people taking antipsychotic medication.[2]",
+                "secondExample": "Contrast class-level reasoning with a person-specific review. A fictional person reports that a medicine helped their mood but left them unable to stay alert for study. Class-level knowledge tells us that alertness and sedation are recognised burdens within that broad group, which makes a discussion with the prescriber sensible. It does not tell us that the medicine caused the difficulty, that a different medicine would suit them better, or that the benefit is worth the cost for them. Those are judgments that require the person's priorities, their history, the monitoring data, and the prescriber's assessment. A well-constructed question to the prescriber therefore reports the observation, the timing relative to any change, and the functional impact, and asks what options exist, without proposing a dose or a switch.",
+                "mistake": "The central mistake is treating a mechanism as an explanation for a disorder, so that 'it raises serotonin' is offered as though it accounted for why the person became unwell. A second is treating a favourable response as a diagnostic test, as if the right medicine confirmed the right category. A third is treating the class profile as a personal forecast, either worrying about every possible effect or dismissing a real one as impossible. Correct all three by keeping the levels apart: what the drug does, what tends to happen across many people, and what is happening for this person. That separation is also what protects against the most dangerous error in this area, which is acting on general information as though it were a personal prescription.",
+                "application": "Practice without any real clinical details. Write four questions a person could take to a prescriber about a fictional medicine, aimed at understanding benefits, possible burdens, monitoring, and what to do if something changes. A model response asks what the medicine is expected to help and over what period, what burdens are common and which are serious, what monitoring will be arranged and when, and whom to contact if a new symptom appears or if they wish to stop. Self-review: none of your questions proposes a dose or a change, each distinguishes a common burden from a serious one, and at least one asks about stopping, because withdrawal can resemble relapse and requires planning.[1] This exercise builds question-writing skill, not prescribing knowledge.",
+                "summary": "Medication classes differ in action and in the pattern of burdens they tend to produce, and that pattern justifies monitoring. It does not explain the origin of a difficulty, predict an individual's experience, or license any change outside a clinical relationship. Holding those distinctions is what turns general knowledge into a better conversation rather than a worse decision. The next lesson applies the same discipline to the non-medication half of treatment."
+              },
+              "readings": [
+                {
+                  "title": "NHS: Antidepressants - classes, how they are thought to work, and side effects",
+                  "url": "https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/medicines-and-psychiatry/antidepressants/",
+                  "note": "Read the sections listing the main classes, the statement that SSRIs are usually prescribed first and why, and the guidance on withdrawal and on not stopping suddenly. Public health information for the general reader; not personal medical advice. Source [1]."
+                },
+                {
+                  "title": "NICE CG178: Psychosis and schizophrenia in adults - assessment and care",
+                  "url": "https://www.nice.org.uk/guidance/cg178/chapter/recommendations",
+                  "note": "Read section 1.1.2, Physical health, and the primary-care physical health monitoring sections, noting which parameters are checked after rapid weight gain, abnormal lipid levels, or problems with blood glucose management, and why antipsychotic treatment requires this monitoring. Public guidance for England; addressed to services. Source [2]."
+                },
+                {
+                  "title": "NICE NG222: Depression in adults - recognition, assessment, and treatment",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read the sections on discussing benefits, harms, and preferences when antidepressant treatment is considered, and on reviewing and stopping. Public guidance for England; local pathways differ. Source [3]."
+                }
+              ],
+              "visual": {
+                "title": "Three levels of medication reasoning, kept apart",
+                "description": "A labeled separation of drug action, typical burden, and individual experience, so general knowledge is not mistaken for personal advice.",
+                "steps": [
+                  "Action: what the medicine does pharmacologically, which is comparatively well characterised",
+                  "Burden: the pattern of effects across many users, which justifies monitoring",
+                  "Person: what this individual experiences, which requires clinical review to assess",
+                  "Conversation: the question to ask a prescriber, containing no dose or change of its own"
+                ]
+              }
+            },
+            {
+              "id": "40",
+              "title": "Psychotherapy modalities and the evidence that supports them",
+              "explanation": "The objective is to understand that psychological therapies are not interchangeable, and that evidence supports particular approaches for particular difficulties. Cognitive behavioural therapy examines relationships among thoughts, feelings, and behaviour and typically involves practice between sessions. Behaviour therapy uses graded exposure to reduce avoidance. Behavioural activation focuses on activity, avoidance, and opportunities for reward. Interpersonal therapy addresses problems in relationships and how they are handled. Counselling offers a space to talk through thoughts, feelings, and experiences. Guided self-help delivers structured material, usually based on cognitive behavioural principles, with therapist support.[1] Across these, the common thread is a structured relationship with a rationale, not a single technique. NICE recommends specific psychological approaches for specific conditions, and Royal College of Psychiatrists material sets out which approaches address which problems.[2] This lesson explains how to read that evidence; it does not recommend a therapy for any individual.",
+              "example": "A fictional person describes repeated checking and seeks a talking therapy because they have heard that counselling helps with anxiety. A useful comparison asks what each option targets. A structured approach built on exposure addresses the avoidance and ritual cycle directly. A general counselling conversation may help the person feel heard and understood, which matters, but is not designed around the specific maintaining process. Neither is inherently superior as an experience; they differ in what they aim to change and in what the evidence supports for this particular difficulty. The recommended reasoning is therefore not 'therapy is good' but 'which approach, targeting which process, for which problem, with what evidence'. Royal College material organises exactly this way, setting out the approach alongside the problems it is used for.[2]",
+              "question": "A service offers the same therapy to everyone on the grounds that 'talking therapy works'. What is the main reasoning error?",
+              "answer": "Evidence supports specific approaches for specific difficulties, so the claim generalises across indications and modalities",
+              "distractor": "Talking therapies have no evidence and should not be offered",
+              "correction": "The error is over-generalisation, not the existence of evidence. Many psychological approaches have good evidence for particular problems and much weaker evidence for others.",
+              "depth": {
+                "definitions": "Psychotherapy is a structured psychological treatment delivered through a relationship, with a rationale and a defined focus. Cognitive behavioural therapy targets the interaction of thoughts, feelings, and behaviour, with between-session practice. Exposure is a controlled, planned approach to a feared situation or memory, delivered in a graded way. Behavioural activation schedules activity that is meaningful or rewarding and examines the function of avoidance. Interpersonal therapy focuses on relationship difficulties and the transitions and disputes that shape them. Psychodynamic approaches examine patterns that recur across relationships and their origins. Guided self-help is structured material with support. Common factors are the elements shared across therapies, such as a therapeutic alliance and a coherent rationale, and they are distinct from the specific techniques a modality adds.",
+                "mechanism": "Testing psychological treatments is methodologically demanding, because neither the person nor the therapist can be blinded to which therapy is being delivered, and because the therapist's skill and the quality of delivery vary. Evidence therefore needs to be read with attention to what was compared, in whom, on which outcome, and over what follow-up, just as with any other treatment evidence. The practical consequence is that 'evidence-based therapy' is a statement about a specific pairing of approach and problem rather than a general blessing. NICE's depression guidance recommends specific structured approaches and discusses their delivery demands,[3] reflecting the same specificity. A further subtlety is that many therapies share common factors, so some of the benefit may come from elements that are not unique to any modality. This does not make the differences unimportant; it makes attributing benefit to a named technique more difficult than it first appears.",
+                "secondExample": "Contrast the checking case with a fictional person whose main difficulty is a pervasive sense of hopelessness and withdrawal from previously valued activities. Here an approach built around reactivating activity and examining the function of avoidance addresses a different maintaining process, and the questions that matter concern what the person has stopped doing and why. Now imagine a clinic that swaps the two plans. Both therapies are legitimate and evidence-supported in their own place; the mismatch is with the maintaining process, not with the modality's quality. This is why assessment comes before approach, and why a formulation that identifies what keeps a difficulty going is the bridge between them. The same logic explains why the modality label alone tells you little about whether the treatment will suit this person.",
+                "mistake": "The most common error is treating talking therapies as interchangeable, so that availability rather than fit determines what is offered. A second is assuming that popularity or public familiarity is evidence; a widely known approach may have strong evidence for one problem and weak evidence for another. A third is dismissing a therapy because it did not work once, without asking whether it was delivered as intended, whether the agreed tasks were feasible, or whether the difficulty was one the approach targets. Correct these by naming the specific approach and the specific problem together, checking that delivery matched the intended model, and reviewing outcomes against the person's own goals rather than against a general impression of improvement.",
+                "application": "Practice without any personal information. For three fictional difficulties, note a psychological approach whose rationale matches the maintaining process and one sentence explaining the match: repeated checking with a feared consequence; withdrawal and loss of rewarding activity; intrusive memories after a traumatic event. A model response pairs a structured exposure-based approach with the checking cycle, behavioural activation with withdrawal and lost reward, and a trauma-focused approach with intrusive memories, noting in each case which process the approach targets. Self-review: each pairing names both the approach and the process, you have not claimed that one modality is best overall, and you have stated what would count as evidence that the match was wrong. This is an academic exercise, not a treatment recommendation.",
+                "summary": "Psychological therapies are structured, specific, and unevenly evidenced across problems. The useful question is never whether therapy works in general but which approach targets which maintaining process with what evidence for this kind of difficulty. Read alongside the previous lesson, this closes the loop on treatment reasoning: medicines and psychological approaches both act on processes, both carry characteristic burdens, and neither substitutes for a formulation that identifies what is actually being addressed."
+              },
+              "readings": [
+                {
+                  "title": "NHS: Talking therapies - types of therapy and how they work",
+                  "url": "https://www.nhs.uk/tests-and-treatments/talking-therapies/",
+                  "note": "Read the table of talking therapy types and how each is described as working, including guided self-help, cognitive behavioural therapy, counselling, and interpersonal therapy. Public health information; availability differs by country and service. Source [1]."
+                },
+                {
+                  "title": "Royal College of Psychiatrists: Cognitive behavioural therapy (CBT)",
+                  "url": "https://www.rcpsych.ac.uk/mental-health/treatments-and-wellbeing/cognitive-behavioural-therapy-(cbt)",
+                  "note": "Read the description of cognitive behavioural therapy and the accompanying table pairing approaches with the problems they are used for, such as behaviour therapy with phobias, anxiety, obsessive-compulsive disorder, and post-traumatic stress disorder, and behavioural activation with depression. Professional body information for the public. Source [2]."
+                },
+                {
+                  "title": "NICE NG222: Depression in adults - recognition, assessment, and treatment",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read the treatment sections that recommend specific structured psychological approaches and their delivery, noting that recommendations are tied to defined severity and duration criteria. Public guidance for England. Source [3]."
+                }
+              ],
+              "visual": {
+                "title": "Matching an approach to a maintaining process",
+                "description": "A labeled sequence showing why the modality label alone does not determine fit.",
+                "steps": [
+                  "Identify the maintaining process from the formulation",
+                  "Name the specific approach designed to target that process",
+                  "State what the evidence supports for this problem, in this population, on which outcome",
+                  "Review the match against the person's own goals and revise if it did not fit"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-36-a",
+              "prompt": "A person is described as having recurrent depression. The history includes a period of several days with almost no need for sleep, unusual confidence, and greatly increased activity. What does this change?",
+              "answer": "A past elevated episode with increased energy alters which mood syndrome family is under consideration",
+              "distractor": "It shows only that the current depressive episode is more severe than earlier ones",
+              "correction": "Severity and category are separate questions. The presence of a past elevated episode with increased activity is what distinguishes bipolar from unipolar patterns.",
+              "reviewLessonIds": [
+                "36",
+                "32"
+              ]
+            },
+            {
+              "id": "uq-36-b",
+              "prompt": "Two people describe hearing voices. One has had the experience for three days after a bereavement and retains insight; the other for eight months with declining function and loss of insight. What separates the reasoning?",
+              "answer": "Duration, course, insight, distress, and functional change, considered together",
+              "distractor": "Whether the voices are experienced as coming from inside or outside the head",
+              "correction": "Duration, course, insight, distress, and functional change are what separate candidate categories in this family. Whether a voice seems to come from inside or outside the head is a descriptive detail worth noting, but it does not settle the category on its own.",
+              "reviewLessonIds": [
+                "37"
+              ]
+            },
+            {
+              "id": "uq-36-c",
+              "prompt": "A person repeatedly checks locks and asks others for reassurance. What single question best distinguishes an anxiety pattern from an obsessive-compulsive pattern?",
+              "answer": "Whether an unwanted intrusive thought precedes the checking and is briefly neutralised by it",
+              "distractor": "Whether the person feels anxious while checking the locks",
+              "correction": "Anxiety is reported in both. The distinguishing structure is the intrusive thought and the neutralising ritual, which changes what maintains the cycle.",
+              "reviewLessonIds": [
+                "38"
+              ]
+            },
+            {
+              "id": "uq-36-d",
+              "prompt": "A person asks why two medicines for the same problem produce such different side effects. Which explanation is most honest?",
+              "answer": "The classes act differently and therefore tend to produce different kinds of burden, though individual experience varies",
+              "distractor": "One class corrects a chemical deficiency and the other does not",
+              "correction": "The classes have different pharmacological actions and characteristic profiles, but the deficiency framing overstates what is known and does not account for individual variation.",
+              "reviewLessonIds": [
+                "39"
+              ]
+            },
+            {
+              "id": "uq-36-e",
+              "prompt": "A clinic offers one psychological therapy to everyone because 'talking therapy works'. What is the reasoning error, and what would correct it?",
+              "answer": "It generalises across indications and modalities; the correction is to name the approach and the specific difficulty together",
+              "distractor": "It assumes evidence exists where none does for any talking therapy",
+              "correction": "The problem is over-generalisation rather than an absence of evidence. Many approaches have good evidence for particular difficulties and much weaker evidence for others.",
+              "reviewLessonIds": [
+                "40",
+                "38"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-31-a",
+          "prompt": "A person reports low mood, and an examiner notes reduced movement and a change in weight. A colleague writes 'endogenous depression' in the record on that basis. Using the levels of description and the structure of criteria sets, what is the strongest correction?",
+          "answer": "Symptoms and signs have been observed; whether a category applies still depends on duration, impact, exclusion rules, and a criteria set",
+          "distractor": "The term is acceptable because observable signs carry more weight than reported symptoms",
+          "correction": "Signs and symptoms are data; a category is a rule-governed conclusion. Nothing about observing signs removes the need to check the criteria components, including duration and exclusions.",
+          "reviewLessonIds": [
+            "31",
+            "35"
+          ]
+        },
+        {
+          "id": "lq-31-b",
+          "prompt": "A record states that a person was 'uncooperative, thought-disordered, and hostile'. The examiner's setting was a noisy corridor and questions were put rapidly in the person's second language. What combination best repairs the record?",
+          "answer": "Rewrite it as observable description, reported content, and recorded context, and mark any remaining interpretation as a hypothesis",
+          "distractor": "Retain the terms but add that the person was difficult to interview",
+          "correction": "The terms compress observation and inference and omit the conditions that produced the behaviour. Separating observation, report, context, and inference makes the record checkable and revisable.",
+          "reviewLessonIds": [
+            "33",
+            "32",
+            "24"
+          ]
+        },
+        {
+          "id": "lq-31-c",
+          "prompt": "A twenty-year-old describes eight months of withdrawal and unusual beliefs with slow onset and steady decline. A sixty-eight-year-old describes two days of talkativeness and agitation. A service applies the same assessment pathway to both. What is wrong with that reasoning?",
+          "answer": "Tempo and age of onset shift the ranking of explanations, so the two presentations warrant different priorities rather than one shared pathway",
+          "distractor": "Nothing, because the same criteria set can be applied to any age group",
+          "correction": "The same category structure can apply across ages, but the differential and its urgency depend heavily on acuity and age of onset. One pathway ignores that difference.",
+          "reviewLessonIds": [
+            "34",
+            "37"
+          ]
+        },
+        {
+          "id": "lq-31-d",
+          "prompt": "A person meeting full criteria for a depressive category has no history of elevated mood; another with the same current features has one clear past episode of decreased sleep need and increased activity. Both records say 'depression'. What does the comparison illustrate about criteria and course?",
+          "answer": "Meeting a criteria set describes the present pattern, while past episodes can change which syndrome family is relevant even when the current features match",
+          "distractor": "The second person's record is correct because depression always precedes elevated episodes",
+          "correction": "The point is not automatic precedence but the informational value of a rare past episode. Course is part of the reasoning and is lost when only the current episode is recorded.",
+          "reviewLessonIds": [
+            "35",
+            "36"
+          ]
+        },
+        {
+          "id": "lq-31-e",
+          "prompt": "A person checks the door a dozen times. In one account they fear a vague sense of dread; in another an unwanted image of harm intrudes and the checking briefly silences it. A service writes 'anxiety, offer general reassurance'. What correction follows?",
+          "answer": "The two accounts suggest different maintaining processes, and reassurance may sustain rather than resolve the second pattern",
+          "distractor": "Reassurance is always the safest first step because it reduces distress immediately",
+          "correction": "Immediate relief is not the same as resolution. Where a ritual neutralises an intrusion, repeated reassurance can form part of the cycle, so the process must be identified before the response.",
+          "reviewLessonIds": [
+            "33",
+            "38"
+          ]
+        },
+        {
+          "id": "lq-31-f",
+          "prompt": "A person is seen after a single brief episode of hearing voices that resolved within a week, and separately after eight months of unusual beliefs with loss of insight and declining function. A trainee calls both 'psychosis, so same risk, same plan'. What is the error?",
+          "answer": "Duration and course separate the candidate categories, and the risk question requires its own assessment rather than an inference from a label",
+          "distractor": "Both should be treated identically because the experiences are of the same kind",
+          "correction": "The category question turns on duration and course, and equating a category with dangerousness is a separate and damaging error. Each requires individual assessment.",
+          "reviewLessonIds": [
+            "36",
+            "37"
+          ]
+        },
+        {
+          "id": "lq-31-g",
+          "prompt": "A person reports that a medicine improved their mood but left them unable to study. A relative says the medicine 'fixed the chemical imbalance' and that the tiredness proves the person is not trying. What reasoning should replace this?",
+          "answer": "Separate the drug's pharmacological action from the unexplained cause of the difficulty, and separate the class burden from this person's experience",
+          "distractor": "Accept that a favourable mood response identifies both the cause and the correct medicine",
+          "correction": "Drug action, typical class burden, and individual experience are three different claims. None of them identifies the origin of the difficulty, and none justifies attributing a new symptom to effort.",
+          "reviewLessonIds": [
+            "38",
+            "39",
+            "35"
+          ]
+        },
+        {
+          "id": "lq-31-h",
+          "prompt": "A service concludes that psychological therapy is 'proven', then offers the same approach to everyone. A person with intrusive memories after a traumatic event receives a general counselling conversation and does not improve. What conclusions are warranted?",
+          "answer": "The approach was not matched to the maintaining process, and evidence supports specific approaches for specific difficulties rather than one blanket claim",
+          "distractor": "The therapy failed, so psychological therapy is ineffective for this kind of difficulty",
+          "correction": "One delivery of a mismatched approach does not evaluate a modality. The relevant questions are which process was targeted, whether the approach was delivered as intended, and what the evidence supports for this specific difficulty.",
+          "reviewLessonIds": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "id": "lq-31-i",
+          "prompt": "A person with a long-standing psychiatric diagnosis becomes newly withdrawn and sleepy over two days. The note reads that the diagnosis explains the change and no further assessment is needed. Which two reasoning failures are combined here?",
+          "answer": "Diagnostic overshadowing and premature closure, both corrected by re-ranking the differential on tempo and consequence",
+          "distractor": "Over-investigation and unnecessary escalation of a stable presentation",
+          "correction": "A familiar label does not explain a new abrupt change, and settling on the first explanation stops the reasoning. Acute tempo and the consequence of missing a medical contributor should re-rank the differential.",
+          "reviewLessonIds": [
+            "31",
+            "32",
+            "34"
+          ]
+        },
+        {
+          "id": "lq-31-j",
+          "prompt": "Two clinicians argue. One says the manual defines the disorder, so disagreement is impossible. The other says categories are conventional, so they are worthless. Using the examination record, the criteria structure, and the evidence base for therapy, what is the defensible position?",
+          "answer": "Categories are operational conventions valuable for communication and research, and they are useful precisely when their evidence, limits, and reliability are stated",
+          "distractor": "Agreement between clinicians proves the category corresponds to a distinct underlying process",
+          "correction": "Reliability is not validity. Categories remain indispensable for shared language while their thresholds and heterogeneity stay open to challenge, and the same discipline applies to records and to treatment evidence.",
+          "reviewLessonIds": [
+            "33",
+            "35",
+            "40"
+          ]
+        },
+        {
+          "id": "lq-31-k",
+          "prompt": "A service plans one pathway for a young person with gradual withdrawal and unusual beliefs, an older adult with two days of agitation, and a person with post-traumatic intrusions, on the grounds that all three involve 'altered mental state'. What is missing?",
+          "answer": "Tempo, age of onset, and the different maintaining processes of the three presentations, each of which changes priority and approach",
+          "distractor": "Nothing, provided the same criteria set is applied to all three",
+          "correction": "The three presentations differ in urgency, in the medical contributors that must be ranked, and in the processes that maintain them. A shared label does not create a shared pathway.",
+          "reviewLessonIds": [
+            "34",
+            "36",
+            "38"
+          ]
+        },
+        {
+          "id": "lq-31-l",
+          "prompt": "A learner writes that a category 'is caused by low serotonin, is confirmed when an SSRI helps, and is treated with the same therapy for everyone'. Identify the reasoning in each clause and the correct position.",
+          "answer": "Each clause converts a convention, an outcome, or a general finding into a certainty that the evidence does not support",
+          "distractor": "The statement is acceptable because each clause reflects a published source",
+          "correction": "Criteria do not identify causes, response is not a diagnostic test, and psychological treatments are evidence-based for specific difficulties. Sources support claims at the level they were made.",
+          "reviewLessonIds": [
+            "35",
+            "39",
+            "40"
+          ]
+        }
+      ]
+    }
+  ]
+}
