@@ -1,0 +1,625 @@
+{
+  "subject": "finance",
+  "levels": [
+    {
+      "title": "Applied Valuation and Decisions Under Uncertainty",
+      "units": [
+        {
+          "title": "From Dated Cash Flows to Defensible Project Value",
+          "lessons": [
+            {
+              "id": "21",
+              "title": "Discount dated cash flows before comparing choices",
+              "explanation": "The objective is to turn a dated schedule of future money into a comparable present amount. Earlier lessons distinguished price from value and nominal balances from purchasing power. Now make that distinction operational: a valuation needs amounts, dates, and an explicit discount rate. Present value asks what amount today is equivalent to a specified future amount under that rate. It does not certify that the promised payment will arrive. Keep valuation and payment reliability separate. A contractual receivable can have a precisely calculated present value while remaining uncertain because the customer might pay late or default.",
+              "example": "Suppose a fictional organization expects a single $12,000 receipt exactly three years from today. Use a hypothetical effective annual discount rate of 6%, annual compounding, no interim cash flows, and no fees or taxes. Present value equals 12,000 divided by 1.06 cubed, or $10,075.43. The exponent counts the three full years from the valuation date to receipt. This result does not mean someone will lend that amount against the promise. It is the present equivalent under the model. If the payment were due today, its undiscounted $12,000 amount would belong at time zero instead.",
+              "question": "Why must separate future receipts be discounted separately?",
+              "answer": "They occur at different distances from the valuation date",
+              "distractor": "All receipts must use the last receipt date",
+              "correction": "Each exponent follows its own payment date; a shared final exponent misdates earlier cash.",
+              "depth": {
+                "definitions": "A cash-flow timeline labels time zero as the valuation date, not automatically the beginning of a calendar year. Cash inflows are positive from the chosen decision maker's perspective; outflows are negative. The discount rate expresses the opportunity cost of tying up resources, with risk and timing matched to the cash flows. An effective annual rate already incorporates compounding over one year. A nominal quoted rate with a compounding convention requires conversion before use. A discount factor is 1/(1+r)^t: the multiplier that moves a payment at date t back to the valuation date.",
+                "mechanism": "Discounting reverses compounding. If today's amount grows by a factor of 1+r over one period, dividing the future amount by that same factor returns to today. Multiple payments are discounted separately because they travel different distances along the timeline. Add their present values only after bringing them to the same date. For uncertain payments, a defensible valuation must state how expectations and risk are represented; simply choosing a large rate is not a substitute for forecasting possible default. Also match currency, inflation convention, and periodicity. Monthly receipts discounted as though each arrives a year apart produce a calculation that is mathematically executable but economically meaningless.",
+                "secondExample": "Contrast the single receipt with three hypothetical $4,000 receipts at the ends of years one, two, and three. At an 8% effective annual rate their combined present value is $10,308.39, computed as 4,000/1.08 + 4,000/1.08² + 4,000/1.08³. The nominal sum is $12,000, but the amount and timing pattern differs from the first example, and so does the assumed rate. Do not interpret the difference between these two present values as a pure timing effect: two inputs changed. To isolate timing, hold the rate fixed and move only the payment dates.",
+                "mistake": "A frequent mistake is to discount the entire sum using the last payment date. That treats earlier receipts as unavailable until the end, understating their present value when the rate is positive. Another mistake is to count time zero as one discounting period. Diagnose both errors by drawing one arrow from each payment to today and writing its exponent above the arrow. A receipt today gets an exponent of zero. The number of rows in a spreadsheet is not evidence that the exponents are correct; dates determine them.",
+                "application": "Optional practice: annotate the three-receipt schedule with signs, dates, units, and the rate convention, then explain why its present value is less than its nominal sum. Model response: all receipts are positive, year-end dollars, and the 8% rate applies to a full year; each future receipt is divided by a factor exceeding one. Self-review criteria are a declared perspective, correct date labels, a consistent rate, and an interpretation that avoids promising payment. If a receipt moves earlier, explain the direction of change before recalculating; this checks reasoning rather than button pressing.",
+                "summary": "The transferable skill is date discipline. A value is not meaningful without its valuation date and assumptions. Keep the timeline next to the formula so someone else can reconstruct the result. Next, use this common-date comparison to decide whether an outlay creates value after covering its opportunity cost. That next step adds an initial cost; it does not remove the uncertainty already present in the estimated receipts."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 9.1 Timing of Cash Flows",
+                  "url": "https://openstax.org/books/principles-finance/pages/9-1-timing-of-cash-flows",
+                  "note": "Read 9.1 Timing of Cash Flows. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
+                }
+              ],
+              "visual": {
+                "title": "Discount dated cash flows before comparing choices — reasoning map",
+                "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
+                "steps": [
+                  "Identify the valuation date: time zero",
+                  "Place each signed receipt at its actual date",
+                  "Divide each receipt by its own (1+r)^t",
+                  "Add present equivalents; retain uncertainty about collection"
+                ]
+              }
+            },
+            {
+              "id": "22",
+              "title": "Net present value and the cost of an alternative",
+              "explanation": "The objective is to evaluate a proposed outlay against a stated opportunity cost rather than an attractive nominal surplus. Net present value, or NPV, is the sum of all cash flows after translating them to today. A positive NPV says that the modeled benefits exceed modeled costs at the chosen discount rate. It is conditional, not guaranteed profit. The distinction matters because a positive nominal cash surplus may arrive too late or carry too much risk to compensate for the resources committed. NPV makes timing explicit, but the analyst remains responsible for the quality of the inputs.",
+              "example": "A fictional workshop pays $10,000 today for a project generating $4,000 at each of three year ends. Assume these are incremental net cash receipts after operating expenses, with no taxes, disposal value, or additional investment, and an 8% effective annual required return. Their present value is $10,308.39. Subtract the time-zero $10,000 outlay to get NPV of $308.39. The nominal $2,000 excess of receipts over cost is not the NPV. The $308.39 is the modeled surplus after compensating for the timing and opportunity cost represented by the 8% rate.",
+              "question": "Can a project with a nominal cash surplus have negative NPV?",
+              "answer": "Yes, delayed receipts may not cover the opportunity cost",
+              "distractor": "No, any nominal surplus guarantees positive NPV",
+              "correction": "Discounting values when cash arrives, not merely the eventual total.",
+              "depth": {
+                "definitions": "Incremental cash flow is the difference between the world with the decision and a realistic world without it. An opportunity cost is a benefit sacrificed by choosing one use of a resource over another. A sunk cost is an expense already incurred and unrecoverable regardless of the present decision. A required return is a valuation input, not a return the project has promised to pay. Mutually exclusive choices cannot all be implemented together; independent choices may be combined if capacity and financing permit. These definitions prevent a formula from answering the wrong decision question.",
+                "mechanism": "Build the comparison from a counterfactual, not from the project's advertising budget. Include extra operating costs, foregone use of space, and any effects on existing sales. Exclude genuinely unchanged costs, even if accounting allocates them to the proposal. Keep financing treatment consistent: a project cash-flow model discounted at an appropriate capital cost should not casually subtract debt interest and then charge again for the same financing through its discount rate. This lesson uses an unlevered, tax-free simplification to isolate investment economics. Real proposals need explicit tax, financing, and jurisdictional assumptions, with professional review where relevant.",
+                "secondExample": "Now suppose exactly the same three $4,000 receipts arrive at the ends of years two, three, and four, while the $10,000 cost remains payable today. At the same 8% rate, NPV becomes negative $455.20. The total receipts have not changed. Moving every benefit one year later reduces its present value enough to reverse the result. This is why launch delays and collection delays belong in valuation rather than only a narrative risk paragraph. It also shows why a lender's willingness to provide money does not establish that the underlying investment creates value.",
+                "mistake": "A misleading analysis includes the historical cost of an already completed feasibility report as though rejecting the project would recover that money. The correct test is whether the cash flow changes from today forward. Conversely, owned space is not automatically free: using it can sacrifice rental income or a different project. The diagnostic question is not whether an invoice exists; it is whether accepting the decision changes a future benefit or payment. Keep a separate record of historical spending for accountability without confusing it with the forward-looking acceptance calculation.",
+                "application": "Optional practice: draft a short decision memo for the workshop containing the base NPV, the delayed-receipt result, and one missing piece of evidence. Model response: the base forecast has a narrow positive surplus, but a one-year delay turns it negative; verify customer demand and timing before committing. Self-review requires the signs and dates, identification of the chosen alternative, and a condition that would change the recommendation. Do not write that a positive NPV proves affordability. Paying today's cost may still cause a cash shortage even when the estimated economic return is attractive.",
+                "summary": "NPV is a disciplined comparison, not a vote of confidence in a promoter. It answers whether specified cash flows clear a specified opportunity cost. It does not answer every ethical, operational, or liquidity question. Preserve these separate decision tests rather than forcing them into one number. Next, examine how changes in inflation conventions and discount-rate assumptions can change an apparently precise valuation without any arithmetic error."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 16.2 Net Present Value (NPV) Method",
+                  "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method",
+                  "note": "Read 16.2 Net Present Value (NPV) Method. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
+                }
+              ],
+              "visual": {
+                "title": "Net present value and the cost of an alternative — reasoning map",
+                "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
+                "steps": [
+                  "Today: pay $10,000",
+                  "Base: receive $4,000 at years 1, 2, 3",
+                  "At 8%: modeled NPV is $308.39",
+                  "Delay to years 2, 3, 4: NPV becomes −$455.20"
+                ]
+              }
+            },
+            {
+              "id": "23",
+              "title": "Keep nominal, real, and required returns consistent",
+              "explanation": "The objective is to audit a valuation for consistency rather than merely recalculate its arithmetic. A cash-flow forecast can be stated in future currency units or in purchasing power measured at today's prices. Either convention can work if its discount rate uses the same convention. Nominal cash flows belong with a nominal discount rate; real cash flows belong with a real discount rate. Mixing the two changes the economics silently. This extends the earlier inflation lesson from recognizing purchasing-power loss to constructing a model that respects it across every forecast period.",
+              "example": "Use the workshop's $10,000 outlay and three year-end receipts of $4,000 in future nominal dollars. Suppose the nominal required return is 8% and general inflation is assumed constant at 3% annually. The corresponding real rate is 1.08/1.03 − 1, or approximately 4.8544%, not exactly 5%. Deflate each nominal receipt by 1.03 raised to its year number, then discount it using the unrounded real rate. The resulting NPV is still $308.39. Inflation conversion changes the unit of measurement, not the underlying project, when both sides of the calculation are transformed consistently.",
+              "question": "What happens if a model deflates cash flows but retains a nominal discount rate?",
+              "answer": "It mismatches units and can double-count inflation",
+              "distractor": "It automatically makes the valuation more conservative and correct",
+              "correction": "Conservatism does not repair inconsistent units; use a matching real rate.",
+              "depth": {
+                "definitions": "Nominal means measured in the currency units expected at the payment date. Real means measured in the purchasing power of a stated base period. General inflation describes a broad price basket; a particular input or selling price can move differently. A required return combines the time value and risk compensation appropriate to the modeled claim. A sensitivity analysis changes one assumption while holding specified others fixed. A scenario changes a coherent group of assumptions together. Neither is a probability forecast unless probabilities have been separately justified and assigned.",
+                "mechanism": "The exact conversion follows the relationship (1+nominal rate) = (1+real rate) times (1+inflation). Subtracting inflation from a nominal rate is an approximation that omits the interaction term. More importantly, do not assume every revenue and expense grows at the same rate merely because a general inflation assumption exists. Contracts may fix selling prices while wages and materials change. Taxes can also respond to nominal gains and historical accounting amounts, depending on jurisdiction. Our simplified tax-free example excludes those complications explicitly. A real-world model must investigate them rather than claiming inflation cancels in every financial situation.",
+                "secondExample": "For a contrasting sensitivity, leave the workshop's nominal receipts unchanged but raise its nominal required return from 8% to 12%. NPV becomes negative $392.67. Unlike the unit conversion above, this is an actual change in the valuation assumption: the project must now compensate capital at a higher rate. The base-case sign therefore is not robust to this rate choice. This does not establish that 12% is the correct rate. It identifies a decision-sensitive assumption that needs evidence, such as comparison with opportunities of similar risk, currency, and horizon.",
+                "mistake": "A common error discounts already deflated cash flows at the nominal rate, penalizing inflation twice. Another grows receipts with inflation while calling them real. Diagnose the model by putting a unit label on every column, including the terminal amount. Then inspect the rate cell's description, not just its percentage formatting. Also distinguish an assumed expected inflation rate from a known future price path. A neat conversion does not eliminate forecasting uncertainty. Present results to sensible precision so an exact-looking decimal does not conceal an unsupported estimate.",
+                "application": "Optional practice: explain why two analysts can obtain the same NPV using different-looking cash-flow columns, then explain why changing the required return can genuinely reverse a decision. Model response: consistent nominal and real models are alternative units for the same assumptions; a higher required return instead raises the opportunity cost. Self-review looks for both distinctions, use of the multiplicative rate relationship, and acknowledgment that individual prices can diverge from general inflation. A stronger response adds a short table labeling the valuation date, currency, inflation convention, and assumptions held fixed.",
+                "summary": "Consistency precedes sophistication. A small model whose units can be audited is more useful than a large forecast that mixes nominal income with a real discount rate. Treat the discount rate as an argument to defend, not a knob to turn until the answer is favorable. Next, compare NPV with the percentage-return language commonly used to promote projects, and identify when a higher quoted return can select the wrong use of resources."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 16.2 Net Present Value (NPV) Method — NPV Profile and discount-rate sensitivity",
+                  "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method",
+                  "note": "Read 16.2 Net Present Value (NPV) Method — NPV Profile and discount-rate sensitivity. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
+                },
+                {
+                  "title": "Federal Reserve education — Helen Fessenden, Jargon Alert: Real Interest Rate",
+                  "url": "https://www.federalreserveeducation.org/resources/readings/reading--jargon-alert-real-interest-rate.pdf",
+                  "note": "Read the opening distinction between nominal interest and purchasing-power-adjusted interest, and the discussion of expected inflation in investment decisions. Free PDF; historical macroeconomic examples are not current-rate claims. The lesson derives and numerically checks its own discrete-compounding conversion."
+                }
+              ],
+              "visual": {
+                "title": "Keep nominal, real, and required returns consistent — reasoning map",
+                "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
+                "steps": [
+                  "Nominal receipts plus nominal rate form one consistent model",
+                  "Deflate receipts and convert the rate together",
+                  "Equivalent real model retains NPV $308.39",
+                  "A different required return is a changed assumption, not a unit conversion"
+                ]
+              }
+            },
+            {
+              "id": "24",
+              "title": "When internal rate of return misranks projects",
+              "explanation": "The objective is to distinguish a percentage-return summary from a value-maximizing comparison. Internal rate of return, or IRR, is a discount rate that makes the modeled NPV equal zero. For a conventional project with an initial outflow followed only by inflows, comparing its IRR with an appropriate required return can support an acceptance decision. Ranking different projects by their IRRs is a different problem. Percentages suppress scale, and unusual cash-flow patterns can generate more than one IRR. An impressive rate therefore needs a dated cash-flow schedule before it can be interpreted responsibly.",
+              "example": "Consider two fictional, mutually exclusive, one-year projects with certain modeled receipts, no taxes or fees, and a common 10% required return. A costs $1,000 today and returns $1,400 at year end. B costs $10,000 and returns $13,000. A's IRR is 40%; B's is 30%. Yet A's NPV is $272.73 and B's is $1,818.18. If both are feasible, only one may be selected, and maximizing modeled dollar value is the objective, B is preferred. Its lower percentage applies to much more capital. This is not an investment recommendation; it isolates a ranking problem.",
+              "question": "Why can a lower-IRR project create more modeled value?",
+              "answer": "Its larger scale can produce a higher NPV",
+              "distractor": "IRR automatically includes the amount of capital invested",
+              "correction": "A percentage alone does not measure the total present-value surplus.",
+              "depth": {
+                "definitions": "A conventional cash-flow pattern changes sign once, from the initial cost to later receipts. A nonconventional pattern may change sign again, for example when cleanup obligations occur after operating receipts. The NPV profile plots NPV against alternative discount rates. An IRR is an intersection of that profile with zero, not an independently observed market yield. Capital rationing means resources limit which otherwise acceptable projects can be undertaken. Project divisibility means fractions can be chosen; many real investments are indivisible. The appropriate comparison depends on these constraints rather than on a single universal ranking statistic.",
+                "mechanism": "For ordinary initial-cost projects, NPV declines as the discount rate increases because future positive receipts are discounted more heavily. With later negative cash flows, that simple shape can fail. More than one zero crossing can exist, and a spreadsheet may return different roots depending on its starting guess. Even a unique IRR cannot tell whether a large low-percentage opportunity creates more value than a small high-percentage one. Compare incremental cash flows and NPVs at an economically defensible common rate when risks are comparable. If risks differ, pretending that a common rate makes the projects comparable introduces a new error.",
+                "secondExample": "Now change the constraint rather than the returns. Suppose the available project budget is only $1,000 and B cannot be divided or externally financed. B is infeasible despite its higher NPV. A may be the feasible value-creating choice under these assumptions. Conversely, if the projects are independent and sufficient resources exist, taking both can be consistent with positive NPV; the original instruction to choose only one no longer applies. This contrasting case shows that a mathematical ranking is not a complete allocation rule until feasibility, exclusivity, and resource limits are specified.",
+                "mistake": "A common misconception treats IRR as a guaranteed annual account yield. Project receipts may be forecasts rather than contractual payments, and interim receipts may be spent or reinvested at different rates. Reporting a terminal compounded wealth claim requires an explicit assumption about what happens to those receipts. IRR itself is the rate solving the cash-flow equation; it does not ensure an external reinvestment opportunity exists at that rate. Another error calls a repayment factor an annual return or APR. A factor lacks the dated-payment and net-proceeds information needed for a defensible annualized borrowing-cost comparison.",
+                "application": "Optional practice: write two recommendations for the A-versus-B example, one with ample funding and mutual exclusivity, and one with the $1,000 hard budget. Model response: select B in the first simplified setting because it has higher NPV, and consider A in the second because B is unavailable. Self-review requires both NPVs, the changed feasibility constraint, and an explicit refusal to generalize the rates into promises. For further retrieval, sketch how a late cleanup payment could alter an NPV profile and explain why a single calculator output would be insufficient evidence.",
+                "summary": "Percentage summaries are useful only when their denominator, timing, and decision context remain visible. Preserve NPV as a direct measure of modeled value while using IRR as a complementary diagnostic, not a persuasive headline. Next, add the working-capital commitments that often disappear from project pitches even though they determine whether growing sales generate usable cash soon enough to support operations."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 16.3 Internal Rate of Return (IRR) Method — disadvantages and scale",
+                  "url": "https://openstax.org/books/principles-finance/pages/16-3-internal-rate-of-return-irr-method",
+                  "note": "Read 16.3 Internal Rate of Return (IRR) Method — disadvantages and scale. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
+                }
+              ],
+              "visual": {
+                "title": "When internal rate of return misranks projects — reasoning map",
+                "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
+                "steps": [
+                  "A: $1,000 today → $1,400 in one year; IRR 40%",
+                  "B: $10,000 today → $13,000 in one year; IRR 30%",
+                  "At 10%, compare NPVs $272.73 versus $1,818.18",
+                  "Check budget and exclusivity before choosing"
+                ]
+              }
+            },
+            {
+              "id": "25",
+              "title": "Working capital: why profitable growth consumes cash",
+              "explanation": "The objective is to connect project valuation with the cash committed to day-to-day operations. Growth can require purchasing inventory and allowing customers time to pay before corresponding cash reaches the bank. A profitable sale recorded in the income statement does not automatically finance the next order. Working-capital analysis identifies this timing commitment. It extends the earlier household cash-flow lesson to an operating cycle with assets, supplier obligations, and collection risk. Keep economic value, accounting profit, and available cash as related but distinct measurements rather than substitutes for one another.",
+              "example": "A fictional distributor needs $18,000 of inventory and has $12,000 owed by customers. Suppliers allow $9,000 of unpaid trade bills. Define operating working capital for this simplified example as inventory plus receivables minus trade payables, excluding cash and interest-bearing debt. The amount tied up is $21,000. If the operation previously had none of these balances, funding this position requires a $21,000 incremental cash commitment. It is not an additional $21,000 expense to subtract from accounting profit. It is a balance-sheet investment that must be reflected with the correct timing in the cash forecast.",
+              "question": "Why is a rise in operating working capital usually a use of cash?",
+              "answer": "More resources are tied up in operations net of supplier financing",
+              "distractor": "Every working-capital asset is an immediate cash receipt",
+              "correction": "Inventory and receivables can absorb funding before collection occurs.",
+              "depth": {
+                "definitions": "Receivables are amounts customers owe; payables are amounts the business owes suppliers. Inventory is stock held for sale or production. Broad net working capital equals current assets minus current liabilities; our narrower operating definition deliberately excludes financing items. A cash conversion cycle estimates how long cash is tied up between paying for inputs and collecting from customers. Inventory days describe time before sale, receivable days time before collection, and payable days the supplier financing interval. Always label the definition because analysts and contracts may use different working-capital measures.",
+                "mechanism": "The cash cycle is inventory days plus receivable days minus payable days. If inventory sits for 45 days, customers pay 30 days after sale, and suppliers are paid 20 days after purchase, the modeled cash cycle is 55 days. Draw the sequence: buy inventory, pay the supplier, sell the goods, collect from the customer. The business funds the gap between supplier payment and customer collection. Average days are diagnostics, not promises about individual invoices. Seasonality, obsolete stock, disputed bills, and concentration in one slow-paying customer can make actual liquidity much worse than an apparently healthy average suggests.",
+                "secondExample": "Contrast two ways the distributor might respond. Extending supplier payment beyond the agreed terms appears to release cash but can damage relationships, trigger fees, or interrupt deliveries. Negotiating lawful, explicit terms is different from simply paying late. Alternatively, collecting an existing receivable converts one current asset into another: receivables fall as cash rises. Under broad net working capital that swap alone does not increase net working capital, yet it improves immediate payment ability. This distinction explains why a ratio based on total current assets cannot fully describe the practical usefulness of those assets.",
+                "mistake": "A frequent error subtracts the entire working-capital balance every year. A project cash-flow model generally records the change: building the balance uses cash, while a genuine reduction releases cash. At the project's end, recovery is not automatic. Customers may default, inventory may require discounts, and supplier obligations still need settlement. Another error assumes negative operating working capital proves distress; some firms collect before paying suppliers. Diagnose the business model and timing rather than assigning a moral or universal quality label to the sign of a balance.",
+                "application": "Optional practice: add a working-capital section to a project proposal, stating the opening balance, required closing balance, cash-flow effect, and evidence for eventual recovery. Model response for the distributor: the initial operating balance rises from zero to $21,000, creating a $21,000 use of cash; recovery depends on collectability, inventory sale proceeds, and paying suppliers. Self-review asks whether you used changes rather than repeated balances, separated debt from operating liabilities, and included dated obligations. A stronger response names a practical data source, such as receivables aging, instead of merely assuming all reported assets are immediately spendable.",
+                "summary": "Working capital connects valuation to survival. A project can have positive long-run economics and still fail if its operating cycle demands cash before funding is available. The unit quiz now asks you to combine dated valuation, assumptions, ranking, and cash conversion without reducing them to one slogan. The next unit introduces uncertainty explicitly: not only how much cash a model predicts, but how outcomes, co-movement, financing obligations, and decision rules behave when the forecast is wrong."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 19.1 What Is Working Capital? — definitions and cash cycle",
+                  "url": "https://openstax.org/books/principles-finance/pages/19-1-what-is-working-capital",
+                  "note": "Read 19.1 What Is Working Capital? — definitions and cash cycle. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
+                }
+              ],
+              "visual": {
+                "title": "Working capital: why profitable growth consumes cash — reasoning map",
+                "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
+                "steps": [
+                  "Inventory $18,000 + receivables $12,000 − payables $9,000",
+                  "Operating working capital committed: $21,000",
+                  "45 inventory days + 30 collection days − 20 supplier days",
+                  "Cash cycle: 55 days; inspect actual invoice timing"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-finance-21-a",
+              "prompt": "A grant pays on delivery, but the analyst dates it a year after delivery. At a positive discount rate, what is the error?",
+              "answer": "The grant present value is understated",
+              "distractor": "The grant present value is overstated",
+              "correction": "An unnecessary extra discount period reduces present value. Verify the contractual payment date.",
+              "reviewLessonIds": [
+                "21"
+              ]
+            },
+            {
+              "id": "uq-finance-21-b",
+              "prompt": "A proposal includes an unrecoverable report already paid for, while ignoring rent sacrificed by using an owned room. What should change?",
+              "answer": "Exclude the sunk report cost and examine foregone rent",
+              "distractor": "Include the report and treat owned space as costless",
+              "correction": "Only future differences between alternatives enter incremental valuation; ownership does not erase opportunity cost.",
+              "reviewLessonIds": [
+                "22"
+              ]
+            },
+            {
+              "id": "uq-finance-21-c",
+              "prompt": "A consultant labels the revenue forecast in today’s purchasing power but uses an inflation-inclusive hurdle rate. What audit issue matters first?",
+              "answer": "The cash-flow and discount-rate conventions do not match",
+              "distractor": "The model needs more decimal places",
+              "correction": "Real cash flows require a corresponding real discount rate; precision cannot fix mismatched units.",
+              "reviewLessonIds": [
+                "23"
+              ]
+            },
+            {
+              "id": "uq-finance-21-d",
+              "prompt": "Two indivisible projects have positive NPV, but only one fits a hard funding limit. Does the larger unavailable NPV settle the choice?",
+              "answer": "No; assess the feasible choice and its opportunity cost",
+              "distractor": "Yes; ignore the funding restriction",
+              "correction": "An infeasible project cannot be selected merely because its unconstrained value is higher.",
+              "reviewLessonIds": [
+                "24"
+              ]
+            },
+            {
+              "id": "uq-finance-21-e",
+              "prompt": "Sales grow while customer collection slows and suppliers maintain their terms. What funding issue should be examined?",
+              "answer": "Additional cash tied up before collection",
+              "distractor": "Automatic release of cash because revenue increased",
+              "correction": "Receivables growth can consume liquidity even when recorded sales and profits rise.",
+              "reviewLessonIds": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Risk, Financing, and Auditable Decisions",
+          "lessons": [
+            {
+              "id": "26",
+              "title": "Scenario distributions, break-even values, and uncertainty",
+              "explanation": "The objective is to replace a single forecast with a structured account of what could happen and why it matters. Expected return is a probability-weighted average across possible outcomes, not the most likely outcome and not a promise. A stress scenario asks whether a decision remains workable under an adverse combination of events. Sensitivity analysis asks which inputs drive the conclusion. These tools answer different questions. A strong analyst uses them together while distinguishing genuine probability evidence from convenient numbers chosen to demonstrate a method. In this lesson, all probabilities and returns are hypothetical teaching assumptions.",
+              "example": "Suppose a one-period asset has three assumed states: a 25% chance of a −20% return, a 50% chance of a +6% return, and a 25% chance of a +22% return. Assume no fees, taxes, contributions, or withdrawals. Expected return equals 0.25 × (−20%) + 0.50 × 6% + 0.25 × 22% = 3.5%. None of the listed states delivers exactly 3.5%. The highest-probability state gives 6%, while a loss remains possible. A positive expectation therefore does not establish that money required for a fixed obligation will be available when needed.",
+              "question": "Does a 3.5% expected return mean 3.5% is the most likely outcome?",
+              "answer": "No; it is a weighted average across the stated outcomes",
+              "distractor": "Yes; expectation always names the most likely state",
+              "correction": "The modal state in the example returns 6%, and no state returns exactly 3.5%.",
+              "depth": {
+                "definitions": "A state is a specified outcome of the modeled world. Probabilities must be nonnegative and sum to one for an exhaustive, mutually exclusive state set. Expected value weights outcomes by those probabilities. A sensitivity threshold is an input value at which a decision criterion changes, such as NPV passing through zero. Stress testing examines selected adverse conditions without necessarily assigning them probabilities. Model uncertainty concerns the structure and assumptions of the model itself, including events omitted from the state list. More elaborate formulas cannot repair a state set that excludes a material source of loss.",
+                "mechanism": "Start with a causal story before attaching percentages. A recession might lower unit sales, delay collection, and increase credit losses simultaneously. Treating these as independent favorable and unfavorable knobs can create incoherent scenarios. Record the evidence behind each input and identify whether it comes from a contract, observed history, an external forecast, or judgment. Historical frequency is not automatically a reliable future probability, especially after a structural change. Expected value summarizes a distribution, but the consequences of a bad outcome depend on resources and obligations. A financially fatal loss cannot be made harmless by averaging it with an attractive upside state.",
+                "secondExample": "Return to the workshop with a $10,000 cost and three equal year-end receipts discounted at 8%. The equal annual receipt that sets NPV to zero is $3,880.34, calculated by dividing $10,000 by the sum of the three discount factors. This is a break-even cash-flow threshold, not a sales target: receipts must already be net of the modeled operating costs. If annual receipts are only $3,000, NPV becomes negative $2,268.71. The contrast quantifies fragility more usefully than calling the project moderately risky without stating a mechanism or a threshold.",
+                "mistake": "One error gives the downside scenario a small probability simply to preserve a favorable expected result. Another treats the break-even receipt as a guaranteed minimum. The calculation supplies a decision boundary, not evidence that operations will reach it. Diagnose the model by asking what observation would justify revising the probabilities or receipts. Also avoid confusing an expected return with a geometric long-run growth rate. The expectation here is a one-period arithmetic quantity. Compounded paths, serial dependence, and withdrawals require additional analysis rather than repeating the same percentage indefinitely.",
+                "application": "Optional practice: write a scenario register with a cause, affected cash-flow lines, evidence source, and response for a supplier interruption. Model response: delayed input delivery may postpone sales while some payroll continues, so forecast later receipts and persistent expenses together; verify alternative supply and contractual flexibility. Self-review rewards causal consistency, explicit uncertainty, a dated cash effect, and a feasible response. Then explain in one sentence why the 3.5% expected return does not establish a safe funding source for an essential bill. The model answer identifies possible loss and a binding payment date, not merely emotional discomfort with volatility.",
+                "summary": "Use expected values to summarize, thresholds to locate fragility, and stress tests to examine consequences. None substitutes for the others. A defensible recommendation names the assumptions that would reverse it and the resources available if those assumptions fail. Next, move from uncertainty in one investment to uncertainty across several exposures, where the relationships between outcomes matter as much as the risk of each component."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 20.1 The Importance of Risk Management — uncertainty and cash-flow risk",
+                  "url": "https://openstax.org/books/principles-finance/pages/20-1-the-importance-of-risk-management",
+                  "note": "Read 20.1 The Importance of Risk Management — uncertainty and cash-flow risk. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                }
+              ],
+              "visual": {
+                "title": "Scenario distributions, break-even values, and uncertainty — reasoning map",
+                "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
+                "steps": [
+                  "Define mutually exclusive states and probabilities",
+                  "Weight −20%, +6%, +22% by 25%, 50%, 25%",
+                  "Expected return: 3.5%, not a guaranteed state",
+                  "Separately test adverse cash needs and NPV break-even"
+                ]
+              }
+            },
+            {
+              "id": "27",
+              "title": "Quantify diversification with covariance and stress",
+              "explanation": "The objective is to explain diversification mathematically without turning a historical correlation into a safety guarantee. A portfolio return is a weighted combination of component returns, but portfolio volatility also depends on how those returns move together. Earlier lessons established that many holdings can share the same underlying risk. Covariance makes that relationship explicit. It measures whether deviations from average returns tend to occur in the same direction. Diversification can reduce variability when exposures do not move perfectly together, yet it does not ensure positive returns or protect every fixed spending obligation.",
+              "example": "Consider a hypothetical portfolio split equally between assets A and B. Assume annual return standard deviations of 20% and 10%, correlation zero, fixed starting weights for this one-period calculation, and no fees or taxes. Portfolio variance is (0.5² × 0.20²) + (0.5² × 0.10²) + 2 × 0.5 × 0.5 × 0.20 × 0.10 × 0. The square root is approximately 11.18% annual volatility. A simple average of component volatilities would be 15%, which is wrong under the zero-correlation assumption. The missing ingredient in that shortcut is the relationship between component returns.",
+              "question": "Is 11.18% portfolio volatility a maximum loss?",
+              "answer": "No; standard deviation is not a loss ceiling",
+              "distractor": "Yes; diversification caps all annual losses at that number",
+              "correction": "Volatility summarizes dispersion under assumptions, not the most adverse possible outcome.",
+              "depth": {
+                "definitions": "Variance is the expected squared deviation from a mean; standard deviation is its square root, expressed in return units. Covariance is the expected product of two deviations. Correlation standardizes covariance by dividing by both standard deviations, yielding a measure between −1 and +1 when both volatilities are nonzero. A portfolio weight is the proportion of total starting value invested in a component. Systematic risk arises from broad shared exposures; idiosyncratic risk is specific to a firm or narrow activity. These labels concern sources of risk, not whether a loss will feel temporary or permanent to a particular investor.",
+                "mechanism": "The two-asset variance formula contains each weighted variance plus a cross term involving correlation. When deviations tend to offset, that cross term is smaller than it would be under perfect positive co-movement. This is the mechanical basis for risk reduction, not a magical property of owning several account labels. Estimates are horizon-dependent and sample-dependent. Two funds can hold many of the same businesses, while a worker's salary may depend on the same sector as personal investments. A complete exposure review therefore looks through product names to economic drivers, including income, liabilities, currency, and access to liquidity.",
+                "secondExample": "Change only the assumed correlation from zero to +1 while retaining equal weights and the same component volatilities. Portfolio volatility rises to 15%. This contrasting calculation shows why diversification benefits can shrink when common shocks dominate. It is not a forecast that real correlations will become exactly one. A practical stress test can instead ask how the portfolio and household income behave during the same industry downturn, or whether apparently separate assets become hard to sell at the same time. Statistical independence is a stronger claim than zero correlation and should not be inferred from it.",
+                "mistake": "The common error is to call the 11.18% result a maximum annual loss. Standard deviation is not a loss limit, and it says little by itself about skewed or extreme outcomes. Another mistake treats low past correlation as a permanent law. Diagnose both by asking for an explicit downside scenario and by examining whether exposures share leverage, financing sources, or customer demand. Avoid promising a specific diversification benefit from an estimate without disclosing the period, methodology, and uncertainty. A formula produces conditional implications, not immunity from changing market structure.",
+                "application": "Optional practice: critique a fictional portfolio containing an employer's stock, a sector fund that holds that employer, and cash needed for next month's rent. Model response: direct and indirect holdings share sector and employer exposure, while salary may also be threatened by the same shock; rent requires a separate dated liquidity assessment. Self-review requires looking through the fund, distinguishing concentration from liquidity, and naming evidence such as holdings disclosures. Do not prescribe an allocation. The task is to identify questions and constraints that must precede individualized advice, not to choose investments for an unknown person.",
+                "summary": "Diversification is a relationship-based tool. Quantifying covariance reveals why combining exposures can help, while stress analysis reveals what the summary can miss. Maintain both the calculation and the economic narrative. Next, examine a different hidden feature of risk: how a sequence of gains and losses compounds, and why changing the order becomes especially consequential when money is being withdrawn."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 15.2 Risk and Return to Multiple Assets — correlation and systematic risk",
+                  "url": "https://openstax.org/books/principles-finance/pages/15-2-risk-and-return-to-multiple-assets",
+                  "note": "Read 15.2 Risk and Return to Multiple Assets — correlation and systematic risk. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                }
+              ],
+              "visual": {
+                "title": "Quantify diversification with covariance and stress — reasoning map",
+                "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
+                "steps": [
+                  "Weights: 50% A, 50% B; volatilities 20%, 10%",
+                  "Correlation 0 → portfolio volatility about 11.18%",
+                  "Correlation +1 → portfolio volatility 15%",
+                  "Stress shared economic exposures; neither value caps losses"
+                ]
+              }
+            },
+            {
+              "id": "28",
+              "title": "Compounded growth and the order of withdrawals",
+              "explanation": "The objective is to separate arithmetic averages, compounded growth, and cash-flow-dependent results. An arithmetic mean describes the average of period returns. A geometric growth rate describes the constant rate that would reproduce a compounded ending value when there are no external flows. Neither alone describes a household or institution making withdrawals during the period. Timing changes how much capital remains exposed to later gains and losses. This extends the earlier distinction between volatility and permanent loss: an adverse sequence can turn temporary price movement into a lasting shortfall when assets must fund obligations.",
+              "example": "Imagine $100 invested for two years with a +20% first-year return and a −20% second-year return, with no fees, taxes, distributions outside the account, or external flows. Ending wealth is $100 × 1.20 × 0.80 = $96. The arithmetic average return is zero, but the two-year compounded return is −4%. The annualized geometric rate is the square root of 0.96 minus one, approximately −2.0204%. The loss occurs because the second percentage applies to a different balance. Equal positive and negative percentages do not cancel in compounded wealth, even though they cancel in an arithmetic average.",
+              "question": "Why do withdrawals make return order matter?",
+              "answer": "They change the balance exposed to subsequent returns",
+              "distractor": "They change the historical return of each asset",
+              "correction": "The asset returns can stay identical while withdrawals alter the capital that experiences them.",
+              "depth": {
+                "definitions": "A gross return factor is one plus a period return, such as 1.20 for a 20% gain. A geometric mean multiplies gross factors and takes the root corresponding to the number of equal periods. Sequence risk concerns the impact of return ordering when cash flows interact with investment performance. Time-weighted performance chains subperiod returns to separate investment performance from external contributions or withdrawals. Money-weighted performance reflects the timing and size of those external flows, often through an IRR calculation. These measures answer different questions and should not be compared as though their names were interchangeable.",
+                "mechanism": "Without external flows, multiplying the same gross return factors in a different order gives the same ending balance. With withdrawals, the arithmetic includes subtraction between multiplications, so order can matter. A withdrawal after a decline removes a larger fraction of remaining assets and leaves less money to participate in recovery. This is a mechanism, not a prediction about which market sequence will occur. The appropriate planning response depends on objectives, flexibility, resources, taxes, and jurisdiction. No universal withdrawal percentage or allocation is supplied here, because a two-period demonstration cannot establish a sustainable personal plan.",
+                "secondExample": "For a contrasting example, start with $100,000 and withdraw $10,000 at each year end, after that year's return. Assume the same two returns in different orders: −20% and +25%. Decline first produces ($100,000 × 0.80 − $10,000) × 1.25 − $10,000 = $77,500. Gain first produces ($100,000 × 1.25 − $10,000) × 0.80 − $10,000 = $82,000. Without withdrawals, both orders would finish at $100,000. The difference with withdrawals arises from the changing amount exposed, not from a different set of asset returns. All amounts exclude fees, taxes, and inflation.",
+                "mistake": "A common mistake concludes that a high long-run average return guarantees a specific spending stream. A second mistake reverses the example's order of operations by taking withdrawals before the annual return. That would be a different model. Diagnose the schedule by writing beginning balance, return, withdrawal, and ending balance on separate lines for every period. Also distinguish volatility drag in compounded returns from investment fees; both can affect wealth but through different mechanisms. A numerical illustration with two chosen outcomes is not an empirical estimate of future return distributions.",
+                "application": "Optional practice: explain the withdrawal example to someone who says both paths must be identical because they contain the same returns. Model response: multiplying returns alone commutes, but withdrawals alter the balance between return periods, so the recovery acts on different amounts. Self-review requires stating year-end timing, both ending balances, and the no-withdrawal comparison. Then list non-predictive planning questions: which expenses are flexible, when are obligations due, and what resources avoid a forced sale? A thoughtful response identifies constraints without pretending to forecast the next market decline or prescribe a personal retirement strategy.",
+                "summary": "Compounded growth is about paths through balances, not merely averages of percentages. External cash flows make the path interact with lived obligations. Preserve that distinction when interpreting fund performance, project distributions, or savings plans. Next, add another source of path sensitivity: fixed debt obligations. Borrowing can magnify an owner's outcomes even when the underlying asset's change looks relatively modest."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 15.1 Risk and Return to an Individual Asset — measuring and averaging historical returns",
+                  "url": "https://openstax.org/books/principles-finance/pages/15-1-risk-and-return-to-an-individual-asset",
+                  "note": "Read 15.1 Risk and Return to an Individual Asset — measuring and averaging historical returns. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                }
+              ],
+              "visual": {
+                "title": "Compounded growth and the order of withdrawals — reasoning map",
+                "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
+                "steps": [
+                  "No flows: $100 × 1.20 × 0.80 = $96",
+                  "Arithmetic mean 0%; geometric annual rate about −2.0204%",
+                  "With $10,000 year-end withdrawals: loss-first ends $77,500",
+                  "Same returns reversed: gain-first ends $82,000"
+                ]
+              }
+            },
+            {
+              "id": "29",
+              "title": "Leverage, debt service, and refinancing dependence",
+              "explanation": "The objective is to trace how fixed financing obligations change the risk borne by owners and the cash required to remain solvent. Leverage means using debt in the financing structure. It can magnify gains when assets perform well, but it also magnifies losses and can create payment pressure before an asset recovers. A low borrowing rate is not enough to establish that leverage is prudent. Evaluate what must be paid, when it must be paid, which resources can pay it, and what happens if new financing is unavailable. These are contractual and liquidity questions as well as valuation questions.",
+              "example": "A fictional asset costs $100,000, funded with $40,000 of owner equity and a $60,000 one-year loan. Assume $3,000 interest and all principal are paid at year end, no interim distributions, fees, taxes, default, or transaction costs, and the asset is then sold. If sale proceeds are $115,000, equity receives $52,000 after $63,000 debt service, producing a 30% return on its $40,000 contribution. If the asset sells for $85,000, equity receives $22,000, a −45% return. The asset moved up or down 15%, but the fixed debt claim made the owner's outcomes asymmetric around zero.",
+              "question": "Why does interest coverage not settle maturity risk?",
+              "answer": "It omits the principal amount that may soon be due",
+              "distractor": "It guarantees refinancing whenever EBIT is positive",
+              "correction": "Interest expense coverage does not demonstrate cash available to repay principal at maturity.",
+              "depth": {
+                "definitions": "Equity is the residual claim after senior obligations in this simplified model. Debt service includes contractually due interest and principal, not just interest expense. Refinancing replaces or extends financing through a new agreement; rollover risk is the risk that this replacement cannot be obtained on acceptable terms. A covenant is a contractual requirement whose definition and consequences must be read in the actual agreement. Interest coverage commonly divides earnings before interest and taxes by interest expense. Coverage definitions vary, and earnings-based coverage is not the same as having enough cash on each debt-service date.",
+                "mechanism": "The leverage mechanism follows subtraction from a changing asset value: the fixed creditor claim leaves the residual fluctuation concentrated on a smaller equity base. If asset proceeds are insufficient, the simplified subtraction no longer describes all legal consequences. Priority, collateral, recourse, guarantees, insolvency law, and enforcement rules depend on contract and jurisdiction. Do not generalize limited liability to a personally guaranteed loan. Also distinguish economic solvency from immediate liquidity. An asset may be worth more than its debt but still be impossible to sell quickly enough to meet a maturity without a substantial discount.",
+                "secondExample": "Consider a different financing comparison. A hypothetical one-year loan has a $50,000 face amount, a $1,500 fee withheld at origination, and a single $55,000 payment exactly one year later. Usable net proceeds are $48,500. Its one-year effective cost under these simplified cash flows is $55,000/$48,500 − 1 = 13.4021%. Dividing repayment by face value gives a 1.10 repayment factor, not a complete annual borrowing-cost disclosure. This computed effective cost is not labeled a legally compliant APR: required disclosure rules, included fees, and day-count conventions depend on jurisdiction and product. Installment timing would require a different calculation.",
+                "mistake": "A frequent mistake equates strong interest coverage with freedom from maturity risk. If annual EBIT is $18,000 and interest is $3,000, interest coverage is 6 times; if EBIT falls to $4,500, it is 1.5 times. Neither ratio includes repayment of the $60,000 principal in the first example. Another mistake treats refinancing as automatic because similar loans were available before. Diagnose the plan by removing new borrowing from the maturity-date forecast and asking whether actual available cash suffices. Do not count an unsigned financing offer as a committed liquidity resource.",
+                "application": "Optional practice: prepare a financing-risk note with separate lines for gross borrowing, fees, net proceeds, interest, principal, and maturity date. Model response: use net cash received for economic cost comparisons, inspect the repayment schedule, and test a no-refinancing case. Self-review requires a distinction between a factor and an annualized cost, the full debt-service amount, and a legal-information boundary. A stronger response asks whether collateral values and operating income could deteriorate together. This identifies a joint stress rather than assuming the asset can always be sold for its last appraised value.",
+                "summary": "Leverage does not create a free improvement in returns. It reallocates outcomes and adds obligations that must survive unfavorable timing. Keep asset economics, owner returns, borrowing cost, and payment feasibility on separate lines before integrating them. The final lesson combines these distinctions into a decision memo that can be audited, challenged, and revised without relying on a confident headline."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 17.1 The Concept of Capital Structure — debt, equity, and opportunity cost",
+                  "url": "https://openstax.org/books/principles-finance/pages/17-1-the-concept-of-capital-structure",
+                  "note": "Read 17.1 The Concept of Capital Structure — debt, equity, and opportunity cost. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                }
+              ],
+              "visual": {
+                "title": "Leverage, debt service, and refinancing dependence — reasoning map",
+                "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
+                "steps": [
+                  "$100,000 asset = $60,000 debt + $40,000 equity",
+                  "Year-end creditor claim: $63,000",
+                  "Asset $115,000 → equity $52,000; asset $85,000 → equity $22,000",
+                  "Separately test fees, principal maturity, and no-refinancing liquidity"
+                ]
+              }
+            },
+            {
+              "id": "30",
+              "title": "Build an auditable decision memo and a review rule",
+              "explanation": "The objective is to integrate valuation, uncertainty, liquidity, and governance into a decision that another person can inspect. A decision memo should explain the objective, alternatives, relevant evidence, assumptions, calculation, failure conditions, and review rules. It is not a sales document that hides unfavorable scenarios. The purpose is to make reasoning revisable without pretending the future is known. This capstone continues the earlier investment-policy lesson by adding an explicit analytical record. The examples concern fictional projects; the method supports financial literacy and is not individualized investing, lending, legal, or tax advice.",
+              "example": "Write the opening of a memo for the workshop project: pay $10,000 today and receive net nominal cash of $4,000 at each of three year ends, with an 8% effective annual discount rate, no tax effects, and no salvage value. Base NPV is $308.39. If each receipt is postponed one year, NPV is −$455.20; if each annual receipt falls to $3,000 without delay, NPV is −$2,268.71. The recommendation cannot honestly say the project is unquestionably attractive. A defensible conclusion is that value is positive only under the base assumptions and that timing and demand evidence deserve scrutiny before commitment.",
+              "question": "What makes a review trigger operational?",
+              "answer": "An observable condition, assigned reviewer, and defined response",
+              "distractor": "A promise to reconsider whenever the market feels different",
+              "correction": "A trigger must connect evidence to action; vague concern cannot be audited.",
+              "depth": {
+                "definitions": "A decision criterion is the standard used to compare alternatives. A constraint limits feasible action, such as a cash reserve requirement, contractual restriction, or ethical obligation. An assumption register records inputs, their sources, responsible reviewers, and uncertainty. A trigger is an observable condition requiring reassessment. A pre-mortem imagines the decision has failed and asks which mechanisms might explain that outcome. A post-audit compares actual outcomes with the original forecast without rewriting the forecast after the event. Good documentation distinguishes a poor process from an unlucky result and a sound result from unjustified confidence.",
+                "mechanism": "Organize the memo into distinct tests. First, calculate incremental value relative to a realistic alternative. Second, test dated affordability and required liquidity. Third, examine adverse joint scenarios and obligations that cannot be deferred. Fourth, identify evidence quality and conflicts of interest. Fifth, state who can authorize changes and what new information triggers review. A positive NPV does not override legal duties, contractual commitments, or harm to others. Similarly, a project that fails a private financial return criterion may have explicitly chosen nonfinancial benefits; those should be separately justified rather than smuggled into inflated revenue assumptions.",
+                "secondExample": "Now contrast a workshop that must also build the distributor-style operating working-capital position of $21,000 immediately. If this is a genuinely additional commitment, the project cannot be assessed using the original $10,000-only cash schedule. Add the new dated outflow and model any supported recovery separately; do not assume the whole amount returns automatically. Alternatively, if the $4,000 receipts already include all working-capital changes, adding them again would double-count. The memo must resolve that definition before recalculating. This example shows why integrating lessons means reconciling assumptions, not simply stacking every previously calculated number into one spreadsheet.",
+                "mistake": "A common failure writes the review trigger as 'reconsider if things change.' That is not operational. Specify what evidence will be checked, when it becomes available, and who responds. Another failure anchors the review on recovering an original purchase price rather than changed future prospects. A decision made today should still compare future alternatives. Finally, avoid presenting a binary quiz score as proof of professional competence. Recognition questions can reveal misconceptions, but real financial work requires documentation, contextual judgment, calculation checks, and appropriate professional responsibilities beyond this bounded course level.",
+                "application": "Optional capstone: produce a one-page workshop memo and a short assumption table. Model response includes the base and two adverse NPVs, a clear cash-flow definition, evidence needed for collections and demand, a funding constraint, and a review trigger tied to actual signed orders or missed collection dates. Self-review rubric: the valuation is reconstructible; the alternative is explicit; liquidity is separated from profitability; uncertainty is visible; and the trigger names an observable event plus a response. If evidence is insufficient, a justified decision to defer or gather information is acceptable. Confidence is not a scoring criterion.",
+                "summary": "The transferable outcome is a transparent argument, not a perfect forecast. Preserve the original memo, compare actual cash flows with its dated assumptions, and explain revisions rather than silently replacing failed forecasts. Continue to the level assessment to combine project valuation, risk relationships, compounding, leverage, and decision controls in fresh scenarios. Completing this level represents a bounded extension of the course, not mastery of finance or authorization to provide professional advice. Further study should deepen financial statements, term structures, tax rules, and empirical estimation before applying more complex models."
+              },
+              "readings": [
+                {
+                  "title": "OpenStax, Principles of Finance — 20.1 The Importance of Risk Management — size, timing, risk, and firm value",
+                  "url": "https://openstax.org/books/principles-finance/pages/20-1-the-importance-of-risk-management",
+                  "note": "Read 20.1 The Importance of Risk Management — size, timing, risk, and firm value. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                }
+              ],
+              "visual": {
+                "title": "Build an auditable decision memo and a review rule — reasoning map",
+                "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
+                "steps": [
+                  "Base NPV $308.39; disclose the forecast assumptions",
+                  "Delay case −$455.20; lower-receipt case −$2,268.71",
+                  "Reconcile working capital and test dated funding feasibility",
+                  "Record evidence, decision owner, observable triggers, and review action"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-finance-26-a",
+              "prompt": "An analyst invents a tiny failure probability solely to keep a project’s expected value positive. What is the primary defect?",
+              "answer": "The probability lacks evidential justification",
+              "distractor": "Expected values should never include negative outcomes",
+              "correction": "Probabilities need a defensible basis; excluding or minimizing bad outcomes to reach a target is not analysis.",
+              "reviewLessonIds": [
+                "26"
+              ]
+            },
+            {
+              "id": "uq-finance-26-b",
+              "prompt": "A fund and its investor’s salary both depend on one export industry. What does a holdings-count report miss?",
+              "answer": "Shared economic exposure across investments and income",
+              "distractor": "An automatic guarantee that cash flows offset",
+              "correction": "Different legal containers can respond to the same shock. Look through holdings and employment to common drivers.",
+              "reviewLessonIds": [
+                "27"
+              ]
+            },
+            {
+              "id": "uq-finance-26-c",
+              "prompt": "A performance chart ignores withdrawals while claiming to prove a household’s spending plan worked. What additional evidence is essential?",
+              "answer": "Dated external flows and the resulting account balances",
+              "distractor": "Only the arithmetic average of annual returns",
+              "correction": "With withdrawals, the balance exposed to later returns depends on timing. A return chart alone does not reconstruct spending outcomes.",
+              "reviewLessonIds": [
+                "28"
+              ]
+            },
+            {
+              "id": "uq-finance-26-d",
+              "prompt": "A borrower has enough earnings to cover interest but must repay all principal next month. What remains unresolved?",
+              "answer": "Whether cash or committed funding can meet maturity",
+              "distractor": "Whether positive EBIT cancels the principal obligation",
+              "correction": "Principal is a contractual cash need omitted from a simple interest-coverage ratio.",
+              "reviewLessonIds": [
+                "29"
+              ]
+            },
+            {
+              "id": "uq-finance-26-e",
+              "prompt": "A memo deletes its downside case because a sponsor dislikes the result. What should an independent reviewer require?",
+              "answer": "Restore the adverse case and its assumptions",
+              "distractor": "Raise the forecast until every scenario is positive",
+              "correction": "A reviewable memo preserves material uncertainty rather than editing the evidence to fit a sales objective.",
+              "reviewLessonIds": [
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-finance-21-a",
+          "prompt": "A clinic’s equipment proposal has positive base NPV, but patients pay later during a downturn while payroll remains due. Which combined analysis is needed before approval?",
+          "answer": "Discount the delayed receipts and test the dated cash shortage",
+          "distractor": "Keep the base NPV and assume profitability supplies payroll cash",
+          "correction": "Collection delay reduces present value and can create a liquidity gap independently of long-run profitability. Rebuild the timeline and stress working-capital funding together.",
+          "reviewLessonIds": [
+            "21",
+            "22",
+            "25",
+            "26"
+          ]
+        },
+        {
+          "id": "lq-finance-21-b",
+          "prompt": "A manager models recession receipts in constant purchasing-power dollars, discounts at an inflation-inclusive rate, and assigns the recession a small unsupported probability. Which two defects need correction?",
+          "answer": "Match real cash flows with a real rate and justify the probability",
+          "distractor": "Increase the number of scenarios without changing either convention",
+          "correction": "Unit consistency and probability evidence are separate requirements. More scenarios do not cure a nominal-real mismatch or invented likelihoods.",
+          "reviewLessonIds": [
+            "23",
+            "26"
+          ]
+        },
+        {
+          "id": "lq-finance-21-c",
+          "prompt": "A promoter prefers a small high-IRR project over a larger lower-IRR alternative and plans to fund either with a balloon loan. What is a defensible review?",
+          "answer": "Compare feasible project NPVs and separately test principal maturity",
+          "distractor": "Choose the higher IRR because it proves repayment capacity",
+          "correction": "IRR may misrank different scales; even the higher-NPV feasible project can face a cash shortfall when principal falls due. Value and debt-service timing need separate tests.",
+          "reviewLessonIds": [
+            "22",
+            "24",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-finance-21-d",
+          "prompt": "An employee holds employer shares and a fund concentrated in the same industry, while using withdrawals to cover fixed expenses. Why is counting holdings insufficient?",
+          "answer": "Common income and investment shocks can coincide with forced withdrawals",
+          "distractor": "A diversified account label eliminates sequence risk",
+          "correction": "Look through holdings to shared economic drivers and test what happens when losses coincide with required withdrawals. Correlation-based diversification cannot by itself guarantee spending feasibility.",
+          "reviewLessonIds": [
+            "27",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-finance-21-e",
+          "prompt": "A proposal uses a repayment factor on gross borrowing as its annual cost and excludes the withheld origination fee. What should a decision memo require?",
+          "answer": "Net proceeds, every payment date, all relevant costs, and jurisdiction-specific disclosure checks",
+          "distractor": "Only a comparison of repayment factors from competing lenders",
+          "correction": "Gross face value is not usable proceeds, and a factor does not encode timing. Reconstruct dated cash flows before computing economic cost; do not casually label it a legal APR.",
+          "reviewLessonIds": [
+            "21",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-finance-21-f",
+          "prompt": "Two savings simulations use the same return sequence, but one takes withdrawals before each return and the other after it. Can their ending balances be compared as a pure investment-performance test?",
+          "answer": "No; first reconcile external-flow timing and the performance measure",
+          "distractor": "Yes; identical asset returns make all spending outcomes identical",
+          "correction": "External-flow timing changes exposed capital. Align the cash schedule and distinguish time-weighted investment performance from the investor’s cash-flow-dependent result.",
+          "reviewLessonIds": [
+            "21",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-finance-21-g",
+          "prompt": "A project ends with inventory and unpaid customer balances. The terminal valuation assumes full recovery, while the stress memo identifies likely collection disputes. What correction is necessary?",
+          "answer": "Reconcile terminal recoveries with collectability and timing scenarios",
+          "distractor": "Preserve full recovery because working capital is not an expense",
+          "correction": "Working capital may release cash at closure, but the amount and date depend on collection, sale proceeds, and remaining obligations. A balance-sheet label does not guarantee recovery.",
+          "reviewLessonIds": [
+            "22",
+            "25",
+            "26",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-finance-21-h",
+          "prompt": "A reviewer discounts already deflated project receipts at a nominal rate and then lowers that rate until NPV becomes positive. What is the sound response?",
+          "answer": "Repair units first, then defend the required return and report sensitivity",
+          "distractor": "Accept the resulting positive NPV as evidence that the chosen rate is correct",
+          "correction": "A rate selected to force acceptance is circular. Consistent units are necessary, but the opportunity-cost assumption still needs an independent argument and a sensitivity test.",
+          "reviewLessonIds": [
+            "22",
+            "23",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-finance-21-i",
+          "prompt": "A company borrows to hold assets that were weakly correlated in a calm historical sample. Its stress plan assumes the same correlations and automatic refinancing. What joint scenario is missing?",
+          "answer": "Co-movement can rise while funding becomes unavailable",
+          "distractor": "Low historical correlation guarantees creditors will renew loans",
+          "correction": "The portfolio model and financing model can fail together. Examine shared shocks, collateral liquidity, and principal obligations without assuming yesterday’s relationships or funding access persist.",
+          "reviewLessonIds": [
+            "26",
+            "27",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-finance-21-j",
+          "prompt": "A board can select only one indivisible project, and the highest NPV exceeds its funding limit. A sponsor proposes hiding the liquidity restriction from the memo. What should the analyst do?",
+          "answer": "Preserve the restriction and compare feasible alternatives transparently",
+          "distractor": "Select the unconstrained maximum and remove inconvenient evidence",
+          "correction": "NPV ranks modeled value within a defined decision set. Constraints define feasibility; an auditable memo must disclose them rather than manufacture approval by omission.",
+          "reviewLessonIds": [
+            "24",
+            "25",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-finance-21-k",
+          "prompt": "A fund advertisement pairs a positive arithmetic average return with a claim that regular withdrawals could not have depleted capital. Which evidence challenges that inference?",
+          "answer": "Compounded balances and the dates and amounts of withdrawals",
+          "distractor": "The average alone, provided it is calculated to enough decimals",
+          "correction": "Arithmetic means do not reconstruct compounded wealth, and withdrawals make return order consequential. A cash-flow ledger, not greater decimal precision, is needed to evaluate the claim.",
+          "reviewLessonIds": [
+            "26",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-finance-21-l",
+          "prompt": "A workshop memo records positive NPV and strong interest coverage but no collection evidence, maturity forecast, or review trigger. Is it ready for an unconditional decision?",
+          "answer": "No; verify receipts, test full debt service, and define an observable review rule",
+          "distractor": "Yes; value and coverage ratios jointly eliminate uncertainty",
+          "correction": "Positive modeled value and interest coverage leave cash timing, principal, and evidence quality unresolved. A decision process needs those checks and a trigger tied to actual observations, not a promise to watch conditions.",
+          "reviewLessonIds": [
+            "22",
+            "25",
+            "29",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

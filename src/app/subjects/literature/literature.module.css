@@ -1,0 +1,40 @@
+.room { color: #fff0fa; }
+.content { width: min(900px, calc(100% - 40px)); }
+.room p, .room li { font-size: 19px; font-weight: 600; line-height: 1.7; }
+.room h2 { font-size: clamp(27px, 5vw, 36px); line-height: 1.25; }
+.room h3 { margin-top: 30px; font-size: 24px; line-height: 1.35; }
+.room :global(.eyebrow) { font-size: 15px; line-height: 1.6; }
+.panel, .guide { margin: 38px 0; padding: 32px; border: 1px solid #dc94bb; border-radius: 16px; background: linear-gradient(135deg, #742650, #4a1939); }
+.guide { scroll-margin-top: 24px; }
+.guide > h2 { margin-bottom: 6px; }
+.byline { color: #ffd3e9; }
+.room a { color: #ffe2f2; text-decoration: underline; text-underline-offset: 4px; }
+.room a, .room summary { min-height: 48px; }
+.room a { display: inline-flex; flex-direction: column; justify-content: center; }
+.room a:focus-visible, .room button:focus-visible, .room textarea:focus-visible, .room summary:focus-visible { outline: 3px solid #fff; outline-offset: 5px; }
+.pathway li { padding: 16px 0; }
+.pathway p { margin: 4px 0; }
+.room li { margin-bottom: 12px; padding-left: 5px; }
+.room summary { cursor: pointer; padding: 12px 0; font-weight: 800; }
+.room details { border-block: 1px solid #bc7399; }
+.audio { margin-top: 32px; padding: 22px; border: 1px solid #dc94bb; border-radius: 12px; background: #431530; }
+.audio h3 { margin-top: 0; }
+.external { display: block; font-size: 16px; font-weight: 700; margin-top: 6px; }
+.back { margin-top: 24px; font-size: 18px; }
+.practice { margin-top: 30px; padding: 22px; border: 1px solid #dc94bb; border-radius: 12px; background: #431530; }
+.practice h3 { margin-top: 0; }
+.choices { display: grid; gap: 12px; margin-block: 20px; }
+.room button { min-height: 52px; padding: 14px 18px; border: 1px solid #ffc4e5; border-radius: 9px; background: #76244f; color: #fff4fa; font: inherit; font-size: 18px; font-weight: 700; text-align: left; }
+.room button:hover, .room button[aria-pressed="true"] { background: #a52d6c; }
+.room button:disabled { background: #4b263c; border-style: dashed; color: #e0c3d3; }
+.room textarea { display: block; width: 100%; min-height: 160px; margin: 12px 0 18px; padding: 14px; border-radius: 8px; border: 1px solid #ffc4e5; background: #321126; color: #fff4fa; font: inherit; font-size: 19px; line-height: 1.6; resize: vertical; }
+.feedback { border-left: 4px solid #ffb5dc; padding: 12px 16px; background: #632040; }
+.audio { min-width: 0; overflow-wrap: anywhere; }
+.audio label { display: block; font-size: 18px; font-weight: 800; margin-top: 18px; }
+.audio select { display: block; width: 100%; min-width: 0; min-height: 52px; margin-block: 8px 18px; padding: 12px 8px; border: 2px solid #ffc4e5; border-radius: 9px; background: #321126; color: #fff4fa; font: inherit; font-size: 18px; font-weight: 700; }
+.audio audio { display: block; width: 100%; min-width: 0; margin-block: 18px; }
+.audio input[type="range"] { display: block; width: 100%; min-height: 48px; accent-color: #ffa6d3; }
+.audio select:focus-visible, .audio input:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+.playerButtons { display: flex; flex-wrap: wrap; gap: 12px; margin-block: 18px; }
+.playerButtons button { flex: 1 1 180px; overflow-wrap: anywhere; }
+@media (max-width: 600px) { .panel, .guide { padding: 23px 19px; } .practice, .audio { padding: 18px 14px; } .room ul, .room ol { padding-left: 24px; } .room p, .room li { font-size: 18px; } }

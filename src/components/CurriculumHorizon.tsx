@@ -1,0 +1,12 @@
+const pathways = {
+  russian: ["Foundation: Cyrillic to practical A1", "Core: A2 conversation and everyday fluency", "Intermediate: B1 narration, media, and nuance", "Advanced: B2 argument, literature, and professional Russian", "Independent mastery: C1+ sustained reading and real-world use"],
+  neuroscience: ["Foundation: cells, circuits, and core brain systems", "Core: perception, movement, memory, and emotion", "Intermediate: systems neuroscience and experimental reasoning", "Advanced: clinical neuroscience, papers, and research methods", "Independent mastery: critically synthesize new evidence"],
+  "veterinary-science": ["Foundation: safe clinical observation and terminology", "Core: anatomy, physiology, diagnostics, and care", "Intermediate: species-specific clinical reasoning", "Advanced: case interpretation, pharmacology, and professional practice", "Independent mastery: vet-tech program readiness and lifelong learning"],
+  theology: ["Foundation: sources, doctrine, and theological reasoning", "Core: Scripture, sacraments, Christology, and moral life", "Intermediate: history, councils, and philosophical theology", "Advanced: primary texts, apologetics, and contested questions", "Independent mastery: charitable, rigorous theological synthesis"],
+  finance: ["Foundation: cash flow, credit, and personal financial systems", "Core: investing, risk, markets, and valuation", "Intermediate: financial statements, economics, and portfolio construction", "Advanced: critical research, tax-aware planning, and strategy", "Independent mastery: independent, ethical financial judgment"],
+  music: ["Foundation: rhythm, theory, first guitar and keyboard technique", "Core: chord vocabulary, scales, repertoire, and arrangement", "Intermediate: ear training, improvisation, sound design, and production", "Advanced: performance craft, mixing, songwriting, and creative direction", "Independent mastery: a personal artistic practice and finished body of work"],
+} as const;
+
+export function CurriculumHorizon({ subject }: { subject: keyof typeof pathways }) {
+  return <section className="curriculum-horizon" aria-labelledby={`${subject}-horizon-title`}><p className="eyebrow">Beyond the foundation</p><h2 id={`${subject}-horizon-title`}>Your expanding curriculum</h2><p>This department does not stop at beginner level. Each stage adds complexity, independence, and real-world application.</p><ol>{pathways[subject].map((stage, index) => <li key={stage}><span>Level {index + 1}</span><strong>{stage}</strong></li>)}</ol></section>;
+}

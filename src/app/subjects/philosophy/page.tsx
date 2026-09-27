@@ -1,0 +1,2 @@
+import {ProgramPath} from '@/components/Learning';
+export default function Page(){return <main className="subject-room-page"><article className="subject-room-content"><p className="eyebrow">Professor Citachka · Department</p><h1>Philosophy</h1><ProgramPath subject="philosophy"/><p>These lessons teach conceptual literacy and careful judgment. They do not establish a professional qualification.</p></article></main>;}

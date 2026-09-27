@@ -1,0 +1,651 @@
+{
+  "subject": "theology",
+  "levels": [
+    {
+      "title": "Reading Catholic Sources: Revelation, Worship, and Public Responsibility",
+      "units": [
+        {
+          "title": "Revelation and the Discipline of Interpretation",
+          "lessons": [
+            {
+              "id": "21",
+              "title": "Inspiration, human authorship, and what a text asserts",
+              "explanation": "Objective: explain why Catholic belief in biblical inspiration requires attention to human authors rather than bypassing it. Dei Verbum 11 describes the biblical writers as true authors using their powers and abilities; section 12 therefore directs interpreters to investigate literary forms and historical circumstances. The reasoning matters: if divine communication occurs through human language, understanding that communication requires understanding what the language does. A question, lament, remembered speech, and historical narrative make different kinds of assertions. Calling all of them inspired does not turn all of them into the same genre. Catholic teaching affirms Scripture's truth for the sake of salvation; the precise implications of that formulation must be studied with the surrounding account of authorship, not converted into either a blanket permission to disregard difficulties or a demand for modern technical prose. This is an account of Catholic doctrine, not an independently established experimental finding.[1]",
+              "example": "Read Romans 6:1–4. Paul opens by asking whether people should continue sinning so that grace may increase. An isolated quotation of the question could make him appear to recommend wrongdoing. First identify the speaker and argumentative form: Paul voices an objection to his account of grace. Next read his immediate rejection. Finally follow his reason: baptism into Christ's death is inconsistent with treating sin as a desirable strategy. The intended assertion emerges from the movement of the argument, not from treating every sentence as a stand-alone proposition he endorses. The USCCB note calls this a spirited diatribe, a rhetorical mode of disputation; that scholarly label helps describe the text but is not itself inspired Scripture.[7]",
+              "question": "Why does recognizing Paul's question as an objection matter?",
+              "answer": "It prevents attributing to Paul the position that his argument rejects.",
+              "distractor": "It permits removing any difficult sentence from the biblical canon.",
+              "correction": "The question's function is established by the reply and subsequent reasoning. Genre analysis identifies the assertion; it does not authorize deleting the text.",
+              "depth": {
+                "definitions": "Inspiration names the Catholic conviction that God acts through the human authors of Scripture. Exegesis is disciplined interpretation of a text. An assertion is what a speaker actually presents as the case, which is not identical to every proposition mentioned. Literary form is a recognizable mode of discourse with conventions that affect meaning. Historical criticism investigates human production and context; its findings must be argued from evidence rather than assumed either hostile or automatically conclusive.",
+                "mechanism": "Dei Verbum 12 coordinates two tasks rather than offering a choice between them. Historical and literary investigation asks what the writers expressed in their circumstances. Theological interpretation also attends to the unity of Scripture, the Church's living Tradition, and the coherence of faith. These are different constraints: a historical reconstruction may be plausible without exhausting a passage's ecclesial meaning, while an attractive spiritual application may fail if it contradicts the passage's actual words. Section 19 illustrates the combination by affirming the Gospels' historical character while acknowledging selection, synthesis, and explanation for particular churches. Selection does not logically entail fabrication, but neither does the conciliar affirmation independently settle every historical reconstruction. A historian must still examine sources and alternatives; a theologian must identify the additional commitment involved in accepting the council's account.[1]",
+                "secondExample": "Compare Romans 6:19 with its surrounding slave imagery. Paul explicitly signals that he is speaking in human terms and contrasts allegiance to sin with allegiance to righteousness. The immediate purpose is to explain competing allegiances, not to write a complete political ethics of slavery. That limited conclusion does not make the historical institution harmless or prove that every use of the metaphor is pastorally wise today. A modern teacher can explain the comparison, name its moral distance from a defense of ownership of persons, and avoid pretending the metaphor transfers every feature of the institution into the relation with God.[7]",
+                "mistake": "A recurring mistake is to suppose that literal meaning means the most physically concrete interpretation available. In a rhetorical question, the literal communicative meaning includes its interrogative role. Diagnose the error by asking what the next sentence does. If it rejects the proposed statement, reading that statement as the author's teaching is less literal in the relevant interpretive sense, not more faithful.",
+                "application": "Optional practice: annotate Romans 6:1–4 in four sentences: objection, reply, theological premise, practical implication. Model response: Paul raises a misuse of grace; he rejects it; baptism joins believers to Christ's death; their conduct should express new life rather than cultivate sin. Self-review: locate each move in a verse, distinguish the text from the editorial note, and state that participation in Christ is a theological claim. Revise any sentence that assumes the passage supplies a laboratory demonstration of sacramental effects.",
+                "summary": "Read for the act performed by the words before deciding what they affirm. Historical inquiry and Catholic theological reading overlap without becoming identical. The next lesson asks how the writings being interpreted belong to a received canon and a living community rather than a self-explaining collection of isolated quotations."
+              },
+              "readings": [
+                {
+                  "title": "[1] Dei Verbum 11–12 and 19",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+                  "note": "Read the numbered sections on true authors, literary forms, and Gospel composition. Official English conciliar text; paragraph numbers, not page position, locate the assignment."
+                },
+                {
+                  "title": "[7] Romans 6:1–4, 19",
+                  "url": "https://bible.usccb.org/bible/romans/6",
+                  "note": "Read Paul's argument and then the separate editorial notes. The NABRE translation and scholarly annotations have different statuses."
+                }
+              ],
+              "visual": {
+                "title": "From sentence to intended assertion",
+                "description": "A reasoning sequence separates a voiced objection from Paul's endorsed conclusion.",
+                "steps": [
+                  "Romans 6:1: proposed misuse of grace",
+                  "Romans 6:2: explicit rejection",
+                  "Romans 6:3–4: baptismal premise and new-life conclusion"
+                ]
+              }
+            },
+            {
+              "id": "22",
+              "title": "Canon, Tradition, and the teaching office as distinct relations",
+              "explanation": "Objective: construct a map of Scripture, Tradition, and the magisterium without treating them as three competing sources of new revelation. Dei Verbum 8–10 presents apostolic Tradition as the transmission of faith through the Church's teaching, life, and worship. Scripture is the written word under inspiration; the teaching office has the responsibility of authentic interpretation and is explicitly described as serving, not standing above, the word of God. The council also connects recognition of the full canon with Tradition. These claims give an internal Catholic account of how a community receives and interprets revelation. They are not a compressed historical proof that every dispute about every biblical book was immediately settled. Distinguishing a theological account of authority from a historical reconstruction of recognition allows each question to receive the evidence it needs.[1]",
+              "example": "Imagine a discussion in which one reader says that because a bishop interprets Scripture, the bishop can make any new book part of revelation by personal preference. Identify the invalid step. Interpretive authority is being confused with authorship of the deposit it interprets. In Dei Verbum 10 the office listens, guards, and explains what has been handed on; it does not create revelation at will. A better diagram has a received deposit and an office responsible to it, not an official above the deposit manufacturing its content. This does not by itself resolve every difficult boundary case. It establishes the kind of authority the source claims and therefore the kind of argument a proposed exercise of that authority would require.[1]",
+              "question": "Which relationship best represents Dei Verbum 10?",
+              "answer": "The teaching office serves and interprets the received word of God.",
+              "distractor": "The teaching office creates new revelation whenever an interpreter prefers it.",
+              "correction": "Authentic interpretation is an authorized responsibility toward a received deposit, not a license to replace its source.",
+              "depth": {
+                "definitions": "Canon means the recognized collection of sacred books. Deposit of faith names the received apostolic heritage, not a financial holding or a warehouse of unrelated sentences. Magisterium means the Church's teaching office. Tradition with a capital letter refers here to apostolic transmission; traditions in an ordinary sense include practices of varying age and authority. Reception is a community's recognition and appropriation of teaching, not necessarily a simple vote that creates truth.",
+                "mechanism": "The Catholic argument is relational. Written texts require transmission, recognition, and interpretation; a community cannot actually read a canon without receiving some account of which writings belong to it. Yet this historical dependence does not logically mean that the community can make every interpretation equally valid. Dei Verbum joins Scripture and Tradition in one deposit and assigns the teaching office a distinctive interpretive task. An external critic may question whether the claimed commission is warranted; an internal Catholic analysis asks whether a particular interpretation faithfully serves what was received. Keep those disputes separate. Quoting a document that asserts authority establishes that the Church makes the claim, not that a person who rejects its premises has thereby been persuaded. Conversely, describing the social transmission of a text does not itself disprove its inspiration.[1]",
+                "secondExample": "Read 1 Corinthians 11:23–26 as a transmission passage. Paul distinguishes receiving a tradition and handing it on, then gives an account of the supper and its continuing proclamation. This provides textual evidence that transmission belongs to the passage's own self-presentation. It does not furnish a complete list of New Testament books, a chronology of every stage of canon formation, or a proof that every later local meal custom is apostolic. A historian may investigate the passage's sources; a theologian may connect it to the Church's account of Tradition. Both should identify where the textual observation ends and the larger explanatory framework begins.[6]",
+                "mistake": "Do not use a circular slogan as though it were a complete argument: the authority is correct because its text says it is authoritative. Internal coherence and external justification are different achievements. A Catholic learner may accept the doctrinal framework in faith while still explaining it honestly to someone who does not. A critic should likewise address the actual claim about service to revelation rather than a caricature of unlimited institutional invention.",
+                "application": "Optional practice: classify a parish's annual food festival, Paul's handed-on supper tradition, and a bishop's explanation of that tradition. Model: the festival is a local custom unless additional evidence establishes more; Paul's passage presents received apostolic teaching; the bishop exercises a teaching role whose authority and fidelity require contextual assessment. Self-review: give a reason for each classification, avoid deriving authority merely from age, and name one historical question that the conciliar text alone cannot answer. A strong response asks for historical evidence of the festival's origin rather than announcing an invented apostolic pedigree.",
+                "summary": "Transmission, written witness, and authorized interpretation are connected but not interchangeable. This map guards against both institutional invention and isolated proof-texting. Next, examine how even authentic ecclesial teaching has differentiated modes and scopes rather than a single undifferentiated level of authority."
+              },
+              "readings": [
+                {
+                  "title": "[1] Dei Verbum 7–10",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+                  "note": "Concentrate on section 8's canon statement and section 10's account of the teaching office as service. This is a theological primary source, not a full documentary history of canon formation."
+                },
+                {
+                  "title": "[6] 1 Corinthians 11:23–26",
+                  "url": "https://bible.usccb.org/bible/1corinthians/11",
+                  "note": "Identify the verbs of receiving, handing on, repeating, and proclaiming; do not infer a complete canon history from this passage."
+                }
+              ],
+              "visual": {
+                "title": "A received deposit and its service",
+                "description": "The sequence shows connected functions rather than a ladder on which officials stand above revelation.",
+                "steps": [
+                  "Apostolic heritage: received faith",
+                  "Scripture and Tradition: related modes of transmission",
+                  "Teaching office: listening, guarding, and explaining"
+                ]
+              }
+            },
+            {
+              "id": "23",
+              "title": "Infallibility, religious assent, and the scope of a teaching act",
+              "explanation": "Objective: evaluate a claim about ecclesial authority by identifying speaker, subject, intended audience, and mode of teaching. Lumen Gentium 25 distinguishes bishops' authentic teaching, the pope's non-definitive teaching, and specified exercises of infallibility. It does not attribute inerrancy to every remark by a church official. Equally, it does not say that a teaching lacks all authority unless it is an infallible definition. The document speaks of religious assent in contexts outside definitive proclamation and tells readers to attend to a document's character, repeated teaching, and manner of expression. This is Catholic doctrine about ecclesial authority; establishing that doctrine's content is different from establishing that every historical exercise of authority was prudent or every Catholic has understood it identically.[2]",
+              "example": "Consider an invented report: a bishop says a proposed parish building will certainly finish before winter, so Catholics must accept the forecast as infallible. Begin with subject matter: a construction forecast concerns contingent scheduling, not a definition of faith or morals. Next identify the speaker: an individual bishop does not possess the prerogative of infallibility simply as an isolated individual, according to Lumen Gentium 25. Finally identify the act: this is a prediction, not an intended definitive proclamation for the universal Church. The claim fails multiple conditions. You may respect the bishop's office while asking the contractor for evidence. The failure of this forecast would not logically refute every theological claim associated with that office.[2]",
+              "question": "What is the sound first step when someone calls an official statement infallible?",
+              "answer": "Identify its speaker, subject, scope, and intended mode of teaching.",
+              "distractor": "Assume every statement by any ordained person has identical authority.",
+              "correction": "Lumen Gentium 25 supplies differentiated conditions; office alone does not make every speech act an infallible definition.",
+              "depth": {
+                "definitions": "Infallibility is the Catholic claim of protection from error in specified definitive teaching, not universal factual expertise. Impeccability would mean inability to sin; it is a different concept and is not conferred by this doctrine. Ex cathedra describes a particular exercise of the pope's universal teaching office, not merely speech delivered from a chair. Religious assent concerns a serious reception of authentic teaching even where the mode is not a definitive definition. Prudential judgment applies principles to circumstances that can include uncertain empirical information.",
+                "mechanism": "The argument must avoid two symmetrical errors. Expanding infallibility to every remark makes a bounded doctrinal claim unlimited. Restricting all authority to infallibility deletes the source's account of non-definitive teaching. Lumen Gentium 25 also locates infallible teaching in the episcopal college, including bishops dispersed in the world when the specified conditions of communion and agreement on a definitively held teaching are met. Therefore absence of a new solemn ceremony does not alone demonstrate absence of definitive authority. Conversely, mere repetition of a slogan on social media cannot establish those conditions. Careful assessment needs the actual teaching texts and their context. This lesson supplies a reading method, not an exhaustive classification of every Catholic doctrine or a shortcut for deciding disputed theological notes.[2]",
+                "secondExample": "Imagine an authentic teaching document that expounds a moral principle without presenting a new definitive definition, followed by a journalist's proposed tax rate for applying that principle. The principle's authority and the journalist's policy proposal cannot be transferred to each other automatically. One can take the moral teaching seriously while investigating whether the proposed rate actually benefits those it claims to help. Nor does uncertainty about the policy justify treating the principle as meaningless. State what each claim is about, who makes it, and what evidence it needs. This preserves both theological responsibility and the independent factual work required for public policy.",
+                "mistake": "A damaging confusion treats protection of teaching as protection from institutional accountability. Lumen Gentium 8 explicitly describes a Church that includes sinners and needs purification. Its language of holiness cannot establish that a particular official acted justly. The right diagnostic question is whether the disputed claim concerns doctrinal definition, personal conduct, administration, or a factual allegation. These may interact, but one category's theological description cannot decide another category's evidence in advance.[2]",
+                "application": "Optional practice: write a short assessment of an invented headline, 'Council's authority proves every administrator is trustworthy.' Model: a council's doctrinal authority does not imply personal impeccability; Lumen Gentium 8 recognizes ongoing purification; particular allegations require investigation and protection of those harmed. Self-review: distinguish teaching from conduct, cite both sections 8 and 25, and avoid the opposite overclaim that misconduct logically disproves every doctrine. An excellent response explains why refusing that inference does not excuse wrongdoing.",
+                "summary": "Authority has an object, scope, and mode. Correctly identifying them is a prerequisite to both assent and criticism. Keep moral accountability visible while reading doctrinal claims precisely. Next, apply similar care to the relationship between earlier biblical events and later Christian interpretation."
+              },
+              "readings": [
+                {
+                  "title": "[2] Lumen Gentium 8 and 25",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html",
+                  "note": "Read all of section 25, including ordinary teaching and the conditions of definitive teaching; pair it with section 8 on purification. Do not treat this assignment as a complete taxonomy of theological assent."
+                }
+              ],
+              "visual": {
+                "title": "Classifying an ecclesial statement",
+                "description": "Four questions distinguish a teaching act from a prediction or an administrative action.",
+                "steps": [
+                  "Who speaks, and to whom?",
+                  "What is the subject: doctrine, conduct, or factual prediction?",
+                  "What mode and intention does the actual document establish?",
+                  "What response and independent evidence fit that scope?"
+                ]
+              }
+            },
+            {
+              "id": "24",
+              "title": "Typology without erasing Israel or the literal sense",
+              "explanation": "Objective: explain a Christian typological reading while preserving the earlier text's historical and literary integrity. Typology relates earlier persons, events, or institutions to later realities in a theological pattern. Dei Verbum 15–16 describes an ordered relationship between the Testaments and insists on reverent reception of the Old Testament. That is a Catholic interpretive commitment, not a claim that an ancient author consciously possessed every later Christian formulation. The distinction matters because a Christian reader can affirm fulfillment in Christ without pretending that Jewish interpretation has no intelligible basis or that Israel's texts are disposable once a later reading appears. A good typological argument identifies its textual anchor, the relation it proposes, and the theological premise that licenses the relation.[1]",
+              "example": "Read 1 Corinthians 10:1–12. Paul draws on the sea crossing, food, drink, and wilderness failures to warn a Christian audience against overconfidence. First observe the repeated participation of the ancestors in shared gifts. Then observe the contrast: shared gifts did not make subsequent wrongdoing harmless. Finally identify Paul's application to his readers: those who suppose themselves secure should take care. His comparison thus functions as moral warning, not merely as a code in which every ancient object secretly names a later sacrament. Within his theological reading, earlier events illuminate the responsibilities of a later community. The directly observable literary conclusion is that Paul uses the earlier material this way; acceptance of the providential pattern is a further theological judgment.[8]",
+              "question": "What constrains a responsible typological reading?",
+              "answer": "Textual relationships, the earlier context, and an explicit theological account of fulfillment.",
+              "distractor": "Any resemblance a reader finds interesting, regardless of either passage's argument.",
+              "correction": "Typology is not free association. The relationship must explain textual details and disclose its theological premises.",
+              "depth": {
+                "definitions": "A type is an earlier reality understood to prefigure a later one; an antitype is the corresponding later fulfillment, not an enemy of the type. The literal sense concerns what a text communicates through its actual forms and context. A spiritual reading relates that meaning to a broader theological pattern. Supersessionism is used in scholarship for different accounts of the Church's relation to Israel; because the term covers varying claims, specify whether a proposal denies Israel's continuing significance, erases Jewish agency, or makes a narrower claim about Christian fulfillment.",
+                "mechanism": "The reasoning has three layers. A textual layer identifies the earlier narrative and the later reuse. An interpretive layer explains similarities and transformations: in Paul's passage, common gifts and the possibility of unfaithfulness structure the comparison. A doctrinal layer accepts divine providence and unity across Scripture. Confusing these layers produces false historical claims, such as announcing that the earlier writer explicitly intended every later sacramental concept. Refusing to confuse them need not abolish theology; it makes theology's premises visible. Nostra Aetate 4 supplies a further Catholic boundary: Jews are not to be presented as rejected or accursed by God as though Scripture warranted that conclusion. A reading that turns Christian fulfillment into inherited collective condemnation violates this boundary rather than merely expressing vigorous typology.[1][4][8]",
+                "secondExample": "Suppose a reader says that Paul's warning establishes Christian moral superiority over all Jewish people. The application reverses the argument. Paul uses the ancestors' failures to unsettle the confidence of his present audience, not to grant them immunity. His warning that apparently secure people may fall blocks the proposed boast. Compare this with a responsible application: participation in sacred rites does not excuse exploitation or idolatry. That conclusion follows the passage's direction toward self-examination. It still does not license diagnosing any contemporary person's misfortune as divine punishment, a different claim for which the comparison supplies no reliable individual evidence.[8]",
+                "mistake": "Do not confuse a theological claim of fulfillment with cancellation of a source's meaning. If the sea crossing becomes only a puzzle clue about Christians, its place in Israel's story disappears. If every later theological reading is banned merely because it is later, the actual interpretive activity of Paul also disappears from view. The corrective is a layered account that allows later reception to be studied without making it identical to original human intention.",
+                "application": "Optional practice: produce a three-column annotation of 1 Corinthians 10:1–12: earlier event, Paul's comparison, limit of the inference. Model: shared passage through the sea; comparison with communal initiation; not proof that initiation guarantees moral fidelity. Self-review: include a verse locator, explain the warning against overconfidence, and explicitly reject collective condemnation of Jews. For a stronger response, state how a Jewish reader could understand the earlier narrative without accepting Paul's christological premise, while describing that premise accurately.",
+                "summary": "Typology argues for relations across Scripture; it need not flatten time, genre, or communities into a single voice. Its discipline is to preserve what is being related and identify why the relationship is proposed. The next lesson examines an analogous problem in doctrinal development: continuity need not mean repetition without new articulation."
+              },
+              "readings": [
+                {
+                  "title": "[8] 1 Corinthians 10:1–12",
+                  "url": "https://bible.usccb.org/bible/1corinthians/10",
+                  "note": "Read the full warning against overconfidence. Focus on the structure of comparison rather than extracting isolated symbols."
+                },
+                {
+                  "title": "[1] Dei Verbum 14–16",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+                  "note": "Locate permanent value, preparation, and mutual illumination of the Testaments."
+                },
+                {
+                  "title": "[4] Nostra Aetate 4",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_nostra-aetate_en.html",
+                  "note": "Use the rejection of collective blame and divine rejection as boundaries on Christian application."
+                }
+              ],
+              "visual": {
+                "title": "Three layers of typological reasoning",
+                "description": "Earlier context remains visible as later comparison and theological interpretation are added.",
+                "steps": [
+                  "Israel's narrative: gifts and responsibility",
+                  "Paul's reuse: warning the Corinthian community",
+                  "Catholic theological reading: providential relation, not erased context",
+                  "Boundary: no collective condemnation of Jews"
+                ]
+              }
+            },
+            {
+              "id": "25",
+              "title": "Doctrinal development and the burden of showing continuity",
+              "explanation": "Objective: distinguish development of understanding from either arbitrary innovation or a denial of historical change. Dei Verbum 8 speaks of growth in understanding through believers' study, spiritual experience, and episcopal preaching. Development therefore need not mean adding a new public revelation; it can mean articulating implications of the received faith in response to a question not previously formulated in the same terms. Nevertheless, merely labeling a proposal development does not prove that it is faithful. One must identify the inherited commitment, the new question, the proposed formulation, and the reasons for continuity. This lesson uses religious freedom as a bounded case, without pretending that a few paragraphs settle the full history of Catholic relations with political authority.[1]",
+              "example": "Read Dignitatis Humanae 9 alongside section 2. Section 9 explicitly acknowledges that revelation does not state the civil right to immunity from religious coercion in those exact terms. It then appeals to human dignity and the character of faith as the basis for developing the claim. Section 2 formulates immunity from coercion, including for persons who fail to fulfill the duty to seek truth, within the demands of just public order. The reasoning is not 'the exact modern sentence already appears verbatim in Scripture.' It is that a civil-rights formulation can express implications of deeper commitments. Whether that bridge succeeds is the theological argument to examine, not a question solved by pointing to the new vocabulary alone.[5]",
+              "question": "What must an argument for development show beyond the existence of a new formulation?",
+              "answer": "How the formulation relates to received commitments and addresses a specified new question.",
+              "distractor": "That every later formulation is true simply because it is later.",
+              "correction": "Chronology neither establishes fidelity nor refutes it. Development requires a reasoned continuity claim.",
+              "depth": {
+                "definitions": "Development is growth in understanding or articulation claimed to remain faithful to received revelation. Innovation can mean mere novelty, but the theological worry is an alteration incompatible with what is received; do not slide between these senses. Continuity concerns an intelligible relationship across change, not identity of every word. A historical explanation asks how and why a position emerged. A theological justification asks whether that position is warranted within the faith's sources and principles.",
+                "mechanism": "Build the argument stepwise. First, identify the starting conviction: faith is a free response and persons have dignity. Second, identify the social question: what may governments or groups force people to do about religion? Third, distinguish truth from coercion: a claim that a belief is false does not by itself give another person permission to compel a profession of faith. Fourth, derive and test a civil immunity compatible with moral responsibility and just public order. Dignitatis Humanae 1–3 makes these distinctions rather than saying religious truth is irrelevant. Section 12 also acknowledges behavior among the People of God that was contrary to the Gospel's spirit. A responsible reader cannot use the document's continuity claim as proof that Catholic institutions always practiced the principle consistently. That separate historical question requires separate documentation.[5]",
+                "secondExample": "Contrast a vocabulary change with a substantive contradiction. Suppose an invented catechetical text replaces a dated phrase about personal dignity with clearer contemporary language but retains the same claim about persons' worth. Wording changes without necessarily changing the proposition. Now suppose another text makes worth depend entirely on wealth. Even if it preserves familiar religious vocabulary, it changes the underlying claim. The lesson is methodological: evaluate commitments and implications, not just verbal similarity. Actual doctrinal comparisons need the original texts, their audiences, and their contexts; these invented examples demonstrate a distinction rather than prove the continuity of a particular controversial teaching.",
+                "mistake": "Two shortcuts prevent investigation: 'nothing changed because the Church says it is continuous' and 'everything new is necessarily a betrayal.' The former treats a doctrinal self-description as a complete social history. The latter equates historical novelty of formulation with contradiction. Diagnose either by requesting the earlier proposition and the later proposition in context. If those cannot be supplied, the argument is not yet ready to establish identity or incompatibility.",
+                "application": "Optional practice: write a short development brief on religious freedom using Dignitatis Humanae 2, 9, and 12. Model: the council formulates civil immunity by reasoning from dignity and free faith; it admits the civil formula is not stated word for word in revelation; it also acknowledges failures in Christian conduct. Self-review: separate doctrinal justification from historical consistency, name the just-public-order qualification, and leave open historical questions that require older documents. A strong brief does not invent an earlier council's position to make the comparison easier.",
+                "summary": "Development is a claim to reasoned continuity, not a synonym for either progress or corruption. Its evaluation requires located propositions and explicit bridges. At the unit boundary, review how inspiration, transmission, teaching authority, and interpretation constrain theological argument. The next unit tests those methods in sacramental life and public relationships."
+              },
+              "readings": [
+                {
+                  "title": "[1] Dei Verbum 8",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html",
+                  "note": "Read the specified ways understanding grows; distinguish growth from a new deposit of revelation."
+                },
+                {
+                  "title": "[5] Dignitatis Humanae 1–3, 9, 12",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651207_dignitatis-humanae_en.html",
+                  "note": "Compare civil immunity, biblical roots, and the admission of contrary conduct. This reading does not supply the complete earlier political history."
+                }
+              ],
+              "visual": {
+                "title": "Testing a development claim",
+                "description": "The sequence distinguishes new formulation from a justified continuity argument.",
+                "steps": [
+                  "Received commitments: dignity and free faith",
+                  "Newly specified question: civil coercion",
+                  "Proposed implication: religious immunity within just limits",
+                  "Two tests: theological continuity and historical practice"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-21-a",
+              "prompt": "A commentary prints Paul's opening objection in Romans 6 as his final advice. What correction addresses the source rather than merely expressing disagreement?",
+              "answer": "Read the rejection and baptismal reasoning that determine the question's argumentative role.",
+              "distractor": "Dismiss the whole chapter because a rhetorical question cannot be inspired.",
+              "correction": "The error concerns the function of a sentence within an argument, not whether the chapter can belong to Scripture.",
+              "reviewLessonIds": [
+                "21"
+              ]
+            },
+            {
+              "id": "uq-21-b",
+              "prompt": "A parish claims its festival belongs to the apostolic deposit because it is locally ancient. What additional distinction is necessary?",
+              "answer": "A local custom's age differs from evidence that it transmits apostolic faith.",
+              "distractor": "Anything celebrated before a living person's birth has canonical status.",
+              "correction": "Dei Verbum describes apostolic transmission, not automatic doctrinal elevation of every inherited custom.",
+              "reviewLessonIds": [
+                "22"
+              ]
+            },
+            {
+              "id": "uq-21-c",
+              "prompt": "An article says a teaching is irrelevant unless a pope has just issued an ex cathedra definition. Which source-based reply is best?",
+              "answer": "Lumen Gentium 25 recognizes authoritative non-definitive teaching and other specified modes of definitive teaching.",
+              "distractor": "The article is right because only new solemn declarations can carry any authority.",
+              "correction": "The source distinguishes religious assent from definitive definition and includes the episcopal college; the article deletes these distinctions.",
+              "reviewLessonIds": [
+                "23"
+              ]
+            },
+            {
+              "id": "uq-21-d",
+              "prompt": "A lesson on the wilderness story concludes that baptized Christians can no longer fail morally. How does Paul's comparison challenge that conclusion?",
+              "answer": "Shared sacred gifts precede a warning against overconfidence and wrongdoing.",
+              "distractor": "The comparison establishes that later communities are immune to the failures of earlier ones.",
+              "correction": "Paul transfers a warning to his audience; he does not use typology to grant automatic immunity.",
+              "reviewLessonIds": [
+                "24"
+              ]
+            },
+            {
+              "id": "uq-21-e",
+              "prompt": "A student calls religious freedom a fabricated teaching because its civil-rights wording is not a biblical quotation. What question should replace that shortcut?",
+              "answer": "Does the proposed civil immunity follow coherently from dignity, free faith, and the received sources?",
+              "distractor": "Can the student find any older word that sounds like the modern term?",
+              "correction": "Development is tested by a substantive relation between commitments, not the age or surface resemblance of individual words.",
+              "reviewLessonIds": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sacramental Participation and Responsibility toward Others",
+          "lessons": [
+            {
+              "id": "26",
+              "title": "Baptismal participation: gift, identity, and moral response",
+              "explanation": "Objective: reconstruct the movement from baptismal participation to ethical responsibility in Romans 6 without making grace either a reward or an excuse. Paul links baptism with Christ's death and new life, then tells believers not to let sin reign in their mortal bodies. The order matters: a received relation grounds a summons to act; the summons does not purchase the relation by moral achievement. Catholic sacramental theology reads this passage as more than an illustration of a private decision. Yet its claims about participation in Christ are theological, not effects that a historian can directly measure. A scholar can analyze Paul's language and argument; accepting its account of salvation involves commitments beyond describing the document. The lesson therefore asks what follows within the argument before asking how conduct might express it.[7]",
+              "example": "Suppose a baptized person reasons that any later injustice is unimportant because baptism has already joined them to Christ. Read Romans 6:3–4 and then 6:12–14. First identify the theological premise: participation in Christ's death is directed toward new life. Next identify the imperative: believers must not submit their bodies to sin. Finally test the proposed conclusion. Permission to continue injustice contradicts the conduct the passage derives from its premise. The mistake is not believing too strongly in grace; it is severing grace from the transformed allegiance that Paul describes. A practical response is to name the harm, stop the conduct, and make appropriate repair, without pretending that a course exercise can determine a person's full culpability or spiritual condition.[7]",
+              "question": "What is the logical role of the moral commands after Paul's baptismal description?",
+              "answer": "They specify the conduct fitting the new life received, rather than a price paid to buy it.",
+              "distractor": "They cancel the language of gift and make baptism a wage for flawless performance.",
+              "correction": "Paul moves from participation and grace to responsibility; neither automatic moral immunity nor earned divine favor represents that sequence.",
+              "depth": {
+                "definitions": "Baptismal participation means sharing in Christ's death and risen life within Paul's theological account. An indicative states what is the case; an imperative calls for action. These grammatical categories help trace the passage but do not alone settle theology. Sanctification means being made holy and living toward that end. Moral agency concerns action, reasons, and responsibility; its presence does not imply that someone creates divine grace independently of God.",
+                "mechanism": "Romans 6 uses a past event, present allegiance, and future hope together. Paul speaks of having been buried with Christ, of presenting oneself to God now, and of future life with Christ. Flattening these temporal dimensions produces errors. If the future fullness is treated as already empirically complete, continuing struggle becomes inexplicable. If present responsibility disappears into future hope, Paul's commands lose their point. Sacrosanctum Concilium 59 adds a Catholic sacramental framework: sacraments sanctify, build up Christ's body, and instruct through words and objects; they both presuppose and nourish faith. This joins gift and formation without reducing the sacrament to a lesson plan. Neither source offers a numerical index of someone's grace, and neither permits a teacher to infer inward holiness simply from visible attendance.[3][7]",
+                "secondExample": "Consider a learner who struggles to change an established harmful habit and concludes that the struggle proves all talk of new life is false. Romans 6's continuing exhortations already presume that conduct requires attention. The existence of an imperative would be strange if every baptized person automatically acted well without deliberation. That textual observation does not prove every theological claim about baptism, but it defeats the narrower claim that the passage promises effortless perfection. A more careful response distinguishes sacramental identity, the process of moral formation, and the actual consequences of a particular action. Spiritual language should not replace practical support, accountability, or professional care when those are needed.[7]",
+                "mistake": "Do not turn Paul's slavery metaphor into approval of human ownership or into a demand that believers obey every human authority without limits. Romans 6:19 marks the analogy as human language used to clarify allegiance. An analogy selects a relation; it does not import all features of its social source. When teaching this passage, explicitly name the limit rather than expecting learners to intuit it, especially where obedience language has been used to excuse abuse.[7]",
+                "application": "Optional practice: write an argument map with four entries: received gift, new identity, present responsibility, and rejected shortcut. Model: grace received; participation in Christ; refusal to present one's body to wrongdoing; neither buying salvation nor using baptism as immunity. Self-review: cite one passage for the identity and another for the imperative, preserve the future dimension, and avoid diagnosing any individual's standing before God. For transfer, propose a concrete act of repair after an injustice and explain why it expresses responsibility rather than purchases grace.",
+                "summary": "Paul's account does not make gift and agency competitors. A received participation calls for a lived response while remaining grounded in grace. Keep the textual argument distinct from a clinical or empirical claim about automatic transformation. Next, examine how another sacramental passage connects worship with the treatment of vulnerable members of an actual community."
+              },
+              "readings": [
+                {
+                  "title": "[7] Romans 6:1–23",
+                  "url": "https://bible.usccb.org/bible/romans/6",
+                  "note": "Read the whole chapter, marking past participation, present commands, and future hope. Separate Paul's wording from the explanatory notes."
+                },
+                {
+                  "title": "[3] Sacrosanctum Concilium 59",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+                  "note": "Read the statement about sacraments sanctifying, building up the body, and instructing; this gives the specifically Catholic framework."
+                }
+              ],
+              "visual": {
+                "title": "Gift does not abolish response",
+                "description": "A sequence distinguishes participation, moral action, and future fulfillment without presenting grace as a transaction.",
+                "steps": [
+                  "Received: baptism into Christ's death",
+                  "Present: walk in newness of life",
+                  "Responsibility: do not let sin reign",
+                  "Hope: life with Christ, not automatic present perfection"
+                ]
+              }
+            },
+            {
+              "id": "27",
+              "title": "The Eucharist, memorial, and the divided Corinthian meal",
+              "explanation": "Objective: explain why Paul's account of the Lord's Supper belongs inside an argument about division and humiliation. In 1 Corinthians 11:17–34, some go hungry while others have more than enough, and Paul rebukes conduct that shames those who have nothing. He then recounts the received supper tradition and directs the community toward examination and waiting for one another. Treating the institution narrative as unrelated to the surrounding rebuke loses the argumentative setting. Catholic teaching in Sacrosanctum Concilium 47 describes the Eucharist as the memorial of Christ's death and resurrection and the perpetuation of the sacrifice of the cross. The council's sacramental claim and Paul's criticism of social division are related without being interchangeable: neither reduces the Eucharist to ordinary hospitality, and neither makes exploitation irrelevant to worship.[3][6]",
+              "example": "Imagine a commentary that carefully explains the words over bread and cup but omits verses 17–22 and 33–34. It then claims Paul's only concern is an individual's inward feeling of reverence. Test the scope. The beginning identifies divisions and humiliation of the poor. The ending tells the gathered believers to wait for one another. The intervening tradition must be read in that argumentative frame. Personal examination remains present, but the text does not confine examination to private emotion. A stronger interpretation asks how a meal proclaiming Christ's self-giving is contradicted when participants shame their neighbors. The relation between proclamation and conduct is the reasoning bridge, not an invented psychological biography of every Corinthian participant.[6]",
+              "question": "What does the surrounding meal dispute contribute to reading the institution narrative?",
+              "answer": "It shows that the community's treatment of one another belongs to Paul's Eucharistic argument.",
+              "distractor": "It proves Paul has no interest in Christ's body, blood, or self-giving.",
+              "correction": "Social conduct and sacramental proclamation are joined in the passage; highlighting one does not require deleting the other.",
+              "depth": {
+                "definitions": "Memorial in this Catholic context is a liturgical remembrance of Christ's saving act, not merely an individual's mental recollection. Eucharist names the sacrament of Christ's body and blood within Catholic doctrine. Proclamation announces and bears witness to a reality; in 1 Corinthians 11:26, eating and drinking proclaim the Lord's death until he comes. Sacrifice in the conciliar account concerns Christ's self-offering, not a claim that Christians should seek new violence. Discernment is attentive judgment about what the action means and requires.[3][6]",
+                "mechanism": "Track three temporal relations. The tradition refers to Jesus' supper before his death. The community repeats the commanded action in the present. Its proclamation looks toward his coming. Sacrosanctum Concilium 47 places memorial, sacrifice, unity, charity, and future glory together. Calling the Eucharist a memorial therefore does not, in this doctrinal setting, negate sacramental efficacy. Equally, the council's teaching must not be presented as a conclusion that historical analysis of a single Greek word compels every reader to accept. Paul provides an early textual witness to the community's proclamation; the conciliar document articulates Catholic reception. Whether a particular interpretation of discerning the body emphasizes Eucharistic presence, ecclesial unity, or their relation must be argued with the context, rather than resolved by suppressing competing evidence.[3][6]",
+                "secondExample": "Suppose a parish meal associated with a celebration gives honored guests comfortable tables while excluding people unable to donate. This is an invented contemporary analogy, not a reconstruction of all details at Corinth. The pertinent similarity is public humiliation based on resources, which Paul's rebuke directly challenges. The difference is also important: not every parish meal is itself the Eucharist, and not every modern logistical dispute repeats the ancient abuse. A proportionate application examines who is excluded, what reasons are given, and whether arrangements express equal dignity and mutual care. It does not use a vague resemblance to accuse named people without evidence.",
+                "mistake": "Verses 29–32 connect judgment with illness in Paul's address to this community. Do not turn that passage into a general method for diagnosing why a contemporary person is sick. The text is a particular theological interpretation, not a clinical rule that disease proves unworthy worship. An unsupported diagnosis would confuse the authority of the passage with the reader's unsupported claim to know how it applies to an individual. Preserve the seriousness of Paul's warning without weaponizing illness.[6]",
+                "application": "Optional practice: draft a commentary paragraph linking verses 21–22, 23–26, and 33. Model: humiliation contradicts the self-giving proclaimed by the shared action, so Paul's final instruction asks for a changed common practice. Self-review: identify all three locations, explain the connection rather than merely listing them, and include one limit on the modern analogy. Then compare the paragraph with Sacrosanctum Concilium 47: identify the council's additional sacramental claims without falsely attributing its exact later terminology to Paul.",
+                "summary": "Eucharistic interpretation needs the whole argument: received tradition, sacramental meaning, communal conduct, and future hope. The ethics of the assembly is not an optional appendix to worship. Next, distinguish meaningful liturgical participation from either visible busyness or passive attendance."
+              },
+              "readings": [
+                {
+                  "title": "[6] 1 Corinthians 11:17–34",
+                  "url": "https://bible.usccb.org/bible/1corinthians/11",
+                  "note": "Begin before the institution narrative and continue through the final instructions. Treat editorial interpretations of discerning the body as commentary, not as additional verses."
+                },
+                {
+                  "title": "[3] Sacrosanctum Concilium 47–48",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+                  "note": "Compare memorial, sacrifice, unity, and participation. Do not infer a complete Eucharistic doctrinal treatise from these two sections alone."
+                }
+              ],
+              "visual": {
+                "title": "The supper tradition inside Paul's rebuke",
+                "description": "The diagram follows the text's argumentative order instead of detaching the words over the gifts.",
+                "steps": [
+                  "11:17–22: divisions and humiliation",
+                  "11:23–26: received tradition and proclamation",
+                  "11:27–32: examination and warning",
+                  "11:33–34: changed communal practice"
+                ]
+              }
+            },
+            {
+              "id": "28",
+              "title": "Active participation, liturgical signs, and accessible worship",
+              "explanation": "Objective: evaluate a proposed liturgical improvement by asking what participation means, not simply how much visible activity it produces. Sacrosanctum Concilium 14 calls for fully conscious and active participation rooted in baptism. Section 11 warns that valid and lawful celebration alone does not exhaust pastoral responsibility: the faithful should understand, engage, and be enriched. Section 7 places worship within Christ's action with the Church rather than within a performance produced for an audience. These are Catholic theological and pastoral claims. They do not give an observer a reliable instrument for measuring another person's interior prayer. An accessibility proposal should therefore aim to remove barriers to meaningful participation, not to impose a single outward style as the test of genuine faith.[3]",
+              "example": "An invented parish committee proposes replacing every period of quiet with spoken responses because it assumes silence equals disengagement. Examine the inference. Conscious participation includes attention to the rite's meaning; outward sound can express that attention but does not guarantee it. Conversely, stillness may accompany intense attention. Section 48 asks that people understand the rites and prayers and join in the sacred action, not that they maximize the number of audible acts. A better proposal asks where explanation, pacing, readable materials, or clear sound would help the assembly take part. This is a pastoral application of the source's aim, not a claim that the council prescribed a particular modern font, sound system, or accessibility checklist.[3]",
+              "question": "Which is the more defensible indicator for designing support for participation?",
+              "answer": "Whether a support removes barriers to understanding and taking part in the actual rite.",
+              "distractor": "Whether every participant looks equally busy to an observer at every moment.",
+              "correction": "Activity can support participation, but appearance alone does not reveal understanding, prayer, or the appropriateness of the activity to the rite.",
+              "depth": {
+                "definitions": "Liturgy is the Church's public worship understood as Christ's priestly action with his body. A sign communicates through perceptible words, objects, and actions; Catholic sacramental theology also claims efficacy rather than mere illustration. Validity concerns whether a sacramental act truly takes place; liceity concerns lawfulness. Fruitfulness concerns reception and effects in the life of the faithful, a category not reducible to either correct paperwork or emotional intensity. Accessibility concerns whether people can perceive, understand, and participate without avoidable barriers.[3]",
+                "mechanism": "The council's argument links identity, action, and formation. Participation belongs to the baptized people; it is not a prize for those who perform publicly. Because liturgical signs communicate, instruction can help people understand what they do. Because liturgy is not simply a teaching lecture, explanation must serve rather than overwhelm the action. Because Christ is understood to act, subjective enthusiasm is not the source of sacramental efficacy. Finally, because the rite is ecclesial, private inventiveness has limits: section 22 assigns regulation to competent ecclesiastical authority and denies individuals a unilateral right to change the liturgy. These points allow real reform and assistance without the inference that every helpful-seeming innovation is automatically authorized. Specific changes require relevant current norms; this lesson does not supply a universal permission.[3]",
+                "secondExample": "A person cannot comfortably stand through an entire celebration. An observer concludes that sitting proves lack of devotion. The inference moves from a visible posture to an unsupported judgment about intention and ability. Distinguish the communal meaning of posture from the individual's access needs. A responsible plan might provide unobstructed seating and clear sightlines while consulting applicable liturgical guidance. It should not demand public disclosure of private medical information as a condition of respectful treatment. This application follows the aim of participation and the limits of observable evidence; it is not a claim that the assigned conciliar paragraphs enumerate every accommodation or settle every local legal requirement.",
+                "mistake": "Another mistake treats 'valid' as equivalent to 'nothing needs improvement.' Section 11 explicitly asks pastors to attend to more than valid and lawful celebration. The converse is also false: a deeply moving experience does not by itself establish sacramental validity. Diagnose the confusion by asking which claim is being tested: conformity to sacramental requirements, lawful celebration, opportunities for participation, or someone's subjective response. A single positive answer cannot silently substitute for all the others.[3]",
+                "application": "Optional practice: design two modest supports for an unfamiliar congregation, such as a readable order of worship and an explanation of a central response before the celebration. Model justification: each reduces a defined barrier without replacing the rite with commentary. Self-review: identify the barrier, connect the support to sections 11 or 14, state that interior devotion cannot be inferred from posture, and flag any change requiring authorization. For an additional challenge, explain why continuous spoken narration during the rite could undermine the attention it seeks to improve.",
+                "summary": "Participation is neither a spectator's entertainment nor a competition in visible activity. Signs, instruction, access, and ecclesial order work together, while other people's interior response remains beyond casual measurement. The next lesson carries this discipline of respectful interpretation into Catholic relations with the Jewish people."
+              },
+              "readings": [
+                {
+                  "title": "[3] Sacrosanctum Concilium 7, 11, 14, 22, 48, 59",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+                  "note": "Read the specified sections as an argument connecting Christ's action, conscious participation, regulation, and sacramental signs. Practical examples are applications, not quoted liturgical law."
+                }
+              ],
+              "visual": {
+                "title": "Participation is not a busyness score",
+                "description": "The sequence connects a barrier to a support and separates observable access from unobservable interior devotion.",
+                "steps": [
+                  "Identify a barrier to hearing, seeing, or understanding",
+                  "Choose a support serving the rite's meaning",
+                  "Check competent authority where changes are involved",
+                  "Evaluate access, not another person's hidden spiritual state"
+                ]
+              }
+            },
+            {
+              "id": "29",
+              "title": "Catholic interpretation after Nostra Aetate: Jewish relations and collective blame",
+              "explanation": "Objective: apply Nostra Aetate 4 as a doctrinal and ethical boundary on Christian interpretation of the passion and the Church's relation to Israel. The declaration recalls Christianity's bond with the patriarchs, Moses, prophets, and the Jewish origins of Jesus' first followers. It rejects charging the passion against all Jews then living or Jews today, and rejects presenting Jews as rejected or accursed by God as though Scripture required it. It also condemns antisemitism. These are not optional courtesies added after a supposedly neutral interpretation. They constrain what Catholic preaching and teaching may claim. Reading the declaration accurately still requires distinguishing its theological self-understanding from a complete historical account of Roman execution, local leadership, or every conflict reflected in the Gospel narratives.[4]",
+              "example": "Consider an invented lesson handout that moves from an allegation about particular authorities involved in Jesus' death to a claim that all Jewish people inherited guilt. The inference fails before any demographic calculation is needed: responsibility for an action does not become hereditary membership guilt. Nostra Aetate 4 explicitly refuses the transfer from particular actors to every Jew then alive and to Jews today. A corrected handout would identify any historical actors only as warranted by its sources, state the limits of the evidence, and remove collective blame. It should also explain the Catholic theological claim that Christ's passion is related to human sin and divine love, not a warrant for targeting an ethnic or religious population.[4]",
+              "question": "Which inference does Nostra Aetate 4 explicitly reject?",
+              "answer": "Moving from claims about particular actors in the passion to guilt assigned to all Jews, past or present.",
+              "distractor": "Distinguishing the Jewish origins of Christianity from later Christian theological interpretation.",
+              "correction": "The declaration affirms the bond with Israel while forbidding collective blame; it does not prohibit careful historical distinctions.",
+              "depth": {
+                "definitions": "Collective blame assigns culpability to a group without establishing the responsibility of its members. Antisemitism is hostility or prejudice directed against Jews as Jews; it can appear in theological language as well as overt abuse. Covenant names a relationship of divine commitment and human response in biblical theology. Dialogue is an encounter in which participants seek understanding and can disagree honestly; it is not necessarily a merger of beliefs. A doctrinal boundary rules out an interpretation within the tradition's own commitments without by itself supplying every historical detail.",
+                "mechanism": "The declaration reasons from shared spiritual patrimony and the abiding significance of God's gifts, while identifying Christ as central to Christian faith. These claims must be read together. A Christian claim of fulfillment cannot simply cancel the source's rejection of divine rejection of Jews. Neither should respect be misrepresented as a claim that Judaism and Christianity make identical assertions about Jesus. Responsible teaching therefore has two obligations: avoid denigration and describe actual differences accurately. The source is primary evidence for Catholic teaching about this relationship; it is not a substitute for Jewish voices about Jewish self-understanding. Where the lesson discusses how Jewish communities interpret their own tradition, additional Jewish primary sources would be necessary rather than Catholic summaries alone.[4]",
+                "secondExample": "A public panel plans to describe both religions as teaching exactly the same understanding of Jesus so that nobody feels excluded. This avoids hostility by sacrificing accuracy. A better introductory statement says that the panel recognizes a profound historical and scriptural relationship while acknowledging differences in confession and interpretation. Nostra Aetate 4 supports mutual understanding through biblical study and dialogue, not a fictional consensus. The practical consequence is to invite speakers to state their own positions and clarify terms. That approach lets a Catholic explain a christological reading without presenting it as the only possible account of what Jewish participants believe.",
+                "mistake": "Do not infer from the publication of a norm that all members of the institution immediately complied with it. The declaration proves that a teaching was promulgated; measuring its reception requires evidence from education, preaching, community relations, and other historical records. Conversely, finding later violations does not prove that the norm endorsed them. Keep normative content and social implementation separate so that the former can be used critically to assess the latter instead of shielding institutions from examination.",
+                "application": "Optional practice: revise a hypothetical teaching sentence that says Jewish rejection of Jesus makes every Jewish person an enemy of God. Model: Catholic teaching recognizes profound bonds with the Jewish people and forbids presenting them as rejected or accursed by God; disagreement about Jesus does not authorize collective condemnation. Self-review: cite section 4, remove hereditary guilt, preserve the possibility of genuine doctrinal disagreement, and name a historical question the declaration alone cannot settle. A strong response also identifies why consultation of Jewish sources is required before describing Jewish belief in detail.",
+                "summary": "Interpretive charity here includes binding limits on blame, not simply a pleasant tone. Catholic teaching must state Christian convictions without falsifying Jewish identity or transferring guilt across generations. The final lesson connects this discipline to religious freedom and a public argument that protects persons without pretending all truth claims are equivalent."
+              },
+              "readings": [
+                {
+                  "title": "[4] Nostra Aetate 4–5",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_nostra-aetate_en.html",
+                  "note": "Read section 4 in full and section 5's rejection of discrimination. This is a Catholic primary source about relationships, not a complete presentation of Judaism from Jewish perspectives."
+                }
+              ],
+              "visual": {
+                "title": "Stop the invalid transfer of responsibility",
+                "description": "A boundary separates located historical claims from forbidden collective and inherited blame.",
+                "steps": [
+                  "Investigate particular actors with historical sources",
+                  "Do not transfer responsibility to every Jew then living",
+                  "Do not transfer responsibility to Jews today",
+                  "Teach shared patrimony, disagreement, and equal dignity together"
+                ]
+              }
+            },
+            {
+              "id": "30",
+              "title": "Religious freedom: truth, conscience, and the limits of coercion",
+              "explanation": "Objective: build a Catholic argument for protecting religious freedom without equating legal immunity with approval of every belief or action. Dignitatis Humanae 1–3 holds together a duty to seek religious truth and a right to immunity from coercion. The right rests in the person's dignity, not in a public authority's favorable judgment of the person's beliefs. Section 2 explicitly includes those who fail to fulfill the obligation to seek and adhere to truth. This distinction is the central reasoning tool: an alleged error in belief does not by itself establish another person's authority to force religious conduct. The lesson is theological and ethical education, not advice about the exact enforceable law of a particular jurisdiction.[5]",
+              "example": "An invented town council permits a minority congregation to meet only if its members affirm the majority religion's creed. Analyze the conditions. Permission to gather has been made dependent on a compelled religious profession. The condition targets conscience and association rather than a demonstrated threat to just public order. Dignitatis Humanae 2–4 protects religious exercise both privately and publicly, individually and in community, within due limits. A Catholic defense of the congregation therefore need not declare its theology correct. It can argue that persons must not be coerced in this way. To assess an actual legal dispute, one would also need the applicable laws and facts, which this thought experiment does not provide.[5]",
+              "question": "Why can a Catholic defend another community's religious freedom while disagreeing with its beliefs?",
+              "answer": "The right to immunity from coercion rests on personal dignity, not on agreement with the belief.",
+              "distractor": "Defending legal freedom necessarily declares every incompatible religious claim equally true.",
+              "correction": "Dignitatis Humanae distinguishes the truth question from the authority to coerce. Respecting the person does not erase substantive disagreement.",
+              "depth": {
+                "definitions": "Coercion uses force, threats, or comparable pressures to compel conduct; not all persuasion is coercion. Civil immunity protects against specified interference by human powers. Conscience is a person's practical judgment, which still requires responsible formation rather than automatic identification with preference. Just public order names a principled limit involving rights and genuine social peace, not whatever a majority dislikes. Religious pluralism describes the presence of different communities; relativism is a further philosophical position about truth and does not follow merely from that presence.",
+                "mechanism": "The document's argument joins the nature of belief with human dignity. A religious act involves personal adherence; externally forced compliance cannot substitute for that adherence. Persons also act socially, so reducing freedom to silent private thought would leave communal worship and teaching unprotected. At the same time, section 7 rejects arbitrary or partisan regulation and recognizes responsibilities toward other people's rights. Limits therefore require reasons proportionate to actual public-order concerns rather than dislike of a minority. Section 4 adds an important constraint on religious communities themselves: spreading faith should avoid coercion and dishonorable persuasion, especially toward vulnerable people. Freedom cannot be defended for one's own community while denying the corresponding freedom of others.[5]",
+                "secondExample": "Compare two invented rules. One requires every crowded assembly, religious or not, to keep emergency exits usable. The other closes only an unpopular congregation because neighbors object to its doctrine. The first may serve a genuine safety concern if applied fairly and proportionately; the second substitutes hostility to belief for such a concern. This comparison illustrates a moral test, not a legal verdict. A real case requires evidence about risk, consistency, necessity, and alternatives. It also shows why calling an activity religious cannot automatically exempt it from every protective rule, while calling a rule public order cannot automatically justify repression.",
+                "mistake": "A subtler error makes charitable aid conditional on a profession of faith and then calls the resulting statement freely chosen because no physical force was used. Severe dependence can make pressure significant even without violence. Dignitatis Humanae 4 warns against unworthy persuasion, particularly toward the poor. A responsible aid policy separates essential assistance from required religious assent. This application uses the document's concern with coercion; it does not pretend that every invitation, conversation, or voluntary religious program is inherently coercive.[5]",
+                "application": "Optional capstone: write a brief for a shared emergency shelter run by several religious communities. Include a Catholic rationale for serving people without required religious participation, a rule protecting voluntary worship without obstructing others, and a method for resolving safety conflicts. Model: dignity grounds access; belief cannot be compelled; common safety rules need impartial reasons; disagreements remain discussable. Self-review rubric: accurately use Dignitatis Humanae 2, 4, and 7; connect Nostra Aetate 5 to nondiscrimination; distinguish doctrine, factual assumptions, and proposed policy; include a serious objection and a reasoned reply. Do not claim this brief establishes legal or pastoral professional competence.[4][5]",
+                "summary": "Protecting conscience does not require surrendering truth claims, and professing truth does not create unlimited authority to coerce. Across this level, rigorous theology names its sources, explains its inferential bridges, distinguishes history from doctrine, and accepts moral constraints on application. Complete the unit review and then the cumulative level assessment; correct choices are a beginning, not proof of comprehensive theological competence."
+              },
+              "readings": [
+                {
+                  "title": "[5] Dignitatis Humanae 1–4, 6–7, 10",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651207_dignitatis-humanae_en.html",
+                  "note": "Read the right's foundation, communal exercise, fair limits, and free faith together. The assignment is a doctrinal source, not a jurisdiction-specific legal guide."
+                },
+                {
+                  "title": "[4] Nostra Aetate 5",
+                  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_nostra-aetate_en.html",
+                  "note": "Use the rejection of discrimination as a source for the capstone's treatment of people across religious differences."
+                }
+              ],
+              "visual": {
+                "title": "Truth and coercion are different questions",
+                "description": "A decision sequence distinguishes disagreement from permission to restrict another person's conduct.",
+                "steps": [
+                  "What belief is disputed? State it accurately",
+                  "Who proposes coercion, and on what authority?",
+                  "Is there a genuine, impartially assessed public-order concern?",
+                  "Protect free religious response and the rights of others"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-26-a",
+              "prompt": "A baptism lesson promises that believers will never again need moral deliberation. Which part of Romans 6 requires revision of that promise?",
+              "answer": "Paul's present commands require continuing decisions about bodily action and allegiance.",
+              "distractor": "Paul's commands prove that no gift or participation has been described.",
+              "correction": "The imperatives address recipients of the gift; they reject effortless immunity without canceling grace.",
+              "reviewLessonIds": [
+                "26"
+              ]
+            },
+            {
+              "id": "uq-26-b",
+              "prompt": "A host calls a humiliating division of guests irrelevant because only the ritual's words matter. Which argument responds most directly to 1 Corinthians 11?",
+              "answer": "Paul places the received supper tradition inside a rebuke of divisions and commands a changed common practice.",
+              "distractor": "Paul replaces the supper tradition with a purely secular etiquette code.",
+              "correction": "The context joins proclamation and conduct, rather than allowing one to erase the other.",
+              "reviewLessonIds": [
+                "27"
+              ]
+            },
+            {
+              "id": "uq-26-c",
+              "prompt": "A coordinator wants to judge devotion by counting how often each person stands and speaks. What is the primary methodological problem?",
+              "answer": "Visible activity does not establish interior understanding, ability, or prayer.",
+              "distractor": "No outward action can ever express participation.",
+              "correction": "Signs matter, but observers cannot infer the whole interior response or access needs from a count of actions.",
+              "reviewLessonIds": [
+                "28"
+              ]
+            },
+            {
+              "id": "uq-26-d",
+              "prompt": "A researcher finds a later sermon violating Nostra Aetate. What can that evidence establish without further argument?",
+              "answer": "A case of failure to implement the norm, not proof that the norm authorized the violation.",
+              "distractor": "That the declaration's words must secretly endorse the opposite of what they say.",
+              "correction": "Normative teaching and historical reception require distinct evidence and may diverge.",
+              "reviewLessonIds": [
+                "29"
+              ]
+            },
+            {
+              "id": "uq-26-e",
+              "prompt": "A charity offers food only after guests recite its creed. Why is absence of physical force insufficient to settle the ethical question?",
+              "answer": "Dependence on essential aid can create coercive pressure contrary to free religious response.",
+              "distractor": "Any speech about religion is automatically coercion, even in freely chosen dialogue.",
+              "correction": "Dignitatis Humanae distinguishes free witness from coercion and unworthy persuasion, especially toward vulnerable people.",
+              "reviewLessonIds": [
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-21-a",
+          "prompt": "A student extracts a rhetorical question from Romans 6, calls it an infallible command, and uses it to defend wrongdoing. What two checks expose the mistake?",
+          "answer": "Read the question within Paul’s reply, then distinguish biblical interpretation from classification of a later ecclesial teaching act.",
+          "distractor": "Treat every quoted sentence and every official explanation as identical speech acts with identical scope.",
+          "correction": "Romans 6 rejects the proposed misuse of grace. Dei Verbum requires attention to what is asserted; Lumen Gentium 25 concerns specified modes of ecclesial teaching. These are related but not interchangeable tasks.",
+          "reviewLessonIds": [
+            "21",
+            "23",
+            "26"
+          ]
+        },
+        {
+          "id": "lq-21-b",
+          "prompt": "A guide says the pope invented the Eucharistic tradition because a modern council explains it. Which source comparison corrects both the chronology of evidence and the model of authority?",
+          "answer": "Compare Paul’s received-and-handed-on tradition with the council’s interpretation, and read the teaching office as service to a received deposit.",
+          "distractor": "Assume that the first source a modern reader encounters must be the historical origin of the tradition.",
+          "correction": "Paul is a textual witness to receiving and transmitting the supper tradition; the council provides a later Catholic articulation. Dei Verbum 10 describes interpretation of received revelation, not creation by preference. This does not itself settle every intervening historical development.",
+          "reviewLessonIds": [
+            "22",
+            "27"
+          ]
+        },
+        {
+          "id": "lq-21-c",
+          "prompt": "A speaker uses Paul’s wilderness comparison to claim that Christians are morally immune and Jews are collectively rejected. Which combined response follows the assigned sources?",
+          "answer": "Paul warns his Christian audience against overconfidence, and Nostra Aetate forbids presenting Jews as rejected or collectively guilty.",
+          "distractor": "Accept the claim because any Christian typology must cancel the earlier community’s significance.",
+          "correction": "The proposed reading reverses the warning’s direction and violates an explicit conciliar boundary. A theological relation between Testaments does not authorize inherited blame or sacramental immunity.",
+          "reviewLessonIds": [
+            "24",
+            "29",
+            "26"
+          ]
+        },
+        {
+          "id": "lq-21-d",
+          "prompt": "A historian asks whether all Catholic institutions have always respected religious freedom. A student supplies only the council’s claim of continuity. What evidence gap remains?",
+          "answer": "The doctrinal justification and acknowledgment of past failures do not replace historical evidence about particular institutions and practices.",
+          "distractor": "No gap remains because a theological continuity claim is a complete chronological record.",
+          "correction": "Dignitatis Humanae explains the right and acknowledges contrary conduct. Dei Verbum’s account of development concerns understanding. Neither supplies a complete archive of social implementation; concrete historical claims need additional evidence.",
+          "reviewLessonIds": [
+            "25",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-e",
+          "prompt": "A parish says lawful celebration excuses ignoring humiliation of poor members and barriers to participation. Which response preserves the relevant distinctions?",
+          "answer": "Lawfulness does not exhaust pastoral responsibility, and Paul’s meal argument connects proclamation with treatment of fellow participants.",
+          "distractor": "Any social problem proves automatically that no sacrament took place.",
+          "correction": "Sacrosanctum Concilium 11 asks for more than valid and licit celebration, while 1 Corinthians 11 rebukes humiliating divisions. These grounds justify correction without inventing a sacramental-validity verdict from incomplete facts.",
+          "reviewLessonIds": [
+            "27",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-f",
+          "prompt": "A minority congregation holds beliefs a Catholic official rejects. The official therefore proposes forcing its members to attend Catholic worship. Which argument blocks the inference without requiring relativism?",
+          "answer": "Disagreement about truth does not erase personal dignity or authorize coerced religious response.",
+          "distractor": "Only people whose beliefs a majority considers true can possess civil religious immunity.",
+          "correction": "Dignitatis Humanae grounds immunity in the person rather than correct belief; Nostra Aetate rejects religious discrimination. Defending the congregation’s freedom is compatible with explaining real doctrinal disagreement.",
+          "reviewLessonIds": [
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-g",
+          "prompt": "A teacher says every new doctrinal term proves betrayal, but accepts a familiar phrase whose meaning has been reversed. What method should replace both judgments?",
+          "answer": "Compare the underlying propositions, their contexts, and the reasons offered for continuity rather than judging only verbal similarity.",
+          "distractor": "Count old words and assume that more old vocabulary guarantees the same doctrine.",
+          "correction": "Development concerns growth in understanding. Dei Verbum’s attention to what language asserts helps explain why unchanged words can conceal changed claims and new vocabulary can articulate a received commitment. Specific cases still require actual texts.",
+          "reviewLessonIds": [
+            "21",
+            "25"
+          ]
+        },
+        {
+          "id": "lq-21-h",
+          "prompt": "An observer judges a seated worshipper spiritually unworthy and claims a bishop’s administrative status makes that judgment infallible. What are the independent errors?",
+          "answer": "Visible posture cannot establish inner disposition, and office does not make every personal or administrative judgment an infallible definition.",
+          "distractor": "The observer merely needs a louder public declaration to make the conclusion definitive.",
+          "correction": "Participation is not a busyness test, and Lumen Gentium 25 imposes conditions on infallible teaching. Neither a person’s access needs nor hidden intention can be inferred from one posture; rhetorical intensity cannot supply missing evidence or authority.",
+          "reviewLessonIds": [
+            "23",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-i",
+          "prompt": "A study group uses Romans 6 to say baptism buys salvation through human effort, while another member says grace makes action irrelevant. Which reconstruction addresses both?",
+          "answer": "Paul’s received participation grounds present moral responsibility without turning the gift into a wage.",
+          "distractor": "Choose either earned grace or moral indifference because gift and agency cannot coexist.",
+          "correction": "Paul’s movement from participation to commands defeats the forced choice. The sacramental account of signs that nourish faith adds formation without reducing divine action to human instruction or performance.",
+          "reviewLessonIds": [
+            "26",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-j",
+          "prompt": "A proposed shelter requires a creed for meals and segregates guests who cannot donate. Which source-based policy revision joins the level’s social and sacramental reasoning?",
+          "answer": "Provide aid without coerced profession and remove humiliating resource-based exclusion while preserving voluntary religious activity.",
+          "distractor": "Keep both requirements because charitable goals authorize any means of obtaining religious assent.",
+          "correction": "Dignitatis Humanae warns against coercive persuasion of vulnerable people; Paul challenges humiliation of those who have nothing. The analogy does not make the shelter a Eucharist, but its relevant moral relations can be stated without confusing the settings.",
+          "reviewLessonIds": [
+            "27",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-k",
+          "prompt": "A paper cites a Bible footnote as though it were a verse and quotes a Catholic declaration as a complete account of Jewish self-understanding. What revision improves both uses of evidence?",
+          "answer": "Distinguish Scripture from editorial interpretation and seek Jewish primary sources before describing Judaism in detail.",
+          "distractor": "Treat every text hosted by a religious institution as the same kind of authority about every religion.",
+          "correction": "Source location does not erase genre or standpoint. Scholarly annotation interprets Scripture; Nostra Aetate is primary evidence for Catholic teaching about relationships, not a substitute for Jewish voices. Both corrections make the scope of evidence explicit.",
+          "reviewLessonIds": [
+            "21",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-21-l",
+          "prompt": "A cumulative essay must explain a disputed public-order restriction while remaining faithful to Catholic teaching. Which structure best integrates method and application?",
+          "answer": "State the doctrinal dignity principle, identify actual factual risks, test impartial and necessary limits, and separate the policy inference from the source’s words.",
+          "distractor": "Present the preferred policy as an infallible biblical quotation and omit facts that complicate it.",
+          "correction": "Dignitatis Humanae permits principled limits but rejects arbitrary partisanship. Dei Verbum’s service-to-source model and the distinctions of teaching authority require explicit reasoning rather than borrowing sacred authority for an untested policy preference.",
+          "reviewLessonIds": [
+            "22",
+            "23",
+            "25",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

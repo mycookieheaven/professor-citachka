@@ -1,0 +1,13 @@
+Vercel CLI 59.23.0 (Node.js 26.8.1)
+Deploying professor-citachka
+{
+  "status": "error",
+  "reason": "deploy_failed",
+  "message": "Not authorized",
+  "next": [
+    {
+      "command": "vercel deploy",
+      "when": "retry deploy"
+    }
+  ]
+}

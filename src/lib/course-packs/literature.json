@@ -1,0 +1,620 @@
+{
+  "subject": "literature",
+  "levels": [
+    {
+      "title": "Judgment under revision: testimony, recognition and responsibility",
+      "units": [
+        {
+          "title": "Reading against first judgments: Austen and Brontë",
+          "lessons": [
+            {
+              "id": "21",
+              "title": "The failed proposal: intention, uptake and narrative distance",
+              "explanation": "Read Pride and Prejudice, chapter 34, from Elizabeth's rereading of Jane's letters through Darcy's departure and Elizabeth's final reflections. This lesson assumes you can distinguish narrator from author and observation from inference. Now ask how a scene can make two participants understand the same speech differently. Darcy intends a declaration of affection; Elizabeth hears affection entangled with a judgment of inferiority. The difference is not merely that one person speaks badly. The proposal distributes authority: Darcy treats overcoming his reservations as a recommendation, while Elizabeth refuses the obligation to feel grateful. Analyze the order of the exchange before deciding whose interpretation deserves support. Later changes in their relationship must not erase what this encounter actually does.[1]",
+              "example": "Begin with the short sentences at Darcy's entrance into his declaration: 'In vain have I struggled. It will not do.' The unnamed struggle makes his own difficulty the opening subject, before Elizabeth's wishes become a question. The narrator then balances tenderness against pride and summarizes his emphasis on family obstacles. Step one is the observation: affection and degradation occupy the same proposal. Step two is the inference: his claim to have overcome social reluctance also renews the insult. Step three is a limit: emotional agitation may explain his clumsiness without making the insult imaginary. A counterreading emphasizing sincerity is therefore partly right. Sincerity and condescension coexist; they are not mutually exclusive explanations.[1]",
+              "question": "Why does sincere affection fail to settle the meaning of Darcy's proposal?",
+              "answer": "Its social assumptions and Elizabeth's response also determine what the speech does.",
+              "distractor": "A sincere feeling guarantees that the listener receives a respectful proposal.",
+              "correction": "Darcy's intention is evidence about his purpose, not a veto over the insulting implications Elizabeth identifies. Evaluate wording, narrative framing and response together.",
+              "depth": {
+                "definitions": "A speech act is an action performed through language, such as requesting, promising or proposing. Uptake means how an addressee understands or responds to that action; it need not match the speaker's intention. Narrative distance is the degree of separation between a narrative presentation and a character's judgments. These terms are analytical tools, not claims that Austen used this vocabulary. Remember that third-person narration can report an expression while also locating it within Elizabeth's perception. A description of apparent confidence is not a transcript of Darcy's private consciousness.",
+                "mechanism": "The scene makes interpretation consequential. Darcy takes Elizabeth's initial silence as encouragement; the reader has just been told about her astonishment. That mismatch exposes an inference he makes, rather than proving that silence has one universal meaning. Elizabeth's reply invokes the expected gratitude of a recipient and then withholds it. She contests the social script as well as the individual offer. The narrator's contrast between his spoken apprehension and his apparently secure countenance sharpens the disparity between requested consent and assumed consent. Yet the sentence is tied to what Elizabeth can see. A careful argument can criticize his presumption without claiming independent access to every motive. Track shifts between direct speech, summarized speech and narrated perception to show exactly where the evidence comes from.[1]",
+                "secondExample": "Consider Elizabeth's distinction between the manner of the proposal and her reasons for refusal. She explains that a more gentlemanlike manner would not have made her accept him. This complicates a reading that treats politeness as the only missing ingredient. Her charges concerning Jane and Wickham give the refusal an evidential history, though those charges will not all survive later scrutiny. Separate the valid local criticism of his conduct from the accuracy of each biographical accusation. The later letter can change her account of Wickham without retrospectively turning the proposal into a respectful encounter. This is a model for revising one proposition while retaining another.[1]",
+                "mistake": "Do not write that Elizabeth is wrong about Wickham, therefore Darcy's whole speech is justified. That argument transfers a correction across unrelated claims. Diagnose it by splitting the paragraph into three propositions: he loves her; he speaks condescendingly; he has wronged Wickham as alleged. Each requires different evidence. Also avoid treating an angry response as self-discrediting. Anger can accompany accurate perception, mistaken accusation, or both. The task is to inspect the reasons rather than award truth to the calmer speaker.",
+                "application": "Write 180–230 words on one mismatch between intention and uptake. Use two details from chapter 34, including one piece of dialogue and one narrative framing detail. Then add a two-sentence counterreading centered on sincerity. Self-review rubric: one point for locating both details; one for explaining how a linguistic choice changes the exchange; one for distinguishing sincerity from respect; one for limiting claims about unspoken motives. Model direction: Darcy's struggle may establish the strength of attachment, but presenting family inferiority as an obstacle he has conquered asks Elizabeth to accept a hierarchy that diminishes her. A strong revision keeps that tension instead of declaring either feeling unreal.",
+                "summary": "A proposal is not interpreted solely by its declared purpose. Syntax, social assumptions, narration and the addressee's response jointly shape its meaning. Carry forward a divided judgment rather than a total verdict: an emotionally sincere speaker may reason presumptuously, and an injured listener may combine insight with error. Next read chapter 35 and treat the letter as a new evidential object, not an automatic replacement for everything already observed."
+              },
+              "readings": [
+                {
+                  "title": "[1] Jane Austen, Pride and Prejudice, chapter 34",
+                  "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+                  "note": "Read the complete chapter numbered XXXIV in this text; stop before XXXV. Primary novel text, free and public domain in the USA; check local copyright rules elsewhere. Ignore the edition's illustrations and editorial introduction for this assignment."
+                }
+              ],
+              "visual": {
+                "title": "One proposal, two interpretations",
+                "description": "Compare a speaker's intended action with an addressee's supported response without collapsing either into authorial judgment.",
+                "steps": [
+                  "Darcy declares affection and describes social obstacles",
+                  "Narration contrasts tenderness, pride and assumed encouragement",
+                  "Elizabeth rejects both the offer and its implied obligation"
+                ]
+              }
+            },
+            {
+              "id": "22",
+              "title": "Darcy's letter: admissions, explanations and corroboration",
+              "explanation": "Read Pride and Prejudice, chapter 35, including the letter in full; do not use Elizabeth's response in chapter 36 as evidence yet. A written defense is neither automatically truthful nor automatically worthless because it serves its writer. Its value depends on the claims it makes, the distinctions it permits and the routes it opens to checking them. Darcy separates his intervention in Bingley's attachment from his history with Wickham. That organization matters: the letter does not present every charge as equally serious or equally answerable. Your task is to construct a claim map that preserves the difference between an admitted action, an interpretation of another person's feelings and an allegation about a third party.[1]",
+              "example": "Darcy acknowledges discouraging Bingley's attachment and concealing Jane's presence in London. These admissions establish what he says he did; they do not establish that the actions were justified. He also argues that Jane's composed behavior made her appear indifferent. Here the evidence changes kind: outward manner becomes an inference about inward feeling. His recognition that Elizabeth knows her sister better creates a possible opening for correction. A rigorous paragraph therefore says that the letter concedes interference while defending the judgment behind it. It should not say that a candid admission proves the entire defense impartial. Indeed, his insistence on impartiality becomes another claim to test against his acknowledged wishes.[1]",
+              "question": "What can Darcy's admission of concealment establish without further argument?",
+              "answer": "That he acknowledges the action, not that his justification succeeds.",
+              "distractor": "That every part of the letter is objectively impartial.",
+              "correction": "Candor about one action can increase credibility but cannot validate all factual and moral claims. Separate the admission from the reasons offered for it.",
+              "depth": {
+                "definitions": "Testimony is information presented by a speaker who claims knowledge. Corroboration is support from another relevant evidential route, ideally one not merely repeating the first speaker. An admission concedes an action or circumstance; a justification argues that an action was permissible. An explanation instead accounts for why it happened. These categories can overlap in a sentence but remain different questions. In this lesson, corroboration is assessed within the novel's represented world. We are not treating fictional documents as historical records of real individuals.",
+                "mechanism": "The letter changes the reading conditions of the dispute. Spoken confrontation gives way to an object Elizabeth can revisit, compare and inspect at a different pace. Darcy controls the initial sequence and vocabulary, but he cannot control every later interpretation. His reference to Colonel Fitzwilliam offers a named potential check on the Wickham history. A named witness is more testable than a vague assurance; it is not the same as hearing that witness. The account also includes information concerning Georgiana that Elizabeth could not previously assess. Its specificity matters, but private detail should not be confused with independent proof. Read his division of the charges as argumentative framing: he assigns unequal moral weight to them before giving the defense. That prioritization is part of his position, not a neutral table of contents.[1]",
+                "secondExample": "Compare the Wickham account with the argument about Jane. The former supplies a sequence involving intended provision, a monetary alternative and subsequent demands; the latter depends heavily on Darcy's interpretation of composure. These are different evidential problems. Elizabeth might check the history against recollections or an identified witness, whereas Jane's reserve calls for knowledge of her characteristic expression. A counterreading says the elaborate Wickham narrative merely overwhelms the reader with detail. The response should not be that length proves truth. Instead, identify which particulars are checkable and which remain asserted. A detailed story becomes stronger when its parts survive comparison, not just because the page is crowded.[1]",
+                "mistake": "Avoid the credibility halo: because a speaker admits an embarrassing fact, every subsequent claim must be honest. Also avoid its inverse: because a speaker benefits from acceptance, every statement must be false. Both replace investigation with a personality verdict. Mark an admission with A, an interpretation with I and a potentially checkable claim with C. If a sentence needs more than one mark, explain why. This small discipline prevents an elegant defense from blurring factual, causal and moral questions.",
+                "application": "Build a six-entry evidence table from chapter 35, with two entries for each category A, I and C. Write 160–210 words explaining which allegation is most readily testable from the letter alone and what additional evidence you would seek. Rubric: one point for accurate chapter locations; one for keeping action separate from justification; one for distinguishing proposed corroboration from obtained corroboration; one for a serious alternative reading. Model direction: Darcy's concealment is conceded, while the reasonableness of his belief about Jane remains contestable. Fitzwilliam is a possible evidential route, not an already completed verification. Do not invent a reply from him.",
+                "summary": "Credibility is built claim by claim. A document may correct a factual misunderstanding while preserving a questionable moral defense. Carry this distinction into Elizabeth's rereading: watch which memories become newly relevant and which criticisms she does not need to abandon. Next read chapter 36 twice, once for the order of her reactions and once for the particular comparisons that change her judgment."
+              },
+              "readings": [
+                {
+                  "title": "[1] Jane Austen, Pride and Prejudice, chapter 35",
+                  "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+                  "note": "Read XXXV from the walk through the end of Darcy's letter; chapter numbering is continuous, not volume-local. Free public-domain US text; local rules may differ."
+                }
+              ],
+              "visual": {
+                "title": "An evidence map for the letter",
+                "description": "Sort the document's propositions by what could support or challenge them.",
+                "steps": [
+                  "Admission: Darcy acknowledges intervention and concealment",
+                  "Interpretation: Jane's composed manner is read as indifference",
+                  "Checkable history: Wickham account names particulars and a possible witness"
+                ]
+              }
+            },
+            {
+              "id": "23",
+              "title": "Elizabeth rereads: recognition without omniscience",
+              "explanation": "Read Pride and Prejudice, chapter 36, from Elizabeth's first response to the letter to her return after walking. Keep chapter 35 available for comparison. Recognition is often taught as a sudden revelation, but Austen gives it a process: resistance, rereading, remembered particulars, self-accusation and altered interpretation. Follow that process rather than quoting the famous declaration of self-knowledge as if it ended uncertainty. Elizabeth's insight concerns how she has judged as well as whom she has judged. Her response also raises a difficult question for the critic: when does a warranted correction become excessive shame? Distinguish the narrator's staging of that question from your own desire for a clean moral reversal.[1]",
+              "example": "Elizabeth says, 'Till this moment, I never knew myself.' Read the surrounding self-accusation before calling this complete knowledge. She connects her favorable response to Wickham and unfavorable response to Darcy with gratification and wounded pride. The declaration therefore identifies an incentive that shaped her attention. It does not supply a guarantee against every future mistake. The absolute phrasing gives the moment emotional force, while the chapter's repeated acts of comparison show the labor behind it. A useful claim is that Austen makes recognition both dramatic and revisable: a compressed statement marks a turning point, but particulars do the evidential work that makes the turn persuasive.[1]",
+              "question": "What most strongly supports Elizabeth's revision beyond the force of her self-accusation?",
+              "answer": "Her comparison of the letter's claims with remembered conduct and prior observations.",
+              "distractor": "The intensity of shame proves that every new conclusion is correct.",
+              "correction": "An emotion can accompany a justified revision without validating it. Identify the comparisons that actually alter the evidence available to her.",
+              "depth": {
+                "definitions": "Recognition, or anagnorisis, is a significant movement from ignorance or misapprehension toward understanding. Motivated interpretation means that desire, pride or fear influences which evidence a reader notices or discounts; it is not a clinical diagnosis. Retrospective reclassification occurs when an old detail changes significance after new information arrives. None of these terms requires claiming that Elizabeth has been deliberately dishonest. A sincerely held judgment can still depend on selective attention and weak checking.",
+                "mechanism": "Narrative duration is important here. Austen could simply report that Elizabeth believed Darcy. Instead the chapter tracks an uneven movement across different charges. The repeated encounter with the same document makes changed attention visible: what initially seems intolerable can become a proposition to inspect. Recollection places Wickham's behavior beside his earlier self-presentation. The Jane material then receives another reading, including remembered observations about the reserve of her manner. This sequence prevents conversion from functioning as magic. Yet Elizabeth's shame about her family also shows that evidence and social evaluation are intertwined. Recognizing the accuracy of a description of conduct does not logically prove that Darcy's ranking of families is just. Keep the change in factual confidence separate from acceptance of a class hierarchy.[1]",
+                "secondExample": "Consider the passage where Elizabeth recalls Charlotte's opinion about Jane's restrained expression. Charlotte's earlier observation now becomes relevant to Darcy's claim that he misread Jane. This is not a new event in the story's chronology; it is an old observation brought into a new relation. One interpretation credits Darcy with a reasonable mistake. A counterreading notes that he wanted Jane to be indifferent and acted decisively despite limited access to her feelings. Both can use the same reserve as evidence. The strongest synthesis says that reserve makes error intelligible without making intervention automatically prudent. Elizabeth's changed sympathy for an explanation need not compel a complete moral acquittal.[1]",
+                "mistake": "Do not reduce the chapter to Elizabeth discovering that she was bad and Darcy was good. That moral exchange loses the novel's distinctions among manners, intentions, evidence and action. Diagnose this shortcut by asking what claim changes and what observation remains intact. Darcy's first proposal still contained contemptuous assumptions; Wickham's charm no longer establishes his reliability. Nor should the reader imitate Elizabeth's absolute self-condemnation as an objective clinical assessment. Analyze its rhetorical intensity as part of the scene.",
+                "application": "Produce a three-stage revision log: initial claim, disruptive evidence, revised claim. Use one example concerning Wickham and one concerning Jane. Then write 200–250 words answering whether recognition here is an event or a practice. Rubric: one point for two precisely located comparisons; one for explaining the changed relevance of an old detail; one for preserving a surviving criticism of Darcy; one for testing an alternative reading of Elizabeth's shame. Model direction: the self-knowledge declaration is an event within a longer practice of rereading. Her memory of Jane's reserve improves the explanation of Darcy's error, but does not by itself authorize his control over Bingley's choice.",
+                "summary": "Revision is not a wholesale exchange of heroes and villains. It changes the relationship among propositions, memories and confidence levels. This method transfers to your own analytical writing: retain supported observations while replacing the inference they no longer sustain. Next move to chapter 43, where a house, a housekeeper and altered conduct present several new kinds of evidence rather than another private written defense."
+              },
+              "readings": [
+                {
+                  "title": "[1] Jane Austen, Pride and Prejudice, chapter 36",
+                  "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+                  "note": "Read XXXVI in full, revisiting only the relevant sentences of XXXV. US public-domain primary text. This lesson contains major plot revelations."
+                }
+              ],
+              "visual": {
+                "title": "Recognition as a sequence",
+                "description": "Track an old memory acquiring a new evidential role rather than treating insight as certainty.",
+                "steps": [
+                  "Initial aversion filters the first reading",
+                  "Letter and remembered conduct are compared",
+                  "A revised account preserves both correction and remaining limits"
+                ]
+              }
+            },
+            {
+              "id": "24",
+              "title": "Pemberley: material beauty and interested testimony",
+              "explanation": "Read Pride and Prejudice, chapter 43, from the approach to Pemberley through the visit and the final discussion of Darcy's changed behavior. For this bounded extract, you need only know that Elizabeth is touring with the Gardiners after refusing Darcy and reconsidering his letter. Do not pretend this selected reading completes the intervening chapters. Here judgment is distributed across landscape description, Elizabeth's thoughts, Mrs Reynolds's testimony and Darcy's interaction with visitors. Ask which kind of evidence each supplies. A beautiful estate can organize an impression of taste and stewardship, but it cannot independently certify an owner's moral character. The scene invites a revised judgment while also exposing the conditions that make that revision attractive.[1]",
+              "example": "At the approach, natural beauty is praised as little counteracted by awkward taste. The syntax makes restraint look like an aesthetic virtue: the estate seems improved without conspicuous violence to its setting. Elizabeth then imagines being its mistress. These adjacent details permit two readings. One links the restrained landscape to a newly attractive conception of Darcy; the other asks whether possession is influencing Elizabeth's appraisal. The second is not refuted merely by calling Elizabeth principled. Conversely, the first cannot be reduced to buying her affection, because the chapter supplies further evidence through reported conduct and actual encounters. The interpretive task is to explain the combination rather than select one detail as a total cause.[1]",
+              "question": "How should the estate's beauty enter an argument about Darcy's character?",
+              "answer": "As part of a mediated impression to compare with testimony and conduct.",
+              "distractor": "As independent proof that a wealthy owner must be morally good.",
+              "correction": "Description creates associations, not a logical guarantee. Mrs Reynolds's account and Darcy's treatment of the visitors add different, still situated evidence.",
+              "depth": {
+                "definitions": "Metonymy is a relation in which something associated with a person or institution can stand for it: a house may suggest its owner. It differs from a claim that building and person share every quality. Situated testimony comes from a speaker with a particular position, history and relationship to the subject. Focalization asks through whose access or perspective information is presented. A landscape described in relation to Elizabeth's admiration is not simply a neutral inspection report.",
+                "mechanism": "The visit layers evidence in a purposeful order. Before Darcy appears, his property and a long-serving household witness have already altered the atmosphere of judgment. Mrs Reynolds's account reaches aspects of conduct unavailable at an assembly; sustained domestic observation can correct a brief public impression. Yet employment creates a relationship that a critic should notice, not use as automatic disqualification. Loyalty may reflect experience, dependence, selective knowledge, or several of these. When Darcy then behaves courteously toward the Gardiners, Elizabeth receives a scene of conduct rather than only praise. The forms of evidence converge without becoming identical. A convincing interpretation explains why convergence increases confidence and why none of the pieces should be inflated into universal knowledge of the man.[1]",
+                "secondExample": "Elizabeth's imagined ownership is immediately complicated by her recollection of the relations she might have had to exclude. Follow that correction within the thought sequence. The fantasy of Pemberley is not allowed to run uninterrupted; the imagined social cost intrudes. A reading of uncomplicated mercenary conversion misses this interruption. A counterreading can still argue that wealth structures the very terms of the fantasy: she imagines belonging through possession. Hold both observations together. The chapter can expose the attraction of property while distinguishing Elizabeth's attachments to her relatives from a purely status-driven choice. Your paragraph should identify the turn in thought rather than merely assign her a motive.[1]",
+                "mistake": "Do not describe Mrs Reynolds as either an objective database or a paid liar. Those extremes avoid asking what she has had an opportunity to observe. Likewise, avoid assuming that a tasteful house proves good character or that noticing wealth disproves affection. Diagnose these moves by replacing the noun 'proof' with the actual evidential relationship: association, report, observed action or inference. If the argument becomes weaker after that substitution, it probably relied on an exaggerated claim of certainty.",
+                "application": "Write a 250–300-word paragraph with three kinds of evidence: one descriptive detail, one reported judgment and one action during the visit. Include a counterreading that material advantage influences Elizabeth. Rubric: one point for differentiating the three evidence types; one for explaining the order in which they appear; one for discussing Mrs Reynolds's position without dismissing her; one for answering the property counterreading with a specific complication. Model direction: aesthetic admiration prepares Elizabeth to reassess, household testimony broadens her evidence and courtesy to her relatives gives the change a behavioral test. This combination supports revision more securely than the estate alone.",
+                "summary": "Settings can persuade because they organize values, desires and social relations into something apparently visible. Read that persuasion critically without pretending that material life is irrelevant to feeling. Next compare this accumulation of evidence with Jane Eyre, chapter 8, where a child's credibility is restored through sympathetic listening and a proposed external check rather than through property and social standing."
+              },
+              "readings": [
+                {
+                  "title": "[1] Jane Austen, Pride and Prejudice, chapter 43",
+                  "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+                  "note": "Read XLIII completely. The lesson supplies only enough bridge context for this extract; chapters 37–42 remain optional contextual reading. Free US public-domain text."
+                }
+              ],
+              "visual": {
+                "title": "Three routes to a changed impression",
+                "description": "Keep material association, witness report and observed conduct distinct as they converge.",
+                "steps": [
+                  "Landscape and house organize an impression of taste",
+                  "Mrs Reynolds supplies situated household testimony",
+                  "Darcy's courtesy provides a present behavioral comparison"
+                ]
+              }
+            },
+            {
+              "id": "25",
+              "title": "Jane's hearing: credibility, care and public repair",
+              "explanation": "Read Jane Eyre, chapters 7–8, beginning with Brocklehurst's visit and stopping at the close of Jane's account of improved school life. Content includes humiliation, deprivation and a child's expressions of despair. This is literary analysis, not advice to endure mistreatment. The earlier guide studied Jane's exclusion at Gateshead; here we examine what it takes for an institution to correct an accusation. Brocklehurst repeats Mrs Reed's charge; Miss Temple gives Jane a hearing and seeks confirmation from Mr Lloyd. The contrast concerns both evidence and power. Jane's telling gains a sympathetic audience, but the narrative also reveals that certain styles of self-presentation are more likely to be believed.[2]",
+              "example": "Miss Temple instructs Jane to add nothing and exaggerate nothing. Jane subsequently describes arranging her account coherently and restraining its bitterness; she notices that it sounds more credible. These details support two connected readings. First, the hearing enables a child previously defined by adults to give her own account. Second, credibility is partly conditional on a controlled manner that the injured child must produce. The latter does not imply that Jane fabricates events. It means a true account can be received differently depending on tone and listener. A counterreading stressing Temple's fairness is strong, but it should incorporate the unequal burden placed on Jane rather than pretend the hearing occurs between social equals.[2]",
+              "question": "Why distinguish Miss Temple's immediate belief from Jane's later public clearance?",
+              "answer": "Personal trust and an institutional correction operate at different scales and stages.",
+              "distractor": "Once one adult believes Jane, the public accusation has automatically disappeared.",
+              "correction": "The chapter separates private reassurance, the inquiry to Mr Lloyd and public vindication. Repair must address the audience before whom the injury occurred.",
+              "depth": {
+                "definitions": "Credibility is the degree of belief an account receives, which may or may not track its truth. Procedural fairness concerns how a claim is heard and checked, not only whether a listener feels kind. Public repair means correcting a damaging claim before a relevant audience. Retrospective narration here includes an older Jane's arrangement of a child's experience. We can analyze that arrangement without claiming to hear an unedited recording of childhood speech or equating Jane with Charlotte Brontë.",
+                "mechanism": "Brocklehurst's authority initially amplifies secondhand accusation. Jane interprets the resulting exposure as universal rejection; Helen challenges the scope of that inference and offers companionship. Miss Temple adds another response: she requests Jane's account, identifies a possible witness and promises public clearance if the reply agrees. Care and checking are not opposites. Immediate warmth can make testimony possible while verification addresses the public charge. Still, the institution retains the power to judge. The chapter does not abolish hierarchy; it contrasts its destructive and reparative uses. Notice also how bodily care accompanies speech: warmth, food and proximity give the girls a different environment from the punitive display. These details make the hearing materially different, not merely more polite.[2]",
+                "secondExample": "The tea scene offers a contrasting form of repair. When the ordinary portion is inadequate, Miss Temple supplies cake from her own store. The concrete contrast between ration and supplement makes care legible in action. A generous individual works around a constraint rather than transforming the whole system. This limits a reading in which one comforting evening proves Lowood just. Compare the letter episode in Austen: there, new particulars correct Elizabeth's belief; here, information must also travel through institutional authority to restore a child's standing. Both involve testimony, but Jane's dependency gives the audience's verdict a different immediate force.[1][2]",
+                "mistake": "Do not claim that restrained speakers are necessarily truthful or that distressed speakers are unreliable. Jane's own comment concerns how the account sounds and is received. To convert that into a universal rule would reproduce the bias the scene helps us inspect. Nor should Helen's religious consolation be treated as the novel's scientifically established account of suffering. Identify it as a character's conviction and analyze its consoling effect alongside Jane's continued need for human recognition.",
+                "application": "Write 250–320 words comparing Miss Temple's hearing with the evidential structure of Darcy's letter. Use one detail from Austen, chapter 35, and two from Brontë, chapter 8. Rubric: one point for differentiating testimony from checking; one for explaining the unequal positions of the speakers; one for distinguishing private reassurance from public repair; one for a counterreading about the demand for restraint. Model direction: both scenes open a path to reconsideration, but Temple must help restore a dependent child's social standing. A fair hearing is valuable even while its credibility norms impose emotional discipline. End by naming one question that the extract cannot settle about the institution as a whole.",
+                "summary": "Listening, corroboration and repair are related but distinct operations. A correct private belief need not undo a public injury, and kindness need not eliminate unequal power. Review the unit by revising one earlier claim about reliable speakers into a claim about specific evidential practices. Then move to Frankenstein, where an excluded being learns to interpret others before gaining a chance to ask that they interpret him."
+              },
+              "readings": [
+                {
+                  "title": "[2] Charlotte Brontë, Jane Eyre, chapters 7–8",
+                  "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+                  "note": "Read VII–VIII; the primary text is the 1897 Service & Paton printing transcribed here. Free US public-domain novel; check local law elsewhere. Do not treat editorial illustrations as narrative evidence."
+                },
+                {
+                  "title": "[1] Jane Austen, Pride and Prejudice, chapter 35",
+                  "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+                  "note": "Revisit only the letter's admissions and proposed witness for the bounded comparison."
+                }
+              ],
+              "visual": {
+                "title": "From accusation to public repair",
+                "description": "Trace how the audiences and evidential standards change across Jane's vindication.",
+                "steps": [
+                  "Brocklehurst broadcasts a secondhand accusation",
+                  "Temple hears Jane and requests corroboration from Lloyd",
+                  "Public clearance addresses an injury private comfort alone cannot undo"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-21-a",
+              "prompt": "A critic argues that Darcy's visible nervousness makes Elizabeth's complaint about condescension unreasonable. Which revision best fits chapter 34?",
+              "answer": "Nervousness supports emotional investment but can coexist with insulting assumptions.",
+              "distractor": "Nervousness cancels the social meaning of everything said afterward.",
+              "correction": "Evidence about feeling does not erase the terms in which the offer is framed. Read agitation beside the narration of pride and inferiority.",
+              "reviewLessonIds": [
+                "21"
+              ]
+            },
+            {
+              "id": "uq-22-a",
+              "prompt": "An evidence table lists Fitzwilliam as having independently confirmed the whole letter during chapter 35. What must be corrected?",
+              "answer": "He is offered as a possible witness; his independent confirmation has not been presented there.",
+              "distractor": "A named witness counts as a completed verification even without testimony.",
+              "correction": "A checkable route increases testability, not the number of completed checks. Preserve that distinction when evaluating documentary defenses.",
+              "reviewLessonIds": [
+                "22"
+              ]
+            },
+            {
+              "id": "uq-23-a",
+              "prompt": "A student removes the rude proposal from her notes after reading Elizabeth's self-criticism. What has her revision lost?",
+              "answer": "A supported local observation that survives the correction of the Wickham allegation.",
+              "distractor": "Nothing; recognition requires reversing every earlier judgment.",
+              "correction": "Revision is proposition-specific. Changed beliefs about Wickham do not alter the language of the proposal.",
+              "reviewLessonIds": [
+                "21",
+                "23"
+              ]
+            },
+            {
+              "id": "uq-24-a",
+              "prompt": "An essay calls Mrs Reynolds useless because she works for Darcy. What is the strongest methodological response?",
+              "answer": "Assess her opportunity to observe and possible loyalties rather than dismissing her position outright.",
+              "distractor": "Replace her account with the estate's beauty, which proves character without mediation.",
+              "correction": "Employment makes testimony situated, not automatically false; landscape is also interpreted evidence, not a moral certificate.",
+              "reviewLessonIds": [
+                "24"
+              ]
+            },
+            {
+              "id": "uq-25-a",
+              "prompt": "A summary ends Jane's vindication when Temple privately reassures her. Which missing stage changes the argument about repair?",
+              "answer": "The inquiry and public clearance address a charge made before the school.",
+              "distractor": "The reassuring tone makes any further correction unnecessary.",
+              "correction": "Private support helps Jane endure the injury, while the subsequent process changes her publicly recognized standing.",
+              "reviewLessonIds": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Frankenstein: education, ethical claims and narrative endings",
+          "lessons": [
+            {
+              "id": "26",
+              "title": "The creature learns to read suffering",
+              "explanation": "Read Frankenstein, chapter 12 in the linked Project Gutenberg text, beginning with the creature lying on his straw and ending with his hopeful account of spring. This continues the earlier guide beyond the creation scene into the creature's education. Minimal bridge context: he has concealed himself beside a cottage and observes its inhabitants without their knowledge. His account is spoken to Victor and reaches Walton's letters through Victor's narration. We therefore study a represented recollection, not an experiment in language development. The chapter connects interpretation with conduct: he learns that apparently comfortable people can suffer, discovers what his own taking of food costs them and changes his actions.[3]",
+              "example": "At first the creature calls the cottage delightful and sees its inhabitants as possessing luxuries. Their tears are therefore puzzling. Later he observes the younger people placing food before their father while going without themselves, and understands poverty as a cause of distress. Notice the correction: he does not discover a different house, but a previously unread relationship between visible resources and unmet need. His own deprivation set a misleading baseline for judging theirs. A counterreading emphasizes that he idealizes the household; this is supported by his admiring descriptions. Yet idealization does not prevent a real improvement in his inference about hunger. The passage represents learning within an imperfect perspective, not a passage into omniscience.[3]",
+              "question": "What changes when the creature stops taking the cottagers' food?",
+              "answer": "A revised understanding of their suffering changes his conduct toward them.",
+              "distractor": "He gains complete knowledge of every household member's history.",
+              "correction": "The sequence establishes a connection between observation, inferred harm and restraint. Other causes of the family's sadness remain outside his knowledge at this point.",
+              "depth": {
+                "definitions": "An interpretive baseline is the comparison a reader uses to decide what counts as plenty, deprivation or ordinary life. Sympathy here means an imaginative or emotional response to another's condition, not agreement with every action. Retrospective qualification occurs when a later teller marks the limits of an earlier self's knowledge. Keep the observing creature, the later speaking creature and Victor's reporting layer separate. Their relationship is part of the form through which this education becomes available to us.",
+                "mechanism": "The chapter repeatedly contrasts perception with explanation. Food, tears and daily labor are initially visible but not fully intelligible; sustained attention reorganizes them. The creature's decision to gather food elsewhere makes the new interpretation ethically consequential. Gathering wood then moves beyond stopping a harm toward positive assistance. His report that Felix can spend time repairing and cultivating after finding the wood gives this assistance a concrete effect. Nevertheless, the household cannot yet connect the benefit to its hidden giver. The narrative separates useful action from social recognition. This matters for later disappointment: he may infer that benevolence will secure welcome, while the text has shown that the beneficiaries do not know who he is. Good intentions and beneficial effects do not automatically establish a relationship of mutual knowledge.[3]",
+                "secondExample": "His early vocabulary includes familiar objects such as fire, milk, bread and wood, while evaluative and emotional terms remain harder to use. Do not treat this as a universal scientific sequence of language acquisition. Read its literary function: the material objects already organizing the household become points of entry into its speech. Kinship words also teach him that one person can be addressed through several relationships. This contrasts sharply with his own lack of recognized relations. Language promises admission to a social world while giving him new ways to understand exclusion from it. A purely celebratory reading of literacy misses that double effect.[3]",
+                "mistake": "Do not write that the creature is naturally evil because he initially takes food, or naturally perfect because he later supplies wood. Both erase the represented sequence of ignorance, discovery and choice. Equally, do not repeat his judgments about bodily appearance as objective moral facts. His comparison with the cottagers and his distress at his reflection show how he learns a damaging evaluative framework. The chapter gives us that framework as part of his experience, not as a rule the learner should adopt.",
+                "application": "Write 220–280 words tracing one change from observation to inference to action. Use the food sequence and contrast it with either language learning or the hidden wood supply. Rubric: one point for the correct order; one for explaining why his first interpretation was limited; one for identifying a consequence of revised understanding; one for a counterreading about idealization or self-presentation. Model direction: the account presents the creature as capable of revising harmful behavior when he understands its cost, but it is also a plea addressed to his maker. That persuasive purpose calls for attention to framing without cancelling every narrated act of kindness.",
+                "summary": "Learning another person's suffering requires more than seeing their possessions. The chapter joins interpretive revision to practical restraint while leaving recognition incomplete. Transfer the method back to Austen: both Elizabeth and the creature reorganize earlier observations, but they occupy very different social positions. Next read chapter 15, where books supply new comparisons through which the creature tries to explain his own condition."
+              },
+              "readings": [
+                {
+                  "title": "[3] Mary Shelley, Frankenstein, chapter 12",
+                  "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+                  "note": "Read chapter 12 only. Follow this linked text's chapter numbers; do not silently substitute 1818 volume/chapter numbering. The electronic text follows the revised narrative (including the account of Elizabeth as a Milanese nobleman's orphaned daughter), not an 1818 critical edition. Free public-domain US text; local rules may differ."
+                }
+              ],
+              "visual": {
+                "title": "Interpreting hunger changes action",
+                "description": "Follow a correction in the creature's understanding without treating it as total knowledge.",
+                "steps": [
+                  "Relative comfort initially makes the family's tears puzzling",
+                  "Food sacrificed to the father reveals deprivation",
+                  "The creature stops taking food and supplies wood, still unrecognized"
+                ]
+              }
+            },
+            {
+              "id": "27",
+              "title": "Books as mirrors: Adam, Satan and the limits of analogy",
+              "explanation": "Read Frankenstein, chapter 15 in full, from the account of the books found in a portmanteau through the failed meeting with the De Laceys. Bridge context: the creature has continued learning language and the family's history; this selection does not substitute for chapters 13–14. The bounded question is how literary models help him understand himself and where they mislead. Shelley names Paradise Lost, Plutarch's Lives and the Sorrows of Werter in this text. We analyze the creature's representations of these books, not their complete arguments or every translation. No additional full-book reading is required. Content includes rejection, violence and discussion of death and suicide in his account of reading.[3]",
+              "example": "The creature first compares himself with Adam through apparently solitary origin. He then specifies differences: Adam receives care and instruction, while he experiences abandonment. The analogy is productive precisely because it does not remain an identity. It frames a question about what a creator owes a created being. He next finds Satan a more fitting emblem when another's happiness awakens envy. That change does not mean the novel objectively classifies him as Satan. It shows a reader selecting among available models to name changing feelings. A counterreading might see these elevated comparisons as self-dramatization. Test it by asking whether the comparison illuminates a specific relation, such as abandonment, or inflates the speaker's significance without explanation.[3]",
+              "question": "What makes the Adam comparison analytical rather than a fixed symbolic label?",
+              "answer": "The creature names both a likeness of origin and crucial differences in care.",
+              "distractor": "Every feature of Adam's story applies literally to the creature.",
+              "correction": "A useful analogy transfers selected relations and identifies limits. The creature's movement between Adam and Satan displays the instability of a single total identification.",
+              "depth": {
+                "definitions": "Intertextuality describes a work's relationships with other texts through naming, quotation, adaptation or structural echo. An analogy compares selected relations rather than asserting complete equivalence. A reading model is a story or category used to interpret another experience. Here the embedded reader is the creature, a character whose reading becomes part of the novel's action. Distinguish his understanding of Milton from Milton's poem, and both from Shelley's act of constructing this encounter between books.",
+                "mechanism": "The creature says he receives Paradise Lost as true history. That statement matters because he lacks an experienced guide to genres and interpretive conventions. Books enlarge his imaginable world beyond the cottage, but they also supply immense narratives against which ordinary deprivation becomes a cosmic drama of origin and exclusion. His account of Plutarch emphasizes public virtue and lawgiving, while Werter concentrates personal feeling and despondency. The differences show that reading has plural effects; the chapter does not support a claim that all books teach the same moral lesson. Victor's journal then adds a different kind of document. Rather than an inherited cultural story, it offers the maker's hostile description of his own creation. The creature interprets himself through both literary comparisons and a personal record that intensifies shame.[3]",
+                "secondExample": "The meeting with the blind De Lacey tests the hope that language can secure recognition. The old man's response to the stranger's words opens a possibility of assistance, but the family's return changes the encounter abruptly. Contrast this with the reading scenes: possessing eloquence and ethical vocabulary does not guarantee that an audience will grant time to listen. A counterreading notes the creature's indirect presentation of his situation and delayed identification of the supposed friends. That strategy reflects fear but also limits what De Lacey initially understands. A precise account can recognize prejudice and failed communication together without blaming physical difference for violence or treating blindness as automatic moral purity.[3]",
+                "mistake": "Avoid announcing that Shelley proves education makes people evil. The text represents moral aspiration, intellectual enlargement, loneliness and comparison in tension. Likewise, quoting the Adam reference without its stated differences turns analysis into a symbol dictionary. If your paragraph could be written without opening chapter 15, it probably remains too generic. Return to the creature's explicit account of what each book changes and to the interruption that tests his hopes for persuasive language.",
+                "application": "Create an analogy table with three columns: relation transferred, difference retained, interpretive effect. Fill one row for Adam and one for Satan. Then write 230–290 words linking one row to the De Lacey encounter. Rubric: one point for a precise textual location; one for retaining a limit to the analogy; one for showing how reading shapes an expectation; one for addressing a counterreading of self-dramatization or strategic concealment. Model direction: Adam supplies a claim about neglected care, while the failed hearing shows that a compelling self-description may not reach a willing audience. Do not use the comparison to predict every later action as inevitable.",
+                "summary": "Books offer forms for experience, not infallible identities. The creature becomes a critic of his condition through comparisons whose limits remain visible. This lesson extends symbolic development into intertextual argument: ask what a reference lets a speaker claim and what it cannot establish. Next examine chapter 17, where the creature turns an account of exclusion into a demand addressed to Victor."
+              },
+              "readings": [
+                {
+                  "title": "[3] Mary Shelley, Frankenstein, chapter 15",
+                  "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+                  "note": "Read chapter 15 entirely; distinguish the named books from the creature's interpretations of them. Use this electronic text's numbering and wording. Free US public-domain original novel, not an audiobook or modern adaptation."
+                }
+              ],
+              "visual": {
+                "title": "An analogy must retain differences",
+                "description": "Map the creature's shifting literary comparisons and the social test they cannot control.",
+                "steps": [
+                  "Adam: origin compared, care contrasted",
+                  "Satan: envy supplies another partial emblem",
+                  "De Lacey encounter: language seeks recognition but cannot guarantee it"
+                ]
+              }
+            },
+            {
+              "id": "28",
+              "title": "The demand for a companion: reasons, threats and absent consent",
+              "explanation": "Read Frankenstein, chapter 17, from the end of the creature's narration through Victor's return to his family. Before beginning, note the necessary bridge from chapter 16: the creature has described violence, including killing William and framing Justine. This lesson neither requires graphic reconstruction nor treats those acts as justified. The question is how suffering, responsibility and bargaining become entangled when he asks Victor to create a companion. An explanation of injury can be persuasive without establishing an entitlement to any proposed remedy. Read both speakers' arguments carefully, including the imagined future companion whose preferences neither can actually know.[3]",
+              "example": "The creature states, 'I am malicious because I am miserable.' Grammatically, this offers a causal account, connecting present conduct to suffering. It does not by itself prove either that all misery produces malice or that harmful action is permissible. The surrounding movement from declared reasoning into threats makes the distinction urgent. His threatened revenge can help explain why Victor agrees, but pressure does not make the proposed settlement freely negotiated. A counterreading argues that the threat exposes a genuine absence of peaceful options. That claim deserves examination of the preceding exclusion; it still cannot erase the separate moral standing of people who become targets. The passage demands more than choosing between sympathy and condemnation.[3]",
+              "question": "What remains unestablished when the creature predicts that a companion will share his diet, exile and affection?",
+              "answer": "The future being's independent preferences and consent.",
+              "distractor": "The certainty that a created person must accept the role planned for her.",
+              "correction": "The bargain describes an absent being through the desires of its negotiators. Her expected agreement is an assumption, not testimony or a demonstrated fact.",
+              "depth": {
+                "definitions": "A causal explanation says why an event or disposition arose; a moral justification says why an action is permissible. Coercion involves pressure that constrains meaningful choice, here through threats of destruction. A counterfactual prediction imagines what would happen under changed conditions. An absent stakeholder is someone affected by a decision who has no voice in the discussion. These concepts help separate several arguments that the emotional force of a scene can make appear identical.",
+                "mechanism": "Victor alternates between being moved by the creature's account and recoiling at his appearance. His report makes this oscillation visible rather than presenting a steady rational calculation. He considers duties as maker, dangers to others and the creature's power to injure. The eventual agreement therefore has mixed grounds. The creature, meanwhile, argues that affection will remove the cause of his crimes and that shared exclusion will ensure mutual attachment. Those propositions predict a transformed future; neither has been tested in the proposed circumstances. The imagined removal to South America should also be read as the speakers' projection of a place outside human contact, not accepted as geographical fact. The narrative's imagined escape depends on treating a vast region as available emptiness, a limitation an attentive reader can identify without inventing external historical evidence.[3]",
+                "secondExample": "Compare Victor's question about renewed longing for human society with the creature's certainty that one companion will suffice. Victor identifies instability in the prediction: a desire might return after exile. The creature responds with an oath and a vision of harmless life. The oath increases the force of commitment but does not prove the psychological forecast. A counterreading may distrust Victor because his disgust repeatedly interrupts compassion. That distrust is warranted as a question about his motivation, yet a prejudiced speaker can still raise a logically relevant risk. Evaluate the objection rather than assuming that a morally compromised source makes every proposition false.[3]",
+                "mistake": "Do not turn the companion into a reward, cure or guaranteed instrument of another person's happiness. That repeats the negotiation's assumption instead of analyzing it. Also avoid concluding that because the bargain is coerced, Victor owes no care at all. The inadequacy of one proposed remedy does not settle the broader question of responsibility for abandonment. Keep the duty, proposed action, predicted outcome and means of obtaining agreement on separate lines of your notes.",
+                "application": "Write a 280–350-word ethical close reading with four labeled claims: injury described, responsibility asserted, remedy demanded and uncertainty concealed. Include two details from chapter 17 and a counterreading favorable to the creature's demand. Rubric: one point for distinguishing explanation from justification; one for tracing the role of threats; one for recognizing the future companion's unrepresented agency; one for answering the counterreading without denying the creature's suffering. Model direction: Victor may owe serious care while neither speaker can guarantee that creating another being will produce harmless companionship. The argument should identify the unresolved problem rather than pretend to decide a complete moral philosophy from one exchange.",
+                "summary": "Literary argument often puts valid grievances inside ethically unstable remedies. Reading well means preserving the grievance while examining the inference to a particular demand. This discipline transfers to Darcy's defense: explaining why a person acted does not settle whether the action was justified. Next read Walton's closing entries and examine another decision in which an ambitious individual must answer to people who bear the risk."
+              },
+              "readings": [
+                {
+                  "title": "[3] Mary Shelley, Frankenstein, chapter 17",
+                  "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+                  "note": "Read chapter 17 only; chapter 16 is optional context for the bridge summary. Use the linked revised narrative's numbering. Content includes threats and discussion of prior killings. Free US public-domain text."
+                }
+              ],
+              "visual": {
+                "title": "Separate the steps in a moral demand",
+                "description": "Show that a claim of injury does not automatically validate a remedy or its predicted outcome.",
+                "steps": [
+                  "Exclusion and abandonment ground a claim for care",
+                  "Threats and sympathy influence Victor's agreement",
+                  "The proposed companion's wishes and future conduct remain unknown"
+                ]
+              }
+            },
+            {
+              "id": "29",
+              "title": "Walton turns back: changed action, unfinished conviction",
+              "explanation": "Read the closing Walton continuation after Victor's narrative in Frankenstein: begin at the entry dated September 5th and stop at the novel's final sentence, before the Gutenberg license. The text places these entries within its closing chapter rather than restarting the opening letters. Bridge context: Victor has pursued the creature into the Arctic, reached Walton's vessel and recounted his history. This extract contains death, threatened self-destruction and unresolved grief. The analytical question is not simply whether Walton learns a lesson. Distinguish an altered course of action, the language used to describe that alteration and the degree of change the ending actually allows us to verify.[3]",
+              "example": "The sailors ask Walton to promise a return south if the ship becomes free. Their demand conditions future action; it is not merely an expression of present fear. On September 7th he reports consenting, yet describes his disappointed hopes through blame and resentment. These details complicate an easy conversion narrative. He changes the expedition's course without narrating complete acceptance of the crew's perspective. A counterreading rightly stresses the importance of his actual decision: people endangered by his ambition receive a practical limit on it. The strongest synthesis preserves both findings. Responsible action can occur before, or without, a fully generous interpretation of those whose demands produced it.[3]",
+              "question": "What makes Walton's return insufficient evidence for complete moral transformation?",
+              "answer": "His changed action coexists with resentful language about the decision.",
+              "distractor": "Only inward approval matters, so returning south has no ethical significance.",
+              "correction": "The action matters because it limits risk to others. Its importance does not require claiming that every attitude has changed as well.",
+              "depth": {
+                "definitions": "Closure is the degree to which an ending resolves a narrative's questions; it is not identical with simply stopping the story. A frame return brings the reader back to an outer narrator after an embedded account. A performative contradiction, used cautiously here, is a tension between a stated lesson and conduct or speech that undermines it. Do not diagnose hypocrisy from every inconsistency. First describe what conflicts and ask whether the text marks that conflict as unresolved.",
+                "mechanism": "Victor's intervention before the crew is especially challenging because the reader has just received his catastrophic history. Instead of functioning only as a warning against overreaching, he urges the sailors to endure and recover heroic resolve. Walton later turns homeward, so the embedded narrative does not transmit one uncontested moral instruction to the frame. Authority remains divided among the charismatic sufferer, the ambitious captain and the crew exposed to danger. The ending then allows the creature a final encounter with Walton after Victor's death. That changes the immediate reporting arrangement: Walton now reports hearing the creature himself rather than relying only on Victor's representation of him. It does not abolish mediation, since the account still comes through Walton's letter to his sister.[3]",
+                "secondExample": "The creature announces an intention to end his life and departs. Walton reports his movement away into darkness and distance, not a witnessed completion of the announced act. This distinction matters for an argument about closure. A reader can analyze the intended self-destruction as part of the creature's final speech while remaining uncertain about what occurs beyond the narrated field. A counterreading says the departure is symbolically final enough to close his story. That may explain the ending's emotional force; it does not convert symbolic finality into observed biography. Keep the limits of narration visible even when an ending strongly invites a conclusion.[3]",
+                "mistake": "Avoid saying that Victor's story cures Walton of ambition or that the ending proves the creature's death. The first ignores Walton's language and Victor's exhortation; the second replaces a declared intention with an event the letter does not witness. The opposite mistake is to claim that nothing is resolved. The expedition does turn homeward, and Victor's death changes the conditions of the pursuit. An open ending can settle some actions while leaving motives and future events uncertain.",
+                "application": "Write 260–330 words answering: what changes, and what remains unresolved, when the frame returns? Use one detail from the crew's demand, one from Walton's language after agreeing and one from the final encounter. Rubric: one point for distinguishing action from attitude; one for mapping the changed reporting route; one for separating an intention from a witnessed event; one for a serious counterreading favoring stronger closure. Model direction: Walton's return is a consequential limit on ambition despite resentment, while the creature's departure gives emotional finality without a verified account of what follows. End with a sentence identifying the limits of your own conclusion.",
+                "summary": "An ending can produce practical resolution without perfect knowledge or moral unanimity. The return to a frame should prompt renewed attention to who now sees, speaks and reports. Transfer this to any retrospective narrator: the last voice is a structural position, not automatic authority. Next bring these distinctions into a comparative essay on how an initially excluded account obtains, or fails to obtain, an adequate hearing."
+              },
+              "readings": [
+                {
+                  "title": "[3] Mary Shelley, Frankenstein, closing Walton entries",
+                  "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+                  "note": "Within the final narrative chapter, read September 5th through the last fictional sentence. Stop before the Project Gutenberg license. This is a bounded ending extract with major spoilers, not the four opening letters."
+                }
+              ],
+              "visual": {
+                "title": "Closing a voyage without closing every question",
+                "description": "Separate the expedition's practical outcome from attitudes and unobserved future events.",
+                "steps": [
+                  "Crew demands a conditional promise of return",
+                  "Walton agrees while retaining disappointed resentment",
+                  "Creature announces a future act and departs beyond Walton's observation"
+                ]
+              }
+            },
+            {
+              "id": "30",
+              "title": "Comparative capstone: who gets an adequate hearing?",
+              "explanation": "Reread three short, precisely bounded passages: Darcy's discussion of Jane's reserve in Pride and Prejudice, chapter 35; Miss Temple's invitation to Jane's defense through her promise to write to Lloyd in Jane Eyre, chapter 8; and the creature's exchange with the blind De Lacey through the family's return in Frankenstein, chapter 15. The assignment concerns a shared problem, not a claim that these works have identical politics: how does a hearer decide whose account deserves belief? Your capstone will compare two of the passages in depth and use the third as a pressure test. All quotations must be transcribed from the linked primary texts with chapter locations; paraphrases should not be placed in quotation marks.[1][2][3]",
+              "example": "A first draft might claim that calm speech wins belief in all three novels. Test it instead of polishing it. Jane's more restrained account does sound more credible to her listener, but Temple also creates a hearing and seeks corroboration. The creature's articulate appeal gains De Lacey's provisional sympathy, yet does not secure the family's acceptance when the encounter changes. Darcy's reading of Jane Bennet relies on composed appearance as evidence of insufficient feeling. Calmness therefore performs different functions: a credibility norm, a temporarily persuasive mode and a misleading sign of inward reserve. The revised claim becomes more interesting because the comparison reveals differences rather than suppressing them.[1][2][3]",
+              "question": "What gives a comparative essay explanatory force beyond a list of similarities?",
+              "answer": "A shared problem tested through precise differences in form, power and evidence.",
+              "distractor": "Repeating that every work contains misunderstood characters.",
+              "correction": "A broad resemblance opens inquiry but cannot explain its results. Show how the conditions of hearing differ and how those differences qualify the shared claim.",
+              "depth": {
+                "definitions": "A comparative hinge is the explicit relationship that joins two analyses: contrast, qualification, reversal or conditional resemblance. An asymmetry is a difference in position or structure that limits an analogy. A warrant is the reasoning connecting evidence to a claim. A pressure test is a deliberately chosen example that might challenge the thesis. These are writing tools, not accreditation labels. The capstone assesses an argument you produce, not a general measure of intelligence or proof of complete mastery of three novels.",
+                "mechanism": "Organize by the shared question rather than writing a miniature book report on each novel. One paragraph might compare opportunities to speak; another might compare what counts as verification; a third might examine whether belief leads to practical repair. Within each paragraph, locate a detail, explain its formal operation and state the limit of the inference. Jane narrates retrospectively in the first person, Austen uses third-person narration around a reproduced letter, and the creature's account sits within Victor's story transmitted by Walton. These arrangements produce different access to motives and different possibilities of checking testimony. A comparison that ignores them risks treating every sentence as equally direct evidence. Preserve the distinction between a character's claim, another character's response and the novel's arrangement of their encounter.[1][2][3]",
+                "secondExample": "Use repair as a second possible hinge. Temple's promise links a private hearing to a future public correction, whereas De Lacey's willingness to assist is interrupted before a stable hearing with the family can develop. This supports a claim that sympathetic reception alone is fragile when it lacks time or institutional support. A counterreading objects that Temple also occupies a hierarchy and demands disciplined self-presentation. Accept the useful part: the contrast is not perfect justice against perfect exclusion. It concerns how available procedures, authority and interruption affect whether a claim can travel from private speech into recognized standing. The nuanced comparison explains more of both passages than a simple contrast between kind and cruel people.[2][3]",
+                "mistake": "Do not announce an authorial intention that the passages cannot establish, borrow a modern diagnosis for a character or use social context as a substitute for wording. Avoid false symmetry: Elizabeth receiving a gentleman's defense, a schoolgirl answering an accusation and an isolated being seeking admission do not have equal freedom to refuse the encounter. If the same sentence seems to describe all three without qualification, ask which difference it conceals. Replace a universal with a conditional relation you can actually demonstrate.",
+                "application": "Write 700–900 words comparing two assigned passages, with a brief pressure test from the third. Use four short quotations in total, distributed across the two main works, and locate the third passage's detail by chapter. Include an introduction with a qualified thesis, two or three analytical body sections, one developed counterreading and a conclusion naming an unresolved limit. Rubric, four criteria scored 0–2: textual accuracy and locators; explanation of form and evidence; a comparative hinge that preserves asymmetry; a counterreading that produces a genuine revision. Zero means absent or materially inaccurate, one means present but partial, and two means precise and sustained. Model thesis direction: an adequate hearing depends not merely on eloquence but on an audience able and willing to connect testimony to a corrective action. Test, do not copy, that thesis.",
+                "summary": "Finish by revising one sentence that exceeds its evidence and recording what changed. The level's binary questions offer nonblocking retrieval and scenario practice; they do not replace the essay or certify independent scholarly competence. After the capstone, return to the complete intervening chapters of whichever novel you sampled, and test whether the fuller context alters your comparison. No additional authored lesson is implied beyond this pack's final lesson; the next in-course step is the unit quiz and cumulative level test."
+              },
+              "readings": [
+                {
+                  "title": "[1] Jane Austen, Pride and Prejudice, chapter 35, Jane's reserve",
+                  "url": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+                  "note": "Reread only Darcy's account of observing Jane and his defense of that interpretation, ending before the Wickham history."
+                },
+                {
+                  "title": "[2] Charlotte Brontë, Jane Eyre, chapter 8, the hearing",
+                  "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+                  "note": "Reread Temple's invitation to defend herself, Jane's account of restraint and the promise to write to Lloyd; stop before the tea scene."
+                },
+                {
+                  "title": "[3] Mary Shelley, Frankenstein, chapter 15, De Lacey interview",
+                  "url": "https://www.gutenberg.org/ebooks/84.txt.utf-8",
+                  "note": "Reread from the creature's knock at the cottage through the family's return and his retreat. All three linked primary novels are free US public-domain texts; check local rules elsewhere."
+                }
+              ],
+              "visual": {
+                "title": "Build a comparison that can be revised",
+                "description": "The diagram turns a shared question into two close readings and a disconfirming test.",
+                "steps": [
+                  "Shared question: what conditions make a hearing adequate?",
+                  "Compare wording, reporting layers and unequal social positions",
+                  "Test a counterexample, qualify the thesis and retain unresolved limits"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-26-a",
+              "prompt": "A reader calls the cottage wealthy because the creature first describes it as luxurious. Which correction best uses chapter 12?",
+              "answer": "His initial baseline is revised when he recognizes the family's hunger and self-denial.",
+              "distractor": "The first description is an objective inventory that later details cannot change.",
+              "correction": "The sequence dramatizes learning: apparent plenty and actual deprivation are not equivalent, and the narrator describes his earlier interpretive limit.",
+              "reviewLessonIds": [
+                "26"
+              ]
+            },
+            {
+              "id": "uq-27-a",
+              "prompt": "A paragraph identifies the creature as Adam and then infers that Victor must behave exactly like Milton's God. What is missing?",
+              "answer": "The differences the creature explicitly draws, especially the absence of care.",
+              "distractor": "A longer list of features transferred without qualification.",
+              "correction": "The analogy makes neglected care visible through contrast; it is not a literal identity connecting every feature of the stories.",
+              "reviewLessonIds": [
+                "27"
+              ]
+            },
+            {
+              "id": "uq-28-a",
+              "prompt": "A debate concludes that because the creature deserves care, Victor must accept every detail of his proposed remedy. What does the passage require you to separate?",
+              "answer": "A possible duty of care from the predicted success and ethical costs of a specific bargain.",
+              "distractor": "The creature's pain from all analysis, since suffering is irrelevant to reasons.",
+              "correction": "The grievance matters, but it cannot guarantee another being's consent or establish the harmlessness of the arrangement.",
+              "reviewLessonIds": [
+                "28"
+              ]
+            },
+            {
+              "id": "uq-29-a",
+              "prompt": "A film summary is imported into an essay to state that Walton witnesses the creature's final self-destruction. What is the text-based correction?",
+              "answer": "He hears an announced intention and reports departure, not the completed act.",
+              "distractor": "A strongly implied future event is identical to a witnessed one.",
+              "correction": "Narrative scope limits claims. Symbolic finality can be discussed without inventing a scene outside Walton's report.",
+              "reviewLessonIds": [
+                "29"
+              ]
+            },
+            {
+              "id": "uq-30-a",
+              "prompt": "A comparative paragraph discusses eloquence but ignores the family's interruption of the De Lacey interview. Which revision most improves its thesis?",
+              "answer": "Make an adequate hearing depend on audience conditions as well as verbal skill.",
+              "distractor": "Remove the interruption because it conflicts with the claim that eloquence always succeeds.",
+              "correction": "The difficult detail should pressure the claim into greater precision, not disappear from the evidence.",
+              "reviewLessonIds": [
+                "27",
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-21-a",
+          "prompt": "A reader concludes that Darcy loves Elizabeth and therefore his condescension is unreal; another concludes that the creature suffers and therefore his threats are justified. Which shared error should a cumulative review identify?",
+          "answer": "Both turn a relevant motive or condition into a blanket justification of conduct.",
+          "distractor": "Both fail because motives and suffering are never relevant to interpretation.",
+          "correction": "Love and suffering matter, but neither settles the ethical meaning of a speech or act. Preserve relevant explanation while testing its claimed implications.",
+          "reviewLessonIds": [
+            "21",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-b",
+          "prompt": "Compare Darcy offering Fitzwilliam as a witness with Temple proposing a letter to Lloyd. What distinction should an evidence map preserve before any reply arrives?",
+          "answer": "A route to checking is available, but proposed corroboration is not already completed.",
+          "distractor": "Naming a trustworthy person makes any further checking logically unnecessary.",
+          "correction": "Both scenes point beyond the present account. The map should identify what is claimed, how it might be checked and whether the check has actually occurred.",
+          "reviewLessonIds": [
+            "22",
+            "25"
+          ]
+        },
+        {
+          "id": "lq-21-c",
+          "prompt": "Elizabeth recalls an earlier observation about Jane after reading Darcy; the creature reinterprets the cottagers after noticing sacrificed meals. What is the most exact comparison?",
+          "answer": "Both reorganize what observations mean, although one reassesses testimony and the other recognizes material deprivation.",
+          "distractor": "Both receive complete new biographies that remove all uncertainty.",
+          "correction": "The shared operation is revised interpretation, not omniscience. The difference in what each person is learning keeps the comparison analytically useful.",
+          "reviewLessonIds": [
+            "23",
+            "26"
+          ]
+        },
+        {
+          "id": "lq-21-d",
+          "prompt": "An essay treats Mrs Reynolds as transparent truth and Victor as useless falsehood because of their relationships to the people discussed. What revision improves both readings?",
+          "answer": "Evaluate access, interests and the particular claim instead of giving either speaker a total credibility verdict.",
+          "distractor": "Ignore all testimony and infer character exclusively from physical surroundings.",
+          "correction": "Relationships situate reports; they do not alone decide every proposition. Household experience and interested self-narration require different but specific checks.",
+          "reviewLessonIds": [
+            "24",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-e",
+          "prompt": "A draft says that Jane and the creature are accepted once they tell their stories eloquently. Which pair of details most seriously pressures this claim?",
+          "answer": "Jane needs public clearance, while the De Lacey hearing is interrupted before stable acceptance develops.",
+          "distractor": "Both stories contain speech, which proves the same social outcome.",
+          "correction": "Verbal skill is only one condition. Institutional authority can turn hearing into repair; interruption and prejudice can prevent that movement.",
+          "reviewLessonIds": [
+            "25",
+            "27",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-f",
+          "prompt": "A student wants to compare the Pemberley house with the Adam analogy as automatic certificates of moral goodness. How should the comparison be reframed?",
+          "answer": "Both organize an impression through selected associations whose limits must be specified.",
+          "distractor": "Both are fixed symbols that transfer every property of one thing to another.",
+          "correction": "Property may suggest taste without proving virtue; the Adam comparison foregrounds origin while contrasting care. Explain selection and limits rather than assigning a universal code.",
+          "reviewLessonIds": [
+            "24",
+            "27"
+          ]
+        },
+        {
+          "id": "lq-21-g",
+          "prompt": "Walton returns south but blames the decision; Elizabeth revises her view but speaks in sweeping self-reproach. What should a critic avoid in both cases?",
+          "answer": "Treating an important change as proof of complete and perfectly balanced self-knowledge.",
+          "distractor": "Acknowledging any change until every feeling and judgment is demonstrably correct.",
+          "correction": "Revision can be real and incomplete. Walton changes conduct; Elizabeth changes interpretation. Their language shows why neither should be flattened into total conversion.",
+          "reviewLessonIds": [
+            "23",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-21-h",
+          "prompt": "An argument labels the creature evil because Victor describes his body with disgust and labels Darcy virtuous because his estate is beautiful. What common evidential defect appears?",
+          "answer": "Aesthetic response is being promoted into an independent moral verdict.",
+          "distractor": "Description is irrelevant to literature and must always be omitted.",
+          "correction": "Descriptions shape judgments and are worth analyzing. Their persuasive effect should not be mistaken for a demonstrated link between appearance and moral worth.",
+          "reviewLessonIds": [
+            "24",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-i",
+          "prompt": "A capstone states that all first-person testimony in the selections reaches the reader in the same way. Which correction supplies a meaningful formal difference?",
+          "answer": "Jane retrospectively narrates herself; the creature is reported through Victor and Walton until Walton describes the final encounter directly.",
+          "distractor": "The creature is always an unmediated narrator outside Walton’s letters.",
+          "correction": "Map who reports whom. The final encounter shortens a reporting chain without making the letter transparent or identical to Jane’s narrative form.",
+          "reviewLessonIds": [
+            "25",
+            "26",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-j",
+          "prompt": "A writer claims that Darcy’s admissions prove all his predictions, just as the creature’s oath proves a future companion will agree. Which test addresses both errors?",
+          "answer": "Ask whether evidence of present acknowledgment or commitment establishes the separate future claim.",
+          "distractor": "Assume that emphatic language makes every associated proposition equally certain.",
+          "correction": "An admission can establish an acknowledged action; an oath can express commitment. Neither guarantees unrelated judgments or another person’s future preferences.",
+          "reviewLessonIds": [
+            "22",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-k",
+          "prompt": "Your essay compares Jane’s public clearance with the creature’s final departure. Which concluding sentence best respects the evidence?",
+          "answer": "Jane receives a represented correction of public standing; the departure gives narrative finality without a witnessed account of the announced future act.",
+          "distractor": "Both endings prove that every harmed person receives complete social repair.",
+          "correction": "The episodes settle different questions. One reports a corrective procedure; the other leaves a crucial future event beyond observation. Do not manufacture symmetry.",
+          "reviewLessonIds": [
+            "25",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-l",
+          "prompt": "A reviewer finds that your thesis explains two assigned passages but fails on the third. What is the strongest final revision strategy for this level?",
+          "answer": "Locate the disconfirming detail, qualify the shared claim and explain the remaining difference in audience or power.",
+          "distractor": "Delete the third passage and call the original universal claim fully verified.",
+          "correction": "A pressure test should change the scope or reasoning of the argument when it reveals a real limit. A narrower explanatory claim is stronger than a universal protected by omission.",
+          "reviewLessonIds": [
+            "21",
+            "27",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2291 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "bytes": 28637,
+    "sha256": "000a1e22e5ec8a325c7e0ab7ccf402a2193efc2fdd258cf538b6f3d599ddd7ec",
+    "wallpaper_elements": 1
+  },
+  {
+    "path": "/subjects/finance",
+    "status": 200,
+    "bytes": 27458,
+    "sha256": "d78996e73b1ec25fdef099b70b528f5c203075982b8ff346b7cf76c4e7d2c423",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/literature",
+    "status": 200,
+    "bytes": 99147,
+    "sha256": "2f0de52d0d982be5dd1e7091f9f1998334d839ed21ee296553b36b7e57b75eb8",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music",
+    "status": 200,
+    "bytes": 36766,
+    "sha256": "0b03475a15e0a754fad18597ed1edb36cf4ec6e330d298dbaffa456be9e2a5ce",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/neuroscience",
+    "status": 200,
+    "bytes": 28047,
+    "sha256": "452bd53197aa56a90ae912af0ba5e15114572a51bca5041b96411ccb7d917a54",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/philosophy",
+    "status": 200,
+    "bytes": 26571,
+    "sha256": "6073db81e903493da5905ac424b16ff3f1f93349c04eed5dc746278d1ff04f6a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/psychiatry",
+    "status": 200,
+    "bytes": 18137,
+    "sha256": "0c76cf1c8eeeafd7bfde2be4378645ff32ac9ab1a2a7a1123658bc24415bc8f0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian",
+    "status": 200,
+    "bytes": 44180,
+    "sha256": "ed38a6df7369e670a988e56235bac817f831a35127ba8d65d5cd3c70aa13b49f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare",
+    "status": 200,
+    "bytes": 27730,
+    "sha256": "580b4baaf3a825a5728c68464948ab0f214fb1f62d4c7dc0e1bcba9c586bc5f9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/theology",
+    "status": 200,
+    "bytes": 26058,
+    "sha256": "f76975eba087283ecabf6e5f8b25e4101a299e69c0fee615c4ce2c638679839f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/veterinary-science",
+    "status": 200,
+    "bytes": 28536,
+    "sha256": "5d3cf372d8e9cda10846cc611b34dedf4b1b83349a557ec76bcb96b99d8f756c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/01",
+    "status": 200,
+    "bytes": 26815,
+    "sha256": "41fccdd5cd559462bce9247b74c680c101471bf0c133c009dbf53022288e7f21",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/02",
+    "status": 200,
+    "bytes": 26815,
+    "sha256": "1f1714ce841cd4f9e09df36a541e8f0ba87d06d28dfbd66e1adb19df36af7a24",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/03",
+    "status": 200,
+    "bytes": 26819,
+    "sha256": "d15e931f1b1016dc6c484c6375e402293872e96bef33197ef5db01d3e03ec054",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/04",
+    "status": 200,
+    "bytes": 26813,
+    "sha256": "6db313fdea29256d916f4f8095d3ab5f851a4472481bd9a26a739508c6f02d3d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/05",
+    "status": 200,
+    "bytes": 26817,
+    "sha256": "d1b92260c3a71085bb669aa4cd1bae57ba92e9f1e5d3af389f6421f1305cc1a0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/06",
+    "status": 200,
+    "bytes": 26823,
+    "sha256": "acce752d29460addab8724a157be881ff26f8e881826e95962c2c8e8c5df0daa",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/07",
+    "status": 200,
+    "bytes": 26809,
+    "sha256": "256cd0f775d4ae514bf01eb7e5f07e0fa8592ae414464c401581da0f384e49ca",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/08",
+    "status": 200,
+    "bytes": 26820,
+    "sha256": "0775a183e1fda2d3df43af8b33149f4bfc18eff4e86edcf92810ce3b99143f3f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/09",
+    "status": 200,
+    "bytes": 26822,
+    "sha256": "b98462d68a74f7db6e827f47101974de8f70cdc992d93f784bfb6335fb09b763",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/10",
+    "status": 200,
+    "bytes": 26816,
+    "sha256": "0d45e3094a5044c4b0b91bb0c9b3ef5334a71d3e935f1124357f8f08655199f4",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/11",
+    "status": 200,
+    "bytes": 26826,
+    "sha256": "583667ed8fd805433d8ab88dc2bf37f739f5dfa3deb624bb24cabdf7a740a3a9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/12",
+    "status": 200,
+    "bytes": 26809,
+    "sha256": "e2aebcb4426e42b254819efe80f13104451a8823e2b99e80484c22ef9c337718",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/13",
+    "status": 200,
+    "bytes": 26811,
+    "sha256": "101ce78ed525b7567c8db3981e722fb886ddcd29ed775dc547418a4a1a666b5f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/14",
+    "status": 200,
+    "bytes": 26811,
+    "sha256": "69b425aa9faaeb8418d10583489fef1af0fd8788e027def243c3d3d46715ee53",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/15",
+    "status": 200,
+    "bytes": 26825,
+    "sha256": "aa8f71492f96b4d3df6fd9da3de7440d24a6a4f9f0b9da3e5b6e5f0673ad21a3",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/16",
+    "status": 200,
+    "bytes": 26817,
+    "sha256": "7e0a135c81e67d3ed19d0df2e235e8351435cf18f8046d6ab91a4a512fbb2e76",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/17",
+    "status": 200,
+    "bytes": 26811,
+    "sha256": "4ed579f482b73aea213ba7e5ca1986f7d02bfc53cefaa2aa7986c2dd08e2e587",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/18",
+    "status": 200,
+    "bytes": 26819,
+    "sha256": "168e358c94e1fefe671af733ade71cbc0678e65e9832e80f56a3d45a6f3fb903",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/19",
+    "status": 200,
+    "bytes": 26816,
+    "sha256": "7b0d2208cd1e008f5ae272f77f9f18dbc2de48216b6ebcd0cb9c825d6142de55",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/finance/20",
+    "status": 200,
+    "bytes": 26823,
+    "sha256": "ebc789c544237f24d8b8b1b0c281cc7c7ddaf20fa5f91cbdc9504b9d564c61a5",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/01",
+    "status": 200,
+    "bytes": 26943,
+    "sha256": "921c0aa17c1f3656d018c56aa95e5950579c5e2ee0885b41545e5b7175c03c05",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/02",
+    "status": 200,
+    "bytes": 26949,
+    "sha256": "3d8a5a82eaf7af792e56a27c61abe6f052215e69a06a436bbf6f3fa190e1145b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/03",
+    "status": 200,
+    "bytes": 26946,
+    "sha256": "580bb8c1c0ca3976d2d0aa37fe1a27d8342a5fad3c7274a11cfda877b43ae408",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/04",
+    "status": 200,
+    "bytes": 26948,
+    "sha256": "a756c28c15cbe8d65488e42436d4f0b48967563d543b87415981f7d0566db591",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/05",
+    "status": 200,
+    "bytes": 26940,
+    "sha256": "e52bf68caa937f3ab6ffa177cfe80ce290a82180b37946213b5615501971db8a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/06",
+    "status": 200,
+    "bytes": 26948,
+    "sha256": "ca2cf1d5d39f5f0e042ed3186cc042a4369a258a624bd6f76d59b6f2c26b275a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/07",
+    "status": 200,
+    "bytes": 26941,
+    "sha256": "9bb8aa512a192c0492f9593c9d697b7523cd4e119ab7e0fdce5338c512a4c7fa",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/08",
+    "status": 200,
+    "bytes": 26947,
+    "sha256": "1c24440716ec5515dae874f76c97b1358e07b512584161f22c59ca62b0aa7543",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/09",
+    "status": 200,
+    "bytes": 26942,
+    "sha256": "2a568df4ce1da7d325a3a3eab4aa3fe97263b2a6d9082adee67670960c5c796b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/10",
+    "status": 200,
+    "bytes": 26943,
+    "sha256": "4051be7ad580ed88e4590e6f5221776737730b08dad7065f2f618f57f3172734",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/11",
+    "status": 200,
+    "bytes": 26946,
+    "sha256": "2b07df4338869dc8dbbde4d956343568a41a004a61520933d8f3adce38c18262",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/12",
+    "status": 200,
+    "bytes": 26955,
+    "sha256": "cad386c1ff3f96ee91e4111f80e9e7c60072c649eb004ed2006c75d511fa49c0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/13",
+    "status": 200,
+    "bytes": 26953,
+    "sha256": "4cc7d59dd2eef158a25f9df07511f6918cda2e1aa2ec49f0b4fc74d52b711e84",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/14",
+    "status": 200,
+    "bytes": 26950,
+    "sha256": "d74cda1ba0fc80a72becdd6c8928db893aa364190afe1371e7af8ca1855c83f4",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/15",
+    "status": 200,
+    "bytes": 26951,
+    "sha256": "84e67fb5a6b3d6b819e97d7cb9136ec064ab98c03995d538083c9c515df5083f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/16",
+    "status": 200,
+    "bytes": 26952,
+    "sha256": "77129a5be751fb43340d18d8b7d36e5116eb9655bb8ae073143152b1f19f4e8d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/17",
+    "status": 200,
+    "bytes": 26944,
+    "sha256": "af96a9c47a467923ab1b77aca7a571b4e08c3c72a243d4aaf79d0cfd99933c1e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/18",
+    "status": 200,
+    "bytes": 26950,
+    "sha256": "89a49ad2cd1ddb53a60cab0feb55b8573f817ad9e2d49b1affdedd0827ebdd7b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/19",
+    "status": 200,
+    "bytes": 26945,
+    "sha256": "b7e1264de51db8d59f1124bba9a09e67801b470b712a16395c21ce51022df194",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/literature/20",
+    "status": 200,
+    "bytes": 26963,
+    "sha256": "a421d8614e0469f2faa16e91cb33bef95cd5f6c884241739d73686b872f20d9d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/01",
+    "status": 200,
+    "bytes": 29546,
+    "sha256": "b01949b6f357a56f90809b68aa6fa90fb0bfb51dc2618ee10af7bdb945e650c7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/02",
+    "status": 200,
+    "bytes": 29541,
+    "sha256": "543024f32ab89ea67a0e4125b77a306a6571a0caa8b8eea46a4d82040bfc0d79",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/03",
+    "status": 200,
+    "bytes": 29548,
+    "sha256": "85f235a89421c18b69237ae52d3df9515d9b061bace4481fa3511685d4d5f8d0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/04",
+    "status": 200,
+    "bytes": 29546,
+    "sha256": "bcc8b350e6edb00db63a0c21872f6b838815e36b51091940c9291160b1863425",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/05",
+    "status": 200,
+    "bytes": 29545,
+    "sha256": "585e78ebba1a82aa3c1357420c1c99b939046abcb96e5a6d596c4a57fdd53cb0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/06",
+    "status": 200,
+    "bytes": 29543,
+    "sha256": "5e81ba654d9f658fcb89b1b512bd86862ef9bf5178e9bfc67b6f67469445a1b9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/07",
+    "status": 200,
+    "bytes": 29549,
+    "sha256": "c0ccfacdd274a8e7137667b1abc5f0def68b2e17114f68b8b934bc897533361f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/08",
+    "status": 200,
+    "bytes": 29539,
+    "sha256": "295fdf5f24c04439d38fc4e985e2f05b4be0f1b61f9a2b7c0540ca955532cae4",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/09",
+    "status": 200,
+    "bytes": 29548,
+    "sha256": "fc700b2d539c52a6eec3121fb8968df807ee40c45bdbca47315bedc68866fa3f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/10",
+    "status": 200,
+    "bytes": 29547,
+    "sha256": "ce77604a5ea69963d1c552b2098eda9acd3ccc0d8912a64acdead2d96bc36b54",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/11",
+    "status": 200,
+    "bytes": 29548,
+    "sha256": "ce33b24e8641697273a4778a27ea3b3c7bcbce472c5a16be69bf09b56c98a2ef",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/12",
+    "status": 200,
+    "bytes": 29554,
+    "sha256": "ac574b6cde298afb73a5d41224ef2716b9f3a977e686992a9d9cceb89b27e9ae",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/13",
+    "status": 200,
+    "bytes": 29546,
+    "sha256": "cbafe33b287e97ce3f262edf0ec1d8d177a154049b0b3448e863dd7d8d7ff52a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/14",
+    "status": 200,
+    "bytes": 29549,
+    "sha256": "ea0b73fe1b37c844203ea1244d73f97d8f1172608928ce2b82c7e8f8f8cc4575",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/15",
+    "status": 200,
+    "bytes": 29548,
+    "sha256": "cd33b9cd096275b02aa0cac135e9706d345f6f7c370c6f85241627a4bafe87c0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/16",
+    "status": 200,
+    "bytes": 29548,
+    "sha256": "28f60035bf27846ad4f02db310b4b3abe223465bdcb60fbdbb011b9562bf85c3",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/17",
+    "status": 200,
+    "bytes": 29547,
+    "sha256": "8ae429ed3d82a173eeb5834bcf2fb8d39326418e3236ae68eb6545a38838f664",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/18",
+    "status": 200,
+    "bytes": 29550,
+    "sha256": "ace83359541bdc800fedfa28487ad75b98bbb984fc3bd6c7668e8448479dafed",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/19",
+    "status": 200,
+    "bytes": 29548,
+    "sha256": "1a6897e6ca392fe3fffe9e3f4f3da4be89837cafbdba5fce2882721a6c4327a6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/music/20",
+    "status": 200,
+    "bytes": 29551,
+    "sha256": "cbbe26c2fd57e361bd73f363d9d16fba30055a5e7e6522cbab10dbe25c5bacaa",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/01",
+    "status": 200,
+    "bytes": 27106,
+    "sha256": "3949b2f23bc4924077b648ccc7b6a3a2ee422d0d46feae20a41b5bd7f015d997",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/02",
+    "status": 200,
+    "bytes": 27108,
+    "sha256": "b78a361f7d6b01c6a0c9b6f47b870a9d73bac8ab2c11ceace52d63ff7b6a2a6c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/03",
+    "status": 200,
+    "bytes": 27107,
+    "sha256": "6f636e7081a6c9bd7f95b6b0dc56d481fa47d662b24ed5dee511a126451faa63",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/04",
+    "status": 200,
+    "bytes": 27107,
+    "sha256": "172741918db0a85a202d4462a34cac8a124446b0838d9f4adbb11c82f25beaab",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/05",
+    "status": 200,
+    "bytes": 27111,
+    "sha256": "1ae876625643f7d683efc55982eadfcc83bbcd714b1674c827e2ab8ddd53551f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/06",
+    "status": 200,
+    "bytes": 27115,
+    "sha256": "94f5d7d21a12eee04f71a686e698ba34c944eaecef0593b8e910af7e3dfde076",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/07",
+    "status": 200,
+    "bytes": 27111,
+    "sha256": "df73d79d9d3ebe3e994011eaebf14846b7e023b3e2de246b656afbbfd7181f0b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/08",
+    "status": 200,
+    "bytes": 27120,
+    "sha256": "a45092aaab1174179c78918d1ef56efcb7e35ed20653e4807eb45ccd2dc33873",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/09",
+    "status": 200,
+    "bytes": 27104,
+    "sha256": "aa4a150015e8a76fc573f1492a2c8d1a173a74fa0e2fd07ef6168b4cdff7877d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/10",
+    "status": 200,
+    "bytes": 27104,
+    "sha256": "6f7b8afff4aa7096e641a5362d67e3dafd5ea3020b075bdbefd4bf7bc2f2f95a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/11",
+    "status": 200,
+    "bytes": 27131,
+    "sha256": "45d5cae9904f00dc8f875dceede621736d885c3e80088bfb00d891c2f2f479db",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/12",
+    "status": 200,
+    "bytes": 27121,
+    "sha256": "fdb683b7ae3093f164a8796dfb03b25610db20a19a5807bce90fdca48300434d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/13",
+    "status": 200,
+    "bytes": 27128,
+    "sha256": "17d9165c68b0da44561b0ebf31ed5996ccff613a5ae8e352d8890eb322b12ae7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/14",
+    "status": 200,
+    "bytes": 27138,
+    "sha256": "fc702ca991a50166b638e0ca88e47de463520c7ed3d24c1de499f2e3c4b4e53b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/15",
+    "status": 200,
+    "bytes": 27134,
+    "sha256": "73cde1ddff39cc8b0a3147bbb334e3fabb8e792f4d6f98e1f0750fe77aec1ca3",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/16",
+    "status": 200,
+    "bytes": 27125,
+    "sha256": "c5e12e9fcb8d0e9493a13bc8f95d9de0e4def773ec8f188ca02b87973bb80407",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/17",
+    "status": 200,
+    "bytes": 27128,
+    "sha256": "3c92f40b2630ab0469ee6954d3d8cc5a2bc06dcffd5773b0cc5cec15bb1f034d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/18",
+    "status": 200,
+    "bytes": 27135,
+    "sha256": "a96acb79d1935a32992f1d651a8e7b843822e72dfe54a0b3902bcd778fb5158f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/19",
+    "status": 200,
+    "bytes": 27124,
+    "sha256": "d49e0a81963ccdc59641bb386f1c5f7948557b9c36e6eb0928af0a14faca0212",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/neuroscience/20",
+    "status": 200,
+    "bytes": 27140,
+    "sha256": "3478b7622f6f426024abdb7ef9b193e2ec738f5fd4bee4b113656cdb2d7d9632",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/01",
+    "status": 200,
+    "bytes": 75702,
+    "sha256": "08cacdb989a3eb345b1f2c319ea09dcecc6f274e5a3f1d3ae8954d6d7c5ace77",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/02",
+    "status": 200,
+    "bytes": 75695,
+    "sha256": "832a468e8d98e6a132e4333a8c19937c94c70ad72d9854a6e7aa7a04bb2e1174",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/03",
+    "status": 200,
+    "bytes": 75686,
+    "sha256": "7d2558991f78891cbb2da41d5d00f1a6b45f703dd41cc925fd487fb6263d0083",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/04",
+    "status": 200,
+    "bytes": 75686,
+    "sha256": "e9265219912ba40ca02cfe8f9fa89d9484893a2eecf13efeff735cfdcd818f80",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/05",
+    "status": 200,
+    "bytes": 75692,
+    "sha256": "739952132fe35b4a868dc2982856fe823d95af5778776ecae3d2b3475e9c3a65",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/06",
+    "status": 200,
+    "bytes": 75701,
+    "sha256": "3ebe8a662131edb6d4a116733f03328dc54f359429fbaf094833a07a2b615ef4",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/07",
+    "status": 200,
+    "bytes": 75704,
+    "sha256": "464371af7932910177302e894da58c0c615e6978d146bddfbfe178caec4e767e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/08",
+    "status": 200,
+    "bytes": 75697,
+    "sha256": "3a663594158b63f7c3af76597c6ac61cf4648b4b198bc308a56a57bffec1a567",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/09",
+    "status": 200,
+    "bytes": 75692,
+    "sha256": "d8c93c747dc470787edec0b2a05092fd0c5e59595210d9f679b1b33180b94fdd",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/10",
+    "status": 200,
+    "bytes": 75703,
+    "sha256": "2d0a5b4a83a013053bd6dc7f70611faf96e18f52ff0a11633802f5943f5f3e9b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/11",
+    "status": 200,
+    "bytes": 75713,
+    "sha256": "274125961ac0116af88c3707f447b8c71413b963700e30895d1726c8c02c2ab2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/12",
+    "status": 200,
+    "bytes": 75709,
+    "sha256": "9a4d427a36c100402efe72d44e790225c9a464bc5d22e37cebed05b052d5aab7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/13",
+    "status": 200,
+    "bytes": 75714,
+    "sha256": "31400a6c2777591a0eccfda510206a8fe3e37c08d4a70bb43901cc641bb25a67",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/14",
+    "status": 200,
+    "bytes": 75710,
+    "sha256": "6b04e4e223e0b15e818662fb3fc0c7fe68c55e1474db6881e1e827ea4552e854",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/15",
+    "status": 200,
+    "bytes": 75707,
+    "sha256": "a9f77aebc4656694424ec004d891236469f14235931d67f98d5b5e7f6c4c196f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/16",
+    "status": 200,
+    "bytes": 75704,
+    "sha256": "976d95ad6df1e1b70f9799803598202a44295130983501ff87e65d3e294d57a5",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/17",
+    "status": 200,
+    "bytes": 75711,
+    "sha256": "bfc203598fac322d7e3efd6fb556c9f5b7cf2a37667a5c4bf2c4663eeba12bb5",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/18",
+    "status": 200,
+    "bytes": 75713,
+    "sha256": "5ca1e8c0f121fa4857f772ee7c2d98603bd5ebb257901f08ac4b849d35c5aadb",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/19",
+    "status": 200,
+    "bytes": 75699,
+    "sha256": "adcc5730f06f7ba6775d6751837ff883274a88c3a0b351209f4078c48020925c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/20",
+    "status": 200,
+    "bytes": 75716,
+    "sha256": "0109fb6561d1533282c446129f8054646a446186b31a7f9c09a402ddf591896c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/21",
+    "status": 200,
+    "bytes": 75732,
+    "sha256": "1e736769199785f80ff3e72f3a6fad27b1e72744a392dabd6590db574780ad03",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/22",
+    "status": 200,
+    "bytes": 75724,
+    "sha256": "874dbc6148bd567189f97f31a2d2c2b14ce08fbd485adee5d5d25865a4ee0816",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/23",
+    "status": 200,
+    "bytes": 75738,
+    "sha256": "d23e0db52ce07f6fa7333f585a031917fffd2af5bc7e8e63dba22f5e98922411",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/24",
+    "status": 200,
+    "bytes": 75744,
+    "sha256": "095b630040798b313c771a5cbfd24fd64cd4ec217bd7fdee49124f074ca0992a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/25",
+    "status": 200,
+    "bytes": 75743,
+    "sha256": "5ed705d747d59eac2ee10046b34bf7f60ac7c35ec102a2a645537a975dda4646",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/26",
+    "status": 200,
+    "bytes": 75741,
+    "sha256": "1568105d0df7a917c268835b5d6fdd588fa56ffaf65ed4ceef3199160fc89051",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/27",
+    "status": 200,
+    "bytes": 75738,
+    "sha256": "d5d8613bd6c410b7f1a72f16e657a50e35a5b8e7782cf823b6f49278854cf393",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/28",
+    "status": 200,
+    "bytes": 75740,
+    "sha256": "61bb3cf3043659ba959e6e3d70d76eaa98293c7e42ca2ef9a8e5dee7fa4fa86a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/29",
+    "status": 200,
+    "bytes": 75734,
+    "sha256": "b18d5d8ccfe98e70bebcce560814273dcd68715b925d95411e76a70b232b9f91",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/30",
+    "status": 200,
+    "bytes": 75730,
+    "sha256": "e4f4d63151942d5150d7c48e57f02b4222cc06bb7e83bd9a30207f0bb1d5fbc2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/31",
+    "status": 200,
+    "bytes": 75727,
+    "sha256": "88bcf9c02f3e0dfd65ec08dabe78caa23869577d06c28313bc163c53562a6107",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/32",
+    "status": 200,
+    "bytes": 75731,
+    "sha256": "e141a67ce5f37acaa4367c5f9b7fa449b88ae2a850c11838aaed2571ae28e1a0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/33",
+    "status": 200,
+    "bytes": 75742,
+    "sha256": "0a91c83806c875bb3a1d922b49e5c04c6bcc3a4f74e1a146e9cbc1c50843f22f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/34",
+    "status": 200,
+    "bytes": 75733,
+    "sha256": "0c7d289635ae3a8ea7405204d807b8a519065c58175c68a113c586ea3da02a12",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/35",
+    "status": 200,
+    "bytes": 75717,
+    "sha256": "9ee6098ae36a292ff52104001384be1c4b0afec9b52a5ab19c061933e67641cb",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/36",
+    "status": 200,
+    "bytes": 75729,
+    "sha256": "d667ea39dcbf5621b79d6ca2ca6acf394edac8407aa4ea0d309944ce88fd440c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/37",
+    "status": 200,
+    "bytes": 75731,
+    "sha256": "9a0a1ed88580fb945724fd5cd6e408212b222108e23951fb28a48496b7431e2e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/38",
+    "status": 200,
+    "bytes": 75714,
+    "sha256": "bfff8afeaa202d784c7e6798839c0867affd954431f6ed38a4d3d74735baa0e2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/39",
+    "status": 200,
+    "bytes": 75736,
+    "sha256": "e5802818702c72ff2af489d1092f53ca848cbe933be75b19d431f18d1dadae93",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/40",
+    "status": 200,
+    "bytes": 75721,
+    "sha256": "9a51d20a7360e6fda7d5d37f983326e673ba7625dcd8432583c549724d6190bc",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/41",
+    "status": 200,
+    "bytes": 75736,
+    "sha256": "0061bc825b2881ca72687d0ff112a48d8473747907d1b8833e509fde77428fa9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/42",
+    "status": 200,
+    "bytes": 75742,
+    "sha256": "6ce51719926e691b49de5a7bcaf2213ee5f3017506683576f0c8700860ce72f4",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/43",
+    "status": 200,
+    "bytes": 75747,
+    "sha256": "c6ca03c57a4d1cce58d8d2a40984da7cdba88618d373eb5c577928e9a84bb679",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/44",
+    "status": 200,
+    "bytes": 75742,
+    "sha256": "d2168e6456ca6d4200d286a77cc73a4a571fb15d99ed6366e8ed5a381c8c1029",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/45",
+    "status": 200,
+    "bytes": 75745,
+    "sha256": "d8248a35f5260f2d4041e94a4a753b7cac40e09a36a2a93ba57dd4d16a2784dd",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/46",
+    "status": 200,
+    "bytes": 75736,
+    "sha256": "e8e120f1e9e9ff950d3f245b63a5b4f39bb63238b50d1e0441042b7fe2c1ab24",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/47",
+    "status": 200,
+    "bytes": 75738,
+    "sha256": "7963ee66f27484f4fe044e71f35c122804355692c3e11d642b47871e81cd61af",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/48",
+    "status": 200,
+    "bytes": 75739,
+    "sha256": "755bee5c44b40095c0c64cfeb969576a210ebd87af9b8274d9368dbc71f8dce6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/49",
+    "status": 200,
+    "bytes": 75734,
+    "sha256": "b84dd3b9d9cfd5f6eb7c3429e605367f943a504307a38af16a1603c730c69a41",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/50",
+    "status": 200,
+    "bytes": 75753,
+    "sha256": "7481f9b62dabf054afd821c8873ad76856e32d6785510888025e00c4a37da8d7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/51",
+    "status": 200,
+    "bytes": 75742,
+    "sha256": "546addb50299c05eb9e0858a1bdacd93926848c1056f2256150bf67285022cd6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/52",
+    "status": 200,
+    "bytes": 75748,
+    "sha256": "5eb63956d2ae3d7317e6d7c411c281a6de76100ff2503fc8baad4ca9f43f2dbc",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/53",
+    "status": 200,
+    "bytes": 75731,
+    "sha256": "76fa7688230d6e67483ebb7e7cc3da2d408df4e95f1beeaa032b216d437e4b8a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/54",
+    "status": 200,
+    "bytes": 75750,
+    "sha256": "87cee64fed54b596ff5a1d1abed8eaea215b5e5497399c1c9f955b67b83503ad",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/55",
+    "status": 200,
+    "bytes": 75745,
+    "sha256": "a97ef98faa3d1e2d9d372d13825edc8f11695b5f6cd04e2c2fcc63fa23ff96ca",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/56",
+    "status": 200,
+    "bytes": 75756,
+    "sha256": "22484a76697c3d5965e7f213c0e0f9b55b38f8319ba9947dbfa61363270ce61e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/57",
+    "status": 200,
+    "bytes": 75749,
+    "sha256": "fc1a79cb8a3025aaa8f0bc9c94f0db74d50bbc7ba29671c5b1f0b871e7381599",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/58",
+    "status": 200,
+    "bytes": 75752,
+    "sha256": "d99e9117ab350ce5806f2275e7b853a75fb1bb61373e8beb77c8ee8858417697",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/59",
+    "status": 200,
+    "bytes": 75735,
+    "sha256": "c709543842e7af12d106f032591b7245d0438a52fe90649e32ddd4fde8d39922",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/philosophy/60",
+    "status": 200,
+    "bytes": 75760,
+    "sha256": "5edd647116e0a2ad7d1f6aa14ee6d225e6158ce46078c4a127119ee87cde9e6e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/01",
+    "status": 200,
+    "bytes": 27293,
+    "sha256": "4aec5991c0c14e9cc77161f87cf6f529ac23044e029f6c81acd1cd1ebb81b565",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/02",
+    "status": 200,
+    "bytes": 27285,
+    "sha256": "9be8dc35119d30b6514fd023bee7db760d87089cb95993f83100be9ccde8beeb",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/03",
+    "status": 200,
+    "bytes": 27290,
+    "sha256": "dd9ca35b76ffc786afd58b4f411e1af85220f89a72eb688b24e90d2df6baf927",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/04",
+    "status": 200,
+    "bytes": 27294,
+    "sha256": "69d86f714409c4fac30c00412c04523e54e2a613636bb2e2613ab4b47dbeac39",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/05",
+    "status": 200,
+    "bytes": 27278,
+    "sha256": "54ff6989f0f1c147a636e5c5dfe6d1b4cde71caf2bd8d2689d40c4b44c6f02bc",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/06",
+    "status": 200,
+    "bytes": 27292,
+    "sha256": "773abb977a3c06157217518b5e7e6b2fd758d7da494653a54e76c53cfcae4ec0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/07",
+    "status": 200,
+    "bytes": 27293,
+    "sha256": "46fecac1b2cf1b6fc045c342284a209b9dd414ceb6dfab5cf5f055c877b83faf",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/08",
+    "status": 200,
+    "bytes": 27282,
+    "sha256": "920ce927a8848b07f548dc1679581d5b7a0953e6fc10db4c387742b443f3ac35",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/09",
+    "status": 200,
+    "bytes": 27285,
+    "sha256": "6dfd7fd536bef773ead721f67e102f27372d66a7cc3ae7c48d4da26632aca32d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/10",
+    "status": 200,
+    "bytes": 27291,
+    "sha256": "e3d840de8084bb7c5f1f695c6ac55f9d8771b9cd94f235ec1a230a3c645e8841",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/11",
+    "status": 200,
+    "bytes": 27304,
+    "sha256": "182db74e859df2cf27435643ec70a87df97d8cd4bb517495ab5cf0206c4c81bc",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/12",
+    "status": 200,
+    "bytes": 27303,
+    "sha256": "bb2c355e28e7d99b906f5a6ea4b0f0fd7aa96646f9b602fadffee1301711ba69",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/13",
+    "status": 200,
+    "bytes": 27305,
+    "sha256": "1c34d88829ac2b41dcda6a7766c7ec51b2f62ae3a2771cfc64d19bc408c81adb",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/14",
+    "status": 200,
+    "bytes": 27312,
+    "sha256": "6debc140e3e54c817efb6fd7ccae46f2521b8365647da7b2db2e68842ea5172e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/15",
+    "status": 200,
+    "bytes": 27308,
+    "sha256": "6f92728af3db35e776ab023a03c173b14693692d03160810b5ac7925373abe36",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/16",
+    "status": 200,
+    "bytes": 27306,
+    "sha256": "8cc4432fca0381a17ec9d05b9e394fb4ce5691f414e3f3f524a8962c3d492c26",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/17",
+    "status": 200,
+    "bytes": 27301,
+    "sha256": "c4308814deaa1a5f4c7d47e5fc0a04e96f1ccfe48af33a33bababfb980d05340",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/18",
+    "status": 200,
+    "bytes": 27304,
+    "sha256": "e6965679e41ae3687e43cc54256950658c6c89b3c5dbb84535155920963a0faa",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/19",
+    "status": 200,
+    "bytes": 27309,
+    "sha256": "67c002041d55f94cf2a69bd01b72852c55785e6441a59769e6c47e35d6b5d4e3",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/psychiatry/20",
+    "status": 200,
+    "bytes": 27304,
+    "sha256": "85e338d397d6ec50cbd3f1af058c35c01a06d04cfb092982eb855c2c44604e88",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/01",
+    "status": 200,
+    "bytes": 36839,
+    "sha256": "c4faef7c01b5e34dfdd1346fc8233e7fadf12d7a8ee7aea5a4ee6f210f1729ac",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/02",
+    "status": 200,
+    "bytes": 36844,
+    "sha256": "a70c36dee6abefe56ad514063c19b11e3c589168bc5c582176e2d4a4c6516ba9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/03",
+    "status": 200,
+    "bytes": 36837,
+    "sha256": "58e2139b18b3fa6ce87a567ee2f723a1813031cc2bf4ad5075135c29dd5dc038",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/04",
+    "status": 200,
+    "bytes": 36844,
+    "sha256": "82e0ce304507c52e3fd27e97fd2803ec0ecd602ee2a757ef16f1b45d2cb350f6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/05",
+    "status": 200,
+    "bytes": 36839,
+    "sha256": "bf1000f4e261fcb7d154f22459832bc0fc24cfebf629a7ecbc24a3d5944385e1",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/06",
+    "status": 200,
+    "bytes": 36846,
+    "sha256": "2e2245eebf8b4c1a262616b7a3a19029d903ae6d38d87c299e9adb166f1e1c6e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/07",
+    "status": 200,
+    "bytes": 36843,
+    "sha256": "5e6bb63853628001e465ef11751e3a70d48951626b7b408c7fad87b2f5768829",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/08",
+    "status": 200,
+    "bytes": 36838,
+    "sha256": "3b5ecf096098c317fc14e7fee79c9c1cf456f9be19ecde4ee16dfe3040d4960b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/09",
+    "status": 200,
+    "bytes": 36835,
+    "sha256": "b0c78d9ac6786e669f22e5bed3ce257a51c05f119a6bd6a48f35fce045ae4995",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/10",
+    "status": 200,
+    "bytes": 36847,
+    "sha256": "9e7185e62b438609f22e32aea5f39f98cf2a9fc272167a3756bbc2f784af8f59",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/11",
+    "status": 200,
+    "bytes": 36832,
+    "sha256": "75b072641b76a3f923d20c310100ce0e5506619d1aed483029cf55a2f90f9858",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/12",
+    "status": 200,
+    "bytes": 36835,
+    "sha256": "9c46d8d966f5c656ad30b7ebccb63cec25130c035e1ad612dfae1e6293316d8e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/13",
+    "status": 200,
+    "bytes": 36838,
+    "sha256": "bbd4df3106aa1186ebb92f2020ae7dc5db4ed9b62e03e8851cd5d6eb52983895",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/14",
+    "status": 200,
+    "bytes": 36835,
+    "sha256": "e0c46f067b330ee9a36c03fb598dd2754b69c7cafe05a66f4be0437359808789",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/15",
+    "status": 200,
+    "bytes": 36828,
+    "sha256": "cf914becec771cca03f54983a0d5b904c6ec513aaf7ac46f61b536fa02296ec2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/16",
+    "status": 200,
+    "bytes": 36828,
+    "sha256": "c19769ab10b55a7943d9345f6089144ce043ad74bac560780b73b1073fda4064",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/17",
+    "status": 200,
+    "bytes": 36836,
+    "sha256": "ca0b10a676df0734fe1687ff2538270fb4aeef47614c65ff33783d4e90a67516",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/18",
+    "status": 200,
+    "bytes": 36839,
+    "sha256": "dddf8757d6bc6e93aafdee34dc26a00521c7d9bc840ab5ae0d2020c632cc8d3f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/19",
+    "status": 200,
+    "bytes": 36827,
+    "sha256": "be044f8571f84a0983a5a3afbe4004f836d28cb3ce4eaf4ea2ab037b9c3ceab2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/20",
+    "status": 200,
+    "bytes": 36836,
+    "sha256": "1cce3573e1a3e01865416d389363a48586fd6c5c0cf6c2dbd59b1e6bbd1474fa",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/21",
+    "status": 200,
+    "bytes": 36894,
+    "sha256": "91dafcea48218f4580ae7fab106695d71a2900769cfa1aa16eda509d0e4d89c2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/22",
+    "status": 200,
+    "bytes": 36882,
+    "sha256": "4101d75f8520b76dd1b3c1def4fa608dbc1123b7ce7dfaccd54141efd5607df2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/23",
+    "status": 200,
+    "bytes": 36889,
+    "sha256": "15db55e6fac0cedfd6290e33249b727393997336326d2b0c77bacd9e60bc7eee",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/24",
+    "status": 200,
+    "bytes": 36877,
+    "sha256": "991eedae732e8b6aff9991ec34cd89f66a3aa2f60985b44c58ac53c8bcb5b653",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/25",
+    "status": 200,
+    "bytes": 36880,
+    "sha256": "ff4ee6c50fd8784c9f26d6b13b07adfa70f6c41462f217972775ffaa821522a9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/26",
+    "status": 200,
+    "bytes": 36888,
+    "sha256": "a924061b5b38daa183507b4429a6c690066be2b617c55b463eb93b3b791bdcc7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/27",
+    "status": 200,
+    "bytes": 36881,
+    "sha256": "136475f076dd1fd2254a09905a2bbc0645b0161cdf65aed9ac690e8229d8f078",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/28",
+    "status": 200,
+    "bytes": 36891,
+    "sha256": "5ea4d5fae326d1f4fe51ff17c2506b23ddaa19480a47f94c864821802a124cd0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/29",
+    "status": 200,
+    "bytes": 36880,
+    "sha256": "6f6c7df7c723555642e57e097a48e1e723c8c3fb46433d0432cee4db48ef8424",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/russian/30",
+    "status": 200,
+    "bytes": 36886,
+    "sha256": "f470335717ca3a17881cc7307ab0c94930717b179490dacde7a9fefd2b59e8f7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/01",
+    "status": 200,
+    "bytes": 27025,
+    "sha256": "e2ff9a9cf57a8bd85cdac5ec9f9eab5c1d45d2213e078db3c38336e9ad3e1453",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/02",
+    "status": 200,
+    "bytes": 27020,
+    "sha256": "6f7ac241792c087a7fb1b4f0e417888e18a28ff0c90ec4ae4d8699a79268ceb7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/03",
+    "status": 200,
+    "bytes": 27021,
+    "sha256": "472949dc7b3a06349724a88c80ca6e748c2033f509068393e2095c8f2a3f1df6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/04",
+    "status": 200,
+    "bytes": 27025,
+    "sha256": "04423e0392a2803e43a18b04b3fca0e1ece01e7068e5000464da812c9fede149",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/05",
+    "status": 200,
+    "bytes": 27024,
+    "sha256": "993f2a2093b11d2d17d71d0e6219fa3b8ead53d3be7238ccd0ab3cc48f2d9bb7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/06",
+    "status": 200,
+    "bytes": 27027,
+    "sha256": "f61d23abe31ba8c88f86a1ccecbdcf7c54e2dc684eee8e083ec73592ffb17efb",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/07",
+    "status": 200,
+    "bytes": 27026,
+    "sha256": "36b188cc05c7ec27de21336c39efd1adc25820494bb12ede1c12ac9b8f13813d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/08",
+    "status": 200,
+    "bytes": 27031,
+    "sha256": "79889427e86c83db0df49766788f67227c4f39a7b372d762d3c486405580e623",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/09",
+    "status": 200,
+    "bytes": 27023,
+    "sha256": "ae04ad29deb9137fbb7a8c68fc281ca2b10cf12d4e10c09ef2877ac6954b0de5",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/10",
+    "status": 200,
+    "bytes": 27028,
+    "sha256": "ed960c8887855d5afc6a62916f9f336645cf6893651159263229e1ed93a1d455",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/11",
+    "status": 200,
+    "bytes": 27035,
+    "sha256": "8dc220fa51701801a8f16c23ca623e76cc423a76a9ad8dbc1917ba545ab3481a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/12",
+    "status": 200,
+    "bytes": 27025,
+    "sha256": "5c0ca89924672c06a6a015c3ab1bb3eabd7bd84a3e6d61e80eef6a579f19c1f6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/13",
+    "status": 200,
+    "bytes": 27027,
+    "sha256": "52c58843d04a8534a634c5d8199039b18f96fe2bbc1a60b099cd80145110b393",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/14",
+    "status": 200,
+    "bytes": 27033,
+    "sha256": "ac49b66df6b547d1cc1171c211483fd30862966c78ae2b02803b72e5f586e53a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/15",
+    "status": 200,
+    "bytes": 27030,
+    "sha256": "d44971639f98a60f997d1defe10424f57ea448992be545e964e35561df63d7d7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/16",
+    "status": 200,
+    "bytes": 27029,
+    "sha256": "cc4ff6d060c73c7ac625926c582b154dc27844a2a800af36cf7466e073370eae",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/17",
+    "status": 200,
+    "bytes": 27038,
+    "sha256": "ae69b0bcee38b3b11aa2319c230b35c062b27c0f57a467123b4394e406f3670a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/18",
+    "status": 200,
+    "bytes": 27042,
+    "sha256": "fd26f0d83b8f3711ab200b626e1d9afb22009edacf6f511f93d91b5300f273b6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/19",
+    "status": 200,
+    "bytes": 27036,
+    "sha256": "e49c8170aa986fe1d253a377998ccd4ea584206a22b7a9af39df63b1050e67a7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/skincare/20",
+    "status": 200,
+    "bytes": 27024,
+    "sha256": "0424c1976d98aa9928a64bb23f97d17d825d5cb39ee92ccbbc38cdd240f44e5c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/01",
+    "status": 200,
+    "bytes": 27167,
+    "sha256": "c272c0e26d425b961e7ea08fbaf293d8a16236b86a8118931ba50a84a3186935",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/02",
+    "status": 200,
+    "bytes": 27159,
+    "sha256": "8ea6fb6281c22d35f9e6809a4113b6cfd875c1e61e60aadbd98df7762662776d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/03",
+    "status": 200,
+    "bytes": 27166,
+    "sha256": "50eb4cc6525d4d0e6a38f99813f7382fc1a98e13e00e132566c59f8160bab04e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/04",
+    "status": 200,
+    "bytes": 27156,
+    "sha256": "4946517d969a295f468f5cf861bc6b39b946296772fbcd0673884ffe0c433459",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/05",
+    "status": 200,
+    "bytes": 27156,
+    "sha256": "7c3c0be799247525e8429ee63363d6b39b9315af8088b3052ca2e2e25fe91272",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/06",
+    "status": 200,
+    "bytes": 27163,
+    "sha256": "d75b675db1d285a95724bc449fb146a11aea37f88f2495cb3ebe432e3b5f98f5",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/07",
+    "status": 200,
+    "bytes": 27153,
+    "sha256": "cbdbb95f32898478b127d3eece6993756d527df76468325b46d2b57b3a5bafdd",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/08",
+    "status": 200,
+    "bytes": 27162,
+    "sha256": "95c61168838bfde4b4903aefdd2eb36aa785596f435d64deab3e1e9c9bb0ff91",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/09",
+    "status": 200,
+    "bytes": 27158,
+    "sha256": "183a2401bf6e4dc01a89b61595bb7dbcf8d1075d926d8e84856f8f4b75611dd6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/10",
+    "status": 200,
+    "bytes": 27167,
+    "sha256": "e025a6413071045881b322fb23dfa802b54eaacad80aa40d36e670a3863fc111",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/11",
+    "status": 200,
+    "bytes": 27167,
+    "sha256": "b3beecbf7199c1084068a7e4cbe100353c5cb74c8bfa63e9119faa7c35b36165",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/12",
+    "status": 200,
+    "bytes": 27165,
+    "sha256": "599dfbfd0fad1c9e70832cff571a34c074114bc45bb67404fbbe3478840a75ad",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/13",
+    "status": 200,
+    "bytes": 27162,
+    "sha256": "0f186a1c5739bdcdbfaecc1635e3a1522e25a0c7fdb069fd67be37f5415ac999",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/14",
+    "status": 200,
+    "bytes": 27164,
+    "sha256": "fb538d8861054d86a2acfa82e0124d3088ef1972c71fd3dd946037e7ba6d4438",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/15",
+    "status": 200,
+    "bytes": 27160,
+    "sha256": "0e9810f5923232e3697c217cd9c35bbf5fbc176e6836a2b953e029a4b9935f9f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/16",
+    "status": 200,
+    "bytes": 27166,
+    "sha256": "889b299d2f10146bfc58a149597553f8acc814dcacae27e0b19859311f0ab477",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/17",
+    "status": 200,
+    "bytes": 27158,
+    "sha256": "e8c1fe6092abeddacb0d7f76406c425ddb1cecb6127037e0b5f349047ad1c489",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/18",
+    "status": 200,
+    "bytes": 27167,
+    "sha256": "0f8b574b94fd52d5927f293083853337d9f2353373e82b427aa79424ab784610",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/19",
+    "status": 200,
+    "bytes": 27166,
+    "sha256": "efa827ad17a7b2561e267bc99a4469e5fbe0bf00dbc113983c6313e28c10769a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/theology/20",
+    "status": 200,
+    "bytes": 27166,
+    "sha256": "0c4df5c83d642ed57d7d4e7eb5e229e283a7aef8203561f494e1a9c79d5410a0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/01",
+    "status": 200,
+    "bytes": 26537,
+    "sha256": "7d8f87a019f33887d77faf2a64c2b4bd60cfed65b2dcb39527fa3661c53a3896",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/02",
+    "status": 200,
+    "bytes": 26529,
+    "sha256": "513fcdd6d5482e3e275f7e4f927dccfb5bed871f37b5ade35135cb78c809ffa1",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/03",
+    "status": 200,
+    "bytes": 26528,
+    "sha256": "b0637432a556218e023a18997fdeed5c0028cf50be9623fb312c021a78b38168",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/04",
+    "status": 200,
+    "bytes": 26529,
+    "sha256": "b94e7ca5b5e0e7b4ff6cd306305cc3123c45e1f9b9882446c7ae2df3d3cd7f3c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/05",
+    "status": 200,
+    "bytes": 26530,
+    "sha256": "27b71880f11cd6604176ba893dafe983631af9104c9d2fedbd472cb6f908a510",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/06",
+    "status": 200,
+    "bytes": 26532,
+    "sha256": "13781891e134edeca3fb140d9726bd7ba1a1b9c7987400fc2587fa610938265c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/07",
+    "status": 200,
+    "bytes": 26521,
+    "sha256": "865bc6acbf856e203384d8482142ac20a99acfe5a1d890f84d05695f291d7795",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/08",
+    "status": 200,
+    "bytes": 26526,
+    "sha256": "24b5cfb38fe79800bc8a066e7e82190a0cf7e89a58317ec0e4af178911b7f880",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/09",
+    "status": 200,
+    "bytes": 26533,
+    "sha256": "95334d44d7b70950a7d4ebee72ff3e586fd7b0df8af6810c6b093ab0047504b3",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/10",
+    "status": 200,
+    "bytes": 26533,
+    "sha256": "3ba8697b8e162ff2011ddbf29b02c71ffcd8e88de6a7a783bddbf0265c018d63",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/11",
+    "status": 200,
+    "bytes": 26537,
+    "sha256": "52aecad563af7edb4a7546401439631ddcaf1027b0bce6a27b5c4f494b4e49ea",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/12",
+    "status": 200,
+    "bytes": 26538,
+    "sha256": "9bab5b5ada092f8f8e567352036559c358eab917d6a9904e87a46bd83b1633f5",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/13",
+    "status": 200,
+    "bytes": 26542,
+    "sha256": "a92b1c373701b117cef88fd62079c602fda6142a1875412152a8839f37e109a3",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/14",
+    "status": 200,
+    "bytes": 26534,
+    "sha256": "4f4004cc1b7b23027e87888324889658d658d9449da609ad1573bfa35421b005",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/15",
+    "status": 200,
+    "bytes": 26535,
+    "sha256": "a24d148ad0e282f9c0671c51928a1b848ce5c277b0788268bc7f8b19cadc21e4",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/16",
+    "status": 200,
+    "bytes": 26533,
+    "sha256": "829444d17a2c82b8417bebd733837ff88183b2a97353ffa61ada2501fd9f3be7",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/17",
+    "status": 200,
+    "bytes": 26533,
+    "sha256": "fbdd3915ccb9b9b94c795db2a140e65855c3da124eb9e38944634a1117ec3abc",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/18",
+    "status": 200,
+    "bytes": 26535,
+    "sha256": "9d72e12739694c1af584b51500d7177c4a0baa3dd99ca828bcca3ae74636eeaa",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/19",
+    "status": 200,
+    "bytes": 26534,
+    "sha256": "ffb3b9f484c7f81ff6bd14457afef6debdd7aecc31e71a48fd667d97503b30dc",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/learn/veterinary-science/20",
+    "status": 200,
+    "bytes": 26541,
+    "sha256": "75090fe1f82d38910f066dc05efae8674ea512b1b9336a58b920bcea89d2e5a6",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/finance/cash-flow-basics",
+    "status": 200,
+    "bytes": 16105,
+    "sha256": "99943ae9471e49dd6a94ff4d8281c673aa10dd3ac877f4ebc75d5d4fac917c4e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/finance/debt-interest-and-risk",
+    "status": 200,
+    "bytes": 16198,
+    "sha256": "0f1080aa74203d33b56d168d512a8c3f82effea4a5fcb3a02beeead5b69c263b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/finance/independent-financial-judgment",
+    "status": 200,
+    "bytes": 16454,
+    "sha256": "238eeb42fed2c81875a47ff7273e10fbde1eddada889fab41e8c1763f862a2f2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/finance/investing-fundamentals",
+    "status": 200,
+    "bytes": 16289,
+    "sha256": "a8554ee7658a123b56ee3181c8455a4049d7f59ccbd0f4c6b175d6bf9de3b1dd",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/finance/markets-and-valuation",
+    "status": 200,
+    "bytes": 16244,
+    "sha256": "129456790d7359ecf7238d152854a03e15543b1405b4ef9ca03dd98e49fb4dab",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/beat-and-counting",
+    "status": 200,
+    "bytes": 15103,
+    "sha256": "5e5f2801d5749efbf78261cf45514617e4592b6a04c23d4f788186a9a17ac1a8",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/fl-studio-first-beat",
+    "status": 200,
+    "bytes": 15124,
+    "sha256": "0b7e1ffb56ebce8c0d93d92421e9a491639dc4f2935e7410be5341191400295b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/fl-studio-midi-and-arrangement",
+    "status": 200,
+    "bytes": 15210,
+    "sha256": "86be19ed73228b0ee66a9d7c5648a51ef3697a852a4d92ac7033f08b722b13ff",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/fl-studio-tour",
+    "status": 200,
+    "bytes": 15593,
+    "sha256": "a5f5c3db8c9c5c61f66619e36cccf82ced250802c3e4faab7dc7464fd361a98a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/guitar-first-chords",
+    "status": 200,
+    "bytes": 15667,
+    "sha256": "dc0ac45988797bb6e03e153d79017ef85ee44a83b63223d0fadc1c72ac828e7a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/guitar-ready",
+    "status": 200,
+    "bytes": 15653,
+    "sha256": "c2d4e2d3c32fa927d64bffd5e2962e44e989a19d686c554b4a8d09b777de5e25",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/guitar-rhythm-and-song",
+    "status": 200,
+    "bytes": 15470,
+    "sha256": "2de75d3f4ec0370cdefd66233951a7807e4efa73e83917924b1494069af49c4e",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/keyboard-chords-and-two-hands",
+    "status": 200,
+    "bytes": 15146,
+    "sha256": "fe3d57e795c58009407e9f4d8350d7b1ac1db161fbf738dfc1f1098d2c1cc630",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/keyboard-first-melody",
+    "status": 200,
+    "bytes": 15067,
+    "sha256": "453829cb726d6041b4c14a89403ebfd1353971a580360869fb916f4e7f34354c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/keyboard-map-and-posture",
+    "status": 200,
+    "bytes": 15599,
+    "sha256": "def2c309410d3c301573733751b18095c134a523d6f1103220765ffe06a068f8",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/note-names-and-keyboard-map",
+    "status": 200,
+    "bytes": 15132,
+    "sha256": "a72abce5b50f821c560c405f534b039f426f165f2db87efa1ce27c0bc3ff1fe8",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/music/scales-and-chords",
+    "status": 200,
+    "bytes": 15166,
+    "sha256": "368a9c518bfd1321360f7855ce09c58deb5c5574e646261b55053bff417b6104",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/neuroscience/clinical-and-cognitive-neuroscience",
+    "status": 200,
+    "bytes": 19406,
+    "sha256": "1f284694861b735aa8601fce2f0d1315f72d1b3eb4dbd9312a806e3bf21738c1",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/neuroscience/emotion-and-motivation",
+    "status": 200,
+    "bytes": 18965,
+    "sha256": "aaf3355f5a3326d84a6a9117a40f4a5f91a705a3eee46c95813f5343e9759838",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/neuroscience/learning-memory-attention",
+    "status": 200,
+    "bytes": 18962,
+    "sha256": "f77e1ce528185d6b87afd0d5667b64d415e885c56c69e444dbc83f51e6764186",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/neuroscience/neural-foundations",
+    "status": 200,
+    "bytes": 19033,
+    "sha256": "c12f030505d6cff14267c80209429fb459074ca194dd478e1348e5de0a705351",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/neuroscience/sensation-and-movement",
+    "status": 200,
+    "bytes": 18911,
+    "sha256": "de26fc1797f5b5f1be91873a4eafbfea0d30645907fc29ce4054dd41c8c8f1a5",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/a2-ready-review",
+    "status": 200,
+    "bytes": 16912,
+    "sha256": "c2117599ad03427c19aab5af8434505fcdb62e3ea99795e2218e1191b1564994",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/adjectives-and-places",
+    "status": 200,
+    "bytes": 16731,
+    "sha256": "b70fb1a7c6c2a7f65ce092b737344de908c18352a7e941ff001d8b73476254fa",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/advice-and-health",
+    "status": 200,
+    "bytes": 16787,
+    "sha256": "9853938c391c1857841e25188b5b15115e5a50e0dd22b854eb8f08010edc0e78",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/alphabet-foundations",
+    "status": 200,
+    "bytes": 21208,
+    "sha256": "f8c36f21bb0b279b237ef9c6e6f269ebb8439f9a49081dc2707d4aa4915e0230",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/comparisons-and-choices",
+    "status": 200,
+    "bytes": 16573,
+    "sha256": "43d0bd918f5f2f42dd5a5dd42826b62f3b4ec149b1d4b02d63e8023b36c01aaa",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/conversation-repair",
+    "status": 200,
+    "bytes": 16766,
+    "sha256": "c05cf3da6f81925ce6fce7447a9bead012f10d30bb79ca3b16bbf7fccd44e585",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/daily-routines",
+    "status": 200,
+    "bytes": 16743,
+    "sha256": "804d45a8dba4615fc62857c453c07ae5ce0b4e9950b8d84e81e58b8effb9b769",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/family-and-possession",
+    "status": 200,
+    "bytes": 16685,
+    "sha256": "3e2780d92895d7800dc5fae140f2c90bf2ccb4f3a796f5bfc995e8c8c9fb483f",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/food-and-drink",
+    "status": 200,
+    "bytes": 16632,
+    "sha256": "e085132be469d87ccf1ddfedd14e415d3201d2c8fd2ebef64445d62002a2e886",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/future-plans",
+    "status": 200,
+    "bytes": 16638,
+    "sha256": "d2b2cd87979b87a1ff429ca61eab83cd36ca03210f0356a9da7d31bf7b278c38",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/greetings-and-courtesy",
+    "status": 200,
+    "bytes": 16774,
+    "sha256": "eab404712435c1b4f25c20de8d89feae9bb184237687b65efe902d20f1b40394",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/home-and-neighborhood",
+    "status": 200,
+    "bytes": 16743,
+    "sha256": "0abdb720231a2b2d8f00fd70229fd0ebf89e26eef1bde93bfdfab22cb63a5c3b",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/integrated-conversations",
+    "status": 200,
+    "bytes": 16867,
+    "sha256": "a4be79e8efc55c7c5e1a8d14530e0fef2fbe7eca4aba752024d40721ecc2f489",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/introductions-and-questions",
+    "status": 200,
+    "bytes": 16786,
+    "sha256": "de44d309f333aa3708502c1e48ffef4b7a1c39c7c6afb0560be098a5b88a8fb9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/messages-and-arrangements",
+    "status": 200,
+    "bytes": 16824,
+    "sha256": "b0dd150db7bcfee894df8913c79a47d3c3b5bc155560650819fac97b7aec9c9d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/needs-and-preferences",
+    "status": 200,
+    "bytes": 16799,
+    "sha256": "bb28add329ea4cc867fc2d14e0b149d9174b53c6310388bc599c9dd386b76937",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/past-events",
+    "status": 200,
+    "bytes": 16621,
+    "sha256": "b8e40bd6a1f1325de609beadca8a3e0a223433cd40128bd04600ed0e555996bd",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/people-and-gender",
+    "status": 200,
+    "bytes": 16693,
+    "sha256": "29c62962a9745a64ffc0f1619b2dcf0eb0ab5193653c334d958655abdafeedc2",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/requests-and-help",
+    "status": 200,
+    "bytes": 16691,
+    "sha256": "43d9da32a9de545a3b7754aa3e43a5b8e9ba2e3c6d65dc775e5db26f8b58cf02",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/shopping-and-prices",
+    "status": 200,
+    "bytes": 16768,
+    "sha256": "3f1653c9af10bbcffb8cb1ff58891c23182fb43e1c3fcde21f33c0e281258d4c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/stress-and-sounds",
+    "status": 200,
+    "bytes": 16637,
+    "sha256": "661c6f51042092d9d0edec16f676d5ce3e835313c7f7400ac22351c3867976eb",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/telling-a-short-story",
+    "status": 200,
+    "bytes": 16737,
+    "sha256": "2149c3127f4e1786de63cea562c2a639eebe507dcf035a98f942a3eefa7d279c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/transport-and-directions",
+    "status": 200,
+    "bytes": 16844,
+    "sha256": "fec4c277ae2ef916dac9bf8cd15b5ec98c35846471f3dd2e1c76da020e57b160",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/russian/weather-and-seasons",
+    "status": 200,
+    "bytes": 16710,
+    "sha256": "d7974b62ebf6799af7a90019cdac1e6f570b0419cf3c9d987b387903008f3ed3",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/acne-basics",
+    "status": 200,
+    "bytes": 15670,
+    "sha256": "22dc577b5b1c7a21a72857586f9fa28f17f4927224beca1887508d6c4df2f7eb",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/barrier-and-irritation",
+    "status": 200,
+    "bytes": 15691,
+    "sha256": "2df442e8bf525accad8327930cf13e8cf845a159b198193815c4107d96494d52",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/build-a-basic-routine",
+    "status": 200,
+    "bytes": 15683,
+    "sha256": "993ed07812a25dd8173694bee7087be49a546e68e8d499502e740bc005e1a214",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/dark-marks-and-tone",
+    "status": 200,
+    "bytes": 15571,
+    "sha256": "c37641cbfc1a10b2b9aa33d0d1759458aeb22686d69ca5bc3e90af54dc9bd4b8",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/professional-routine-audit",
+    "status": 200,
+    "bytes": 15744,
+    "sha256": "867a77b7542a2f322a93ae1579f910c729a430a005f75df16e2fc988021327b9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/read-a-product-label",
+    "status": 200,
+    "bytes": 15499,
+    "sha256": "a1b24c0cd3b27c3df206effe493f1bc13c36d8f91b7de426fba4c470019a6c07",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/retinoid-literacy",
+    "status": 200,
+    "bytes": 15688,
+    "sha256": "5445d70bb606adc5ee8f523781db7cfd837c95f1c397a0c98879b4b140348965",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/sanitation-and-scope",
+    "status": 200,
+    "bytes": 15643,
+    "sha256": "3c9ba588d2f8fd7b27f19d0e747e9c3e5829df62c8a1b5050575d4a3293378ad",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/skin-as-an-organ",
+    "status": 200,
+    "bytes": 15576,
+    "sha256": "227d2baa06109e1331f411ff703636d7631969a49075c9a017483beee2d3030c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/skincare/sunscreen-and-pigment",
+    "status": 200,
+    "bytes": 15635,
+    "sha256": "4fcb06a386f5f6dcca03933a77e898bd146d60e81f0e80ec4a5d00c05a34331c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/theology/christ-and-salvation",
+    "status": 200,
+    "bytes": 17768,
+    "sha256": "602d92500f9545aa80193b57f60ffb7f7283a2b4c07f537428a578642a34793a",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/theology/church-sacraments-and-moral-life",
+    "status": 200,
+    "bytes": 17806,
+    "sha256": "4e0f6f9544d88499342f8651be26a3b064561513c8c3bc29cd2a143e2e928f61",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/theology/god-creation-and-the-human-person",
+    "status": 200,
+    "bytes": 17855,
+    "sha256": "2632c0af2ef939b53cc33a5dfbcab4775c8ac60fee991cc2649b2549526f380d",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/theology/history-philosophy-and-questions",
+    "status": 200,
+    "bytes": 18068,
+    "sha256": "84c9acb70183acca09f36be2b8a1043418d0a0df9265052318b861b175f5906c",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/theology/how-theology-reasons",
+    "status": 200,
+    "bytes": 18120,
+    "sha256": "46e8f04362d557ba9c6060da09c4abed6daa626cbb23dd8559128b88f0fb03ad",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/veterinary-science/clinical-foundations",
+    "status": 200,
+    "bytes": 16481,
+    "sha256": "28b60d05e7ed0e124d144bd48aebe9e6deaf344d78110159d5dfd6844287b0f9",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/veterinary-science/comparative-anatomy",
+    "status": 200,
+    "bytes": 16396,
+    "sha256": "7abadedd87f11952831f61436194df3ae916eaddc9e72c8365986e6c736a8bec",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/veterinary-science/patient-care-practice",
+    "status": 200,
+    "bytes": 16578,
+    "sha256": "7e2952ec894a1778adb32a070c162ef45b93db628d1cd9d98134f5834efbd325",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/veterinary-science/pharmacology-diagnostics",
+    "status": 200,
+    "bytes": 16510,
+    "sha256": "568ca16bf658ce64ac84959f8b189a17cd34e746837cad169dea3720bbfb87c0",
+    "wallpaper_elements": 0
+  },
+  {
+    "path": "/subjects/veterinary-science/physiology-pathology",
+    "status": 200,
+    "bytes": 16507,
+    "sha256": "2238d179910c74ffb195beea577833526b9ca78225d83b6891f956509fa18859",
+    "wallpaper_elements": 0
+  }
+]

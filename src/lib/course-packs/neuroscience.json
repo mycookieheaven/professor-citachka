@@ -1,0 +1,644 @@
+{
+  "subject": "neuroscience",
+  "levels": [
+    {
+      "title": "Mechanisms, representations, and the logic of neural evidence",
+      "units": [
+        {
+          "title": "From synaptic integration to experience-dependent circuits",
+          "lessons": [
+            {
+              "id": "21",
+              "title": "Synaptic integration is a spatiotemporal computation",
+              "explanation": "Objective: predict why identical sets of incoming spikes can produce different neuronal outputs. Earlier lessons established membrane gradients, action potentials, and excitation versus inhibition. We now connect those ideas by following an input from a synapse to a spike initiation region. Most individual central synaptic responses are too small to trigger an action potential alone. Inputs can nevertheless cooperate because their voltage effects overlap in space and time. Purves and colleagues illustrate this with independently activated excitatory and inhibitory pathways. The important quantity is not simply how many messages arrived, but how those messages altered membrane voltage while the neuron remained responsive to them. A neuron is therefore not a mailbox that counts inputs without regard to arrival time.",
+              "example": "Consider a hypothetical recording with separate stimulating electrodes on pathways A and B. Each pathway alone produces a small excitatory postsynaptic potential, or EPSP, without a spike. When both are stimulated almost together, the resulting depolarization reaches the spike threshold. When B is stimulated after A's voltage response has largely decayed, the cell remains below threshold. Reasoning proceeds in stages: both pathways are effective; neither alone is sufficient; their near-coincident effects overlap; the overlapped depolarization can recruit regenerative sodium-channel activity. The experiment supports temporal cooperation, not the claim that either input changed its identity. Keep stimulus strength and recording conditions constant before attributing the different outputs to timing.",
+              "question": "Why can the same input count yield different spike output?",
+              "answer": "Timing and location change the integrated voltage.",
+              "distractor": "The cell counts every input identically regardless of timing.",
+              "correction": "A decaying graded response can cooperate with another only under suitable spatial and temporal conditions.",
+              "depth": {
+                "definitions": "Spatial summation means combining effects produced at different synaptic locations. Temporal summation means combining successive effects that overlap before earlier responses have decayed. The membrane time constant characterizes how quickly voltage approaches or returns from a change in a simplified passive membrane. Electrotonic spread is passive spread of a voltage change through the cell; unlike an action potential, it generally diminishes with distance. A spike initiation region is a location where the available voltage-gated channels favor regenerative firing, commonly the axon initial segment. These concepts extend, rather than replace, the earlier threshold account.",
+                "mechanism": "Opening synaptic channels changes conductance, permitting ionic current that charges the membrane and spreads through dendrites. The membrane stores charge, so voltage cannot usually change instantaneously. Meanwhile, current leaks through other conductances, so an EPSP does not persist indefinitely. A later input meets whatever voltage and conductance state remains. Location matters because a distant synaptic event can attenuate before reaching the initiation region. This is why measuring an EPSP near the soma is not equivalent to measuring the local dendritic event. The simple additive diagram in the reading is an entry model, not a universal law of arithmetic addition. Driving forces change with voltage, and active dendritic channels can create nonlinear interactions. A prediction should therefore identify whether passive summation is assumed or experimentally established.",
+                "secondExample": "A contrasting case holds input timing fixed but changes the distribution of active synapses. Suppose activity on a distant dendritic branch produces a substantial local voltage response but only a small response at the soma. A nearer pathway produces a larger somatic response even though its local synaptic event is no larger. The difference need not mean the distal synapse is defective. Cable filtering and the intervening membrane can explain it. Conversely, a cluster of inputs may recruit local active conductances, defeating an overly simple distance rule. The useful question is which location was recorded and whether active properties were controlled, not which synapse deserves the label stronger in every context.",
+                "mistake": "A common mistake is to reason that two subthreshold inputs must remain subthreshold together because neither can fire the cell alone. That ignores a nonlinear output threshold applied to a changing integrated voltage. The opposite mistake is equally important: assuming any pair of excitatory inputs must trigger a spike. Timing, location, starting voltage, conductance, and threshold all constrain the outcome. Diagnose your explanation by checking whether it describes those intermediate conditions rather than jumping directly from transmitter release to firing.",
+                "application": "Optional task: sketch voltage traces for A alone, B alone, near-coincident A plus B, and widely separated A plus B. Use qualitative traces; no invented physiological measurements are required. Model response: isolated bumps remain below a labeled threshold, overlapping bumps can cross it under the stated assumptions, and separated bumps decay independently. Self-review: label the membrane recording location, show time on the horizontal axis, keep the threshold visible, and distinguish graded voltage from the triggered spike. Add one sentence explaining why active dendritic properties could modify this simplified drawing.",
+                "summary": "Integration links synaptic physiology to circuit computation: a cell is sensitive to the arrangement and timing of activity, not merely its presence. Carry this framework into the next lesson, where inhibition changes the membrane's responsiveness itself. Also retain its evidential lesson: an input-output observation becomes explanatory only when the relevant intermediate state and measurement location are specified."
+              },
+              "readings": [
+                {
+                  "title": "Summation of Synaptic Potentials — Neuroscience, Purves et al.",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK11104/",
+                  "note": "Read Figure 7.7 and spatial/temporal summation. Historical 2001 textbook; simplified diagrams are not exhaustive dendritic models."
+                }
+              ],
+              "visual": {
+                "title": "From coincident input to threshold crossing",
+                "description": "A textual voltage sequence compares overlapping and separated EPSPs at a labeled recording location.",
+                "steps": [
+                  "Input: A and B create separate graded EPSPs.",
+                  "Overlap: near-coincident potentials combine before decay.",
+                  "Integration: conductance and location shape voltage at the initiation region.",
+                  "Output: threshold crossing recruits a spike; separated inputs may not."
+                ]
+              }
+            },
+            {
+              "id": "22",
+              "title": "Inhibition changes responsiveness, not only voltage",
+              "explanation": "Objective: distinguish hyperpolarization from inhibition by asking what happens to spike probability. Earlier lessons described inhibitory input as reducing firing likelihood. That functional definition is more reliable than equating inhibition with a downward voltage deflection. Synaptic effects depend on the channels opened, their reversal potential, the starting membrane voltage, and the surrounding activity. In the textbook treatment, the relation between reversal potential and spike threshold is central. An inhibitory input can produce little visible change at rest yet strongly reduce an excitatory response arriving at the same time. This lesson explains that possibility through conductance, a property that cannot be read off resting voltage alone.",
+              "example": "Imagine an illustrative neuron with an inhibitory reversal potential close to its resting voltage. Activating the inhibitory pathway alone barely moves the voltage trace. An observer concludes that nothing happened. Now deliver a standard excitatory input: its EPSP is smaller during inhibitory activation than in the control condition. The hidden change was an increased membrane conductance. Current produced by the excitatory pathway now drives less voltage change because the membrane offers an easier route for charge redistribution. The finding is compatible with shunting inhibition. To strengthen that interpretation, measure the response to a small test current and verify that the inhibitory manipulation changes membrane responsiveness, rather than simply reducing transmitter release in the excitatory pathway.",
+              "question": "Can an inhibitory input matter when it barely changes resting voltage?",
+              "answer": "Yes; increased conductance can reduce responsiveness to excitation.",
+              "distractor": "No; a nearly flat voltage trace proves no synaptic effect.",
+              "correction": "Near reversal, conductance may change despite little net current until another input displaces the voltage.",
+              "depth": {
+                "definitions": "Conductance describes how readily current flows for a given electrical driving force; resistance describes the opposing property. Reversal potential is the membrane voltage at which the net current through a specified synaptic conductance is zero. Driving force is the difference between membrane voltage and that reversal potential. Hyperpolarization means movement toward a more negative membrane voltage. Inhibition concerns reduced probability of firing under specified conditions. Shunting inhibition describes suppression associated with increased conductance, often conspicuous when inhibitory reversal lies near resting voltage. These terms describe different aspects of one event and are not interchangeable.",
+                "mechanism": "A useful simplified relation is synaptic current equals conductance multiplied by the difference between membrane voltage and reversal potential. With the usual outward-positive current convention, that difference also determines current sign. When voltage equals reversal potential, the net synaptic current can be zero even though many channels are open. The added conductance still matters: excitation that displaces voltage creates a driving force through those channels, opposing further departure from reversal. Increased total conductance also shortens the passive integration timescale when capacitance is unchanged. Inputs may consequently have less time to cooperate. This is a membrane-level explanation, not a promise that firing rates will always be divided by a constant. Spike generation, changing conductances, dendritic placement, and network feedback complicate that extension.",
+                "secondExample": "For contrast, suppose resting voltage is more negative than an inhibitory reversal potential, while that reversal remains below the spike threshold. Activating the conductance can then depolarize the cell while still opposing a stronger excitatory drive toward threshold. The voltage movement looks upward, but the relevant comparison is firing with versus without that conductance under matched excitation. This demonstrates why depolarizing and excitatory are not perfect synonyms. It does not imply that every depolarizing GABA response is inhibitory. Ion gradients, developmental state, and other cellular properties can change the effect, so the inference must be tested in the preparation rather than imposed from the transmitter name.",
+                "mistake": "The misconception is that a flat voltage trace proves an inactive synapse. A recording can miss a conductance change when the driving force is small. Correct the error by separating three questions: did receptors change conductance, did that change alter voltage in this starting state, and did it alter the response to another input? Similarly, do not describe GABA as a universal chemical brake independent of receptors and ion gradients. The functional effect is a relationship among a conductance, a cell, and an operating condition.",
+                "application": "Optional task: write an interpretation of the nearly flat inhibitory trace and the reduced coincident EPSP. Model response: the pathway may increase conductance near its reversal potential, making the membrane less responsive to excitation despite little isolated voltage change. Proposed check: compare small test-current responses with and without pathway activation while monitoring baseline voltage. Self-review rubric: distinguish voltage from conductance, identify an alternative explanation such as altered excitatory release, and predict a measurable difference that separates the accounts. A sketch is enough; this is not an instruction to perform a biological experiment or manipulate anyone's medication.",
+                "summary": "Inhibition can alter both the level of membrane voltage and the window over which inputs influence output. This connects directly to temporal summation in lesson 21. When interpreting a neural signal, always ask which property the instrument actually measures. Voltage, conductance, synaptic current, and spike output are related but distinct, and confusing them can turn a plausible circuit mechanism into an unsupported conclusion."
+              },
+              "readings": [
+                {
+                  "title": "Gain control of firing rate by shunting inhibition: Roles of synaptic noise and dendritic saturation",
+                  "url": "https://www.pnas.org/doi/10.1073/pnas.0337591100",
+                  "note": "Read the abstract and opening discussion of reduced input resistance with little voltage change. This modeling study distinguishes subthreshold shunting from conditional effects on firing-rate gain. Accessible extracted full-text sections verified."
+                }
+              ],
+              "visual": {
+                "title": "A nearly silent conductance can inhibit",
+                "description": "Four labeled relationships distinguish resting voltage from responsiveness to excitation.",
+                "steps": [
+                  "Starting state: inhibitory reversal is near resting voltage.",
+                  "Channel opening: conductance rises with little isolated voltage change.",
+                  "Coincident excitation: displacement from reversal recruits opposing current.",
+                  "Functional test: compare EPSP and spike probability with versus without inhibition."
+                ]
+              }
+            },
+            {
+              "id": "23",
+              "title": "Center–surround fields encode contrast",
+              "explanation": "Objective: predict a sensory neuron's response from a stimulus's spatial arrangement rather than its total brightness. The earlier sensory-coding lesson established that perception is not a photograph copied unchanged into the brain. Retinal center–surround organization supplies a concrete circuit example. Some retinal ganglion cells increase firing when light falls in a central region and reduce firing when light falls in a surrounding region; other cells have the opposite arrangement. Webvision describes these ON-center and OFF-center pathways and their retinal circuitry. The relevant stimulus is therefore a relationship between locations. A larger illuminated area need not create a larger response in every neuron.",
+              "example": "Consider an idealized ON-center ganglion cell under stable adaptation. A small bright spot confined to the center increases its firing relative to baseline. Enlarge the spot so it covers the surround while keeping the center equally illuminated. The response can become smaller because the surround contributes an antagonistic influence. Finally, illuminate only the surround: firing can fall below baseline. The reasoning compares spatial patterns while keeping center intensity explicit. It is not an assertion that light in the surround physically blocks photons from the center. The difference is produced by neural interactions within the retina, and the baseline matters when calling a response increased or decreased.",
+              "question": "Why may enlarging a light spot reduce an ON-center response?",
+              "answer": "The enlarged spot recruits the antagonistic surround.",
+              "distractor": "More photons necessarily silence every retinal neuron.",
+              "correction": "The response depends on where light falls relative to the receptive field, not total light alone.",
+              "depth": {
+                "definitions": "A receptive field is the region of sensory space in which a stimulus can influence a specified neuron's response under specified conditions. For this lesson that space is a region of the visual field mapped onto the retina. Center and surround name functionally opposing portions, not necessarily the visible outline of one cell's dendrites. An ON response increases with a light increment in the relevant region; an OFF response favors a light decrement. Contrast is a difference relative to a surrounding or reference intensity. Adaptation refers to changes in sensitivity associated with recent stimulation and background conditions.",
+                "mechanism": "Photoreceptors feed vertical pathways through bipolar cells to ganglion cells, while lateral interactions involve horizontal and amacrine cells. The surrounding illumination can influence the signal reaching the same ganglion cell through those lateral circuits. Thus a ganglion-cell response is already a processed output, not simply a report from one photoreceptor. A simplified center-minus-surround model helps explain why broad uniform illumination can produce less activity than a localized boundary. However, that model describes a functional pattern, not a complete molecular mechanism. The horizontal-cell feedback literature considers proton-mediated, ephaptic, and other signaling accounts; the assigned review separates a well-established antagonistic effect from debates over its implementation. Use historical discussions to learn evidential reasoning, not to assume the field has stood still since publication.",
+                "secondExample": "A contrasting example places a bright–dark edge across a population of neighboring receptive fields. A field wholly inside the bright region has both center and surround illuminated. A field whose center lies on the bright side but whose surround extends into darkness can show stronger imbalance. The population therefore emphasizes the boundary rather than reporting identical activity across the entire bright surface. The comparison predicts a pattern across cells, not the exact brightness a person will consciously experience. Later cortical processing, adaptation, eye movements, and other factors contribute to perception. A retinal model can illuminate one component of an illusion without being a complete explanation of all visual experience.",
+                "mistake": "One misconception identifies the receptive field with the patch of tissue occupied by a neuron. The field is mapped experimentally by changing the stimulus, whereas a dendritic tree is mapped anatomically. They can be related without being identical. Another error says an ON-center cell must be silent in darkness. Many such cells have baseline activity that can increase or decrease; ON names the sign of a stimulus response, not a binary switch with only two possible states. Correct both errors by stating the stimulus location and the comparison condition.",
+                "application": "Optional task: draw a center circle and surrounding ring, then annotate three stimuli: center only, surround only, and both together. Model response for an idealized ON-center cell: center stimulation favors an increase, surround stimulation favors a decrease, and combined stimulation has competing contributions. Self-review rubric: specify baseline, hold adaptation and relevant intensity conditions stable, avoid assigning exact firing rates without data, and explain why total illuminated area alone is insufficient. As a transfer exercise, reverse the response signs for an OFF-center cell while preserving the spatial logic. This is a diagram exercise, not a vision screening test.",
+                "summary": "The retina demonstrates how circuit organization transforms input before higher-level interpretation. Opposing influences make a neuron sensitive to relationships rather than simply to accumulated energy. Transfer this principle cautiously: center–surround organization is a specific example of contextual computation, not proof that every brain system uses the same wiring or that all perceptual context effects share one mechanism."
+              },
+              "readings": [
+                {
+                  "title": "How the Retina Works — Webvision",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK610611/",
+                  "note": "Read horizontal cells, bipolar cells, and ON/OFF center–surround ganglion-cell organization in this updated overview."
+                },
+                {
+                  "title": "Lateral Inhibition in the Vertebrate Retina: The Case of the Missing Neurotransmitter",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675548/",
+                  "note": "Read Introduction and competing feedback hypotheses. Historical 2015 review; circuit function and its molecular implementation are distinct claims."
+                }
+              ],
+              "visual": {
+                "title": "Center and surround make opposing contributions",
+                "description": "An idealized ON-center receptive field is compared under localized, uniform, and boundary illumination.",
+                "steps": [
+                  "Map: center light increases an idealized ON-center response.",
+                  "Opposition: surround light drives the opposite contribution.",
+                  "Combination: uniform light engages both, reducing their imbalance.",
+                  "Boundary: an edge creates different center/surround stimulation across neighboring cells."
+                ]
+              }
+            },
+            {
+              "id": "24",
+              "title": "Population codes and ambiguous single-cell responses",
+              "explanation": "Objective: explain why interpreting a response pattern can be more informative than interpreting one neuron's firing alone. A receptive field or tuning curve describes what changes a neuron's response, but a response is not necessarily a unique label for its cause. Multiple stimuli can produce similar activity in one cell. A population code represents information through relationships among the responses of multiple cells. Webvision's account of parallel retinal pathways illustrates why the nervous system sends several feature-sensitive outputs rather than a single brightness number. This builds on lesson 23: neighboring receptive fields and different cell types contribute complementary constraints on the possible stimulus.",
+              "example": "Imagine two hypothetical ganglion cells with nearby receptive-field centers. A localized spot can make cell A respond strongly and B weakly when it lies near A's center. A different spot position can produce the reverse pattern. A broad illumination change may raise or reshape both responses together. Looking only at A could confuse a position change with an intensity change, depending on its tuning. Comparing A and B supplies extra information about the spatial arrangement. This is an illustrative coding argument, not a report of an actual dataset. The correct inference also depends on whether their fields and adaptation state have been measured under the same conditions as the test.",
+              "question": "Does successful decoding alone prove that the brain uses that decoding rule?",
+              "answer": "No; accessible information and biological readout are different claims.",
+              "distractor": "Yes; any analyst-built classifier reveals the exact neural algorithm.",
+              "correction": "Decoding tests a predictive relationship; causal use and implementation need additional evidence.",
+              "depth": {
+                "definitions": "Tuning describes the relationship between a stimulus feature and a measured neural response. Trial-to-trial variability means repeated presentations need not produce identical spike trains. Encoding asks how stimuli or task variables relate to neural activity. Decoding asks how well a variable can be estimated from activity using a specified rule. A population code concerns the joint pattern, while redundancy means different responses share some information. A decoder is an analytical procedure, not necessarily a literal neuron in the brain. Distinguishing these terms prevents successful prediction by an analyst from being mistaken for a proven biological readout mechanism.",
+                "mechanism": "Multiple cells can reduce ambiguity because their response functions differ. A candidate stimulus that explains A must also explain B and the other observed responses. Noise complicates this matching. If variability were independent across cells, combining evidence could cancel some fluctuations, but shared variability can limit that benefit. More recorded cells therefore do not automatically produce proportionate gains. Cell selection, tuning diversity, and correlated variation matter. Parallel retinal outputs also preserve different aspects of a scene, including spatial and temporal features, through different pathways. A downstream circuit must be sensitive to a useful combination of those signals for the representation to influence behavior. Information available in recorded activity and information actually used by the animal are separate empirical questions.",
+                "secondExample": "For contrast, consider a classifier trained to distinguish two visual stimulus categories from recorded activity. It performs well when both training and testing examples share an incidental difference in brightness. That result does not establish a category representation independent of brightness. The classifier may exploit the easier feature. A stronger test balances brightness or tests generalization to new brightness conditions. This is not merely a machine-learning technicality: the same ambiguity affects verbal statements that a brain region encodes a concept. If several properties change together, predictive activity does not identify which one the circuit represents for behavior. The problem calls for better stimulus design, not a more confident interpretation of accuracy.",
+                "mistake": "The misconception is that a cell which responds during one meaningful stimulus must be that stimulus's dedicated detector. Selective responding can be informative, but selectivity is assessed against alternatives. An untested stimulus might evoke the same response. Another mistake says distributed coding means individual neurons are irrelevant. Individual tuning still constrains the population pattern; distributed and selective are not opposites. Diagnose your account by naming the alternatives tested and explaining what information is gained by observing several responses together.",
+                "application": "Optional task: propose a qualitative test that separates location from brightness coding. Model response: vary spot location while holding brightness stable, then vary brightness at matched locations, recording the same population throughout. Train a location decoder on some brightness conditions and test it on held-out conditions. Self-review rubric: define the target variable, name the possible confound, separate training and test observations, and state that successful decoding establishes accessible information rather than necessity or a known readout circuit. A table of imagined stimulus conditions is sufficient; do not fabricate experimental response values or report the design as completed research.",
+                "summary": "Population reasoning offers a disciplined alternative to one-neuron-one-meaning stories. It also anticipates the later lessons on reverse inference and study design: a pattern's usefulness depends on alternatives, variability, and transfer beyond the conditions used to discover it. Keep three claims separate throughout: neural activity varies with a feature, an analyst can decode that feature, and a biological circuit uses it to guide behavior."
+              },
+              "readings": [
+                {
+                  "title": "How the Retina Works — Webvision",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK610611/",
+                  "note": "Read the abstract and discussion of parallel outputs and feature extraction. Decoder examples are hypothetical methodological applications, not results reported by this overview."
+                }
+              ],
+              "visual": {
+                "title": "From ambiguous response to population constraint",
+                "description": "A labeled sequence distinguishes encoding, decoding, and biological use without suggesting a literal inner observer.",
+                "steps": [
+                  "Ambiguity: one response can fit several stimuli.",
+                  "Joint constraint: compare cells with different receptive fields or tuning.",
+                  "Noise check: examine variability and shared fluctuations.",
+                  "Generalization: test a decoder on held-out conditions before interpreting the code."
+                ]
+              }
+            },
+            {
+              "id": "25",
+              "title": "NMDA-dependent potentiation: induction versus expression",
+              "explanation": "Objective: trace a specific synaptic plasticity mechanism without equating it with all learning. Earlier lessons distinguished plasticity from temporary performance changes. Long-term potentiation, or LTP, is an enduring increase in synaptic efficacy after an inducing event. A classic preparation studies Schaffer collateral input from hippocampal CA3 neurons to CA1 neurons. Strong patterned stimulation can increase later responses to a standard test input. The mechanistic question is how the inducing event changes subsequent transmission. In a well-studied form, NMDA receptor properties connect presynaptic glutamate release with postsynaptic depolarization. This is a specific experimental system, not a universal recipe for improving memory.",
+              "example": "Suppose a researcher records stable EPSPs evoked by weak test stimulation of one pathway. A brief induction protocol then strongly activates that pathway, after which the same weak test stimulus evokes larger responses. A second, independently stimulated control pathway remains stable. The comparison argues against a global recording drift being the entire explanation. If an NMDA-receptor antagonist applied during induction prevents the later increase while leaving much ordinary test transmission intact, the result supports a role for those receptors in induction. It does not show that every component of subsequent enhanced transmission must continue passing through NMDA receptors, nor does it identify what a whole animal remembers.",
+              "question": "What does blocking NMDA receptors only during induction principally test?",
+              "answer": "Whether receptor activity is needed to initiate this form of potentiation.",
+              "distractor": "Whether every later memory is permanently stored inside an NMDA receptor.",
+              "correction": "The manipulation targets initiation of a synaptic change; it does not identify a complete memory-storage system.",
+              "depth": {
+                "definitions": "Induction is the set of events that initiates a lasting change; expression is the altered machinery through which that change affects measured transmission. Maintenance concerns processes that sustain the change over time. AMPA and NMDA receptors are different ionotropic glutamate receptor classes. In the standard CA1 account, NMDA channels permit calcium entry but are strongly blocked by magnesium at negative resting voltages. Input specificity means potentiation preferentially affects activated inputs rather than every synapse on the neuron. Associativity means coincident weak and strong inputs can allow the weak active pathway to potentiate.",
+                "mechanism": "Glutamate release activates receptors at the synapse. AMPA-mediated current helps depolarize the postsynaptic membrane. Sufficient depolarization relieves voltage-dependent magnesium block of glutamate-bound NMDA receptors, permitting calcium entry. This coincidence links an active input with an appropriate postsynaptic state. Calcium-dependent signaling can change receptor function or availability and thereby alter subsequent synaptic efficacy. The simplified account assumes required co-agonist availability and suitable cellular conditions; glutamate plus depolarization is not an exhaustive inventory of every biochemical requirement. It also describes NMDA-dependent CA1 LTP, not all forms of potentiation at all synapses. The classic textbook is valuable for the causal chain but its historical statements about unresolved downstream targets should not be presented as a current inventory of everything known.",
+                "secondExample": "For contrast, activate a weak pathway while a separate strong pathway depolarizes the same cell. The weak pathway can release glutamate while the strong pathway supplies the postsynaptic depolarization needed for coincidence. Potentiation of the weak active input illustrates associativity. An inactive pathway lacks its own corresponding transmitter event and need not potentiate merely because it shares the cell. This contrasts with an indiscriminate rule that a sufficiently excited neuron strengthens every connection. Specificity is experimentally defined and spatially constrained; real dendritic signaling and other plasticity mechanisms can complicate the clean diagram. State which inputs were tested before concluding that all inactive inputs were unaffected.",
+                "mistake": "The common error is to call LTP a memory stored in a single synapse. LTP is a measurable physiological change that can contribute to learning models; an episodic memory involves coordinated systems, representations, and retrieval conditions. Another mistake treats failure after an antagonist as proof of one isolated molecular step without considering altered baseline transmission or other drug effects. Correct the explanation by identifying the induction manipulation, the later test measure, the control pathway, and the remaining inferential gap between synaptic change and behavior.",
+                "application": "Optional task: draw two timelines, one with receptor blockade only during induction and another with blockade introduced only during the later test. Model response: the first primarily probes whether receptor activity is required to initiate potentiation; the second probes its contribution to measured expression under those conditions. Self-review rubric: include a stable baseline, match test stimulation, distinguish treated and control pathways, and state why a drug's general effect on excitability could confound interpretation. No exact outcome is guaranteed without specifying the agent and preparation. This is an educational design exercise, not permission to administer substances.",
+                "summary": "LTP makes plasticity mechanistically concrete while showing why levels of explanation must remain connected but distinct. Coincidence at a receptor, persistent synaptic change, a distributed memory representation, and successful later recall are related hypotheses rather than interchangeable measurements. The next unit follows that chain outward into memory models and the evidence needed to evaluate claims about neural function."
+              },
+              "readings": [
+                {
+                  "title": "Long-Term Synaptic Potentiation — Neuroscience, Purves et al.",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK10878/",
+                  "note": "Read input specificity, associativity, and two-pathway experimental logic in this classic 2001 account."
+                },
+                {
+                  "title": "Molecular Mechanisms Underlying LTP — Neuroscience, Purves et al.",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK11101/",
+                  "note": "Read NMDA magnesium block and the calcium trigger. Historical source: old statements about unresolved mechanisms are not presented as current consensus."
+                }
+              ],
+              "visual": {
+                "title": "Separate the induction event from later expression",
+                "description": "A labeled timeline connects the standard CA1 induction mechanism to a controlled later measurement.",
+                "steps": [
+                  "Before: establish stable weak-test EPSPs in test and control pathways.",
+                  "Induction: glutamate coincides with depolarization that relieves NMDA magnesium block.",
+                  "Signal: calcium entry recruits plasticity-related intracellular changes.",
+                  "After: compare later transmission under matched test conditions."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-21-a",
+              "prompt": "A cell fires when two dendritic pathways are stimulated together but not when the same stimuli are separated. What should the explanation emphasize?",
+              "answer": "Overlap of graded responses at a relevant integration site.",
+              "distractor": "The separated stimuli must contain fewer action potentials.",
+              "correction": "Input count is held fixed. Timing changes the membrane state encountered by the later input, so overlap can explain output without changing spike count.",
+              "reviewLessonIds": [
+                "21"
+              ]
+            },
+            {
+              "id": "uq-21-b",
+              "prompt": "An input scarcely changes baseline voltage, yet makes a standard current pulse produce a smaller voltage deflection. Which property likely changed?",
+              "answer": "Membrane conductance increased.",
+              "distractor": "The flat baseline proves all membrane properties were unchanged.",
+              "correction": "The current-pulse response probes responsiveness. A conductance increase can be nearly silent at reversal while decreasing the voltage response to another input.",
+              "reviewLessonIds": [
+                "22"
+              ]
+            },
+            {
+              "id": "uq-21-c",
+              "prompt": "An ON-center cell responds more to a small spot than to a uniform field with the same center intensity. Which comparison is most relevant?",
+              "answer": "How much the stimuli recruit the antagonistic surround.",
+              "distractor": "Which stimulus delivers the largest total photon count irrespective of location.",
+              "correction": "The uniform field engages both center and surround, which can oppose one another. Total light alone cannot predict this receptive-field response.",
+              "reviewLessonIds": [
+                "23"
+              ]
+            },
+            {
+              "id": "uq-21-d",
+              "prompt": "A position decoder fails when stimulus intensity changes outside its training range. What is the most defensible conclusion?",
+              "answer": "Its demonstrated information extraction did not generalize to that intensity change.",
+              "distractor": "The visual system cannot represent location under any conditions.",
+              "correction": "A decoder failure bounds the tested analytical procedure. It does not establish absence of information in every population or biological readout.",
+              "reviewLessonIds": [
+                "24"
+              ]
+            },
+            {
+              "id": "uq-21-e",
+              "prompt": "Following induction, a test pathway has larger EPSPs but an inactive control pathway is stable. Which property does that pattern support?",
+              "answer": "Input-specific potentiation under the tested conditions.",
+              "distractor": "Global enhancement of every synapse on every recorded neuron.",
+              "correction": "The comparison supports selective change and helps exclude global drift; it cannot establish all unmeasured synapses or all forms of learning.",
+              "reviewLessonIds": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "From memory models to defensible neuroscience claims",
+          "lessons": [
+            {
+              "id": "26",
+              "title": "Hippocampal indexing: a model across explanatory levels",
+              "explanation": "Objective: explain how a memory model connects synaptic plasticity to distributed representations without mistaking the model for a complete established mechanism. Earlier lessons distinguished memory systems and introduced LTP. Hippocampal indexing theory proposes that hippocampal activity links the distributed cortical components associated with an experience, helping reactivate them during later remembering. Teyler and DiScenna presented this as a theory, with explicit assumptions and predictions, rather than as a direct photograph of a memory. The account is historically important because it asks what a circuit could accomplish with plasticity. It does not make the hippocampus a solitary container holding every sight, sound, and meaning in an episode.",
+              "example": "Imagine remembering a conversation in a garden. Its visual setting, a person's voice, and the topic are different aspects of the experience. In an indexing account, activity related to these components becomes associated with a hippocampal pattern. Later, a partial cue such as the setting can help reinstate a broader pattern, permitting reconstruction of the episode. This is a conceptual example, not a claim that we measured a specific person's memory. The explanatory gain is a division of labor: distributed representations supply content-related activity, while an index helps coordinate access. The metaphor becomes scientifically useful only when it yields predictions about neural activity, connectivity, and behavior.",
+              "depth": {
+                "definitions": "An episodic memory concerns an event in its experiential context. A representation is a neural pattern systematically related to information or a task variable; it is not a tiny internal picture viewed by another observer. An index is a proposed association that supports access to distributed components. Pattern completion describes recovery of a more complete stored pattern from a partial cue. Synaptic plasticity describes local changes in efficacy, whereas systems-level memory organization concerns interactions among regions. Consolidation can refer to stabilization at cellular or systems scales, so an author should specify the scale instead of using one word as an explanation.",
+                "mechanism": "The theory links encoding and retrieval through altered connectivity. During an event, distributed activity influences hippocampal circuits; plastic changes can make a related pattern easier to recruit later. Re-engaging that pattern can in turn support reactivation of associated cortical activity. This is a proposed circuit function built from plausible biological ingredients, not a deduction that follows automatically from observing LTP. The original paper explicitly hypothesized an LTP-based indexing mechanism. Its historical anatomical language and claims about the persistence of plasticity should be read as part of the original proposal, not imported unchanged into present consensus. A useful modern reading exercise asks which predictions concern association, which require a causal intervention, and which concern the content or phenomenology of remembering.",
+                "secondExample": "Contrast a finding in which a person improves at a practiced motor sequence but cannot reliably describe the practice episode. The dissociation is compatible with memory depending on partly different systems, as earlier lessons established. It challenges the claim that one hippocampal index explains every form of learning equally. It does not prove that those systems never interact or that the hippocampus has no contribution to any aspect of the task. Performance may involve strategies, instructions, and contextual knowledge in addition to motor skill. Decompose the task before assigning it to one system: what was learned, how was retention tested, and which demands differ between the assessments?",
+                "mistake": "A common mistake treats the library-index metaphor literally, as though an anatomical card catalog stores addresses in the same format as a computer file system. The metaphor clarifies a functional relationship, not its exact code. Another error treats unsuccessful recall as proof that stored content was erased. Encoding, maintenance, cue effectiveness, retrieval coordination, and response demands can all affect performance. The proper correction is not to declare one mechanism from one missed answer but to identify competing explanations and the observations that could separate them.",
+                "application": "Optional task: design a qualitative test of the indexing account using complete and partial retrieval cues. Model response: measure whether partial cues reinstate coordinated activity related to previously associated components, compare this with unrelated combinations, and examine whether a selective disruption changes contextual recollection while sparing basic perception. Self-review rubric: state which result supports the model, name a rival account such as shared attention, and distinguish correlation from a causal test. No personal memory assessment is requested. These are educational research-design ideas, not an individual diagnosis or a proposal to intervene in a person's brain.",
+                "summary": "The important achievement is a disciplined bridge between levels. A receptor-level coincidence rule can support a synaptic change, but additional organization is needed to explain coordinated retrieval of an event. A model contributes explanatory structure and testable predictions; it does not remove the need for evidence. Carry this distinction into measurement: a neural signal associated with remembering is not itself a readout of all stored content."
+              },
+              "readings": [
+                {
+                  "title": "The hippocampal memory indexing theory — Teyler and DiScenna (1986)",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/3008780/",
+                  "note": "Read the abstract and original theory/predictions if accessible. Historical primary theoretical paper, not a contemporary consensus review; PubMed normally supplies the abstract and full-text links."
+                },
+                {
+                  "title": "Long-Term Synaptic Potentiation — Neuroscience",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK10878/",
+                  "note": "Read the final paragraph distinguishing synaptic plasticity from understanding behavioral plasticity."
+                }
+              ],
+              "visual": {
+                "title": "Hippocampal indexing: a model across explanatory levels — evidence sequence",
+                "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
+                "steps": [
+                  "Encoding proposal: an episode recruits distributed content-related patterns.",
+                  "Association proposal: hippocampal plasticity links their co-occurrence.",
+                  "Retrieval proposal: a partial cue helps reinstate coordinated activity.",
+                  "Evidence test: distinguish predicted reinstatement from proof of a unique storage mechanism."
+                ]
+              },
+              "question": "What is the main role assigned to the hippocampus in an indexing account?",
+              "answer": "Helping associate and reactivate distributed components of an episode.",
+              "distractor": "Holding every detail of every memory as an isolated literal recording.",
+              "correction": "The account proposes coordination of distributed content and must be evaluated as a model, not a complete recording metaphor."
+            },
+            {
+              "id": "27",
+              "title": "BOLD, local field potentials, and what a signal measures",
+              "explanation": "Objective: explain why related neural measurements can support different interpretations. The earlier brain-image lesson established that functional MRI does not photograph a thought. We now trace the measurement chain. Blood-oxygen-level-dependent, or BOLD, contrast is sensitive to hemodynamic changes associated with neural activity. Electrophysiological recordings instead sample electrical phenomena, including spikes and local field potentials. In a classic simultaneous-recording study, Logothetis and colleagues compared these measures in monkey visual cortex. Their results connected BOLD particularly with local field potentials in that preparation, emphasizing local processing rather than a simple equation between BOLD and outgoing spike rate. The scope of the experiment is part of the conclusion.",
+              "example": "Suppose visual stimulation produces a sustained BOLD response, while one recorded neuron's firing adapts substantially during the presentation. It would be premature to label one instrument wrong. A single neuron's spikes sample a different aspect and spatial scale of activity from a voxel's vascular response. Ongoing synaptic and local processing could remain substantial despite adaptation in that particular output. The classic study compared multiple electrical measures precisely because one electrical trace was not a sufficient reference standard. Reasoning therefore begins by listing what each measurement can respond to, where it samples, and how quickly it changes, before proposing a mismatch in the biology.",
+              "depth": {
+                "definitions": "A voxel is a volume element used to organize an image, not a discrete biological functional unit. BOLD contrast depends on magnetic effects related to blood oxygenation and associated vascular changes. Neurovascular coupling describes relationships between neural activity and vascular responses. A local field potential is an extracellular voltage signal influenced by summed electrical activity, notably population-level transmembrane currents; it is not an inventory of individual synapses. Multi-unit activity combines spikes from neurons near an electrode. Temporal resolution concerns how finely events can be distinguished in time, while temporal delay concerns when a measured response follows its underlying processes.",
+                "mechanism": "Neural activity changes energetic and signaling demands, which interact with vascular regulation. The measured BOLD signal arises downstream of those processes rather than directly counting action potentials. This transformation spreads and delays information, so rapid neural events may overlap in the hemodynamic response. Local field potentials and spikes also require interpretation: both depend on electrode placement, contributing sources, and analysis choices. Logothetis and colleagues used simultaneous recordings to examine relationships rather than assuming one beforehand. A stronger association with one signal in visual cortex does not guarantee an identical relationship across every region, state, species, or disease context. Calibration is a scientific question, and a textbook slogan such as BOLD equals input can become misleading if treated as an exact identity.",
+                "secondExample": "For contrast, consider a task comparison where BOLD decreases in one region relative to the chosen baseline. That contrast does not by itself demonstrate that inhibitory neurons increased their firing. A decrease can involve altered local processing, baseline differences, or vascular factors, and an active inhibitory circuit itself has metabolic demands. Link this to lesson 22: inhibition is defined by its effect on target responsiveness, not by a universally negative measurement. Conversely, a positive BOLD contrast is not proof of net excitation in every recorded cell. The sign of a statistical image contrast and the sign of a synaptic effect belong to different explanatory levels.",
+                "mistake": "The misconception is to read color intensity as how hard a person's brain is trying or how intelligent that person is. A colored map usually encodes a processed statistical quantity or signal contrast whose meaning depends on the analysis. Correct the inference by asking for the task comparison, measurement type, baseline, timing model, and uncertainty. Another error is to discard fMRI because it is indirect. Indirect measures can be informative when their relationship to the target is investigated and their limits constrain the claim.",
+                "application": "Optional task: annotate a hypothetical caption, More activation means stronger memory. Model response: specify whether activation means a BOLD contrast, state the memory task and control condition, and separate signal change from accuracy or delayed retention. A defensible replacement is that the specified task was associated with a larger BOLD response relative to the specified comparison, without claiming a direct measure of synaptic strength. Self-review rubric: identify the intermediate vascular signal, retain the group and task scope, and name a behavioral measure needed to evaluate memory. Do not use educational images to infer an individual's diagnosis or character.",
+                "summary": "Different tools reveal different projections of neural activity. Converging measurements can constrain an explanation more effectively than a single vivid image, but only when their distinct mechanisms are respected. The route from synaptic current to population activity to vascular signal is not a chain of interchangeable labels. This prepares the next lesson's question: what evidence is needed to move from association toward causation?"
+              },
+              "readings": [
+                {
+                  "title": "Neurophysiological investigation of the basis of the fMRI signal — Logothetis et al. (2001)",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/11449264/",
+                  "note": "Read abstract and the comparison of local field potentials, multi-unit activity, and BOLD. Primary monkey visual-cortex study; PubMed provides an abstract/link record and publisher full text may require access."
+                }
+              ],
+              "visual": {
+                "title": "BOLD, local field potentials, and what a signal measures — evidence sequence",
+                "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
+                "steps": [
+                  "Neural events: synaptic currents and spikes reflect related but different activity.",
+                  "Coupling: local processing interacts with vascular regulation.",
+                  "Measurement: BOLD samples a delayed hemodynamic consequence.",
+                  "Inference: interpret the task contrast within preparation, timing, and sampling limits."
+                ]
+              },
+              "question": "Does a positive BOLD contrast show that every local neuron increased firing?",
+              "answer": "No; BOLD and individual spike output measure different aspects of activity.",
+              "distractor": "Yes; each positive voxel is a direct count of spikes from every local neuron.",
+              "correction": "A vascular population signal cannot identify the response of each neuron or isolate synaptic excitation from inhibition."
+            },
+            {
+              "id": "28",
+              "title": "Necessity, sufficiency, and competing causal pathways",
+              "explanation": "Objective: distinguish different causal claims and design controls that address the mechanism actually proposed. Earlier lessons warned that correlated activity does not establish necessity. The retinal feedback review by Kramer and Davenport makes the distinction concrete through block-it, move-it, and show-it evidence. Broadly, one can observe a candidate signal in the relevant setting, perturb it to test its contribution, and ask whether changing it produces the predicted effect. These approaches answer related but nonidentical questions. A manipulation is not automatically decisive merely because it is an intervention: it can affect several processes, and the observed outcome may travel through an unintended pathway.",
+              "example": "Consider a hypothetical drug that reduces a retinal surround response. The proposed account is that it blocks the signal carrying horizontal-cell feedback. An alternative is that it weakens photoreceptor transmission generally, making both center and surround responses harder to detect. Compare center responses, baseline activity, and other transmission measures before accepting the selective feedback account. The assigned review discusses why pharmacological specificity complicates evidence for candidate feedback mechanisms. The worked logic is simple: treatment caused some change, but identifying which causal pathway mediated that change requires more than knowing the treatment's intended target. A label on a reagent is not a guarantee of biological exclusivity.",
+              "depth": {
+                "definitions": "A factor is necessary for an outcome under specified conditions if the outcome cannot occur without it in those conditions. It is sufficient if producing it can bring about the outcome under a stated background. Neither claim means the factor acts alone in all possible contexts. A confound creates an alternative explanation for an observed relationship; an off-target effect is an unintended action of a manipulation. A rescue restores a disrupted function or pathway to test whether the predicted outcome returns. Mediation concerns the process through which a cause influences an effect, rather than merely whether a total treatment effect exists.",
+                "mechanism": "The basic causal structure is intervention, change in the proposed mediator, and change in the outcome. Each link needs support. If the intervention changes the outcome but the mediator was not measured, a different pathway remains possible. If the mediator changes without the outcome, it may be insufficient in that background, the perturbation may be too small, or the model may be wrong. Rescue can add leverage by reversing a predicted deficit, but it also needs appropriate controls: the rescue manipulation might compensate through an alternative route. The review's retinal example is valuable because candidate mechanisms include chemical and electrical interactions in a complex synaptic geometry, making a neat one-target story harder to establish than a functional cartoon suggests.",
+                "secondExample": "A contrasting case temporarily disrupts a brain region during a memory task and reduces accuracy. The result supports a causal contribution under the tested conditions, but the contribution could involve attention, perception, retrieval, or response selection. Include a control task that preserves perceptual and motor demands while changing the memory requirement, and vary the timing of disruption if possible. A null effect also needs caution: redundant pathways, incomplete perturbation, or insensitive behavioral measures can hide a contribution. These considerations do not make causal inference impossible. They specify what must be ruled out before narrowing a broad intervention effect to one cognitive mechanism.",
+                "mistake": "The misconception is that necessary means sufficient, or that sufficient means the only natural mechanism. Silencing a circuit and impairing behavior does not show that activating that circuit alone recreates the behavior. Artificial stimulation that evokes an output does not show that normal performance always uses the same route. Diagnose your explanation by naming the intervention, background conditions, outcome, and alternative pathway. If any of these is missing, the causal conclusion is probably stronger than the design warrants.",
+                "application": "Optional task: propose controls for the hypothetical surround-blocking drug. Model response: compare vehicle and treatment, verify stimulus delivery, monitor center responses and general transmission, use an independent perturbation where feasible, and predict what a targeted rescue should restore. Self-review rubric: connect every control to a named rival explanation rather than listing controls ceremonially. Include one outcome that would weaken the favored hypothesis. This is paper-based experimental reasoning; biological interventions require trained researchers, ethical approval, and appropriate facilities. Binary course questions demonstrate recognition of these distinctions, not professional research competence.",
+                "summary": "Causal evidence gains strength when different designs converge while making different mistakes unlikely. The goal is not absolute certainty from one impressive intervention, but a constrained explanation that survives alternatives. Keep necessity, sufficiency, specificity, and mediation distinct. In the next lesson, the direction of inference becomes central again: observing a neural pattern need not uniquely reveal the mental state that produced it."
+              },
+              "readings": [
+                {
+                  "title": "Lateral Inhibition in the Vertebrate Retina: The Case of the Missing Neurotransmitter — Kramer and Davenport (2015)",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675548/",
+                  "note": "Read the block-it, move-it, and show-it reasoning and pharmacological limitations. Open-access historical review; used for experimental logic, not to claim that its account is the latest state of the field."
+                }
+              ],
+              "visual": {
+                "title": "Necessity, sufficiency, and competing causal pathways — evidence sequence",
+                "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
+                "steps": [
+                  "Observation: candidate signal accompanies the response.",
+                  "Perturbation: manipulate the candidate and measure both mediator and outcome.",
+                  "Alternatives: test general transmission and off-target pathways.",
+                  "Convergence: use independent manipulations and appropriately controlled rescue."
+                ]
+              },
+              "question": "If disrupting a region impairs a task, what is not automatically established?",
+              "answer": "That the region alone is sufficient or serves only the named cognitive process.",
+              "distractor": "That the intervention and task outcome can be causally related under tested conditions.",
+              "correction": "An impairment can demonstrate a contribution without identifying its precise cognitive role or establishing sufficiency."
+            },
+            {
+              "id": "29",
+              "title": "Reverse inference requires selectivity and a comparison set",
+              "explanation": "Objective: evaluate an inference from a brain signal to a mental process by asking how selective the signal is. The existing course introduced reverse inference with an emotion example. Here we extend the logic to competing explanations and population patterns. A forward question asks how often a signal appears when a process is engaged. A reverse question asks how plausible that process is after observing the signal. These are not the same conditional question. Poldrack's analysis emphasizes that reverse inference can provide information without being deductively valid, and that its usefulness depends strongly on activation selectivity. The appropriate response is calibrated inference, not either unrestricted mind reading or blanket dismissal.",
+              "example": "Suppose a region frequently activates during a difficult memory task. An investigator observes activation during a new task and concludes that participants must be retrieving memories. But the same region may also respond during attention-demanding decisions, monitoring, or other processes. The observed activity is compatible with retrieval without identifying it uniquely. Ask what happens in relevant tasks without the proposed process, not only what happens in tasks designed to evoke it. This example uses no fabricated activation percentages. The point is structural: a signal can be common when a process occurs yet also common when it does not, making its reverse diagnostic value limited.",
+              "depth": {
+                "definitions": "Selectivity describes how preferentially a signal occurs for one process relative to relevant alternatives. A prior is the plausibility assigned before considering the particular observation, based on the task and other evidence. A likelihood concerns how expected the observation is under a candidate explanation. A posterior is the updated plausibility after combining that evidence with the prior. A comparison set defines the alternative tasks or states against which selectivity is assessed. A process label, such as memory, may itself bundle several operations, so precise psychological definitions matter alongside the quality of neural measurements.",
+                "mechanism": "Bayesian reasoning updates competing explanations according to how well each predicts the observation, while retaining their starting plausibilities. If two explanations predict the same activation almost equally well, the activation does little to distinguish them. If a pattern is substantially more expected under one than another, it can provide discriminative evidence. This reasoning does not require exact numbers when none are available; the honest result may be that selectivity is insufficiently established. Poldrack's article uses a neuroimaging database to examine this problem. Database estimates themselves depend on sampled tasks, reporting practices, and definitions, so a frequency observed in a research collection is not automatically a population prevalence of mental states in daily life.",
+                "secondExample": "For contrast, a multivariate classifier may distinguish instructed task conditions more successfully than a single-region activation label. A distributed pattern can carry additional information, consistent with lesson 24. But the classifier still needs testing on independent examples and appropriate alternatives. A system trained only to choose between two tasks will assign one of those labels even when a new person performs a third, unrepresented task. High accuracy within the original comparison set is not unrestricted access to private thoughts. Nor does classification show that the decoded process causes the signal or that the brain uses the same decision boundary as the analyst's software.",
+                "mistake": "The misconception is to assume that a brain region's popular nickname supplies its selectivity. Calling something a fear center or a memory center is shorthand, not an empirical estimate of all the states associated with its activity. Another error says reverse inference is always worthless. The correction is to ask what alternatives were tested, how selective the evidence was, and what non-neural observations support the claim. A neural pattern may constrain interpretation while leaving several plausible mental explanations open.",
+                "application": "Optional task: rewrite the headline, Scientists see dishonesty in a brain scan. Model response: a study may have classified task conditions associated with instructed deception within a specified sample and design; this does not establish reliable detection of dishonesty in unfamiliar people or real-world situations. Self-review rubric: name the measurement, specify the training and comparison conditions, identify at least one alternative process such as conflict or task difficulty, and distinguish individual prediction from a group contrast. Do not evaluate a real person's truthfulness from educational examples. The goal is responsible interpretation, not forensic competence or diagnosis.",
+                "summary": "Reverse inference is an exercise in comparing explanations rather than assigning labels to colored regions. The same discipline connects population coding, measurement limits, and causal evidence: prediction, interpretation, and intervention answer different questions. A good conclusion states what the signal changes about the plausibility of an explanation, what alternatives remain, and where the available comparison set ends."
+              },
+              "readings": [
+                {
+                  "title": "Can cognitive processes be inferred from neuroimaging data? — Poldrack (2006)",
+                  "url": "https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(05)00336-0",
+                  "note": "Read the openly visible abstract on Bayesian analysis and activation selectivity. Publisher full text requires access; no paywalled details are assumed. The PubMed route encountered verification protection during checking."
+                }
+              ],
+              "visual": {
+                "title": "Reverse inference requires selectivity and a comparison set — evidence sequence",
+                "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
+                "steps": [
+                  "Forward: establish how a proposed process relates to a signal.",
+                  "Alternatives: ask how often relevant other processes yield that signal.",
+                  "Update: combine selectivity with task context rather than reversing a conditional by assumption.",
+                  "Bound: report the tested comparison set and avoid unrestricted individual mind-reading claims."
+                ]
+              },
+              "question": "Why can a signal common during a process still be weak evidence for that process?",
+              "answer": "It may also be common during relevant alternative processes.",
+              "distractor": "A brain signal can never provide any evidence about cognition.",
+              "correction": "Reverse usefulness depends on selectivity against alternatives, not merely frequent co-occurrence with the favored process."
+            },
+            {
+              "id": "30",
+              "title": "Build a multi-level evidence argument without overclaiming",
+              "explanation": "Objective: construct an evidence argument that separates behavioral improvement, neural association, and mechanism. This capstone combines synaptic integration, plasticity, representations, measurement, intervention, and reverse inference. Imagine a proposal claiming that a training task strengthens memory by changing hippocampal synapses. The claim contains several links: training changes later behavior, a particular memory process explains that change, neural activity changes, and synaptic plasticity mediates the result. Evidence for one link does not automatically establish the rest. The classic LTP reading explicitly recognizes the gap between synaptic potentiation and behavioral plasticity, while the imaging and reverse-inference readings show why a brain map alone cannot close it.",
+              "example": "Consider a hypothetical study in which participants practice a recognition task and later perform that same task better while showing a different BOLD contrast. The measured findings are task-specific behavioral change and a hemodynamic association. An alternative explanation is familiarity with instructions or response strategy, rather than a broad memory improvement. Another is that the imaging difference reflects changed task difficulty. Add an active comparison condition matched for contact and expectation, a delayed assessment, and an unpracticed but theoretically relevant transfer task. These additions do not guarantee a positive result. They make different explanations predict different patterns, which is the purpose of design rather than simply making a study look more elaborate.",
+              "depth": {
+                "definitions": "An operational definition states how a concept is measured or manipulated. A primary outcome is the result selected in advance as the main test, while exploratory outcomes generate further hypotheses. Transfer means performance change beyond the practiced items or task; its distance from training must be described. Retention tests persistence after a delay. Random assignment can help balance preexisting differences across study conditions, but it does not by itself identify the neural mediator. Replication asks whether a finding can be obtained again under specified conditions. These are tools for constraining inference, not ceremonial labels that turn any study into proof.",
+                "mechanism": "Build the argument in layers. First test whether the behavioral change exceeds relevant comparison change and measurement uncertainty. Then ask whether the task genuinely measures the proposed memory operation. Next examine whether the neural signal is reliable and interpreted according to its measurement mechanism. Finally consider evidence for the proposed causal route. BOLD cannot directly establish NMDA-dependent potentiation, and successful neural decoding does not demonstrate that the decoded feature is used for performance. A manipulation directed at a candidate mechanism may strengthen the case but still requires checks for off-target effects and altered basic task abilities. Convergence matters most when methods have different vulnerabilities, not when several analyses recycle the same untested assumption.",
+                "secondExample": "For contrast, imagine strong evidence that a synaptic induction protocol changes later EPSPs in a controlled animal preparation, but no behavioral outcome is measured. That study can contribute real mechanistic knowledge without showing that a human learning application works. Conversely, a well-controlled behavioral benefit can be valuable even if its precise synaptic mechanism remains unresolved. The two findings need not compete for legitimacy. They answer different questions at different scales. Translation requires identifying where the bridge is supported and where species, task, intervention, or measurement differences leave an open link. Do not fill that gap by borrowing vocabulary from a more microscopic experiment.",
+                "mistake": "The mistake is to reward a narrative for being biologically detailed rather than evidentially supported. Terms such as NMDA, hippocampal, and network make a claim more specific, but specificity increases what must be demonstrated. Another mistake is to equate a nonsignificant finding with proof of no effect, without considering precision or the actual comparison. When exact estimates are unavailable, say that the design or report does not establish the claim rather than inventing a numerical threshold for success. Confidence should track the weakest required link, not the most impressive image.",
+                "application": "Optional capstone: write a brief evidence memo with four headings: claim, measurement, alternatives, and next test. Model response: the study supports improvement on a practiced recognition task; its BOLD difference is an indirect association; strategy and task difficulty remain plausible alternatives; an active-control delayed-transfer design and a more specific mechanistic test would sharpen the conclusion. Self-review rubric: include one behavioral and one neural limitation, connect each proposed control to a rival explanation, identify the preparation and population, and end with a bounded conclusion. Assess the written reasoning, not just success on binary recognition questions. Completion of this exercise is not accreditation, clinical competence, or authority to diagnose an individual.",
+                "summary": "A defensible neuroscience argument explains the mechanism it proposes, identifies the measurements it actually has, and preserves the distance between them. Across this level, neurons became integrators, circuits became transformations, and experiments became comparisons among explanations. That synthesis supports rigorous reading of future studies without deterministic claims about neurotransmitters, personal traits, or inevitable outcomes. The course remains educational: individual symptoms, treatment choices, and clinical interpretation require qualified assessment beyond these lessons."
+              },
+              "readings": [
+                {
+                  "title": "Long-Term Synaptic Potentiation — Neuroscience",
+                  "url": "https://www.ncbi.nlm.nih.gov/books/NBK10878/",
+                  "note": "Read the concluding distinction between physiological plasticity and behavioral learning."
+                },
+                {
+                  "title": "Neurophysiological investigation of the basis of the fMRI signal",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/11449264/",
+                  "note": "Revisit the measurement comparison; do not generalize visual-cortex physiology into direct measurement of human synaptic change."
+                },
+                {
+                  "title": "Can cognitive processes be inferred from neuroimaging data?",
+                  "url": "https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(05)00336-0",
+                  "note": "Revisit the open abstract on selectivity and inferential limits; full article may require access. The capstone study is hypothetical."
+                }
+              ],
+              "visual": {
+                "title": "Build a multi-level evidence argument without overclaiming — evidence sequence",
+                "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
+                "steps": [
+                  "Claim: separate behavioral benefit, cognitive process, neural association, and synaptic mechanism.",
+                  "Evidence: match each claim to an actual measurement and comparison.",
+                  "Alternatives: identify strategy, difficulty, signal interpretation, and off-target explanations.",
+                  "Conclusion: retain supported links and name the next discriminating test for unsupported ones."
+                ]
+              },
+              "question": "What is the strongest conclusion from improved task performance plus a changed BOLD contrast alone?",
+              "answer": "Behavior and an indirect neural measure changed; a specific synaptic mechanism remains unestablished.",
+              "distractor": "The training necessarily induced NMDA-dependent potentiation that improves all memory.",
+              "correction": "Each additional mechanistic and generalization claim needs evidence beyond the observed task and hemodynamic contrast."
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-26-a",
+              "prompt": "A partial cue reinstates activity related to several components of an earlier event. Which statement best matches the indexing framework?",
+              "answer": "The finding fits coordinated retrieval but does not uniquely prove an indexing mechanism.",
+              "distractor": "It proves the complete event was stored as a literal image in one hippocampal neuron.",
+              "correction": "Reinstatement matches a prediction of the model. Alternative coordination mechanisms and the distributed content still need investigation.",
+              "reviewLessonIds": [
+                "26"
+              ]
+            },
+            {
+              "id": "uq-26-b",
+              "prompt": "A task produces a sustained vascular signal while sampled spike responses adapt. What is the best first analysis?",
+              "answer": "Compare the spatial, temporal, and physiological sources of the two measurements.",
+              "distractor": "Assume the vascular signal directly proves those same neurons maintained their firing.",
+              "correction": "Signals sample different activity and undergo different transformations. Local processing can remain substantial without identical firing in a sampled cell.",
+              "reviewLessonIds": [
+                "27"
+              ]
+            },
+            {
+              "id": "uq-26-c",
+              "prompt": "A manipulation impairs contextual recall and also makes simple stimulus discrimination harder. Which inference is premature?",
+              "answer": "That the impairment isolates a memory-specific causal role.",
+              "distractor": "That the manipulation affected measured task performance.",
+              "correction": "A perceptual deficit could contribute to the memory-task result. Match perceptual demands and evaluate alternative pathways before narrowing the cognitive mechanism.",
+              "reviewLessonIds": [
+                "28"
+              ]
+            },
+            {
+              "id": "uq-26-d",
+              "prompt": "A classifier trained only on planning and recall labels an unfamiliar attention task as recall. What does the label establish?",
+              "answer": "Only the classifier output within an inadequate comparison set.",
+              "distractor": "That the participant necessarily recalled an episode.",
+              "correction": "A classifier forced to use known labels can misdescribe an unrepresented state. Interpretation requires appropriate alternatives and generalization checks.",
+              "reviewLessonIds": [
+                "29"
+              ]
+            },
+            {
+              "id": "uq-26-e",
+              "prompt": "A training report shows immediate improvement on practiced items but no delayed or novel-item assessment. Which claim needs additional evidence?",
+              "answer": "Durable learning that transfers beyond the practiced materials.",
+              "distractor": "A change on the measured immediate practiced-item outcome.",
+              "correction": "Retention and transfer are distinct outcomes. An immediate task-specific change does not establish either merely because the intervention has a neural explanation.",
+              "reviewLessonIds": [
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-21-a",
+          "prompt": "A learned cue now evokes a larger EPSP, but the postsynaptic cell still does not fire when other inputs arrive late. Which combined explanation is defensible?",
+          "answer": "Synaptic efficacy increased while the integration conditions still failed to reach spike threshold.",
+          "distractor": "A potentiated synapse must generate a postsynaptic spike regardless of timing or membrane state.",
+          "correction": "Potentiation changes a response to a comparable input; it does not abolish conductance, timing, location, or threshold constraints. Increased synaptic strength and absent output can coexist.",
+          "reviewLessonIds": [
+            "21",
+            "25"
+          ]
+        },
+        {
+          "id": "lq-21-b",
+          "prompt": "An inhibitory conductance suppresses coincident excitation, yet the associated region shows a positive BOLD contrast. Is that a contradiction?",
+          "answer": "No; target-cell inhibition and a vascular population contrast describe different properties.",
+          "distractor": "Yes; positive BOLD means all local synaptic influences must be excitatory.",
+          "correction": "Conductance affects target responsiveness, while BOLD reflects hemodynamic consequences of local activity. Active inhibitory processing is not required to appear as a negative image contrast.",
+          "reviewLessonIds": [
+            "22",
+            "27"
+          ]
+        },
+        {
+          "id": "lq-21-c",
+          "prompt": "A decoder distinguishes edge positions from ganglion-cell activity but stops working when the contrast pattern changes. What should be investigated before claiming an abstract edge code?",
+          "answer": "Whether receptive-field responses and the decoder generalize across the changed contrast conditions.",
+          "distractor": "Whether each successful trial proves that one ganglion cell stores the complete visual scene.",
+          "correction": "Center–surround responses depend on stimulus relationships. A population decoder may exploit a restricted correlation rather than an invariant edge representation; test held-out conditions.",
+          "reviewLessonIds": [
+            "23",
+            "24",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-21-d",
+          "prompt": "A hippocampal pattern is reinstated during recall, and a synaptic study separately demonstrates LTP. What additional claim remains a hypothesis?",
+          "answer": "That the specific observed potentiation implements indexing for the recalled event.",
+          "distractor": "That synaptic plasticity and distributed retrieval are legitimate topics for neuroscience.",
+          "correction": "The observations occur at different explanatory levels. The indexing model proposes a bridge, but separate evidence for plasticity and reinstatement does not establish the particular causal connection.",
+          "reviewLessonIds": [
+            "25",
+            "26",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-e",
+          "prompt": "A drug prevents a later EPSP increase but also strongly weakens baseline transmission. Why is the claim of selective induction blockade uncertain?",
+          "answer": "Reduced general transmission may prevent the induction conditions rather than selectively targeting the plasticity step.",
+          "distractor": "Any drug-induced change automatically identifies a unique molecular mechanism.",
+          "correction": "Baseline impairment creates an alternative path from treatment to failed potentiation. Compare ordinary transmission, induction conditions, and independent or rescue manipulations before claiming specificity.",
+          "reviewLessonIds": [
+            "21",
+            "25",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-f",
+          "prompt": "An experiment finds stronger BOLD during contextual recall than during visual matching and calls the region an exclusive episodic store. Which revision is best?",
+          "answer": "The region showed a task-related vascular contrast; exclusivity and literal storage require additional evidence.",
+          "distractor": "The image directly photographs the recalled event and proves that no other region participates.",
+          "correction": "BOLD is an indirect contrast, and the tasks differ in more than one potential process. Indexing involves distributed relationships; reverse inference additionally needs selectivity against alternatives.",
+          "reviewLessonIds": [
+            "26",
+            "27",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-21-g",
+          "prompt": "A researcher abolishes a retinal surround response while preserving center responses, then restores it with a targeted rescue. What follows most reasonably?",
+          "answer": "The convergent manipulations strengthen a causal account of surround processing, subject to specificity checks.",
+          "distractor": "The findings prove that every perceptual illusion uses exactly this molecular pathway.",
+          "correction": "Selective preservation and rescue weaken broad transmission-failure alternatives. They do not remove all off-target possibilities or justify transfer from a retinal preparation to every perceptual phenomenon.",
+          "reviewLessonIds": [
+            "23",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-h",
+          "prompt": "A classifier trained on two instructed mental tasks predicts their labels well, while an intervention on the recorded region leaves performance unchanged. Must one result be false?",
+          "answer": "No; decodable information does not establish necessity, and a null intervention also has limits.",
+          "distractor": "Yes; anything an analyst decodes must be necessary for behavior.",
+          "correction": "Represented information may be redundant or unused by the relevant readout. Conversely, weak perturbation or insensitive measures can obscure a causal contribution. Interpret each method on its own terms.",
+          "reviewLessonIds": [
+            "24",
+            "28",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-21-i",
+          "prompt": "Training improves practiced-item accuracy and changes a hippocampal BOLD contrast. Which proposed follow-up most directly addresses durable transfer rather than a synaptic mechanism?",
+          "answer": "Use delayed unpracticed-item assessment with a suitable active comparison condition.",
+          "distractor": "Rename the observed BOLD difference NMDA potentiation without changing the design.",
+          "correction": "Delayed testing targets retention; novel material tests transfer; an active comparison constrains practice and expectation explanations. None directly measures receptor-dependent synaptic change.",
+          "reviewLessonIds": [
+            "25",
+            "27",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-j",
+          "prompt": "Two excitatory pathways are equally active overall, but only the one coincident with strong postsynaptic depolarization potentiates. How do integration and plasticity jointly explain this?",
+          "answer": "Timing shapes the membrane state that enables a coincidence-dependent induction process.",
+          "distractor": "The total number of active pathways alone determines potentiation of every synapse.",
+          "correction": "Integration determines whether transmitter release overlaps with suitable depolarization. NMDA-dependent induction can therefore favor appropriately timed active inputs rather than strengthening all pathways indiscriminately.",
+          "reviewLessonIds": [
+            "21",
+            "22",
+            "25"
+          ]
+        },
+        {
+          "id": "lq-21-k",
+          "prompt": "A partial cue fails to elicit recall after a disruption, but complete-cue recognition and simple perception remain intact. Which conclusion balances evidence and uncertainty?",
+          "answer": "The pattern supports a selective contribution to cue-dependent retrieval, without proving stored content was erased.",
+          "distractor": "The missed recall proves that all distributed memory content was permanently destroyed.",
+          "correction": "Control performance narrows broad perceptual explanations. Partial-cue difficulty fits a retrieval-coordination account, but task differences and alternative mechanisms remain; loss of access is not identical to loss of storage.",
+          "reviewLessonIds": [
+            "26",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-l",
+          "prompt": "A final report combines a retinal circuit experiment, a monkey BOLD calibration study, and human training behavior as proof of one universal learning mechanism. What should an evidence memo do?",
+          "answer": "Assign each result to its preparation and claim, then identify untested bridges across mechanisms, species, and tasks.",
+          "distractor": "Treat the number of different methods as proof that every inferred link is correct.",
+          "correction": "Convergence is valuable when methods constrain the same claim through distinct vulnerabilities. Different scales do not automatically join into a demonstrated chain; distinguish supported local findings from proposed translation.",
+          "reviewLessonIds": [
+            "23",
+            "25",
+            "27",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+import {afterEach,expect,it,vi} from 'vitest';
+import {cleanup,fireEvent,render,screen} from '@testing-library/react';
+import {LegacyCompletion} from './LegacyCompletion';
+import {SubjectProgress} from './Learning';
+import {legacyPaths,legacyTitle,nextLegacy} from '@/lib/legacy';
+import {STORAGE_KEY} from '@/lib/progress';
+const push=vi.fn();vi.mock('next/navigation',()=>({useRouter:()=>({push})}));
+afterEach(()=>{cleanup();localStorage.clear();push.mockReset();});
+it.each(Object.entries(legacyPaths).flatMap(([subject,slugs])=>slugs.map(slug=>`${subject}/${slug}`)))('commits and navigates %s synchronously with authored title and restored resume',(id)=>{
+ const next=nextLegacy(id);expect(legacyTitle(...id.split('/') as [string,string])).toBeTruthy();
+ if(next.slug)expect(next.title).toBeTruthy();
+ const props={lessonId:id,model:'A worked model explains the distinction clearly.'};const view=render(<LegacyCompletion {...props} eligible={false}/>);
+ const arrow=screen.getByRole('button',{name:next.slug?`Next lesson: ${next.title}`:/Complete sequence & review/});
+ expect(screen.queryByRole('textbox')).not.toBeInTheDocument();expect(arrow).toBeEnabled();
+ view.rerender(<LegacyCompletion {...props} eligible/>);
+ push.mockImplementation(()=>{expect(JSON.parse(localStorage.getItem(STORAGE_KEY)!).subjects[next.subject].completed).toContain(`legacy:${id.split('/')[1]}`);});
+ fireEvent.click(arrow);expect(push).toHaveBeenCalledExactlyOnceWith(next.url);
+ view.unmount();render(<SubjectProgress subject={next.subject}/>);
+ if(next.slug)expect(screen.getByRole('link',{name:new RegExp(`Continue extended`)})).toHaveAttribute('href',next.url);
+ expect(JSON.parse(localStorage.getItem('professor-citachka:completed-lessons')!)).toContain(id);
+});

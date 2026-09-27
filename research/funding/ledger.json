@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Most 7(a) term loans are repaid with monthly payments of principal and interest from the cash flow of the business Payments stay the same for fixed-rate loans because the interest rate is constant For variable rate loans, the lender may require a different payment amount when the interest rate changes Existing borrowers Existing borrowers can create an account in the SBA Loan Portal to monitor their loan status, view statements, payment history and more.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "require providers of commercial financing that are subject to the CFDL to provide disclosures to potential recipients of commercial financing, at the time a specific offer of financing is extended to a recipient.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2022/06/ftc-action-results-ban-richmond-capital-owner-merchant-cash-advance-debt-collection-industries",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "permanently bans the company and owner from the merchant cash advance industry for deceiving and threatening small businesses and their owners.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-line-of-credit-heloc-en-107",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "If you fall behind or can’t repay the loan on schedule, you could lose your home.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-credit-counseling-debt-settlement-debt-consolidation-or-credit-repair-en-1449",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "cannot legally get information removed if it is accurate and timely.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/12/looking-fix-your-credit-illegal-credit-repair-scam-isnt-answer",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Scammers tell you to lie on your applications for credit or a loan.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "SCALE DOWN .",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://ag.ny.gov/credit-lending/yellowstone-settlement",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "illegal high-interest loans disguised as merchant cash advances (MCAs).",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://mcarocket.com/blog/mca-marketing/mca-reverse-consolidation",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Reverse consolidation is when a new funder deposits money into a merchant's account — usually weekly — to help cover the daily payments on existing advances, smoothing cash flow rather than paying the old positions off.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://www.sba.gov/funding-programs/loans",
+      "title": "",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "SBA only makes direct loans in the case of businesses and homeowners recovering from a declared disaster.",
+          "added": "2026-09-23"
+        }
+      ]
+    }
+  ]
+}

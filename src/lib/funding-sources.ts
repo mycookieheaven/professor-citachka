@@ -1,0 +1,3 @@
+import ledger from '../../research/funding/ledger.json';
+const labels:Record<number,string>={1:'SBA — 7(a) loans and Working Capital Pilot',2:'NY DFS — Part 600 commercial financing disclosure rules',3:'FTC — RCG Advances enforcement (case-specific)',4:'CFPB — HELOC definition and home-loss risk',5:'CFPB — counseling, consolidation and credit repair (consumer scope)',6:'FTC — illegal credit repair and false identities',7:'FTC — protecting personal information',8:'New York Attorney General — Yellowstone settlement (case-specific)',9:'MCA Rocket — reverse consolidation marketing usage (industry, not a regulator)',10:'SBA — loan program overview'};
+export const fundingSources=ledger.sources.map(s=>({...s,title:labels[s.id],primary:s.id!==9}));

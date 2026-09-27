@@ -1,0 +1,269 @@
+
+> professor-citachka@0.1.0 test
+> vitest run src/components/AssessmentLesson.test.tsx src/components/AssessmentStorage.test.tsx
+
+
+ RUN  v4.1.11 /Users/<user>/professor-citachka
+
+ ❯ src/components/AssessmentLesson.test.tsx (2 tests | 1 failed) 93ms
+   × saves failed and passed attempts separately, restores score, reviews errors, and never fabricates reading 10ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/components/AssessmentLesson.test.tsx > saves failed and passed attempts separately, restores score, reviews errors, and never fabricates reading
+TestingLibraryElementError: Unable to find an element with the text: “All mammals breathe; whales are mammals; so whales breathe” gives premises followed by a conclusion. “Whales are beautiful” alone offers no supporting reason.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<main[39m
+      [33mclass[39m=[32m"learning-page"[39m
+      [33mid[39m=[32m"main-content"[39m
+    [36m>[39m
+      [36m<nav[39m
+        [33maria-label[39m=[32m"Assessment breadcrumbs"[39m
+        [33mclass[39m=[32m"lesson-topbar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mhref[39m=[32m"/subjects/philosophy#course-path"[39m
+        [36m>[39m
+          [0m← [0m
+          [0mPhilosophy[0m
+          [0m course path[0m
+        [36m</a>[39m
+        [36m<span>[39m
+          [0mLevel [0m
+          [0m1[0m
+          [0m · [0m
+          [0mUnit-end quiz[0m
+        [36m</span>[39m
+      [36m</nav>[39m
+      [36m<article[39m
+        [33mclass[39m=[32m"learning-article"[39m
+      [36m>[39m
+        [36m<h1[39m
+          [33mtabindex[39m=[32m"-1"[39m
+        [36m>[39m
+          [0mUnit quiz: Argument structure and evidential support[0m
+        [36m</h1>[39m
+        [36m<section[39m
+          [33mclass[39m=[32m"learning-panel"[39m
+        [36m>[39m
+          [36m<h2>[39m
+            [0mCheck understanding, separately from reading[0m
+          [36m</h2>[39m
+          [36m<p>[39m
+            [0m5[0m
+            [0m questions · [0m
+            [0m80[0m
+            [0m% to pass · no timer. [0m
+            [0mThis quiz checks the lessons in this unit.[0m
+            [0m These authored questions assess recognition and application of the taught distinctions, not professional qualification. You may review the lessons and retry. Repeat attempts reuse the question bank; a remembered answer is not proof of transfer to a new situation.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mSaving a lesson records reading only. Previous lesson completions have not been converted into passing scores. You can continue reading without a pass; the assessment remains unpassed.[0m
+          [36m</p>[39m
+        [36m</section>[39m
+        [36m<section[39m
+          [33mclass[39m=[32m"learning-panel"[39m
+        [36m>[39m
+          [36m<h2>[39m
+            [0mQuestion [0m
+            [0m1[0m
+          [36m</h2>[39m
+          [36m<fieldset>[39m
+            [36m<legend>[39m
+              [0mWhat is the conclusion in the whale argument?[0m
+            [36m</legend>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-01"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mWhales breathe[0m
+            [36m</label>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-01"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mWhales are mammals[0m
+            [36m</label>[39m
+          [36m</fieldset>[39m
+        [36m</section>[39m
+        [36m<section[39m
+          [33mclass[39m=[32m"learning-panel"[39m
+        [36m>[39m
+          [36m<h2>[39m
+            [0mQuestion [0m
+            [0m2[0m
+          [36m</h2>[39m
+          [36m<fieldset>[39m
+            [36m<legend>[39m
+              [0mWhat is wrong with this valid argument?[0m
+            [36m</legend>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-02"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mIts conclusion fails to follow from the premises[0m
+            [36m</label>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-02"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mAt least one premise is false[0m
+            [36m</label>[39m
+          [36m</fieldset>[39m
+        [36m</section>[39m
+        [36m<section[39m
+          [33mclass[39m=[32m"learning-panel"[39m
+        [36m>[39m
+          [36m<h2>[39m
+            [0mQuestion [0m
+            [0m3[0m
+          [36m</h2>[39m
+          [36m<fieldset>[39m
+            [36m<legend>[39m
+              [0mWhat must be added to validity for soundness?[0m
+            [36m</legend>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-03"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mTrue premises[0m
+            [36m</label>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-03"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mA popular conclusion[0m
+            [36m</label>[39m
+          [36m</fieldset>[39m
+        [36m</section>[39m
+        [36m<section[39m
+          [33mclass[39m=[32m"learning-panel"[39m
+        [36m>[39m
+          [36m<h2>[39m
+            [0mQuestion [0m
+            [0m4[0m
+          [36m</h2>[39m
+          [36m<fieldset>[39m
+            [36m<legend>[39m
+              [0mWhy is this conclusion not deductively guaranteed?[0m
+            [36m</legend>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-04"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mNo observation can ever provide support[0m
+            [36m</label>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-04"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mUnobserved cases may differ[0m
+            [36m</label>[39m
+          [36m</fieldset>[39m
+        [36m</section>[39m
+        [36m<section[39m
+          [33mclass[39m=[32m"learning-panel"[39m
+        [36m>[39m
+          [36m<h2>[39m
+            [0mQuestion [0m
+            [0m5[0m
+          [36m</h2>[39m
+          [36m<fieldset>[39m
+            [36m<legend>[39m
+              [0mWhich claim is defeated by a flightless bird?[0m
+            [36m</legend>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-05"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mAll birds fly[0m
+            [36m</label>[39m
+            [36m<label[39m
+              [33mclass[39m=[32m"answer-choice"[39m
+            [36m>[39m
+              [36m<input[39m
+                [33mname[39m=[32m"assessment-05"[39m
+                [33mtype[39m=[32m"radio"[39m
+              [36m/>[39m
+              [0mMany birds fly[0m
+            [36m</label>[39m
+          [36m</fieldset>[39m
+        [36m</section>[39m
+        [36m<section[39m
+          [33mclass[39m=[32m"learning-panel"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"primary-action"[39m
+            [33mdisabled[39m=[32m""[39m
+          [36m>[39m
+            [0mScore this attempt[0m
+          [36m</button>[39m
+          [36m<div[39m
+            [33maria-live[39m=[32m"polite"[39m
+            [33mrole[39m=[32m"status"[39m
+          [36m/>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"primary-action"[39m
+          [36m>[39m
+            [0m→ [0m
+            [0mNext lesson: Necessary and sufficient[0m
+          [36m</button>[39m
+          [36m<p>[39m
+            [0mContinuing does not mark this assessment passed.[0m
+          [36m</p>[39m
+        [36m</section>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"storage-note"[39m
+        [36m>[39m
+          [0mProgress stays in this browser, on this device—not an account or cloud backup. Clearing browser data removes it. Visits never count as study.[0m
+          [0m Previous untimed legacy completions are not invented as study days.[0m
+        [36m</p>[39m
+      [36m</article>[39m
+    [36m</main>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/components/AssessmentLesson.test.tsx:19:16
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  1 failed | 5 passed (6)
+   Start at  01:40:15
+   Duration  695ms (transform 225ms, setup 104ms, import 310ms, tests 212ms, environment 576ms)
+

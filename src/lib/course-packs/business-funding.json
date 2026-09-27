@@ -1,0 +1,663 @@
+{
+  "subject": "business-funding",
+  "levels": [
+    {
+      "title": "Evidence-led deal design and accountable sales judgment",
+      "units": [
+        {
+          "title": "From a plausible opportunity to a financeable cash cycle",
+          "lessons": [
+            {
+              "id": "51",
+              "title": "Separate project contribution from the cash needed to survive it",
+              "explanation": "Your objective is to evaluate a profitable-looking order without confusing its eventual margin with the cash available before collection. Earlier lessons established revenue, profit, cash and payment calendars. Now join those ideas into an incremental project decision. Ask what changes if the merchant accepts this particular order rather than declining it. Include new materials, labor, delivery, returns and financing costs attributable to the order; do not count the sales price as money available today. Separately identify unavoidable business outflows that the project must coexist with. SBA describes repayment ability and business cash flow as important to its lending framework, not simply the existence of a large customer order.[6] The decision framework here is educational analysis, not an SBA underwriting formula. All figures and businesses in this level are fictional; use no real client records in exercises.",
+              "example": "Cedar Displays has a confirmed $72,000 order. Materials cost $45,000 and incremental labor costs $9,000, both payable before customer collection. The order therefore contributes $18,000 before financing and unmodeled expenses. If an illustrative financing path costs $6,000 in total incremental dollars, contribution after that cost is $12,000. But Cedar has only $14,000 of unrestricted cash allocated to the order: the precollection requirement is $54,000, leaving a $40,000 timing gap. A positive contribution does not fund that gap. The salesperson must also ask when financing remittances begin, whether operating reserves were excluded from the allocated cash, and whether acceptance, delivery or disputes can delay collection. The $6,000 cost is an assumed dollar amount, not an APR or a factor conversion.",
+              "question": "Does the $12,000 modeled contribution establish that Cedar can make every payment?",
+              "answer": "No. The order has a $40,000 precollection gap before additional timing and reserve requirements are checked.",
+              "distractor": "Yes. A profitable order necessarily supplies enough cash for its own payments.",
+              "correction": "Contribution is a difference across the whole project; liquidity is available cash at each date. The profitable endpoint cannot pay an earlier bill.",
+              "depth": {
+                "definitions": "Incremental contribution means additional project receipts less additional project costs under a stated boundary. It is not necessarily accounting net profit: overhead, tax, capital spending and owner needs may remain outside it. A counterfactual is the comparison path, here declining the order. Unrestricted cash is cash actually available for this purpose, not money reserved for payroll or constrained by an agreement. A peak funding gap is the largest cumulative cash deficit before permitted financing. Define these terms before debating which product is best, because different definitions can make two people appear to disagree about the same number.",
+                "mechanism": "Build two linked views. The contribution view asks whether the activity creates enough value after its additional costs. The dated view asks whether the merchant can stay liquid while that value is created and collected. Record order acceptance, supplier payments, payroll, delivery, customer approval, collection and each financing debit as distinct events. A purchase order is evidence of demand, but it is not a settled bank receipt. Challenge concentration: if the same customer supplies most other receipts, a delay can damage both the project and existing operations. The OCC's asset-based lending discussion examines customer concentrations and collateral liquidity; those risk concepts support this challenge without making its bank-supervision guidance a universal merchant qualification rule.[1]",
+                "secondExample": "Suppose Cedar's customer accepts a smaller final price of $60,000 after a documented commercial renegotiation, while the already committed materials, labor and financing cost remain unchanged. The modeled contribution after financing falls to zero. That is not necessarily a cash default if sufficient reserves exist, but it removes the modeled economic cushion. Conversely, a well-margined repeat order paid largely in advance may have little external financing need. These contrasts show why a salesperson should not use high revenue as the universal argument for borrowing. Customer payment terms can change the financing problem more fundamentally than an improved funding headline.",
+                "mistake": "The diagnostic mistake is saying, 'You make $12,000, so the advance pays for itself.' Ask the speaker to identify the actual date and account balance from which the first remittance will leave. If they point only to the final invoice, they have substituted eventual value for current liquidity. Another mistake is treating the full $14,000 bank balance as available without checking payroll, tax reserves or restrictions. Correct the boundary explicitly rather than silently adding a favorable assumption to the model.",
+                "application": "Optional practice: write a recommendation paragraph for Cedar and a short consent-based conversation. Model response: 'The order may create $12,000 before excluded expenses, but the current schedule has a $40,000 precollection gap. I cannot call it affordable from margin alone. With your permission, let us verify customer acceptance and payment terms, supplier dates, cash reserves and every proposed debit before comparing financing with a customer deposit or staged delivery.' Self-review: distinguish contribution from cash; name the excluded costs; identify documentary evidence; include a nonfinancing alternative; leave the owner free to pause. Completing this exercise does not establish professional underwriting competence.",
+                "summary": "A financeable opportunity needs both economic justification and a viable cash path. Keep the order's attractiveness, the business's overall capacity and the provider's eligibility decision separate. Transfer this method to seasonal inventory, construction mobilization or a large service contract: trace when value becomes spendable money, then test what happens if that conversion is late or smaller than expected."
+              },
+              "readings": [
+                {
+                  "title": "[6] SBA — 7(a) loans: eligibility and repayment",
+                  "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
+                  "note": "Read 'Am I eligible?' and 'How do I pay back my 7(a) loan?' for repayment ability and cash-flow context. These are SBA-specific statements, not approval criteria for every product."
+                },
+                {
+                  "title": "[1] OCC — Asset-Based Lending: borrower analysis and concentrations",
+                  "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
+                  "note": "Read Borrower Analysis and Concentrations. Public PDF intended for bank supervision; apply the reasoning about liquidity and dependence, not its sample terms as market offers."
+                }
+              ],
+              "visual": {
+                "title": "One order, two tests",
+                "description": "The project margin and the dated cash gap are parallel tests that must both be reviewed.",
+                "steps": [
+                  "Economic view: $72,000 receipts less $54,000 project costs less $6,000 financing = $12,000 contribution",
+                  "Timing view: $54,000 must leave before collection; only $14,000 is allocated",
+                  "Funding gap: $40,000 before reserves and payment timing are tested",
+                  "Decision: verify collection and operating constraints before selecting a product"
+                ]
+              }
+            },
+            {
+              "id": "52",
+              "title": "Borrowing-base contraction: when a line shrinks as you need it",
+              "explanation": "Your objective is to explain a borrowing-base calculation and then identify the feedback risk it creates. A headline line limit is not necessarily drawable money. In asset-based lending, agreed collateral eligibility, advance rates, reserves and outstanding borrowings determine availability; the OCC explains these mechanisms in its Asset-Based Lending handbook.[1] Earlier lessons named conditional availability. This lesson requires you to rebuild it from a fictional receivables file and stress a deterioration. The crucial insight is that slower customer payment can simultaneously delay operating cash and reduce borrowing availability. The line is therefore not automatically an independent backup for the very risk that weakens its collateral. These examples assume a simplified agreement; actual documents may order deductions differently.",
+              "example": "Cedar has a stated $80,000 line limit and $100,000 of invoice face value. Its hypothetical agreement excludes $20,000 of aged invoices, $15,000 of disputed invoices and $5,000 above a customer concentration limit. Assume these categories do not overlap. Eligible receivables are $60,000. An 80% advance rate produces a $48,000 borrowing base. The lower of the $80,000 limit and $48,000 base is $48,000; subtract $35,000 outstanding and a separate $3,000 availability reserve to obtain $10,000 drawable under this simplified formula. The reserve is deducted once, after the lower-of test. Saying '$45,000 available because the limit exceeds the balance' would ignore the collateral constraint.",
+              "question": "Another $10,000 becomes ineligible, with balance and reserve unchanged. What happens?",
+              "answer": "The base falls to $40,000 and simplified availability falls to $2,000.",
+              "distractor": "Availability stays $10,000 because the contractual headline limit has not changed.",
+              "correction": "Eligible collateral falls to $50,000; 80% gives $40,000. Subtracting $35,000 outstanding and the $3,000 reserve leaves $2,000, despite an unchanged limit.",
+              "depth": {
+                "definitions": "Eligibility is a contract rule determining which assets support an advance, not a declaration that an excluded invoice is worthless. An advance rate applies a lending percentage to eligible collateral. A concentration limit restricts reliance on one customer or related exposure. Dilution concerns reductions between invoice amounts and cash ultimately collected, including credits, returns or disputes; it differs from mere lateness.[1] A reserve reduces support or availability for a specified risk. A borrowing-base certificate reports the agreed calculation with supporting records. Distinguish a temporary estimate from a certificate the business is actually authorized to submit.",
+                "mechanism": "Begin with reconciled records rather than a spreadsheet total detached from the ledger. Match invoice identifiers, aging dates, credits and collection status, then apply the agreement's rules. Avoid double-excluding an invoice already removed for another reason unless the formula explicitly requires it. Next calculate the base, apply the commitment limit and subtract the obligations and reserves in the required order. A customer delay can push invoices beyond an aging rule while the business still owes suppliers. That creates correlated pressure: less operating cash and less collateral-supported credit. OCC discussion of monitoring and collateral controls explains why reporting quality and timely recalculation matter.[1] This lesson does not establish any particular lender's thresholds or permission to overdraw.",
+                "secondExample": "Imagine instead that the disputed invoices are resolved, but collections are deposited into a lender-controlled account. A larger eligible base does not by itself establish that the same amount becomes unrestricted cash immediately. Collection-control provisions and outstanding-balance reductions must also be traced. Ask when receipts are applied, when availability refreshes and whether a new draw requires approval. This case contrasts collateral quality with cash access: improved collateral can help the borrowing formula while operational restrictions still govern when payroll money can be used. Do not count a collected invoice simultaneously as outstanding collateral and as free cash.",
+                "mistake": "A common sales error is promising that a line will always bridge slow-paying customers. Diagnose it by asking whether those same customers' invoices support the line. If so, the proposed protection may weaken at exactly the wrong time. Another error is treating a reserve as a cash fee: in this example it limits availability, but it is not an additional payment made by the merchant. Label each item as collateral adjustment, cash movement or contractual condition; that classification prevents both overstated proceeds and double-counted costs.",
+                "application": "Optional task: prepare an availability explanation and an evidence request. Model response: 'The simplified current draw room is $10,000, not $45,000. If another $10,000 becomes ineligible, it falls to $2,000. Before relying on this for payroll, we need the executed borrowing-base definition, current aging and dispute records, reserve notice, balance confirmation and collection-control timing.' Self-review: show the lower-of test; state that exclusions are disjoint; deduct the reserve only once; distinguish a reserve from a fee; explain the correlated downside. Do not upload invoices or bank statements into this learning exercise. Use fictional records and identify what an authorized reviewer would need.",
+                "summary": "A line's limit, collateral support, approved availability and usable cash are related but different quantities. Reliable sales reasoning makes those differences visible instead of converting a conditional facility into a cash promise. Transfer this method to inventory-backed facilities by investigating eligibility, valuation and obsolescence, not by assuming invoice advance rates apply to inventory."
+              },
+              "readings": [
+                {
+                  "title": "[1] OCC — Asset-Based Lending: Establishing and Monitoring the Borrowing Base",
+                  "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
+                  "note": "Read Establishing the Borrowing Base, Concentrations, Dilution, Controls and the glossary. The PDF is supervisory guidance, not a universal advance-rate schedule; all lesson rates and exclusions are fictional."
+                }
+              ],
+              "visual": {
+                "title": "From invoice face to draw room",
+                "description": "A waterfall removes ineligible collateral before applying lending limits and existing exposure.",
+                "steps": [
+                  "$100,000 face less $40,000 disjoint exclusions = $60,000 eligible",
+                  "80% advance rate gives $48,000 base, below the $80,000 limit",
+                  "Less $35,000 balance and $3,000 reserve = $10,000 availability",
+                  "Stress: another $10,000 ineligible reduces availability to $2,000"
+                ]
+              }
+            },
+            {
+              "id": "53",
+              "title": "Forecast variance: explain what changed before recommending more money",
+              "explanation": "Your objective is to turn an inaccurate forecast into a revised decision rather than hiding the error inside a larger funding request. A forecast is a dated hypothesis; actual results are observations that can support or weaken it. The OCC's borrower analysis and liquidity monitoring discuss the importance of reliable liquidity projections and ongoing information in asset-based lending.[1] Our application is a merchant-level forecast-to-actual bridge, not an official accounting standard. Earlier lessons showed why an ending balance can hide an early shortfall. Now investigate why a forecast failed, distinguish collection timing from lost value, and update the next period's opening cash before discussing a renewal. A forecast that keeps the old opening balance after an adverse variance is no longer internally consistent.",
+              "example": "Cedar forecasts a week opening at $8,000, receiving $22,000 from customers, paying $17,000 of operating outflows and $4,000 of financing obligations. Forecast closing cash is $9,000. Actual receipts are $18,000 and operating outflows are $19,000; financing outflows match $4,000. Actual closing cash is $3,000. The unfavorable $6,000 variance consists of $4,000 fewer receipts and $2,000 more operating payments. It is not all 'low sales.' The next forecast must start with the actual $3,000. If $7,000 leaves Monday before $12,000 arrives Friday, Monday falls to negative $4,000 without an additional permitted buffer, even though Friday ends at $8,000 under these isolated assumptions.",
+              "question": "Should the analyst leave next week's opening cash at the forecast $9,000?",
+              "answer": "No. Roll forward actual $3,000 and investigate both receipt and outflow variances.",
+              "distractor": "Yes. Keeping the original forecast avoids exaggerating a temporary problem.",
+              "correction": "Opening cash is a factual carryforward, not a confidence choice. Leaving it at $9,000 invents $6,000 of liquidity and hides the Monday shortfall.",
+              "depth": {
+                "definitions": "A variance is actual performance compared with a defined forecast. State the sign convention: here an unfavorable cash variance means less ending cash than forecast. A timing variance moves cash between dates without necessarily changing the total eventually collected or paid. A permanent variance changes expected total value, such as a customer credit or an unrecoverable invoice. A rolling forecast replaces elapsed estimates with actuals and extends the future horizon. A cash bridge connects opening balance to closing balance through separately identified flows; it should reconcile rather than merely tell a convincing story.",
+                "mechanism": "Classify the discrepancy before selecting a remedy. Ask whether the missing receipt is a confirmed later settlement, a disputed invoice, a lost sale or a mistaken forecast entry. Ask whether extra spending was accelerated purchasing, a recurring cost increase or an omitted obligation. The same unfavorable total can imply very different future cash needs. Move a receipt only when evidence supports a revised date, and prevent its appearance in both the original and revised week. Preserve the original forecast for learning instead of overwriting history to create apparent accuracy. A new financing deposit belongs in its own financing row, not in customer receipts; otherwise borrowing can masquerade as operating improvement.",
+                "secondExample": "Contrast two explanations for the missing customer cash. In the first, the bank confirms settlement is pending and the customer has accepted the invoice; the analyst moves the receipt to a supported later date and tests another delay. In the second, a customer reports a quality dispute and expects a credit. The analyst must reconsider the collectible amount, possible rework and borrowing-base eligibility, not merely move the same optimistic receipt forward forever. Neither explanation proves fraud or business failure. They call for different evidence and potentially different decisions about whether a short bridge is reasonable to investigate at all.",
+                "mistake": "The tempting error is to describe every cash miss as seasonal and immediately offer a larger advance. Diagnose this by asking for the variance bridge and the next opening balance. If neither exists, the proposal may be financing an unexplained forecasting problem. Another error is interpreting any late receipt as permanent loss. The correction is symmetrical: neither optimism nor pessimism substitutes for evidence. Label the uncertain receipt, document who can verify it, and show the consequence if it arrives later or not in full.",
+                "application": "Optional exercise: write a provider-review note and a merchant-facing explanation. Model note: 'Closing cash was $6,000 below forecast: $4,000 receipts and $2,000 operating outflows. Next opening cash is $3,000. Monday's modeled deficit is $4,000 before Friday collection. We need receipt-status evidence, cost explanations and confirmation of any permitted buffer.' Model script: 'The forecast changed in two places. May we review those causes with your bookkeeper before considering another obligation?' Self-review: reconcile the numbers; distinguish timing from permanent loss; update the opening balance; preserve uncertainty; avoid calling a negative scenario an inevitable outcome or implying that another provider will approve it.",
+                "summary": "Variance analysis is a discipline of learning from the difference between a plan and reality. It improves recommendations only when it changes assumptions, dates or decisions. Transfer the method to a renewal, seasonal draw or delayed project: show what changed, why you believe the explanation, and what new evidence would justify restoring confidence."
+              },
+              "readings": [
+                {
+                  "title": "[1] OCC — Asset-Based Lending: Borrower Analysis and Controls",
+                  "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
+                  "note": "Read the liquidity-projection and ongoing-monitoring discussion. The lesson's forecast bridge and sales scripts are original teaching applications, not OCC-prescribed forms."
+                }
+              ],
+              "visual": {
+                "title": "Reconcile, classify, roll forward",
+                "description": "The sequence connects a forecast miss to next week's actual starting point.",
+                "steps": [
+                  "Forecast closing cash: $9,000",
+                  "Receipts $4,000 below plan and operating outflows $2,000 above plan",
+                  "Actual closing and next opening cash: $3,000",
+                  "Monday $7,000 outflow creates a $4,000 gap before Friday collection"
+                ]
+              }
+            },
+            {
+              "id": "54",
+              "title": "Offer normalization without inventing an APR or a winner",
+              "explanation": "Your objective is to compare two offers while keeping unequal proceeds, different timing and missing contractual information visible. A comparison is not made fair merely by placing two headline amounts side by side. New York's Part 600 relates annual percentage rate to the amount and timing of value received and payments made, and prescribes disclosures for covered commercial financing.[2] That is a jurisdiction-specific framework, not permission to improvise a compliant APR. Earlier lessons distinguished a factor from APR. Here you must prevent a subtler mistake: using a correct dollar subtraction to make an unsupported all-in superiority claim. Separate a descriptive comparison from a recommendation and from any legally required disclosure.",
+              "example": "Assume Offer A advances gross $40,000, deducts $2,000, and uses a 1.25 factor for $50,000 total remittance over twenty weekly payments of $2,500. Net proceeds are $38,000 and remittance minus net is $12,000. Offer B advances gross $40,000, deducts $1,000 and requires twenty-four weekly payments of $2,100: $50,400 total, $39,000 net and $11,400 remittance minus net. Assume funding at week zero, payments at each week-end beginning week one, no other fees and no payoff of old debt. B's weekly payment is $400 lower and its subtraction over net is smaller, but total remittance is higher and lasts longer. Neither subtraction is automatically the legally defined finance charge or APR.",
+              "question": "Can the salesperson call B universally cheaper solely because $11,400 is below $12,000?",
+              "answer": "No. The proceeds and schedules differ; cost measures, timing, risks and required disclosures still need comparison.",
+              "distractor": "Yes. A smaller remittance-minus-net subtraction settles every price and suitability question.",
+              "correction": "B supplies different net cash and runs longer. A truthful comparison states the particular metric and does not convert it into a universal conclusion.",
+              "depth": {
+                "definitions": "Normalization means making the comparison boundary explicit, not changing an actual offer to fit a preferred result. Net proceeds describe spendable funding after included deductions. Total remittance describes the modeled future payment sum. Remittance minus net is a descriptive dollar difference under stated assumptions. APR is an annualized measure calculated using applicable rules, amounts and timing; a factor is not an annual percentage rate.[2] The comparison horizon extends through the last obligation, not just the period during which both offers have payments. An unknown fee is unknown, not zero.",
+                "mechanism": "Start with the merchant's required net amount and deadline. Ask whether both offers actually meet them and whether extra proceeds have a productive use. Then map payment dates, final obligations, variability, early payoff, guarantees, collateral and broker compensation. Where regulations require prescribed disclosures, obtain the provider's applicable disclosure; a salesperson's spreadsheet is supplementary.[2] Do not use a guessed term to annualize sales-based financing. If independently modeling a yield, label the exact mathematical convention and do not present it as a regulatory APR without verification. In this lesson no annualized value is calculated because the skill being assessed is disciplined comparison, not false numerical precision.",
+                "secondExample": "Suppose the merchant needs exactly the smaller net amount for a supplier deposit and expects a separately verified collection before either schedule ends. The early-payoff terms may become decisive. A smaller recurring payment does not establish a smaller dated payoff, and 'no penalty' does not necessarily remove unreduced fixed charges. Ask both providers for the payoff amounts on the same intended date and the contractual basis for any discount. If the merchant instead needs the larger net amount, A leaves a funding gap. The best comparison changes with the business constraint rather than with the salesperson's favorite price metric.",
+                "mistake": "A polished but misleading pitch says, 'The factor is only twenty-five percent, whereas the other lender charges interest.' That mixes an amount multiplier with a time-based measure and invites a false equivalence. Another mistake is hiding B's longer tail because it weakens a lower-payment pitch. Correct both by speaking in complete propositions: which dollars, which dates, which assumptions, and which unresolved terms. Treat a requested clarification from an accountant as a test of the comparison's integrity, not an objection to defeat.",
+                "application": "Optional task: give the owner a balanced explanation without selecting a winner. Model response: 'A supplies $38,000 net with $50,000 scheduled remittance. B supplies $39,000 net with $50,400 scheduled remittance and lower weekly payments over a longer schedule. Those are different cash packages. May we review the required cost disclosures, payoff terms and your cash calendar before deciding whether either fits?' Self-review: include all four headline quantities; disclose unequal proceeds; name the payment tail; never label the factor APR; mark additional fees as unresolved unless the assumption explicitly excludes them. Include waiting or reducing the project as real comparison paths.",
+                "summary": "A fair offer sheet can contain several true statements that point in different directions. The professional task is to explain those tensions, not erase them with 'cheapest.' Transfer this approach to term loans, factoring or equipment leases by retaining the same boundary discipline while changing the product-specific flows and ownership questions."
+              },
+              "readings": [
+                {
+                  "title": "[2] NY DFS — Part 600: APR and product-specific disclosures",
+                  "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
+                  "note": "Read sections 600.2–600.3 and the relevant product disclosure section. The official URL resolves to a PDF. Applicability and current jurisdictional obligations require qualified compliance review."
+                }
+              ],
+              "visual": {
+                "title": "Four dimensions, no automatic winner",
+                "description": "Two hypothetical schedules are compared without collapsing payment, net cash and time into one label.",
+                "steps": [
+                  "A: $38,000 net; $50,000 total; $2,500 weekly for twenty weeks",
+                  "B: $39,000 net; $50,400 total; $2,100 weekly for twenty-four weeks",
+                  "Compare net need, complete calendar, dollar differences and contractual risks separately",
+                  "Request applicable APR disclosures; do not relabel the 1.25 factor"
+                ]
+              }
+            },
+            {
+              "id": "55",
+              "title": "Reconciliation lag: a contractual adjustment is not today's liquidity",
+              "explanation": "Your objective is to distinguish an estimated sales-based remittance, a calculated adjustment and money actually returned or retained. A reconciliation clause may be important, but the label alone does not establish its timing, enforceability or practical operation. New York's sales-based disclosure framework addresses estimated payments and related assumptions.[2] The New York Attorney General's Yellowstone materials illustrate that legal character and conduct cannot be settled by calling an arrangement an MCA; that case does not determine every contract.[5] Earlier lessons asked whether reconciliation exists. This lesson asks what happens to cash while a correctly documented request is pending and how to speak honestly about a remedy that has not yet occurred.",
+              "example": "Use a fictional agreement that defines eligible weekly receipts as customer collections less documented refunds and sets a 10% share, with a fixed estimated weekly debit of $1,800 pending reconciliation. The merchant collects $14,000 and issues $2,000 of qualifying refunds: eligible receipts are $12,000 and the calculated share is $1,200. The estimated debit exceeds that amount by $600. If this exact pattern repeats for two weeks while the request remains unresolved, the extra cash removed totals $1,200. This is a scenario for tracking a potential adjustment under the assumed definition, not proof that the merchant has a legally enforceable refund or that tomorrow's debit changes. Verify the actual agreement, evidence and provider response.",
+              "question": "May the owner budget the calculated $1,200 two-week adjustment as cash already available?",
+              "answer": "No. Track it separately until the actual refund or debit credit and its timing are confirmed.",
+              "distractor": "Yes. Computing the difference automatically puts the money back into the bank account.",
+              "correction": "An estimated entitlement or pending request is not settled cash. Refunds and credits have different timing and must not both be counted for the same adjustment.",
+              "depth": {
+                "definitions": "The contractual receipts base identifies what collections count; it may not equal bank deposits or accounting revenue. An estimated debit is the amount collected before the agreed adjustment process. Reconciliation compares collections against the contractual basis using required evidence. An adjustment could take the form of a refund, a future-debit reduction or another agreed treatment; do not assume which applies. Processing lag is the interval between the relevant cash event and an implemented change. Legal classification concerns the substance and operation of the arrangement, a question for qualified counsel rather than a salesperson's confident label.",
+                "mechanism": "Maintain an adjustment ledger with the period, receipts base, excluded items, supporting records, actual debits, calculated difference, submission date, provider acknowledgment and resolution. Each status answers a different question. A request submitted is not a request accepted; accepted is not implemented; implemented does not necessarily mean cash refunded. Overlay the status with payroll and supplier dates. If relief comes as a credit against future debits, forecast reduced outflows on the confirmed dates rather than inventing an immediate inflow. Keep fees and other obligations separate so the same amount is not reconciled twice. If the contract is unclear or the provider's conduct conflicts with the written process, preserve evidence and seek authorized servicing, compliance and legal review.",
+                "secondExample": "Contrast a true percentage collection mechanism that varies automatically with the contract's defined receipts. That arrangement may reduce a remittance as receipts fall, but it still does not guarantee sufficient operating cash: rent and payroll may remain fixed. Conversely, a fixed estimate might later be adjusted accurately yet still create an interim shortfall before the correction. These cases differ in mechanics, not in whether the owner deserves assistance. The salesperson must describe how this particular arrangement works and refrain from promising either automatic relief or inevitable denial based on a generic product category.",
+                "mistake": "The dangerous script is, 'Don't worry; reconciliation means you can always afford it.' It turns a contractual process into a guarantee of business solvency. Diagnose the claim by asking who initiates the request, what data are needed, how long review takes, and how an approved adjustment reaches the account. If those answers are missing, the assurance is unsupported. The opposite error is instructing the owner to block debits unilaterally. This lesson does not prescribe evasion, default or changes to payment authorization; disputed obligations require appropriate professional guidance.",
+                "application": "Optional task: draft a servicing inquiry and a cash-planning note. Model inquiry: 'Please confirm the applicable receipts definition, required evidence, status of our request, treatment of the calculated difference and the date any approved change would take effect.' Model note: 'The illustration calculates $600 per week above the assumed share, but we will not treat an unconfirmed $1,200 adjustment as available cash.' Self-review: distinguish calculation from legal entitlement; identify the refund-versus-credit mechanism; preserve accurate records; use secure authorized channels; make no promise of immediate relief. Use invented data only and obtain permission before involving an adviser or sharing records.",
+                "summary": "Contractual rights, administrative status and current liquidity belong on separate lines. A useful salesperson helps the merchant connect them without pretending they are identical. Transfer this discipline to insurance reimbursements, supplier credits and reserve releases: an expected correction can be economically relevant while remaining unavailable for today's bills."
+              },
+              "readings": [
+                {
+                  "title": "[2] NY DFS — Part 600: sales-based financing disclosure",
+                  "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
+                  "note": "Read the sales-based disclosure requirements and estimation provisions. The example's reconciliation terms are hypothetical, not a claim that the regulation supplies those terms to every agreement."
+                },
+                {
+                  "title": "[5] NY Attorney General — Yellowstone settlement",
+                  "url": "https://ag.ny.gov/credit-lending/yellowstone-settlement",
+                  "note": "Read the lawsuit and settlement explanation for case-specific warnings about arrangements labeled MCAs. Do not generalize cancellation or settlement relief to other providers or merchants."
+                }
+              ],
+              "visual": {
+                "title": "From receipts to implemented adjustment",
+                "description": "A status sequence prevents a pending reconciliation from being counted as cash.",
+                "steps": [
+                  "$14,000 collections less $2,000 qualifying refunds = $12,000 assumed eligible receipts",
+                  "10% share = $1,200 versus $1,800 estimated debit",
+                  "$600 difference per week; $1,200 over the two-week scenario",
+                  "Requested → reviewed → confirmed refund or credit → verified cash effect"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-51-a",
+              "prompt": "A manufacturer can earn a margin on a custom order but must pay suppliers before the buyer accepts delivery. Which analysis comes first?",
+              "answer": "Build incremental contribution and a dated cash path, including acceptance risk and existing operating needs.",
+              "distractor": "Use the sales price as immediate repayment capacity because the purchase order is signed.",
+              "correction": "A signed order supports demand, not necessarily collectible cash today. Economics and liquidity must both be tested.",
+              "reviewLessonIds": [
+                "51",
+                "53"
+              ]
+            },
+            {
+              "id": "uq-51-b",
+              "prompt": "An invoice is both overdue and disputed. A simplified certificate excludes it under the overdue rule. How should a second exclusion be handled?",
+              "answer": "Check the agreement and prevent unintended duplicate exclusion of the same invoice.",
+              "distractor": "Always subtract its full value twice to demonstrate conservative underwriting.",
+              "correction": "Conservatism is not a license for an unreconciled formula. Apply the actual rules and track invoice-level overlap.",
+              "reviewLessonIds": [
+                "52"
+              ]
+            },
+            {
+              "id": "uq-51-c",
+              "prompt": "A delayed payment is later confirmed to be a customer credit for defective goods. What changes in the forecast?",
+              "answer": "Reassess collectible value and related costs instead of simply moving the unchanged receipt to a later week.",
+              "distractor": "Continue rolling the original invoice forward until the forecast becomes positive.",
+              "correction": "A value reduction is not merely a timing delay; collateral eligibility and project contribution may also change.",
+              "reviewLessonIds": [
+                "51",
+                "52",
+                "53"
+              ]
+            },
+            {
+              "id": "uq-51-d",
+              "prompt": "Two offers have identical total remittance but different net deposits and payment dates. What can be concluded?",
+              "answer": "The payment totals match, but annualized economics and cash fit may differ and require the full disclosures and schedule.",
+              "distractor": "Equal total remittance proves equal APR and equal suitability.",
+              "correction": "Timing and value received matter. A total does not encode either, and neither offer is automatically suitable.",
+              "reviewLessonIds": [
+                "54"
+              ]
+            },
+            {
+              "id": "uq-51-e",
+              "prompt": "A provider approves reconciliation as credits against future debits rather than an immediate refund. How should the forecast show it?",
+              "answer": "Reduce the specified future outflows when confirmed; do not also add an immediate refund.",
+              "distractor": "Add the full refund today and reduce future debits because both represent the same relief.",
+              "correction": "Counting both mechanisms doubles the adjustment and creates fictitious liquidity.",
+              "reviewLessonIds": [
+                "53",
+                "55"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Complex negotiations, layered risk and accountable follow-through",
+          "lessons": [
+            {
+              "id": "56",
+              "title": "Reverse-consolidation lifecycle: separate relief, cost and the payment tail",
+              "explanation": "Your objective is to reconstruct a layered proposal from inception through its final payment, not merely repeat the attractive first-week number. Treat 'reverse consolidation' as a marketing label, not a standardized legal product. This lesson defines its fictional structure explicitly: old obligations remain active, a new provider makes recurring deposits, and the merchant makes additional payments to that provider. We are not claiming all offers using the label share these terms. The analytical foundation is full cash-flow tracing. OCC liquidity analysis emphasizes reliable projections and the capacity of available resources to meet cash needs.[1] That supervisory material does not endorse reverse consolidation. Legal characterization, stacking restrictions and enforceability require the actual agreements and qualified review.",
+              "example": "Assume old providers collect $6,000 at each week-end for four remaining weeks. A new provider deposits $5,000 at each week's start for those same four weeks and collects $2,500 at each week-end for ten weeks. No separate fees, early-payoff discounts, defaults or adjustments are assumed. Old outflows total $24,000, new deposits total $20,000 and new outflows total $25,000. All debits across the lifecycle total $49,000; subtracting financing deposits gives $29,000 net outflow. Keeping the old schedule alone costs $24,000 in future outflows. The layered path therefore adds $5,000 of net lifecycle outflow under these assumptions, while reducing first-phase weekly net outflow from $6,000 to $3,500. Weeks five through ten still require $2,500 weekly, a $15,000 tail after deposits end.",
+              "question": "What is the immediate weekly outflow if a $5,000 deposit is missed but that week's scheduled old and new debits remain?",
+              "answer": "$8,500, before operating receipts, operating bills or later contractual adjustments.",
+              "distractor": "$3,500, because the advertised relief remains true even when the deposit does not arrive.",
+              "correction": "That week's debits are $6,000 plus $2,500. A promised but missing deposit cannot be subtracted as actual cash. Long-term obligations after suspension still require contract review.",
+              "depth": {
+                "definitions": "Gross debit burden is every actual outgoing financing payment before offsetting new funding. Net financing outflow subtracts financing deposits actually received in the same period. Neither quantity is operating profit. A payment tail is the remaining outflow after an earlier phase ends, here after old obligations and new deposits finish. A lifecycle comparison includes all relevant phases and a defined alternative, here continuing the existing schedule. An interruption scenario tests a delayed or absent disbursement. Distinguish that cash scenario from a legal conclusion about what would remain owed after permanent termination.",
+                "mechanism": "Represent each provider separately so a new deposit cannot visually erase an old liability. Mark each start-of-week deposit and end-of-week debit, then overlay the operating forecast. If deposits instead settle after debits, an identical weekly net can conceal a larger intraperiod requirement. Request the disbursement conditions, termination rights, collateral restrictions and method of determining the new obligation when funding is interrupted. Do not assume the full planned new payment stream necessarily survives every termination; do not assume it disappears either. The immediate stress case holds that week's debits fixed only to expose liquidity sensitivity. New York enforcement concerning Yellowstone also cautions against relying on product labels rather than the arrangement's substance, but it is case-specific and supplies no general cancellation right.[5]",
+                "secondExample": "Contrast a genuine replacement transaction in which old providers receive verified payoff funds and confirm closure. The old debits may stop according to documented servicing procedures, so the cash model is different from recurring deposits alongside active accounts. Even then, a lower replacement payment can last longer and cost more; proof of payoff answers whether obligations are replaced, not whether the new financing is inexpensive. If payoff and first new debit occur close together, confirm any overlap. The correct recommendation depends on the complete calendar, not which proposal uses the more reassuring name.",
+                "mistake": "The misleading sentence is, 'Your payment drops to $3,500.' In this scenario actual gross debits initially total $8,500, offset by a conditional $5,000 deposit. Explain that distinction in ordinary language rather than hiding it in a footnote. Another mistake is calling $29,000 the new provider's charge: it includes old obligations and subtracts new deposits. The new stream and the whole-business comparison have different boundaries. Never rename the $5,000 incremental difference APR; annualized cost requires appropriate timing, classifications and disclosure methodology.",
+                "application": "Optional task: present the proposal to a skeptical owner and list the stopping conditions for a recommendation. Model response: 'For the first phase, $8,500 leaves and $5,000 arrives, giving $3,500 net financing outflow if the deposit arrives on time. This does not pay off the old positions. A $15,000 tail follows, and the modeled lifecycle outflow exceeds keeping the old schedule by $5,000. May we have your advisers review the deposit conditions and all existing restrictions before considering it?' Self-review: name all phases, distinguish deposits from sales, test interruption and timing, require proof of permissions, and permit a no-deal conclusion.",
+                "summary": "Temporary liquidity relief, replacement of obligations and lower economic cost are separate claims requiring separate evidence. A reverse-consolidation label proves none of them. Transfer the lifecycle method to any staged financing: identify who pays whom, when, under which conditions, and what still remains after the promotional phase ends."
+              },
+              "readings": [
+                {
+                  "title": "[1] OCC — Asset-Based Lending: liquidity analysis",
+                  "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
+                  "note": "Read Evaluating Liquidity for the importance of reliable projections and available resources. This supports the analysis method, not the safety or legal definition of reverse consolidation."
+                },
+                {
+                  "title": "[5] NY Attorney General — Yellowstone settlement: case-specific classification warning",
+                  "url": "https://ag.ny.gov/credit-lending/yellowstone-settlement",
+                  "note": "Read the explanation of the lawsuit. Its relief is specific to the settlement and must not be promised to merchants with other providers."
+                }
+              ],
+              "visual": {
+                "title": "Layered funding through the final tail",
+                "description": "The timeline distinguishes initial deposit-supported relief from later unsupported payments.",
+                "steps": [
+                  "Weeks one–four: $6,000 old + $2,500 new − $5,000 received = $3,500 net weekly outflow",
+                  "Weeks five–ten: deposits and old debits end; $2,500 new weekly debits remain",
+                  "Lifecycle: $49,000 all debits − $20,000 deposits = $29,000 net outflow",
+                  "Interruption: missing one deposit makes that week's scheduled financing outflow $8,500"
+                ]
+              }
+            },
+            {
+              "id": "57",
+              "title": "Negotiate the constraint, not the merchant's resistance",
+              "explanation": "Your objective is to handle an advanced price conversation by changing the business problem transparently rather than reframing an expensive offer as cheap. Earlier lessons taught respectful responses to objections. Now distinguish a merchant's position, such as 'I need thirty thousand,' from the constraint behind it, such as a supplier payment before customer collection. Negotiation can examine scope, deposits, staged delivery or supplier terms with the relevant parties' consent. It must not invent a concession, pressure an adviser or promise an unavailable product. FTC's RCG enforcement describes alleged funding and fee misrepresentations; its practical lesson for sales is that the final cash terms must match material claims.[3] This is an original negotiation framework, not a regulator-approved script.",
+              "example": "A fictional order requires a $30,000 supplier payment. The customer agrees in writing to an $8,000 deposit that will clear before that payment, reducing the isolated financing need to $22,000. An illustrative offer with a $1,000 deduction would need $23,000 gross to supply that net amount. At an assumed 1.20 factor, the purchased amount is $27,600, giving a $5,600 remittance-minus-net difference before any excluded charges. These are hypothetical terms, not a promise that reducing the request preserves pricing or approval. Before celebrating, ask whether the customer deposit creates delivery obligations, refund exposure or a reduction in the later customer collection. Record that deposit only once, and lower the later balance due accordingly.",
+              "question": "What makes the revised request defensible?",
+              "answer": "A verified earlier customer deposit changes the cash need; the smaller financing still requires new terms and a full cash test.",
+              "distractor": "The owner agreed verbally, so the salesperson can guarantee identical pricing on a smaller request.",
+              "correction": "Changing the business cash cycle can change the required amount, but it does not bind a provider to terms or make conditional customer cash certain.",
+              "depth": {
+                "definitions": "A position is the proposed outcome someone states. An underlying interest is the need or concern it is meant to serve. A constraint is a condition the solution must respect, such as payroll protection or a supplier deadline. A concession changes a term through an authorized party; a salesperson cannot grant another party's concession. An alternative is a real path if this offer is not accepted, including waiting, reducing scope or declining the project. Reservation conditions are the facts under which the merchant would not proceed; they should be respected rather than engineered away through pressure.",
+                "mechanism": "First ask the merchant to identify the binding constraint: total cost, early cash burden, collateral, uncertainty or timing. Then investigate ways to change that constraint without concealing costs. A smaller purchase may reduce the funding amount but sacrifice a volume discount. A customer deposit may reduce borrowing but introduce performance and refund obligations. A supplier extension may preserve cash but have its own price or relationship consequences. Put changed receipts and outflows into the same dated forecast instead of discussing concessions in isolation. Where a revised specific offer triggers applicable disclosures, obtain the revised provider documents; New York's framework makes specific-offer disclosures and their content important within its scope.[2]",
+                "secondExample": "Contrast a merchant who says, 'I can manage the price, but I will not sign a personal guarantee.' That is not a request for a better pitch about speed. Identify the actual guarantee terms and offer qualified review; explore genuinely available alternatives without promising that one exists. If every obtainable proposal violates the merchant's boundary, the negotiation may end without financing. This is a successful identification of incompatible terms, not a failure to overcome resistance. Do not rename a performance guarantee as no personal exposure or assure the owner that it will never be enforced.",
+                "mistake": "One diagnostic warning is a salesperson changing the language while leaving the economics untouched: calling a fee a service benefit, calling a factor a low annual rate, or presenting a longer obligation as savings without the full comparison. Another is asking, 'If I solve this, will you sign today?' before knowing whether other material concerns remain. Correct the process by asking what still needs review after the proposed change. Consent to explore a modification is not consent to submit an application, run credit or accept an offer.",
+                "application": "Optional roleplay: the owner says, 'The supplier needs the money, your price is high, and I won't risk payroll.' Model response: 'Those are separate constraints. Could we first verify whether a customer deposit, smaller order or supplier extension is genuinely available? If the required amount changes, we will request revised written terms and test every payment against payroll; I cannot promise pricing or approval. You can still decide not to proceed.' Self-review: identify the binding constraint; obtain permission; show both benefits and new risks; recalculate net cash; include the remaining customer balance; preserve independent review and the option to decline.",
+                "summary": "Ethical negotiation can alter scope, timing or risk allocation; it cannot make a costly obligation disappear through vocabulary. Transfer the method to equipment delivery, invoice reserves or a seasonal purchase by identifying the actual constraint and the authorized party who could change it. A better-fit problem may produce better choices, but no choice is guaranteed."
+              },
+              "readings": [
+                {
+                  "title": "[3] FTC — RCG Advances enforcement: funding and fee representations",
+                  "url": "https://www.ftc.gov/news-events/news/press-releases/2022/06/ftc-action-results-ban-richmond-capital-owner-merchant-cash-advance-debt-collection-industries",
+                  "note": "Read the funding shortfall and personal-guarantee discussion. The case supports truthful material claims, not a universal product rule."
+                },
+                {
+                  "title": "[2] NY DFS — Part 600: specific offers and disclosures",
+                  "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
+                  "note": "Read the introduction and specific-offer definition. Confirm applicability and updated disclosures with compliance when actual terms change."
+                }
+              ],
+              "visual": {
+                "title": "Change the cash problem transparently",
+                "description": "A verified customer deposit can reduce borrowing without guaranteeing a provider concession.",
+                "steps": [
+                  "Supplier requires $30,000 before final customer collection",
+                  "Confirmed $8,000 early deposit reduces isolated net need to $22,000",
+                  "Hypothetical $23,000 gross less $1,000 deduction supplies $22,000",
+                  "Recheck later customer balance, delivery obligations, pricing and payroll timing"
+                ]
+              }
+            },
+            {
+              "id": "58",
+              "title": "Run a multi-party decision meeting with visible incentives and bounded consent",
+              "explanation": "Your objective is to lead a case-review meeting where the owner, cash manager, accountant, legal adviser and provider may answer different questions. Earlier lessons welcomed accountant review. This lesson goes further: separate each participant's decision authority, disclose relevant incentives, and prevent the meeting from becoming an implied authorization to distribute documents. FTC guidance recommends knowing what personal data a business holds, retaining only what it needs, restricting access and planning appropriate disposal.[4] These principles support careful meeting preparation, but they do not establish a complete privacy or credit-authorization rule for every transaction. Commercial-financing roles and disclosure duties also vary by jurisdiction; New York's Part 600 is a concrete example, not a national template.[2]",
+              "example": "In a fictional comparison, both offers have $30,000 gross funding. Provider A would pay the broker 4% of that gross amount, or $1,200; Provider B would pay 2%, or $600. Assume those commissions are paid by the providers and are already reflected in the stated offer economics, with no separate merchant-paid broker invoice in this example. Disclose the arrangement rather than adding the same commission again as a cash deduction. The figures reveal an incentive conflict but do not by themselves prove either offer is unsuitable or cheaper. The meeting should compare net cash, full schedules and risk first, then ask whether the recommendation survives knowing the compensation difference. Actual fee treatment and legally required disclosures must be verified.",
+              "question": "Does the owner's permission to invite an accountant authorize sending the full file to additional funders?",
+              "answer": "No. Meeting participation and distribution to new recipients require their own properly scoped authorization.",
+              "distractor": "Yes. Once an adviser joins, consent becomes unlimited for all financing-related uses.",
+              "correction": "Purpose, recipient and action matter. A review invitation is not a blanket submission or credit-check authorization.",
+              "depth": {
+                "definitions": "A decision-rights map identifies who can approve business commitments, supply operational facts, advise and make provider decisions. An incentive conflict exists when compensation could pull judgment away from the merchant's interests; disclosure makes it visible but does not automatically neutralize it. Scope of consent specifies the records, recipients, purpose and action authorized through the applicable process. A decision log records what was decided, by whom and on which evidence. An unresolved issue is an open question, not a presumed approval waiting for a signature. Distinguish advisory agreement from formal authority to bind the business.",
+                "mechanism": "Send a minimal agenda and appropriately authorized comparison before the meeting. Begin by checking roles and contact preferences. Ask the bookkeeper to confirm dated cash facts, the accountant to discuss financial assumptions within their role, counsel to address contract questions, and the provider to clarify its terms and decision process. Do not ask one participant to endorse conclusions outside their role. Present compensation clearly alongside the offer comparison, including who pays, the basis and any merchant-paid amounts. After discussion, read back decisions and unresolved items. Route only necessary records to authorized recipients through secure channels. This structure is a course practice standard for clear communication, not a claim that one meeting satisfies all legal duties.",
+                "secondExample": "Consider a meeting in which the owner says, 'My accountant can see the summary, but not my personal credit report.' Respect that boundary and explain if a contemplated process requires different authorization before proceeding. An adviser may identify missing cash data without needing sensitive personal identity information. Alternatively, a provider may require particular records to evaluate an application; the merchant can decide whether to authorize that process or stop. Do not solve the tension by forwarding the report first and requesting consent afterward. A slower but authorized process is more defensible than a fast unauthorized distribution.",
+                "mistake": "A subtle failure is writing 'accountant approved' because the accountant asked no questions. Silence is not a documented endorsement, and even an explicit accounting opinion is not underwriting approval. Another failure is disclosing a commission once and then claiming the conflict is solved. Diagnose that by asking whether a lower-compensation alternative received equally complete analysis and whether no financing remained a real option. Keep both offers' weaknesses visible. If a broker does not know its compensation or the net funding impact, record that uncertainty rather than inventing a simple fee story.",
+                "application": "Optional task: write a meeting opening and closing record. Model opening: 'With your permission, we will review cash fit and unresolved terms. A would pay our brokerage $1,200 and B $600 under these hypothetical arrangements; neither payment establishes which fits you. Please confirm who may receive which documents.' Model closing: 'No commitment today. The cash manager will verify the debit calendar; counsel will review the guarantee; any application requires the appropriate separate authorization.' Self-review: disclose incentive assumptions; do not double-count fees; identify roles accurately; preserve sensitive-data boundaries; distinguish advice, application and acceptance; record the owner's actual choice without inferring agreement.",
+                "summary": "A well-run decision meeting reduces ambiguity about facts, authority and incentives. It does not remove uncertainty or transfer the owner's choice to the loudest participant. Transfer this approach to a renewal or restructuring discussion by preserving a precise record of who knows what, who can decide what, and what has actually been authorized."
+              },
+              "readings": [
+                {
+                  "title": "[4] FTC — Protecting Personal Information: Take Stock, Scale Down and Lock It",
+                  "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+                  "note": "Read the information-inventory, access and minimization principles. They support limiting meeting and document access; they are not a complete transaction-consent checklist."
+                },
+                {
+                  "title": "[2] NY DFS — Part 600: provider and broker roles",
+                  "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
+                  "note": "Review role definitions and duties for covered transactions with qualified compliance personnel. Do not infer universal commission rules from this example."
+                }
+              ],
+              "visual": {
+                "title": "Separate facts, advice, authority and incentives",
+                "description": "Four labeled checks keep a collaborative review from becoming an unintended commitment.",
+                "steps": [
+                  "Cash manager: verify cash facts and payment dates",
+                  "Advisers: identify financial and legal questions within their roles",
+                  "Broker: show complete comparison and $1,200 versus $600 compensation assumptions",
+                  "Owner and provider: use their actual authority; record separately scoped next steps"
+                ]
+              }
+            },
+            {
+              "id": "59",
+              "title": "Funding discrepancy response: preserve evidence and close the loop",
+              "explanation": "Your objective is to manage a post-funding discrepancy as a traceable case rather than a reassuring phone call. Earlier lessons asked whether the deposit matched the offer. Now build a response that separates observed facts, possible explanations, authorized escalation and verified resolution. The FTC's RCG materials describe alleged undisclosed deductions and collection after repayment, illustrating why funding-day and servicing representations matter.[3] Those allegations do not prove that every short deposit is misconduct. A discrepancy may arise from an error, an authorized changed term, a separate payoff or an undisclosed charge. The professional response is neither instant accusation nor automatic dismissal: preserve accurate records, compare like quantities and obtain a documented explanation.",
+              "example": "A fictional final written statement lists $40,000 gross funding, $2,000 deductions and $38,000 net to the merchant, with no old-debt payoff. The bank confirms $36,500 settled. The apparent shortfall is $1,500. A servicing ledger then shows $3,500 deductions, also $1,500 above the statement. That matching difference is a useful reconciliation clue, not proof of authorization. Ask for the itemized recipients, basis and version history. Do not fix the comparison by silently replacing the original statement with the later ledger. If the provider subsequently refunds the difference, verify the settled receipt and whether any ongoing payment, guarantee or other term changed; correcting one cash movement need not resolve every complaint.",
+              "question": "The provider says 'resolved' but supplies no receipt, credit date or corrected record. What should the case status be?",
+              "answer": "Awaiting verification, with the precise promised remedy and responsible contact documented.",
+              "distractor": "Closed successfully because a provider representative used the word resolved.",
+              "correction": "A status label is not evidence of a cash effect or corrected obligation. Verify the actual target of the promised remedy.",
+              "depth": {
+                "definitions": "An observed fact is something supported by a record, such as a settled deposit amount. An allegation is a claim that requires assessment. A reconciliation difference compares amounts under the same boundary and date. A correction changes an error; a remedy addresses its consequences and may involve further steps. A case owner is the person accountable for follow-through, not necessarily the person empowered to decide the dispute. Closure evidence is the record demonstrating the agreed action occurred. Separate a refund, fee reversal, payoff confirmation and lien release because each addresses a different target.",
+                "mechanism": "Preserve the offer version, executed documents, settlement record, bank evidence and communications through authorized secure systems. Make a short chronology and label each amount as gross funding, merchant deposit, fee or direct payoff. Ask the provider to explain the discrepancy in writing and identify the servicing or complaint channel. Set a review checkpoint consistent with the actual process; do not invent a statutory response deadline. Keep the merchant informed without guaranteeing a refund or legal outcome. If the issue raises legal questions or remains unresolved, support appropriate professional or regulatory review rather than personally determining liability. FTC security guidance supports limiting access and handling retained sensitive records carefully.[4]",
+                "secondExample": "Contrast a replacement loan whose gross proceeds include direct payoff to an old creditor. A smaller merchant deposit may be correct if that distribution was fully disclosed and authorized. The key verification then includes the old creditor's receipt, payoff completion and servicing stop instructions, not merely a comparison with the headline gross amount. Conversely, even a correct merchant deposit does not prove the old account closed. This example shows why complaint triage needs a funds-flow map: two superficially similar short deposits can represent different events and require different evidence before reaching a conclusion.",
+                "mistake": "A harmful response is, 'That is normal; everyone pays those fees.' It substitutes an unsupported market claim for the specific written terms. Another is offering a renewal to replace missing cash before the discrepancy is understood, potentially adding costs to an unresolved problem. Diagnose the response by asking whether it identifies the disputed amount, the source documents, an accountable contact and a closure test. Do not ask the merchant to send passwords or verification codes, alter records, abandon a complaint or stop lawful payments based solely on this educational exercise.",
+                "application": "Optional task: draft an incident note and a customer update. Model note: 'Written net $38,000; settled deposit $36,500; $1,500 unresolved difference. Later deductions exceed written deductions by the same amount. Authorization and remedy not yet verified.' Model update: 'I have recorded the mismatch and requested an itemized explanation through the approved channel. I cannot promise an outcome. We will confirm any correction against the actual receipt or account record before closing the issue.' Self-review: separate facts from conclusions; retain both versions; restrict access; specify who follows up; verify the effect rather than accepting a generic success message.",
+                "summary": "Accountability continues after a signature and after a provider marks a case complete. The same discipline used to compare offers should govern discrepancies: precise amounts, dates, boundaries and evidence. Transfer this method to a missed reserve release, unexpected debit or uncompleted payoff without assuming all disputes have the same cause or remedy."
+              },
+              "readings": [
+                {
+                  "title": "[3] FTC — RCG Advances: funding shortfalls and overcollection",
+                  "url": "https://www.ftc.gov/news-events/news/press-releases/2022/06/ftc-action-results-ban-richmond-capital-owner-merchant-cash-advance-debt-collection-industries",
+                  "note": "Read the alleged funding shortfalls and overcharging sections. Treat the enforcement facts as case-specific, not as a diagnosis of the fictional discrepancy."
+                },
+                {
+                  "title": "[4] FTC — Protecting Personal Information: secure retention and access",
+                  "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+                  "note": "Read Lock It and Pitch It. Preserve necessary evidence under the applicable retention process while restricting unnecessary access."
+                }
+              ],
+              "visual": {
+                "title": "A discrepancy is not closed until its effect is checked",
+                "description": "The case moves from measured mismatch through explanation to a specific verified correction.",
+                "steps": [
+                  "Written net $38,000 versus settled $36,500 = $1,500 difference",
+                  "Later deductions $3,500 versus written $2,000 identify a matching clue",
+                  "Preserve versions; request basis, authorization and proposed remedy",
+                  "Verify actual receipt or corrected account record before closure"
+                ]
+              }
+            },
+            {
+              "id": "60",
+              "title": "Decision defense: recommend conditionally and name what would reverse you",
+              "explanation": "Your objective is to defend a recommendation under questioning without converting uncertain evidence into certainty. This capstone extends the original course's recommendation memo into an auditable decision defense. The reviewer should be able to distinguish facts, assumptions, calculations, alternatives and unresolved legal questions. SBA's published eligibility discussion includes reasonable repayment ability; a willingness to approve and a merchant's ability to manage the whole cash path remain different questions.[6] OCC discussion of collateral quality and liquidity also cautions against relying on a single attractive headline.[1] The task is not to perform licensed advice or certify professional competence. It is to demonstrate disciplined reasoning and honest sales communication using only fictional information.",
+              "example": "Maple Services expects a project collection of $28,000, with $18,000 incremental materials and $4,000 incremental labor. Assume $3,500 of incremental financing cost: modeled project contribution after that cost is $2,500. Separately, a whole-business week opens with $9,000 and has $28,000 total expected operating receipts, $23,000 operating outflows and $5,000 total financing outflows, ending at $9,000. These are different analysis views: do not add project amounts to the weekly figures again. If $10,000 of that week's receipts moves beyond the week, receipts become $18,000 and closing cash becomes negative $1,000, assuming unchanged outflows and no new buffer. Even the base ending balance says nothing about the minimum intraday balance until the event order is mapped.",
+              "question": "Which recommendation is defensible before the collection timing and permitted buffer are verified?",
+              "answer": "Pause commitment, document the conditional economics and downside, and identify the evidence that could justify reconsideration.",
+              "distractor": "Recommend the fastest offer because the project contribution and base ending cash are positive.",
+              "correction": "A positive project contribution and a positive base endpoint do not resolve the delayed-receipt deficit, intraperiod timing or contractual restrictions.",
+              "depth": {
+                "definitions": "A decision defense explains why a recommendation follows from evidence rather than authority or confidence. A reversal condition is a specific new fact that would change the recommendation. A sensitivity changes one assumption; a scenario combines a coherent set of changes. A binding constraint is the limitation that prevents proceeding even if other features look favorable. A residual risk remains after proposed safeguards. A no-deal recommendation means the presently supported choice is not to enter the proposed transaction; it is not a declaration that the business has no possible future or that every provider must decline it.",
+                "mechanism": "Present the case in layers. State the business purpose and decision deadline, then identify verified documents and provisional assumptions. Show incremental economics without double-counting flows already inside the business forecast. Trace the actual cash sequence and compare at least one downside. Explain relevant product alternatives, net proceeds, payment tail, exposure and compensation. Test correlated risks: a customer delay may reduce both receipts and borrowing-base support, so an apparently separate line may not cure the gap. If a layered proposal is considered, trace deposits and all old and new debits through the tail rather than relying on first-phase relief. Assign legal classification, restrictions and disclosure questions to qualified reviewers. Finish with conditions for proceeding, pausing and reconsidering.",
+                "secondExample": "Suppose Maple obtains a documented customer deposit clearing before the earliest project bill and a verified supplier extension, while the lender confirms permitted availability and counsel resolves a relevant restriction. These facts could support reconsidering the pause, but they do not guarantee suitability: revise both the later customer balance and every affected payment date. Conversely, a provider's enthusiastic approval without new cash evidence should not reverse the recommendation. The contrasting cases test whether you respond to information that actually changes the constraint or merely to social reassurance from a party interested in closing the transaction.",
+                "mistake": "The most sophisticated-looking failure is a memo full of ratios and product names that never states the decisive cash gap. Another is listing uncertainty but treating it as harmless paperwork. Diagnose your memo by asking a reviewer to identify the largest unanswered question and the exact fact that would change your conclusion. If they cannot, your structure may be obscuring judgment rather than supporting it. Do not promise that counsel will approve a restriction, that refinancing will be available or that a pending reconciliation will arrive before payroll.",
+                "application": "Optional capstone: write a case memo, a merchant-facing explanation and a skeptical review. Model conclusion: 'The project models $2,500 contribution after assumed financing cost, but the delayed-receipt week ends $1,000 short before intraperiod testing. I recommend pausing commitment pending verified collection timing, permitted buffer, full offer disclosures and contract review. A confirmed earlier deposit or changed supplier schedule could justify a revised analysis; provider approval alone would not.' Self-review rubric: distinguish project and business boundaries; verify all arithmetic; trace cash ordering; compare a genuine alternative and no deal; identify compensation and consent scope; assign unresolved questions; state reversal evidence; avoid guaranteeing approval or competence. Ask a peer to challenge the assumptions, not merely praise the presentation.",
+                "summary": "A defensible recommendation is conditional where the evidence is conditional and firm where the facts require a boundary. The transferable skill is not always finding a product: it is knowing which claim the evidence supports, which it does not, and what to investigate next. Recognition questions support review, but only substantial case work and qualified feedback can evaluate applied performance."
+              },
+              "readings": [
+                {
+                  "title": "[6] SBA — 7(a) loans: repayment ability and lender process",
+                  "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
+                  "note": "Read eligibility and application sections. A lender makes its own program decision; this case exercise does not predict it."
+                },
+                {
+                  "title": "[1] OCC — Asset-Based Lending: liquidity and collateral analysis",
+                  "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
+                  "note": "Revisit Borrower Analysis and Establishing the Borrowing Base to challenge whether the proposed backup weakens alongside receipts."
+                }
+              ],
+              "visual": {
+                "title": "Evidence changes a decision; reassurance does not",
+                "description": "The final case separates modeled economic value from a stress gap and specifies a testable next step.",
+                "steps": [
+                  "Project: $28,000 − $18,000 − $4,000 − $3,500 = $2,500 contribution",
+                  "Business week: $9,000 opening + $28,000 receipts − $23,000 operating − $5,000 financing = $9,000 closing",
+                  "Delayed receipts: closing falls to negative $1,000; intraperiod order remains to be checked",
+                  "Pause until relevant evidence changes the constraint; then recalculate rather than promise"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-56-a",
+              "prompt": "A staged provider advertises relief but deposits arrive Friday after Monday's old debits. What must the reviewer change?",
+              "answer": "Model the actual intraperiod order and any verified permitted buffer, not just the weekly net.",
+              "distractor": "Keep the favorable weekly total because deposits eventually offset debits.",
+              "correction": "Later deposits cannot fund earlier debits without a real bridge. Identical weekly nets can conceal different liquidity risks.",
+              "reviewLessonIds": [
+                "53",
+                "56"
+              ]
+            },
+            {
+              "id": "uq-56-b",
+              "prompt": "A customer agrees to an early deposit. What must change elsewhere in the project forecast?",
+              "answer": "Reduce the later customer balance due and evaluate delivery or refund obligations.",
+              "distractor": "Keep the full final collection and add the deposit as extra project revenue.",
+              "correction": "A deposit accelerates part of the same payment unless the contract says otherwise; counting it twice creates fictitious value.",
+              "reviewLessonIds": [
+                "51",
+                "57"
+              ]
+            },
+            {
+              "id": "uq-56-c",
+              "prompt": "A broker earns more on one offer but the merchant would receive the same net cash under both. What is the appropriate next step?",
+              "answer": "Disclose the compensation assumptions and compare full costs, timing and risks without treating the disclosure as a cure for bias.",
+              "distractor": "Pick the higher commission because equal net cash means the offers are otherwise equivalent.",
+              "correction": "Net proceeds alone omit payment structure and exposure. Incentives must be visible while the substantive comparison remains fair.",
+              "reviewLessonIds": [
+                "54",
+                "58"
+              ]
+            },
+            {
+              "id": "uq-56-d",
+              "prompt": "A direct creditor payoff explains a smaller merchant deposit. Is the replacement transaction fully verified?",
+              "answer": "Not yet; verify the creditor's receipt, payoff completion and stopping process as well.",
+              "distractor": "Yes; the fact that the arithmetic balances proves the old account is closed.",
+              "correction": "Reconciled distribution is necessary but not sufficient evidence of the external account state.",
+              "reviewLessonIds": [
+                "56",
+                "59"
+              ]
+            },
+            {
+              "id": "uq-56-e",
+              "prompt": "A skeptical reviewer asks what would reverse a pause recommendation. Which response is strongest?",
+              "answer": "Name verified changes to collection timing, permitted liquidity or obligations that resolve the binding constraint, then rerun the analysis.",
+              "distractor": "Say a more confident provider or a better closing script would justify proceeding.",
+              "correction": "Reversal conditions concern relevant evidence, not sales enthusiasm. New facts must actually change the decision model.",
+              "reviewLessonIds": [
+                "60"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-51-a",
+          "prompt": "A retailer has profitable holiday orders, a receivables-backed line and a large customer who often pays after payroll. The broker calls the line a guaranteed backup and recommends accepting every order. Which response best integrates project economics and liquidity?",
+          "answer": "Test each order’s contribution, the dated business cash trough and whether delayed invoices also reduce line availability; pause any unsupported commitment.",
+          "distractor": "Accept the orders because positive margin and an unused headline limit provide two independent repayment sources.",
+          "correction": "The two apparent supports may fail together: delayed collections create a cash gap and can make collateral ineligible. Profit, collateral support and currently drawable cash are not interchangeable. Confirm actual eligibility, restrictions and settlement dates rather than treating the limit as cash.",
+          "reviewLessonIds": [
+            "51",
+            "52",
+            "60"
+          ]
+        },
+        {
+          "id": "lq-51-b",
+          "prompt": "A forecast misses because a customer paid late and a supplier demanded an earlier installment. The owner asks for a renewal and says the final month will still be positive. What should the recommendation process do before choosing a product?",
+          "answer": "Reconcile the receipt and payment variances, roll forward actual cash, map the new minimum balance and test the renewal against that revised schedule.",
+          "distractor": "Leave the old forecast in place and add renewal proceeds to sales so the projected month stays comparable.",
+          "correction": "The cash model must reflect actual opening cash and revised event order. Financing inflows do not establish operating recovery. A renewal may change obligations and require its own complete net-proceeds and payment comparison, rather than cosmetically repairing the forecast.",
+          "reviewLessonIds": [
+            "53",
+            "54",
+            "60"
+          ]
+        },
+        {
+          "id": "lq-51-c",
+          "prompt": "Two providers quote the same factor on the same gross amount, but one deducts more upfront and collects sooner. The owner asks which annual rate is lower and the broker wants to answer immediately. What is the defensible response?",
+          "answer": "Explain that factors do not establish APR, obtain complete dated flows and applicable provider disclosures, and compare net proceeds and cash fit without inventing an annualized value.",
+          "distractor": "Declare the APRs equal because the identical factors already incorporate all deductions and timing.",
+          "correction": "A factor multiplier does not encode the full value received or payment timing. Fees and faster collections can change annualized economics. The salesperson must not replace required disclosures with mental conversion, nor confuse a price comparison with a suitability conclusion.",
+          "reviewLessonIds": [
+            "54",
+            "57",
+            "60"
+          ]
+        },
+        {
+          "id": "lq-51-d",
+          "prompt": "A merchant expects a reconciliation credit next month but faces payroll this week. A proposed layered arrangement would deposit cash now while old debits remain. Which analysis is necessary before describing relief?",
+          "answer": "Keep the unimplemented credit separate from available cash, trace every old and new debit and deposit, and test both processing delay and disbursement interruption.",
+          "distractor": "Add the expected credit to today’s balance and remove old debits because the layered provider markets consolidation.",
+          "correction": "A pending adjustment is not settled money, and a marketing label is not payoff evidence. The layered proposal may improve one period while adding a tail and conditional funding risk. Map both mechanisms through actual dates without double-counting any refund or credit.",
+          "reviewLessonIds": [
+            "55",
+            "56",
+            "59"
+          ]
+        },
+        {
+          "id": "lq-51-e",
+          "prompt": "A broker shows only the first deposit-supported weeks of a layered proposal. The owner values breathing room but the accountant asks about the period after deposits end and about higher broker compensation. What should the broker provide?",
+          "answer": "The complete old and new schedules, the later payment tail, interruption conditions and compensation assumptions, while preserving the owner’s ability to decline.",
+          "distractor": "A reminder that the accountant’s concerns are irrelevant because a lower first-phase net payment already proves savings.",
+          "correction": "Liquidity relief and lifecycle cost are distinct. The owner can rationally value timing, but only after the full tail and risks are visible. Compensation disclosure supports transparency without resolving whether the recommendation is appropriate; compare the no-deal path too.",
+          "reviewLessonIds": [
+            "56",
+            "58",
+            "60"
+          ]
+        },
+        {
+          "id": "lq-51-f",
+          "prompt": "An owner negotiates a customer deposit and asks the broker to use a smaller financing request. The salesperson keeps the original final customer receipt unchanged, assumes the old pricing still applies and announces that the deal is safe. Which correction is strongest?",
+          "answer": "Reduce the later customer balance, verify deposit settlement and obligations, request revised written funding terms and rerun the whole cash forecast.",
+          "distractor": "Keep the final receipt unchanged because customer deposits are extra profit, and retain the old pricing because the requested amount is smaller.",
+          "correction": "A deposit normally changes timing within the same customer payment, not total value. A changed request does not guarantee provider pricing or approval. The revised structure also creates delivery and possible refund obligations that belong in the analysis.",
+          "reviewLessonIds": [
+            "51",
+            "53",
+            "57"
+          ]
+        },
+        {
+          "id": "lq-51-g",
+          "prompt": "At a review meeting the accountant is silent, the owner authorizes sharing a summary with that accountant, and another funder asks for the full file. What should the meeting record and next action say?",
+          "answer": "Record no inferred endorsement, honor summary-only adviser access and obtain the appropriate separate authorization before any new provider submission.",
+          "distractor": "Record accountant approval and forward the full file because all participants are discussing the same funding purpose.",
+          "correction": "Silence is not approval and related purposes do not make consent unlimited. Decision authority, document access and application actions are separate. Respect the specified boundary; explain any additional records a provider would require before the owner decides whether to proceed.",
+          "reviewLessonIds": [
+            "58",
+            "60"
+          ]
+        },
+        {
+          "id": "lq-51-h",
+          "prompt": "The merchant receives less than the written net amount. The provider explains that the difference went to an old creditor, but the old creditor continues debiting. How should the broker distinguish the unresolved issues?",
+          "answer": "Reconcile whether the distribution was disclosed and authorized, then separately verify creditor receipt, payoff completion and the stop-debit process.",
+          "distractor": "Close the case once the new provider names a payoff recipient, because a balanced distribution proves every old obligation ended.",
+          "correction": "A funds-flow explanation does not establish authorization or the external creditor’s account state. A direct payoff can explain a deposit difference while leaving servicing overlap unresolved. Preserve documents, use authorized channels and confirm the actual remedy without assuming misconduct or promising a legal result.",
+          "reviewLessonIds": [
+            "56",
+            "59"
+          ]
+        },
+        {
+          "id": "lq-51-i",
+          "prompt": "A borrowing-base report improves after a disputed invoice is accepted. The owner concludes that payroll cash is immediately available, but collections enter a controlled account. Which distinction matters?",
+          "answer": "Separate eligible collateral, calculated availability, lender conditions and the actual timing of cash access; verify the collection and redraw mechanics.",
+          "distractor": "Treat the invoice acceptance as an unrestricted cash deposit because the collateral is now stronger.",
+          "correction": "Improved collateral support can increase a formula without placing money in the payroll account. Collection control and redraw conditions may still govern timing. Check for double-counting a collected invoice as both collateral and free cash, and rebuild the dated forecast.",
+          "reviewLessonIds": [
+            "52",
+            "53",
+            "58"
+          ]
+        },
+        {
+          "id": "lq-51-j",
+          "prompt": "The owner rejects personal exposure but likes a low-payment offer. The broker earns more on that offer and suggests calling its guarantee merely a performance promise. What is the ethically and analytically sound response?",
+          "answer": "Respect the exposure boundary, disclose the incentive, obtain qualified review of the actual wording and compare genuine alternatives or no financing.",
+          "distractor": "Rename the guarantee, emphasize the low payment and treat the higher commission as evidence of provider confidence.",
+          "correction": "Changing terminology does not change contractual exposure. A lower payment cannot resolve a nonprice boundary, and compensation is not evidence of fit. Independent review should address the actual terms; if no available offer meets the boundary, a no-deal result is legitimate.",
+          "reviewLessonIds": [
+            "54",
+            "57",
+            "58"
+          ]
+        },
+        {
+          "id": "lq-51-k",
+          "prompt": "A reconciliation request is accepted as a future debit credit. The broker adds an immediate refund to the forecast as well, and a proposed renewal is sized from the resulting inflated balance. What sequence corrects the decision?",
+          "answer": "Remove the duplicate relief, enter only the confirmed credit on its proper dates, roll forward corrected cash and reassess the renewal from that baseline.",
+          "distractor": "Keep both entries because a provider’s acceptance confirms the merchant benefits twice from the same adjustment.",
+          "correction": "A refund and a credit are different mechanisms, not automatically cumulative benefits. Double-counting produces fictitious liquidity and distorts the next funding decision. Verify implementation, compare the corrected minimum balance and do not use a renewal to bury an unresolved discrepancy.",
+          "reviewLessonIds": [
+            "53",
+            "55",
+            "59",
+            "60"
+          ]
+        },
+        {
+          "id": "lq-51-l",
+          "prompt": "A completed case memo shows positive contribution, negative downside cash, unverified collection timing and a possible line restriction. The provider offers approval, while the owner asks what evidence would justify proceeding later. Which final defense is strongest?",
+          "answer": "Maintain the pause, specify the timing, permitted-buffer and contract evidence needed, and commit to recalculating if those facts change rather than treating approval as decisive.",
+          "distractor": "Proceed because provider approval overrides the downside and the owner has already spent time on the application.",
+          "correction": "Sunk effort and approval do not supply missing cash or permission. A defensible recommendation names its binding constraints and reversal conditions. Updated evidence might support reconsideration, but all flows, restrictions, disclosures and consent still require review; passing this recognition test is not professional certification.",
+          "reviewLessonIds": [
+            "51",
+            "52",
+            "53",
+            "60"
+          ]
+        }
+      ]
+    }
+  ]
+}

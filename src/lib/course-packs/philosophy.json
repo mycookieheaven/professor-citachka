@@ -1,0 +1,603 @@
+{
+  "subject": "philosophy",
+  "levels": [
+    {
+      "title": "Political philosophy: authority, justice, and justified dissent",
+      "units": [
+        {
+          "title": "Justifying power among free and equal citizens",
+          "lessons": [
+            {
+              "id": "61",
+              "title": "Authority is not the same as getting things right",
+              "explanation": "A competent government can produce a beneficial decision without yet establishing its right to impose that decision. This lesson moves from the preceding level's evaluation of actions to the justification of institutions that claim authority over people who disagree. Political legitimacy asks whether political power is justified; political obligation asks whether citizens have moral duties to obey. Some theories connect these tightly, while others separate them. Keep the meaning fixed within an argument. The question is not merely whether an official can force compliance, or whether following an instruction would be prudent. It is whether there is an adequate moral basis for that official's rule.",
+              "example": "Imagine a skilled engineer who correctly identifies a dangerous bridge. She orders the nearby town to close it and appoints herself permanent mayor. Premise one: avoiding foreseeable injury supplies a strong reason to stop crossing. Premise two: her inspection is reliable evidence of danger. These support temporary avoidance of the bridge. They do not support permanent political authority over unrelated matters. A world in which her warning is correct but her self-appointment is unjustified is a counterexample to the inference from expertise to a general right to rule. Rejecting her mayoral claim therefore need not mean ignoring her warning. Distinguish the reason to act from the proposed source of political obligation.",
+              "question": "What does the engineer’s accurate warning establish without further premises?",
+              "answer": "A reason to avoid the dangerous bridge, not her permanent right to govern",
+              "distractor": "A permanent right to govern because correct advice creates political authority",
+              "correction": "The counterexample holds expertise fixed while denying unlimited authority. A further account of authorization or legitimacy is required.",
+              "depth": {
+                "definitions": "De facto power is the actual capacity to secure compliance. Normative authority is a claimed moral entitlement to direct conduct. Legitimacy may mean justified coercion, a right to rule, or an authority that generates duties; the assigned reading compares these uses. Consent is an authorization by an agent, not merely behavior consistent with acceptance. Express consent is explicit; tacit consent is conveyed through conduct under conditions that make its significance sufficiently clear. Hypothetical consent concerns what people would agree to, not an agreement they actually made.",
+                "mechanism": "Consider a consent argument in explicit form. First, valid authorization can sometimes give another person a limited right to make decisions for the authorizer. Second, citizens have validly authorized this institution to make decisions in this domain. Therefore, the institution has that limited authority. The inference exposes the work hidden in the second premise: who authorized what, with which alternatives, and under which informational conditions? Voting for a representative is not straightforwardly consenting to every future directive; refusing to vote is even less obviously consent. Remaining in a country can reflect family responsibilities, lack of admission elsewhere, or inability to move. Such residence does not automatically carry the voluntary meaning of accepting a readily avoidable club membership. A defender can reply that political authority need not rest solely on actual consent: fair procedures, rights protection, or public justification may supply other grounds. That is a change or supplementation of the justificatory argument, not proof that residence was voluntary authorization all along. Consent also has scope limits: consenting to a service is not consenting to unlimited control.",
+                "secondExample": "Contrast the engineer with a residents' association whose members knowingly sign a revocable agreement authorizing scheduling of a shared workshop. When the association sets a cleaning day within its agreed remit, a member has a consent-based reason to cooperate even if another day would be more convenient. If it then orders the member to change religion, the agreement supplies no such authority. This contrast shows both the strength and limits of consent: genuine authorization can matter, but an authorized institution can exceed its mandate. Real states differ from voluntary associations, so the example isolates a principle rather than proving a theory of state legitimacy.",
+                "mistake": "A common mistake is to infer that an unjust policy makes every directive of a government nonbinding, or that a beneficial policy validates everything else it does. Both skip distinctions of scope and degree. Ask separately whether the institution is minimally legitimate, whether this policy is just, and whether this person has a duty to comply here. A duty not to injure others can remain even when an institution lacks authority. Conversely, institutional legitimacy does not make each policy morally flawless.",
+                "application": "Nonblocking practice: a university security office gives a correct evacuation warning and then demands permanent control over student publications. Write an argument granting what the warning establishes while challenging the added power. Model response: the credible hazard supports evacuation; existing emergency authority might independently support the order; neither premise establishes editorial authority after the emergency. Self-review: name the scope of each conclusion, distinguish evidence from authorization, and identify what additional premise the editorial demand needs. For a serious objection, consider whether temporary limits on publishing hazardous location information could protect safety. Explain why that narrower claim still does not establish permanent editorial control.",
+                "summary": "Authority debates require more than approving or disapproving of a result. Separate competence, actual power, justified coercion, and duties to obey; then specify the domain and duration of the proposed authority. Your earlier countermodel method now tests political inferences: hold beneficial outcomes constant while varying authorization. Next, examine whether receiving cooperative benefits can generate obligations even without consent. That is a different argument and deserves its own premises."
+              },
+              "readings": [
+                {
+                  "title": "Political Legitimacy — sections 1–3",
+                  "url": "https://plato.stanford.edu/entries/legitimacy/",
+                  "note": "Read the conceptual contrasts, the function of legitimacy, and consent under sources of legitimacy. This open scholarly overview compares disputed theories; it is not a single settled definition."
+                }
+              ],
+              "visual": {
+                "title": "Authority is not the same as getting things right: reasoning map",
+                "description": "Separate the engineer’s evidence-based warning from a claim to rule: reliable information supports an action, while authority requires an additional justification with a defined scope.",
+                "steps": [
+                  "Reliable warning → reason to avoid danger",
+                  "Authorization or another legitimacy argument → possible authority",
+                  "Correct result alone does not bridge the gap to unlimited rule"
+                ]
+              }
+            },
+            {
+              "id": "62",
+              "title": "Fair play, public goods, and the unsolicited-benefit objection",
+              "explanation": "Political cooperation often supplies benefits that people cannot obtain alone. Does receiving those benefits create a duty to contribute? A fair-play argument answers that it can be unfair to take the benefits of others' restraint while refusing a fair share of its burdens. This differs from consent: the proposed duty arises from reciprocity within cooperation, not necessarily from a promise. It also differs from gratitude, which need not give a benefactor power to dictate repayment. The task is to reconstruct the strongest reciprocity argument without allowing any provider to manufacture obligations merely by delivering something unasked for.",
+              "example": "Residents maintain a flood barrier through a transparent, fairly distributed work schedule. A resident knowingly relies on its protection, could take an appropriate shift, but refuses solely because the others will probably maintain it anyway. The fair-play argument identifies a benefit sustained by others' burdens, a reasonable contribution, and deliberate exemption from that burden. Now alter the case: a company installs decorative lights without consultation and sends every resident an enormous bill. Receiving some illumination does not establish liability to any demanded payment. This is a worked counterexample to the universal rule that benefiting always obligates. It does not yet refute the narrower argument about fair, necessary cooperation.",
+              "question": "Why does the unwanted lighting bill challenge a simple benefit-based obligation argument?",
+              "answer": "Unilaterally supplying a benefit need not authorize the provider to impose its chosen burden",
+              "distractor": "No cooperative benefit can ever generate a moral reason to contribute",
+              "correction": "The example refutes an unrestricted sufficiency claim. A qualified fair-play argument must still be evaluated on its own conditions.",
+              "depth": {
+                "definitions": "A public good, in the standard economic sense used here, is nonexcludable and nonrival: excluding noncontributors is difficult, and one person's enjoyment need not reduce another's. Real goods approximate these properties to different degrees. A free rider benefits from cooperation while avoiding a contribution. Fair play is the moral principle invoked to criticize certain free riding; it is not simply the empirical observation that it occurs. Receiving a benefit and accepting a benefit are distinct: acceptance involves a relevant form of willing uptake.",
+                "mechanism": "Set out a qualified argument. First, when a cooperative scheme is just, supplies sufficiently important benefits, distributes burdens fairly, and gives participants appropriate standing, beneficiaries may owe a fair contribution. Second, this institution meets those conditions for this benefit and contribution. Therefore, the beneficiary owes that contribution. Each condition limits the conclusion. The unsolicited-benefit objection challenges accounts that omit acceptance or allow providers to choose benefits and costs unilaterally. Fair-play defenders reply that requiring voluntary acceptance for every essential nonexcludable good can make necessary cooperation impossible: protection from pollution cannot be delivered only to consenting lungs. That reply supports taking the importance and unavoidability of some goods seriously, but does not establish any particular financing scheme. A further gap separates a duty to contribute from a general duty to obey every law. A person might owe a reasonable share toward flood prevention while having no fair-play reason to obey a censorship law. The assigned survey presents competing formulations; do not treat the example as a proof that all taxation is justified or all nonpayment excused.",
+                "secondExample": "A neighborhood cooperative offers a paid garden service that residents can easily decline without losing access to basic necessities. Someone explicitly declines, yet workers mow her garden and demand payment. Here easy exclusion and an actual refusal strengthen the objection to imposed obligation. Compare shared prevention of a dangerous contagious crop pest: a household cannot easily decline the resulting protection. That makes the moral structure different, but fair distribution still matters. If the program burdens the poorest households while exempting its organizers, essential benefits do not by themselves cure the unfair terms. Importance, consent, and fairness each do different argumentative work.",
+                "mistake": "Do not label everyone who fails to contribute a free rider in the blameworthy sense. Someone may lack capacity, reasonably dispute the allocation, or be excluded from the scheme's supposed benefits. Diagnose the mechanism: inability is not strategic exemption, and a protest against discriminatory terms is not automatically an attempt to exploit cooperation. Conversely, saying that one's personal contribution would not change the outcome does not answer a fair-play argument, whose concern includes the fairness of benefiting from others' compliance.",
+                "application": "Nonblocking practice: a shared emergency radio network is funded by equal household fees, although some households cannot afford them. Draft a conditional argument for contribution and an objection to the fee structure. Model response: reliable common protection can ground reciprocity, but an equal fee may not be a fair burden when capacities differ; revise the financing before inferring a duty to pay that amount. Self-review should locate the benefit, explain why individual exclusion matters, identify a fair burden rather than assume it, and separate support for the network from blanket political obedience. Add the strongest reply: contribution exemptions require a sustainable alternative, not merely a morally attractive announcement.",
+                "summary": "Fair play is strongest as a bounded argument about justified cooperative terms, not a magical conversion of any benefit into debt. Test receipt against acceptance, essential goods against optional services, and fair contribution against obedience to unrelated commands. This prepares the next lesson: people may dispute which cooperative terms are fair, so institutions must explain how their reasons address citizens who hold different comprehensive views."
+              },
+              "readings": [
+                {
+                  "title": "Political Obligation — section 4.2, Fair Play",
+                  "url": "https://plato.stanford.edu/entries/political-obligation/",
+                  "note": "Read Fair Play in Contemporary Theories, comparing receipt and acceptance of benefits and objections to general political obligation. Use Conceptual Matters to distinguish legal from moral obligations."
+                }
+              ],
+              "visual": {
+                "title": "Fair play, public goods, and the unsolicited-benefit objection: reasoning map",
+                "description": "Follow the flood-barrier argument from cooperative protection through fair burdens, then test where the unwanted-lighting counterexample blocks an unrestricted duty to pay.",
+                "steps": [
+                  "Identify cooperative benefit and necessary burdens",
+                  "Test acceptance, importance, fairness, and capacity",
+                  "Infer at most the justified contribution, not obedience to everything"
+                ]
+              }
+            },
+            {
+              "id": "63",
+              "title": "Public reason without pretending everyone agrees",
+              "explanation": "People can disagree conscientiously about religion, ultimate value, and a good life while sharing political institutions. Public-reason theories ask what kinds of justification are appropriate when those institutions exercise power over everyone. The aim is not to prove that disputed worldviews are false. It is to explain coercive terms to citizens regarded as free and equal rather than merely declaring that the majority's worldview wins. Theories differ about which decisions require public justification, whose perspectives count, and whether citizens must share the same reasons. Learning these differences prevents public reason from becoming a vague synonym for polite discussion.",
+              "example": "A council proposes equal access to public meeting rooms. One member supports it because equal citizenship requires it; another because hospitality is a religious duty; a third because open association supports inquiry. They may converge on the same rule without agreeing on its deepest ground. A consensus-style public justification seeks sufficient reasons they can share, such as equal civic standing. A convergence approach can allow different sufficient reasons for each person. Now imagine that the rule instead privileges one faith because its revelation is asserted to be uniquely authoritative. People outside that faith have not yet received a justification addressed to them merely because the assertion was spoken at a public meeting.",
+              "question": "What distinguishes convergence from a shared-reason requirement?",
+              "answer": "Different citizens may have different sufficient reasons for the same rule",
+              "distractor": "A rule needs no adequate justification to those subject to it",
+              "correction": "Convergence changes the structure of justification, not the demand that justification reach each relevant citizen.",
+              "depth": {
+                "definitions": "A comprehensive doctrine concerns broad moral, religious, or philosophical commitments, rather than only shared political arrangements. Public reason is a normative constraint on justification, not simply speech made in public. Reasonable pluralism names the persistence of different reasonable views under free institutions; it does not mean every conceivable demand deserves equal authority. Consensus accounts require an appropriate common justificatory basis. Convergence accounts permit different adequate reasons to support a common rule. Neither means that every actual person must enthusiastically endorse the outcome.",
+                "mechanism": "A central argument begins with equal standing: citizens are not natural subordinates of one another. Coercive rules therefore require justification that addresses each as a participant, not only as an obstacle. Since reasonable disagreement persists, appeal to the truth of one comprehensive doctrine may not supply the needed reciprocal justification. Hence proponents impose constraints on political reasons or on their acceptability. Critics challenge the move from equality to those constraints: if a moral claim is true, why exclude it simply because someone disputes it? Others argue that restrictions burden religious citizens more heavily, or conceal controversial liberal assumptions under the word reasonable. A defender can answer that public political values are not value-free and that the requirement need not govern all private association or all public discussion. But that reply must specify scope rather than silently restricting any unpopular speech. Another objection concerns convergence: agreeing on a rule for incompatible reasons can leave citizens without a shared basis for interpreting it later. The reply is that plural reasons can still justify a rule to each affected person, though institutional interpretation remains a further problem. These are substantive disputes, not defects cured by courtesy alone.",
+                "secondExample": "Consider protecting a town's drinking water. A religious group invokes stewardship, a secular group invokes health, and local residents invoke equal security. This may satisfy a convergence test, but the factual premise that a restriction protects water still needs evidence. A different case exposes the limit: every group favors a different restrictive rule and none has sufficient reason for the others' proposal. Merely collecting sincere views does not manufacture a publicly justified policy. Investigators may find less restrictive alternatives, decision procedures may resolve action temporarily, or a public-reason account may judge some coercion unjustified. Agreement on a desired goal is not agreement on every means.",
+                "mistake": "The diagnostic mistake is to treat public reason as either complete unanimity or complete neutrality about value. A rule can remain controversial after an adequate justification, and equal standing is already a moral commitment. Conversely, labeling a reason secular does not automatically make it acceptable to everyone: an elaborate secular doctrine can be as disputed as a religious one. Ask which reasons are doing the justificatory work, whom they address, and why the proposed audience restrictions themselves are defensible.",
+                "application": "Nonblocking practice: draft a justification for a common examination timetable that accommodates serious observance conflicts without granting any group control over everyone else's schedule. Model response: access to education and fair opportunities to demonstrate learning justify reasonable alternative sittings, subject to genuine scheduling and integrity constraints. People may support those values from different doctrines. Self-review: identify a shared political value, a factual feasibility assumption, a reasonable objection, and a revision if accommodation creates an unfair disadvantage. Then write a convergence version using different sufficient reasons. Explain why agreement about the result does not settle whether the consensus and convergence theories are equivalent.",
+                "summary": "Public reason distinguishes being convinced that a policy is right from justifying coercion to others with equal standing. Compare consensus and convergence without erasing either truth or disagreement. Use the earlier is–ought distinction to expose both factual and normative premises in public arguments. Next, study a candidate limit on coercion: preventing harm, while refusing to confuse mere disapproval with harm."
+              },
+              "readings": [
+                {
+                  "title": "Public Reason — Why Public Reason?, Structure, and Objections",
+                  "url": "https://plato.stanford.edu/entries/public-reason/",
+                  "note": "Read the discussion of consensus and convergence under Structure, then the objections concerning exclusion and antidemocratic implications. The scholarly entry distinguishes families of views."
+                }
+              ],
+              "visual": {
+                "title": "Public reason without pretending everyone agrees: reasoning map",
+                "description": "Compare two routes to justifying a common rule: shared sufficient reasons and distinct sufficient reasons for different citizens. Neither route requires identical comprehensive beliefs.",
+                "steps": [
+                  "Equal civic standing → demand for reciprocal justification",
+                  "Shared reasons or distinct sufficient reasons → rival structures",
+                  "Persistent disagreement → scope and objection tests, not automatic veto"
+                ]
+              }
+            },
+            {
+              "id": "64",
+              "title": "The harm principle: necessary condition, not blank permission",
+              "explanation": "A community's dislike of a way of life is not yet a justification for coercively stopping it. Mill's harm principle is a famous attempt to distinguish protection of others from paternalism and moralistic control. In its familiar formulation, preventing harm to others can justify interference with a competent adult's liberty; that person's own good alone is insufficient. Interpretations of Mill remain contested, including how this principle relates to utility and how harm should be understood. Use the principle as an argument requiring analysis, not a slogan that automatically settles every speech, safety, or public-health dispute.",
+              "example": "A town proposes banning an unpopular style of dress because observers find it offensive. The argument supplies disapproval but no established injury to a protected interest. Contrast a shop releasing smoke that damages neighbors' property. The smoke case introduces a harm-to-others rationale missing from the dress case. Yet it does not follow that closing every shop forever is justified. Repairing equipment may prevent the harm while restricting liberty less. Reconstruct the logic: harm prevention may be a necessary basis for coercion in this framework; the existence of harm does not make every proposed intervention proportionate or effective. This distinction reuses necessary and sufficient conditions from the foundational course.",
+              "question": "What follows from establishing harmful smoke in the shop example?",
+              "answer": "A possible harm-prevention rationale that still requires an effective and proportionate response",
+              "distractor": "Permission for any restriction officials choose to impose",
+              "correction": "Showing a relevant harm answers one justificatory question. Necessity, alternatives, effectiveness, and burdens remain open.",
+              "depth": {
+                "definitions": "Paternalism restricts someone for their own good, especially against their wishes. Legal moralism supports coercion on grounds of moral wrongness beyond independently established harm to others. Offense includes distress or disgust that is not automatically the relevant sort of harm. A self-regarding act is one whose relevant effects concern the agent; this classification is disputed because lives are interdependent. Soft paternalist interventions check whether conduct is informed and voluntary; hard paternalism restricts even adequately informed, voluntary choices for the chooser's welfare.",
+                "mechanism": "Mill's case for liberty is not indifference to how people live. Experiments in living, development of judgment, and protection against mistaken social authority can support leaving people room to choose. The argument challenges a transition from believing someone's choice unwise to claiming a right to force another choice. A strong objection notes that apparently private choices have effects on families, institutions, and shared resources. If any remote cost counts as harm sufficient for interference, the principle loses its protective function. A defender must distinguish effects relevant to others' rights or important interests from mere dislike and attenuated burdens, and must still compare alternatives. Another objection concerns unequal bargaining conditions: formally voluntary conduct may occur amid dependency or coercive threats. Calling the decision self-regarding before examining those conditions begs the question. Conversely, assuming that choosing badly proves incapacity also begs the question. Mill's historical restrictions on the principle's application, including exclusionary assumptions about peoples he considered unready for liberty, require criticism rather than silent endorsement. The contemporary constructed cases here concern competent adults and do not import those exclusions as justified.",
+                "secondExample": "Imagine a person approaching a bridge whose support has visibly failed but who has not seen the warning. Briefly alerting or stopping them to establish informed choice differs from permanently forbidding all risky travel on the ground that officials know the best life. In the first case, the intervention can protect the conditions of agency; in the second, officials override agency for welfare even after the relevant facts are understood. Neither example settles every emergency practice. It shows why information, voluntariness, urgency, and the scope of interference matter separately. The reasoning is philosophical analysis, not a legal instruction for physically restraining someone.",
+                "mistake": "Avoid the shortcut that every emotional response is mere offense and therefore morally irrelevant. Threats, harassment, and intimidation can impair important interests or effective liberty; their analysis requires details. The opposite shortcut is that any reported distress authorizes censorship. Ask what conduct occurred, how it affects others, what evidence supports the link, and which response addresses that link. Disagreement over the definition of harm must be argued explicitly rather than hidden inside a label that already assumes the desired verdict.",
+                "application": "Nonblocking practice: a housing cooperative proposes banning all evening music after complaints about sleeplessness. Write a narrow policy analysis rather than choosing between unlimited noise and unlimited silence. Model response: repeated noise that prevents neighbors from sleeping may supply a harm-based reason; measure the relevant disturbance, compare quiet hours and sound reduction, and preserve harmless use. Self-review: distinguish injury from dislike of the genre, identify a causal premise, state the least restrictive feasible alternative you considered, and name a fact that would change your recommendation. Address the objection that enforcement could selectively burden an unpopular cultural group even under apparently neutral wording.",
+                "summary": "Liberty analysis combines normative limits with factual inquiry. Identify who is protected, which interest is threatened, whether the decision is informed, and whether interference is justified in kind and degree. A harm rationale is not proof of an intervention's success. The next lesson applies the same separation of evidence and authority to democratic decisions: expertise matters, but it does not by itself determine who should possess political power."
+              },
+              "readings": [
+                {
+                  "title": "Mill’s Moral and Political Philosophy — section 3, Mill’s Liberalism",
+                  "url": "https://plato.stanford.edu/entries/mill-moral-political/",
+                  "note": "Read the discussion of liberty, paternalism, offense, harm, and limits on state authority. This secondary overview explains interpretive disputes rather than presenting a contemporary legal test."
+                }
+              ],
+              "visual": {
+                "title": "The harm principle: necessary condition, not blank permission: reasoning map",
+                "description": "Move from the proposed basis for restricting liberty to evidence of harm, then to proportionate alternatives. The smoke example exposes the gap between a relevant harm and permission for any restriction.",
+                "steps": [
+                  "Distinguish disapproval, own welfare, and harm to others",
+                  "Test information, agency, causal evidence, and protected interests",
+                  "Compare restrictions and alternatives before concluding permission"
+                ]
+              }
+            },
+            {
+              "id": "65",
+              "title": "Democratic equality and epistemic authority",
+              "explanation": "Why should citizens share political power when they differ in relevant knowledge? One defense of democracy emphasizes better decisions: participation gathers dispersed information and subjects claims to criticism. Another emphasizes equal standing: people who must live under common rules should not be treated as political inferiors. These defenses can cooperate, but they can also conflict. This lesson evaluates proposals to replace public decision-making with expert rule without pretending either voters or experts are infallible. It extends the earlier study of testimony and source independence from individual belief to collective institutions.",
+              "example": "A city must choose a flood-defense plan. Hydrologists understand water flows; residents know which routes are usable during evacuations; elected officials must justify whose property and access are burdened. Expertise in forecasting does not alone identify a fair distribution of risk. A proposal to let hydrologists permanently govern every city matter therefore needs an additional argument. Conversely, allowing a majority vote to decide the height of a measured river does not turn preference into evidence. A defensible division of labor gives technical claims accountable expert scrutiny and makes value-laden tradeoffs subject to publicly justified decision procedures. It does not split facts and values so neatly that either group can ignore the other.",
+              "question": "Why do many votes copying one report not establish independent corroboration?",
+              "answer": "The judgments share one evidential source despite coming from different voters",
+              "distractor": "Public participation can never contribute relevant knowledge",
+              "correction": "Dependence weakens this epistemic argument, not every argument for democracy or every form of citizen knowledge.",
+              "depth": {
+                "definitions": "An instrumental defense values a procedure because it tends to produce good outcomes. A noninstrumental defense assigns significance to the procedure itself, such as expressing political equality. Epistemic democracy emphasizes the truth-tracking or problem-solving capacities of democratic institutions. Epistocracy assigns political authority partly on the basis of knowledge or competence. Expertise is domain-specific: competence in engineering is not automatic competence in moral judgment, local experience, or every other science. Political equality does not require believing everyone has identical information.",
+                "mechanism": "An epistemic argument can take this form: inclusive participation can reveal relevant dispersed information; deliberation can expose errors; institutions that preserve those advantages may make better decisions than insulated rulers. The qualifications matter. If everyone repeats one misleading report, adding voters adds repetition rather than independent evidence. If powerful participants intimidate others, nominal inclusion need not produce informational inclusion. Mathematical jury arguments likewise rely on substantive assumptions about competence and independence, not just the number of people voting. No probability calculation is needed to see the failure of independence when all judgments copy one source. Critics of democracy point to ignorance and manipulation. A defender should address these with evidence institutions, accessible deliberation, and accountability rather than denying their possibility. Critics of expert rule ask who selects the experts and whether selection reproduces class or ideological advantage. Expertise can help identify means while leaving contestable ends unresolved. Equal standing supplies a further objection to permanent rule by a purportedly superior class even when that class is technically skilled. Whether that objection is decisive depends on the theory of legitimacy being defended; it is not established merely by calling the scheme elitist.",
+                "secondExample": "Consider a workplace vote on ventilation. Workers consistently report headaches in a room that an engineer inspected only while empty. Their testimony identifies a possible mismatch between test conditions and actual use. This is not proof of a particular cause, but it is a reason to retest during occupancy. Now reverse the asymmetry: an accurate technical warning about an invisible hazard is dismissed because most workers cannot smell anything. Here participation without suitable scientific input fails. The contrasting examples show that institutional design should connect different kinds of knowledge and provide ways to challenge both credentialed authority and confident majorities.",
+                "mistake": "A frequent mistake is to treat a fair vote as evidence that its substantive outcome must be correct. Another is to treat a technically correct answer as sufficient justification for disenfranchising those affected. Diagnose which premise is missing: reliability concerns how beliefs connect to truth; legitimacy concerns how power is justified. Democratic institutions may deserve reform when unreliable, and legitimate decisions may still warrant criticism. Neither claim implies that truth is created by a ballot or that disagreement with experts always reflects irrationality.",
+                "application": "Nonblocking practice: design a decision process for relocating a noisy transit depot. Model response: commission independently reviewable noise and travel studies, invite affected workers and residents to challenge assumptions, publish feasible alternatives, decide through accountable representatives, and create a review mechanism if predictions fail. Self-review: include at least one safeguard against dependent evidence, one against exclusion, and one against indefinitely postponing a necessary decision. Steelman the expert-rule objection that lengthy consultation wastes scarce time; reply by distinguishing an urgent temporary measure from permanent removal of accountability. This institutional design task tests reasoning, not professional competence in governance or engineering.",
+                "summary": "Democracy's epistemic and equality-based arguments answer different questions. Seek institutions that make evidence answerable to criticism while giving affected citizens genuine standing. The completed unit now offers several possible grounds and limits of political authority: consent, fair cooperation, public justification, liberty, and democratic equality. The next unit asks what those institutions should distribute and how to recognize injustice that persists even under formally fair procedures."
+              },
+              "readings": [
+                {
+                  "title": "Democracy — sections 2–4, justification, authority, and participation",
+                  "url": "https://plato.stanford.edu/entries/democracy/",
+                  "note": "Compare epistemic justifications with equality and public-justification arguments, then read the authority discussion. Jury-theorem applications require assumptions; this lesson makes no numerical forecast."
+                }
+              ],
+              "visual": {
+                "title": "Democratic equality and epistemic authority: reasoning map",
+                "description": "Connect expert forecasts and residents’ situated evidence while keeping reliable prediction separate from the right to govern. Review and inclusion guard against different institutional failures.",
+                "steps": [
+                  "Collect expert and situated evidence → inspect dependence",
+                  "Separate reliable prediction from authority over values",
+                  "Build inclusive decision, challenge, and revision procedures"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-61-a",
+              "prompt": "A disaster coordinator issues a well-supported temporary shelter order, then claims authority to choose everyone’s occupation. What is the best evaluation?",
+              "answer": "The emergency rationale may support the shelter order without supporting occupational control",
+              "distractor": "Correct emergency advice establishes unlimited authority",
+              "correction": "The domain of the original justification is limited. The expanded power needs a separate legitimacy argument.",
+              "reviewLessonIds": [
+                "61"
+              ]
+            },
+            {
+              "id": "uq-62-a",
+              "prompt": "A compulsory street-cleaning scheme exempts wealthy organizers and charges the least-resourced residents most. Which objection addresses fair play directly?",
+              "answer": "Benefits do not establish a duty to bear unfairly allocated burdens",
+              "distractor": "Anyone benefiting from a service must accept whatever its organizers charge",
+              "correction": "Reciprocity depends on justified cooperative terms, not merely the presence of a benefit.",
+              "reviewLessonIds": [
+                "62"
+              ]
+            },
+            {
+              "id": "uq-63-a",
+              "prompt": "Different groups have sufficient but nonshared reasons for protecting a wetland. Which description fits a convergence account?",
+              "answer": "The rule may be justified without a single shared foundational reason",
+              "distractor": "Only agreement on the same comprehensive doctrine can justify the rule",
+              "correction": "Convergence permits diverse adequate reasons; evidence about the wetland and the rule’s effects still needs scrutiny.",
+              "reviewLessonIds": [
+                "63"
+              ]
+            },
+            {
+              "id": "uq-64-a",
+              "prompt": "A council proves that late-night machinery disrupts sleep and immediately bans all daytime manufacturing. What remains unsupported?",
+              "answer": "The necessity and proportionality of that much broader restriction",
+              "distractor": "Whether preventing harm could ever count as a reason",
+              "correction": "The evidence supports investigating the specified disturbance, not any chosen restriction across unrelated times.",
+              "reviewLessonIds": [
+                "64"
+              ]
+            },
+            {
+              "id": "uq-65-a",
+              "prompt": "A panel’s members all endorse an expert summary that copied a flawed original study. What would improve its epistemic basis?",
+              "answer": "Independent scrutiny of the underlying evidence and assumptions",
+              "distractor": "Adding more members who read only the same summary",
+              "correction": "Headcount does not repair shared source dependence. Democratic standing and evidential quality require distinct checks.",
+              "reviewLessonIds": [
+                "65"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Distributive justice, structural responsibility, and dissent",
+          "lessons": [
+            {
+              "id": "66",
+              "title": "Rawls: fair institutions and the priority of liberty",
+              "explanation": "Distributive justice concerns the terms on which a society organizes cooperation, not merely a charitable transfer after markets have finished operating. Rawls's justice as fairness evaluates the basic structure: major institutions shaping rights, opportunities, and life prospects. Its principles protect equal basic liberties, fair equality of opportunity, and the position of the least advantaged. They are ordered rather than freely traded against one another. This lesson explains why an unequal arrangement can sometimes be preferred to a more equal one without reducing Rawls's view to maximizing total wealth, and why a prosperous arrangement can nevertheless fail before its economic gains are compared.",
+              "example": "Compare three fictional institutional designs using qualitative information. In Harbor, civil liberties and fair opportunities are protected, and the least advantaged have secure housing but modest discretionary resources. In Orchard, the same prior requirements are met, the least advantaged have better housing and more discretionary resources, and some others become much richer. In Crown, the poorest have the best material package but cannot criticize the government. On the stipulated facts, the difference principle can favor Orchard over Harbor despite greater inequality. Crown cannot purchase permission to deny basic liberty with material gains. The comparison holds the prior requirements constant only in the first pair; ignoring that change would turn a structured argument into a misleading ranking by income alone.",
+              "question": "Why does Crown’s better material package not settle the Rawlsian comparison?",
+              "answer": "Its denial of basic liberty violates a prior requirement that economic benefits do not simply outweigh",
+              "distractor": "Any inequality automatically violates Rawls’s principles",
+              "correction": "The problem is the liberty restriction, not inequality as such. The difference principle operates subject to the prior principles.",
+              "depth": {
+                "definitions": "The original position is a hypothetical choice situation modeling fair conditions for selecting principles. The veil of ignorance withholds information that could be used to tailor principles to one's own social position, while allowing general social knowledge. Primary goods are broadly useful means such as rights, opportunities, income, and wealth, together with social bases of self-respect. Lexical priority means a prior principle is not simply traded away for gains under a later principle. The difference principle concerns institutional inequalities and the prospects of the least advantaged, not a command to make every individual transaction equal.",
+                "mechanism": "Reconstruct the justificatory strategy. Social starting points and natural talents are not morally earned grounds for designing institutions in one's own favor. A fair choice procedure therefore excludes knowledge of those bargaining advantages. Parties choose principles protecting their fundamental interests under that restriction. Rawls argues for equal basic liberties and fair opportunities, with permissible inequalities benefiting the least advantaged as much as feasible. This is not an actual contract whose imagined signatures create consent-based duties. It is a representational device whose fairness and assumptions require defense. Critics may challenge whether its information restrictions are appropriate or whether different rational choosers would select the same principles. Others ask whether incentives that enrich talented people should be treated as unavoidable facts rather than as attitudes themselves subject to moral criticism. A Rawlsian reply emphasizes a publicly workable basic structure rather than saintly conduct in every choice, but that reply leaves a serious debate about which inequalities are necessary. Do not infer that every policy described as helping the poor satisfies the difference principle: the comparison is with feasible alternatives under the prior principles, not merely with a worse status quo.",
+                "secondExample": "A hiring system announces that everyone may apply, but costly preparation is available only to wealthy families. Formal nondiscrimination is compatible with deeply unequal chances for similarly motivated and talented candidates. Fair equality of opportunity asks for more than identical application forms. Now imagine improving preparation by banning the political speech of wealthy parents. Even if the policy improves access, the first principle raises an independent objection to that means. These contrasting cases show why neither open competition alone nor desirable redistribution alone captures the theory. The institutional question includes education, access, liberties, and the way background conditions reproduce opportunity over time.",
+                "mistake": "The most revealing error is to say Rawls always prefers equality to inequality or always chooses whatever improves the worst immediate outcome. The first misses permissible beneficial inequalities; the second overlooks liberties, opportunity, institutional scope, and long-run prospects. Another error treats the veil as a demand that actual policymakers forget evidence about disability or disadvantage. The hypothetical restriction models impartial principle selection. Applying principles to actual institutions requires information about real needs and constraints rather than deliberately ignoring them.",
+                "application": "Nonblocking practice: evaluate a scholarship plan that improves disadvantaged students' prospects but conditions aid on never criticizing the government. Model response: the improvement is relevant, but the speech condition conflicts with equal basic liberties and cannot simply be purchased through opportunity gains. Propose removing the condition and comparing feasible funding alternatives. Self-review: identify the institution, distinguish formal access from fair opportunity, apply the priority ordering, and name the evidence needed about long-term effects on disadvantaged groups. For an objection, consider whether the restriction is genuinely a basic-liberty violation or merely a narrow rule governing a specific funded activity; explain why that factual and conceptual distinction matters.",
+                "summary": "Rawls offers a structured account of fair cooperation rather than a universal spreadsheet rule. Hold prior principles constant before comparing economic inequalities, and justify the feasible comparison set. The original position is a device for reasoning, not evidence of historical agreement. Next, challenge this institutional approach with a historical theory that asks whether particular holdings arose through just acquisition, transfer, and repair."
+              },
+              "readings": [
+                {
+                  "title": "John Rawls — Justice as Fairness: basic structure, principles, and original position",
+                  "url": "https://plato.stanford.edu/entries/rawls/",
+                  "note": "Read the subsections on the basic structure, the two principles, the original position, and institutions. This open scholarly account presents Rawls’s mature ordering of principles."
+                }
+              ],
+              "visual": {
+                "title": "Rawls: fair institutions and the priority of liberty: reasoning map",
+                "description": "Read the ordering as successive constraints: equal basic liberties, fair equality of opportunity, and only then assessment of inequalities by the prospects of the least advantaged.",
+                "steps": [
+                  "Specify basic structure and feasible alternatives",
+                  "Check equal basic liberties → fair opportunity",
+                  "Then compare the least advantaged under permissible inequalities"
+                ]
+              }
+            },
+            {
+              "id": "67",
+              "title": "Nozick: entitlement, voluntary transfer, and historical repair",
+              "explanation": "A distribution can look unequal without showing how anyone acquired what they hold. Nozick's historical entitlement approach asks whether holdings arose through just acquisition and transfer, with rectification when injustice occurred. This differs from judging a distribution solely by its present pattern. If people are entitled to resources, voluntary exchanges can upset an initially equal pattern without necessarily wronging anyone. The challenge to egalitarian theories is to explain why preserving a favored pattern permits interference with those choices. The challenge back is equally important: actual possession and legally recognized title do not by themselves prove a just history.",
+              "example": "Imagine a cooperative that divides art materials fairly among its members. Many voluntarily give some of their materials to an artist in exchange for a performance. The artist ends with more than anyone else. A simple rule that every departure from equality is unjust now faces a counterexample, provided the initial holdings were just and the transfers genuinely authorized. Change one premise: the artist's starting workshop was stolen from an excluded member, and access to the performance depends on surrendering claims to that workshop. Present willingness to transact does not erase the earlier dispossession or establish that every relevant right was respected. The two cases differ historically, not just in the final distribution.",
+              "question": "Why is an innocent purchaser’s payment insufficient by itself to prove full entitlement?",
+              "answer": "The seller’s acquisition and authority to transfer may remain morally defective",
+              "distractor": "Every paid exchange is necessarily unjust",
+              "correction": "Good faith and payment matter but do not establish every historical condition. Identify the defect instead of condemning all exchange.",
+              "depth": {
+                "definitions": "A historical principle judges holdings partly by the processes producing them. An end-state principle evaluates some feature of a resulting distribution; patterned principles organize shares according to a specified criterion such as need or contribution. Entitlement is a justified claim, not a synonym for possession. Acquisition concerns obtaining previously unowned resources; transfer concerns moving holdings between people; rectification concerns repairing departures from justice. A side constraint limits what may be done to individuals even for aggregate gains. These distinctions connect Nozick's argument to the earlier ethics of rights and constraints.",
+                "mechanism": "State the entitlement argument conditionally. If each initial holding is just, each subsequent transfer is title-conferring and just, and required rectification is satisfied, then the resulting holdings need not match an independently favored pattern to be just. Voluntary choices predictably alter patterns; maintaining a rigid pattern can therefore require recurring interference. This pressures theories that combine extensive personal choice with an invariant distribution. It does not refute every egalitarian institutional theory: Rawls regulates background institutions and long-term prospects, not the equality of each successive transaction. Critics also question whether property rights have the strong preinstitutional status the argument assumes, and whether apparently voluntary transfers occur against unjustly constrained options. A defender can reply that rejecting a trade's terms is not always coercion and that people need secure rights to plan lives. The dispute then requires a theory of legitimate initial holdings and acceptable background conditions, not a slogan about freedom. Nozick's account leaves important details of acquisition and rectification underspecified. That limitation matters when moving from a philosophical conditional to claims about actual economies with histories of dispossession.",
+                "secondExample": "Suppose two museums possess visually identical collections. Museum A obtained its objects through valid gifts from entitled owners. Museum B's collection was confiscated, and later administrators innocently inherited it. A snapshot that measures only present visitor enjoyment or equal collection size misses the difference in claims. Innocence of current administrators may affect blame, but it does not automatically settle ownership or duties of repair. Conversely, discovering past injustice does not establish a precise present remedy without tracing losses, beneficiaries, uncertainty, and possible rights of others. Historical assessment requires evidence; an incomplete archive neither proves justice nor licenses inventing a convenient history.",
+                "mistake": "Do not infer that whatever exists under a market system is just according to entitlement theory. The conclusion depends on acquisition, transfer, and rectification conditions that legal compliance alone does not establish. Another diagnostic error is to say that lack of wrongdoing during a physical movement automatically transfers ownership: a neighbor's tool rolling into your yard does not become yours through an authorized gift. A transfer must be entitlement-conferring, not merely an event in which no one acted maliciously.",
+                "application": "Nonblocking practice: a city sells a parcel it acquired through an earlier discriminatory seizure. The purchaser paid the listed price without knowing the history. Compare blame, title, and repair. Model response: the purchaser's ignorance can reduce personal blame without proving the city's power to convey unencumbered moral title; a remedy needs evidence about the prior owners and affected parties. Self-review: name which stage of the history is defective, avoid assuming that market payment cures it, and specify an evidential limit. Steelman the objection that uncertain historical claims could destabilize every present holding; respond with a need for fair evidentiary and remedial standards rather than either automatic confiscation or automatic amnesia.",
+                "summary": "Entitlement theory directs attention to histories that a distributive snapshot can hide. Its transfer argument is conditional, and historical repair is part of the theory rather than an optional charitable addition. Compare Rawls and Nozick at the level of institutions and justified rights, not caricatures of forced equality versus unrestricted possession. Next, ask a different question: even with equal resources, can people actually achieve comparable freedoms?"
+              },
+              "readings": [
+                {
+                  "title": "Robert Nozick’s Political Philosophy — Justice in Holdings and Rectification",
+                  "url": "https://plato.stanford.edu/entries/nozick-political/",
+                  "note": "Read the historical entitlement discussion, the voluntary-transfer challenge to patterns, and rectification. Notice the entry’s warning that merely nonwrongful movement does not necessarily confer title."
+                }
+              ],
+              "visual": {
+                "title": "Nozick: entitlement, voluntary transfer, and historical repair: reasoning map",
+                "description": "Trace a holding backward through acquisition and authorized transfers, locating possible injustice and repair. A current possession or payment does not fill gaps in the history.",
+                "steps": [
+                  "Trace acquisition → title-conferring transfer",
+                  "Locate injustice and possible rectification duties",
+                  "Assess present holdings without assuming possession proves entitlement"
+                ]
+              }
+            },
+            {
+              "id": "68",
+              "title": "Capabilities: equal resources, unequal freedom",
+              "explanation": "Giving people identical resources need not give them comparable opportunities. A travel voucher is useless if the available vehicles cannot be boarded, and an educational place is not an effective opportunity if its materials are inaccessible. The capability approach evaluates what people are genuinely able to do and be, not only what goods they possess or how satisfied they report being. This advances the course's earlier distinction between identical materials and fair access: now the learner must identify conversion barriers, distinguish opportunities from achievements, and explain why a capability framework does not automatically yield a complete distribution policy.",
+              "example": "Two residents receive the same transport pass. One can reach a training center on an accessible direct route; the other encounters an inaccessible transfer and cannot arrive at the required time. Resource equality is stipulated: the passes have the same price and validity. Capability equality is not established, because the conditions for converting the pass into mobility differ. Repair might involve accessible vehicles, route redesign, or a different service, not simply issuing another identical pass. Now suppose both can travel but one freely prefers to study at home. Different observed travel does not prove unequal capability. The first contrast concerns a blocked opportunity; the second concerns different choices within available opportunities.",
+              "question": "Why can different travel rates coexist with equal travel capabilities?",
+              "answer": "People may freely choose different activities from genuinely available options",
+              "distractor": "Observed travel always measures the complete opportunity set",
+              "correction": "A functioning records achievement; a capability records what could genuinely be chosen. Investigate barriers and alternatives before inferring inequality.",
+              "depth": {
+                "definitions": "A functioning is an achieved doing or being, such as being nourished, traveling, or participating in education. A capability is a real opportunity to achieve such a functioning. A capability set is the range of substantive options available, not merely items promised on paper. Conversion factors are personal, social, or environmental conditions affecting how means become opportunities. Adaptive preferences are preferences shaped by constrained circumstances in ways that can make deprivation seem acceptable. Identifying adaptation requires careful inquiry, not dismissing people's expressed judgments whenever an evaluator disagrees.",
+                "mechanism": "The argument against resources as a sufficient metric is a counterexample argument. If equal resources guaranteed equal substantive freedom, equal resource bundles would not coexist with systematically different feasible opportunities. Conversion barriers provide such cases. Therefore, resources alone can miss morally relevant inequality. A parallel argument challenges satisfaction as sufficient: someone habituated to exclusion may report contentment despite lacking basic options. The proposed alternative takes real opportunities seriously, while preserving the person's role in choosing among them. Sen and Nussbaum develop different versions; the approach is a family of frameworks rather than a uniquely specified policy formula. Selection and weighting of capabilities require further argument. Should there be a universal list, democratic specification, a threshold, equality, or priority to the worse off? How should costly conflicts be addressed? Critics worry that officials will impose an approved life under the language of well-being. A capability-focused reply distinguishes enabling a valuable option from compelling its exercise. That answer is important but incomplete: even choosing which options institutions support reflects values, resource limits, and power. Public justification and inclusive deliberation from the preceding unit therefore remain necessary.",
+                "secondExample": "Compare fasting with involuntary hunger. Both can involve not eating, so a measurement of the achieved functioning alone may look similar. A person who has adequate food and can stop fasting has an option the hungry person lacks. The difference concerns agency and available alternatives, not a claim that every freely chosen fast is wise or medically safe. Now compare someone invited to a public hearing with someone who can meaningfully participate because interpretation and scheduling are available. An invitation measures formal access; the practical ability to understand, respond, and attend measures a more substantive opportunity. Neither example requires forcing people to eat or speak.",
+                "mistake": "Do not infer capability directly from observed performance. Nonattendance can reflect a freely chosen alternative, a hidden barrier, lack of information, or an intimidating environment. Conversely, a person who achieves something through extraordinary effort may still have a fragile, costly opportunity rather than equal access. Diagnose through evidence about available alternatives, burdens, and agency. Avoid assuming disability mechanically determines all outcomes: the relevant relation includes environments, technologies, institutions, and the individual's own goals.",
+                "application": "Nonblocking practice: a public training program offers free enrollment but requires inflexible attendance and untranslated materials. Design an audit that distinguishes resources, conversion factors, capabilities, and functionings. Model response: enrollment is a resource or formal opportunity; scheduling and language conditions affect conversion; genuine ability to learn and participate is the capability; completion is a functioning. Self-review: propose evidence from affected learners, identify a feasible barrier-reducing change, preserve the option to decline, and state a real tradeoff. Answer the objection that accommodating everyone is unlimitedly expensive by comparing priority needs and alternatives, not by either promising costless inclusion or dismissing access as optional.",
+                "summary": "Capabilities locate a gap between means and lived freedom. Follow the chain from resources through conversion conditions to feasible options and chosen achievements. Do not treat the chain as deterministic or take reported satisfaction as the only measure. The next lesson expands the scale: barriers can arise from interacting institutions even when each local actor claims to have followed an apparently acceptable rule."
+              },
+              "readings": [
+                {
+                  "title": "The Capability Approach — sections 2–4, core concepts and theories of justice",
+                  "url": "https://plato.stanford.edu/entries/capability-approach/",
+                  "note": "Read capabilities and functionings, conversion factors, agency, and the additional commitments needed for a theory of justice. The framework alone does not determine a unique list or distribution rule."
+                }
+              ],
+              "visual": {
+                "title": "Capabilities: equal resources, unequal freedom: reasoning map",
+                "description": "Distinguish possession of a transport pass, conditions making travel possible, and the choice actually to travel. Identical resources can meet different barriers, while equal options can produce different achievements.",
+                "steps": [
+                  "Resources + conversion conditions → substantive options",
+                  "Options + choice → achieved functionings",
+                  "Audit barriers without forcing an approved outcome"
+                ]
+              }
+            },
+            {
+              "id": "69",
+              "title": "Structural injustice: tracing interaction without dissolving responsibility",
+              "explanation": "Some disadvantages are produced by the interaction of institutions rather than a single easily identified malicious decision. Housing locations, hiring practices, transport routes, and care responsibilities can combine to restrict a group's opportunities. Structural-injustice theories ask how to evaluate and change such patterns. This is not a permission to call every bad outcome unjust, or to excuse identifiable wrongdoing because the system contributed. The task is to connect a defensible norm of justice to a concrete causal account, then distinguish retrospective blame from responsibilities to repair or prevent continuing exclusion.",
+              "example": "An employer schedules entry-level shifts before buses begin operating. Affordable housing is concentrated far away, and a training provider offers only evening courses that conflict with care responsibilities. Each institution says its own rule applies equally to everyone. Their interaction makes stable employment difficult for a group of residents. Map the links: housing affects journey length; transport timing affects arrival; shift timing determines employability; care and course schedules affect qualifications. This constructed case gives a mechanism, not proof that every real disparity has the same cause. Evidence must establish the links, and an explicit justice principle must explain why the resulting exclusion is wrongful rather than merely unfortunate.",
+              "question": "What does identifying a feasible remedial role for a new planner establish?",
+              "answer": "A possible forward-looking duty, not proof that the planner caused the original wrong",
+              "distractor": "Equal blame for all past decisions made before the planner arrived",
+              "correction": "Capacity and role can support repair responsibilities while historical causation and culpability require separate evidence.",
+              "depth": {
+                "definitions": "Structural injustice concerns disadvantage generated or sustained through social arrangements and their interaction. Causal responsibility identifies a contribution to an outcome; culpability concerns blameworthiness given knowledge, control, duties, and other conditions. Remedial responsibility concerns who should help correct or prevent a wrong. These can diverge: a new administrator may not have caused an exclusion but may have power and a role-based duty to change it. Collective action coordinates contributions when isolated individual choices cannot reliably change the structure. A norm is an evaluative standard; a causal diagram does not supply that standard by itself.",
+                "mechanism": "An argument for structural analysis proceeds through separate steps. First, show that recurring disadvantage is not adequately explained by isolated preferences or accidents. Second, identify interactions among rules, resources, and power that sustain it. Third, defend the normative claim that those arrangements wrong people, for example by denying fair opportunity or equal standing. Fourth, allocate forward-looking responsibilities using defensible criteria such as institutional role, capacity, benefit, or contribution. Young's account, discussed in the assigned Justice entry, makes room for injustice arising through accepted practices without reducing the wrong to one person's malicious act. Critics object that calling something injustice requires an agent against whom a grievance can be directed; others argue that liability can exist even without personal culpability. These objections force precision about the bearer of a duty and the kind of responsibility at stake. A response can identify institutions capable of collective action while retaining investigation of individual wrongdoing. It should not infer equal guilt from shared participation. Nor should the inability of one participant to solve the whole problem establish that nobody has a duty to cooperate in a feasible remedy.",
+                "secondExample": "Contrast the schedule case with an official who intentionally rejects eligible applicants because of a stigmatized identity. Structural conditions may also matter, but there is now a specific culpable act to investigate. Calling the case systemic must not erase that direct responsibility. Reverse the contrast again: a newly appointed transit planner inherits the first schedule arrangement and can coordinate route changes. The planner's opportunity to help does not prove they caused the original exclusion. A forward-looking duty can arise through current role and capacity. These examples show why blame, causal explanation, and remedy need separate columns rather than a single undifferentiated label of responsibility.",
+                "mistake": "A common diagnostic failure is to infer injustice from an observed group difference without investigating causes or defending a norm. Another is to infer justice from formally identical rules. Both are shortcuts. Compare feasible alternative arrangements, consider selection effects and missing evidence, and ask whether equal wording produces substantively unequal opportunities. Structural explanation is also not determinism: individual choices matter within constraints, and actors can sometimes change those constraints through organized action. The point is to locate agency accurately, not delete it.",
+                "application": "Nonblocking practice: an apprenticeship requires early arrival, an unpaid preparatory course, and a reference from a current employee. Draft a causal and normative audit. Model response: investigate whether transport, income constraints, and closed social networks jointly block otherwise qualified applicants; compare that mechanism with genuine skill requirements; assess the pattern against fair opportunity. Propose paid preparation, independent references, or scheduling changes where evidence supports them. Self-review: identify one empirical uncertainty, one normative premise, one institution with a feasible remedial role, and one reason not to assign identical blame to every participant. Address the strongest objection that removing requirements could weaken training quality by asking which requirements actually predict necessary competence.",
+                "summary": "Structural analysis combines the earlier causal-inference discipline with political evaluation. Explain the interacting processes, defend the justice standard, and allocate specific responsibilities without equating causation, blame, and remedy. The next lesson asks what follows when those who can change unjust arrangements refuse: dissent may challenge a policy while appealing to the very principles that justify political institutions."
+              },
+              "readings": [
+                {
+                  "title": "Justice — section 1.4, Justice and Agency; section 2, conceptual distinctions",
+                  "url": "https://plato.stanford.edu/entries/justice/",
+                  "note": "Read the discussion of Young and structural injustice, including its critics, then corrective/distributive and procedural/substantive justice. The policy audit is an original application, not a quoted theory."
+                }
+              ],
+              "visual": {
+                "title": "Structural injustice: tracing interaction without dissolving responsibility: reasoning map",
+                "description": "Map housing, transport, work, and training rules into a recurring constraint; add an explicit justice standard; then distinguish who contributed, who is blameworthy, and who can help remedy it.",
+                "steps": [
+                  "Trace interacting institutional rules → recurring constraint",
+                  "Add a defended justice norm → assessment of wrong",
+                  "Separate causal contribution, blame, and feasible remedial duties"
+                ]
+              }
+            },
+            {
+              "id": "70",
+              "title": "Civil disobedience and a defensible dissent dossier",
+              "explanation": "A political institution can have a claim to legitimacy while maintaining an unjust policy. That possibility creates a difficult question: when may a person deliberately breach law to challenge injustice? Civil-disobedience theories distinguish conscientious political protest from ordinary self-interested evasion, but disagree about which features define it and which justify it. Rawls's influential account emphasizes public, nonviolent, conscientious lawbreaking aimed at changing law or policy within a broadly legitimate order. Other accounts challenge those boundaries. This capstone evaluates a constructed case by separating description, justification, evidential uncertainty, and legal consequences rather than treating either obedience or defiance as automatically virtuous.",
+              "example": "A city prohibits a minority group from using an otherwise public civic hall. Residents have documented the rule, appealed through available channels, and received repeated refusals to hear their case. They consider a public, peaceful breach of the exclusion rule to demand equal access. First identify the injustice alleged: unequal civic standing, not merely disappointment at losing a vote. Second distinguish the proposed breach from harming people or concealing private gain. Third evaluate whether ordinary remedies remain realistically available, what burdens fall on others, and whether the action communicates a defensible demand. These facts strengthen a possible justification but do not prove that any tactic or foreseeable consequence is acceptable.",
+              "question": "Why does classifying an act as civil disobedience not settle its permissibility?",
+              "answer": "The classification does not establish the justice of its aim, alternatives, or burdens",
+              "distractor": "Every conscientious breach of law is automatically justified",
+              "correction": "Definitional features and justificatory conditions answer different questions. A sincere public protest still needs a defensible argument.",
+              "depth": {
+                "definitions": "Civil disobedience is a contested category of principled political lawbreaking. Conscientious objection often seeks exemption from participation in a practice rather than political change through public address, though cases overlap. Legal protest does not breach the relevant law. Direct disobedience violates the law being opposed; indirect disobedience violates another law to challenge the target policy. Last resort concerns the inadequacy of reasonable alternatives, not literally attempting every imaginable legal action forever. Proportionality weighs the action's burdens against its justificatory aims without making success the only moral consideration.",
+                "mechanism": "Build the argument in stages. An obligation to obey, if there is one, supplies a reason against lawbreaking but need not be absolute. Serious injustice supplies a possible countervailing reason. If appropriate lawful channels are ineffective, a conscientious and suitably constrained breach may communicate the injustice or contest exclusion in ways ordinary compliance cannot. The conclusion is conditional on evidence, alternatives, and burdens. Objections include unfairly bypassing fellow citizens, destabilizing institutions, and imposing costs on bystanders. A defender must answer those particular objections instead of merely repeating that the cause is just. Critics of the traditional account argue that requiring ideal civility, willingness to accept punishment, or appeals to shared values may exclude those denied fair participation or exposed to oppressive penalties. Defenders reply that public accountability and restraint can express respect for equal citizenship and distinguish reform from private exemption. These are disputes about moral justification and the category's boundaries; they do not make legal punishment disappear. A willingness to accept punishment is not proof of correctness, and resisting unjust punishment is not automatically proof of bad faith. Philosophical evaluation should not be mistaken for jurisdiction-specific legal advice.",
+                "secondExample": "Contrast the civic-hall case with a business owner secretly ignoring a fair inspection rule solely to save money while benefiting from competitors' compliance. Both involve lawbreaking, but the second lacks the stated public, conscientious reform aim and raises a fair-play objection. Now alter the first case: an accessible hearing with meaningful power to reverse the exclusion is scheduled promptly, and organizers have not considered it. The last-resort argument is weaker, though urgency and previous institutional conduct still matter. This counterfactual method tests which facts support the justification. It avoids inferring that sincerity alone licenses lawbreaking or that any possible future meeting requires indefinite silence.",
+                "mistake": "The key error is to confuse classification with permission. Calling an act civil disobedience does not show it is justified; excluding it from a narrow definition does not show it is unjustified under every other account of resistance. Another error is to infer moral legitimacy from legality. The level has supplied reasons why laws need justification beyond enactment. Still, a critique of legality does not establish the accuracy of an activist's factual claims, the fairness of proposed alternatives, or the acceptability of every method.",
+                "application": "Nonblocking capstone: write a dissent dossier about the fictional civic-hall exclusion. Include a limited thesis, an evidence map separating independent documents from repeated reports, a public justification, and comparisons under liberty, fair opportunity, and capabilities. Model outline: verify exclusion and ineffective appeals; explain equal civic standing; show how formal permission elsewhere may fail to offer actual access; compare lawful reform with a constrained protest; address bystander burdens and institutional stability; specify what contrary evidence would change the recommendation. Self-review rubric: the work must distinguish facts from normative premises, state the strongest objection fairly, compare feasible alternatives, and give a revisable conclusion. A response that merely praises courage or condemns illegality misses the central reasoning task.",
+                "summary": "Justified dissent requires the same intellectual discipline as justified authority. It combines evidence auditing, normative argument, institutional analysis, and attention to those who bear costs. Completing this dossier and the quizzes demonstrates practice with these tools, not legal expertise or guaranteed political wisdom. The level ends with a bounded conclusion and revision conditions; future study can investigate global authority, future generations, and the limits of the state-centered frameworks used here."
+              },
+              "readings": [
+                {
+                  "title": "Civil Disobedience — sections 1–4, features, alternatives, justification, responses",
+                  "url": "https://plato.stanford.edu/entries/civil-disobedience/",
+                  "note": "Compare the Rawlsian account with criticisms of publicity, nonviolence, non-evasion, and last resort. Read the justification section before treating a definitional feature as a moral permission."
+                }
+              ],
+              "visual": {
+                "title": "Civil disobedience and a defensible dissent dossier: reasoning map",
+                "description": "Build a conditional justification for dissent from verified exclusion, realistic alternatives, and burdens on others. End with an objection and a revision condition rather than treating principled lawbreaking as automatic permission.",
+                "steps": [
+                  "Verify injustice and distinguish lawbreaking categories",
+                  "Compare realistic remedies and burdens on others",
+                  "Write public reasons, strongest objection, reply, and revision condition"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-66-a",
+              "prompt": "Two economic plans protect equal basic liberties and fair opportunity. One raises the best-off substantially while leaving the least advantaged worse than under the other. What does the difference principle favor on these stipulated facts?",
+              "answer": "The feasible plan in which the least advantaged fare better",
+              "distractor": "The plan with the richest best-off group regardless of everyone else",
+              "correction": "Once prior requirements are held fixed, compare the prospects of the least advantaged, not the maximum fortune.",
+              "reviewLessonIds": [
+                "66"
+              ]
+            },
+            {
+              "id": "uq-67-a",
+              "prompt": "A donated manuscript later turns out to have been taken from its entitled owner without permission. Which inquiry does entitlement theory require?",
+              "answer": "Investigate the donor’s title and possible rectification despite the present recipient’s innocence",
+              "distractor": "Assume a gift always removes every prior claim",
+              "correction": "A transfer must be title-conferring. Good faith does not automatically repair an unjust acquisition.",
+              "reviewLessonIds": [
+                "67"
+              ]
+            },
+            {
+              "id": "uq-68-a",
+              "prompt": "Identical online access codes are distributed, but some learners have no usable connection. What is the most precise diagnosis?",
+              "answer": "Equal nominal resources have not established equal substantive educational opportunities",
+              "distractor": "Equal codes prove equal capabilities regardless of infrastructure",
+              "correction": "Connectivity is a conversion condition between possession of a code and actual access. Investigate it rather than treating distribution as completion.",
+              "reviewLessonIds": [
+                "68"
+              ]
+            },
+            {
+              "id": "uq-69-a",
+              "prompt": "An admissions office, employer, and transit provider follow neutral-looking rules that jointly prevent qualified residents from attending training. What should an audit do first?",
+              "answer": "Trace the interactions and defend a norm explaining why the resulting exclusion is unjust",
+              "distractor": "Infer that every participant has the same malicious intention",
+              "correction": "A structural account needs mechanisms and a justice standard. It does not establish uniform culpability.",
+              "reviewLessonIds": [
+                "69"
+              ]
+            },
+            {
+              "id": "uq-70-a",
+              "prompt": "A protest is public and sincere, but organizers ignore a readily available remedy and impose avoidable serious burdens on bystanders. What remains to be assessed?",
+              "answer": "The alternatives and proportionality rather than sincerity alone",
+              "distractor": "Nothing, because publicity establishes moral permission",
+              "correction": "The protest may fit parts of a definition while failing important justificatory conditions.",
+              "reviewLessonIds": [
+                "70"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-61-a",
+          "prompt": "A scientifically excellent planning board wants permanent, unreviewable control of city policy. Citizens offer relevant local evidence but are excluded. Which criticism integrates authority and democratic epistemology?",
+          "answer": "Technical competence neither establishes unlimited authority nor makes excluded situated knowledge irrelevant",
+          "distractor": "Because experts know technical facts, public accountability has no justificatory value",
+          "correction": "The board needs a legitimacy argument beyond prediction. Exclusion can also discard evidence, so equality and epistemic objections are distinct and mutually reinforcing.",
+          "reviewLessonIds": [
+            "61",
+            "65"
+          ]
+        },
+        {
+          "id": "lq-62-a",
+          "prompt": "A mandatory drainage scheme provides essential protection, but meetings are inaccessible and charges ignore inability to pay. Which response best combines fair play and capabilities?",
+          "answer": "Preserve the possible case for common contribution while revising burdens and real participation opportunities",
+          "distractor": "Essential benefits prove all current fees and meeting arrangements just",
+          "correction": "Fair play evaluates the terms of cooperation. Capability analysis shows why formal invitations may not give actual participation; neither analysis requires abandoning drainage itself.",
+          "reviewLessonIds": [
+            "62",
+            "68"
+          ]
+        },
+        {
+          "id": "lq-63-a",
+          "prompt": "A city restricts a noisy business practice because its majority considers the owners’ culture inferior. Independent evidence also shows some night noise harms neighbors. What is the strongest revision?",
+          "answer": "Reject the cultural hierarchy, offer reciprocal harm-based reasons, and compare narrowly effective limits",
+          "distractor": "Any independently harmful noise validates the original cultural justification and every restriction",
+          "correction": "Public justification and harm analysis do different work. A defensible policy needs reasons addressed to equal citizens and a response matched to the demonstrated disturbance.",
+          "reviewLessonIds": [
+            "63",
+            "64"
+          ]
+        },
+        {
+          "id": "lq-64-a",
+          "prompt": "A large referendum endorses a welfare increase funded by removing a minority’s basic political liberties. Which joint assessment follows from the democratic and Rawlsian lessons?",
+          "answer": "A vote does not guarantee substantive justice, and material gains do not simply override equal basic liberties",
+          "distractor": "Majority authorization makes the loss of basic liberties irrelevant to justice",
+          "correction": "Democratic procedure is not infallible moral certification. Rawls’s priority ordering prevents this tradeoff from being justified solely through increased welfare.",
+          "reviewLessonIds": [
+            "65",
+            "66"
+          ]
+        },
+        {
+          "id": "lq-65-a",
+          "prompt": "A city owns valuable land through historical dispossession. It proposes using rental proceeds to improve the least advantaged while dismissing all former owners’ claims. Which analysis fairly compares theories?",
+          "answer": "The improvement is relevant to a Rawlsian institutional assessment, but it does not answer the entitlement-based rectification claim",
+          "distractor": "Any benefit to disadvantaged residents makes the property’s history morally irrelevant in every theory",
+          "correction": "Different theories identify different justificatory demands. Do not treat one desirable distributive consequence as proof that all historical rights have been addressed.",
+          "reviewLessonIds": [
+            "66",
+            "67"
+          ]
+        },
+        {
+          "id": "lq-66-a",
+          "prompt": "Equal training grants go to everyone, yet a group faces inaccessible equipment and unpaid care demands. An administrator says the resulting gap proves low motivation. What is missing?",
+          "answer": "Investigation of conversion barriers and interacting institutions before assigning individual responsibility",
+          "distractor": "Only a larger survey asking whether administrators feel the policy is equal",
+          "correction": "The inference from performance to motivation ignores feasible options and structural constraints. Gather mechanism-specific evidence rather than treating equal grants as equal opportunity.",
+          "reviewLessonIds": [
+            "68",
+            "69"
+          ]
+        },
+        {
+          "id": "lq-67-a",
+          "prompt": "A protest group alleges exclusion from housing, but all its reports copy one unverified anonymous claim. Which step should precede a confident justification of civil disobedience?",
+          "answer": "Audit the factual basis and independent evidence while separately developing the justice argument",
+          "distractor": "Treat many copied reports as corroboration because the cause invokes equality",
+          "correction": "A normative principle does not verify an allegation. Source dependence weakens the factual premise, and a dissent dossier must distinguish that uncertainty from the moral standard.",
+          "reviewLessonIds": [
+            "65",
+            "70"
+          ]
+        },
+        {
+          "id": "lq-68-a",
+          "prompt": "Residents agree that a resource rule is unacceptable, but some invoke unjust acquisition and others blocked basic opportunities. What would a convergence-sensitive reform argument do?",
+          "answer": "Ask whether a specific feasible reform has adequate reasons for each group without assuming their theories identical",
+          "distractor": "Insist that agreement on a reform proves entitlement and capability theories make the same claims",
+          "correction": "Convergence allows different sufficient reasons. A policy can address both historical repair and substantive access while leaving theoretical disagreement unresolved.",
+          "reviewLessonIds": [
+            "63",
+            "67",
+            "68"
+          ]
+        },
+        {
+          "id": "lq-69-a",
+          "prompt": "A previously legitimate authority blocks meaningful appeals against entrenched exclusion. Some citizens consider principled disobedience. Which conclusion avoids both absolutism and automatic permission?",
+          "answer": "Legitimacy supplies reasons to respect institutions but does not remove the need to assess injustice, alternatives, and protest burdens",
+          "distractor": "Once an institution is legitimate, every possible lawbreaking act is morally indefensible",
+          "correction": "Institutional legitimacy and the justice of a particular policy are distinct. A possible duty to obey must be weighed within a specific, evidence-supported dissent argument.",
+          "reviewLessonIds": [
+            "61",
+            "70"
+          ]
+        },
+        {
+          "id": "lq-70-a",
+          "prompt": "New managers inherit a transport network whose schedules jointly exclude some workers from jobs. They receive fair-play contributions from those same workers. What follows?",
+          "answer": "The managers may have role-based remedial duties even without original blame, and cooperative terms need review",
+          "distractor": "Not causing the original exclusion releases managers from all current responsibilities",
+          "correction": "Separate culpability from current capacity and role. Receiving support for a common scheme strengthens the need to examine whether its benefits and burdens remain defensible.",
+          "reviewLessonIds": [
+            "62",
+            "69"
+          ]
+        },
+        {
+          "id": "lq-71-a",
+          "prompt": "A committee improves educational access by forcing every eligible adult to attend the same course regardless of informed preferences. Which critique combines capabilities and liberty?",
+          "answer": "Enabling meaningful educational options differs from compelling their exercise for the chooser’s own good",
+          "distractor": "The capability approach requires maximizing identical achievements through coercion",
+          "correction": "Capability is substantive opportunity, not mandatory functioning. A liberty analysis asks for an independent justification of coercion rather than assuming welfare gains suffice.",
+          "reviewLessonIds": [
+            "64",
+            "68"
+          ]
+        },
+        {
+          "id": "lq-72-a",
+          "prompt": "A final policy memo recommends reform, cites a fair vote, and ends without alternatives or revision conditions. What addition best integrates the whole level?",
+          "answer": "Compare feasible alternatives using explicit evidence and justice premises, answer the strongest affected-party objection, and identify what would change the recommendation",
+          "distractor": "Add more forceful language declaring that public support proves legitimacy, justice, and factual accuracy together",
+          "correction": "Public support cannot do all three jobs. The complete argument distinguishes authority, evidence, substantive opportunity, distribution, and burdens; its conclusion remains responsive to counterevidence.",
+          "reviewLessonIds": [
+            "61",
+            "65",
+            "66",
+            "68",
+            "69",
+            "70"
+          ]
+        }
+      ]
+    }
+  ]
+}

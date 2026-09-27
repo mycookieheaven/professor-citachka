@@ -1,0 +1,2697 @@
+{
+  "generatedAt": "2026-09-14T04:55:51.886760+00:00",
+  "verifiedApplicationDeployment": {
+    "id": "dpl_HmDyS5Fqi4HaVkx98d22p27XivtB",
+    "url": "https://professor-citachka-8rkl00j14-mycookieheavens-projects.vercel.app",
+    "alias": "https://professor-citachka.vercel.app",
+    "state": "READY"
+  },
+  "provenance": "Browser and HTTP observations refer to the identified application deployment. A subsequent artifact-only deployment publishes this report without changing application code.",
+  "changes": "40 individually authored Philosophy topics added as four ten-topic levels: formal reasoning; epistemology; philosophy of science; normative ethics. Existing topic IDs, storage semantics, Russian audio and music practices remain unchanged. Parent transparency hotfix in learning.css is preserved.",
+  "localChecks": {
+    "testsPassed": 62,
+    "testsFailed": 0,
+    "testFiles": 20,
+    "lint": "npm run lint: exit 0",
+    "build": "npm run build: exit 0; 322 static pages generated"
+  },
+  "scope": {
+    "requestedLevels": 550,
+    "publishedRegularLevels": 24,
+    "publishedRegularTopics": 240,
+    "supplementalTopics": 10,
+    "remainingLevels": 526,
+    "remainingTopics": 5260,
+    "perSubject": [
+      {
+        "subject": "literature",
+        "published": 2,
+        "requested": 50,
+        "remainingLevels": 48,
+        "remainingTopics": 480
+      },
+      {
+        "subject": "russian",
+        "published": 2,
+        "requested": 100,
+        "remainingLevels": 98,
+        "remainingTopics": 980
+      },
+      {
+        "subject": "neuroscience",
+        "published": 2,
+        "requested": 50,
+        "remainingLevels": 48,
+        "remainingTopics": 480
+      },
+      {
+        "subject": "veterinary-science",
+        "published": 2,
+        "requested": 50,
+        "remainingLevels": 48,
+        "remainingTopics": 480
+      },
+      {
+        "subject": "theology",
+        "published": 2,
+        "requested": 50,
+        "remainingLevels": 48,
+        "remainingTopics": 480
+      },
+      {
+        "subject": "finance",
+        "published": 2,
+        "requested": 50,
+        "remainingLevels": 48,
+        "remainingTopics": 480
+      },
+      {
+        "subject": "music",
+        "published": 2,
+        "requested": 50,
+        "remainingLevels": 48,
+        "remainingTopics": 480
+      },
+      {
+        "subject": "skincare",
+        "published": 2,
+        "requested": 50,
+        "remainingLevels": 48,
+        "remainingTopics": 480
+      },
+      {
+        "subject": "psychiatry",
+        "published": 2,
+        "requested": 50,
+        "remainingLevels": 48,
+        "remainingTopics": 480
+      },
+      {
+        "subject": "philosophy",
+        "published": 6,
+        "requested": 50,
+        "remainingLevels": 44,
+        "remainingTopics": 440
+      }
+    ]
+  },
+  "http": {
+    "base": "https://professor-citachka.vercel.app",
+    "checkedAt": "2026-09-14T04:51:55Z",
+    "routeCount": 327,
+    "passed": 327,
+    "rows": [
+      {
+        "route": "/",
+        "status": 200,
+        "bytes": 28717,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/literature",
+        "status": 200,
+        "bytes": 98989,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian",
+        "status": 200,
+        "bytes": 44260,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/neuroscience",
+        "status": 200,
+        "bytes": 28127,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/veterinary-science",
+        "status": 200,
+        "bytes": 28616,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/theology",
+        "status": 200,
+        "bytes": 26138,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/finance",
+        "status": 200,
+        "bytes": 27538,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music",
+        "status": 200,
+        "bytes": 36846,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare",
+        "status": 200,
+        "bytes": 27810,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/psychiatry",
+        "status": 200,
+        "bytes": 18217,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/philosophy",
+        "status": 200,
+        "bytes": 26651,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/01",
+        "status": 200,
+        "bytes": 27023,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/02",
+        "status": 200,
+        "bytes": 27029,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/03",
+        "status": 200,
+        "bytes": 27026,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/04",
+        "status": 200,
+        "bytes": 27028,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/05",
+        "status": 200,
+        "bytes": 27020,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/06",
+        "status": 200,
+        "bytes": 27028,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/07",
+        "status": 200,
+        "bytes": 27021,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/08",
+        "status": 200,
+        "bytes": 27027,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/09",
+        "status": 200,
+        "bytes": 27022,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/10",
+        "status": 200,
+        "bytes": 27023,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/11",
+        "status": 200,
+        "bytes": 27026,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/12",
+        "status": 200,
+        "bytes": 27035,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/13",
+        "status": 200,
+        "bytes": 27033,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/14",
+        "status": 200,
+        "bytes": 27030,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/15",
+        "status": 200,
+        "bytes": 27031,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/16",
+        "status": 200,
+        "bytes": 27032,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/17",
+        "status": 200,
+        "bytes": 27024,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/18",
+        "status": 200,
+        "bytes": 27030,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/19",
+        "status": 200,
+        "bytes": 27025,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/literature/20",
+        "status": 200,
+        "bytes": 27043,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/01",
+        "status": 200,
+        "bytes": 36919,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/02",
+        "status": 200,
+        "bytes": 36924,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/03",
+        "status": 200,
+        "bytes": 36917,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/04",
+        "status": 200,
+        "bytes": 36924,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/05",
+        "status": 200,
+        "bytes": 36919,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/06",
+        "status": 200,
+        "bytes": 36926,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/07",
+        "status": 200,
+        "bytes": 36923,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/08",
+        "status": 200,
+        "bytes": 36918,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/09",
+        "status": 200,
+        "bytes": 36915,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/10",
+        "status": 200,
+        "bytes": 36927,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/11",
+        "status": 200,
+        "bytes": 36912,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/12",
+        "status": 200,
+        "bytes": 36915,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/13",
+        "status": 200,
+        "bytes": 36918,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/14",
+        "status": 200,
+        "bytes": 36915,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/15",
+        "status": 200,
+        "bytes": 36908,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/16",
+        "status": 200,
+        "bytes": 36908,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/17",
+        "status": 200,
+        "bytes": 36916,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/18",
+        "status": 200,
+        "bytes": 36919,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/19",
+        "status": 200,
+        "bytes": 36907,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/20",
+        "status": 200,
+        "bytes": 36916,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/21",
+        "status": 200,
+        "bytes": 36974,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/22",
+        "status": 200,
+        "bytes": 36962,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/23",
+        "status": 200,
+        "bytes": 36969,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/24",
+        "status": 200,
+        "bytes": 36957,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/25",
+        "status": 200,
+        "bytes": 36960,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/26",
+        "status": 200,
+        "bytes": 36968,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/27",
+        "status": 200,
+        "bytes": 36961,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/28",
+        "status": 200,
+        "bytes": 36971,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/29",
+        "status": 200,
+        "bytes": 36960,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/russian/30",
+        "status": 200,
+        "bytes": 36966,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/01",
+        "status": 200,
+        "bytes": 27186,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/02",
+        "status": 200,
+        "bytes": 27188,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/03",
+        "status": 200,
+        "bytes": 27187,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/04",
+        "status": 200,
+        "bytes": 27187,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/05",
+        "status": 200,
+        "bytes": 27191,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/06",
+        "status": 200,
+        "bytes": 27195,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/07",
+        "status": 200,
+        "bytes": 27191,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/08",
+        "status": 200,
+        "bytes": 27200,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/09",
+        "status": 200,
+        "bytes": 27184,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/10",
+        "status": 200,
+        "bytes": 27184,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/11",
+        "status": 200,
+        "bytes": 27211,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/12",
+        "status": 200,
+        "bytes": 27201,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/13",
+        "status": 200,
+        "bytes": 27208,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/14",
+        "status": 200,
+        "bytes": 27218,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/15",
+        "status": 200,
+        "bytes": 27214,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/16",
+        "status": 200,
+        "bytes": 27205,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/17",
+        "status": 200,
+        "bytes": 27208,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/18",
+        "status": 200,
+        "bytes": 27215,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/19",
+        "status": 200,
+        "bytes": 27204,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/neuroscience/20",
+        "status": 200,
+        "bytes": 27220,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/01",
+        "status": 200,
+        "bytes": 26617,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/02",
+        "status": 200,
+        "bytes": 26609,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/03",
+        "status": 200,
+        "bytes": 26608,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/04",
+        "status": 200,
+        "bytes": 26609,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/05",
+        "status": 200,
+        "bytes": 26610,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/06",
+        "status": 200,
+        "bytes": 26612,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/07",
+        "status": 200,
+        "bytes": 26601,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/08",
+        "status": 200,
+        "bytes": 26606,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/09",
+        "status": 200,
+        "bytes": 26613,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/10",
+        "status": 200,
+        "bytes": 26613,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/11",
+        "status": 200,
+        "bytes": 26617,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/12",
+        "status": 200,
+        "bytes": 26618,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/13",
+        "status": 200,
+        "bytes": 26622,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/14",
+        "status": 200,
+        "bytes": 26614,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/15",
+        "status": 200,
+        "bytes": 26615,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/16",
+        "status": 200,
+        "bytes": 26613,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/17",
+        "status": 200,
+        "bytes": 26613,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/18",
+        "status": 200,
+        "bytes": 26615,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/19",
+        "status": 200,
+        "bytes": 26614,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/veterinary-science/20",
+        "status": 200,
+        "bytes": 26621,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/01",
+        "status": 200,
+        "bytes": 27247,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/02",
+        "status": 200,
+        "bytes": 27239,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/03",
+        "status": 200,
+        "bytes": 27246,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/04",
+        "status": 200,
+        "bytes": 27236,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/05",
+        "status": 200,
+        "bytes": 27236,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/06",
+        "status": 200,
+        "bytes": 27243,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/07",
+        "status": 200,
+        "bytes": 27233,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/08",
+        "status": 200,
+        "bytes": 27242,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/09",
+        "status": 200,
+        "bytes": 27238,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/10",
+        "status": 200,
+        "bytes": 27247,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/11",
+        "status": 200,
+        "bytes": 27247,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/12",
+        "status": 200,
+        "bytes": 27245,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/13",
+        "status": 200,
+        "bytes": 27242,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/14",
+        "status": 200,
+        "bytes": 27244,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/15",
+        "status": 200,
+        "bytes": 27240,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/16",
+        "status": 200,
+        "bytes": 27246,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/17",
+        "status": 200,
+        "bytes": 27238,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/18",
+        "status": 200,
+        "bytes": 27247,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/19",
+        "status": 200,
+        "bytes": 27246,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/theology/20",
+        "status": 200,
+        "bytes": 27246,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/01",
+        "status": 200,
+        "bytes": 26895,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/02",
+        "status": 200,
+        "bytes": 26895,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/03",
+        "status": 200,
+        "bytes": 26899,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/04",
+        "status": 200,
+        "bytes": 26893,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/05",
+        "status": 200,
+        "bytes": 26897,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/06",
+        "status": 200,
+        "bytes": 26903,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/07",
+        "status": 200,
+        "bytes": 26889,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/08",
+        "status": 200,
+        "bytes": 26900,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/09",
+        "status": 200,
+        "bytes": 26902,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/10",
+        "status": 200,
+        "bytes": 26896,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/11",
+        "status": 200,
+        "bytes": 26906,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/12",
+        "status": 200,
+        "bytes": 26889,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/13",
+        "status": 200,
+        "bytes": 26891,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/14",
+        "status": 200,
+        "bytes": 26891,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/15",
+        "status": 200,
+        "bytes": 26905,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/16",
+        "status": 200,
+        "bytes": 26897,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/17",
+        "status": 200,
+        "bytes": 26891,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/18",
+        "status": 200,
+        "bytes": 26899,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/19",
+        "status": 200,
+        "bytes": 26896,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/finance/20",
+        "status": 200,
+        "bytes": 26903,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/01",
+        "status": 200,
+        "bytes": 29626,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/02",
+        "status": 200,
+        "bytes": 29621,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/03",
+        "status": 200,
+        "bytes": 29628,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/04",
+        "status": 200,
+        "bytes": 29626,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/05",
+        "status": 200,
+        "bytes": 29625,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/06",
+        "status": 200,
+        "bytes": 29623,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/07",
+        "status": 200,
+        "bytes": 29629,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/08",
+        "status": 200,
+        "bytes": 29619,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/09",
+        "status": 200,
+        "bytes": 29628,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/10",
+        "status": 200,
+        "bytes": 29627,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/11",
+        "status": 200,
+        "bytes": 29628,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/12",
+        "status": 200,
+        "bytes": 29634,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/13",
+        "status": 200,
+        "bytes": 29626,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/14",
+        "status": 200,
+        "bytes": 29629,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/15",
+        "status": 200,
+        "bytes": 29628,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/16",
+        "status": 200,
+        "bytes": 29628,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/17",
+        "status": 200,
+        "bytes": 29627,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/18",
+        "status": 200,
+        "bytes": 29630,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/19",
+        "status": 200,
+        "bytes": 29628,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/music/20",
+        "status": 200,
+        "bytes": 29631,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/01",
+        "status": 200,
+        "bytes": 27105,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/02",
+        "status": 200,
+        "bytes": 27100,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/03",
+        "status": 200,
+        "bytes": 27101,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/04",
+        "status": 200,
+        "bytes": 27105,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/05",
+        "status": 200,
+        "bytes": 27104,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/06",
+        "status": 200,
+        "bytes": 27107,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/07",
+        "status": 200,
+        "bytes": 27106,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/08",
+        "status": 200,
+        "bytes": 27111,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/09",
+        "status": 200,
+        "bytes": 27103,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/10",
+        "status": 200,
+        "bytes": 27108,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/11",
+        "status": 200,
+        "bytes": 27115,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/12",
+        "status": 200,
+        "bytes": 27105,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/13",
+        "status": 200,
+        "bytes": 27107,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/14",
+        "status": 200,
+        "bytes": 27113,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/15",
+        "status": 200,
+        "bytes": 27110,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/16",
+        "status": 200,
+        "bytes": 27109,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/17",
+        "status": 200,
+        "bytes": 27118,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/18",
+        "status": 200,
+        "bytes": 27122,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/19",
+        "status": 200,
+        "bytes": 27116,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/skincare/20",
+        "status": 200,
+        "bytes": 27104,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/01",
+        "status": 200,
+        "bytes": 27373,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/02",
+        "status": 200,
+        "bytes": 27365,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/03",
+        "status": 200,
+        "bytes": 27370,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/04",
+        "status": 200,
+        "bytes": 27374,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/05",
+        "status": 200,
+        "bytes": 27358,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/06",
+        "status": 200,
+        "bytes": 27372,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/07",
+        "status": 200,
+        "bytes": 27373,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/08",
+        "status": 200,
+        "bytes": 27362,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/09",
+        "status": 200,
+        "bytes": 27365,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/10",
+        "status": 200,
+        "bytes": 27371,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/11",
+        "status": 200,
+        "bytes": 27384,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/12",
+        "status": 200,
+        "bytes": 27383,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/13",
+        "status": 200,
+        "bytes": 27385,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/14",
+        "status": 200,
+        "bytes": 27392,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/15",
+        "status": 200,
+        "bytes": 27388,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/16",
+        "status": 200,
+        "bytes": 27386,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/17",
+        "status": 200,
+        "bytes": 27381,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/18",
+        "status": 200,
+        "bytes": 27384,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/19",
+        "status": 200,
+        "bytes": 27389,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/psychiatry/20",
+        "status": 200,
+        "bytes": 27384,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/01",
+        "status": 200,
+        "bytes": 75782,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/02",
+        "status": 200,
+        "bytes": 75775,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/03",
+        "status": 200,
+        "bytes": 75766,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/04",
+        "status": 200,
+        "bytes": 75766,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/05",
+        "status": 200,
+        "bytes": 75772,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/06",
+        "status": 200,
+        "bytes": 75781,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/07",
+        "status": 200,
+        "bytes": 75784,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/08",
+        "status": 200,
+        "bytes": 75777,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/09",
+        "status": 200,
+        "bytes": 75772,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/10",
+        "status": 200,
+        "bytes": 75783,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/11",
+        "status": 200,
+        "bytes": 75793,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/12",
+        "status": 200,
+        "bytes": 75789,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/13",
+        "status": 200,
+        "bytes": 75794,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/14",
+        "status": 200,
+        "bytes": 75790,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/15",
+        "status": 200,
+        "bytes": 75787,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/16",
+        "status": 200,
+        "bytes": 75784,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/17",
+        "status": 200,
+        "bytes": 75791,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/18",
+        "status": 200,
+        "bytes": 75793,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/19",
+        "status": 200,
+        "bytes": 75779,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/20",
+        "status": 200,
+        "bytes": 75796,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/21",
+        "status": 200,
+        "bytes": 75812,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/22",
+        "status": 200,
+        "bytes": 75804,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/23",
+        "status": 200,
+        "bytes": 75818,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/24",
+        "status": 200,
+        "bytes": 75824,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/25",
+        "status": 200,
+        "bytes": 75823,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/26",
+        "status": 200,
+        "bytes": 75821,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/27",
+        "status": 200,
+        "bytes": 75818,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/28",
+        "status": 200,
+        "bytes": 75820,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/29",
+        "status": 200,
+        "bytes": 75814,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/30",
+        "status": 200,
+        "bytes": 75810,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/31",
+        "status": 200,
+        "bytes": 75807,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/32",
+        "status": 200,
+        "bytes": 75811,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/33",
+        "status": 200,
+        "bytes": 75822,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/34",
+        "status": 200,
+        "bytes": 75813,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/35",
+        "status": 200,
+        "bytes": 75797,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/36",
+        "status": 200,
+        "bytes": 75809,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/37",
+        "status": 200,
+        "bytes": 75811,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/38",
+        "status": 200,
+        "bytes": 75794,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/39",
+        "status": 200,
+        "bytes": 75816,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/40",
+        "status": 200,
+        "bytes": 75801,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/41",
+        "status": 200,
+        "bytes": 75816,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/42",
+        "status": 200,
+        "bytes": 75822,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/43",
+        "status": 200,
+        "bytes": 75827,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/44",
+        "status": 200,
+        "bytes": 75822,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/45",
+        "status": 200,
+        "bytes": 75825,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/46",
+        "status": 200,
+        "bytes": 75816,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/47",
+        "status": 200,
+        "bytes": 75818,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/48",
+        "status": 200,
+        "bytes": 75819,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/49",
+        "status": 200,
+        "bytes": 75814,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/50",
+        "status": 200,
+        "bytes": 75833,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/51",
+        "status": 200,
+        "bytes": 75822,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/52",
+        "status": 200,
+        "bytes": 75828,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/53",
+        "status": 200,
+        "bytes": 75811,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/54",
+        "status": 200,
+        "bytes": 75830,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/55",
+        "status": 200,
+        "bytes": 75825,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/56",
+        "status": 200,
+        "bytes": 75836,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/57",
+        "status": 200,
+        "bytes": 75829,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/58",
+        "status": 200,
+        "bytes": 75832,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/59",
+        "status": 200,
+        "bytes": 75815,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/learn/philosophy/60",
+        "status": 200,
+        "bytes": 75840,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/alphabet-foundations",
+        "status": 200,
+        "bytes": 21235,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/stress-and-sounds",
+        "status": 200,
+        "bytes": 16654,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/greetings-and-courtesy",
+        "status": 200,
+        "bytes": 16786,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/introductions-and-questions",
+        "status": 200,
+        "bytes": 16808,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/people-and-gender",
+        "status": 200,
+        "bytes": 16711,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/family-and-possession",
+        "status": 200,
+        "bytes": 16710,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/daily-routines",
+        "status": 200,
+        "bytes": 16761,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/adjectives-and-places",
+        "status": 200,
+        "bytes": 16756,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/food-and-drink",
+        "status": 200,
+        "bytes": 16652,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/shopping-and-prices",
+        "status": 200,
+        "bytes": 16783,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/transport-and-directions",
+        "status": 200,
+        "bytes": 16866,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/requests-and-help",
+        "status": 200,
+        "bytes": 16719,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/past-events",
+        "status": 200,
+        "bytes": 16639,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/telling-a-short-story",
+        "status": 200,
+        "bytes": 16764,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/future-plans",
+        "status": 200,
+        "bytes": 16656,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/needs-and-preferences",
+        "status": 200,
+        "bytes": 16819,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/weather-and-seasons",
+        "status": 200,
+        "bytes": 16726,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/comparisons-and-choices",
+        "status": 200,
+        "bytes": 16595,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/advice-and-health",
+        "status": 200,
+        "bytes": 16801,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/messages-and-arrangements",
+        "status": 200,
+        "bytes": 16844,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/conversation-repair",
+        "status": 200,
+        "bytes": 16784,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/home-and-neighborhood",
+        "status": 200,
+        "bytes": 16758,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/integrated-conversations",
+        "status": 200,
+        "bytes": 16891,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/russian/a2-ready-review",
+        "status": 200,
+        "bytes": 16926,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/neuroscience/neural-foundations",
+        "status": 200,
+        "bytes": 19050,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/neuroscience/sensation-and-movement",
+        "status": 200,
+        "bytes": 18919,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/neuroscience/learning-memory-attention",
+        "status": 200,
+        "bytes": 18979,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/neuroscience/emotion-and-motivation",
+        "status": 200,
+        "bytes": 18969,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/neuroscience/clinical-and-cognitive-neuroscience",
+        "status": 200,
+        "bytes": 19415,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/veterinary-science/clinical-foundations",
+        "status": 200,
+        "bytes": 16669,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/veterinary-science/comparative-anatomy",
+        "status": 200,
+        "bytes": 16585,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/veterinary-science/physiology-pathology",
+        "status": 200,
+        "bytes": 16700,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/veterinary-science/pharmacology-diagnostics",
+        "status": 200,
+        "bytes": 16700,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/veterinary-science/patient-care-practice",
+        "status": 200,
+        "bytes": 16698,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/theology/how-theology-reasons",
+        "status": 200,
+        "bytes": 18124,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/theology/god-creation-and-the-human-person",
+        "status": 200,
+        "bytes": 17874,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/theology/christ-and-salvation",
+        "status": 200,
+        "bytes": 17773,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/theology/church-sacraments-and-moral-life",
+        "status": 200,
+        "bytes": 17811,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/theology/history-philosophy-and-questions",
+        "status": 200,
+        "bytes": 18081,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/finance/cash-flow-basics",
+        "status": 200,
+        "bytes": 16120,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/finance/debt-interest-and-risk",
+        "status": 200,
+        "bytes": 16200,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/finance/investing-fundamentals",
+        "status": 200,
+        "bytes": 16290,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/finance/markets-and-valuation",
+        "status": 200,
+        "bytes": 16253,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/finance/independent-financial-judgment",
+        "status": 200,
+        "bytes": 16468,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/beat-and-counting",
+        "status": 200,
+        "bytes": 15264,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/note-names-and-keyboard-map",
+        "status": 200,
+        "bytes": 15283,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/scales-and-chords",
+        "status": 200,
+        "bytes": 15312,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/guitar-ready",
+        "status": 200,
+        "bytes": 15806,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/guitar-first-chords",
+        "status": 200,
+        "bytes": 15823,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/guitar-rhythm-and-song",
+        "status": 200,
+        "bytes": 15628,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/keyboard-map-and-posture",
+        "status": 200,
+        "bytes": 15754,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/keyboard-first-melody",
+        "status": 200,
+        "bytes": 15230,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/keyboard-chords-and-two-hands",
+        "status": 200,
+        "bytes": 15294,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/fl-studio-tour",
+        "status": 200,
+        "bytes": 15747,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/fl-studio-first-beat",
+        "status": 200,
+        "bytes": 15288,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/music/fl-studio-midi-and-arrangement",
+        "status": 200,
+        "bytes": 15321,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/skin-as-an-organ",
+        "status": 200,
+        "bytes": 15718,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/build-a-basic-routine",
+        "status": 200,
+        "bytes": 15824,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/read-a-product-label",
+        "status": 200,
+        "bytes": 15642,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/barrier-and-irritation",
+        "status": 200,
+        "bytes": 15833,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/sunscreen-and-pigment",
+        "status": 200,
+        "bytes": 15767,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/acne-basics",
+        "status": 200,
+        "bytes": 15808,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/retinoid-literacy",
+        "status": 200,
+        "bytes": 15828,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/dark-marks-and-tone",
+        "status": 200,
+        "bytes": 15712,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/sanitation-and-scope",
+        "status": 200,
+        "bytes": 15790,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/subjects/skincare/professional-routine-audit",
+        "status": 200,
+        "bytes": 15853,
+        "type": "text/html; charset=utf-8",
+        "contains404": false
+      }
+    ],
+    "assets": [
+      {
+        "route": "/icons/panda-192.png",
+        "status": 200,
+        "bytes": 30832,
+        "type": "image/png",
+        "contains404": false,
+        "dimensions": [
+          192,
+          192
+        ]
+      },
+      {
+        "route": "/icons/panda-512.png",
+        "status": 200,
+        "bytes": 121359,
+        "type": "image/png",
+        "contains404": false,
+        "dimensions": [
+          512,
+          512
+        ]
+      },
+      {
+        "route": "/icons/panda-maskable-512.png",
+        "status": 200,
+        "bytes": 60096,
+        "type": "image/png",
+        "contains404": false,
+        "dimensions": [
+          512,
+          512
+        ]
+      },
+      {
+        "route": "/icons/panda-180.png",
+        "status": 200,
+        "bytes": 27947,
+        "type": "image/png",
+        "contains404": false,
+        "dimensions": [
+          180,
+          180
+        ]
+      },
+      {
+        "route": "/favicon.ico",
+        "status": 200,
+        "bytes": 7091,
+        "type": "image/vnd.microsoft.icon",
+        "contains404": false
+      },
+      {
+        "route": "/manifest.webmanifest",
+        "status": 200,
+        "bytes": 512,
+        "type": "application/manifest+json; charset=utf-8",
+        "contains404": false
+      },
+      {
+        "route": "/curriculum-audit.json",
+        "status": 200,
+        "bytes": 150070,
+        "type": "application/json; charset=utf-8",
+        "contains404": false
+      }
+    ],
+    "negativeRoutes": [
+      {
+        "route": "/learn/not-a-subject/01",
+        "status": 404
+      },
+      {
+        "route": "/learn/finance/999",
+        "status": 404
+      },
+      {
+        "route": "/subjects/toString",
+        "status": 404
+      }
+    ]
+  },
+  "browser": {
+    "observations": [
+      {
+        "test": "20-to-21",
+        "path": "/learn/philosophy/21",
+        "heading": "Propositions and logical form",
+        "focused": true,
+        "stored": {
+          "version": 1,
+          "subjects": {
+            "philosophy": {
+              "completed": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20"
+              ],
+              "days": [
+                "2026-09-14"
+              ],
+              "interactions": 1
+            }
+          }
+        }
+      },
+      {
+        "test": "new-topic-completion-resume",
+        "footer": "PROFESSOR CITACHKA \u00b7 ACADEMIA MODE\n\nPUBLISHED CURRICULUM: 24 REGULAR LEVELS ACROSS 10 SUBJECTS, PLUS OPTIONAL RUSSIAN STRONG LANGUAGE. SEE EACH DEPARTMENT FOR ITS PUBLISHED COUNT. THE FULL REQUESTED CURRICULUM IS NOT YET AUTHORED.",
+        "resume": "/learn/philosophy/22",
+        "storage": {
+          "version": 1,
+          "subjects": {
+            "philosophy": {
+              "completed": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21"
+              ],
+              "days": [
+                "2026-09-14"
+              ],
+              "interactions": 2
+            }
+          }
+        },
+        "wrongAnswer": {
+          "feedback": "Not quite. An object is not true or false. Supply a complete declarative claim for each letter, then translate the relations among those claims. Reread the worked example and try again.",
+          "blocked": true
+        }
+      },
+      {
+        "path": "/learn/philosophy/31",
+        "heading": "Gettier cases and epistemic luck",
+        "overflow": false,
+        "test": "boundary-30"
+      },
+      {
+        "path": "/learn/philosophy/41",
+        "heading": "Hume\u2019s problem of induction",
+        "overflow": false,
+        "test": "boundary-40"
+      },
+      {
+        "path": "/learn/philosophy/51",
+        "heading": "Act and rule consequentialism",
+        "overflow": false,
+        "test": "boundary-50"
+      },
+      {
+        "path": "/subjects/philosophy",
+        "heading": "Philosophy",
+        "overflow": false,
+        "test": "boundary-60"
+      },
+      {
+        "heading": "Literature",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-literature"
+      },
+      {
+        "heading": "Russian Study Map",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 100 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. Also available: one optional ten-topic strong-language unit; these course levels are not CEFR certification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-russian"
+      },
+      {
+        "heading": "Neuroscience",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-neuroscience"
+      },
+      {
+        "heading": "Veterinary Science",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-veterinary-science"
+      },
+      {
+        "heading": "Catholic Theology",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-theology"
+      },
+      {
+        "heading": "Finance",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-finance"
+      },
+      {
+        "heading": "Music",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-music"
+      },
+      {
+        "heading": "Skincare",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-skincare"
+      },
+      {
+        "heading": "Psychiatry",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-psychiatry"
+      },
+      {
+        "heading": "Philosophy",
+        "width": 390,
+        "documentWidth": 390,
+        "scope": "Published now: 6 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+        "test": "mobile-philosophy"
+      },
+      {
+        "test": "mobile-capstone",
+        "title": "Capstone: justify an accessible public service",
+        "overflow": false,
+        "panels": [
+          {
+            "background": "rgba(0, 0, 0, 0)",
+            "opacity": "1"
+          },
+          {
+            "background": "rgba(0, 0, 0, 0)",
+            "opacity": "1"
+          },
+          {
+            "background": "rgba(0, 0, 0, 0)",
+            "opacity": "1"
+          }
+        ],
+        "font": "19px",
+        "blocked": true
+      },
+      {
+        "test": "storage-restored",
+        "passed": true
+      }
+    ],
+    "isolation": "Named isolated browser with synthetic prerequisite records for boundary tests. Original storage restored. No user study history changed.",
+    "coverage": "Old-to-new transition 20\u219221; actual new-topic wrong-answer gate, completion, auto-next and dashboard resume; 30\u219231, 40\u219241, 50\u219251, 60\u2192department; all ten departments at 390px with no document overflow; mobile capstone; desktop and mobile screenshots visually inspected. This is sampled interaction QA, not manual completion of all topics or a new exhaustive Russian speech audit."
+  },
+  "diagnostics": [
+    "Expected RED failures preceded content integration and dynamic published-count changes; the final full suite passes.",
+    "Bare vercel command was unavailable; npx vercel successfully deployed and inspect read back READY and production aliases."
+  ],
+  "curriculumAudit": "/curriculum-audit.json",
+  "limitations": [
+    "240 regular path topics plus a 10-topic explicit-language supplement are published; the requested 550-level curriculum is not finished.",
+    "Structural completeness and unique wording are not a certification of instructional depth. Philosophy levels 3\u20136 contain individually authored argument analysis, epistemology, philosophy of science, and normative ethics; they do not stand in for the remaining 44 requested Philosophy levels.",
+    "Browser-local storage only; no account/cloud sync. Storage failures use explicitly labeled session-only memory. Legacy preexisting study dates are not invented.",
+    "Free-text responses are length-gated and self-reviewed, not semantically graded by an AI or teacher.",
+    "Russian speech uses the device browser voice; no recorded native-speaker audio is claimed. Missing Russian voices or blocked playback are reported in the interface.",
+    "Clinical programs are educational and do not qualify or authorize diagnosis, treatment, prescribing, or animal procedures.",
+    "External audiobooks require a library card or purchase; no audio is hosted or purchased by this site."
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "path": "/_next/static/immutable/chunks/04yqdh5mdkshx.js",
+    "status": 200,
+    "bytes": 17837,
+    "sha256": "893ff2aa9247dece98a63b36c42916a1f95909e2a2c9a3036152fb9bdb889298"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+    "status": 200,
+    "bytes": 112594,
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/0h1s07hcmkzo6.js",
+    "status": 200,
+    "bytes": 32139,
+    "sha256": "d0455099601ef3cce00c25a699033a0c27711e7e2645a597a1772da75a6de3d5"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/0hnu9xwkpmez1.js",
+    "status": 200,
+    "bytes": 30223,
+    "sha256": "60abdc76d2087bb8387515b2343479db72086b3f2c134e1a1e0593c15043662c"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/0nlf1-ye5dpqb.js",
+    "status": 200,
+    "bytes": 229631,
+    "sha256": "2ffe4124c584f4e52ab6730b933172b5b36cfc135487f68d7248f87f35e3e38a"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/0v6dxoofaht2t.js",
+    "status": 200,
+    "bytes": 176339,
+    "sha256": "7b9e290942477ad28dfe0f9736b0d5578f2b6f21967b5fc843d3618246e29b54"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/13pw9pg98_y6-.js",
+    "status": 200,
+    "bytes": 41317,
+    "sha256": "9246bef236a65734f59bf9671fa6f2cb5fea2cb73774d71098b66a40504e4eee"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/1ugybwbu3__ik.js",
+    "status": 200,
+    "bytes": 39100,
+    "sha256": "d74247ebe6f0c0caf520f4856da1510e6d143eb3348d2dff0f39c57f0893f34b"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/211wceq6s1k_i.js",
+    "status": 200,
+    "bytes": 40339,
+    "sha256": "e8825a541358491fdecfe5a82a95d88d4b7cc526de649c55eebff45f644fd225"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2dd1o8johc3xq.js",
+    "status": 200,
+    "bytes": 46722,
+    "sha256": "934a4c5619ff3acb35de1267c402f74b40387db5ad07323359ff2d0937135a5a"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2e2dnaj4voxw3.js",
+    "status": 200,
+    "bytes": 177723,
+    "sha256": "cd385b21882ec2d8da704e2c2b28b800a1eaeb7a72a6065f9147f69fa062d07c"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2kbgyh_dpedms.css",
+    "status": 200,
+    "bytes": 3472,
+    "sha256": "858187b3124b28866701ed0c8d86415aeb3792e5c8ec6f1fb1a3adf93095b5e2"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2lwuhb5dyp3ga.js",
+    "status": 200,
+    "bytes": 35791,
+    "sha256": "333475a8a038b70487b844d085220fa7c14a5b778ae283f25b697fe969c0f319"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2rk5q1ycd0dq0.js",
+    "status": 200,
+    "bytes": 35709,
+    "sha256": "13f0b45504efc5893d9ff03db0188973176a1177a08c6bf9ccbcb5e6bdbc4a18"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/2u_ip_zcihqqi.js",
+    "status": 200,
+    "bytes": 61292,
+    "sha256": "d1b0d3be14ba3731471d1ac8a371bfc181cc6eb591c598988ced5816f77d6d1d"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/3046jpv-9ghga.css",
+    "status": 200,
+    "bytes": 63090,
+    "sha256": "6316e378a32a737893794f23905ffad5bcef9c969cc93c2c11e7ffd4ad9b1c84"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/3ct445roejjkh.js",
+    "status": 200,
+    "bytes": 23558,
+    "sha256": "acae8ef72ea008c5f229d8413485b155b54644a8bb7db257036c31c8c9366668"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/3jpjhawt8338-.js",
+    "status": 200,
+    "bytes": 30943,
+    "sha256": "ad3ff612f72bca2ef8667463242faad7cf8cd9f9b3990eddbed56f498cd3fba6"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/43blpklyh3ons.js",
+    "status": 200,
+    "bytes": 36655,
+    "sha256": "7fbeb7392164a7e59652a233201a3c337388eaa9e7c8fd1f1b8f1d6f5f85cfcf"
+  },
+  {
+    "path": "/_next/static/immutable/chunks/turbopack-21za0u7nt_wc0.js",
+    "status": 200,
+    "bytes": 9718,
+    "sha256": "edd64b77b98907e93eaba33c298b4abdad0856cb102e1c107276f4c2730ee680"
+  },
+  {
+    "path": "/images/monchhichi-wallpaper.jpg",
+    "status": 200,
+    "bytes": 111444,
+    "sha256": "c509fca2baed8bf2a5a2260989bcc6ee50ee991caf496108ecb59424ad44ece9"
+  },
+  {
+    "path": "/manifest.webmanifest",
+    "status": 200,
+    "bytes": 512,
+    "sha256": "4f8452fe0f65d272cdb20a8c31affc575095388890eb91a5a36819f50677a59c"
+  }
+]

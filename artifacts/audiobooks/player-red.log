@@ -1,0 +1,1819 @@
+
+> professor-citachka@0.1.0 test
+> vitest run src/app/subjects/literature/AudiobookPlayer.test.tsx --reporter=dot
+
+
+ RUN  v4.1.11 /Users/<user>/professor-citachka
+
+xxxxxxx
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 7 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/app/subjects/literature/AudiobookPlayer.test.tsx > reports failed storage and keeps session-only listening usable
+TestingLibraryElementError: Unable to find an element with the text: /position could not be saved/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<section[39m
+      [33maria-label[39m=[32m"Jane Eyre audiobook"[39m
+      [33mclass[39m=[32m"_audio_56ae13"[39m
+    [36m>[39m
+      [36m<h3>[39m
+        [0mListen here · [0m
+        [0mJane Eyre[0m
+      [36m</h3>[39m
+      [36m<p>[39m
+        [0mRead by [0m
+        [0mElizabeth Klett[0m
+        [0m for LibriVox · [0m
+        [0mComplete novel[0m
+        [0m · [0m
+        [0m38[0m
+        [0m audio sections.[0m
+      [36m</p>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-chapter"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m chapter[0m
+      [36m</label>[39m
+      [36m<select[39m
+        [33mid[39m=[32m"jane-eyre-chapter"[39m
+      [36m>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"0"[39m
+        [36m>[39m
+          [0m01 - Chapter 01[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1"[39m
+        [36m>[39m
+          [0m02 - Chapter 02[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"2"[39m
+        [36m>[39m
+          [0m03 - Chapter 03[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"3"[39m
+        [36m>[39m
+          [0m04 - Chapter 04[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"4"[39m
+        [36m>[39m
+          [0m05 - Chapter 05[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"5"[39m
+        [36m>[39m
+          [0m06 - Chapter 06[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"6"[39m
+        [36m>[39m
+          [0m07 - Chapter 07[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"7"[39m
+        [36m>[39m
+          [0m08 - Chapter 08[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"8"[39m
+        [36m>[39m
+          [0m09 - Chapter 9[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"9"[39m
+        [36m>[39m
+          [0m10 - Chapter 10[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"10"[39m
+        [36m>[39m
+          [0m11 - Chapter 11[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"11"[39m
+        [36m>[39m
+          [0m12 - Chapter 12[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"12"[39m
+        [36m>[39m
+          [0m13 - Chapter 13[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"13"[39m
+        [36m>[39m
+          [0m14 - Chapter 14[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"14"[39m
+        [36m>[39m
+          [0m15 - Chapter 15[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"15"[39m
+        [36m>[39m
+          [0m16 - Chapter 16[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"16"[39m
+        [36m>[39m
+          [0m17 - Chapter 17[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"17"[39m
+        [36m>[39m
+          [0m18 - Chapter 18[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"18"[39m
+        [36m>[39m
+          [0m19 - Chapter 19[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"19"[39m
+        [36m>[39m
+          [0m20 - Chapter 20[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"20"[39m
+        [36m>[39m
+          [0m21 - Chapter 21[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"21"[39m
+        [36m>[39m
+          [0m22 - Chapter 22[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"22"[39m
+        [36m>[39m
+          [0m23 - Chapter 23[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"23"[39m
+        [36m>[39m
+          [0m24 - Chapter 24[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"24"[39m
+        [36m>[39m
+          [0m25 - Chapter 25[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"25"[39m
+        [36m>[39m
+          [0m26 - Chapter 26[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"26"[39m
+        [36m>[39m
+          [0m27 - Chapter 27[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"27"[39m
+        [36m>[39m
+          [0m28 - Chapter 28[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"28"[39m
+        [36m>[39m
+          [0m29 - Chapter 29[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"29"[39m
+        [36m>[39m
+          [0m30 - Chapter 30[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"30"[39m
+        [36m>[39m
+          [0m31 - Chapter 31[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"31"[39m
+        [36m>[39m
+          [0m32 - Chapter 32[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"32"[39m
+        [36m>[39m
+          [0m33 - Chapter 33[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"33"[39m
+        [36m>[39m
+          [0m34 - Chapter 34[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"34"[39m
+        [36m>[39m
+          [0m35 - Chapter 35[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"35"[39m
+        [36m>[39m
+          [0m36 - Chapter 36[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"36"[39m
+        [36m>[39m
+          [0m37 - Chapter 37[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"37"[39m
+        [36m>[39m
+          [0m38 - Chapter 38, Conclusion[0m
+        [36m</option>[39m
+      [36m</select>[39m
+      [36m<audio[39m
+        [33maria-label[39m=[32m"Jane Eyre: 02 - Chapter 02"[39m
+        [33mcontrols[39m=[32m""[39m
+        [33mpreload[39m=[32m"none"[39m
+        [33msrc[39m=[32m"https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_02_bronte.mp3"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"_playerButtons_56ae13"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mPlay[0m
+          [0m [0m
+          [0mJane Eyre[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mdisabled[39m=[32m""[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mBack 15 seconds[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mdisabled[39m=[32m""[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mForward 15 seconds[0m
+        [36m</button>[39m
+      [36m</div>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-position"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m playback position · [0m
+        [0m0:00[0m
+        [0m / [0m
+        [0m0:00[0m
+      [36m</label>[39m
+      [36m<input[39m
+        [33maria-label[39m=[32m"Jane Eyre playback position"[39m
+        [33maria-valuetext[39m=[32m"0:00 of 0:00"[39m
+        [33mdisabled[39m=[32m""[39m
+        [33mid[39m=[32m"jane-eyre-position"[39m
+        [33mmax[39m=[32m"1"[39m
+        [33mmin[39m=[32m"0"[39m
+        [33mstep[39m=[32m"1"[39m
+        [33mtype[39m=[32m"range"[39m
+        [33mvalue[39m=[32m"0"[39m
+      [36m/>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-speed"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m playback speed[0m
+      [36m</label>[39m
+      [36m<select[39m
+        [33mid[39m=[32m"jane-eyre-speed"[39m
+      [36m>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"0.75"[39m
+        [36m>[39m
+          [0m0.75[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1"[39m
+        [36m>[39m
+          [0m1[0m
+          [0m×[0m
+          [0m · normal[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.25"[39m
+        [36m>[39m
+          [0m1.25[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.5"[39m
+        [36m>[39m
+          [0m1.5[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.75"[39m
+        [36m>[39m
+          [0m1.75[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"2"[39m
+        [36m>[39m
+          [0m2[0m
+          [0m×[0m
+        [36m</option>[39m
+      [36m</select>[39m
+      [36m<p>[39m
+        [0mListening position and speed are saved in this browser only when storage is available. This is separate from reading-guide progress.[0m
+      [36m</p>[39m
+      [36m<details>[39m
+        [36m<summary>[39m
+          [0mRecording credits and rights[0m
+        [36m</summary>[39m
+        [36m<p>[39m
+          [0mHuman narration by [0m
+          [0mElizabeth Klett[0m
+          [0m. Audio streamed from Internet Archive; playback stays on this page. LibriVox dedicates its recordings to the public domain in the USA. The underlying text is also public domain in the USA. Outside the USA, check local copyright law before listening or downloading.[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mCatalog: [0m
+          [0mhttps://librivox.org/jane-eyre-version-3-by-charlotte-bronte/[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mInternet Archive identifier: [0m
+          [0mjane_eyre_ver03_0809_librivox[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mArchive rights statement: [0m
+          [0mhttp://creativecommons.org/licenses/publicdomain/[0m
+        [36m</p>[39m
+      [36m</details>[39m
+    [36m</section>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/subjects/literature/AudiobookPlayer.test.tsx:19:17
+     17|   const { audio } = mount();
+     18|   fireEvent.change(screen.getByLabelText('Jane Eyre chapter'), { targe…
+     19|   expect(screen.getByText(/position could not be saved/i)).toBeVisible…
+       |                 ^
+     20|   expect(audio.src).toBe(props.recording.chapters[1].url);
+     21| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/7]⎯
+
+ FAIL  src/app/subjects/literature/AudiobookPlayer.test.tsx > shows loading, handles playback rejection and retries without leaving the site
+TestingLibraryElementError: Unable to find role="alert"
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<section[39m
+      [33maria-label[39m=[32m"Jane Eyre audiobook"[39m
+      [33mclass[39m=[32m"_audio_56ae13"[39m
+    [36m>[39m
+      [36m<h3>[39m
+        [0mListen here · [0m
+        [0mJane Eyre[0m
+      [36m</h3>[39m
+      [36m<p>[39m
+        [0mRead by [0m
+        [0mElizabeth Klett[0m
+        [0m for LibriVox · [0m
+        [0mComplete novel[0m
+        [0m · [0m
+        [0m38[0m
+        [0m audio sections.[0m
+      [36m</p>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-chapter"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m chapter[0m
+      [36m</label>[39m
+      [36m<select[39m
+        [33mid[39m=[32m"jane-eyre-chapter"[39m
+      [36m>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"0"[39m
+        [36m>[39m
+          [0m01 - Chapter 01[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1"[39m
+        [36m>[39m
+          [0m02 - Chapter 02[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"2"[39m
+        [36m>[39m
+          [0m03 - Chapter 03[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"3"[39m
+        [36m>[39m
+          [0m04 - Chapter 04[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"4"[39m
+        [36m>[39m
+          [0m05 - Chapter 05[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"5"[39m
+        [36m>[39m
+          [0m06 - Chapter 06[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"6"[39m
+        [36m>[39m
+          [0m07 - Chapter 07[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"7"[39m
+        [36m>[39m
+          [0m08 - Chapter 08[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"8"[39m
+        [36m>[39m
+          [0m09 - Chapter 9[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"9"[39m
+        [36m>[39m
+          [0m10 - Chapter 10[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"10"[39m
+        [36m>[39m
+          [0m11 - Chapter 11[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"11"[39m
+        [36m>[39m
+          [0m12 - Chapter 12[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"12"[39m
+        [36m>[39m
+          [0m13 - Chapter 13[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"13"[39m
+        [36m>[39m
+          [0m14 - Chapter 14[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"14"[39m
+        [36m>[39m
+          [0m15 - Chapter 15[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"15"[39m
+        [36m>[39m
+          [0m16 - Chapter 16[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"16"[39m
+        [36m>[39m
+          [0m17 - Chapter 17[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"17"[39m
+        [36m>[39m
+          [0m18 - Chapter 18[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"18"[39m
+        [36m>[39m
+          [0m19 - Chapter 19[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"19"[39m
+        [36m>[39m
+          [0m20 - Chapter 20[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"20"[39m
+        [36m>[39m
+          [0m21 - Chapter 21[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"21"[39m
+        [36m>[39m
+          [0m22 - Chapter 22[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"22"[39m
+        [36m>[39m
+          [0m23 - Chapter 23[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"23"[39m
+        [36m>[39m
+          [0m24 - Chapter 24[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"24"[39m
+        [36m>[39m
+          [0m25 - Chapter 25[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"25"[39m
+        [36m>[39m
+          [0m26 - Chapter 26[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"26"[39m
+        [36m>[39m
+          [0m27 - Chapter 27[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"27"[39m
+        [36m>[39m
+          [0m28 - Chapter 28[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"28"[39m
+        [36m>[39m
+          [0m29 - Chapter 29[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"29"[39m
+        [36m>[39m
+          [0m30 - Chapter 30[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"30"[39m
+        [36m>[39m
+          [0m31 - Chapter 31[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"31"[39m
+        [36m>[39m
+          [0m32 - Chapter 32[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"32"[39m
+        [36m>[39m
+          [0m33 - Chapter 33[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"33"[39m
+        [36m>[39m
+          [0m34 - Chapter 34[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"34"[39m
+        [36m>[39m
+          [0m35 - Chapter 35[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"35"[39m
+        [36m>[39m
+          [0m36 - Chapter 36[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"36"[39m
+        [36m>[39m
+          [0m37 - Chapter 37[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"37"[39m
+        [36m>[39m
+          [0m38 - Chapter 38, Conclusion[0m
+        [36m</option>[39m
+      [36m</select>[39m
+      [36m<audio[39m
+        [33maria-label[39m=[32m"Jane Eyre: 01 - Chapter 01"[39m
+        [33mcontrols[39m=[32m""[39m
+        [33mpreload[39m=[32m"none"[39m
+        [33msrc[39m=[32m"https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_01_bronte.mp3"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"_playerButtons_56ae13"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mPlay[0m
+          [0m [0m
+          [0mJane Eyre[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mdisabled[39m=[32m""[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mBack 15 seconds[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mdisabled[39m=[32m""[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mForward 15 seconds[0m
+        [36m</button>[39m
+      [36m</div>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-position"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m playback position · [0m
+        [0m0:00[0m
+        [0m / [0m
+        [0m0:00[0m
+      [36m</label>[39m
+      [36m<input[39m
+        [33maria-label[39m=[32m"Jane Eyre playback position"[39m
+        [33maria-valuetext[39m=[32m"0:00 of 0:00"[39m
+        [33mdisabled[39m=[32m""[39m
+        [33mid[39m=[32m"jane-eyre-position"[39m
+        [33mmax[39m=[32m"1"[39m
+        [33mmin[39m=[32m"0"[39m
+        [33mstep[39m=[32m"1"[39m
+        [33mtype[39m=[32m"range"[39m
+        [33mvalue[39m=[32m"0"[39m
+      [36m/>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-speed"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m playback speed[0m
+      [36m</label>[39m
+      [36m<select[39m
+        [33mid[39m=[32m"jane-eyre-speed"[39m
+      [36m>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"0.75"[39m
+        [36m>[39m
+          [0m0.75[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1"[39m
+        [36m>[39m
+          [0m1[0m
+          [0m×[0m
+          [0m · normal[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.25"[39m
+        [36m>[39m
+          [0m1.25[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.5"[39m
+        [36m>[39m
+          [0m1.5[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.75"[39m
+        [36m>[39m
+          [0m1.75[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"2"[39m
+        [36m>[39m
+          [0m2[0m
+          [0m×[0m
+        [36m</option>[39m
+      [36m</select>[39m
+      [36m<p>[39m
+        [0mListening position and speed are saved in this browser only when storage is available. This is separate from reading-guide progress.[0m
+      [36m</p>[39m
+      [36m<details>[39m
+        [36m<summary>[39m
+          [0mRecording credits and rights[0m
+        [36m</summary>[39m
+        [36m<p>[39m
+          [0mHuman narration by [0m
+          [0mElizabeth Klett[0m
+          [0m. Audio streamed from Internet Archive; playback stays on this page. LibriVox dedicates its recordings to the public domain in the USA. The underlying text is also public domain in the USA. Outside the USA, check local copyright law before listening or downloading.[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mCatalog: [0m
+          [0mhttps://librivox.org/jane-eyre-version-3-by-charlotte-bronte/[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mInternet Archive identifier: [0m
+          [0mjane_eyre_ver03_0809_librivox[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mArchive rights statement: [0m
+          [0mhttp://creativecommons.org/licenses/publicdomain/[0m
+        [36m</p>[39m
+      [36m</details>[39m
+    [36m</section>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<section[39m
+        [33maria-label[39m=[32m"Jane Eyre audiobook"[39m
+        [33mclass[39m=[32m"_audio_56ae13"[39m
+      [36m>[39m
+        [36m<h3>[39m
+          [0mListen here · [0m
+          [0mJane Eyre[0m
+        [36m</h3>[39m
+        [36m<p>[39m
+          [0mRead by [0m
+          [0mElizabeth Klett[0m
+          [0m for LibriVox · [0m
+          [0mComplete novel[0m
+          [0m · [0m
+          [0m38[0m
+          [0m audio sections.[0m
+        [36m</p>[39m
+        [36m<label[39m
+          [33mfor[39m=[32m"jane-eyre-chapter"[39m
+        [36m>[39m
+          [0mJane Eyre[0m
+          [0m chapter[0m
+        [36m</label>[39m
+        [36m<select[39m
+          [33mid[39m=[32m"jane-eyre-chapter"[39m
+        [36m>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"0"[39m
+          [36m>[39m
+            [0m01 - Chapter 01[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"1"[39m
+          [36m>[39m
+            [0m02 - Chapter 02[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"2"[39m
+          [36m>[39m
+            [0m03 - Chapter 03[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"3"[39m
+          [36m>[39m
+            [0m04 - Chapter 04[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"4"[39m
+          [36m>[39m
+            [0m05 - Chapter 05[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"5"[39m
+          [36m>[39m
+            [0m06 - Chapter 06[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"6"[39m
+          [36m>[39m
+            [0m07 - Chapter 07[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"7"[39m
+          [36m>[39m
+            [0m08 - Chapter 08[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"8"[39m
+          [36m>[39m
+            [0m09 - Chapter 9[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"9"[39m
+          [36m>[39m
+            [0m10 - Chapter 10[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"10"[39m
+          [36m>[39m
+            [0m11 - Chapter 11[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"11"[39m
+          [36m>[39m
+            [0m12 - Chapter 12[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"12"[39m
+          [36m>[39m
+            [0m13 - Chapter 13[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"13"[39m
+          [36m>[39m
+            [0m14 - Chapter 14[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"14"[39m
+          [36m>[39m
+            [0m15 - Chapter 15[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"15"[39m
+          [36m>[39m
+            [0m16 - Chapter 16[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"16"[39m
+          [36m>[39m
+            [0m17 - Chapter 17[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"17"[39m
+          [36m>[39m
+            [0m18 - Chapter 18[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"18"[39m
+          [36m>[39m
+            [0m19 - Chapter 19[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"19"[39m
+          [36m>[39m
+            [0m20 - Chapter 20[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"20"[39m
+          [36m>[39m
+            [0m21 - Chapter 21[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"21"[39m
+          [36m>[39m
+            [0m22 - Chapter 22[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"22"[39m
+          [36m>[39m
+            [0m23 - Chapter 23[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"23"[39m
+          [36m>[39m
+            [0m24 - Chapter 24[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"24"[39m
+          [36m>[39m
+            [0m25 - Chapter 25[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"25"[39m
+          [36m>[39m
+            [0m26 - Chapter 26[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"26"[39m
+          [36m>[39m
+            [0m27 - Chapter 27[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"27"[39m
+          [36m>[39m
+            [0m28 - Chapter 28[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"28"[39m
+          [36m>[39m
+            [0m29 - Chapter 29[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"29"[39m
+          [36m>[39m
+            [0m30 - Chapter 30[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"30"[39m
+          [36m>[39m
+            [0m31 - Chapter 31[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"31"[39m
+          [36m>[39m
+            [0m32 - Chapter 32[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"32"[39m
+          [36m>[39m
+            [0m33 - Chapter 33[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"33"[39m
+          [36m>[39m
+            [0m34 - Chapter 34[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"34"[39m
+          [36m>[39m
+            [0m35 - Chapter 35[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"35"[39m
+          [36m>[39m
+            [0m36 - Chapter 36[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"36"[39m
+          [36m>[39m
+            [0m37 - Chapter 37[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"37"[39m
+          [36m>[39m
+            [0m38 - Chapter 38, Conclusion[0m
+          [36m</option>[39m
+        [36m</select>[39m
+        [36m<audio[39m
+          [33maria-label[39m=[32m"Jane Eyre: 01 - Chapter 01"[39m
+          [33mcontrols[39m=[32m""[39m
+          [33mpreload[39m=[32m"none"[39m
+          [33msrc[39m=[32m"https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_01_bronte.mp3"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"_playerButtons_56ae13"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mPlay[0m
+            [0m [0m
+            [0mJane Eyre[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mdisabled[39m=[32m""[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mBack 15 seconds[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mdisabled[39m=[32m""[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mForward 15 seconds[0m
+          [36m</button>[39m
+        [36m</div>[39m
+        [36m<label[39m
+          [33mfor[39m=[32m"jane-eyre-position"[39m
+        [36m>[39m
+          [0mJane Eyre[0m
+          [0m playback position · [0m
+          [0m0:00[0m
+          [0m / [0m
+          [0m0:00[0m
+        [36m</label>[39m
+        [36m<input[39m
+          [33maria-label[39m=[32m"Jane Eyre playback position"[39m
+          [33maria-valuetext[39m=[32m"0:00 of 0:00"[39m
+          [33mdisabled[39m=[32m""[39m
+          [33mid[39m=[32m"jane-eyre-position"[39m
+          [33mmax[39m=[32m"1"[39m
+          [33mmin[39m=[32m"0"[39m
+          [33mstep[39m=[32m"1"[39m
+          [33mtype[39m=[32m"range"[39m
+          [33mvalue[39m=[32m"0"[39m
+        [36m/>[39m
+        [36m<label[39m
+          [33mfor[39m=[32m"jane-eyre-speed"[39m
+        [36m>[39m
+          [0mJane Eyre[0m
+          [0m playback speed[0m
+        [36m</label>[39m
+        [36m<select[39m
+          [33mid[39m=[32m"jane-eyre-speed"[39m
+        [36m>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"0.75"[39m
+          [36m>[39m
+            [0m0.75[0m
+            [0m×[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"1"[39m
+          [36m>[39m
+            [0m1[0m
+            [0m×[0m
+            [0m · normal[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"1.25"[39m
+          [36m>[39m
+            [0m1.25[0m
+            [0m×[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"1.5"[39m
+          [36m>[39m
+            [0m1.5[0m
+            [0m×[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"1.75"[39m
+          [36m>[39m
+            [0m1.75[0m
+            [0m×[0m
+          [36m</option>[39m
+          [36m<option[39m
+            [33mvalue[39m=[32m"2"[39m
+          [36m>[39m
+            [0m2[0m
+            [0m×[0m
+          [36m</option>[39m
+        [36m</select>[39m
+        [36m<p>[39m
+          [0mListening position and speed are saved in this browser only when storage is available. This is separate from reading-guide progress.[0m
+        [36m</p>[39m
+        [36m<details>[39m
+          [36m<summary>[39m
+            [0mRecording credits and rights[0m
+          [36m</summary>[39m
+          [36m<p>[39m
+            [0mHuman narration by [0m
+            [0mElizabeth Klett[0m
+            [0m. Audio streamed from Internet Archive; playback stays on this page. LibriVox dedicates its recordings to the public domain in the USA. The underlying text is also public domain in the USA. Outside the USA, check local copyright law before listening or downloading.[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mCatalog: [0m
+            [0mhttps://librivox.org/jane-eyre-version-3-by-charlotte-bronte/[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mInternet Archive identifier: [0m
+            [0mjane_eyre_ver03_0809_librivox[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mArchive rights statement: [0m
+            [0mhttp://creativecommons.org/licenses/publicdomain/[0m
+          [36m</p>[39m
+        [36m</details>[39m
+      [36m</section>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ❯ waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ❯ src/app/subjects/literature/AudiobookPlayer.test.tsx:27:9
+     25|   const { audio } = mount();
+     26|   fireEvent.click(screen.getByRole('button', { name: 'Play Jane Eyre' …
+     27|   await waitFor(() => expect(screen.getByRole('alert')).toHaveTextCont…
+       |         ^
+     28|   fireEvent.click(screen.getByRole('button', { name: 'Retry audio' }));
+     29|   expect(audio.load).toHaveBeenCalled();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/7]⎯
+
+ FAIL  src/app/subjects/literature/AudiobookPlayer.test.tsx > pauses another book when playback starts and offers the next chapter at the end
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Next chapter"
+
+Here are the accessible roles:
+
+  region:
+
+  Name "Jane Eyre audiobook":
+  [36m<section[39m
+    [33maria-label[39m=[32m"Jane Eyre audiobook"[39m
+    [33mclass[39m=[32m"_audio_56ae13"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "Listen here · Jane Eyre":
+  [36m<h3 />[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "Jane Eyre chapter":
+  [36m<select[39m
+    [33mid[39m=[32m"jane-eyre-chapter"[39m
+  [36m/>[39m
+
+  Name "Jane Eyre playback speed":
+  [36m<select[39m
+    [33mid[39m=[32m"jane-eyre-speed"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  option:
+
+  Name "01 - Chapter 01":
+  [36m<option[39m
+    [33mvalue[39m=[32m"0"[39m
+  [36m/>[39m
+
+  Name "02 - Chapter 02":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1"[39m
+  [36m/>[39m
+
+  Name "03 - Chapter 03":
+  [36m<option[39m
+    [33mvalue[39m=[32m"2"[39m
+  [36m/>[39m
+
+  Name "04 - Chapter 04":
+  [36m<option[39m
+    [33mvalue[39m=[32m"3"[39m
+  [36m/>[39m
+
+  Name "05 - Chapter 05":
+  [36m<option[39m
+    [33mvalue[39m=[32m"4"[39m
+  [36m/>[39m
+
+  Name "06 - Chapter 06":
+  [36m<option[39m
+    [33mvalue[39m=[32m"5"[39m
+  [36m/>[39m
+
+  Name "07 - Chapter 07":
+  [36m<option[39m
+    [33mvalue[39m=[32m"6"[39m
+  [36m/>[39m
+
+  Name "08 - Chapter 08":
+  [36m<option[39m
+    [33mvalue[39m=[32m"7"[39m
+  [36m/>[39m
+
+  Name "09 - Chapter 9":
+  [36m<option[39m
+    [33mvalue[39m=[32m"8"[39m
+  [36m/>[39m
+
+  Name "10 - Chapter 10":
+  [36m<option[39m
+    [33mvalue[39m=[32m"9"[39m
+  [36m/>[39m
+
+  Name "11 - Chapter 11":
+  [36m<option[39m
+    [33mvalue[39m=[32m"10"[39m
+  [36m/>[39m
+
+  Name "12 - Chapter 12":
+  [36m<option[39m
+    [33mvalue[39m=[32m"11"[39m
+  [36m/>[39m
+
+  Name "13 - Chapter 13":
+  [36m<option[39m
+    [33mvalue[39m=[32m"12"[39m
+  [36m/>[39m
+
+  Name "14 - Chapter 14":
+  [36m<option[39m
+    [33mvalue[39m=[32m"13"[39m
+  [36m/>[39m
+
+  Name "15 - Chapter 15":
+  [36m<option[39m
+    [33mvalue[39m=[32m"14"[39m
+  [36m/>[39m
+
+  Name "16 - Chapter 16":
+  [36m<option[39m
+    [33mvalue[39m=[32m"15"[39m
+  [36m/>[39m
+
+  Name "17 - Chapter 17":
+  [36m<option[39m
+    [33mvalue[39m=[32m"16"[39m
+  [36m/>[39m
+
+  Name "18 - Chapter 18":
+  [36m<option[39m
+    [33mvalue[39m=[32m"17"[39m
+  [36m/>[39m
+
+  Name "19 - Chapter 19":
+  [36m<option[39m
+    [33mvalue[39m=[32m"18"[39m
+  [36m/>[39m
+
+  Name "20 - Chapter 20":
+  [36m<option[39m
+    [33mvalue[39m=[32m"19"[39m
+  [36m/>[39m
+
+  Name "21 - Chapter 21":
+  [36m<option[39m
+    [33mvalue[39m=[32m"20"[39m
+  [36m/>[39m
+
+  Name "22 - Chapter 22":
+  [36m<option[39m
+    [33mvalue[39m=[32m"21"[39m
+  [36m/>[39m
+
+  Name "23 - Chapter 23":
+  [36m<option[39m
+    [33mvalue[39m=[32m"22"[39m
+  [36m/>[39m
+
+  Name "24 - Chapter 24":
+  [36m<option[39m
+    [33mvalue[39m=[32m"23"[39m
+  [36m/>[39m
+
+  Name "25 - Chapter 25":
+  [36m<option[39m
+    [33mvalue[39m=[32m"24"[39m
+  [36m/>[39m
+
+  Name "26 - Chapter 26":
+  [36m<option[39m
+    [33mvalue[39m=[32m"25"[39m
+  [36m/>[39m
+
+  Name "27 - Chapter 27":
+  [36m<option[39m
+    [33mvalue[39m=[32m"26"[39m
+  [36m/>[39m
+
+  Name "28 - Chapter 28":
+  [36m<option[39m
+    [33mvalue[39m=[32m"27"[39m
+  [36m/>[39m
+
+  Name "29 - Chapter 29":
+  [36m<option[39m
+    [33mvalue[39m=[32m"28"[39m
+  [36m/>[39m
+
+  Name "30 - Chapter 30":
+  [36m<option[39m
+    [33mvalue[39m=[32m"29"[39m
+  [36m/>[39m
+
+  Name "31 - Chapter 31":
+  [36m<option[39m
+    [33mvalue[39m=[32m"30"[39m
+  [36m/>[39m
+
+  Name "32 - Chapter 32":
+  [36m<option[39m
+    [33mvalue[39m=[32m"31"[39m
+  [36m/>[39m
+
+  Name "33 - Chapter 33":
+  [36m<option[39m
+    [33mvalue[39m=[32m"32"[39m
+  [36m/>[39m
+
+  Name "34 - Chapter 34":
+  [36m<option[39m
+    [33mvalue[39m=[32m"33"[39m
+  [36m/>[39m
+
+  Name "35 - Chapter 35":
+  [36m<option[39m
+    [33mvalue[39m=[32m"34"[39m
+  [36m/>[39m
+
+  Name "36 - Chapter 36":
+  [36m<option[39m
+    [33mvalue[39m=[32m"35"[39m
+  [36m/>[39m
+
+  Name "37 - Chapter 37":
+  [36m<option[39m
+    [33mvalue[39m=[32m"36"[39m
+  [36m/>[39m
+
+  Name "38 - Chapter 38, Conclusion":
+  [36m<option[39m
+    [33mvalue[39m=[32m"37"[39m
+  [36m/>[39m
+
+  Name "0.75×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"0.75"[39m
+  [36m/>[39m
+
+  Name "1× · normal":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1"[39m
+  [36m/>[39m
+
+  Name "1.25×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1.25"[39m
+  [36m/>[39m
+
+  Name "1.5×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1.5"[39m
+  [36m/>[39m
+
+  Name "1.75×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1.75"[39m
+  [36m/>[39m
+
+  Name "2×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"2"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "Pause Jane Eyre":
+  [36m<button[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Back 15 seconds":
+  [36m<button[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Forward 15 seconds":
+  [36m<button[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  slider:
+
+  Name "Jane Eyre playback position":
+  [36m<input[39m
+    [33maria-label[39m=[32m"Jane Eyre playback position"[39m
+    [33maria-valuetext[39m=[32m"0:00 of 0:00"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mid[39m=[32m"jane-eyre-position"[39m
+    [33mmax[39m=[32m"1"[39m
+    [33mmin[39m=[32m"0"[39m
+    [33mstep[39m=[32m"1"[39m
+    [33mtype[39m=[32m"range"[39m
+    [33mvalue[39m=[32m"0"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  group:
+
+  Name "":
+  [36m<details />[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<section[39m
+      [33maria-label[39m=[32m"Jane Eyre audiobook"[39m
+      [33mclass[39m=[32m"_audio_56ae13"[39m
+    [36m>[39m
+      [36m<h3>[39m
+        [0mListen here · [0m
+        [0mJane Eyre[0m
+      [36m</h3>[39m
+      [36m<p>[39m
+        [0mRead by [0m
+        [0mElizabeth Klett[0m
+        [0m for LibriVox · [0m
+        [0mComplete novel[0m
+        [0m · [0m
+        [0m38[0m
+        [0m audio sections.[0m
+      [36m</p>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-chapter"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m chapter[0m
+      [36m</label>[39m
+      [36m<select[39m
+        [33mid[39m=[32m"jane-eyre-chapter"[39m
+      [36m>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"0"[39m
+        [36m>[39m
+          [0m01 - Chapter 01[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1"[39m
+        [36m>[39m
+          [0m02 - Chapter 02[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"2"[39m
+        [36m>[39m
+          [0m03 - Chapter 03[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"3"[39m
+        [36m>[39m
+          [0m04 - Chapter 04[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"4"[39m
+        [36m>[39m
+          [0m05 - Chapter 05[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"5"[39m
+        [36m>[39m
+          [0m06 - Chapter 06[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"6"[39m
+        [36m>[39m
+          [0m07 - Chapter 07[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"7"[39m
+        [36m>[39m
+          [0m08 - Chapter 08[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"8"[39m
+        [36m>[39m
+          [0m09 - Chapter 9[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"9"[39m
+        [36m>[39m
+          [0m10 - Chapter 10[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"10"[39m
+        [36m>[39m
+          [0m11 - Chapter 11[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"11"[39m
+        [36m>[39m
+          [0m12 - Chapter 12[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"12"[39m
+        [36m>[39m
+          [0m13 - Chapter 13[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"13"[39m
+        [36m>[39m
+          [0m14 - Chapter 14[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"14"[39m
+        [36m>[39m
+          [0m15 - Chapter 15[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"15"[39m
+        [36m>[39m
+          [0m16 - Chapter 16[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"16"[39m
+        [36m>[39m
+          [0m17 - Chapter 17[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"17"[39m
+        [36m>[39m
+          [0m18 - Chapter 18[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"18"[39m
+        [36m>[39m
+          [0m19 - Chapter 19[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"19"[39m
+        [36m>[39m
+          [0m20 - Chapter 20[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"20"[39m
+        [36m>[39m
+          [0m21 - Chapter 21[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"21"[39m
+        [36m>[39m
+          [0m22 - Chapter 22[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"22"[39m
+        [36m>[39m
+          [0m23 - Chapter 23[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"23"[39m
+        [36m>[39m
+          [0m24 - Chapter 24[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"24"[39m
+        [36m>[39m
+          [0m25 - Chapter 25[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"25"[39m
+        [36m>[39m
+          [0m26 - Chapter 26[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"26"[39m
+        [36m>[39m
+          [0m27 - Chapter 27[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"27"[39m
+        [36m>[39m
+          [0m28 - Chapter 28[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"28"[39m
+        [36m>[39m
+          [0m29 - Chapter 29[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"29"[39m
+        [36m>[39m
+          [0m30 - Chapter 30[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"30"[39m
+        [36m>[39m
+          [0m31 - Chapter 31[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"31"[39m
+        [36m>[39m
+          [0m32 - Chapter 32[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"32"[39m
+        [36m>[39m
+          [0m33 - Chapter 33[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"33"[39m
+        [36m>[39m
+          [0m34 - Chapter 34[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"34"[39m
+        [36m>[39m
+          [0m35 - Chapter 35[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"35"[39m
+        [36m>[39m
+          [0m36 - Chapter 36[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"36"[39m
+        [36m>[39m
+          [0m37 - Chapter 37[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"37"[39m
+        [36m>[39m
+          [0m38 - Chapter 38, Conclusion[0m
+        [36m</option>[39m
+      [36m</select>[39m
+      [36m<audio[39m
+        [33maria-label[39m=[32m"Jane Eyre: 01 - Chapter 01"[39m
+        [33mcontrols[39m=[32m""[39m
+        [33mpreload[39m=[32m"none"[39m
+        [33msrc[39m=[32m"https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_01_bronte.mp3"[39m
+      [36m/>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"_playerButtons_56ae13"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mPause[0m
+          [0m [0m
+          [0mJane Eyre[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mdisabled[39m=[32m""[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mBack 15 seconds[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mdisabled[39m=[32m""[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mForward 15 seconds[0m
+        [36m</button>[39m
+      [36m</div>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-position"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m playback position · [0m
+        [0m0:00[0m
+        [0m / [0m
+        [0m0:00[0m
+      [36m</label>[39m
+      [36m<input[39m
+        [33maria-label[39m=[32m"Jane Eyre playback position"[39m
+        [33maria-valuetext[39m=[32m"0:00 of 0:00"[39m
+        [33mdisabled[39m=[32m""[39m
+        [33mid[39m=[32m"jane-eyre-position"[39m
+        [33mmax[39m=[32m"1"[39m
+        [33mmin[39m=[32m"0"[39m
+        [33mstep[39m=[32m"1"[39m
+        [33mtype[39m=[32m"range"[39m
+        [33mvalue[39m=[32m"0"[39m
+      [36m/>[39m
+      [36m<label[39m
+        [33mfor[39m=[32m"jane-eyre-speed"[39m
+      [36m>[39m
+        [0mJane Eyre[0m
+        [0m playback speed[0m
+      [36m</label>[39m
+      [36m<select[39m
+        [33mid[39m=[32m"jane-eyre-speed"[39m
+      [36m>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"0.75"[39m
+        [36m>[39m
+          [0m0.75[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1"[39m
+        [36m>[39m
+          [0m1[0m
+          [0m×[0m
+          [0m · normal[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.25"[39m
+        [36m>[39m
+          [0m1.25[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.5"[39m
+        [36m>[39m
+          [0m1.5[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"1.75"[39m
+        [36m>[39m
+          [0m1.75[0m
+          [0m×[0m
+        [36m</option>[39m
+        [36m<option[39m
+          [33mvalue[39m=[32m"2"[39m
+        [36m>[39m
+          [0m2[0m
+          [0m×[0m
+        [36m</option>[39m
+      [36m</select>[39m
+      [36m<p>[39m
+        [0mListening position and speed are saved in this browser only when storage is available. This is separate from reading-guide progress.[0m
+      [36m</p>[39m
+      [36m<details>[39m
+        [36m<summary>[39m
+          [0mRecording credits and rights[0m
+        [36m</summary>[39m
+        [36m<p>[39m
+          [0mHuman narration by [0m
+          [0mElizabeth Klett[0m
+          [0m. Audio streamed from Internet Archive; playback stays on this page. LibriVox dedicates its recordings to the public domain in the USA. The underlying text is also public domain in the USA. Outside the USA, check local copyright law before listening or downloading.[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mCatalog: [0m
+          [0mhttps://librivox.org/jane-eyre-version-3-by-charlotte-bronte/[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mInternet Archive identifier: [0m
+          [0mjane_eyre_ver03_0809_librivox[0m
+        [36m</p>[39m
+        [36m<p>[39m
+          [0mArchive rights statement: [0m
+          [0mhttp://creativecommons.org/licenses/publicdomain/[0m
+        [36m</p>[39m
+      [36m</details>[39m
+    [36m</section>[39m
+  [36m</div>[39m
+  [36m<audio />[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/subjects/literature/AudiobookPlayer.test.tsx:45:26
+     43|   expect(pause).toHaveBeenCalled();
+     44|   fireEvent.ended(audio);
+     45|   fireEvent.click(screen.getByRole('button', { name: 'Next chapter' })…
+       |                          ^
+     46|   expect(audio.src).toBe(props.recording.chapters[1].url);
+     47|   other.remove();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/7]⎯
+
+ FAIL  src/app/subjects/literature/AudiobookPlayer.test.tsx > ignores invalid saved audio: {broken
+ FAIL  src/app/subjects/literature/AudiobookPlayer.test.tsx > ignores invalid saved audio: {"recording":"jane_eyre_ver03_0809_librivox","chapter":999,"position":-1,"speed":77}
+AssertionError: expected '' to be 'https://archive.org/download/jane_eyr…' // Object.is equality
+
+- Expected
++ Received
+
+- https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_01_bronte.mp3
+
+ ❯ src/app/subjects/literature/AudiobookPlayer.test.tsx:53:21
+     51|   localStorage.setItem('citachka-audio-jane-eyre-v1', saved);
+     52|   const { audio } = mount();
+     53|   expect(audio.src).toBe(props.recording.chapters[0].url);
+       |                     ^
+     54| });
+     55|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/7]⎯
+
+ FAIL  src/app/subjects/literature/AudiobookPlayer.test.tsx > restores a separately saved chapter, position and speed without autoplay
+AssertionError: expected 1 to be 1.25 // Object.is equality
+
+- Expected
++ Received
+
+- 1.25
++ 1
+
+ ❯ src/app/subjects/literature/AudiobookPlayer.test.tsx:70:33
+     68|   fireEvent.loadedMetadata(restored);
+     69|   expect(restored.currentTime).toBe(123);
+     70|   expect(restored.playbackRate).toBe(1.25);
+       |                                 ^
+     71|   expect(restored.play).not.toHaveBeenCalled();
+     72|   expect(localStorage.getItem('citachka-audio-pride-and-prejudice-v1')…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/7]⎯
+
+ FAIL  src/app/subjects/literature/AudiobookPlayer.test.tsx > plays on site with large explicit play, seek and speed controls and chapter selection
+AssertionError: expected '' to be 'none' // Object.is equality
+
+- Expected
++ Received
+
+- none
+
+ ❯ src/app/subjects/literature/AudiobookPlayer.test.tsx:77:25
+     75| it('plays on site with large explicit play, seek and speed controls an…
+     76|   const { audio } = mount();
+     77|   expect(audio.preload).toBe('none');
+       |                         ^
+     78|   fireEvent.click(screen.getByRole('button', { name: 'Play Jane Eyre' …
+     79|   expect(audio.play).toHaveBeenCalled();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/7]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  7 failed (7)
+   Start at  01:12:27
+   Duration  1.94s (transform 50ms, setup 92ms, import 58ms, tests 1.18s, environment 508ms)
+

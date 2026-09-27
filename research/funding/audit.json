@@ -1,0 +1,368 @@
+{
+  "authoredLevels": 5,
+  "requestedLevels": 50,
+  "remainingLevels": 45,
+  "authoredTopics": 50,
+  "topicsPerUnit": [
+    10,
+    10,
+    10,
+    10,
+    10
+  ],
+  "uniqueTitles": 50,
+  "workedExamples": 50,
+  "writingPrompts": 50,
+  "authoredModels": 50,
+  "selfReviewCriteria": 100,
+  "branchChecks": 50,
+  "sourceIds": [
+    3,
+    1,
+    10,
+    7,
+    2,
+    8,
+    4,
+    5,
+    6,
+    9
+  ],
+  "primarySources": 9,
+  "industrySources": 1,
+  "coverage": {
+    "mca": [
+      "11",
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "loc": [
+      "12",
+      "29"
+    ],
+    "heloc": [
+      "17"
+    ],
+    "creditRepair": [
+      "18"
+    ],
+    "consolidation": [
+      "19",
+      "26"
+    ],
+    "reverseConsolidation": [
+      "20",
+      "27",
+      "48"
+    ],
+    "termAndSba": [
+      "13",
+      "14"
+    ],
+    "equipment": [
+      "15",
+      "30"
+    ],
+    "invoice": [
+      "16",
+      "28"
+    ],
+    "salesLifecycle": [
+      "01",
+      "02",
+      "08",
+      "09",
+      "10",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "underwritingPrivacyGuaranteesStacking": [
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "advanced": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50"
+    ]
+  },
+  "allDepartments": [
+    {
+      "id": "russian",
+      "levels": 4,
+      "topics": 50
+    },
+    {
+      "id": "business-funding",
+      "levels": 6,
+      "topics": 60
+    },
+    {
+      "id": "literature",
+      "levels": 3,
+      "topics": 30
+    },
+    {
+      "id": "neuroscience",
+      "levels": 3,
+      "topics": 30
+    },
+    {
+      "id": "veterinary-science",
+      "levels": 3,
+      "topics": 30
+    },
+    {
+      "id": "theology",
+      "levels": 3,
+      "topics": 30
+    },
+    {
+      "id": "finance",
+      "levels": 3,
+      "topics": 30
+    },
+    {
+      "id": "music",
+      "levels": 3,
+      "topics": 30
+    },
+    {
+      "id": "skincare",
+      "levels": 3,
+      "topics": 30
+    },
+    {
+      "id": "psychiatry",
+      "levels": 3,
+      "topics": 30
+    },
+    {
+      "id": "philosophy",
+      "levels": 7,
+      "topics": 70
+    }
+  ],
+  "routes": [
+    {
+      "path": "/learn/business-funding/01",
+      "title": "Open with identity, relevance and permission"
+    },
+    {
+      "path": "/learn/business-funding/02",
+      "title": "Discover the business purpose before the product"
+    },
+    {
+      "path": "/learn/business-funding/03",
+      "title": "Distinguish revenue, profit and spendable cash"
+    },
+    {
+      "path": "/learn/business-funding/04",
+      "title": "Create a decision map without bypassing people"
+    },
+    {
+      "path": "/learn/business-funding/05",
+      "title": "Separate urgency from pressure"
+    },
+    {
+      "path": "/learn/business-funding/06",
+      "title": "Qualify out without humiliating the owner"
+    },
+    {
+      "path": "/learn/business-funding/07",
+      "title": "Turn product features into conditional relevance"
+    },
+    {
+      "path": "/learn/business-funding/08",
+      "title": "Handle “send me information” with consent"
+    },
+    {
+      "path": "/learn/business-funding/09",
+      "title": "Respect “not interested” and stop cleanly"
+    },
+    {
+      "path": "/learn/business-funding/10",
+      "title": "Close discovery with a teach-back summary"
+    },
+    {
+      "path": "/learn/business-funding/11",
+      "title": "MCA: receivables purchase is not a magic label"
+    },
+    {
+      "path": "/learn/business-funding/12",
+      "title": "Business LOC: availability is not a lump-sum advance"
+    },
+    {
+      "path": "/learn/business-funding/13",
+      "title": "Traditional term loans: repayment and asset life"
+    },
+    {
+      "path": "/learn/business-funding/14",
+      "title": "SBA financing: lender guarantee is not owner approval"
+    },
+    {
+      "path": "/learn/business-funding/15",
+      "title": "Equipment financing, leases and ownership"
+    },
+    {
+      "path": "/learn/business-funding/16",
+      "title": "Invoice financing versus factoring"
+    },
+    {
+      "path": "/learn/business-funding/17",
+      "title": "HELOC: a personal home is not business collateral by default"
+    },
+    {
+      "path": "/learn/business-funding/18",
+      "title": "Credit repair: legitimate disputes, not invented identities"
+    },
+    {
+      "path": "/learn/business-funding/19",
+      "title": "Consolidation: payoff, payment and total cost"
+    },
+    {
+      "path": "/learn/business-funding/20",
+      "title": "Reverse consolidation: interrogate the marketing term"
+    },
+    {
+      "path": "/learn/business-funding/21",
+      "title": "Gross advance, net proceeds and purchased amount"
+    },
+    {
+      "path": "/learn/business-funding/22",
+      "title": "Factor rate is not APR"
+    },
+    {
+      "path": "/learn/business-funding/23",
+      "title": "Daily remittances and the calendar"
+    },
+    {
+      "path": "/learn/business-funding/24",
+      "title": "Revenue share and reconciliation are different mechanisms"
+    },
+    {
+      "path": "/learn/business-funding/25",
+      "title": "Cash-flow headroom under a sales shock"
+    },
+    {
+      "path": "/learn/business-funding/26",
+      "title": "Consolidation arithmetic: relief can cost more"
+    },
+    {
+      "path": "/learn/business-funding/27",
+      "title": "Layered funding: count deposits and every debit"
+    },
+    {
+      "path": "/learn/business-funding/28",
+      "title": "Invoice reserves: reconcile the second cash receipt"
+    },
+    {
+      "path": "/learn/business-funding/29",
+      "title": "LOC availability and interest: state the convention"
+    },
+    {
+      "path": "/learn/business-funding/30",
+      "title": "Balloon and equipment total-outlay audit"
+    },
+    {
+      "path": "/learn/business-funding/31",
+      "title": "Build an underwriting file without rewriting reality"
+    },
+    {
+      "path": "/learn/business-funding/32",
+      "title": "Consent, secure channels and minimum necessary data"
+    },
+    {
+      "path": "/learn/business-funding/33",
+      "title": "Personal guarantees and UCC security interests"
+    },
+    {
+      "path": "/learn/business-funding/34",
+      "title": "Existing advances, stacking and payoff verification"
+    },
+    {
+      "path": "/learn/business-funding/35",
+      "title": "Build a comparable offer sheet"
+    },
+    {
+      "path": "/learn/business-funding/36",
+      "title": "Handle “the rate is too high” without deflection"
+    },
+    {
+      "path": "/learn/business-funding/37",
+      "title": "Welcome the accountant review"
+    },
+    {
+      "path": "/learn/business-funding/38",
+      "title": "Ask for an informed next step, not a pressured signature"
+    },
+    {
+      "path": "/learn/business-funding/39",
+      "title": "Funding-day verification and post-funding support"
+    },
+    {
+      "path": "/learn/business-funding/40",
+      "title": "Renewals are new decisions, not automatic wins"
+    },
+    {
+      "path": "/learn/business-funding/41",
+      "title": "Coverage ratios: numerator discipline and downside"
+    },
+    {
+      "path": "/learn/business-funding/42",
+      "title": "A weekly forecast can hide a midweek failure"
+    },
+    {
+      "path": "/learn/business-funding/43",
+      "title": "Renewal incremental economics without double counting"
+    },
+    {
+      "path": "/learn/business-funding/44",
+      "title": "Early payoff and prepayment: audit the exact wording"
+    },
+    {
+      "path": "/learn/business-funding/45",
+      "title": "Multi-product recommendation memo with a no-deal option"
+    },
+    {
+      "path": "/learn/business-funding/46",
+      "title": "State-specific disclosures and role boundaries"
+    },
+    {
+      "path": "/learn/business-funding/47",
+      "title": "Distress triage: do not finance an unexplained rescue"
+    },
+    {
+      "path": "/learn/business-funding/48",
+      "title": "Reverse-consolidation diligence: prove the exit"
+    },
+    {
+      "path": "/learn/business-funding/49",
+      "title": "Advanced roleplay: price, accountant and existing advances"
+    },
+    {
+      "path": "/learn/business-funding/50",
+      "title": "Capstone: defend a recommendation and the decision to decline"
+    }
+  ],
+  "limitations": [
+    "Structural counts do not establish expertise or pedagogical mastery.",
+    "45 requested levels are unfinished.",
+    "No browser rendering or real-browser interactions were tested; user-specific skill prohibits browser automation.",
+    "Written practice is not saved. Progress and study dates are browser-local.",
+    "No automated AI evaluation; writing quality is self-reviewed."
+  ]
+}

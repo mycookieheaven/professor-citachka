@@ -1,0 +1,98 @@
+
+> professor-citachka@0.1.0 test
+> vitest run src/components/ReadAloudControls.test.tsx
+
+
+ RUN  v4.1.11 /Users/<user>/professor-citachka
+
+ ❯ src/components/ReadAloudControls.test.tsx (2 tests | 2 failed) 68ms
+   × narrates teaching text with separate Russian language, excludes controls, supports speed and cancels on unmount 19ms
+   × does not claim reading started with no matching voice 47ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/components/ReadAloudControls.test.tsx > narrates teaching text with separate Russian language, excludes controls, supports speed and cancels on unmount
+TestingLibraryElementError: Unable to find a label with the text of: Reading speed
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<article[39m
+      [33mid[39m=[32m"teaching"[39m
+    [36m>[39m
+      [36m<h1>[39m
+        [0mA clear vowel[0m
+      [36m</h1>[39m
+      [36m<p>[39m
+        [0mRead [0m
+        [36m<strong[39m
+          [33mlang[39m=[32m"ru"[39m
+        [36m>[39m
+          [0mА[0m
+        [36m</strong>[39m
+        [0m as an open vowel.[0m
+      [36m</p>[39m
+      [36m<p[39m
+        [33mdata-skip-read-aloud[39m=[32m"true"[39m
+      [36m>[39m
+        [0mSource https://example.com[0m
+      [36m</p>[39m
+      [36m<fieldset>[39m
+        [36m<legend>[39m
+          [0mDo not read the quiz[0m
+        [36m</legend>[39m
+      [36m</fieldset>[39m
+      [36m<button>[39m
+        [0mDo not read a control[0m
+      [36m</button>[39m
+    [36m</article>[39m
+    [36m<aside[39m
+      [33maria-label[39m=[32m"Lesson read-aloud controls"[39m
+      [33mclass[39m=[32m"read-aloud-controls"[39m
+      [33mdata-skip-read-aloud[39m=[32m"true"[39m
+    [36m>[39m
+      [36m<div>[39m
+        [36m<strong>[39m
+          [0mListen to this lesson[0m
+        [36m</strong>[39m
+        [36m<span>[39m
+          [0mUses your device’s installed voices.[0m
+        [36m</span>[39m
+      [36m</div>[39m
+      [36m<button[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m>[39m
+        [0mRead lesson aloud[0m
+      [36m</button>[39m
+    [36m</aside>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ getAllByLabelText node_modules/@testing-library/dom/dist/queries/label-text.js:111:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/components/ReadAloudControls.test.tsx:9:26
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/components/ReadAloudControls.test.tsx > does not claim reading started with no matching voice
+AssertionError: expected [ Utterance{ lang: 'en-US', …(5) } ] to have a length of +0 but got 1
+
+- Expected
++ Received
+
+- 0
++ 1
+
+ ❯ src/components/ReadAloudControls.test.tsx:11:279
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed (2)
+   Start at  02:12:19
+   Duration  473ms (transform 27ms, setup 43ms, import 33ms, tests 68ms, environment 253ms)
+

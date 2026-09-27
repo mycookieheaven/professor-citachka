@@ -1,0 +1,1703 @@
+{
+ "subject": "russian",
+ "levels": [
+  {
+   "title": "From useful phrases to connected accounts",
+   "units": [
+    {
+     "title": "Who does what, where, and for whom",
+     "lessons": [
+      {
+       "id": "31",
+       "title": "Track the actor and the object",
+       "explanation": "Earlier you requested water with a noun that differed from its dictionary form. Now make that pattern productive. The objective is to distinguish the participant doing an action from the thing directly affected by it. Start with Книга (KNEE-ga) — book; dictionary form. In a reading statement, use Я читаю книгу (ya chee-TA-yu KNEE-gu) — I am reading a book / I read a book. The book remains the same object in the world, but its ending tells the listener how the noun participates in the sentence. A case is not a new species of book or a change in its physical properties. It is a grammatical form associated with a role. Learn a reliable small pattern before attempting a complete table of endings.",
+       "example": "Suppose a friend asks what you are doing, and you have a book open. Select yourself as the actor, select the present reading verb, and place the book in the direct-object role: Я читаю книгу (ya chee-TA-yu KNEE-gu) — I am reading a book / I read a book. The noun's dictionary ending represented by -a becomes -u in this construction. That noun change does not alter the tense. It also does not say that you finished reading. Translate the entire proposition rather than assigning a separate English word to every ending. Read the item slowly, preserving the stressed syllables; then join the words at a comfortable natural pace without forcing speed.",
+       "depth": {
+        "definitions": "The subject is the grammatical participant with which the finite verb normally agrees; here it is also the actor. A direct object is a participant selected directly by a transitive verb: here, the thing read. Transitive means that the verb can take a direct object. Nominative names the subject or dictionary form used here; accusative names the direct-object case used here. These definitions are starting points: not every subject is an intentional actor, and not every accusative phrase is a direct object. English preserves comparable pronoun contrasts in he versus him, even though ordinary nouns seldom change this way. Pronunciation key: capitals mark stressed syllables, hyphens divide convenient sound chunks, sh and zh approximate the corresponding hushing consonants, and kh is a breathy sound like Spanish j. The cue y after a consonant sometimes represents a Russian central vowel, not English ee. These Latin guides are approximate scaffolds, not phonetic transcriptions; use the item audio to hear soft consonants and unstressed vowels.",
+        "mechanism": "Make two decisions: function first, form second. Determine that the book is the object of reading, then retrieve the accusative singular appropriate to its noun pattern. Cornell explicitly separates what a case does from what its endings look and sound like.[1] For this regular -a noun, the accusative ending is -u.[2] But the rule is not “all objects end in -u.” Compare Я читаю журнал (ya chee-TA-yu zhoor-NAL) — I am reading a magazine / I read a magazine. This masculine inanimate noun has the same visible nominative and accusative form. A grammatical contrast need not have a unique visible ending in every word. Word order provides additional clues and helps organize old and new information. Keep neutral actor–verb–object order for these first productions rather than treating flexible Russian word order as random permutation.",
+        "secondExample": "Imagine two pictures: one reader holds a book and another holds a magazine. The corresponding captions are Я читаю книгу (ya chee-TA-yu KNEE-gu) — I am reading a book / I read a book and Я читаю журнал (ya chee-TA-yu zhoor-NAL) — I am reading a magazine / I read a magazine. Both nouns are accusative objects even though only the book visibly changes. The distinction is noun pattern, not whether magazines count as real objects. Spanish articles can make gender especially visible; Russian does not have a matching article in these sentences. Do not invent an extra word to represent English a or the. Context can tell listeners whether a particular book is meant. Some differences between languages concern what they leave unspecified, not what they fail to express.",
+        "mistake": "A predictable error copies the dictionary book form unchanged because English book remains book. Diagnose this by labeling actor, action, and object before correcting the ending. Another error adds -u to the magazine noun, overextending a genuine pattern. Place both model sentences on the same study card: one grammatical role, two surface patterns. If you identify the role correctly but hesitate over the form, record a retrieval gap rather than concluding that you understand nothing. Conversely, an accurately memorized sentence is not yet evidence that you can choose its form in a new situation.",
+        "application": "Optional practice: draw the two objects and produce one reading caption for each. Explain in English why only one noun visibly changes. Model response: both nouns are direct objects and accusative, but this book noun changes its ending whereas this masculine inanimate magazine noun does not. Self-review checks four features: actor, reading verb, correct object form, and no unsupported claim of finishing. Use each item's Slow and Natural controls when integrated; compare the stressed syllables rather than demanding accent imitation. If you prefer not to record speech, point to the forms and explain the distinction aloud. The activity is nonblocking and can be repeated later.",
+        "summary": "Case connects sentence role with word form. Preserve the distinction between assigning a case and spelling it. Next, the same library noun will represent either a location or a destination, showing that one case can serve more than one function."
+       },
+       "question": "Why can two direct objects have different-looking endings?",
+       "answer": "Their noun patterns realize the accusative differently.",
+       "distractor": "Every object must visibly end in -u.",
+       "correction": "Assign role first; retrieve the form according to noun class.",
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Nominative vs. Accusative case: form and function",
+         "url": "https://russian.cornell.edu/grammar/html/gr01_b_2_a.htm",
+         "note": "Nominative versus accusative: form and function. Read the distinction between a case’s role and its ending; the companion a-declension section supports the book form."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Accusative singular endings for a-declension",
+         "url": "https://russian.cornell.edu/grammar/html/gr01_b_2_c.htm",
+         "note": "Read the singular a-declension accusative examples supporting the book form."
+        }
+       ],
+       "visual": {
+        "title": "Track the actor and the object — reasoning sequence",
+        "description": "Find actor, reading action, and object.",
+        "steps": [
+         "Find actor, reading action, and object.",
+         "Assign accusative to the object.",
+         "Retrieve the noun-specific form."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Книга",
+         "latin": "KNEE-ga",
+         "meaning": "book; dictionary form"
+        },
+        {
+         "text": "Я читаю книгу",
+         "latin": "ya chee-TA-yu KNEE-gu",
+         "meaning": "I am reading a book / I read a book"
+        },
+        {
+         "text": "Я читаю журнал",
+         "latin": "ya chee-TA-yu zhoor-NAL",
+         "meaning": "I am reading a magazine / I read a magazine"
+        }
+       ]
+      },
+      {
+       "id": "32",
+       "title": "Separate location from destination",
+       "explanation": "The objective is to tell someone where you are and where you are going without confusing the two relations. Earlier you asked where the metro was and learned a going-home phrase. Compare Я в библиотеке (ya v beeb-lee-a-TYE-kye) — I am in the library with Я иду в библиотеку (ya ee-DOO v beeb-lee-a-TYE-ku) — I am going to the library on foot. The building is the same, and the short preposition is the same, but the noun ending differs. One sentence places you inside a setting; the other identifies the goal of a walking journey. English often signals this difference with in versus to. Russian can retain its preposition and change the following noun's case. Translating relationships is therefore more reliable than substituting words individually.",
+       "example": "A friend calls while you are among the library shelves. Ask which relationship you need: a current location, not a path. Choose Я в библиотеке (ya v beeb-lee-a-TYE-kye) — I am in the library. This present location statement normally has no overt equivalent of English am. On another day you leave home and tell your friend your immediate goal: Я иду в библиотеку (ya ee-DOO v beeb-lee-a-TYE-ku) — I am going to the library on foot. The walking verb supplies the action, and the destination uses accusative. The library is not a direct object that you read or carry; the preposition and directional meaning license this accusative. The case has more than one function, so it should not be memorized as a single English word.",
+       "depth": {
+        "definitions": "Location answers Где? (GDYE) — where?; location. Destination answers Куда? (ku-DA) — where to?; destination. The prepositional case is used after certain prepositions; here it marks location after the preposition meaning in. A preposition is a small word expressing a relationship with the phrase that follows. Government means that a word or construction requires a grammatical form, not political control. The destination construction governs accusative; the location construction here governs prepositional. Learn the two library forms together rather than generalizing their spelling immediately to every other noun. Names for forms help organize the evidence, but the communicative relationship should remain your first decision.",
+        "mechanism": "Cornell contrasts location with directed motion through the cases following the same prepositions.[3] A useful diagnostic is to ask whether the library describes where an activity happens or where a path leads. The mere presence of a motion verb is insufficient. A person can walk around inside a library, making it the setting of motion rather than its destination. Conversely, a planned destination can be named before anyone moves. Thus “motion always means accusative” is an unreliable shortcut. The supplied going sentence concerns a directed journey on foot, not every form of travel. A destination also does not assert arrival: someone can change plans halfway. Grammar identifies the kind of relationship being represented, not whether the journey succeeds.",
+        "secondExample": "A text message is supposed to update a friend's knowledge of your whereabouts. If you remain at home preparing to leave, a contextually appropriate going-to-library statement can express your immediate plan; the in-the-library statement would misrepresent your present location. Once you arrive, the latter becomes an accurate answer to the location question. Translate both back into English and identify their limits. The location sentence does not explain how you arrived; the destination sentence does not establish that you are already there. Neither sentence is defective simply because it leaves those matters open.",
+        "mistake": "A common error keeps the library form unchanged because the preposition looks the same in both sentences. Treat preposition plus case as a meaningful combination. Another error extends the familiar location ending to every noun. This lesson supplies a dependable library pair, not a complete algorithm for all declensions. Unknown nouns may have different endings or stress patterns. A third error adds a present equivalent of am because English requires one. The location model is already a complete ordinary Russian sentence; resist repairing it according to English syntax.",
+        "application": "Optional practice: draw one person inside a building and another on an arrow toward it. Match the supplied full sentences to the drawings. Model reasoning: the inside panel requires location and the learned prepositional form; the arrow panel requires a goal and the learned accusative form. Check relationship, noun form, verb presence, and truthfulness. Then shorten the arrow so it stops halfway and explain why arrival is still not established. As a transfer task, describe in English a person walking inside the building and explain why movement alone does not decide which case the setting needs. You may continue after the answer review.",
+        "summary": "Choose a relationship before choosing a case. The same place can be a setting or a goal, and its form follows the construction. Next you will describe the absence of a resource rather than the location of a person."
+       },
+       "question": "What does naming a destination fail to establish?",
+       "answer": "That the traveler has already arrived.",
+       "distractor": "That the destination is a goal.",
+       "correction": "A goal can be identified while the journey remains incomplete.",
+       "readings": [
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — Motion vs. location",
+         "url": "https://russian.cornell.edu/grammar/html/gr03_a_2.htm",
+         "note": "Motion versus location. Read the where/where-to contrast and the prepositional/accusative examples; legacy stress glyphs may display oddly."
+        }
+       ],
+       "visual": {
+        "title": "Separate location from destination — reasoning sequence",
+        "description": "Decide whether the library is a setting or a goal.",
+        "steps": [
+         "Decide whether the library is a setting or a goal.",
+         "Setting selects the supplied prepositional form.",
+         "Goal selects the supplied accusative form."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я в библиотеке",
+         "latin": "ya v beeb-lee-a-TYE-kye",
+         "meaning": "I am in the library"
+        },
+        {
+         "text": "Я иду в библиотеку",
+         "latin": "ya ee-DOO v beeb-lee-a-TYE-ku",
+         "meaning": "I am going to the library on foot"
+        },
+        {
+         "text": "Где?",
+         "latin": "GDYE",
+         "meaning": "where?; location"
+        },
+        {
+         "text": "Куда?",
+         "latin": "ku-DA",
+         "meaning": "where to?; destination"
+        }
+       ]
+      },
+      {
+       "id": "33",
+       "title": "Express missing resources with the genitive",
+       "explanation": "Your earlier possession formula can become a useful statement about absence. Compare У меня есть книга (u mee-NYA YEST KNEE-ga) — I have a book with У меня нет книги (u mee-NYA NYET KNEE-gee) — I do not have a book. Do not simply negate an English have while leaving all Russian forms unchanged. The negative-existence construction requires the missing thing in the genitive case. The objective is to distinguish lacking a resource from not performing an action with it, and to retrieve reliable forms for two useful resources. The book does not become a different object when its ending changes. Its role in a different construction explains the form. Learn the affirmative and negative sentences as a meaningful contrast rather than a collection of unrelated phrases.",
+       "example": "You and a partner are preparing to read. If a book is available to you, use У меня есть книга (u mee-NYA YEST KNEE-ga) — I have a book. If none is available, use У меня нет книги (u mee-NYA NYET KNEE-gee) — I do not have a book. Work outward from the central relationship: there is an absence; the book identifies what is absent; the opening phrase places that absence in your sphere of possession. I do not have a book is natural English. The rough literal structure “at me there is no book” can reveal the grammar but is not a polished translation. Depending on context, having may concern ownership or present availability. Someone can own a book and still lack one at the current meeting.",
+       "depth": {
+        "definitions": "Genitive names a case with several functions, including relationships involving possession, quantity, and absence. Those functions occur in different constructions and should not be collapsed into one rule. Existence concerns whether something is present in a relevant domain. A possessor phrase can attach that existence claim to a person. A noun pattern supplies the forms appropriate to each construction. Book and time do not share a complete set of endings merely because both can name missing resources. The term impersonal describes a construction without an ordinary nominative subject of the sort found in our reading sentence.",
+        "mechanism": "Cornell presents this negative construction as impersonal and marks the missing item with genitive.[4] Remove the explicit possessor and you get Нет книги (NYET KNEE-gee) — There is no book. Context must now establish the relevant setting: perhaps a bag, a desk, or a study meeting. This does not assert that no books exist anywhere. Everyday language routinely restricts claims to an understood situation. Also separate absence from action negation: lacking a book does not prevent reading an electronic text, while not reading says nothing about owning books. Russian has additional rules for objects under negated verbs, but those are not prerequisites for this clear absence construction. A single English negative word is not sufficient evidence for selecting genitive throughout an entire Russian sentence.",
+        "secondExample": "A study invitation may encounter a different problem: У меня нет времени (u mee-NYA NYET VRYE-mee-nee) — I do not have time. Time is the missing resource. Learn the phrase as a reliable unit rather than inventing its form by copying the book ending. It means you have no available time in this context, not that physical time has ceased to exist. The practical implications differ: lacking a book invites an offer to lend one; lacking time invites rescheduling. The grammar packages both as absence, but communication depends on what is missing. A listener needs the noun's meaning, not only the correct case label, to respond helpfully.",
+        "mistake": "The most likely form error retains the affirmative book form after the negative expression. Label the intended construction before repairing the ending: this is absence, not affirmative possession. Pair the two full sentences in practice. A more serious conceptual error calls genitive “the negative case” and applies it wherever an English translation contains not. Correct that by naming the limited construction explicitly. Another misunderstanding interprets lack of a resource as dislike of the activity. Nothing in the time or book sentence states a preference, so avoid adding that inference when translating.",
+        "application": "Optional practice: give two different replies to a study invitation, one for unavailable books and one for unavailable time. Explain what practical solution each suggests. Model response: the first makes borrowing relevant; the second makes scheduling relevant. Self-review checks the intended resource, its learned genitive form, the possessor phrase, and absence of invented claims about motivation. For a deeper check, remove the possessor from the book sentence and describe what additional context a listener would need. You may explain in English first, then speak the Russian model. This separates conceptual reasoning from pronunciation retrieval and makes your next practice target easier to identify.",
+        "summary": "A negative-existence construction selects the missing resource's form. Keep the domain, absence, and resource distinct. Next add a recipient to an action and learn why a person receiving a book is not the same grammatical participant as the book itself."
+       },
+       "question": "Which rule correctly describes this negative possession pattern?",
+       "answer": "The absent resource takes genitive in this construction.",
+       "distractor": "Every noun in every negative sentence must be genitive.",
+       "correction": "The local construction determines the case; English negation alone does not.",
+       "readings": [
+        {
+         "title": "[4] Cornell Beginning Russian Grammar — The net construction",
+         "url": "https://russian.cornell.edu/grammar/html/gr04_b_2_1.htm",
+         "note": "The net construction. Focus on present absence and possession; past and future forms on the source page are optional extension material."
+        }
+       ],
+       "visual": {
+        "title": "Express missing resources with the genitive — reasoning sequence",
+        "description": "Identify whose resource domain is relevant.",
+        "steps": [
+         "Identify whose resource domain is relevant.",
+         "State absence rather than an affirmative action.",
+         "Use the learned genitive form for the missing resource."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "У меня есть книга",
+         "latin": "u mee-NYA YEST KNEE-ga",
+         "meaning": "I have a book"
+        },
+        {
+         "text": "У меня нет книги",
+         "latin": "u mee-NYA NYET KNEE-gee",
+         "meaning": "I do not have a book"
+        },
+        {
+         "text": "У меня нет времени",
+         "latin": "u mee-NYA NYET VRYE-mee-nee",
+         "meaning": "I do not have time"
+        },
+        {
+         "text": "Нет книги",
+         "latin": "NYET KNEE-gee",
+         "meaning": "There is no book"
+        }
+       ]
+      },
+      {
+       "id": "34",
+       "title": "Give an object to a recipient",
+       "explanation": "A giving event contains more than one participant after the actor. The objective is to distinguish the transferred object from its recipient. Use Я даю книгу Анне (ya da-YU KNEE-gu AN-nye) — I am giving a book to Anna. The book is what changes hands; Anna receives it. Russian uses dative for this recipient. English can say give Anna a book or give a book to Anna, placing the same relation in different word orders. Do not infer from English position that Anna and book have identical Russian grammar. Analyze what each participant contributes to the event. Your earlier direct-object work remains useful: a new case adds another relationship rather than replacing the accusative everywhere.",
+       "example": "Imagine physically passing a book to Anna. Start with the giver, yourself. Choose the giving verb. Identify the thing given and retrieve the accusative book form. Finally identify to whom it is given and select Anna's dative form: Я даю книгу Анне (ya da-YU KNEE-gu AN-nye) — I am giving a book to Anna. Each form answers a different question. Saying the sentence slowly may help you attach endings to roles, but avoid treating every word as an isolated puzzle when speaking naturally. The supplied verb presents giving as a current action or a general activity in an appropriate context; it is not a special claim that the transfer has already been completed.",
+       "depth": {
+        "definitions": "A recipient receives an object or communication. An addressee is the person to whom a message is directed. Dative names the case used for that participant in these models. Indirect object is a traditional grammatical term often associated with such roles, though its definition and distribution vary across languages. Valency describes the participants a verb can or must combine with. Giving can involve giver, thing given, and recipient; writing can mention a text, an addressee, both, or neither when context fills the gaps. The dictionary name Анна (AN-na) — Anna; dictionary/subject form can appear in different forms without naming different people.",
+        "mechanism": "Learn verbs together with their participant patterns. Cornell lists giving and writing among verbs that take dative and cautions against assuming exact English equivalence.[5] Thus Я пишу Анне (ya pee-SHOO AN-nye) — I am writing to Anna uses dative even without a physical object passing between people at that moment. The message need not be named. Dative is also not a mechanical translation of every English to. A library destination from the previous lesson used a preposition and accusative, because a goal of motion is not the same relation as a recipient. Personhood alone cannot determine the case either: the same person can be subject, object, recipient, or companion in different constructions. Word order is one clue, but the verb pattern and noun forms are more dependable than simply counting positions.",
+        "secondExample": "Now compare Я даю Анне журнал (ya da-YU AN-nye zhoor-NAL) — I am giving Anna a magazine. Anna appears before the magazine, whereas in the first example she followed the book. The roles remain recoverable: the magazine is transferred and Anna receives it. Order may change emphasis or what sounds like new information. In a conversation already about Anna, a final magazine noun can naturally supply the new point. This is information structure: the organization of a message around what is known and what is being added. It does not mean any word order is equally natural. For your own first productions, retain a model order until a conversational context motivates a change.",
+        "mistake": "One error calls Anna a direct object solely because English can put her immediately after give. Another assigns all postverbal nouns the book's accusative pattern. Repair both by sketching an arrow: the object moves toward the recipient. A third error inserts the library destination preposition before Anna because English says to. Correct that by recovering the full giving pattern, not by declaring that Russian recipients never use prepositions in any construction. The reliable local rule is that this giving recipient is dative without an added destination preposition.",
+        "application": "Optional practice: describe one transfer and one act of writing using the supplied models. Name the object and recipient wherever each is expressed. Model explanation: the book is accusative in the transfer, Anna is dative in both examples, and the writing sentence leaves the message unspecified. Self-review checks correct role labels, Anna's learned form, an appropriate action, and no claim that Anna is the thing being written. Extend the task by explaining why replacing Anna with library in the same structure does not automatically produce the earlier going-to-library sentence. You must choose a construction that matches motion rather than transfer or communication.",
+        "summary": "Verbs organize participants. Keep what is given separate from who receives it, even when word order changes. In the next lesson, add a tool and distinguish using an object from being accompanied by a person."
+       },
+       "question": "What selects Anna’s dative form in the writing model?",
+       "answer": "Her addressee role in this verb pattern.",
+       "distractor": "Her position as any word following any verb.",
+       "correction": "Verb patterns and roles select forms; position alone is insufficient.",
+       "readings": [
+        {
+         "title": "[5] Cornell Beginning Russian Grammar — Use dative with certain verbs",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_a_2_1.htm",
+         "note": "Use dative with certain verbs. Read the indirect-object explanation and focus on giving and writing rather than memorizing the full list."
+        }
+       ],
+       "visual": {
+        "title": "Give an object to a recipient — reasoning sequence",
+        "description": "Identify giver/writer and recipient.",
+        "steps": [
+         "Identify giver/writer and recipient.",
+         "Mark the transferred object separately.",
+         "Use the supplied dative for Anna as addressee or recipient."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я даю книгу Анне",
+         "latin": "ya da-YU KNEE-gu AN-nye",
+         "meaning": "I am giving a book to Anna"
+        },
+        {
+         "text": "Я пишу Анне",
+         "latin": "ya pee-SHOO AN-nye",
+         "meaning": "I am writing to Anna"
+        },
+        {
+         "text": "Анна",
+         "latin": "AN-na",
+         "meaning": "Anna; dictionary/subject form"
+        },
+        {
+         "text": "Я даю Анне журнал",
+         "latin": "ya da-YU AN-nye zhoor-NAL",
+         "meaning": "I am giving Anna a magazine"
+        }
+       ]
+      },
+      {
+       "id": "35",
+       "title": "Use a tool and name a companion",
+       "explanation": "English with can describe several relationships. Writing with a pen uses an implement; walking with Anna involves a companion. The objective is to preserve those different meanings in Russian rather than copying one English preposition. Compare Я пишу ручкой (ya pee-SHOO ROOCH-kay) — I am writing with a pen and Я иду с Анной (ya ee-DOO s AN-nay) — I am going on foot with Anna. The implement is instrumental without a preposition meaning with; accompaniment uses a preposition plus instrumental. Both constructions involve the same case name but not the same syntax. This lesson finishes a small network of roles rather than every possible case function. You can now distinguish objects, settings, destinations, absent resources, recipients, tools, and companions.",
+       "example": "Suppose someone asks how you are producing a handwritten message. Choose writing as the action and a pen as the implement: Я пишу ручкой (ya pee-SHOO ROOCH-kay) — I am writing with a pen. The dictionary noun Ручка (ROOCH-ka) — pen; dictionary form has the instrumental form heard in the sentence. Do not automatically insert the preposition from the companion example. On leaving the library alongside Anna, use Я иду с Анной (ya ee-DOO s AN-nay) — I am going on foot with Anna. Anna participates beside you; she is not an implement used to perform walking. The choice begins with meaning and then selects grammar. This is a useful habit whenever one familiar English word has several possible Russian equivalents or constructions.",
+       "depth": {
+        "definitions": "Instrumental names the case associated here with a means and with accompaniment after a particular preposition. Means concerns how an action is carried out; accompaniment concerns someone or something participating alongside another. A construction pairs a form pattern with an interpretation. Bare instrumental for the pen is therefore distinct from preposition-plus-instrumental for the companion. The endings in these supplied singular examples are approximated as -ay in the pronunciation guide. That is a practical sound cue, not a universal rule covering every instrumental noun, gender, number, or stress pattern. Keep the complete models available as evidence.",
+        "mechanism": "Cornell explicitly warns English speakers not to insert the accompaniment preposition when an instrumental noun identifies a tool.[6] Translation must preserve relations rather than merely matching individual words. A recipient and implement can coexist: Я пишу Анне ручкой (ya pee-SHOO AN-nye ROOCH-kay) — I am writing to Anna with a pen. Anna answers to whom you write, while the pen answers what you use. The action remains writing but now has two distinct associated phrases. No noun's case follows simply from its distance from the verb. Instrumental also has other uses in more advanced constructions, so calling it only “the tool case” would become misleading. Treat these examples as stable islands from which to expand, while recognizing that a case's broader distribution cannot be reduced to one English preposition.",
+        "secondExample": "Draw two scenes. In the first, a message travels toward Anna while a pen touches the writer's paper. The expanded writing model fits. In the second, two people walk beside each other toward a library. The walking-with-Anna model fits. In the first scene Anna is a recipient; in the second she is a companion. People do not have one permanent grammatical case. Their relationship to a particular event determines the form. Similarly, a pen could be the thing given in another sentence rather than the means of writing. A semantic role belongs to the construction, not permanently to an object.",
+        "mistake": "A learner can retrieve an instrumental ending correctly yet still choose the wrong construction. Keep form errors and construction errors separate. A form error concerns the noun's shape; a construction error concerns the pattern in which that form occurs. Inserting the companion preposition into our pen-tool model is the latter. Another error assumes that every English with must share one Russian translation. Repair the assumption by paraphrasing English more precisely: using a pen versus accompanied by Anna. Those paraphrases reveal information hidden by the short preposition and make the Russian choice more intelligible.",
+        "application": "Optional unit project: sketch a study scene and describe reading a book, being in the library, and writing to Anna with a pen using this unit's models. Add a departure scene with Anna as companion. Model commentary: book is a direct object, library a setting, Anna a recipient in writing and companion in walking, and pen an implement. Self-review checks each relationship, its supplied form, and whether the scene supports the claim. Pronunciation review should preserve stress and intelligibility rather than reward imitation of an accent. If you know the form but forget the case name, record a terminology gap instead of treating successful communication as failure.",
+        "summary": "Choose the relationship, choose the construction, then retrieve its forms. The unit quiz samples those decisions in new scenarios, not unrestricted fluency. The next unit places activities and results in time so that these participants can appear in connected accounts."
+       },
+       "question": "What distinguishes our tool construction from accompaniment?",
+       "answer": "A means uses the supplied bare instrumental; a companion uses the supplied preposition plus instrumental.",
+       "distractor": "The English word with forces identical Russian constructions.",
+       "correction": "English with hides distinct relations that Russian expresses differently.",
+       "readings": [
+        {
+         "title": "[6] Cornell Beginning Russian Grammar — Instrumental for means",
+         "url": "https://russian.cornell.edu/grammar/html/gr06_a_2_1.htm",
+         "note": "Instrumental to express with or by means of. Read the implement examples and the warning about adding a preposition."
+        },
+        {
+         "title": "[12] Cornell Beginning Russian Grammar — Instrumental with accompaniment",
+         "url": "https://russian.cornell.edu/grammar/html/gr06_a_2_2.htm",
+         "note": "Read the accompaniment example contrasting along with and off."
+        }
+       ],
+       "visual": {
+        "title": "Use a tool and name a companion — reasoning sequence",
+        "description": "Decide between implement and companion.",
+        "steps": [
+         "Decide between implement and companion.",
+         "Implement: bare instrumental pen form.",
+         "Companion: preposition plus instrumental Anna form."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я пишу ручкой",
+         "latin": "ya pee-SHOO ROOCH-kay",
+         "meaning": "I am writing with a pen"
+        },
+        {
+         "text": "Я иду с Анной",
+         "latin": "ya ee-DOO s AN-nay",
+         "meaning": "I am going on foot with Anna"
+        },
+        {
+         "text": "Ручка",
+         "latin": "ROOCH-ka",
+         "meaning": "pen; dictionary form"
+        },
+        {
+         "text": "Я пишу Анне ручкой",
+         "latin": "ya pee-SHOO AN-nye ROOCH-kay",
+         "meaning": "I am writing to Anna with a pen"
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-31-a",
+       "prompt": "A learner says magazine cannot be accusative because its spelling is unchanged. What corrects the analysis?",
+       "answer": "Case can be present without a distinct visible ending.",
+       "distractor": "Only visibly changed nouns can be grammatical objects.",
+       "correction": "Role and form realization are different; this inanimate masculine object has an unchanged accusative.",
+       "reviewLessonIds": [
+        "31"
+       ]
+      },
+      {
+       "id": "uq-31-b",
+       "prompt": "A route map places the traveler halfway to the library. Which claim overstates the map?",
+       "answer": "The traveler is already inside the library.",
+       "distractor": "The library is the traveler’s goal.",
+       "correction": "An incomplete route can establish a goal but not arrival.",
+       "reviewLessonIds": [
+        "32"
+       ]
+      },
+      {
+       "id": "uq-31-c",
+       "prompt": "A partner offers to lend a book, but your obstacle is a busy schedule. Which reply fits?",
+       "answer": "Use the absence-of-time model.",
+       "distractor": "Use the absence-of-book model because all absence claims are interchangeable.",
+       "correction": "The missing resource determines the practical meaning even when the construction is shared.",
+       "reviewLessonIds": [
+        "33"
+       ]
+      },
+      {
+       "id": "uq-31-d",
+       "prompt": "A sketch shows a book moving from the speaker to Anna. Which analysis is correct?",
+       "answer": "Book is direct object; Anna is recipient.",
+       "distractor": "Anna is the transferred object; book is recipient.",
+       "correction": "The book changes hands, while Anna receives it.",
+       "reviewLessonIds": [
+        "31",
+        "34"
+       ]
+      },
+      {
+       "id": "uq-31-e",
+       "prompt": "Can writing to Anna with a pen name both an addressee and an implement?",
+       "answer": "Yes: dative and instrumental mark distinct relations.",
+       "distractor": "No: writing can have only one associated participant.",
+       "correction": "A verb can combine with phrases that fill different roles.",
+       "reviewLessonIds": [
+        "34",
+        "35"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Journeys, activities, and results across time",
+     "lessons": [
+      {
+       "id": "36",
+       "title": "One journey or a repeated walking routine",
+       "explanation": "You can distinguish a library location from a library destination. Now distinguish one directed journey from a recurring routine. Compare Я иду в библиотеку (ya ee-DOO v beeb-lee-a-TYE-ku) — I am going to the library on foot and Я хожу в библиотеку (ya ha-ZHOO v beeb-lee-a-TYE-ku) — I go to the library regularly. The destination phrase remains the same, while the verb changes the way the motion is presented. English go does not consistently reveal this difference on its own. The objective is to select an appropriate supplied walking model for a live travel update or a statement of habit. This distinction concerns motion pattern, not the importance of the destination or certainty of success. Learn to ask separate questions rather than seeking one ending that encodes everything.",
+       "example": "A friend calls while you are walking toward the library. Give the live update Я иду в библиотеку (ya ee-DOO v beeb-lee-a-TYE-ku) — I am going to the library on foot. You present one directed journey. Later someone asks about your study routine rather than your whereabouts. Reply Я хожу в библиотеку (ya ha-ZHOO v beeb-lee-a-TYE-ku) — I go to the library regularly. In that context you describe repeated visits, and you may be sitting at home when you speak. The accusative destination remains appropriate in both models because library is a goal of going, not merely the setting of another action. The routine sentence does not assert that you are moving now; the directed sentence does not assert that you have arrived.",
+       "depth": {
+        "definitions": "Teaching grammars call these patterns unidirectional and multidirectional, or one-way and non-one-way. Unidirectional presents movement along one direction on a particular occasion. Non-one-way includes several patterns: repeated trips, round trips in appropriate contexts, and movement without one sustained direction. Habit is the use practiced here. Both supplied motion verbs are imperfective. They are not a perfective–imperfective pair, a contrast developed in later lessons. A choice between two imperfective motion patterns is logically separate from presenting an activity versus a bounded event. A technical label helps only when attached to an understood distinction.",
+        "mechanism": "Cornell illustrates directed versus habitual going and also gives a non-one-way walking-around example.[8] Thus “the second verb always means habit” is too narrow. Context helps select the interpretation. A routine question highlights repeated visits; a live route update highlights a directed journey. Add explicit frequency with Я хожу в библиотеку каждый день (ya ha-ZHOO v beeb-lee-a-TYE-ku KAZH-dy DYEN) — I go to the library every day. The time phrase reinforces the habitual reading but does not replace the verb choice. Travel mode is another independent dimension: these are walking verbs, while ordinary vehicle travel requires another pair. A regular train journey cannot be translated accurately by copying a walking verb merely because English uses go for both. Also, a one-way description concerns the leg currently presented; it does not forbid a return journey later.",
+        "secondExample": "Return to the familiar Я иду домой (ya ee-DOO da-MOY) — I am going home on foot. It describes directed homeward movement, but home is expressed with a special destination adverb rather than the library's preposition-plus-noun pattern. Do not insert the library preposition automatically. This comparison reveals two decisions: choose the motion pattern, then choose an appropriate destination expression. Replacing library with home may require changing phrase structure rather than substituting a dictionary noun. Keep the full models available while learning their internal relationships. A natural English paraphrase can conceal grammatical distinctions that remain important in Russian.",
+        "mistake": "The first error uses one directed verb whenever English says go. Diagnose whether the context concerns an immediate route or a repeated pattern. The second calls the routine verb perfective because the trips usually end successfully. Aspect is not a tally of successful arrivals, and both verbs here are imperfective. The third assumes a one-way journey means never returning. The present outward leg can be one directed journey even if you return tonight. These corrections distinguish the event under discussion from the larger schedule into which it fits.",
+        "application": "Optional practice: write two captions for voice messages, one to a friend following your current journey and another explaining your library routine. Use the supplied models, then explain why the second could be true while you remain at home. Model answer: a routine summarizes repeated visits rather than reporting current movement. Self-review checks journey pattern, walking mode, destination, and absence of an invented arrival claim. For transfer, explain in English what additional knowledge would be required to describe a train commute. Do not generate that vocabulary by modifying the walking forms. Recognizing a knowledge boundary is more accurate than inventing a plausible word.",
+        "summary": "Motion pattern, travel mode, destination, and completion are separate choices. This lesson supplies a narrow walking contrast, not all motion verbs. Next use a regular past-tense pattern to describe earlier activities while preserving the participant roles from the first unit."
+       },
+       "question": "Why can a library routine sentence be true while you sit at home?",
+       "answer": "It describes repeated trips rather than present position.",
+       "distractor": "The destination noun loses its meaning in routines.",
+       "correction": "Habit summarizes repeated events; it is not a live location report.",
+       "readings": [
+        {
+         "title": "[8] Cornell Beginning Russian Grammar — One-way and non-one-way verbs of motion",
+         "url": "https://russian.cornell.edu/grammar/html/le57_62_a.htm",
+         "note": "One-way and non-one-way verbs of motion. Read the paired school examples and the walking-around extension; both types are imperfective."
+        }
+       ],
+       "visual": {
+        "title": "One journey or a repeated walking routine — reasoning sequence",
+        "description": "Select one directed journey or repeated visits.",
+        "steps": [
+         "Select one directed journey or repeated visits.",
+         "Keep walking mode separate from vehicle travel.",
+         "Retain a suitable destination; do not infer arrival."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я иду в библиотеку",
+         "latin": "ya ee-DOO v beeb-lee-a-TYE-ku",
+         "meaning": "I am going to the library on foot"
+        },
+        {
+         "text": "Я хожу в библиотеку",
+         "latin": "ya ha-ZHOO v beeb-lee-a-TYE-ku",
+         "meaning": "I go to the library regularly"
+        },
+        {
+         "text": "Я иду домой",
+         "latin": "ya ee-DOO da-MOY",
+         "meaning": "I am going home on foot"
+        },
+        {
+         "text": "Я хожу в библиотеку каждый день",
+         "latin": "ya ha-ZHOO v beeb-lee-a-TYE-ku KAZH-dy DYEN",
+         "meaning": "I go to the library every day"
+        }
+       ]
+      },
+      {
+       "id": "37",
+       "title": "Past agreement follows the subject",
+       "explanation": "Your earlier feminine past reading phrase can now become a productive pattern. Compare Я читала книгу (ya chee-TA-la KNEE-gu) — I read / was reading a book; feminine past and Я читал книгу (ya chee-TAL KNEE-gu) — I read / was reading a book; masculine past. The verb changes according to the singular subject's grammatical gender, while the book remains the direct object. The objective is to describe a past activity using the supplied subject pattern without making the verb agree with the object. Keep past agreement and noun case as separate decisions. This is an extension of familiar material, not an instruction to memorize all irregular Russian past forms. A reliable small set of contrasts supports later generalization better than an undifferentiated list.",
+       "example": "A speaker using feminine singular agreement reports an earlier reading session with Я читала книгу (ya chee-TA-la KNEE-gu) — I read / was reading a book; feminine past. A speaker using masculine agreement describes the same activity and object with Я читал книгу (ya chee-TAL KNEE-gu) — I read / was reading a book; masculine past. The book remains accusative. A group instead says Мы читали книгу (my chee-TA-lee KNEE-gu) — We read / were reading a book. The plural past form does not divide into feminine and masculine versions in the way singular forms do. Identify the subject first, select its past agreement pattern, and then preserve the noun's direct-object role. Do not change every word because one grammatical feature has changed. These examples isolate agreement by keeping the reading activity and object stable.",
+       "depth": {
+        "definitions": "Agreement is the matching of grammatical features between related words. In these past sentences, the verb matches the subject in gender and number, not through separate first-person and third-person endings. Number distinguishes singular from plural. An infinitive is a dictionary-style verb form, such as Читать (chee-TAT) — to read, that does not identify who acts or when. A suffix is a grammatical piece attached to a stem. The familiar regular past pattern combines a past marker with gender or number marking. Those terms describe evidence; they should not encourage mechanically producing unlearned irregular verbs.",
+        "mechanism": "Cornell explains regular past formation and subject agreement, while noting irregular stems, suffix behavior, and stress.[9] Reading illustrates the straightforward pattern. The first-person pronoun does not itself specify gender, so the singular past verb supplies a distinction absent from that pronoun. Plural agreement behaves differently and does not repeat the singular gender contrast. Grammatical gender should not be treated as an evaluation of a person's ability or social role. Use the forms appropriate to the speaker or reference rather than guessing from stereotypes. Time remains separate from aspect: all three reading models concern the past, yet none specifically asserts that the whole book was finished. A correct past ending cannot answer every question about an event's structure.",
+        "secondExample": "Now analyze Анна писала ручкой (AN-na pee-SA-la ROOCH-kay) — Anna wrote / was writing with a pen. Anna is the subject and controls feminine singular past agreement. The pen is an implement, so its instrumental form comes from the construction learned earlier. Its grammatical gender does not control the verb. This transfers the agreement principle from reading an object to writing with a tool. If subject and implement happen to share grammatical features, the resemblance is incidental. Locate the controller before matching endings, or you may produce a correct sentence for the wrong reason and fail as soon as the object or implement changes.",
+        "mistake": "A common error says the reading verb is feminine because the book noun is feminine. Test that account against the masculine speaker example: the book stays the same while the verb changes. Another imports English person agreement and expects different past endings for I and she even when both require feminine singular. That contrast is not required here. A third treats the regular infinitive-to-past recipe as universal. The motion family includes irregular past forms, so do not attach a regular ending to a familiar present motion form and assume the result is valid.",
+        "application": "Optional practice: make three columns for a feminine speaker, masculine speaker, and group reading. Circle what changes on the verb and mark what stays constant on the object. Model explanation: the subject controls past agreement; the book retains its accusative role. Then label subject, past verb, and implement in Anna's writing sentence. Self-review checks controller, number, learned verb form, and noun role. Explain why keeping an identical object across two sentences is useful evidence about what does not control the verb. Practice the forms you need actively, while retaining recognition of the complete contrast.",
+        "summary": "Past agreement and noun case operate together but answer different questions. A past activity can be reported without asserting its endpoint. The next lesson keeps the reading context and separates time from the presentation of a completed event."
+       },
+       "question": "What controls the past verb when a masculine speaker reads the same book?",
+       "answer": "The subject’s gender and number.",
+       "distractor": "The direct object’s gender.",
+       "correction": "The object is unchanged across speakers, while subject-controlled verb agreement changes.",
+       "readings": [
+        {
+         "title": "[9] Cornell Beginning Russian Grammar — The past tense",
+         "url": "https://russian.cornell.edu/grammar/html/gr02_c_1.htm",
+         "note": "The past tense. Read subject agreement and the caveat about irregular stems and stress; practice the supplied regular models."
+        }
+       ],
+       "visual": {
+        "title": "Past agreement follows the subject — reasoning sequence",
+        "description": "Identify the subject rather than the nearest noun.",
+        "steps": [
+         "Identify the subject rather than the nearest noun.",
+         "Choose singular gender or plural past agreement.",
+         "Keep object and implement case independent."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я читала книгу",
+         "latin": "ya chee-TA-la KNEE-gu",
+         "meaning": "I read / was reading a book; feminine past"
+        },
+        {
+         "text": "Я читал книгу",
+         "latin": "ya chee-TAL KNEE-gu",
+         "meaning": "I read / was reading a book; masculine past"
+        },
+        {
+         "text": "Мы читали книгу",
+         "latin": "my chee-TA-lee KNEE-gu",
+         "meaning": "We read / were reading a book"
+        },
+        {
+         "text": "Анна писала ручкой",
+         "latin": "AN-na pee-SA-la ROOCH-kay",
+         "meaning": "Anna wrote / was writing with a pen"
+        },
+        {
+         "text": "Читать",
+         "latin": "chee-TAT",
+         "meaning": "to read"
+        }
+       ]
+      },
+      {
+       "id": "38",
+       "title": "Activity versus a bounded reading event",
+       "explanation": "Past time does not by itself tell a listener whether a whole book was read through. Compare Я читала книгу (ya chee-TA-la KNEE-gu) — I read / was reading a book; feminine, activity-focused and Я прочитала книгу (ya pra-chee-TA-la KNEE-gu) — I read the book through / finished reading the book; feminine. Both are past with feminine singular agreement. The first presents reading as activity or reports its occurrence without specifically asserting completion. The second presents reading the book as a bounded whole. The objective is to select a report that fits the evidence rather than equating every past event with a finished result. This distinction is called aspect. Begin with a concrete contrast, and only then attach the grammatical labels.",
+       "example": "A reader spends the evening reading but stops halfway. The activity model Я читала книгу (ya chee-TA-la KNEE-gu) — I read / was reading a book; feminine, activity-focused fits, while the completed-event model would overstate the evidence. On another occasion she reads the entire book and reports readiness to discuss its ending. Use Я прочитала книгу (ya pra-chee-TA-la KNEE-gu) — I read the book through / finished reading the book; feminine to present that bounded result. First identify time: both events are earlier. Next identify viewpoint: activity or a bounded event. Finally retain feminine past agreement and the accusative object. The prefix changes the aspectual choice in this learned pair; it does not make the book change case or the subject become plural.",
+       "depth": {
+        "definitions": "Aspect is a grammatical way of presenting event structure and boundaries, distinct from tense, which locates an event in time. Imperfective labels Читать (chee-TAT) — to read; imperfective, and perfective labels Прочитать (pra-chee-TAT) — to read through; perfective. A bounded event is presented as a whole with a relevant limit. For this reading pair and book object, the limit is reading the book through. Perfective does not mean excellent or morally perfect; imperfective does not mean defective. They classify grammatical forms and uses rather than intellectual ability. An aspect partner is a related verb used for a corresponding aspectual presentation, but related verbs may differ in additional lexical meaning.",
+        "mechanism": "Cornell distinguishes aspect from tense and warns that an endpoint explanation is not a complete selection algorithm.[7] Two limits matter immediately. Imperfective does not assert failure to finish: it can report an activity without foregrounding its endpoint. An event completed in reality can sometimes be described imperfectively when discourse calls for that view. Conversely, not every perfective verb means finishing an entire object. Perfective verbs may package beginnings, single occurrences, or bounded stretches according to their lexical meaning. Learn real pairs and their uses rather than assuming a prefix performs the same operation on every verb. Spanish imperfect and preterite can help you notice viewpoint, but they do not provide a one-to-one translation system for Russian aspect.",
+        "secondExample": "Suppose a tutor asks what occupied your evening rather than whether an assignment is complete. An activity-focused reply can be relevant even if you happened to reach the final page. If a partner instead asks whether you can discuss the ending, the bounded report gives more relevant information about coverage. The event in the world may be identical, yet the communicative question differs. Grammar organizes what the speaker asserts and what remains implicit. This explains why aspect learning requires attention to conversational purposes as well as a physical timeline of actions.",
+        "mistake": "The seductive shortcut is “imperfective means unfinished.” Ask whether the sentence denies completion or merely leaves it unasserted. Our activity model does the latter. Another error treats the prefix as an English-style past marker. Both forms are already past through their endings; aspect adds an independent distinction. A third copies the prefix onto any verb whose English meaning seems finishable. That generates unreliable vocabulary. Keep the supplied pair together and consult a dictionary or an authoritative model when extending your inventory.",
+        "application": "Optional practice: make scenario A stop before the book's end and scenario B explicitly finish it for discussion. Match the supplied sentences to the intended reports. Model answer: A supports the activity report; B supports a bounded-event report foregrounding completion. Self-review checks time, subject agreement, object case, and whether the endpoint claim exceeds the evidence. Finally explain why a completed real-world reading does not make every imperfective description false. That explanation distinguishes a missing assertion from a denial and prevents an initially useful simplification from becoming a persistent misunderstanding.",
+        "summary": "Aspect concerns how an event is presented, not merely when it occurs. This pair makes a book-reading endpoint explicit without changing participant roles. The next lesson uses the distinction to form two different kinds of future statement."
+       },
+       "question": "Does imperfective past reading necessarily deny completion?",
+       "answer": "No; it does not specifically assert the endpoint.",
+       "distractor": "Yes; it always says completion was impossible.",
+       "correction": "Leaving an endpoint unasserted is not denying that it happened.",
+       "readings": [
+        {
+         "title": "[7] Cornell Beginning Russian Grammar — Verbs: aspect",
+         "url": "https://russian.cornell.edu/grammar/html/gr04_d.htm",
+         "note": "Verbs: aspect. Read the tense/aspect contrast and the author’s warning that endpoint descriptions are not a universal selection algorithm."
+        }
+       ],
+       "visual": {
+        "title": "Activity versus a bounded reading event — reasoning sequence",
+        "description": "Locate both models in past time.",
+        "steps": [
+         "Locate both models in past time.",
+         "Choose activity or bounded-event presentation.",
+         "Assert only what the scenario supports."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я читала книгу",
+         "latin": "ya chee-TA-la KNEE-gu",
+         "meaning": "I read / was reading a book; feminine, activity-focused"
+        },
+        {
+         "text": "Я прочитала книгу",
+         "latin": "ya pra-chee-TA-la KNEE-gu",
+         "meaning": "I read the book through / finished reading the book; feminine"
+        },
+        {
+         "text": "Читать",
+         "latin": "chee-TAT",
+         "meaning": "to read; imperfective"
+        },
+        {
+         "text": "Прочитать",
+         "latin": "pra-chee-TAT",
+         "meaning": "to read through; perfective"
+        }
+       ]
+      },
+      {
+       "id": "39",
+       "title": "Future activity and future result",
+       "explanation": "Your earlier future reading phrase described activity without specifying an entire book's completion. Compare Я буду читать книгу (ya BOO-du chee-TAT KNEE-gu) — I will read / be reading a book with Я прочитаю книгу (ya pra-chee-TA-yu KNEE-gu) — I will read the book through. The first combines a future auxiliary with an imperfective infinitive. The second uses a perfective verb with personal endings and projects a bounded event. The objective is to select a future construction matching the content of a plan. Allocating an afternoon to reading need not promise a completed book. A plan to read the book through includes the endpoint in what is projected, but grammatical form cannot guarantee that reality will fulfill a prediction or promise.",
+       "example": "You reserve tomorrow afternoon for reading and do not know how far you will get. Choose Я буду читать книгу (ya BOO-du chee-TAT KNEE-gu) — I will read / be reading a book. The auxiliary places the activity in the future; the infinitive identifies reading. If you instead undertake to read the assigned book through before discussion, use Я прочитаю книгу (ya pra-chee-TA-yu KNEE-gu) — I will read the book through without adding another future auxiliary. Compare present Я читаю книгу (ya chee-TA-yu KNEE-gu) — I am reading a book / I read a book with the perfective future. Their personal endings can look related, but aspect changes their basic time interpretation. Identify aspect before automatically calling a personal form present tense. English will does not reveal the full structure of either Russian option.",
+       "depth": {
+        "definitions": "An auxiliary is a helping verb contributing grammatical information to another verb. An infinitive does not agree with the actor. In the compound future, the auxiliary carries the personal form while the imperfective infinitive stays unchanged. Non-past endings are personal endings whose basic time interpretation depends on aspect: imperfective normally expresses present in these models, while perfective expresses future. A projected endpoint belongs to the content of a prediction, intention, or promise. It is not evidence that the event has occurred, nor a measure of how trustworthy the speaker is.",
+        "mechanism": "Cornell lays out both future patterns and contrasts them with present and past forms.[10] This explains why an English-style future helper cannot simply be added to every Russian infinitive. It also explains why the perfective personal form is not an ordinary ongoing-present report. Special discourse uses exist beyond this basic chart; our goal is accurate ordinary literal production, not an exhaustive theory of tense. Add an explicit day with Завтра я буду читать (ZAF-tra ya BOO-du chee-TAT) — Tomorrow I will read / be reading. Tomorrow clarifies the temporal reference, while the verb construction presents future activity. A time adverb does not rescue an incorrectly assembled verb phrase. Keep the aspect choice and the future formation linked instead of treating them as unrelated memorization tasks.",
+        "secondExample": "Compare two study agreements. One learner will devote an evening to reading; another will read the book through. If discussion requires the ending, the second agreement addresses that requirement more directly. If the goal is a daily practice habit, the first may be more appropriate. Neither sentence alone establishes future success or states the book's length. The contrast concerns the intended event, not numerical probability. Translating the perfective as guaranteed completion would inflate the speaker's claim beyond what grammar itself warrants. A sincere plan may fail for reasons unrelated to its grammatical form.",
+        "mistake": "One error interprets the perfective personal form as present because it resembles a familiar present ending. Check aspect first. Another combines the future auxiliary with the perfective infinitive by borrowing pieces from both models. Keep these ordinary constructions separate. A third selects a result-oriented future merely to sound confident when the intended commitment is only to spend time reading. That is not simply a stylistic improvement: it changes what is promised. Choose the activity model when you intend to leave the endpoint open.",
+        "application": "Optional practice: write a calendar note reserving reading time and a separate commitment to finish the book for discussion. Match them to the supplied future models. Model explanation: the calendar note foregrounds activity and uses the compound imperfective future; the endpoint commitment uses the perfective future. Self-review checks aspect, verb construction, object form, and the scope of the promise. Then compare the present reading model with the perfective future and identify why their similar personal endings do not imply the same time. Explain in English first if that helps separate conceptual understanding from pronunciation retrieval.",
+        "summary": "Future reference has more than one grammatical route. Distinguish planned activity from a projected bounded event, and distinguish both from evidence of actual completion. The final lesson coordinates roles, movement, time, and aspect in a connected account."
+       },
+       "question": "Which model suits allocating reading time without an endpoint commitment?",
+       "answer": "Future auxiliary plus imperfective infinitive.",
+       "distractor": "Perfective infinitive with an extra future auxiliary.",
+       "correction": "The ordinary compound imperfective future presents activity; do not merge the two constructions.",
+       "readings": [
+        {
+         "title": "[10] Cornell Beginning Russian Grammar — Expressing past, present, and future",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_c_2.htm",
+         "note": "Expressing past, present, and future. Study the aspect-and-tense table, especially the two future patterns."
+        }
+       ],
+       "visual": {
+        "title": "Future activity and future result — reasoning sequence",
+        "description": "Choose activity or a bounded future event.",
+        "steps": [
+         "Choose activity or a bounded future event.",
+         "Activity: auxiliary plus imperfective infinitive.",
+         "Bounded event: supplied perfective personal form."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я буду читать книгу",
+         "latin": "ya BOO-du chee-TAT KNEE-gu",
+         "meaning": "I will read / be reading a book"
+        },
+        {
+         "text": "Я прочитаю книгу",
+         "latin": "ya pra-chee-TA-yu KNEE-gu",
+         "meaning": "I will read the book through"
+        },
+        {
+         "text": "Я читаю книгу",
+         "latin": "ya chee-TA-yu KNEE-gu",
+         "meaning": "I am reading a book / I read a book"
+        },
+        {
+         "text": "Завтра я буду читать",
+         "latin": "ZAF-tra ya BOO-du chee-TAT",
+         "meaning": "Tomorrow I will read / be reading"
+        }
+       ]
+      },
+      {
+       "id": "40",
+       "title": "Connect events without inventing results",
+       "explanation": "A connected account helps listeners recover who did what, where, and when without converting assumptions into asserted facts. The objective is to coordinate this level's constructions in a short sequence and explain the choices. Use three time anchors: yesterday, now, and tomorrow. Each sentence can remain simple. Connection does not require advanced subordinate clauses or new vocabulary added merely for decoration. Depth lies in coordinating event roles, temporal reference, motion pattern, and aspect accurately. A dependable short account is more useful than an elaborate paragraph whose grammar obscures what actually happened.",
+       "example": "Consider a modeled account from a speaker using feminine past agreement: Вчера я читала книгу в библиотеке (fchee-RA ya chee-TA-la KNEE-gu v beeb-lee-a-TYE-kye) — Yesterday I read / was reading a book in the library; feminine. Next, Сейчас я иду домой с Анной (see-CHAS ya ee-DOO da-MOY s AN-nay) — Now I am going home on foot with Anna. Finally, Завтра я прочитаю книгу (ZAF-tra ya pra-chee-TA-yu KNEE-gu) — Tomorrow I will read the book through. The first identifies past reading, its object, and its setting. The second updates a current directed journey and names a companion. The third projects a bounded future reading event. Analyze each sentence before speaking the sequence smoothly. Yesterday's activity does not specifically assert a completed book, so tomorrow's plan need not contradict it. The account also leaves today's starting point and Anna's activities yesterday unstated. Avoid adding them to the translation.",
+       "depth": {
+        "definitions": "A time anchor places an event relative to the moment of speaking or another reference point. Cohesion connects parts of a text: recurring participants, the book, and a temporal sequence help here. An assertion is what a speaker commits to saying; an inference is a conclusion a listener draws using context. A rubric is an explicit set of criteria for evaluating work. Our rubric separates communicative accuracy, grammatical form, and pronunciation intelligibility, so a difficulty in one dimension does not erase success in another. These distinctions make feedback more precise than a single impression of fluency.",
+        "mechanism": "The source tense chart distinguishes past, imperfective future activity, and perfective future event.[10] The aspect explanation cautions against reducing imperfective to noncompletion.[7] Apply both to the account. Yesterday's reading does not assert the final page was reached; tomorrow's perfective projects reading through. The repeated book creates continuity, but rereading remains possible, so do not infer that every future page must be new. In the current sentence, the walking verb presents one directed leg, the homeward adverb supplies the goal, and the accompaniment phrase supplies Anna's role. Each clause selects its own construction. A library location in one sentence does not force the next sentence to use a library-style noun phrase for home.",
+        "secondExample": "Change one fact: tomorrow contains only a limited reading period and no promise to read through. Substitute Завтра я буду читать книгу (ZAF-tra ya BOO-du chee-TAT KNEE-gu) — Tomorrow I will read / be reading a book for the final sentence and leave the earlier sentences unchanged. This controlled revision isolates the aspectual commitment while retaining time, subject, and object. Now change a different fact in English: Anna receives a written message rather than walks alongside the speaker. The accompaniment model cannot express that relation; choose the earlier writing-to-Anna construction. Some revisions require a different verb pattern, not merely one new noun ending. Track which part of meaning changes before editing the form.",
+        "mistake": "A common error allows one grammatical choice to spread across the sequence: yesterday's feminine past ending does not belong on tomorrow's personal future form. Another translates past activity as finished yesterday or directed walking as arrived now, inventing endpoints. A third treats recognizing the models as proof of independent production. Cover the model and attempt an account, then compare. If analysis is correct but retrieval slow, practice recall. If an unsupported inference persists, revisit the conceptual contrast instead of merely repeating the paragraph faster. Different errors deserve different practice.",
+        "application": "Optional level project: produce the three-sentence fictional account and revise its future when the plan changes. Model commentary: past agreement follows the speaker; book is accusative; library is a setting; the current walk is directed motion with a companion; future aspect distinguishes activity allocation from a projected result. Rubric: match the scenario, preserve participant roles, choose appropriate time and aspect, retain intelligible marked stress, and avoid unsupported English inferences. Mark each criterion secure, developing, or needs review, citing a sentence as evidence. No score from this small task certifies unrestricted fluency. Keep reading completion distinct from demonstrated production.",
+        "summary": "You have authored a bounded account, not mastered Russian grammar. Use the unit quiz and longer level assessment to locate gaps. Review case roles for participant confusion, motion patterns for routine-versus-route errors, and aspect for endpoint overclaims. Return later to the same task with the models covered to test durable retrieval."
+       },
+       "question": "What changes when tomorrow’s plan becomes activity without an endpoint commitment?",
+       "answer": "The future aspect/construction; the object role can remain unchanged.",
+       "distractor": "All earlier sentences must become future too.",
+       "correction": "Revise the changed commitment, not unrelated earlier events.",
+       "readings": [
+        {
+         "title": "[7] Cornell Beginning Russian Grammar — Verbs: aspect",
+         "url": "https://russian.cornell.edu/grammar/html/gr04_d.htm",
+         "note": "Revisit the aspect distinction and its limits while interpreting this lesson’s examples."
+        },
+        {
+         "title": "[10] Cornell Beginning Russian Grammar — Expressing past, present, and future",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_c_2.htm",
+         "note": "Expressing past, present, and future. Revisit the tense table while analyzing the original three-sentence teaching account."
+        }
+       ],
+       "visual": {
+        "title": "Connect events without inventing results — reasoning sequence",
+        "description": "Anchor each sentence in time.",
+        "steps": [
+         "Anchor each sentence in time.",
+         "Assign participant roles within each clause.",
+         "Choose activity or bounded event and audit inferences."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Вчера я читала книгу в библиотеке",
+         "latin": "fchee-RA ya chee-TA-la KNEE-gu v beeb-lee-a-TYE-kye",
+         "meaning": "Yesterday I read / was reading a book in the library; feminine"
+        },
+        {
+         "text": "Сейчас я иду домой с Анной",
+         "latin": "see-CHAS ya ee-DOO da-MOY s AN-nay",
+         "meaning": "Now I am going home on foot with Anna"
+        },
+        {
+         "text": "Завтра я прочитаю книгу",
+         "latin": "ZAF-tra ya pra-chee-TA-yu KNEE-gu",
+         "meaning": "Tomorrow I will read the book through"
+        },
+        {
+         "text": "Завтра я буду читать книгу",
+         "latin": "ZAF-tra ya BOO-du chee-TAT KNEE-gu",
+         "meaning": "Tomorrow I will read / be reading a book"
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-36-a",
+       "prompt": "At home, you describe walking to the library each weekday. Which model fits?",
+       "answer": "Repeated visits, even though you are not moving now.",
+       "distractor": "One directed current journey because all trips have goals.",
+       "correction": "The question concerns habit rather than current movement.",
+       "reviewLessonIds": [
+        "36"
+       ]
+      },
+      {
+       "id": "uq-36-b",
+       "prompt": "A group reports earlier reading of the same book. What changes from one feminine speaker’s report?",
+       "answer": "Past agreement becomes plural; book stays accusative.",
+       "distractor": "The book becomes the subject controlling feminine agreement.",
+       "correction": "The group controls agreement, while the book remains the thing read.",
+       "reviewLessonIds": [
+        "31",
+        "37"
+       ]
+      },
+      {
+       "id": "uq-36-c",
+       "prompt": "The reader stops halfway through the novel. Which evening report is justified?",
+       "answer": "Imperfective activity without an asserted endpoint.",
+       "distractor": "The supplied perfective report asserting reading through.",
+       "correction": "Do not assert an endpoint explicitly denied by the scenario.",
+       "reviewLessonIds": [
+        "38"
+       ]
+      },
+      {
+       "id": "uq-36-d",
+       "prompt": "A learner combines the future auxiliary and a perfective infinitive. Which correction fits our ordinary future patterns?",
+       "answer": "Keep compound imperfective and simple perfective future constructions separate.",
+       "distractor": "Add a second auxiliary to strengthen the future.",
+       "correction": "These are alternative patterns, not interchangeable pieces.",
+       "reviewLessonIds": [
+        "39"
+       ]
+      },
+      {
+       "id": "uq-36-e",
+       "prompt": "Yesterday’s reading activity precedes a plan to read through tomorrow. Is this necessarily contradictory?",
+       "answer": "No: the past activity does not itself assert completion.",
+       "distractor": "Yes: every past reading sentence means the whole book was finished.",
+       "correction": "Past time and endpoint assertion are distinct.",
+       "reviewLessonIds": [
+        "37",
+        "38",
+        "40"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "lq-31-a",
+     "prompt": "A feminine speaker reports reading a book yesterday. What must be handled independently?",
+     "answer": "Past agreement follows the subject; accusative follows the object role.",
+     "distractor": "Verb and book must receive the same feminine ending.",
+     "correction": "Agreement and case answer different questions in one clause.",
+     "reviewLessonIds": [
+      "31",
+      "37"
+     ]
+    },
+    {
+     "id": "lq-31-b",
+     "prompt": "A speaker regularly walks to the library but is now reading inside it. What distinction must the two statements preserve?",
+     "answer": "Repeated motion toward a destination versus activity in a location.",
+     "distractor": "Every library mention must retain one identical case form.",
+     "correction": "A goal and a setting select different constructions; habit is another dimension.",
+     "reviewLessonIds": [
+      "32",
+      "36"
+     ]
+    },
+    {
+     "id": "lq-31-c",
+     "prompt": "You lack a book now but plan to read tomorrow if you borrow one. What is accurate?",
+     "answer": "State present absence and future activity without asserting present possession.",
+     "distractor": "The future plan proves you already possess the book.",
+     "correction": "A future intention need not describe present resources.",
+     "reviewLessonIds": [
+      "33",
+      "39"
+     ]
+    },
+    {
+     "id": "lq-31-d",
+     "prompt": "Anna receives a message written using a pen. Which roles fit?",
+     "answer": "Anna: dative addressee; pen: instrumental means.",
+     "distractor": "Anna: instrumental tool; pen: dative addressee.",
+     "correction": "The person receives communication and the tool produces the writing.",
+     "reviewLessonIds": [
+      "34",
+      "35"
+     ]
+    },
+    {
+     "id": "lq-31-e",
+     "prompt": "The traveler is halfway home with Anna. Which expansion is unsupported?",
+     "answer": "I have already arrived home with Anna.",
+     "distractor": "I am on a directed homeward walk with Anna as companion.",
+     "correction": "Directed motion does not establish arrival.",
+     "reviewLessonIds": [
+      "35",
+      "36",
+      "40"
+     ]
+    },
+    {
+     "id": "lq-31-f",
+     "prompt": "A book was read through, but the question asks what occupied the evening. Must an imperfective report be false?",
+     "answer": "No: activity presentation can leave a real endpoint unasserted.",
+     "distractor": "Yes: imperfective always denies completion in reality.",
+     "correction": "Aspect organizes the assertion; an omitted endpoint is not a denial.",
+     "reviewLessonIds": [
+      "37",
+      "38"
+     ]
+    },
+    {
+     "id": "lq-31-g",
+     "prompt": "Tomorrow’s schedule reserves reading time without promising a whole-book result. Which combination fits?",
+     "answer": "Compound imperfective future with an accusative book object.",
+     "distractor": "Perfective future as a guarantee with a nominative book object.",
+     "correction": "Activity presentation changes neither the object’s role nor the limits of prediction.",
+     "reviewLessonIds": [
+      "31",
+      "39"
+     ]
+    },
+    {
+     "id": "lq-31-h",
+     "prompt": "A learner retrieves the pen ending correctly but adds the companion preposition. What feedback is diagnostic?",
+     "answer": "Review means versus accompaniment constructions, not only noun endings.",
+     "distractor": "Assume every instrumental form has been forgotten.",
+     "correction": "Construction errors can coexist with accurate form retrieval.",
+     "reviewLessonIds": [
+      "35",
+      "40"
+     ]
+    },
+    {
+     "id": "lq-31-i",
+     "prompt": "Anna receives a magazine whose accusative spelling is unchanged. Which analysis holds?",
+     "answer": "Magazine can be accusative while Anna is dative.",
+     "distractor": "Unchanged spelling makes magazine the recipient.",
+     "correction": "Visible form change alone does not determine case; Anna receives the object.",
+     "reviewLessonIds": [
+      "31",
+      "34"
+     ]
+    },
+    {
+     "id": "lq-31-j",
+     "prompt": "A learner calls routine walking perfective because trips often finish. What corrects the confusion?",
+     "answer": "Both supplied walking patterns are imperfective; motion pattern is a separate distinction.",
+     "distractor": "Multiple trips automatically make every verb perfective.",
+     "correction": "Successful real-world arrivals do not turn the learned motion pair into an aspect pair.",
+     "reviewLessonIds": [
+      "36",
+      "38"
+     ]
+    },
+    {
+     "id": "lq-31-k",
+     "prompt": "A past account changes from one reader to a group while book and library setting remain the same. What must change?",
+     "answer": "Past agreement becomes plural; object and location relations can remain.",
+     "distractor": "Library automatically changes from location to destination.",
+     "correction": "Subject number affects agreement, not whether the library is a setting.",
+     "reviewLessonIds": [
+      "32",
+      "37",
+      "40"
+     ]
+    },
+    {
+     "id": "lq-31-l",
+     "prompt": "A learner has read the level and recognizes models but cannot produce an account unaided. What should progress distinguish?",
+     "answer": "Reading completion from independent production, with targeted retrieval next.",
+     "distractor": "Reading completion as proof of unrestricted fluency.",
+     "correction": "Recognition and production supply different evidence about these bounded skills.",
+     "reviewLessonIds": [
+      "31",
+      "36",
+      "40"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Qualities, comparison, and connected speech",
+   "units": [
+    {
+     "title": "Comparing, ranking, and counting",
+     "lessons": [
+      {
+       "id": "41",
+       "title": "Adjectives copy their noun",
+       "explanation": "Russian adjectives change shape to match the noun they describe. They agree in gender, number, and case. English keeps one word forever: a new table, a new book, new shoes, a new idea. Russian does not. It says новый стол (NO-vyj stol, a new table) for a masculine noun, новая книга (NO-va-ya KNEE-ga, a new book) for a feminine one, новое окно (NO-va-ye ak-NO, a new window) for a neuter one, and новые дома (NO-vy-ye da-MA, new houses) for a plural. The ending is not decoration. It repeats information about the noun, so your listener hears the gender twice: once from the adjective and once from the noun. That redundancy is a gift. It keeps meaning intact when word order shifts, when a word is swallowed, or when someone speaks quickly past a word you missed. The dictionary form of an adjective ends in -ый or -ий, and that is the masculine form. Feminine changes it to -ая or -яя, neuter to -ое or -ее, and plural to -ые or -ие. The choice between the hard and soft versions follows the final consonant of the stem, not the meaning. Learn the four endings as one single pattern with four positions, never as four unrelated facts to memorize.",
+       "example": "Imagine you are describing a room to a friend. You see a table, a lamp, and two chairs. A Russian speaker says: это новый стол (EH-ta NO-vyj stol, this is a new table), это новая лампа (EH-ta NO-va-ya LAM-pa, this is a new lamp), and это новые стулья (EH-ta NO-vy-ye STOOL-ya, these are new chairs). Notice that the adjective changed three times while the meaning new never changed at all. The noun told the adjective what to do. You are not choosing an ending for your own convenience. You are obeying the noun you already said.",
+       "question": "A learner wants to say a new book and writes новый книга. What has gone wrong, and what rule repairs it?",
+       "answer": "The adjective kept its masculine dictionary ending while describing a feminine noun. The repair is to match the adjective to the noun: книга is feminine, so the adjective takes the feminine ending -ая and the phrase becomes новая книга.",
+       "distractor": "The noun книга should be changed into a masculine noun so that новый agrees with it.",
+       "correction": "You cannot change a noun's gender to suit an adjective; gender belongs to the noun. The adjective is the follower, so the adjective changes. книга is feminine by its ending and by usage, so the adjective becomes новая. This is why the reliable habit is to learn a noun together with its gender from the first day.",
+       "depth": {
+        "definitions": "Agreement is the requirement that a modifier carry the same gender, number, and case as the noun it modifies. The dictionary form of an adjective is its masculine nominative singular. A stem is the part of the word that carries meaning, before the ending is attached.",
+        "mechanism": "A Russian adjective carries an ending that encodes three things at once: gender, number, and case. When you build a phrase, the noun is the authority. The noun's ending announces its own gender, number, and case, and the adjective must broadcast the same values. Masculine nouns usually end in a consonant, feminine in -а or -я, neuter in -о or -е. Because the adjective copies the noun rather than leading it, the practical order of thought is: decide the noun and its role, then dress the adjective to match. This is why Russian tolerates flexible word order. Since agreement carries the grammatical information, moving words around does not destroy the sentence's meaning.",
+        "secondExample": "Compare a description of two different objects where only the noun changes: я вижу большой дом (ya VEE-zhoo bal-SHOJ dom, I see a big house) and я вижу большую книгу (ya VEE-zhoo bal-SHOO-yoo KNEE-goo, I see a big book). The adjective shifted twice: once for gender, once for case, because книга in this sentence is the direct object. The noun drove both changes.",
+        "mistake": "The commonest beginner error is freezing the adjective in its dictionary shape because that is the form in the word list. A second frequent error is matching the adjective to the gender of an English translation rather than the Russian noun; translation gender is irrelevant. A third is applying an ending by sound alone without checking the noun's case, which produces phrases that sound plausible but mark the wrong role.",
+        "application": "Choose five objects in the room around you. For each one, write a Russian phrase with an adjective plus noun, then say aloud which gender and number you matched and why. Model response for a window: новое окно (NO-va-ye ak-NO) uses the neuter ending -ое because окно is a neuter noun ending in -о. Then take the same five adjectives and deliberately attach each to a noun of a different gender, and note how many endings you had to change.",
+        "summary": "Russian adjectives agree with their noun in gender, number, and case. The noun is the authority and the adjective follows. Learn four endings as one pattern, and always learn a new noun with its gender attached."
+       },
+       "readings": [
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Reference overview of Russian morphology. Read the sections on adjectives and agreement to see the full ending tables in one place."
+        },
+        {
+         "title": "Russian declension",
+         "url": "https://en.wikipedia.org/wiki/Russian_declension",
+         "note": "Explains how endings carry gender, number, and case together. Useful for seeing why agreement is systematic rather than arbitrary."
+        }
+       ],
+       "visual": {
+        "title": "One adjective, four costumes",
+        "description": "A step sequence showing a single adjective changing to match four different nouns.",
+        "steps": [
+         "Start with the dictionary form новый, which is masculine.",
+         "Read the noun and identify its gender from its ending.",
+         "Copy the noun's gender and number onto the adjective ending.",
+         "Say the finished phrase aloud and check that both words agree."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "новый стол",
+         "latin": "NO-vyj stol",
+         "meaning": "a new table (masculine)"
+        },
+        {
+         "text": "новая книга",
+         "latin": "NO-va-ya KNEE-ga",
+         "meaning": "a new book (feminine)"
+        },
+        {
+         "text": "новое окно",
+         "latin": "NO-va-ye ak-NO",
+         "meaning": "a new window (neuter)"
+        },
+        {
+         "text": "новые дома",
+         "latin": "NO-vy-ye da-MA",
+         "meaning": "new houses (plural)"
+        }
+       ]
+      },
+      {
+       "id": "42",
+       "title": "Asking which one: какой",
+       "explanation": "The question word какой (ka-KOJ, which, what kind) behaves exactly like an adjective, so it also changes to match the noun it asks about. Masculine: какой. Feminine: какая. Neuter: какое. Plural: какие. This is convenient, because you already learned the adjective pattern in the previous lesson and can transfer it whole. Use какой when you are asking about a quality or an identity among options: какой фильм? (ka-KOJ feelm, which film?) asks the listener to select or describe. Compare this with кто (kto, who) for people as persons and что (shto, what) for things as things. The difference matters in conversation. If you ask что это? (SHTO EH-ta, what is this?) you are asking for a category or identity. If you ask какой это фильм? you are asking what kind of film it is, and the answer will be a description: good, long, old, French. Notice that как (kak, how) is a different word and asks about manner or degree, while какой asks about a characteristic attached to a noun. When the answer comes, it will arrive in the same shape as the question, which is how you can confirm you asked correctly.",
+       "example": "You are at a market looking at two bags. You point and ask: какая сумка лучше? (ka-KA-ya SOOM-ka LOOT-she, which bag is better?) The question word какая is feminine because сумка is feminine. The seller answers: эта сумка лучше (EH-ta SOOM-ka LOOT-she, this bag is better). Now you look at two phones. The same question becomes какой телефон лучше? (ka-KOJ tee-lee-FON LOOT-she, which phone is better?) Only the question word changed. The strategy did not.",
+       "question": "Why does какой change its ending while кто and что do not?",
+       "answer": "Какой behaves as an adjective attached to a noun, so it must agree with that noun in gender and number. Кто and что are pronouns standing in for the whole person or thing, so they have no noun to agree with and keep one form.",
+       "distractor": "Какой changes because it is a longer word, and longer Russian words always carry more endings.",
+       "correction": "Length has nothing to do with it. Grammatical role decides which words inflect. Какой modifies a noun and therefore agrees with it, exactly like an adjective. Кто and что replace a noun outright, so there is no noun whose features they must copy. Compare: какая книга (which book) but кто это (who is this).",
+       "depth": {
+        "definitions": "A modifier is a word that adds information to a noun. Agreement is copying the noun's gender, number, and case. Interrogative words ask questions; some are modifiers and some are standalone pronouns.",
+        "mechanism": "Какой works as a modifier, so it inherits the agreement requirement. Its four forms map onto the four adjective positions you already know: -ой for masculine, -ая for feminine, -ое for neuter, -ие for plural. Because the ending is predictable, the practical skill is not memorizing four words but recognizing that your question word must match whatever noun you are asking about. This also gives you a fast self-check: if your question word disagrees with your noun, you will hear it as wrong before you can explain why. A second self-check is positional. Because какой normally stands immediately before the noun it describes, an ending that disagrees with the very next word is easy to notice while you are still speaking, which means you can correct yourself mid-sentence rather than after the fact.",
+        "secondExample": "Ask about a person's character rather than an object: какой он человек? (ka-KOJ on chee-la-VYEK, what kind of person is he?) Here человек is masculine, so какой stays masculine. Now ask about a group: какие они люди? (ka-KEE-ye a-NEE LOO-dee, what kind of people are they?) The plural noun люди pulls the question word into its plural form.",
+        "mistake": "A frequent error is using что when asking for a description, which produces a question about category where a question about quality was intended. Another is leaving какой in its masculine form while asking about a feminine noun, which sounds as jarring to a Russian speaker as the wrong article in Spanish. A third is confusing как with какой; как asks how something is done, какой asks what kind it is.",
+        "application": "Write five questions about objects within reach, each using какой in the correct form for its noun. Then answer each one yourself in a full phrase. Model: какая чашка тебе нравится? (ka-KA-ya CHASH-ka tee-BYE NRA-veet-sya, which cup do you like?) followed by мне нравится эта чашка (mnye NRA-veet-sya EH-ta CHASH-ka, I like this cup).",
+        "summary": "Какой is a question adjective and agrees with the noun you ask about. Use какой for qualities, кто for persons, что for categories, and как for manner."
+       },
+       "readings": [
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Consult the sections on pronouns and question words to place какой among the other interrogatives."
+        },
+        {
+         "title": "Russian declension",
+         "url": "https://en.wikipedia.org/wiki/Russian_declension",
+         "note": "Use the adjectival tables to confirm the four forms of какой match the ordinary adjective pattern rather than being irregular."
+        }
+       ],
+       "visual": {
+        "title": "Match the question to the noun",
+        "description": "A four step routine for choosing the right form of какой under time pressure.",
+        "steps": [
+         "Identify the noun you are asking about.",
+         "Name its gender and number out loud.",
+         "Select the matching form of какой.",
+         "Ask the question, then listen for whether the answer uses the same shape."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "какой фильм",
+         "latin": "ka-KOJ feelm",
+         "meaning": "which film (masculine)"
+        },
+        {
+         "text": "какая сумка",
+         "latin": "ka-KA-ya SOOM-ka",
+         "meaning": "which bag (feminine)"
+        },
+        {
+         "text": "какое окно",
+         "latin": "ka-KA-ye ak-NO",
+         "meaning": "which window (neuter)"
+        },
+        {
+         "text": "какие книги",
+         "latin": "ka-KEE-ye KNEE-gee",
+         "meaning": "which books (plural)"
+        }
+       ]
+      },
+      {
+       "id": "43",
+       "title": "Comparing two things",
+       "explanation": "To compare two things in Russian you can use a short comparative form that behaves like an adjective, or a longer phrase built with более. The short form is the one you will hear most often. Most adjectives form it by dropping the ending and adding -ее: красивый becomes красивее (kra-SEE-vee-ye, more beautiful), интересный becomes интереснее (in-tee-RYES-nee-ye, more interesting). A handful of very common adjectives form the comparative irregularly and you should simply learn them: хороший becomes лучше (LOOT-she, better), плохой becomes хуже (KHOO-zhe, worse), большой becomes больше (BOL-she, bigger), маленький becomes меньше (MYEN-she, smaller). The longer option with более plus the unchanged dictionary adjective is the safe fallback when you do not know the short form; it is fully correct and simply sounds more formal. Once the comparative is in hand, the word for than is чем (chem), and the thing being compared against goes into a form that marks it, often with чем or with the genitive. In speech you will frequently hear the genitive without чем: эта книга интереснее той (EH-ta KNEE-ga in-tee-RYES-nee-ye toj, this book is more interesting than that one).",
+       "example": "You are choosing between two routes to work. A colleague says: этот путь короче (EH-tat poot KO-ro-che, this route is shorter) and adds: но та дорога удобнее (no ta da-RO-ga oo-DOB-nee-ye, but that road is more convenient). Two different adjectives, one comparison each, no extra words required. If you then want to name what you are comparing against, you say эта дорога удобнее, чем та (EH-ta da-RO-ga oo-DOB-nee-ye chem ta, this road is more convenient than that one).",
+       "question": "A learner says эта книга более интереснее. Why is this phrase wrong even though both parts are real Russian words?",
+       "answer": "The phrase marks the comparison twice. Более already means more, and the ending -ее also marks the comparative, so the two devices conflict. Use one: эта книга более интересная or эта книга интереснее.",
+       "distractor": "The phrase is wrong because более may only be used with verbs rather than with adjectives.",
+       "correction": "Более combines freely with adjectives; that is its whole purpose. The error is double marking, not the choice of word. In Russian, as in most careful writing, one comparison signal per comparison. Choose the short comparative if you want a conversational tone, or более plus the full adjective if you want a formal one, but never both at once.",
+       "depth": {
+        "definitions": "A comparative expresses that one thing has more of a quality than another. The positive form is the plain adjective with no comparison attached. An irregular comparative is one that does not follow the regular ending pattern and must be memorized as a whole word.",
+        "mechanism": "The regular comparative is formed by removing the adjective's ending and attaching -ее to the stem. Because the resulting word is a comparison rather than a description of a noun's gender, the short comparative does not change for gender or number. This is a genuine simplification and worth noticing: лучше works for a masculine noun, a feminine noun, and a plural alike. The more formal analytical comparative leaves the adjective untouched and puts более in front, which is why it never creates agreement problems either. One practical consequence deserves stating plainly. Because the short comparative does not inflect, you never need to check its gender before speaking, and the only remaining decision is whether the comparison requires a second item to be named. Learners who expect an ending where none is needed often invent one, which is a common source of the errors described below.",
+        "secondExample": "Compare people rather than objects. Он старше меня (on STAr-she mee-NYA, he is older than me) uses the irregular comparative старше and the genitive form меня. Then widen the comparison: она самая старшая в семье (a-NA SA-ma-ya STAr-sha-ya v seem-YE, she is the oldest in the family), which shifts from comparing two to ranking within a group.",
+        "mistake": "The most common error is double marking with более plus the -ее ending. A second is attaching a gender ending to a short comparative, producing forms like лучшая in a context where the comparison has no noun to agree with. A third is forgetting that a few high frequency adjectives are irregular and inventing a regular form such as хорошее instead of using лучше.",
+        "application": "Write six comparisons about your own day: two objects, two places, two activities. Use at least one irregular comparative and at least one чем construction. Model: метро быстрее автобуса (meet-RO BYST-ree-ye af-TO-boo-sa, the metro is faster than the bus), then say the same idea formally with более.",
+        "summary": "Regular comparatives end in -ее; a small set are irregular and must be memorized whole. Mark the comparison once, never twice, and use чем or the genitive to name what you are comparing against."
+       },
+       "readings": [
+        {
+         "title": "Comparative",
+         "url": "https://en.wikipedia.org/wiki/Comparative",
+         "note": "General linguistics overview of comparative constructions across languages. Read to see how common the two strategies of short form and analytic form are."
+        },
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Check the adjective sections for the comparative and superlative forms alongside the agreement tables you already know."
+        }
+       ],
+       "visual": {
+        "title": "Build a comparison in three moves",
+        "description": "A sequence for producing a correct comparison without double marking.",
+        "steps": [
+         "State the quality with a plain adjective.",
+         "Choose either the short -ее form or более plus the full adjective, never both.",
+         "Add the second item using чем or the genitive, then say the sentence aloud."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "интереснее",
+         "latin": "in-tee-RYES-nee-ye",
+         "meaning": "more interesting"
+        },
+        {
+         "text": "лучше",
+         "latin": "LOOT-she",
+         "meaning": "better (irregular)"
+        },
+        {
+         "text": "хуже",
+         "latin": "KHOO-zhe",
+         "meaning": "worse (irregular)"
+        },
+        {
+         "text": "быстрее автобуса",
+         "latin": "BYST-ree-ye af-TO-boo-sa",
+         "meaning": "faster than the bus"
+        }
+       ]
+      },
+      {
+       "id": "44",
+       "title": "The most: самый and всех",
+       "explanation": "Russian expresses the highest degree in two main ways. The first is самый (SA-myj, most) placed before the adjective, forming a phrase that behaves like an ordinary adjective and therefore agrees with the noun: самый интересный фильм (SA-myj in-tee-RYES-nyj feelm, the most interesting film), самая интересная книга (SA-ma-ya in-tee-RYES-na-ya KNEE-ga, the most interesting book). Because самый is a modifier, it carries the same gender and number endings you learned for adjectives. The second way uses the comparative followed by всех (vsekh, of all) or всего (vsye-VO, of everything): она читает быстрее всех (a-NA chee-TA-yeet BYST-ree-ye vsekh, she reads faster than everyone). Notice how the two strategies divide labour. Самый ranks a noun by attaching to a plain adjective, while всех attaches to a comparative and ranks a person or thing against a whole set. Do not mix them: the phrase самый быстрее combines a ranking word with a comparative and is not standard. A useful instinct is that самый answers the question which one, while всех answers the question compared to whom or what.",
+       "example": "You are describing your week. Today was the hardest day: сегодня был самый трудный день (see-VOD-nya byl SA-myj TROOD-nyj dyehn). Then you want to say that today you worked more than on any other day: сегодня я работал больше всех (see-VOD-nya ya ra-BO-tal BOL-she vsekh). The first sentence ranks the day itself, so самый attaches to the adjective and agrees with день. The second sentence ranks your effort against everyone else, so больше takes всех.",
+       "question": "Why is самый больше всех not an acceptable way to say the most of all?",
+       "answer": "It stacks two different ranking systems on one word. Самый attaches to a plain adjective to rank a noun, and больше is already a comparative. Choose one structure: самый большой for the largest, or больше всех for larger than all others.",
+       "distractor": "It is unacceptable because больше is informal and самый may only be followed by adjectives borrowed from other languages.",
+       "correction": "Formality has nothing to do with it, and самый combines with ordinary native adjectives constantly. The problem is structural. A superlative phrase needs either самый plus a plain adjective or a comparative plus всех. Combining them marks the comparison twice, just as более plus интереснее does in the previous lesson.",
+       "depth": {
+        "definitions": "The superlative ranks one member of a set above all others. A plain or positive adjective carries no comparison. A comparative measures two or more items against each other without claiming a top rank.",
+        "mechanism": "Самый is an adjective-like modifier, so it agrees with the noun in gender, number, and case, and the adjective after it stays plain. The всех construction works differently: it takes a comparative, which already carries the comparison, and adds a word meaning of all to supply the set. That is why the two cannot be merged. The choice is driven by what you are ranking. Ranking a noun calls for самый. Ranking an action or a person's performance relative to a group calls for the comparative plus всех. One further detail keeps the two structures from blurring. Самый must agree with the noun, so the noun's gender is checked before the superlative is spoken, while a comparative plus всех carries no agreement at all because the comparative does not inflect. That asymmetry is a useful test. If you find yourself choosing an ending for the ranking word, you are building the самый structure; if there is no ending to choose, you are building the comparative structure. Noticing which decision you are making prevents the two from being combined by accident.",
+        "secondExample": "Compare ranking within a family: это самый старший сын (EH-ta SA-myj STAr-sheej syn, this is the eldest son) ranks the son among the sons by attaching самый to a plain adjective. Now rank behaviour: он помогает больше всех (on pa-ma-GA-yeet BOL-she vsekh, he helps more than anyone) uses the comparative plus всех because the thing being ranked is an action.",
+        "mistake": "Learners often produce самый plus a comparative. Another common slip is failing to make самый agree, writing самый книга instead of самая книга. A third is using всех when comparing only two items, where an ordinary comparative is enough. A final slip is forgetting that самый already carries the meaning of most, so adding very for extra emphasis produces a phrase that argues with itself.",
+        "application": "Write four superlative statements about your own life: your most useful book, your most difficult day, your fastest route, and who in a group helps most. Use самый twice and a comparative plus всех twice, then explain in one line why each structure was the right choice.",
+        "summary": "Use самый plus a plain agreeing adjective to rank a noun, and a comparative plus всех to rank an action or person against a group. Never combine the two."
+       },
+       "readings": [
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Consult the adjective sections to see the superlative alongside the comparative and agreement patterns."
+        },
+        {
+         "title": "Russian declension",
+         "url": "https://en.wikipedia.org/wiki/Russian_declension",
+         "note": "Use the tables to confirm that самый inflects exactly like an ordinary adjective."
+        }
+       ],
+       "visual": {
+        "title": "Choose the right ranking structure",
+        "description": "A decision sequence for building a superlative correctly.",
+        "steps": [
+         "Decide whether you are ranking a noun or an action.",
+         "For a noun, use самый and make it agree with that noun.",
+         "For an action or a person's performance, use a comparative plus всех.",
+         "Say the sentence and confirm you used only one ranking device."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "самый интересный фильм",
+         "latin": "SA-myj in-tee-RYES-nyj feelm",
+         "meaning": "the most interesting film"
+        },
+        {
+         "text": "самая трудная неделя",
+         "latin": "SA-ma-ya TROOD-na-ya nee-DYE-lya",
+         "meaning": "the hardest week"
+        },
+        {
+         "text": "больше всех",
+         "latin": "BOL-she vsekh",
+         "meaning": "more than anyone"
+        },
+        {
+         "text": "быстрее всего",
+         "latin": "BYST-ree-ye vsye-VO",
+         "meaning": "faster than everything"
+        }
+       ]
+      },
+      {
+       "id": "45",
+       "title": "Quantity: сколько, много, and counting",
+       "explanation": "Quantity in Russian is bound up with the genitive case, and the pattern rewards attention once. The question word сколько (SKOL-ka, how much, how many) is followed by the genitive plural for countable things and the genitive singular for mass nouns: сколько книг (SKOL-ka kneek, how many books), сколько времени (SKOL-ka VRYE-mee-nee, how much time). The words много (MNO-ga, much, many) and мало (MA-la, little, few) behave the same way and are also followed by the genitive. The truly important pattern is the agreement of numbers one through four. After один the noun is singular nominative. After два, три, and четыре the noun is genitive singular: два стола (dva sta-LA, two tables), три книги (tree KNEE-gee, three books). From пять upward the noun takes the genitive plural: пять столов (pyat sta-LOV, five tables), десять книг (DYE-seet kneek, ten books). The logic is not arbitrary. The lower numbers historically behaved like modifiers, so they kept a shape closer to the noun's own form, while higher numbers behaved like nouns of quantity, which in Russian govern the genitive.",
+       "example": "You are shopping. You say: мне нужно два килограмма яблок (mnye NOOZH-na dva kee-la-GRA-ma YA-blak, I need two kilograms of apples). The number два is followed by a genitive singular килограмма, and the thing being measured is in the genitive plural яблок. Then you adjust: лучше три килограмма (LOOT-she tree kee-la-GRA-ma, better three kilograms). Three also takes the genitive singular. If you need more, the shape changes: пять килограммов (pyat kee-la-GRAM-maf, five kilograms) takes the genitive plural.",
+       "question": "Why does the noun change after пять but not after три?",
+       "answer": "Numbers from two to four are followed by the genitive singular, while numbers from five upward are followed by the genitive plural. Три килограмма uses the singular; пять килограммов uses the plural.",
+       "distractor": "Because пять is a longer word than три, and Russian shortens the noun after longer numbers to keep speech balanced.",
+       "correction": "Word length does not affect grammar here. The difference follows the historical behaviour of the numerals. Two, three, and four patterned with the noun and kept a singular form, while five and above patterned as nouns of quantity, which in Russian require the genitive. That is why the split falls exactly between four and five instead of anywhere else.",
+       "depth": {
+        "definitions": "The genitive is the case used for possession, absence, and quantity. A mass noun names something not counted in units, such as water or time. A countable noun names things you can count one by one.",
+        "mechanism": "Quantity words such as сколько, много, and мало require the genitive because they express an unspecified amount rather than a specific count. The numerals then override the default with their own pattern. The result is a three part rule. One takes the singular nominative. Two through four take the genitive singular. Five and above take the genitive plural. Once you internalize the boundary between four and five, most quantity sentences become predictable rather than memorized. Two extensions follow from the same logic and are worth adding once the base rule is secure. Mass nouns such as time and water do not take a plural in this pattern, so you say much time rather than a count with a plural noun. And compound numerals above twenty follow the ending of their final element, so twenty-one behaves like one and twenty-two behaves like two, which means the boundary rule applies to the last word of the number rather than to the size of the number.",
+        "secondExample": "Apply the same rule to people: один студент (a-DEEN stoo-DYENT, one student), два студента (dva stoo-DYEN-ta, two students), пять студентов (pyat stoo-DYEN-taf, five students). The noun moved from nominative singular to genitive singular to genitive plural while the meaning changed only in number. Notice that the noun carries the only change; the numbers themselves stayed fixed while the noun moved through its forms.",
+        "mistake": "The most common error is using the nominative plural after two, three, or four, producing shapes like два столы. A second is forgetting that сколько and много also require the genitive rather than the nominative. A third is applying the singular rule to mass nouns, where the genitive singular is the correct default rather than an exception.",
+        "application": "Write a short shopping list using one, two, three, five, and ten of various items, with the correct noun form after each numeral. Model: один лимон, два лимона, три лимона, пять лимонов. Then ask the price of three of them using сколько.",
+        "summary": "Quantity words take the genitive. Numerals one, two to four, and five and above each trigger their own noun form, with the key boundary falling between four and five."
+       },
+       "readings": [
+        {
+         "title": "Genitive case",
+         "url": "https://en.wikipedia.org/wiki/Genitive_case",
+         "note": "General overview of the genitive across languages, useful for understanding why quantity and possession share one case."
+        },
+        {
+         "title": "Russian declension",
+         "url": "https://en.wikipedia.org/wiki/Russian_declension",
+         "note": "Consult the genitive singular and plural tables to see the endings that follow numerals and quantity words."
+        }
+       ],
+       "visual": {
+        "title": "The numeral boundary",
+        "description": "A sequence showing how the noun form changes as the count rises past four.",
+        "steps": [
+         "Say the number you need.",
+         "Check whether it is one, two to four, or five and above.",
+         "Apply the matching noun form: singular nominative, genitive singular, or genitive plural.",
+         "Say the full phrase and confirm the noun matches the number."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "сколько книг",
+         "latin": "SKOL-ka kneek",
+         "meaning": "how many books (genitive plural)"
+        },
+        {
+         "text": "два стола",
+         "latin": "dva sta-LA",
+         "meaning": "two tables (genitive singular)"
+        },
+        {
+         "text": "пять столов",
+         "latin": "pyat sta-LOV",
+         "meaning": "five tables (genitive plural)"
+        },
+        {
+         "text": "много времени",
+         "latin": "MNO-ga VRYE-mee-nee",
+         "meaning": "much time (genitive singular)"
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "id": "rulsecl2u1q1",
+       "prompt": "You want to say a new lamp and write новый лампа. What is the correct form and why?",
+       "answer": "It should be новая лампа, because лампа is feminine and the adjective must agree with the noun it modifies.",
+       "distractor": "It should be новый лампа, because the adjective keeps its dictionary form unless the noun is plural.",
+       "correction": "Adjectives do not stay in the dictionary form. They copy the gender, number, and case of their noun. Since лампа is feminine, the feminine ending -ая is required.",
+       "reviewLessonIds": [
+        "41"
+       ]
+      },
+      {
+       "id": "rulsecl2u1q2",
+       "prompt": "You are asking which bag is better and want to use какой. Which form is correct and why?",
+       "answer": "Какая сумка, because сумка is feminine and какой agrees with the noun it asks about.",
+       "distractor": "Какой сумка, because какой is the dictionary form and is always acceptable as the default.",
+       "correction": "Какой is a question adjective and inflects like any other adjective. It must match the gender and number of the noun, so a feminine noun calls for какая.",
+       "reviewLessonIds": [
+        "42"
+       ]
+      },
+      {
+       "id": "rulsecl2u1q3",
+       "prompt": "A learner writes эта книга более интереснее. Diagnose the error and give two correct alternatives.",
+       "answer": "The comparison is marked twice. Correct versions are эта книга более интересная and эта книга интереснее.",
+       "distractor": "Более may only precede verbs, so the adjective should be replaced by a verb form.",
+       "correction": "Более combines with adjectives, but it must not be paired with the short comparative ending -ее. Choose one strategy: более plus the full adjective, or the short comparative on its own.",
+       "reviewLessonIds": [
+        "43"
+       ]
+      },
+      {
+       "id": "rulsecl2u1q4",
+       "prompt": "Explain why самый больше всех is not standard Russian and give a correct structure for ranking within a group.",
+       "answer": "It combines the самый construction with a comparative, marking the ranking twice. A correct form is больше всех, or самый большой if a noun is being ranked.",
+       "distractor": "It is not standard because самый cannot be used with masculine adjectives at all.",
+       "correction": "Самый combines with plain adjectives and agrees with the noun. Comparative plus всех ranks an action or a person against a group. The two structures are alternatives, not partners.",
+       "reviewLessonIds": [
+        "44"
+       ]
+      },
+      {
+       "id": "rulsecl2u1q5",
+       "prompt": "You need to say five tables and two tables. Write both phrases and explain the difference in the noun form.",
+       "answer": "Пять столов uses the genitive plural because five and above take that form. Два стола uses the genitive singular because two through four do.",
+       "distractor": "Both take the nominative plural, because any number above one makes the noun plural.",
+       "correction": "Russian divides the numerals at the boundary between four and five. Two, three, and four take the genitive singular, while five and above take the genitive plural.",
+       "reviewLessonIds": [
+        "45"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Joining clauses and narrating",
+     "lessons": [
+      {
+       "id": "46",
+       "title": "Joining ideas: и, а, но",
+       "explanation": "Three short conjunctions carry most of the connecting work in spoken Russian, and their differences matter more than their length suggests. И (ee, and) simply adds information without implying any contrast: я читаю и пишу (ya chee-TA-yoo ee pee-SHOO, I read and write). А (a, and, but, while) signals a shift or a mild contrast between two things set side by side, and it is the connector learners most often get wrong. Compare я студент, а он врач (ya stoo-DYENT a on vrach, I am a student and he is a doctor). Nothing here is a strong objection. The speaker is contrasting two different roles. НО (no, but) marks a genuine contrast or a limitation: я хочу поехать, но нет времени (ya ha-CHOO pa-YE-khat no nyet VRYE-mee-nee, I want to go but there is no time). The practical difference is degree. И says here is more. А says here is something different, side by side. НО says here is something that pushes against what I just said. Russian also tolerates starting a sentence with а, which English does not do with and, so you will hear а at the beginning of replies as a gentle pivot: а ты? (a ty, and you?).",
+       "example": "You are telling a colleague about your weekend. You say: я работал и учился (ya ra-BO-tal ee oo-CHEEL-sya, I worked and studied), which simply lists two activities. Then you add contrast about a friend: а он отдыхал (a on at-dy-KHAL, while he rested). The а signals the pivot from your weekend to his, not a complaint. Finally you add the limitation: я хотел больше, но не успел (ya ha-TYEL BOL-she no nye oos-PYEL, I wanted more but did not manage it). Three connectors, three different jobs.",
+       "question": "A learner wants to say I am tired but happy. Should the connector be и, а, or но, and why?",
+       "answer": "Но, because the two qualities pull in different directions and the sentence marks a contrast. The phrase is я устал, но счастлив.",
+       "distractor": "И, because both words describe the same person and Russian always joins qualities of one subject with и.",
+       "correction": "И joins items without contrast, so it would present tired and happy as a simple list, which loses the speaker's point. А sets two things side by side as different, which is closer but still softer than needed. Но signals a genuine tension between the two states, and that is exactly what the sentence means.",
+       "depth": {
+        "definitions": "A conjunction joins words, phrases, or clauses. A coordinating conjunction joins items of equal grammatical weight. A contrast is a relationship in which one statement limits or opposes another.",
+        "mechanism": "The three conjunctions divide the work of connection by the relationship they encode. И encodes addition with no tension. А encodes juxtaposition, meaning two items are placed next to each other as different or as belonging to different subjects. НО encodes an obstacle or reversal. Because these are relationships rather than fixed translations, the same English and can map onto и or а depending on the relationship. That is why translating word by word produces unnatural Russian, and why paying attention to the relationship first produces the right choice almost automatically.",
+        "secondExample": "Test the difference with one pair of clauses. Я люблю кофе и чай (I like coffee and tea) lists two drinks I both like. Я люблю кофе, а он чай (I like coffee, while he likes tea) splits the preference between two people. Я люблю кофе, но не пью вечером (I like coffee but do not drink it in the evening) adds a limitation on my own behaviour.",
+        "mistake": "The most frequent error is using и everywhere, which flattens every relationship into a list and makes speech sound mechanical. A second is using а where a real objection is meant, which understates the speaker's meaning. A third is avoiding sentence-initial а because English forbids sentence-initial and; Russian permits it and uses it constantly in conversation.",
+        "application": "Take six pairs of statements about your own life and join each pair with the connector that matches its relationship. Label each choice as addition, juxtaposition, or contrast, then read the six sentences aloud. Model: я люблю утро, а вечер трудный (I like the morning, while the evening is hard), labelled as juxtaposition.",
+        "summary": "И adds, а places two things side by side as different, and но marks real contrast. Choose by relationship, not by matching an English word."
+       },
+       "readings": [
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Consult the sections on conjunctions and sentence structure for how these connectors behave in complex sentences."
+        },
+        {
+         "title": "Russian language",
+         "url": "https://en.wikipedia.org/wiki/Russian_language",
+         "note": "Overview of the language including discourse and word order, helpful for seeing why sentence-initial conjunctions are normal in Russian."
+        }
+       ],
+       "visual": {
+        "title": "Pick the connector by relationship",
+        "description": "A decision sequence for choosing between и, а, and но.",
+        "steps": [
+         "Say the first clause.",
+         "Decide whether the second adds, differs, or opposes.",
+         "Choose и for addition, а for difference, но for opposition.",
+         "Read both clauses aloud and check the relationship still sounds right."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "я читаю и пишу",
+         "latin": "ya chee-TA-yoo ee pee-SHOO",
+         "meaning": "I read and write (addition)"
+        },
+        {
+         "text": "я студент, а он врач",
+         "latin": "ya stoo-DYENT a on vrach",
+         "meaning": "I am a student and he is a doctor (juxtaposition)"
+        },
+        {
+         "text": "хочу поехать, но нет времени",
+         "latin": "ha-CHOO pa-YE-khat no nyet VRYE-mee-nee",
+         "meaning": "I want to go but there is no time (contrast)"
+        },
+        {
+         "text": "а ты?",
+         "latin": "a TY",
+         "meaning": "and you? (conversational pivot)"
+        }
+       ]
+      },
+      {
+       "id": "47",
+       "title": "Cause and result: потому что and поэтому",
+       "explanation": "Russian marks cause and result with two different words, and keeping them apart prevents a very common confusion. Потому что (pa-ta-MOO shta, because) introduces the reason: я не пришёл, потому что заболел (ya nye pree-SHYOL pa-ta-MOO shta za-ba-LYEL, I did not come because I got ill). The reason follows the connector. Поэтому (pa-EH-ta-moo, therefore, that is why) introduces the result: я заболел, поэтому не пришёл (ya za-ba-LYEL pa-EH-ta-moo nye pree-SHYOL, I got ill, therefore I did not come). The result follows the connector. The two sentences describe the same event, but they start from opposite ends. Notice the internal shape of the words. Потому что contains потому, which relates to that, plus что, the word that joins clauses. Поэтому contains этому, which relates to this, so it points forward to a consequence rather than backward to a cause. Russian word order is flexible, but the relationship between the two clauses is fixed by which connector you chose, so the connector is doing real information work. In speech, потому что is often compressed into a fast stream that sounds like one word, which is why beginners often fail to hear it at first.",
+       "example": "You arrive late and explain. Two ways, same facts. Я опоздал, потому что автобус не пришёл (ya a-pa-ZDAL pa-ta-MOO shta af-TO-boos nye pree-SHYOL, I was late because the bus did not come). Or, starting from the cause: автобус не пришёл, поэтому я опоздал (af-TO-boos nye pree-SHYOL pa-EH-ta-moo ya a-pa-ZDAL, the bus did not come, therefore I was late). Choose the order that puts the new information last, since Russian, like English, tends to place the most important point at the end.",
+       "question": "A learner writes я устал, потому что не спал. Another writes не спал, поэтому устал. Are both correct, and what is the difference?",
+       "answer": "Both are correct. The first states the result and then its cause. The second states the cause and then its result. The connector follows the relationship, not the speaker's preference.",
+       "distractor": "Only the first is correct, because потому что must always follow the main statement.",
+       "correction": "Neither connector is tied to a fixed position. Потому что introduces a clause expressing the reason, and поэтому introduces a clause expressing the consequence. You can begin with either the cause or the result as long as the connector in the second clause matches the relationship between the two.",
+       "depth": {
+        "definitions": "A cause is the reason something happened. A result is what follows from a cause. A subordinate clause is a clause that cannot stand alone and depends on the main clause.",
+        "mechanism": "Потому что creates a subordinate clause, which is why the clause after it cannot be moved freely to the front of the sentence. Поэтому behaves more like a linking adverb and introduces a main clause, so the sentence that follows can stand on its own. That structural difference explains two practical facts. First, потому что always keeps its place inside the sentence it depends on. Second, поэтому can begin a new sentence in speech, which is common in conversation. Recognizing the structural difference is more reliable than memorizing a translation pair. One more practical point follows from the same structure. Because потому что introduces a dependent clause, it cannot open a sentence on its own the way поэтому can, so a beginner who wants to lead with the reason should restructure the sentence rather than place потому что first. Поэтому, by contrast, sits comfortably at the start of a spoken sentence, which is one reason it appears so often in explanations and briefings.",
+        "secondExample": "Use a cause with an emotional consequence: я люблю эту книгу, потому что она честная (I love this book because it is honest). Then reverse it: эта книга честная, поэтому я её люблю (this book is honest, therefore I love it). The same two clauses are now connected from the other direction.",
+        "mistake": "The commonest error is using потому что to introduce a result, which produces a sentence that names a consequence as though it were a reason. A second is using потому что and поэтому together in one sentence to mark the same relationship twice. A third is mishearing the compressed spoken form and writing it as two unconnected words, which then looks like a different construction.",
+        "application": "Write four pairs of sentences about your own week, expressing each pair once with потому что and once with поэтому, and swap the clause order each time. Then mark in each sentence whether the cause or the result comes first, and confirm the connector matches.",
+        "summary": "Потому что introduces a reason and поэтому introduces a result. Both describe the same relationship, and you may begin with either end as long as the connector matches."
+       },
+       "readings": [
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Consult the sections on subordination and clause structure to see how потому что builds a dependent clause."
+        },
+        {
+         "title": "Russian language",
+         "url": "https://en.wikipedia.org/wiki/Russian_language",
+         "note": "Background on Russian syntax and word order, useful for understanding why clause order is flexible while connectors are not."
+        }
+       ],
+       "visual": {
+        "title": "Same facts, two directions",
+        "description": "A sequence showing one causal pair expressed from either end.",
+        "steps": [
+         "State the cause and the result as two plain clauses.",
+         "Decide which one you want to lead with.",
+         "If the reason comes second, use потому что before it.",
+         "If the result comes second, use поэтому before it.",
+         "Read the pair aloud and check the connector matches the clause it introduces."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "потому что",
+         "latin": "pa-ta-MOO shta",
+         "meaning": "because (introduces a reason)"
+        },
+        {
+         "text": "поэтому",
+         "latin": "pa-EH-ta-moo",
+         "meaning": "therefore (introduces a result)"
+        },
+        {
+         "text": "я опоздал, потому что автобус не пришёл",
+         "latin": "ya a-pa-ZDAL pa-ta-MOO shta af-TO-boos nye pree-SHYOL",
+         "meaning": "I was late because the bus did not come"
+        },
+        {
+         "text": "автобус не пришёл, поэтому я опоздал",
+         "latin": "af-TO-boos nye pree-SHYOL pa-EH-ta-moo ya a-pa-ZDAL",
+         "meaning": "the bus did not come, therefore I was late"
+        }
+       ]
+      },
+      {
+       "id": "48",
+       "title": "When and if: когда and если",
+       "explanation": "Когда (kag-DA, when) and если (YES-lee, if) both open a dependent clause, but they differ in what they promise about reality. Когда presents the event as something that happens or happened, and asks only about timing: когда я приду, я позвоню (kag-DA ya pree-DOO ya pa-zva-NYOO, when I arrive, I will call). Если presents the event as something that may or may not happen: если я приду, я позвоню (YES-lee ya pree-DOO ya pa-zva-NYOO, if I come, I will call). The words are close in sound and completely different in commitment. This distinction is the Russian counterpart of the difference between when and if in English, but Russian enforces it more consistently, so a beginner who says когда while meaning если suggests that the event is already certain. Notice how the two clauses interact with future time. When the main clause refers to the future, the clause with когда or если normally uses a present tense form rather than a future form: когда я приду, я позвоню. This is a real structural rule and one of the most useful adjustments a learner can make, because it removes an entire class of future tense errors.",
+       "example": "A friend asks about your plan. You answer with an uncertain condition: если будет время, я поеду (YES-lee BOO-deet VRYE-mee-ya ya pa-YE-doo, if there is time, I will go). The word если tells your friend the trip is not settled. Later the plan firms up and you say: когда я поеду, я куплю билет (kag-DA ya pa-YE-doo ya koop-LYOO bee-LYET, when I go, I will buy a ticket). You have not changed the trip itself. You have changed your commitment to it, and Russian records that change in one word.",
+       "question": "Why is когда я поеду, я куплю билет different in meaning from если я поеду, я куплю билет?",
+       "answer": "Когда presents the trip as something that will happen and asks only about timing. Если presents it as possible rather than certain. The second sentence leaves open whether the trip happens at all.",
+       "distractor": "There is no real difference in meaning; the two words are interchangeable variants of the same idea.",
+       "correction": "They are not interchangeable. Если marks a genuine condition, which means the event might not occur. Когда marks a time, which presupposes the event occurs. A listener hearing когда understands that you consider the trip settled. Choosing когда when you mean если therefore overstates your certainty, which in a business or medical context can be a serious misunderstanding.",
+       "depth": {
+        "definitions": "A conditional clause states a condition that must hold for the main clause to be true. A temporal clause states a time at which the main clause holds. A presupposition is something a sentence takes for granted rather than asserts.",
+        "mechanism": "Если introduces a condition, so the main clause depends on whether the condition is met. Когда introduces a time reference, so the main clause is assumed to happen and only its moment is in question. That presupposition is the core difference and it survives translation. The tense rule follows from how Russian handles future reference in dependent clauses: rather than using a future form twice, Russian marks futurity once, in the main clause, and leaves the dependent clause in a present form.",
+        "secondExample": "Compare a question and a condition about the same person. Когда он придёт, мы начнём (kag-DA on pree-DYOT my NAch-nyom, when he arrives, we will begin) treats his arrival as certain and only waits for it. Если он придёт, мы начнём (YES-lee on pree-DYOT my NAch-nyom, if he arrives, we will begin) admits that he may not come at all.",
+        "mistake": "The most common error is using когда for a genuine condition, which overstates certainty. A second is putting a future form in the dependent clause, producing phrases like когда я буду приду. A third is confusing если with ли, the particle used for yes-or-no indirect questions, as in я не знаю, придёт ли он (I do not know whether he will come).",
+        "application": "Write four sentence pairs about your coming week, one member of each pair using когда and one using если, keeping both clauses otherwise identical. Then state for each pair which version asserts the event and which leaves it open, and note how the difference would sound to a listener.",
+        "summary": "Когда treats the event as real and asks about timing, while если treats it as possible. In future sentences the dependent clause keeps a present form."
+       },
+       "readings": [
+        {
+         "title": "Conditional sentence",
+         "url": "https://en.wikipedia.org/wiki/Conditional_sentence",
+         "note": "General overview of conditional constructions. Read it to see how widely languages distinguish real from unreal conditions."
+        },
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Consult the sections on subordination and tense use in dependent clauses for the present-form rule after когда and если."
+        }
+       ],
+       "visual": {
+        "title": "Certain or possible",
+        "description": "A decision sequence for choosing between когда and если.",
+        "steps": [
+         "Decide whether the event is settled or only possible.",
+         "Choose когда if it is settled, если if it is possible.",
+         "Keep the dependent clause in a present form if the main clause is future.",
+         "Say the sentence and check that your listener hears the right level of certainty."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "когда я приду",
+         "latin": "kag-DA ya pree-DOO",
+         "meaning": "when I arrive (treated as certain)"
+        },
+        {
+         "text": "если я приду",
+         "latin": "YES-lee ya pree-DOO",
+         "meaning": "if I come (treated as possible)"
+        },
+        {
+         "text": "если будет время",
+         "latin": "YES-lee BOO-deet VRYE-mee-ya",
+         "meaning": "if there is time"
+        },
+        {
+         "text": "придёт ли он",
+         "latin": "pree-DYOT lee on",
+         "meaning": "whether he will come"
+        }
+       ]
+      },
+      {
+       "id": "49",
+       "title": "Reporting what someone said",
+       "explanation": "Russian reports speech with что (shto, that) after a verb of saying, thinking, or knowing: он сказал, что он занят (on ska-ZAL shta on ZA-nyat, he said that he is busy). Two details make this easier than it looks. First, Russian writes a comma before что, which visually separates the two clauses and helps you read long sentences. Second, Russian does not shift the tense backward the way English often does. English moves he is busy to he was busy when reporting it. Russian leaves the reported clause in the tense of the original statement: он сказал, что он занят. He said it, and the state described is still the one he asserted. This is a genuine simplification, and it removes one of the hardest habits a learner carries over from English. For yes-or-no questions, Russian uses the particle ли (lee) instead of что: он спросил, придёт ли она (on spra-SEEL pree-DYOT lee a-NA, he asked whether she would come). Note that what can be either the conjunction that or the question word what depending on the structure, and the two uses differ in intonation and in whether a comma precedes them.",
+       "example": "You are passing on a message at work. A colleague told you she is busy until Friday. You report: она сказала, что она занята до пятницы. Notice that занята stayed in the present, because that is how she stated her situation. Then you report her question: она спросила, будет ли она нужна в пятницу (a-NA spra-SEE-la BOO-deet lee a-NA noozh-NA v PYAT-nee-tsoo, she asked whether she would be needed on Friday). Two verbs of reporting, two different connectors, because one introduced a statement and the other introduced a question.",
+       "question": "Why does Russian say он сказал, что он занят rather than shifting to a past form as English does?",
+       "answer": "Because Russian does not require tense backshift. The reported clause keeps the tense of the original statement, while English often moves it back one step.",
+       "distractor": "Because Russian has no past tense for describing states, so занят is the only available form.",
+       "correction": "Russian certainly has a past tense. The reason is not a gap in the language but a difference in convention. Russian reports the content of a statement as it was made, without the optional backshift English uses. Заниматься would give a past form like был занят (was busy) if you wanted to report a state that has ended, and that choice carries meaning rather than being grammatically forced.",
+       "depth": {
+        "definitions": "Indirect speech reports what someone said without quoting it directly. Direct speech reproduces the original words. Backshift is the English habit of moving a reported verb one tense into the past.",
+        "mechanism": "Что joins the reporting verb to the reported clause and behaves as a subordinating conjunction, so the clause after it is dependent. Ли marks an indirect yes-or-no question and sits after the word being questioned, which is usually the verb: придёт ли она. Because ли is a particle rather than a conjunction, its position inside the clause matters, and moving it changes which element is being asked about. That is why learners who translate whether word for word produce sentences that sound wrong. There is also a useful contrast with direct speech. When you quote someone's exact words, Russian typically introduces the quotation with a dash rather than with что, and the quoted sentence keeps its own capital letter and punctuation. Indirect reporting, by contrast, folds the content into a single sentence with a comma and a lowercase continuation. Choosing between the two is a register decision rather than a grammatical one, and mixing them in one sentence produces the kind of error that reads as a translation artifact.",
+        "secondExample": "Report a thought rather than a statement: я думаю, что это хорошая идея (ya DOO-ma-yoo shta EH-ta ha-RO-sha-ya ee-DYE-ya, I think that this is a good idea). Now report an uncertainty: я не знаю, хорошая ли это идея (ya nye ZNA-yoo ha-RO-sha-ya lee EH-ta ee-DYE-ya, I do not know whether this is a good idea). The conjunction что states content; the particle ли states a question.",
+        "mistake": "The most frequent error is backshifting the reported clause out of habit, producing a past form where Russian keeps the present. A second is omitting the comma before что, which makes long sentences harder to parse. A third is using что for an indirect question instead of ли.",
+        "application": "Report five things you heard or thought today, three as statements with что and two as questions with ли. Then rewrite each statement as a direct report and note which forms changed. Model: он сказал, что опоздает, and its question counterpart он спросил, опоздает ли он.",
+        "summary": "Russian reports statements with что and indirect questions with ли, and it does not shift the reported tense backward the way English often does."
+       },
+       "readings": [
+        {
+         "title": "Indirect speech",
+         "url": "https://en.wikipedia.org/wiki/Indirect_speech",
+         "note": "Overview of reported speech across languages, useful for seeing how unusual English tense backshift really is."
+        },
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Consult the sections on clause structure and particles for the position and function of ли."
+        }
+       ],
+       "visual": {
+        "title": "Statement or question",
+        "description": "A sequence for choosing the right reporting connector.",
+        "steps": [
+         "Identify whether the original utterance was a statement or a question.",
+         "Use что for a statement and ли for a question.",
+         "Keep the reported clause in its original tense.",
+         "Place the comma before что, and place ли after the word being questioned."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "он сказал, что он занят",
+         "latin": "on ska-ZAL shta on ZA-nyat",
+         "meaning": "he said that he is busy"
+        },
+        {
+         "text": "придёт ли она",
+         "latin": "pree-DYOT lee a-NA",
+         "meaning": "whether she will come"
+        },
+        {
+         "text": "я думаю, что это хорошая идея",
+         "latin": "ya DOO-ma-yoo shta EH-ta ha-RO-sha-ya ee-DYE-ya",
+         "meaning": "I think that this is a good idea"
+        },
+        {
+         "text": "я не знаю, хорошая ли это идея",
+         "latin": "ya nye ZNA-yoo ha-RO-sha-ya lee EH-ta ee-DYE-ya",
+         "meaning": "I do not know whether this is a good idea"
+        }
+       ]
+      },
+      {
+       "id": "50",
+       "title": "A connected account: time markers and sequence",
+       "explanation": "This lesson builds the skill the whole level has been preparing: speaking in connected paragraphs rather than isolated sentences. Russian organises a narrative with time markers that act like signposts. Сначала (sna-CHA-la, at first) opens. Потом (pa-TOM, then) continues. Затем (za-TYEM, after that) continues in a slightly more formal register. Наконец (na-ka-NYETS, finally) closes. Alongside these you will use clock and calendar words such as утром (OOT-ram, in the morning), вечером (VYE-chee-ram, in the evening), вчера (fchee-RA, yesterday), and через час (CHYE-ryes chas, in an hour). Two habits hold a Russian narrative together. First, place the time marker early in the sentence, which signals the frame before the details arrive. Second, use the pairing of и and а that you studied earlier to move between your own actions and someone else's, rather than repeating и for everything. A short account in this style sounds like this: сначала я работал, потом пошёл домой, а вечером читал книгу (sna-CHA-la ya ra-BO-tal pa-TOM pa-SHYOL da-MOY a VYE-chee-ram chee-TAL KNEE-goo, at first I worked, then I went home, and in the evening I read a book). Four clauses, four signposts, one continuous story.",
+       "example": "You are telling a friend about yesterday. You say: вчера утром я ходил в магазин (fchee-RA OOT-ram ya ha-DEEL v ma-ga-ZEEN, yesterday morning I went to the shop). Then you keep going: потом я готовил обед, а вечером читал (pa-TOM ya ga-TO-veel a-BYET a VYE-chee-ram chee-TAL, then I cooked lunch, and in the evening I read). Finally you close the account: наконец я лёг спать (na-ka-NYETS ya lyog spat, finally I went to bed). Each sentence carries its own signpost, so your listener always knows where in the story they are.",
+       "question": "Why does a Russian narrative often put the time marker at the beginning of the sentence rather than at the end?",
+       "answer": "Because the time marker frames the whole clause. Putting it first tells the listener when the action happened before they process the details, and it lets the word order of the rest of the clause stay flexible.",
+       "distractor": "Because Russian grammar forbids placing a time expression at the end of a sentence.",
+       "correction": "Russian does not forbid it. Time expressions can move, and you will hear them in other positions. The reason to put them first is informational, not grammatical. Russian organises word order around what is already known and what is new, and the time frame is usually shared context, so it comes early. The new or emphasised material then lands at the end, which is the same instinct that guides English rhythm.",
+       "depth": {
+        "definitions": "A discourse marker is a word or phrase that organises a text rather than adding facts, such as first, then, finally. Information structure is the arrangement of a sentence according to what the listener already knows and what is new.",
+        "mechanism": "Connected speech works by alternation. A signpost establishes the frame, the clause then delivers one event, and the next signpost opens a new frame. Because each sentence is self-locating, a listener who loses one clause can rejoin at the next signpost rather than losing the thread. This is why learners who can produce accurate single sentences still sound incoherent: they have the grammar but not the signposts. Adding four or five discourse markers to your active vocabulary improves comprehension more than adding twenty nouns. Sequencing also interacts with verb aspect, because a completed event and a repeated or ongoing event call for different verb forms. For now, the safe habit is to attach one clear event to each signpost rather than packing several events into one clause, which keeps the aspect decision simple and the sequence easy for a listener to follow.",
+        "secondExample": "Compare a list of unconnected sentences with a connected account. Unconnected: я работал. Я пошёл домой. Я читал. Connected: сначала я работал, потом пошёл домой, а вечером читал. The facts are identical. Only the second version is a story, because the speaker has told you how the pieces relate in time.",
+        "mistake": "The most common error is producing accurate sentences with no discourse markers, which sounds clipped and forces the listener to infer sequence. A second is repeating и between every clause, which flattens the contrast between actions and makes the account monotonous. A third is putting every time marker in the same position regardless of what is shared knowledge, which produces sentences that are grammatical but hard to follow.",
+        "application": "Write a six sentence account of yesterday using at least four different time markers, one contrast with а, and one closing marker. Read it aloud twice, then record yourself once and listen for whether each sentence tells the listener where in the story they are. Model opening: сначала я встал рано, потом позавтракал.",
+        "summary": "A connected account needs signposts, not just correct sentences. Place time markers early, vary your connectors, and close the sequence clearly."
+       },
+       "readings": [
+        {
+         "title": "Discourse marker",
+         "url": "https://en.wikipedia.org/wiki/Discourse_marker",
+         "note": "Overview of words that organise speech rather than add content. Useful for seeing why sequencing words matter for comprehension."
+        },
+        {
+         "title": "Russian grammar",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar",
+         "note": "Consult the sections on word order and information structure to see how Russian arranges given and new information."
+        }
+       ],
+       "visual": {
+        "title": "Signposts in a narrative",
+        "description": "A sequence for turning separate sentences into a connected account.",
+        "steps": [
+         "Open with a marker that sets the frame, such as сначала or вчера утром.",
+         "Add each event with its own marker, such as потом or затем.",
+         "Use а when the subject or focus shifts.",
+         "Close with наконец or a final time reference.",
+         "Read the whole account aloud and check that every sentence locates the listener in time."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "сначала",
+         "latin": "sna-CHA-la",
+         "meaning": "at first"
+        },
+        {
+         "text": "потом",
+         "latin": "pa-TOM",
+         "meaning": "then"
+        },
+        {
+         "text": "наконец",
+         "latin": "na-ka-NYETS",
+         "meaning": "finally"
+        },
+        {
+         "text": "вчера утром",
+         "latin": "fchee-RA OOT-ram",
+         "meaning": "yesterday morning"
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "id": "rulsecl2u2q1",
+       "prompt": "What is the difference between потому что and поэтому in terms of what follows each one?",
+       "answer": "Потому что introduces a reason, and поэтому introduces a result. The clause after each connector states a different end of the same relationship.",
+       "distractor": "They are two spellings of the same word, and either may introduce either a reason or a result.",
+       "correction": "The two differ in direction. Потому что points backward to a cause that explains what was just said. Поэтому points forward to a consequence. Swapping them reverses the logic of the sentence even though both words sound similar.",
+       "reviewLessonIds": [
+        "47"
+       ]
+      },
+      {
+       "id": "rulsecl2u2q2",
+       "prompt": "You are not sure whether your friend will come to an event. Should you say когда он придёт or если он придёт, and why?",
+       "answer": "Если он придёт, because the arrival is possible rather than certain. Когда would presuppose that he is definitely coming.",
+       "distractor": "Когда он придёт, because когда is the standard connector for any future event.",
+       "correction": "Когда presupposes that the event will happen and asks only about its timing. Since the arrival is genuinely uncertain, если is required. Using когда would tell your friend you already consider his attendance settled.",
+       "reviewLessonIds": [
+        "48"
+       ]
+      },
+      {
+       "id": "rulsecl2u2q3",
+       "prompt": "In a sentence where the main clause is in the future, what form does the dependent clause after когда or если take, and why?",
+       "answer": "A present tense form. Russian marks futurity once, in the main clause, rather than using a future form in both clauses.",
+       "distractor": "A future tense form, because both clauses must agree in tense.",
+       "correction": "Russian does not repeat future marking across both clauses. The main clause carries the future sense, and the dependent clause stays in a present form, as in когда я приду, я позвоню. Putting a future form in the dependent clause produces phrases that a native speaker would not say.",
+       "reviewLessonIds": [
+        "48"
+       ]
+      },
+      {
+       "id": "rulsecl2u2q4",
+       "prompt": "How does Russian report a yes-or-no question differently from a statement, and what word marks each?",
+       "answer": "Statements are reported with что, and yes-or-no questions are reported with the particle ли.",
+       "distractor": "Both are reported with что, and the difference is carried by intonation alone.",
+       "correction": "The conjunction что introduces reported statements, while the particle ли marks an indirect yes-or-no question. Ли sits after the word being questioned, usually the verb, so its position inside the clause carries meaning that intonation alone could not.",
+       "reviewLessonIds": [
+        "49"
+       ]
+      },
+      {
+       "id": "rulsecl2u2q5",
+       "prompt": "Why can five grammatically correct sentences still fail to work as a spoken account?",
+       "answer": "Because accuracy is not the same as connection. Without discourse markers such as сначала, потом, and наконец, the listener cannot tell how the events relate in time.",
+       "distractor": "Because Russian requires at least one subordinate clause in every spoken account.",
+       "correction": "There is no such requirement. The problem is information structure rather than clause type. Signposts frame each sentence, so a listener who loses one clause can rejoin at the next marker. Without them, each sentence stands alone and the listener must reconstruct the sequence themselves.",
+       "reviewLessonIds": [
+        "50"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "rulsecl2lv1",
+     "prompt": "You say a new lamp and want the adjective to agree. Which form of новый is correct, and what rule decided it?",
+     "answer": "Новая, because лампа is feminine and the adjective copies the noun's gender.",
+     "distractor": "Новый, because adjectives keep their dictionary form before any noun.",
+     "correction": "The noun decides. Лампа is feminine, so the adjective takes the feminine ending. Agreement means the adjective carries the same gender, number, and case as its noun, which is also why a listener hears the gender twice.",
+     "reviewLessonIds": [
+      "41"
+     ]
+    },
+    {
+     "id": "rulsecl2lv2",
+     "prompt": "Which form of какой fits the question about a bag, and why does какой change at all while кто does not?",
+     "answer": "Какая, because сумка is feminine. Какой modifies a noun and so must agree with it, while кто replaces a person outright and has no noun to copy.",
+     "distractor": "Какой, because question words never change and only the noun changes.",
+     "correction": "Question words that modify a noun behave like adjectives and inflect. Какой belongs to that group, so it agrees with the noun being asked about. Кто and что stand in for the noun itself, so there is nothing for them to agree with.",
+     "reviewLessonIds": [
+      "42"
+     ]
+    },
+    {
+     "id": "rulsecl2lv3",
+     "prompt": "A learner writes эта книга более интереснее. Name the fault and give both correct alternatives.",
+     "answer": "The comparison is marked twice. Correct forms are эта книга более интересная and эта книга интереснее.",
+     "distractor": "Более may not be used with adjectives, so the phrase should be эта книга очень интереснее.",
+     "correction": "Более does combine with adjectives. The fault is using it together with the short comparative ending -ее, which marks the same comparison a second time. Choose the analytical form, более plus the full adjective, or the short form alone.",
+     "reviewLessonIds": [
+      "43"
+     ]
+    },
+    {
+     "id": "rulsecl2lv4",
+     "prompt": "Explain why самый больше всех is not standard, and give one correct superlative structure for a noun.",
+     "answer": "It combines the самый construction with a comparative and marks the ranking twice. A correct structure is самый большой, where самый agrees with the noun.",
+     "distractor": "It is not standard because самый cannot appear before an adjective of quantity.",
+     "correction": "Самый combines with plain adjectives, not with comparatives. Ranking a noun calls for самый plus an agreeing plain adjective. Ranking an action or a person against a group calls for a comparative plus всех. The two structures are alternatives.",
+     "reviewLessonIds": [
+      "44"
+     ]
+    },
+    {
+     "id": "rulsecl2lv5",
+     "prompt": "Write the phrases for two tables and five tables and explain why the noun form differs.",
+     "answer": "Два стола uses the genitive singular, and пять столов uses the genitive plural, because the numeral boundary falls between four and five.",
+     "distractor": "Both use the nominative plural, since any count above one makes the noun plural in Russian.",
+     "correction": "Russian splits the numerals into two patterns. Two, three, and four behave with the noun and take the genitive singular. Five and above behave as nouns of quantity and take the genitive plural. The boundary sits exactly between four and five.",
+     "reviewLessonIds": [
+      "45"
+     ]
+    },
+    {
+     "id": "rulsecl2lv6",
+     "prompt": "What does the quantity word сколько require of the noun that follows it, and why?",
+     "answer": "The genitive. Quantity words express amount rather than a specific count, so the noun follows them in the genitive.",
+     "distractor": "The nominative, because сколько is a question word and nouns stay in the nominative after questions.",
+     "correction": "Quantity and question status are separate matters. Сколько, много, and мало all express amount, and amount in Russian governs the genitive. This is the same case that marks possession and absence.",
+     "reviewLessonIds": [
+      "45"
+     ]
+    },
+    {
+     "id": "rulsecl2lv7",
+     "prompt": "Choose between и, а, and но for the sentence I am tired but happy, and justify the choice.",
+     "answer": "Но, because the two qualities pull against each other and the sentence expresses contrast. И would present them as a simple list, and а would only set them side by side.",
+     "distractor": "И, because both qualities describe the same person and Russian joins statements about one subject with и.",
+     "correction": "И encodes addition without tension, so it would flatten the point of the sentence. А encodes juxtaposition, which is softer than a genuine contrast. Но marks a real tension between two statements, which is exactly what tired but happy expresses.",
+     "reviewLessonIds": [
+      "46"
+     ]
+    },
+    {
+     "id": "rulsecl2lv8",
+     "prompt": "A colleague says я заболел, поэтому не пришёл. Restate the same facts with the other connector, and label which clause is the cause.",
+     "answer": "Я не пришёл, потому что заболел. The cause is заболеть, getting ill, and it now follows the connector.",
+     "distractor": "Я заболел, потому что не пришёл. The cause is not coming, and it follows the connector.",
+     "correction": "Reversing the connectors also reverses the logic. In the original, getting ill is the cause and not coming is the result. When restated with потому что, the cause still comes after the connector, so it must be the illness rather than the absence.",
+     "reviewLessonIds": [
+      "47"
+     ]
+    },
+    {
+     "id": "rulsecl2lv9",
+     "prompt": "Explain the difference between когда он придёт, мы начнём and если он придёт, мы начнём.",
+     "answer": "Когда treats his arrival as certain and waits only for the moment. Если treats it as possible, leaving open whether he arrives at all.",
+     "distractor": "They mean the same thing, since both sentences describe a future arrival followed by a beginning.",
+     "correction": "The events described are identical, but the presuppositions differ. Когда takes the arrival for granted and asks about timing. Если makes the arrival a condition that may fail. In a business or clinical setting, that difference in certainty can change how a commitment is understood.",
+     "reviewLessonIds": [
+      "48"
+     ]
+    },
+    {
+     "id": "rulsecl2lv10",
+     "prompt": "How would you report the question will she come, and why does что not work here?",
+     "answer": "With ли: он спросил, придёт ли она. Что introduces reported statements, not indirect yes-or-no questions.",
+     "distractor": "With что: он спросил, что придёт она. Что covers both statements and questions.",
+     "correction": "Что reports the content of a statement. An indirect yes-or-no question needs the particle ли, which attaches after the word being questioned. Using что here would make the sentence read as though she announced her arrival rather than being asked about it.",
+     "reviewLessonIds": [
+      "49"
+     ]
+    },
+    {
+     "id": "rulsecl2lv11",
+     "prompt": "Does Russian shift a reported statement one tense back, as English often does? Explain with an example.",
+     "answer": "No. Russian keeps the tense of the original statement, as in он сказал, что он занят, where the present form remains even though the reporting verb is past.",
+     "distractor": "Yes. Russian requires the reported clause to move one tense into the past, so занят becomes был занят automatically.",
+     "correction": "Russian does not impose backshift. The reported clause keeps the tense in which the statement was made, and occupied or not is a meaning choice rather than a grammatical requirement. This removes a rule that learners often carry over from English.",
+     "reviewLessonIds": [
+      "49"
+     ]
+    },
+    {
+     "id": "rulsecl2lv12",
+     "prompt": "Your five sentences are each correct but the account sounds disjointed. What is missing, and how would you repair it?",
+     "answer": "Discourse markers. Adding signposts such as сначала, потом, а вечером, and наконец frames each sentence so the listener can follow the sequence.",
+     "distractor": "Subordinate clauses. Every sentence in a spoken account needs at least one dependent clause to connect it to the next.",
+     "correction": "Connection in speech comes from markers that organise the text, not from clause type. Signposts establish the frame before the details arrive, which also lets word order stay flexible. Adding four or five of them to active vocabulary improves comprehension more than adding many new nouns.",
+     "reviewLessonIds": [
+      "50"
+     ]
+    }
+   ]
+  }
+ ]
+}

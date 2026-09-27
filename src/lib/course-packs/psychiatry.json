@@ -1,0 +1,626 @@
+{
+  "subject": "psychiatry",
+  "levels": [
+    {
+      "title": "Clinical reasoning under uncertainty: formulation, evidence, and collaborative care",
+      "units": [
+        {
+          "title": "From observations to a revisable contextual formulation",
+          "lessons": [
+            {
+              "id": "21",
+              "title": "Build a timeline that can change your hypothesis",
+              "explanation": "The objective is to turn a symptom story into a timeline that distinguishes baseline, change, and consequences. Earlier lessons introduced duration and differential reasoning. Here, the additional skill is identifying which missing event would actually change the assessment. A chronology is not merely a list of dates: it compares the person with their own previous functioning, then asks whether changes cluster, fluctuate, recur, or persist. NICE recommends assessing depression through history, duration, course, functional effects, and relevant context rather than symptom count alone.[1] This is an educational reasoning exercise using fictional cases, not a method for diagnosing yourself or another person.",
+              "example": "Consider a fictional student who says, ‘I have always struggled to concentrate, but now I cannot finish anything.’ First separate the longstanding difficulty from the recent deterioration. Ask what ‘always’ means, whether similar difficulties occurred in different settings, and what changed recently. The student reports disrupted sleep after taking night work, increased worry about rent, and missed deadlines afterward. These observations support investigating sleep and current stress alongside developmental history. They do not prove that night work explains everything. If a marked mood change preceded the job, the proposed direction of explanation would need revision. The useful output is a qualified timeline, not a confident label.",
+              "question": "What would most improve the student's assessment?",
+              "answer": "Separate longstanding difficulties from recent changes and investigate their sequence",
+              "distractor": "Assign one cause from the first memorable recent event",
+              "correction": "Chronology helps compare hypotheses; a memorable preceding event does not prove a complete causal explanation.",
+              "depth": {
+                "definitions": "Baseline means the person's usual functioning during a specified earlier period; it is not an idealized standard of normality. Onset describes when a change first appeared, while course describes how it developed afterward. An episode is a bounded period of change; persistence means continuity across the observation period. Recurrence describes a return after improvement. A precipitating event may precede a difficulty, but a maintaining factor helps it continue. These roles can differ: a dispute might precede sleep disruption while an unpredictable work schedule continues it. Record approximate dates honestly when precise dates are unavailable.",
+                "mechanism": "Chronology constrains causal stories because a proposed initiating cause cannot first occur after its supposed effect. However, preceding an event is not enough to establish causation: both events may share another cause, and the reported sequence may be uncertain. Ask which independent observations could discriminate alternatives. Attendance records can clarify functional change, while the person's account clarifies meaning and distress; neither automatically replaces the other. NICE's assessment domains include mood elevation, previous treatment response, lifestyle, relationships, stressful experiences, and living conditions.[1] These questions matter because superficially similar current symptoms can sit within different histories. Do not convert the domain list into an assumption that every factor is relevant or equally influential.",
+                "secondExample": "Contrast the student with an older hospital patient who became withdrawn and inconsistently attentive within a day. Their relative describes an abrupt departure from yesterday's baseline. A slow developmental explanation is now poorly matched to the time course. NICE highlights recent changes or fluctuations over hours or days as possible indicators of delirium requiring assessment in its hospital and long-term-care population.[5] The educational conclusion is urgent medical attention to the acute change, not an online diagnosis of delirium. A quiet presentation should not be mistaken for absence of concern. The timeline changes the urgency as well as the differential.",
+                "mistake": "A common mistake is treating the first memorable stressor as the cause of every later symptom. Correct this by writing two versions of the account: what is observed and what is inferred. ‘Sleep became irregular after starting shifts’ is a temporal report. ‘Shift work caused the whole condition’ is a broader causal inference. Another mistake is forcing an uncertain memory into an exact date. Use ranges and identify whose recollection supports them. Contradictions should prompt clarification rather than accusations that the person is unreliable; different observers can see different periods and settings.",
+                "application": "Practice without using personal information: draw three columns headed earlier functioning, changes, and current consequences. Place the fictional student's details into them, then add two questions that could revise your explanation. A model response asks whether concentration difficulties were present before sleep disruption and whether there were prior distinct periods of markedly changed mood or energy. Self-review: the timeline distinguishes reported facts from hypotheses, compares with the person's baseline, includes function rather than symptoms alone, and identifies a consequential unknown. A response that simply writes a diagnostic name misses the task. No quiz response establishes clinical competence.",
+                "summary": "The transferable principle is that time course is an evidence organizer. It narrows some explanations, exposes missing information, and sometimes changes urgency, but it does not independently establish a disorder or a cause. Carry the timeline forward into formulation rather than abandoning it once a plausible label appears. When later information conflicts with the chronology, revise the chronology and the explanation together. The next step is to turn these temporal relationships into explicit, testable connections among context, experiences, and behavior."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG222: Depression in adults — initial assessment, 1.2.6–1.2.7",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read duration, course, functioning, and contextual assessment. Public guidance for England; local pathways differ. Source [1]."
+                },
+                {
+                  "title": "NICE CG103: Delirium — indicators at presentation, 1.3",
+                  "url": "https://www.nice.org.uk/guidance/cg103/chapter/Recommendations",
+                  "note": "Read the acute-change indicators and hypoactive presentation warning. Hospital and long-term-care scope. Source [5]."
+                }
+              ],
+              "visual": {
+                "title": "Timeline as a hypothesis filter",
+                "description": "A labeled progression from earlier functioning to revisable interpretation, not a diagnostic algorithm.",
+                "steps": [
+                  "Baseline: establish earlier functioning",
+                  "Change: locate onset and fluctuations",
+                  "Context: compare possible antecedents and consequences",
+                  "Revision: identify missing information that could change the hypothesis"
+                ]
+              }
+            },
+            {
+              "id": "22",
+              "title": "Formulation as a testable map, not a persuasive story",
+              "explanation": "The objective is to construct a contextual formulation whose links can be questioned. A diagnosis classifies a pattern using a particular system; a formulation proposes how difficulties arose and continue for this person. They answer related but different questions. A useful formulation links circumstances, bodily states, interpretations, actions, and resources without claiming that one level explains everything. NICE's depression assessment includes social conditions, relationships, strengths, lifestyle, and treatment history alongside symptoms.[1] This supports broad inquiry, not a requirement to fill every box or to explain mental suffering through a simplistic chemical-imbalance story. A compelling narrative remains a hypothesis until its links have support.",
+              "example": "A fictional office worker stops attending team meetings after receiving harsh criticism. They predict further humiliation, feel tense before meetings, avoid attending, and then lose access to information needed for their work. The resulting mistakes strengthen the original prediction. A formulation can describe a possible feedback loop: anticipated humiliation, avoidance, information loss, additional difficulty, renewed anticipation. Mark each connection as supported, plausible, or unknown. The criticism is reported; the function of avoidance needs exploration. Perhaps meetings are genuinely hostile, or inaccessible because of sensory overload. An account that assumes irrational fear before investigating the environment may place responsibility in the wrong location.",
+              "question": "What makes the meeting formulation scientifically useful?",
+              "answer": "It specifies uncertain links and observations that could revise them",
+              "distractor": "It explains all behavior with a diagnostic label",
+              "correction": "A formulation should generate testable questions; a label alone can simply redescribe the behavior.",
+              "depth": {
+                "definitions": "Predisposing factors are earlier conditions that may increase vulnerability; precipitating factors are associated with onset; perpetuating factors may maintain the current problem; protective factors support safety, coping, or recovery. These are organizing categories, not fixed biological properties. A supportive relationship can be protective at one time and unavailable at another. A mechanism is a proposed process connecting events, such as withdrawal reducing access to rewarding activities. Evidence for a mechanism is stronger when it makes a discriminating prediction, not merely when its language sounds scientific. Formulations should include the person's interpretation and goals rather than only professional vocabulary.",
+                "mechanism": "A feedback loop differs from a single cause because consequences become new inputs. Avoidance might reduce distress immediately but restrict participation later; however, leaving an unsafe situation can also be adaptive. The question is what the behavior accomplishes in the actual setting. Testability requires specifying an observation that would weaken the proposed link. If accessible meetings with respectful colleagues remain impossible for a different reason, the social-threat hypothesis may be incomplete. NICE describes behavioral activation and cognitive behavioral approaches in its depression treatment tables, connecting activities, thoughts, feelings, and behavior.[1] Those treatment models inform hypotheses, but matching a case to a model does not establish that the model is the entire explanation.",
+                "secondExample": "Consider instead a person who misses appointments because the clinic schedule conflicts with hourly work and there is no affordable transport. Calling this avoidance may be descriptively possible but mechanistically misleading. A prediction based on low motivation would differ from one based on access barriers. If evening appointments and transport support improve attendance, the structural explanation gains support. This does not show that psychological factors never mattered; it shows that a practical intervention tested an important contextual link. Good formulations can point toward service redesign or social support, not only changes within the individual.",
+                "mistake": "The diagnostic mistake is circular reasoning: ‘They withdraw because they are depressed, and we know they are depressed because they withdraw.’ A classification can summarize observations but cannot, by itself, explain their mechanism. Replace the circle with a question about sleep, energy, threat, opportunities, physical health, or access that could produce new evidence. Avoid another error: treating protective factors as guarantees. Supportive relatives may help, but their availability and the person's willingness to involve them require discussion. Formulation should make uncertainty visible rather than using a polished paragraph to conceal it.",
+                "application": "Practice: write a short formulation of the meeting case with one observed sequence, one proposed maintaining link, one alternative environmental explanation, and one strength. A model response notes withdrawal after criticism, hypothesizes short-term relief with longer-term information loss, considers ongoing workplace hostility, and identifies a trusted colleague as a possible resource if the person agrees. Self-review: every causal link is distinguishable from a fact; the person's perspective is represented; at least one observation could overturn the account; and the proposal does not blame the person for inaccessible or unsafe conditions. You may compare your response without disclosing any personal clinical history.",
+                "summary": "A formulation earns its value through usefulness, openness to correction, and respect for context. It should guide the next question or collaborative action, not serve as a permanent biography. Different models can illuminate different parts of the same case, but adding more theoretical language is not automatically more accurate. In the next lesson, apply the same discipline to apparently objective numbers: a scale score is another source of evidence that needs interpretation, not a replacement for this map."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG222: initial assessment and treatment tables on CBT and behavioral activation",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read 1.2.6–1.2.7 and the treatment-table descriptions, distinguishing assessment domains from proposed therapeutic mechanisms. Public guidance, not a universal causal theory. Source [1]."
+                }
+              ],
+              "visual": {
+                "title": "A maintaining loop with alternatives",
+                "description": "Follow a possible loop while retaining the environmental explanation as an alternative.",
+                "steps": [
+                  "Observation: criticism precedes withdrawal",
+                  "Hypothesis: immediate relief may increase later information loss",
+                  "Alternative: ongoing hostility or inaccessible meetings",
+                  "Test: seek an observation that distinguishes these explanations"
+                ]
+              }
+            },
+            {
+              "id": "23",
+              "title": "Interpret symptom measures without surrendering judgment",
+              "explanation": "The objective is to explain what a symptom score can and cannot establish. Earlier lessons distinguished screening from diagnosis. Now separate three uses: identifying people who may need assessment, describing severity within an assessment, and tracking change over time. A tool useful for one purpose is not automatically validated for another. NICE recommends a comprehensive depression assessment rather than relying simply on symptom counts, while allowing validated measures to inform assessment and treatment evaluation.[1] The score is a structured report collected under particular conditions. It is not a direct reading of a disease inside the brain, nor a complete description of functioning, safety, or the person's priorities.",
+              "example": "Imagine two fictional respondents with the same total on a mood questionnaire. One reports mainly sleep, energy, and concentration difficulties while working rotating shifts; the other reports pervasive hopelessness and loss of interest despite adequate opportunity for sleep. The shared total hides different item patterns and histories. First inspect the answers and administration conditions. Next ask about duration, functional consequences, possible alternative contributors, and safety. Then integrate the result with clinical assessment. Do not infer either that both people necessarily have the same condition or that one person's difficulties are unimportant. Equal numerical summaries can represent clinically different combinations.",
+              "question": "A falling total with unchanged functional difficulty supports which conclusion?",
+              "answer": "One measured domain improved, while the broader outcome still needs review",
+              "distractor": "The score alone proves full recovery",
+              "correction": "Measured symptom change and personally meaningful functioning are related but nonidentical outcomes.",
+              "depth": {
+                "definitions": "Reliability concerns consistency under relevant conditions, while validity concerns whether evidence supports a particular interpretation or use. A measure can be consistent yet unsuitable for a particular purpose. Sensitivity concerns how often a test identifies a target condition among people who have it; specificity concerns how often it is negative among people who do not. Positive predictive value instead asks how often a positive result corresponds to the condition in the tested setting. That last quantity depends on how common the condition is in that setting as well as the tool's performance. These are conceptual distinctions here, not calculations or instructions to self-diagnose.",
+                "mechanism": "Why does setting matter? When a condition is uncommon in the tested population, people without it can contribute many positive results even if the false-positive proportion is modest. A positive result therefore needs contextual follow-up. Thresholds also trade missed cases against additional assessments; moving a cut-off does not remove uncertainty. For monitoring, the same score change may reflect improvement, altered interpretation of questions, different circumstances, or random variation. Comparable administration conditions help, but they do not eliminate these possibilities. NICE advises using appropriate validated measures in the broader assessment and review process.[1] A measurement strategy should specify what decision the result will inform and what additional evidence is needed.",
+                "secondExample": "Now consider a person whose questionnaire total improves but who still cannot return to an activity they value. Perhaps sleep items improved while anxiety about traveling remained, or reduced demands made symptoms less visible without restoring participation. The outcome is neither simply success nor failure. Examine the domains separately: symptom burden, adverse effects, everyday function, and the person's goals. In the opposite direction, greater willingness to disclose distress can raise a score even during a more trusting therapeutic relationship. That possibility warrants inquiry, not an automatic declaration of deterioration or dismissal of the report.",
+                "mistake": "A common mistake is arguing that a below-threshold score proves there is no concern. False negatives, unmeasured experiences, and changes since completion remain possible. Another is regarding a score as more credible than the person's detailed account because it is numerical. Numbers organize information but inherit the limitations of the questions and circumstances that generated them. Correct the error by asking: what construct was measured, for which population, for what time window, and for which decision? If the measure does not assess a relevant risk or impairment, its reassuring result cannot settle that issue.",
+                "application": "Practice with an invented clinic report: ‘The total fell, therefore the person recovered.’ Rewrite this as a defensible monitoring statement and add missing information. A model answer says the reported symptom burden decreased on this measure under the recorded conditions, while functional goals, item-level changes, adverse effects, and current safety still need review. Self-review checks four things: you name the measure's limited role, avoid equating score with diagnosis, include at least one non-score outcome, and describe a follow-up question rather than an unsupported verdict. No exact numerical threshold is needed for this exercise.",
+                "summary": "Measurement helps when its purpose, interpretation, and limits remain explicit. Rejecting all scales loses useful structure, but treating them as verdicts loses the person and context. Carry the item pattern, history, and functional account forward together. The next lesson applies this approach to communication and observation: what looks like an abnormal response may partly reflect the interview environment, language, or assumptions built into the assessment rather than the construct the clinician intended to assess."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG222: recognition, initial assessment, and review of treatment response",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read 1.2 and the recommendations on review and validated outcome monitoring. The guideline supports contextual use of measures, not diagnosis by total score. Public full text. Source [1]."
+                }
+              ],
+              "visual": {
+                "title": "From score to qualified interpretation",
+                "description": "Four checks prevent a numerical summary from becoming an unsupported verdict.",
+                "steps": [
+                  "Purpose: screening, severity, or monitoring?",
+                  "Conditions: population, language, and time window",
+                  "Pattern: inspect items alongside history",
+                  "Interpretation: integrate functioning and uncertainty"
+                ]
+              }
+            },
+            {
+              "id": "24",
+              "title": "Assess culture, communication, and context before interpreting behavior",
+              "explanation": "The objective is to identify when an assessment is measuring a communication mismatch rather than the intended clinical phenomenon. A mental status examination describes an encounter, but the encounter has a setting, language, power relationship, and sensory demands. NICE recommends addressing cultural and communication needs in psychosis care and includes culture, ethnicity, development, social circumstances, and quality of life in comprehensive assessment.[2] This does not mean that distress is merely cultural or that all interpretations are equally supported. It means that clinicians need enough contextual information to distinguish unfamiliar expression, access barriers, and clinically important change.",
+              "example": "A fictional person gives short answers, avoids eye contact, and repeatedly looks toward the door in a crowded clinic. An observer writes ‘uninterested and suspicious.’ That phrase leaps from behavior to motive. A more defensible record separates observations from possibilities: answers were brief; gaze was often directed away; the room was noisy; the person said the lighting was painful. The next step is to ask about communication preferences, comfort, and the meaning of the behavior. Moving to a quieter setting may change the interaction. Even if it does, the change does not exclude psychiatric symptoms; it clarifies how much the original setting constrained the assessment.",
+              "question": "What is the strongest revision to ‘uninterested and suspicious’?",
+              "answer": "Describe observed behavior, setting, and the person's account before inferring motive",
+              "distractor": "Keep the phrase because all unusual eye contact has the same meaning",
+              "correction": "Observed behavior does not uniquely identify motivation; setting and communication needs can change its interpretation.",
+              "depth": {
+                "definitions": "Culture includes shared and contested practices, explanatory models, values, language, and social experience; it is not a fixed list of traits attached to an ethnicity. An explanatory model is the person's account of what the difficulty means, what caused it, and what help seems appropriate. Communication access means having a workable way to understand and respond, including appropriate language support and accessible formats. Collateral information comes from other sources, such as relatives or prior records, and requires attention to consent, confidentiality, accuracy, and local obligations. It is additional evidence, not automatic authority over the person's voice.",
+                "mechanism": "The mechanism of bias is often a hidden comparison. An assessor expects a particular conversational style, notices deviation, and interprets that deviation as pathology without checking whether the expectation is appropriate. Ask what the behavior is like in familiar settings and whether it represents a change for this person. NICE calls for competence in assessing people from diverse ethnic and cultural backgrounds and negotiating explanations of illness and treatment.[2] A culturally informed account should also examine discrimination, housing, work, and service access rather than explaining every difficulty through beliefs. Broad social context can shape both distress and which options are actually feasible.",
+                "secondExample": "Contrast the clinic example with a person who describes a spiritual experience. The educational task is not to certify the belief as true or false. Explore its personal and cultural meaning, whether it is shared or understandable within the relevant community, whether it is new, and whether there is distress, impaired functioning, loss of control, or other concerning change. Respectful inquiry can coexist with clinical assessment. Membership in a religious community does not automatically explain every experience, just as an unfamiliar belief does not automatically establish psychosis. The conclusion may remain uncertain while appropriate support and further assessment proceed.",
+                "mistake": "The mistake to avoid is cultural essentialism: assuming that a person's background dictates their beliefs, family roles, or preferred treatment. Ask rather than assign. A second mistake is diagnostic overshadowing, where a known condition becomes the explanation for every new difficulty. A person with a longstanding communication difference can still develop an acute illness; a familiar baseline should make new change easier to recognize, not easier to ignore. Correct both errors by describing the person's own baseline, current account, relevant accommodations, and the evidence for a change, while leaving unsupported motives out of the record.",
+                "application": "Practice: replace ‘uncooperative patient who refuses to engage’ with an observation-based note and an accessible next step. A model answer states that the person answered briefly in a noisy room, requested written questions, and agreed to continue in a quieter setting; further assessment of distress and functioning remains necessary. Self-review asks whether you separated observation from interpretation, recorded the person's preference, avoided a stereotype, and preserved the clinical question rather than explaining it away. A strong answer also states what remains unknown. You need not disclose personal identity or experiences to complete the exercise.",
+                "summary": "Contextual assessment improves precision because it asks what the observed behavior means under the conditions that produced it. Accommodation is not a favor that invalidates the examination; it can make the examination more informative. Respect does not require abandoning diagnostic reasoning, and diagnostic reasoning does not justify dismissing meaning or culture. Carry this dual commitment into the next lesson, where the challenge is recognizing acute change without allowing a familiar psychiatric label to delay medical assessment."
+              },
+              "readings": [
+                {
+                  "title": "NICE CG178: Psychosis and schizophrenia in adults — care across cultures and comprehensive assessment",
+                  "url": "https://www.nice.org.uk/guidance/cg178/chapter/recommendations",
+                  "note": "Read sections 1.1 and 1.3.3 for cultural competence, explanatory models, communication, and assessment domains. Public guidance; not a cultural checklist. Source [2]."
+                }
+              ],
+              "visual": {
+                "title": "Observation before interpretation",
+                "description": "Context and baseline mediate the inference from visible behavior to a clinical hypothesis.",
+                "steps": [
+                  "Observe: describe behavior without assigning motives",
+                  "Ask: language, sensory needs, and personal meaning",
+                  "Compare: familiar baseline versus new change",
+                  "Interpret: retain alternatives and arrange assessment"
+                ]
+              }
+            },
+            {
+              "id": "25",
+              "title": "Recognize acute change without premature psychiatric closure",
+              "explanation": "The objective is to understand why abrupt changes in attention, awareness, behavior, or perception can change the priority of assessment. Psychiatric and physical health are not separate competing worlds. A person with an established psychiatric history can also become acutely medically unwell. NICE's delirium guideline identifies recent changes or fluctuations in cognition, perception, physical function, or social behavior as reasons for assessment in hospital and long-term-care settings.[5] This lesson teaches recognition and escalation, not how to diagnose delirium, choose investigations, or provide treatment. In a real sudden or severe change, seek urgent medical assessment rather than completing an educational checklist.",
+              "example": "A fictional hospital patient with a history of depression becomes unusually quiet after previously conversing normally. Their attention varies during the day, and a family member reports that the change is new. The first error would be to treat withdrawal as proof that depression has worsened. Start by identifying the departure from baseline and communicating the fluctuation and onset to the clinical team. NICE specifically warns that hypoactive delirium can be missed because signs include withdrawal, slow responses, reduced movement, and worsened concentration.[5] The warranted conclusion is concern requiring assessment. It is not a definitive diagnosis based on a short vignette.",
+              "question": "Why is new quietness with fluctuating attention different from a lifelong quiet style?",
+              "answer": "The acute departure from baseline requires prompt clinical assessment",
+              "distractor": "Quiet behavior excludes serious illness in both situations",
+              "correction": "Onset and fluctuation change the significance of behavior; hypoactive presentations may be missed if concern depends on agitation.",
+              "depth": {
+                "definitions": "Delirium refers to an acute disturbance involving attention and awareness with additional cognitive disturbance, typically developing over a short period and fluctuating. Hypoactive presentations involve reduced activity rather than conspicuous agitation. Differential diagnosis means comparing plausible explanations, whereas diagnostic overshadowing means allowing an existing label to conceal other possibilities. Baseline information describes how the person usually functions; collateral history can help establish that baseline when the current interview is limited. A screening or assessment instrument can structure observations, but use and interpretation require the appropriate professional competence and clinical setting.",
+                "mechanism": "The reasoning priority comes from the combination of tempo and potential consequences. A longstanding pattern and a rapidly changing state require different questions. Medical illness, medication effects, substance-related states, and multiple simultaneous contributors may need clinical consideration rather than selection of a psychiatric explanation by appearance alone. NICE recommends identifying and managing possible underlying causes of delirium, including combinations of causes.[5] This is why one plausible contributor should not necessarily end inquiry. Equally, a normal-looking moment during a fluctuating course cannot erase earlier observations. Record when findings occurred, who observed them, and whether the person's attention or behavior changed across the encounter.",
+                "secondExample": "Contrast this with someone who has consistently preferred limited conversation for years and is communicating in their usual way today. Quietness alone does not establish an acute syndrome. The useful comparison is with that person's baseline, not with the examiner's preferred degree of sociability. Now add a new inability to follow familiar instructions and a sudden change in wakefulness: the same quiet behavior takes on a different significance. This comparison illustrates why individualized knowledge can improve recognition without turning relatives into diagnosticians. Their reports supply temporal evidence that trained professionals integrate with examination and other findings.",
+                "mistake": "A common mistake is assuming that a person who is not disruptive is not seriously unwell. Visibility and urgency are different dimensions. Another is using an online differential to postpone contacting a professional while trying to find the perfect label. Correct this by separating recognition from diagnosis: one can recognize a potentially urgent departure from baseline without knowing its cause. Avoid presenting the NICE hospital guideline as a universal self-test for every setting or age group. Its population and recommendations have boundaries; the broader transferable lesson is to take sudden unexplained changes seriously and seek suitable assessment.",
+                "application": "Practice a concise handover for the fictional hospital case. Include usual functioning, the new change, approximate onset, fluctuation, source of information, and the request for clinical assessment. A model response says the patient was conversing normally previously, is now newly withdrawn with variable attention, and has a relative-confirmed acute change requiring prompt review. State what is unknown rather than inventing examination findings. Self-review: the handover does not diagnose, does not dismiss the change because of psychiatric history, and does not bury the action request under theoretical detail. This communication exercise is not emergency training or certification.",
+                "summary": "The unit's central skill is disciplined uncertainty with proportionate action. A timeline constrains explanations; a formulation proposes links; a measure organizes reports; contextual inquiry improves interpretation; and acute change can require urgent escalation before diagnostic certainty. Uncertainty should not lead either to premature labeling or to paralysis. In the next unit, apply the same discipline to treatment evidence, shared decisions, and follow-up: what can be concluded, what remains unknown, and what action or discussion is justified by the available information?"
+              },
+              "readings": [
+                {
+                  "title": "NICE CG103: Delirium — indicators, assessment, and initial management",
+                  "url": "https://www.nice.org.uk/guidance/cg103/chapter/Recommendations",
+                  "note": "Read 1.3, 1.6, and 1.7, especially the warning about hypoactive presentations and consideration of multiple causes. Hospital and long-term-care scope. Public full text. Source [5]."
+                }
+              ],
+              "visual": {
+                "title": "Acute change alters the assessment priority",
+                "description": "Baseline and temporal change lead to communication and clinical review without a premature label.",
+                "steps": [
+                  "Baseline: usual attention and interaction",
+                  "Change: sudden onset and fluctuation",
+                  "Concern: a quiet presentation may still be important",
+                  "Action: communicate findings and obtain urgent clinical assessment"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-21-a",
+              "prompt": "A person's fatigue began before a stressful move, but the referral says the move caused all symptoms. What should be revised?",
+              "answer": "The causal account should be reconsidered because the proposed cause followed symptom onset",
+              "distractor": "The onset date should be ignored because moving is stressful",
+              "correction": "Stress may contribute to maintenance, but an event occurring after onset cannot explain the initial onset in that way. Preserve the chronology and explore other contributors.",
+              "reviewLessonIds": [
+                "21"
+              ]
+            },
+            {
+              "id": "uq-21-b",
+              "prompt": "A clinic calls repeated absences low motivation without asking about transport. Which next step best tests its formulation?",
+              "answer": "Ask about access barriers and whether feasible appointment arrangements change attendance",
+              "distractor": "Repeat the motivation label until the person accepts it",
+              "correction": "A formulation needs evidence distinguishing access barriers from other explanations, not a restatement of the conclusion.",
+              "reviewLessonIds": [
+                "22"
+              ]
+            },
+            {
+              "id": "uq-21-c",
+              "prompt": "A translated questionnaire produces a surprising result after questions were misunderstood. How should the result be used?",
+              "answer": "Clarify comprehension and administration conditions before interpreting the score alongside assessment",
+              "distractor": "Treat the numerical total as independent of how the questions were understood",
+              "correction": "The score inherits the limitations of the response process; a numerical format cannot repair misunderstood items.",
+              "reviewLessonIds": [
+                "23",
+                "24"
+              ]
+            },
+            {
+              "id": "uq-21-d",
+              "prompt": "A clinician assumes a person's cultural background determines whether they want relatives involved. What is missing?",
+              "answer": "The person's own preferences and a discussion of consent and appropriate involvement",
+              "distractor": "A more detailed stereotype about that cultural group",
+              "correction": "Cultural inquiry is individualized; group assumptions cannot establish a person's preferences or authorize disclosure.",
+              "reviewLessonIds": [
+                "24"
+              ]
+            },
+            {
+              "id": "uq-21-e",
+              "prompt": "A hospital patient with a psychiatric diagnosis is newly unable to follow conversation but is not agitated. What is the priority?",
+              "answer": "Communicate the acute departure from baseline and obtain prompt clinical assessment",
+              "distractor": "Wait for agitation before considering a medical concern",
+              "correction": "Reduced activity can accompany an important acute change. Psychiatric history and quietness do not rule out medical illness.",
+              "reviewLessonIds": [
+                "21",
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Evaluate treatment evidence and build accountable collaborative care",
+          "lessons": [
+            {
+              "id": "26",
+              "title": "Read treatment evidence through population, comparison, and outcome",
+              "explanation": "The objective is to translate a treatment claim into a question that evidence can actually answer. A claim such as “this therapy works” leaves out for whom, compared with what, on which outcome, and over what period. Earlier lessons introduced generalizability. Here, build a structured appraisal before drawing a clinical conclusion. NICE's shared decision-making guidance recommends discussing benefits, harms, consequences, and uncertainty in ways the person can understand.[4] Evidence is necessary for that conversation, but evidence does not choose the person's priorities. This lesson evaluates hypothetical study descriptions; it neither recommends a treatment nor supplies real treatment-effect estimates.",
+              "example": "Imagine a fictional trial comparing a structured therapy with a waiting list. Participants report fewer symptoms at the end of treatment. A headline claims the therapy is better than all existing care and works permanently. Break the claim apart. The actual comparison is with waiting, not every alternative. The outcome concerns symptoms, not necessarily employment, relationships, or adverse experiences. The endpoint is the end of treatment, not indefinite follow-up. Random allocation, if well implemented, strengthens inference about the comparison studied; it does not expand the comparison or extend the observation period. The headline overreaches even if the trial itself is carefully conducted.",
+              "question": "What is established by the fictional waiting-list comparison?",
+              "answer": "Evidence about the studied therapy versus waiting on the measured outcome and period",
+              "distractor": "Permanent superiority to every active treatment",
+              "correction": "The comparison and follow-up limit the supported claim; a headline cannot expand them.",
+              "depth": {
+                "definitions": "The population identifies who was studied, including relevant inclusion and exclusion criteria. The intervention is the treatment as delivered, including its setting and support. The comparator is what the other group received. Outcomes are the changes measured; follow-up defines when they were measured. Efficacy usually concerns benefit under study conditions, while effectiveness concerns results in ordinary practice. Internal validity concerns whether the study's comparison supports its causal inference; applicability concerns how well that finding informs another setting or person. These concepts can diverge: a tightly controlled study may answer a narrow question very well while leaving other important questions open.",
+                "mechanism": "Different comparators answer different questions. A waiting-list comparison may include effects of attention, expectation, and structured contact that an active-comparator design handles differently. Blinding may be difficult in psychotherapy research, making outcome assessment, measurement choice, and reporting especially important to inspect. Missing follow-up can also matter: people who discontinue may differ from those who remain. Ask how missing outcomes were handled rather than assuming every reported average represents every participant. NICE recommends explaining uncertainty and presenting absolute risks with consistent denominators and a defined period when numerical evidence is discussed.[4] Without these anchors, apparently precise numbers can conceal a vague or irrelevant clinical claim.",
+                "secondExample": "Contrast the trial with a clinic's report that most people who completed treatment improved. This can be useful service information but does not establish the same causal claim. Completers may differ from people who left, symptoms may change over time, and other care may have occurred simultaneously. The right response is neither to dismiss the report nor to equate it with a controlled comparison. Ask what outcome was tracked, who was missing, and what other changes occurred. It may inform feasibility or experience while leaving comparative effectiveness uncertain. Different evidence types contribute different pieces of a decision.",
+                "mistake": "The mistake is treating statistical significance as a guarantee of important individual benefit. A study can detect a difference that is small relative to what matters to a particular person; a study can also be too uncertain to settle a potentially important question. Avoid the opposite mistake of treating imperfect applicability as proof that evidence is useless. Instead identify the mismatch and its likely relevance: an excluded co-occurring condition, a different age group, or unusually intensive support. A reasoned conclusion says what transfers plausibly and what remains uncertain rather than declaring universal success or universal failure.",
+                "application": "Practice with the fictional headline: write an evidence card containing population, intervention, comparator, outcome, time period, and one uncertainty. A model response specifies the enrolled population rather than everyone, structured therapy rather than an unspecified conversation, waiting list rather than all treatments, symptom change rather than full recovery, and end-of-treatment rather than lifelong benefit. Self-review: your conclusion is no broader than the design, distinguishes missing information from negative evidence, and names a decision-relevant limitation. This is a critique of claims, not a recommendation that the learner choose or avoid a particular therapy.",
+                "summary": "The transferable skill is preserving the boundary between what was studied and what is being claimed. Evidence becomes useful when the comparison is clear and outcomes connect to a person's goals. In the next lesson, carry this discipline inside psychotherapy: a proposed mechanism, a named technique, and an outcome are not interchangeable. A plausible rationale needs a collaborative, appropriate implementation and evaluation rather than confidence based only on its theoretical appeal."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG197: communicating risks, benefits, consequences, and uncertainty, section 1.4",
+                  "url": "https://www.nice.org.uk/guidance/ng197/chapter/Recommendations",
+                  "note": "Read the specified sections and their scope, not just a treatment name. Public NICE guidance for England; local pathways and legal duties differ. Source [4] in the research handoff."
+                }
+              ],
+              "visual": {
+                "title": "Read treatment evidence through population, comparison, and outcome — reasoning sequence",
+                "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
+                "steps": [
+                  "Specify: population and delivered intervention",
+                  "Compare: identify the actual control condition",
+                  "Measure: name outcomes and follow-up",
+                  "Qualify: distinguish findings from extrapolation"
+                ]
+              }
+            },
+            {
+              "id": "27",
+              "title": "Connect psychotherapy techniques to hypotheses and feedback",
+              "explanation": "The objective is to distinguish a therapeutic rationale from a testable, collaboratively chosen intervention. A psychotherapy name does not explain every session, and a technique is not effective merely because its rationale sounds plausible. Earlier lessons introduced behavioral experiments. Here, examine how a formulation leads to a prediction, how a carefully designed task produces information, and how feedback changes the formulation. NICE describes cognitive behavioral therapy and behavioral activation among depression treatment options, including their different emphases and delivery demands.[1] The following examples analyze fictional plans. They do not invite the learner to perform exposure, trauma processing, or other clinical techniques without appropriate support.",
+              "example": "A fictional person believes that asking a colleague one ordinary clarification question will lead to humiliation. In a suitable clinical context, therapist and person might first clarify the prediction and whether the workplace is genuinely safe. They might then agree on an appropriately bounded way to collect information. The outcome is not simply whether anxiety disappears. What happened, how did the colleague respond, and what did the person learn? If the colleague responds respectfully but anxiety remains, the result may still challenge the predicted social consequence. If humiliation occurs, the formulation must address the environment rather than insist that the person interpreted reality incorrectly.",
+              "question": "What makes a behavioral experiment more than reassurance?",
+              "answer": "An explicit prediction, appropriate agreed observation, and openness to revising either hypothesis",
+              "distractor": "A promise that anxiety will disappear if the task is completed",
+              "correction": "An experiment can produce information without immediate relief; a guaranteed conclusion is not a genuine test.",
+              "depth": {
+                "definitions": "A target is the process an intervention aims to influence, such as withdrawal from valued activities. A technique is a specific procedure intended to influence that target. A rationale explains why the procedure might help. A mediator is a proposed process through which an intervention produces an outcome, but observing change in both does not by itself prove mediation. A behavioral experiment tests a prediction; behavioral activation emphasizes relationships among activities, avoidance, mood, and opportunities for reinforcement. These distinctions prevent a technique from becoming a generic instruction such as “think positively” or “keep busy.”",
+                "mechanism": "The reasoning chain is formulation, target, agreed task, observation, and revision. Each link can fail independently. The formulation may identify the wrong maintaining process; the task may be inaccessible; the outcome may be poorly measured; or circumstances may change. NICE's treatment tables describe structured approaches and discuss preferences, practical demands, and fit.[1] This supports selecting and evaluating an approach with the person rather than assuming a named method suits everyone. Collaboration matters epistemically as well as ethically: the person's report can reveal hidden safety behavior, misunderstanding, fatigue, or environmental constraints that change what the task actually tested. Successful completion alone does not prove the hypothesized mechanism.",
+                "secondExample": "Contrast the social-prediction case with someone whose reduced participation follows pain, limited transport, and loss of enjoyable roles. An instruction to schedule more activity may fail if it ignores physical limits and access. A better conceptual plan distinguishes activities that are meaningful, feasible, and appropriately supported from demands that simply add burden. Improvement could arise from restored opportunities, practical support, therapeutic contact, or several processes together. The educational point is not to prescribe an activity schedule. It is to identify the missing formulation links before calling a person resistant or concluding that a whole therapy model has failed.",
+                "mistake": "A frequent mistake is designing an experiment so that only the preferred explanation can win. If every outcome is interpreted as proof that the person's belief was wrong, no genuine test occurred. State in advance what would count against the therapist's hypothesis as well as the person's prediction. Another mistake is equating distress during a task with harm or benefit automatically. Context, consent, pacing, safety, and subsequent effects matter. A learner should not use this discussion to initiate intense clinical exercises; the lesson concerns reasoning about appropriate professional practice, not unsupervised treatment delivery.",
+                "application": "Practice: critique the instruction “Attend the meeting and you will learn that nothing bad happens.” A model response replaces certainty with a specific prediction, checks actual workplace conditions, asks about accessibility and willingness, and defines observations that could support either explanation. Self-review: the task follows a stated formulation, does not promise a particular emotional response, permits disconfirming evidence, and contains a plan to review what was learned. For a second check, explain why merely attending is different from testing a prediction. Attendance is a behavior; learning depends on what was expected, observed, and interpreted.",
+                "summary": "Psychotherapy reasoning is strongest when technique and theory remain accountable to experience. A supportive relationship and structured methods can coexist, but neither removes the need to examine fit, burden, and outcomes. Improvement does not prove that every part of the therapist's causal model is correct, and non-improvement does not automatically identify a character flaw in the person. The next lesson applies the same distinction between temporal association and causation to medication-related concerns and monitoring, without selecting drugs or advising dose changes."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG222: treatment tables describing CBT and behavioral activation, sections 1.5–1.6",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read the specified sections and their scope, not just a treatment name. Public NICE guidance for England; local pathways and legal duties differ. Source [1] in the research handoff."
+                }
+              ],
+              "visual": {
+                "title": "Connect psychotherapy techniques to hypotheses and feedback — reasoning sequence",
+                "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
+                "steps": [
+                  "Formulate: identify the proposed maintaining process",
+                  "Predict: state what could happen and what would challenge the hypothesis",
+                  "Agree: check safety, accessibility, and consent",
+                  "Review: compare observations with predictions and revise"
+                ]
+              }
+            },
+            {
+              "id": "28",
+              "title": "Medication evidence: separate benefit, burden, and causal attribution",
+              "explanation": "The objective is to evaluate a medication discussion without turning educational knowledge into a prescription. Earlier lessons established that medication decisions require individualized clinical oversight. Here, distinguish evidence of benefit, the burden of adverse effects, uncertainty about new symptoms, and the purpose of monitoring. NICE recommends discussing expected benefits, possible harms, preferences, and review arrangements when antidepressant treatment is considered.[1] It also provides specific guidance on withdrawal and stopping that requires individualized planning.[1] This lesson supplies no drug choice, dose, taper, or instruction to start or stop treatment. Its practical output is a better question or record for a qualified clinician.",
+              "example": "A fictional person reports improved mood but new daytime tiredness after a treatment change. A careless conclusion says either “the treatment works, so tiredness does not matter” or “tiredness proves the treatment is harmful and should be stopped.” Instead separate the observations. What improved, what became difficult, and when did each change occur? Ask what other changes occurred in sleep, physical health, substances, workload, or other medicines. The timing makes a treatment-related effect worth discussing but does not settle causation. The person's ability to drive safely, work, or study may make the burden important even when the symptom benefit is real. New concerns belong with the prescribing team.",
+              "question": "How should mood improvement plus new tiredness be summarized?",
+              "answer": "Potential benefit and a meaningful new burden both need contextual review with the prescriber",
+              "distractor": "Improved mood proves every new symptom should be ignored",
+              "correction": "Benefits and burdens can coexist; chronology supports inquiry but does not by itself prove causation.",
+              "depth": {
+                "definitions": "An adverse event is an unwanted occurrence during treatment, without necessarily establishing that treatment caused it. An adverse effect implies a causal relationship is suspected or established to some degree. Response describes improvement according to a defined criterion; remission describes a low-symptom state under a defined system, not a guarantee of permanent recovery. Monitoring is planned collection and interpretation of information to guide care. Withdrawal symptoms can occur when some medicines are reduced or stopped and can be confused with recurrence of the underlying difficulty.[1] Distinguishing possibilities requires clinical evaluation, not a rule that every new symptom has the same origin.",
+                "mechanism": "Medication reasoning operates at several levels. Study results estimate comparative outcomes in populations; pharmacology describes biological actions; the individual review asks about benefits, harms, functioning, and preferences in this person's circumstances. These levels inform each other but are not interchangeable. A drug affecting a transmitter system does not, by that fact alone, establish that the original disorder was caused by a deficiency of that transmitter. Similarly, improvement after treatment does not uniquely identify its mechanism. NICE emphasizes information, side effects, interactions, monitoring, and shared decisions rather than a single chemical explanation.[1] An honest discussion can explain that biological actions are relevant while the causes of a person's difficulties remain multifactorial and incompletely understood.",
+                "secondExample": "Contrast new tiredness during treatment with new distress after an unsupervised interruption. There may be several clinically relevant explanations, including withdrawal phenomena, return of symptoms, or another change. NICE advises explaining that withdrawal may resemble the original condition and provides guidance on supported stopping and review.[1] The educational response is to record the sequence and contact the prescribing clinician, not to diagnose the cause or supply a schedule. If symptoms suggest immediate danger or a medical emergency, urgent real-time care takes priority. Uncertainty about causation should not delay help for serious deterioration.",
+                "mistake": "The misconception is that deciding whether a medicine is “good” requires only one overall verdict. A treatment can provide benefit and impose a burden at the same time, with the balance differing across people and goals. Another mistake is assuming that a familiar adverse-effect label explains every new physical symptom. A person taking psychiatric medication can develop unrelated medical illness. Correct both errors by preserving separate domains and examining chronology, alternative contributors, severity, and the agreed monitoring plan. Never use this lesson to instruct someone else to change a medicine or dismiss a concern because a study average was favorable.",
+                "application": "Practice: draft a non-prescribing message about the fictional tiredness concern. A model response states the treatment-change timing, the reported mood improvement, the onset and daily effects of tiredness, other relevant recent changes if known, and a request to discuss assessment and monitoring with the prescriber. Self-review: no causal certainty is invented; benefit and burden are both represented; urgent symptoms would be escalated appropriately; and no dose or stopping advice appears. An effective message is specific enough to support review without pretending that the learner has made the clinical decision.",
+                "summary": "Medication literacy is the ability to ask accurate questions about evidence and lived effects while respecting the limits of general information. Mechanistic plausibility, average efficacy, and personal acceptability are different matters. Monitoring exists because decisions remain revisable, not because every outcome is predictable at the start. Carry this multidimensional approach into shared decisions: explaining options is incomplete unless the discussion identifies what matters to the person, checks understanding, and records a workable plan for review."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG222: starting, reviewing, and stopping antidepressant medication, section 1.4",
+                  "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+                  "note": "Read the specified sections and their scope, not just a treatment name. Public NICE guidance for England; local pathways and legal duties differ. Source [1] in the research handoff."
+                }
+              ],
+              "visual": {
+                "title": "Medication evidence: separate benefit, burden, and causal attribution — reasoning sequence",
+                "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
+                "steps": [
+                  "Separate: benefit, adverse event, and functioning",
+                  "Sequence: record timing and other changes",
+                  "Interpret: retain alternative causes",
+                  "Discuss: contact the prescriber and review the monitoring plan"
+                ]
+              }
+            },
+            {
+              "id": "29",
+              "title": "Shared decisions require understandable options and revisable plans",
+              "explanation": "The objective is to recognize the difference between obtaining agreement and supporting a genuinely shared decision. Shared decision-making brings together evidence, clinical expertise, and what matters to the person. It is not the clinician disappearing from responsibility or the person being handed an unexplained menu. NICE recommends discussing options and consequences, communicating uncertainty, checking understanding, and recording decisions alongside the person's priorities.[4] This lesson uses fictional conversations to examine decision quality. It does not determine anyone's capacity, override consent, or replace local legal and clinical processes when those questions arise.",
+              "example": "A fictional person values returning to study without feeling excessively tired. A clinician explains an option's potential symptom benefit but omits its practical demands and possible burdens. The person says yes because they think there is no alternative. The signature or verbal agreement does not show that the process was well informed. A stronger conversation asks what studying requires, discusses relevant options including the consequences of no change when appropriate, explains uncertainty, and checks the person's understanding. The eventual choice might be the same, but its basis is different: the person can connect the trade-offs to their own life rather than merely comply with authority.",
+              "question": "What does teach-back primarily test in shared decision-making?",
+              "answer": "Whether the explanation was understood and needs improvement",
+              "distractor": "Whether the person deserves access to the preferred option",
+              "correction": "Teach-back supports communication; it is not a worthiness test or a demand for agreement.",
+              "depth": {
+                "definitions": "An option is a feasible course of action, not every imaginable intervention. A preference expresses how a person values attributes or outcomes; it may develop as information becomes clearer. A decision aid organizes evidence and trade-offs to support discussion, not replace it. Teach-back asks the person to explain the information in their own words so the clinician can check their explanation. Deliberation is the process of considering options before choosing. A review plan states when and how to reconsider a decision, including what changes should prompt earlier contact. Reconsideration is part of competent decision-making, not necessarily evidence that the first choice was mistaken.",
+                "mechanism": "Communication format changes understanding. Relative language such as “doubles the risk” lacks the starting risk, while labels such as “rare” can mean different things to different people. NICE recommends absolute risks, natural frequencies, consistent denominators, relevant time periods, and both positive and negative framing.[4] The goal is not to overwhelm a person with statistics but to make the same information comparable across options. If the evidence is uncertain or poorly applicable, say so. Discuss information in manageable portions and check comprehension. Accessible communication can require an interpreter, written material, extra time, or another format; agreement obtained through inaccessible information is a poor measure of informed participation.",
+                "secondExample": "Contrast the study-focused person with someone who prefers to defer a nonurgent decision until a trusted supporter can join. Shared decision-making can include that preference when appropriate, but involvement should not automatically transfer ownership of the choice. Clarify whom the person wants involved, what information may be shared, and what remains their own priority. The supporter might emphasize convenience while the person emphasizes privacy or independence. The disagreement is information to explore, not proof that one party is difficult. Urgent situations may constrain timing, and local duties still apply; a general teaching scenario cannot settle those legal or clinical questions.",
+                "mistake": "A common mistake is labeling a declined recommendation “noncompliance” before asking what concern shaped the choice. The person may understand the evidence and value the trade-off differently, or may have misunderstood an important point. Those are different situations requiring different responses. Another mistake is treating teach-back as an examination the person must pass to deserve care. Correct it by locating responsibility in communication: “I want to check that I explained this clearly.” If the explanation was unclear, revise it. Do not use the exercise to pressure the person into repeating the clinician's preferred answer.",
+                "application": "Practice: rewrite “This is the best option; agree today” as a short shared-decision opening. A model response says there are relevant options to discuss, asks what outcome matters most, explains that benefits and burdens differ, and offers to review uncertainties and understanding before deciding on next steps. Add a record entry stating the person's priority and how the decision will be reviewed. Self-review checks options, values, uncertainty, accessible explanation, and follow-up. A courteous tone alone is insufficient if alternatives are concealed or agreement is treated as the only acceptable outcome.",
+                "summary": "A decision is accountable when someone can reconstruct why it was made, which evidence and preferences informed it, and what would justify reconsideration. Shared decisions do not promise perfect outcomes; they improve the process under uncertainty. In the final lesson, connect this process to safety and recovery planning. The same requirements apply: use concrete, accessible actions, identify responsibility, and avoid confusing a reassuring label or signed document with proof that future harm cannot occur."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG197: putting shared decision making into practice and communicating risk, sections 1.2–1.4",
+                  "url": "https://www.nice.org.uk/guidance/ng197/chapter/Recommendations",
+                  "note": "Read the specified sections and their scope, not just a treatment name. Public NICE guidance for England; local pathways and legal duties differ. Source [4] in the research handoff."
+                }
+              ],
+              "visual": {
+                "title": "Shared decisions require understandable options and revisable plans — reasoning sequence",
+                "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
+                "steps": [
+                  "Elicit: identify the person’s priorities",
+                  "Explain: compare feasible options and uncertainty",
+                  "Check: use accessible information and teach-back",
+                  "Record: document reasons and a review plan"
+                ]
+              }
+            },
+            {
+              "id": "30",
+              "title": "Safety and recovery planning without false prediction",
+              "explanation": "The objective is to distinguish predicting an event from taking sensible action to support safety and recovery. Earlier lessons established that risk is dynamic. Now examine why a global risk label or reassuring score cannot replace needs-based assessment and a collaborative plan. NICE advises against using risk scales or global low, medium, and high categories to predict suicide or repeated self-harm, or to determine treatment or discharge after self-harm.[3] This is a specific recommendation about assessment and care, not a claim that asking about safety is pointless. If someone is in immediate danger, urgent local emergency or crisis support takes priority over educational material.",
+              "example": "A fictional discharge note says “low risk” and lists a future appointment, but the person does not know whom to contact if distress intensifies before then. The label creates an impression of certainty while leaving a practical gap. A better educational critique asks whether current needs, warning signs, available supports, and contact routes have been addressed by the clinical team. Is the plan accessible? Does the person know what to do if the named service is unavailable? A documented category cannot make a disconnected service reachable. The task is to identify missing support and coordination, not to assign a different prediction score.",
+              "question": "What is the main flaw in a reassuring label with no usable interim contact route?",
+              "answer": "The label does not provide actionable support when circumstances change",
+              "distractor": "Every safety concern can be solved by assigning a more alarming label",
+              "correction": "Needs-based planning requires accessible actions and responsibility; changing a category alone does not close a support gap.",
+              "depth": {
+                "definitions": "Risk formulation is a contextual account of relevant vulnerabilities, current circumstances, possible future changes, and protective resources that informs action. A safety plan is a collaborative, practical plan for responding to distress or crisis; it is not a promise that harm will never occur. Recovery goals concern meaningful functioning, autonomy, relationships, and other priorities as well as symptom change. A handover transfers relevant information and responsibility between professionals or services. An escalation route specifies what to do when needs become more urgent or the original plan is insufficient. These concepts turn abstract concern into actions that can be understood and reviewed.",
+                "mechanism": "The core limitation of prediction is that future behavior depends on changing conditions and imperfect information. A person may encounter a new loss, lose access to support, or experience a change after the assessment. A plan therefore needs to anticipate change without pretending to foresee everything. NICE recommends focusing on needs and immediate and longer-term safety, undertaking risk formulation within psychosocial assessment, and considering collaborative safety planning.[3] Its safety-plan elements include warning signs, coping strategies, supportive contacts, service contacts, and collaborative attention to environmental safety.[3] These are matters for appropriate care, not a complete emergency protocol supplied by a course or a substitute for professional assessment.",
+                "secondExample": "Contrast the discharge gap with a fictional follow-up in which symptom scores improve but the person remains isolated and unable to resume a valued course. There may be progress alongside unmet recovery needs. The review can ask what prevents participation, whether support is accessible, and whether the original goals still fit. New isolation may also change the availability of protective resources, so recovery and safety should not be treated as unrelated paperwork. The person's account matters: a professional might celebrate attendance while the person describes exhaustion and loss of autonomy. A meaningful outcome review preserves both accounts rather than declaring one universal success metric.",
+                "mistake": "The mistake is converting a safety plan into a guarantee or using a promise not to self-harm as a substitute for assessment. Another error is withholding support because a person does not fit a supposedly high-risk category. NICE explicitly rejects using global categories to decide who should receive treatment or be discharged after self-harm.[3] Correct the reasoning by asking what needs attention now, what could change, and who will act. Protective factors should be concrete and available, not symbolic entries; listing a relative is unhelpful if that person cannot be reached or involvement is unwanted.",
+                "application": "Practice: audit the fictional discharge note without adding private details or instructions about self-harm methods. A model response identifies the missing interim contact route, asks for an accessible collaborative plan, distinguishes the person's recovery goal from the risk label, and requests clear professional responsibility for follow-up. Self-review: the response does not promise prediction, does not use a category to deny care, includes what happens if the plan fails, and prioritizes urgent real-time help if immediate danger emerges. This exercise demonstrates understanding of planning principles only; a binary quiz cannot establish readiness to assess or manage clinical risk.",
+                "summary": "The level ends with a unified reasoning pattern: describe observations, establish chronology and context, compare explanations, evaluate evidence, share decisions, and specify reviewable actions. The goal is neither certainty nor endless hesitation. It is a justified next step with visible limits and responsibility. Treatment outcomes and safety both depend on changing people and circumstances, so plans must remain open to revision. Academic understanding can improve questions and critical reading; it does not authorize diagnosis, prescribing, emergency management, or a claim of professional competence."
+              },
+              "readings": [
+                {
+                  "title": "NICE NG225: risk assessment tools and scales, psychosocial assessment, and safety planning, sections 1.5–1.7 and 1.11",
+                  "url": "https://www.nice.org.uk/guidance/ng225/chapter/Recommendations",
+                  "note": "Read the specified sections and their scope, not just a treatment name. Public NICE guidance for England; local pathways and legal duties differ. Source [3] in the research handoff."
+                }
+              ],
+              "visual": {
+                "title": "Safety and recovery planning without false prediction — reasoning sequence",
+                "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
+                "steps": [
+                  "Assess: current needs and changing circumstances",
+                  "Formulate: link concerns and available resources",
+                  "Plan: accessible actions, contacts, and responsibility",
+                  "Review: update safety and recovery goals as circumstances change"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-26-a",
+              "prompt": "An advertisement cites a short symptom study as evidence of lifelong improvement in employment. Which additional evidence is needed for that broader claim?",
+              "answer": "Evidence measuring employment outcomes over an appropriate longer follow-up",
+              "distractor": "Only a more confident description of the symptom result",
+              "correction": "The outcome and time horizon have changed. A symptom endpoint cannot itself establish durable employment benefit.",
+              "reviewLessonIds": [
+                "26"
+              ]
+            },
+            {
+              "id": "uq-26-b",
+              "prompt": "A therapeutic task was completed, but the feared prediction was never written down or discussed. What cannot be inferred from completion alone?",
+              "answer": "That the task tested and revised the intended prediction",
+              "distractor": "That the person performed the assigned behavior",
+              "correction": "Completion documents behavior, not necessarily the learning process or mechanism. Review the expectation and interpretation.",
+              "reviewLessonIds": [
+                "27"
+              ]
+            },
+            {
+              "id": "uq-26-c",
+              "prompt": "A new physical symptom appears during psychiatric medication treatment. Which record best supports clinical review?",
+              "answer": "Its onset, severity, functional impact, and relevant concurrent changes, without assuming one cause",
+              "distractor": "A declaration that every new symptom must be caused by the medicine",
+              "correction": "Timing is relevant but does not exclude other causes. Specific observations support assessment without directing treatment changes.",
+              "reviewLessonIds": [
+                "28"
+              ]
+            },
+            {
+              "id": "uq-26-d",
+              "prompt": "A person declines an option because its appointment schedule threatens their employment. What does a shared-decision response require?",
+              "answer": "Explore the practical burden and feasible alternatives alongside clinical evidence",
+              "distractor": "Record refusal as proof that the person does not value recovery",
+              "correction": "Practical constraints affect whether an option is feasible. Their importance must be discussed rather than translated into a moral judgment.",
+              "reviewLessonIds": [
+                "29"
+              ]
+            },
+            {
+              "id": "uq-26-e",
+              "prompt": "A safety plan names a contact who is no longer reachable. Which revision matters most?",
+              "answer": "Agree on accessible support and escalation routes with clear responsibility",
+              "distractor": "Retain the name because having any written contact guarantees protection",
+              "correction": "A resource must be available to serve its intended role. Plans require revision when circumstances change and never guarantee safety.",
+              "reviewLessonIds": [
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-21-a",
+          "prompt": "A referral attributes recent concentration problems entirely to a childhood diagnosis. The person also reports a major recent sleep change and wants help returning to study. Which combined reasoning approach is strongest?",
+          "answer": "Compare earlier functioning with the recent timeline, consider multiple contributors, and include the study goal in review",
+          "distractor": "Treat the childhood diagnosis as a complete explanation and use only a current symptom total",
+          "correction": "A prior diagnosis may remain relevant, but it cannot automatically explain a new deterioration. Timeline, contextual formulation, and functional outcomes address different parts of the question.",
+          "reviewLessonIds": [
+            "21",
+            "22",
+            "23"
+          ]
+        },
+        {
+          "id": "lq-21-b",
+          "prompt": "In a noisy interview a person answers minimally. A scale is completed with misunderstood questions, and the note calls the person resistant. What should be addressed before interpreting either result?",
+          "answer": "Clarify communication needs and administration conditions, then separate observations from inferred motives",
+          "distractor": "Combine the score and resistance label as independent confirmation of a disorder",
+          "correction": "Both findings may be affected by the same inaccessible encounter. They are not independent confirmation when a common assessment limitation could influence both.",
+          "reviewLessonIds": [
+            "23",
+            "24"
+          ]
+        },
+        {
+          "id": "lq-21-c",
+          "prompt": "A hospitalized person with a longstanding psychiatric history becomes abruptly withdrawn and inconsistently attentive. The team proposes a routine future mood review because the person is calm. What is the better priority?",
+          "answer": "Communicate the acute fluctuating change from baseline and obtain prompt medical assessment",
+          "distractor": "Use calm behavior to rule out urgency and focus on the longstanding formulation",
+          "correction": "Tempo and fluctuation change the assessment priority. A quiet presentation and a familiar label do not exclude a clinically important acute medical change.",
+          "reviewLessonIds": [
+            "21",
+            "24",
+            "25"
+          ]
+        },
+        {
+          "id": "lq-21-d",
+          "prompt": "A service concludes that poor attendance reflects avoidance, then cites a therapy trial to justify the same plan for everyone. Several people cannot travel to its clinic. What correction integrates formulation and evidence appraisal?",
+          "answer": "Investigate access barriers and examine whether the trial population and delivery conditions match the service context",
+          "distractor": "Assume a favorable trial result proves that every missed appointment reflects the same psychological mechanism",
+          "correction": "Trial evidence does not establish the mechanism of an individual absence or remove practical barriers. Applicability depends partly on how the intervention can actually be accessed.",
+          "reviewLessonIds": [
+            "22",
+            "26",
+            "27"
+          ]
+        },
+        {
+          "id": "lq-21-e",
+          "prompt": "A person completes a behavioral task and reports less distress. A trainee says this proves both the diagnosis and the exact therapy mechanism. Which conclusion is warranted?",
+          "answer": "The reported change is useful information, while diagnosis and mechanism require additional evidence",
+          "distractor": "Task success uniquely verifies the therapist’s full explanation of the condition",
+          "correction": "An outcome can fit several explanations, including changes in context and support. Treatment response does not uniquely identify either a diagnosis or a causal mechanism.",
+          "reviewLessonIds": [
+            "22",
+            "26",
+            "27"
+          ]
+        },
+        {
+          "id": "lq-21-f",
+          "prompt": "Following a medication change, a fictional person reports better mood but difficulty staying alert for study. A clinician highlights average trial benefit and ignores the new burden. What should a better review include?",
+          "answer": "Separate benefit, possible adverse effects, alternative contributors, and the person’s study priority",
+          "distractor": "Declare overall success because the average trial outcome and mood report are favorable",
+          "correction": "Group evidence informs care but does not replace individual review. A meaningful burden can coexist with symptom benefit, and its cause needs assessment rather than assumption.",
+          "reviewLessonIds": [
+            "26",
+            "28",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-21-g",
+          "prompt": "A symptom score improves after the person withdraws from most daily activities. They feel safer at home but still cannot pursue their recovery goal. How should the result be interpreted?",
+          "answer": "Review the lower score alongside reduced demands, participation, and the proposed maintaining processes",
+          "distractor": "Conclude full recovery because the numerical outcome is better",
+          "correction": "Reduced exposure to difficult situations can change reported symptoms without restoring valued functioning. Formulation and recovery review prevent a single measure from becoming the whole outcome.",
+          "reviewLessonIds": [
+            "22",
+            "23",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-h",
+          "prompt": "A nonurgent treatment discussion lists a relative as decision-maker because of an assumed cultural convention. The person has not been asked and prefers written information. What should change?",
+          "answer": "Ask about the person’s own involvement preferences, provide accessible information, and clarify consent for support",
+          "distractor": "Preserve the arrangement because cultural group membership determines individual preferences",
+          "correction": "Culturally informed practice asks rather than assigns. Accessible communication and the person’s preferences are necessary parts of the decision process, subject to relevant local duties.",
+          "reviewLessonIds": [
+            "24",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-21-i",
+          "prompt": "A waiting-list trial reports symptom improvement at treatment end. A decision aid describes permanent benefit with no uncertainty, and the person values returning to work. What should be corrected?",
+          "answer": "State the actual comparator and follow-up, disclose uncertainty, and distinguish symptom evidence from the work goal",
+          "distractor": "Retain the permanent-benefit claim because the decision aid is intended to encourage treatment",
+          "correction": "The evidence must remain within its comparison, outcome, and timeframe. Shared decision-making cannot be informed if the aid replaces limitations with persuasion.",
+          "reviewLessonIds": [
+            "23",
+            "26",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-21-j",
+          "prompt": "After self-harm, a person receives a reassuring risk category but no usable contact route before follow-up. Their current distress is not explored because a questionnaire was reassuring. Which interpretation is sound?",
+          "answer": "The score and category cannot replace needs-based assessment, accessible support, and a clear interim plan",
+          "distractor": "The combination of two reassuring summaries proves that further support is unnecessary",
+          "correction": "NICE rejects using scales or global categories to predict future self-harm or determine treatment and discharge. Practical support gaps remain even when summaries appear reassuring.",
+          "reviewLessonIds": [
+            "23",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-21-k",
+          "prompt": "A fictional person develops new distress after an interruption in prescribed treatment. A peer assigns a relapse label and proposes a dose change based on a course lesson. What is the appropriate educational response?",
+          "answer": "Record the sequence, preserve alternative explanations, and seek prescribing-clinician review or urgent help when needed",
+          "distractor": "Accept the label and dose plan because temporal sequence provides diagnostic certainty",
+          "correction": "Withdrawal, recurrence, and other changes can require professional differentiation. Educational reasoning supports communication and escalation, not medication instructions.",
+          "reviewLessonIds": [
+            "21",
+            "25",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-21-l",
+          "prompt": "A follow-up letter records an agreed intervention but omits why it fits the formulation, which outcomes matter, and who reviews deterioration. What would make the plan accountable without promising certainty?",
+          "answer": "Document the working hypothesis, person-valued outcomes, evidence limits, and clear review and escalation responsibilities",
+          "distractor": "Add a statement that agreement guarantees improvement and removes future safety uncertainty",
+          "correction": "A plan is accountable when its rationale, goals, limits, and responsibilities can be reconstructed. Consent and a coherent theory do not guarantee treatment success or future safety.",
+          "reviewLessonIds": [
+            "22",
+            "26",
+            "29",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

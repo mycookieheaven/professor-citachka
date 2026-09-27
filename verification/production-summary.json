@@ -1,0 +1,11 @@
+{
+  "base": "https://professor-citachka.vercel.app",
+  "routes": 327,
+  "modern_topics": 250,
+  "legacy_lessons": 66,
+  "subjects": 10,
+  "assets": 22,
+  "wallpaper_only_dashboard": true,
+  "plain_pink_css_verified": true,
+  "verification": "HTTP HTML/assets and separate jsdom interaction tests; no browser rendering"
+}

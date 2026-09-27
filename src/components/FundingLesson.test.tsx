@@ -1,0 +1,25 @@
+import {afterEach,expect,it,vi} from 'vitest';
+import {cleanup,fireEvent,render,screen} from '@testing-library/react';
+import Page from '@/app/learn/[subject]/[topic]/page';
+import {fundingTopics} from '@/lib/funding';
+import {STORAGE_KEY} from '@/lib/progress';
+import {SubjectProgress} from './Learning';
+const push=vi.fn();vi.mock('next/navigation',()=>({useRouter:()=>({push})}));
+afterEach(()=>{cleanup();localStorage.clear();push.mockReset();});
+it('preserves optional writing, branch feedback and self-review while saving reading independently',async()=>{
+ const [first,second]=fundingTopics;
+ const view=render(await Page({params:Promise.resolve({subject:'business-funding',topic:'01'})}));
+ const arrow=screen.getByRole('button',{name:`Next lesson: ${second.title}`});
+ expect(arrow).toBeEnabled();
+ fireEvent.click(screen.getByLabelText(first.answer));expect(arrow).toBeEnabled();
+ fireEvent.change(screen.getByRole('textbox',{name:first.prompt}),{target:{value:'I am an independent broker. Is discussing your bakery funding need useful now? You can decline.'}});
+ fireEvent.click(screen.getByRole('button',{name:'Compare with the authored model'}));
+ expect(screen.getByText(/Self-review, not AI evaluation/)).toBeVisible();
+ first.rubric.forEach(r=>fireEvent.click(screen.getByLabelText(r)));
+ fireEvent.click(screen.getByLabelText(first.distractor));expect(arrow).toBeEnabled();
+ fireEvent.click(screen.getByLabelText(first.answer));
+ push.mockImplementation(()=>{const s=JSON.parse(localStorage.getItem(STORAGE_KEY)!);expect(s.subjects['business-funding'].completed).toEqual(['01']);expect(s.subjects['business-funding'].position).toBe('02');});
+ fireEvent.click(arrow);expect(push).toHaveBeenCalledExactlyOnceWith('/learn/business-funding/02');
+ view.unmount();render(<SubjectProgress subject="business-funding"/>);
+ expect(screen.getByRole('link',{name:`Continue Business Funding & Sales: ${second.title}`})).toHaveAttribute('href','/learn/business-funding/02');
+});

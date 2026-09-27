@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js build output
+.next/
+out/
+build/
+dist/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# testing / coverage
+coverage/
+.nyc_output/
+
+# environment files — never commit secrets
+.env
+.env.*
+!.env.example
+
+# machine-specific logs and caches
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.cache/
+.turbo/
+
+# editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

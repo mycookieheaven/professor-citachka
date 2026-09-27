@@ -1,0 +1,5 @@
+
+> professor-citachka@0.1.0 test
+> vitest run --reporter=json --outputFile=artifacts/pedagogy-tests-first.json
+
+JSON report written to /Users/<user>/professor-citachka/artifacts/pedagogy-tests-first.json

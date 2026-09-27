@@ -1,0 +1,17 @@
+/Users/<user>/professor-citachka/node_modules/jsdom/lib/jsdom/browser/Window.js:384
+      return idlUtils.wrapperForImpl(idlUtils.implForWrapper(window._document)._location);
+                                                                              ^
+
+TypeError: Cannot read properties of null (reading '_location')
+    at get location (/Users/<user>/professor-citachka/node_modules/jsdom/lib/jsdom/browser/Window.js:384:79)
+    at s (https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:1:33476)
+    at s (https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:1:22604)
+    at Object.action (https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:1:3384)
+    at v (https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:1:2544)
+    at https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:1:3090
+    at Object.dispatch (https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:1:3344)
+    at o (https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:31:44083)
+    at s (https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:31:43770)
+    at U (https://professor-citachka.vercel.app/_next/static/chunks/3794-5e7e7d9b61917ff4.js:1:47295)
+
+Node.js v26.8.1

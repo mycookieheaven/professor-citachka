@@ -1,0 +1,8 @@
+CLICK → Review Literature department
+FETCH https://professor-citachka.vercel.app/subjects/literature?_rsc=10l5r {
+  rsc: '1',
+  'next-router-state-tree': '%5B%22%22%2C%7B%22children%22%3A%5B%22assess%22%2C%7B%22children%22%3A%5B%5B%22subject%22%2C%22literature%22%2C%22d%22%2Cnull%5D%2C%7B%22children%22%3A%5B%5B%22assessment%22%2C%22level-2%22%2C%22d%22%2Cnull%5D%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2Cnull%2C4608%5D%7D%2Cnull%2Cnull%2C4608%5D%7D%2Cnull%2Cnull%2C4608%5D%7D%2Cnull%2Cnull%2C4608%5D%7D%2Cnull%2Cnull%2C4624%5D',
+  'next-url': '/assess/literature/level-2'
+}
+RESPONSE 200 text/x-component null
+FINAL https://professor-citachka.vercel.app/assess/literature/level-2 Cumulative level test: Interpretation and argument

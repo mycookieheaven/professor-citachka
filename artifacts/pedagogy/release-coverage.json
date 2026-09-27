@@ -1,0 +1,111 @@
+{
+  "courses": [
+    {
+      "subject": "russian",
+      "mainLevels": 2,
+      "supplementalSequences": 1,
+      "units": 6,
+      "lessons": 30,
+      "unitsShortOf100": 94
+    },
+    {
+      "subject": "business-funding",
+      "mainLevels": 5,
+      "supplementalSequences": 0,
+      "units": 10,
+      "lessons": 50,
+      "unitsShortOf100": 90
+    },
+    {
+      "subject": "literature",
+      "mainLevels": 2,
+      "supplementalSequences": 0,
+      "units": 4,
+      "lessons": 20,
+      "unitsShortOf100": 96
+    },
+    {
+      "subject": "neuroscience",
+      "mainLevels": 2,
+      "supplementalSequences": 0,
+      "units": 4,
+      "lessons": 20,
+      "unitsShortOf100": 96
+    },
+    {
+      "subject": "veterinary-science",
+      "mainLevels": 2,
+      "supplementalSequences": 0,
+      "units": 4,
+      "lessons": 20,
+      "unitsShortOf100": 96
+    },
+    {
+      "subject": "theology",
+      "mainLevels": 2,
+      "supplementalSequences": 0,
+      "units": 4,
+      "lessons": 20,
+      "unitsShortOf100": 96
+    },
+    {
+      "subject": "finance",
+      "mainLevels": 2,
+      "supplementalSequences": 0,
+      "units": 4,
+      "lessons": 20,
+      "unitsShortOf100": 96
+    },
+    {
+      "subject": "music",
+      "mainLevels": 2,
+      "supplementalSequences": 0,
+      "units": 4,
+      "lessons": 20,
+      "unitsShortOf100": 96
+    },
+    {
+      "subject": "skincare",
+      "mainLevels": 2,
+      "supplementalSequences": 0,
+      "units": 4,
+      "lessons": 20,
+      "unitsShortOf100": 96
+    },
+    {
+      "subject": "psychiatry",
+      "mainLevels": 2,
+      "supplementalSequences": 0,
+      "units": 4,
+      "lessons": 20,
+      "unitsShortOf100": 96
+    },
+    {
+      "subject": "philosophy",
+      "mainLevels": 6,
+      "supplementalSequences": 0,
+      "units": 12,
+      "lessons": 60,
+      "unitsShortOf100": 88
+    }
+  ],
+  "narration": {
+    "implementedFamilies": {
+      "modernGeneral": 250,
+      "modernFunding": 50,
+      "extendedLegacy": 66,
+      "literatureGuides": 4
+    },
+    "totalImplemented": 370,
+    "knownUnimplementedPublishedLessonEntries": 0,
+    "verification": "Shared layout controls select .learning-article,.lesson-article; literature guides receive explicit targetId. All lesson-route HTTP has controls. Mock speech tests pass; actual audible playback and mobile voices unverified. Assessment pages are not counted as lessons."
+  },
+  "limitations": [
+    "Modern levels now contain two five-lesson units; this reorganizes existing content rather than fulfilling the requested roughly ten topics per unit or 50/100 levels.",
+    "All modern and extended lesson continuations plus reading-guide continuations are ungated. The extended legacy sequences and the four book guides have NOT yet been reorganized into their own multi-unit levels or given dedicated unit/level assessments.",
+    "New deep explanations, definitions, second examples, common mistakes, application and summaries cover Russian 01\u201310 and Philosophy 01\u201310 only. Other published content is retained, but not newly expanded in this revision. Existing business-funding scenarios and citations, forty longer Philosophy continuation lessons, legacy instruction and book guides remain available.",
+    "The five-question unit quizzes and ten-question level tests reuse existing authored questions and contextual examples. They support review, but unseen cumulative application banks and richer response-specific distractor sets remain to be authored.",
+    "Reading completion, study attendance and scored assessment attempts are separate. Migration creates no passing scores or historical dates. Scores use explicit answer keys; no AI or essay grading is claimed.",
+    "Browser-local storage only. No account sync. Russian pronunciation uses available device voices; real audio and visual browser rendering have not been verified in this revision."
+  ]
+}

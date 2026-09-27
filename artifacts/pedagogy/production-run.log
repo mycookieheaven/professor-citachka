@@ -1,0 +1,3 @@
+Error: Timed out: final department
+    at wait (file:///Users/<user>/professor-citachka/scripts/verify-pedagogy-production.mjs:9:93)
+    at async file:///Users/<user>/professor-citachka/scripts/verify-pedagogy-production.mjs:46:325

@@ -1,0 +1,30 @@
+import {afterEach,expect,it,vi} from 'vitest';
+import {cleanup,fireEvent,render,screen,within} from '@testing-library/react';
+import {LearningLesson} from './Learning';
+import {AssessmentLesson} from './AssessmentLesson';
+import {getProgram,type Program} from '@/lib/programs';
+const push=vi.fn();vi.mock('next/navigation',()=>({useRouter:()=>({push})}));
+afterEach(()=>{cleanup();localStorage.clear();push.mockReset();});
+it('renders pack depth, all Russian item controls, readable visual steps and source reading directions',()=>{
+ const base=getProgram('finance')!;const original=base.levels[0].topics[0];
+ const topic={...original,depth:{definitions:'Specific new definitions.',mechanism:'A specific new causal explanation.',secondExample:'A new contrasting case.',mistake:'A specific misconception.',application:'An application with a model.',summary:'A transfer summary.'},russianItems:[{text:'да',latin:'DA',meaning:'yes'},{text:'нет',latin:'NYET',meaning:'no'}],readings:[{title:'A verified reading',url:'https://example.org/source',note:'Read the specified source section.'}],visual:{title:'A labeled process',description:'Two conditions produce an outcome.',steps:['Observe the condition.','Compare the evidence.','Evaluate the outcome.']}};
+ const program:Program={...base,levels:[{...base.levels[0],topics:[topic,...base.levels[0].topics.slice(1)]},...base.levels.slice(1)]};
+ render(<LearningLesson program={program} topicId="01"/>);
+ expect(screen.getByText(topic.depth.mechanism)).toBeVisible();
+ expect(screen.getAllByRole('button',{name:/Play slow pronunciation for/})).toHaveLength(2);
+ expect(screen.getAllByRole('button',{name:/Play natural pronunciation for/})).toHaveLength(2);
+ expect(screen.getByRole('figure',{name:'A labeled process'})).toHaveTextContent('Evaluate the outcome.');
+ expect(screen.getByRole('link',{name:'A verified reading'})).toHaveAttribute('href','https://example.org/source');
+ expect(screen.getByText('Read the specified source section.')).toBeVisible();
+ expect(screen.getByRole('button',{name:/Next lesson:/})).toBeEnabled();
+});
+it('links application-question feedback to actual review lessons rather than the new question IDs',()=>{
+ const base=getProgram('finance')!;const level=base.levels[0];
+ const q={...level.topics[0],id:'new-application-question',question:'Apply both distinctions?',reviewLessonIds:['01','02']};
+ const program:Program={...base,levels:[{...level,assessmentQuestions:[q]},...base.levels.slice(1)]};
+ render(<AssessmentLesson program={program} assessmentId="level-1"/>);
+ fireEvent.click(within(screen.getByRole('group',{name:q.question})).getByLabelText(q.answer));
+ fireEvent.click(screen.getByRole('button',{name:'Score this attempt'}));
+ const links=screen.getAllByRole('link',{name:/Review lesson:/});
+ expect(links.map(a=>a.getAttribute('href'))).toEqual(['/learn/finance/01','/learn/finance/02']);
+});

@@ -1,0 +1,14 @@
+
+> professor-citachka@0.1.0 test
+> vitest run --reporter=dot
+
+
+ RUN  v4.1.11 /Users/<user>/professor-citachka
+
+·······································································································································································
+
+ Test Files  31 passed (31)
+      Tests  167 passed (167)
+   Start at  01:14:12
+   Duration  7.36s (transform 1.38s, setup 2.47s, import 3.40s, tests 20.91s, environment 17.12s)
+

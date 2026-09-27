@@ -1,0 +1,203 @@
+[
+  {
+    "test": "20-to-21",
+    "path": "/learn/philosophy/21",
+    "heading": "Propositions and logical form",
+    "focused": true,
+    "stored": {
+      "version": 1,
+      "subjects": {
+        "philosophy": {
+          "completed": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+          ],
+          "days": [
+            "2026-09-14"
+          ],
+          "interactions": 1
+        }
+      }
+    }
+  },
+  {
+    "test": "new-topic-completion-resume",
+    "footer": "PROFESSOR CITACHKA \u00b7 ACADEMIA MODE\n\nPUBLISHED CURRICULUM: 24 REGULAR LEVELS ACROSS 10 SUBJECTS, PLUS OPTIONAL RUSSIAN STRONG LANGUAGE. SEE EACH DEPARTMENT FOR ITS PUBLISHED COUNT. THE FULL REQUESTED CURRICULUM IS NOT YET AUTHORED.",
+    "resume": "/learn/philosophy/22",
+    "storage": {
+      "version": 1,
+      "subjects": {
+        "philosophy": {
+          "completed": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "days": [
+            "2026-09-14"
+          ],
+          "interactions": 2
+        }
+      }
+    },
+    "wrongAnswer": {
+      "feedback": "Not quite. An object is not true or false. Supply a complete declarative claim for each letter, then translate the relations among those claims. Reread the worked example and try again.",
+      "blocked": true
+    }
+  },
+  {
+    "path": "/learn/philosophy/31",
+    "heading": "Gettier cases and epistemic luck",
+    "overflow": false,
+    "test": "boundary-30"
+  },
+  {
+    "path": "/learn/philosophy/41",
+    "heading": "Hume\u2019s problem of induction",
+    "overflow": false,
+    "test": "boundary-40"
+  },
+  {
+    "path": "/learn/philosophy/51",
+    "heading": "Act and rule consequentialism",
+    "overflow": false,
+    "test": "boundary-50"
+  },
+  {
+    "path": "/subjects/philosophy",
+    "heading": "Philosophy",
+    "overflow": false,
+    "test": "boundary-60"
+  },
+  {
+    "heading": "Literature",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-literature"
+  },
+  {
+    "heading": "Russian Study Map",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 100 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. Also available: one optional ten-topic strong-language unit; these course levels are not CEFR certification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-russian"
+  },
+  {
+    "heading": "Neuroscience",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-neuroscience"
+  },
+  {
+    "heading": "Veterinary Science",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-veterinary-science"
+  },
+  {
+    "heading": "Catholic Theology",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-theology"
+  },
+  {
+    "heading": "Finance",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-finance"
+  },
+  {
+    "heading": "Music",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-music"
+  },
+  {
+    "heading": "Skincare",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-skincare"
+  },
+  {
+    "heading": "Psychiatry",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 2 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-psychiatry"
+  },
+  {
+    "heading": "Philosophy",
+    "width": 390,
+    "documentWidth": 390,
+    "scope": "Published now: 6 of 50 requested levels. These are authored learning levels, not the full requested curriculum or a professional qualification. The remaining levels are not published, not hidden behind a paywall or presented as completed work.",
+    "test": "mobile-philosophy"
+  },
+  {
+    "test": "mobile-capstone",
+    "title": "Capstone: justify an accessible public service",
+    "overflow": false,
+    "panels": [
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "opacity": "1"
+      }
+    ],
+    "font": "19px",
+    "blocked": true
+  },
+  {
+    "test": "storage-restored",
+    "passed": true
+  }
+]

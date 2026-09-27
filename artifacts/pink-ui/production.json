@@ -1,0 +1,262 @@
+{
+  "origin": "https://professor-citachka.vercel.app",
+  "deploymentId": "dpl_AeVUkuo8HMiGnN4k89peZh9g8qE4",
+  "kind": "HTTP and real deployed JavaScript in jsdom; no browser",
+  "visualRenderingVerified": false,
+  "reports": [
+    {
+      "path": "/",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/russian",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/business-funding",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/literature",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/neuroscience",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/veterinary-science",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/theology",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/finance",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/music",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/skincare",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/psychiatry",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/subjects/philosophy",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/russian/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/business-funding/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/literature/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/neuroscience/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/veterinary-science/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/theology/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/finance/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/music/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/skincare/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/psychiatry/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "path": "/learn/philosophy/01",
+      "http": 200,
+      "sharedControls": true
+    },
+    {
+      "asset": "/icons/panda-32.png",
+      "status": 200,
+      "bytes": 2210
+    },
+    {
+      "asset": "/icons/panda-180.png",
+      "status": 200,
+      "bytes": 27947
+    },
+    {
+      "asset": "/images/monchhichi-wallpaper.jpg",
+      "status": 200,
+      "bytes": 111444
+    },
+    {
+      "asset": "/_next/static/css/9f814d194eb4ac7a.css",
+      "status": 200,
+      "bytes": 79318
+    },
+    {
+      "asset": "/_next/static/css/5bdd5efbe6b58462.css",
+      "status": 200,
+      "bytes": 7946
+    },
+    {
+      "asset": "/_next/static/chunks/4bd1b696-ef441a59c2fc9271.js",
+      "status": 200,
+      "bytes": 201055
+    },
+    {
+      "asset": "/_next/static/chunks/3794-5e7e7d9b61917ff4.js",
+      "status": 200,
+      "bytes": 240806
+    },
+    {
+      "asset": "/_next/static/chunks/main-app-cc010600df43f7ad.js",
+      "status": 200,
+      "bytes": 934
+    },
+    {
+      "asset": "/_next/static/chunks/9756-2ee849706b50f8a1.js",
+      "status": 200,
+      "bytes": 8808
+    },
+    {
+      "asset": "/_next/static/chunks/6772-6b69b975f414769e.js",
+      "status": 200,
+      "bytes": 284743
+    },
+    {
+      "asset": "/_next/static/chunks/app/layout-ea1517d2dc503f5f.js",
+      "status": 200,
+      "bytes": 13875
+    },
+    {
+      "asset": "/_next/static/chunks/3850-94fdb83b5fca2c9d.js",
+      "status": 200,
+      "bytes": 65831
+    },
+    {
+      "asset": "/_next/static/chunks/app/page-73de98e53cdc6d7b.js",
+      "status": 200,
+      "bytes": 10445
+    },
+    {
+      "asset": "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "status": 200,
+      "bytes": 112594
+    },
+    {
+      "asset": "/_next/static/chunks/webpack-06fc231653a3842b.js",
+      "status": 200,
+      "bytes": 3340
+    },
+    {
+      "path": "/",
+      "hydrated": true,
+      "motion": true,
+      "focus": true,
+      "liveOS": true,
+      "silentTimer": true,
+      "noInventedProgress": true,
+      "errors": []
+    },
+    {
+      "path": "/subjects/business-funding",
+      "hydrated": true,
+      "motion": true,
+      "focus": true,
+      "liveOS": true,
+      "silentTimer": true,
+      "noInventedProgress": true,
+      "errors": []
+    },
+    {
+      "path": "/learn/russian/01",
+      "hydrated": true,
+      "motion": true,
+      "focus": true,
+      "liveOS": true,
+      "silentTimer": true,
+      "noInventedProgress": true,
+      "errors": []
+    },
+    {
+      "path": "/subjects/literature",
+      "hydrated": true,
+      "motion": true,
+      "focus": true,
+      "liveOS": true,
+      "silentTimer": true,
+      "noInventedProgress": true,
+      "errors": []
+    },
+    {
+      "fixture": {
+        "preferences": {
+          "motion": "calm",
+          "focus": true
+        }
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "fixture": {
+        "reduced": true
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "fixture": {
+        "blocked": true
+      },
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

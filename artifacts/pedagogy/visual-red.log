@@ -1,0 +1,37 @@
+
+> professor-citachka@0.1.0 test
+> vitest run src/components/LessonVisual.test.tsx
+
+
+ RUN  v4.1.11 /Users/<user>/professor-citachka
+
+ ❯ src/components/LessonVisual.test.tsx (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/components/LessonVisual.test.tsx [ src/components/LessonVisual.test.tsx ]
+Error: Failed to resolve import "./LessonVisual" from "src/components/LessonVisual.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/<user>/professor-citachka/src/components/LessonVisual.test.tsx:3:41
+  1  |  import { afterEach, expect, it, vi } from "vitest";
+  2  |  import { cleanup, fireEvent, render, screen } from "@testing-library/react";
+  3  |  import { LessonVisual, lessonVisuals } from "./LessonVisual";
+     |                                               ^
+  4  |  var _jsxFileName = "/Users/<user>/professor-citachka/src/components/LessonVisual.test.tsx";
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  no tests
+   Start at  01:56:51
+   Duration  503ms (transform 17ms, setup 106ms, import 0ms, tests 0ms, environment 280ms)
+

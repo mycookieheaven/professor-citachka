@@ -1,0 +1,644 @@
+{
+  "subject": "veterinary-science",
+  "levels": [
+    {
+      "title": "Clinical Evidence and Accountable Veterinary Decisions",
+      "units": [
+        {
+          "title": "From Patient Observations to Interpretable Evidence",
+          "lessons": [
+            {
+              "id": "21",
+              "title": "Build a problem representation without premature closure",
+              "explanation": "The objective is to compress a veterinary history without deleting the facts that change its meaning. You already distinguish observation from interpretation and can give a structured handover. A problem representation adds a reasoning layer: identify the patient, describe the time course, select the important changes, and state what remains uncertain. It is not a miniature diagnosis. Its purpose is to make the next professional assessment better directed. Cornell eClinpath explicitly places laboratory interpretation within signalment, history, clinical signs, and other diagnostic findings. The same discipline helps before laboratory data are available. Educational case discussion here does not authorize independent examination, testing, diagnosis, or prescribing.",
+              "example": "Consider a fictional adult cat brought for a change described by the owner as laziness. The owner then reports that the cat no longer jumps onto a familiar shelf and sometimes pauses before entering the litter tray. At the visit the cat remains still in its carrier. A weak representation is “lazy cat with arthritis.” It converts a moral label and a plausible hypothesis into facts. A stronger representation is “adult cat with owner-reported change in familiar mobility activities; duration and progression need clarification; currently remaining in carrier in an unfamiliar setting.” This version preserves functional change, identifies the informant, and avoids treating clinic stillness as proof of the same problem. It also tells the veterinarian which missing history could change interpretation.",
+              "question": "An owner calls a new mobility change stubbornness. What belongs in the representation?",
+              "answer": "The specific reported activity change and uncertain onset",
+              "distractor": "A confirmed behavioral diagnosis based on the label",
+              "correction": "A description preserves evidence; the owner’s label does not establish mechanism.",
+              "depth": {
+                "definitions": "Signalment describes identifying biological context such as species, breed when relevant, age, and reproductive status. A problem list separates the concerns requiring attention. A problem representation synthesizes those concerns into a short, clinically useful account. A differential is a set of competing explanations considered by the responsible clinician. Discriminating evidence helps distinguish those explanations rather than merely agreeing with all of them. Premature closure occurs when inquiry stops because an early explanation feels sufficiently familiar. These terms build on observation, species differences, and factual records rather than replace them.",
+                "mechanism": "Compression has costs. Removing an irrelevant detail makes a handover clearer; removing onset or species can erase the very feature that changes urgency or plausibility. Start with a chronological account, then ask of each detail: would knowing this change the professional's questions, priorities, or interpretation? Retain details that do. Keep sources attached when direct observation and owner report differ. The discrepancy may be evidence of environmental effects rather than dishonesty. In reasoning exercises, distinguish evidence supporting a hypothesis from evidence uniquely identifying it. Reduced movement could fit pain, fear, weakness, or an environmental obstacle. Listing possibilities demonstrates uncertainty, but an unranked catalogue is not yet a useful clinical assessment. A trainee can ask what additional history would be informative while leaving ranking and action to the veterinarian.",
+                "secondExample": "Contrast a dog whose owner says it “always dislikes walks.” Further inquiry reveals an established preference for one route, with unchanged play at home. That history differs from a recent inability to perform a previously easy activity. The useful comparison is not cat versus dog personality but stable pattern versus change from baseline. Now suppose the dog suddenly collapses during the conversation. The representation must become shorter and urgency comes first: identify the dog, report collapse, and request immediate veterinary emergency assessment. Do not finish the history or use this lesson to decide that a benign explanation permits waiting.",
+                "mistake": "A common error is to replace every ordinary word with technical language and call the result rigorous. “Locomotor dysfunction” is less useful than the actual activity lost if no one explains what the animal did. Another error is treating absent documentation as a negative finding. “No vomiting recorded” does not mean “owner denies vomiting.” Correct both by auditing each phrase for its evidence source and asking whether the event was specifically assessed. Leave unknowns visibly unknown.",
+                "application": "Optional task: rewrite “old dog is stubborn and probably has joint disease” using only this case information: the owner reports reluctance on stairs, the onset is unclear, and you have not watched the dog walk. Then name a useful follow-up question. Model response: “Older dog with owner-reported reluctance on stairs; onset and progression unclear; gait not directly observed. What was the last period when stair use was usual?” Self-review checks: no diagnosis asserted; source preserved; functional behavior named; missing timing explicit; question seeks discriminating history. Do not fabricate an age, pain score, or examination result to make the note sound complete.",
+                "summary": "A good representation is a revisable map, not a verdict. It gives the receiving professional enough context to reason while keeping the boundary between known, reported, and inferred information visible. Transfer the method to any species by preserving its particular biology and circumstances. Next, follow the same evidence discipline along the sample pathway, where a seemingly objective result can lose meaning before the analyzer begins."
+              },
+              "readings": [
+                {
+                  "title": "Cornell eClinpath: Test interpretation",
+                  "url": "https://eclinpath.com/test-basics/test-interpretation/",
+                  "note": "Read Interpretation of results for the requirement to integrate signalment, history, signs, and other findings."
+                },
+                {
+                  "title": "RCVS: 13. Clinical and client records",
+                  "url": "https://www.rcvs.org.uk/veterinary-professionals/conduct-and-guidance/supporting-guidance/13-clinical-and-client-records",
+                  "note": "Read General principles and Clinical records; UK regulatory guidance is used as a record-quality exemplar, not universal law."
+                }
+              ],
+              "visual": {
+                "title": "Build a problem representation without premature closure — reasoning sequence",
+                "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
+                "steps": [
+                  "Identify patient and evidence source",
+                  "Arrange onset, progression, and functional change",
+                  "Separate observation from competing interpretations",
+                  "State unknowns and request the appropriate professional assessment"
+                ]
+              }
+            },
+            {
+              "id": "22",
+              "title": "Audit the sample-to-result chain",
+              "explanation": "The objective is to locate where a laboratory result can become misleading and formulate a safe verification request. Earlier lessons introduced sample identity and medication checks. Here you examine an entire evidence chain. A displayed laboratory number is the product of patient selection, collection, handling, analysis, and reporting. A fault at any point can undermine the conclusion even when other stages work perfectly. The MSD Veterinary Manual emphasizes communication between practitioners and diagnostic laboratories and notes that collection and submission protocols change. Therefore, a remembered procedure is not sufficient authority for handling an unfamiliar specimen. Use the receiving laboratory's current instructions through the supervising team.",
+              "example": "In a fictional clinic, a blood specimen arrives with a patient name matching the request but a different identifying record number. An analyzer produces a technically acceptable report. The tempting response is to accept the value because the machine passed its checks. Instead, separate two questions: was the analysis performed adequately, and is this result attributable to this patient? The record-number discrepancy leaves the second question unresolved. A trainee flags the discrepancy, preserves the labels and original record, and asks the responsible professional and laboratory to reconcile identity under local policy. The trainee does not relabel the tube from memory, merge records, or reassure the owner that the result is normal. Analytical success cannot establish provenance.",
+              "question": "What remains unresolved when an analyzer passes controls but specimen identity conflicts?",
+              "answer": "Whether the result belongs to the intended patient",
+              "distractor": "Whether passing controls automatically repairs the identity conflict",
+              "correction": "Controls assess measurement performance, not who supplied the specimen.",
+              "depth": {
+                "definitions": "Preanalytical variables arise before measurement and include the patient context, sample collection, transport, and storage. Analytical variables concern the measurement process, including instrument performance and reagents. Postanalytical variables concern recording, transfer, and interpretation of results. Quality control checks aspects of analytical performance; quality assurance considers the wider system. Traceability means that a result can be followed back to the correct patient, specimen, request, and processing history. These categories are tools for investigating evidence, not permissions to perform laboratory procedures without training.",
+                "mechanism": "Work backward from a surprising report. Confirm that patient identifiers, specimen type, requested test, and report belong together. Check whether collection and handling information are available and whether the laboratory recorded interference or suitability comments. Next ask whether the measuring system's required checks were satisfied. Finally inspect transcription, units, and the interval supplied with the result. Cornell's interpretation guide distinguishes all these stages because different failures require different remedies. Repeating analysis of the same compromised material may reproduce the same distortion. Conversely, ordering a new specimen without investigating a reporting error may expose an animal to unnecessary handling. The responsible clinician and laboratory determine which verification is needed. The trainee's contribution is to identify the uncertainty accurately and avoid silently transforming a provisional result into a clinical fact.",
+                "secondExample": "A contrasting fictional case has consistent identifiers but a transport delay documented outside the laboratory's stated conditions. This is not the same failure as the identity mismatch. The correct question is whether that delay affects this specimen and requested test, not whether every delayed specimen is worthless. Some analyses are more sensitive to handling than others. A lab may advise a qualified interpretation or replacement, but the learner must not choose between them by guessing. In another case, the laboratory report is correct but an imported record displays a different unit label. That is a transfer problem: preserve the original report and escalate the mismatch rather than changing the patient's history to fit the software.",
+                "mistake": "“The machine says it, so it must be true” confuses an output with a validated claim. “Any imperfect sample should be discarded” makes the opposite mistake by treating uncertainty as automatic uselessness. Correct both by naming the specific defect, identifying which claim it threatens, and seeking test-specific professional advice. Do not erase a disputed value; preserving its status and correction trail supports both safety and later investigation.",
+                "application": "Optional task: create a paper audit for a fictional specimen with matching identity, missing collection time, and an unusual laboratory flag. Model response: “Identity currently matches. Collection time is unknown, so temporal suitability cannot yet be judged. Preserve the original flag, seek the collection record, and ask the laboratory and veterinarian how the missing timing affects this test.” Self-review checks: classify the missing information as preanalytical; avoid inventing a collection time; do not assume the flag proves disease; specify who resolves suitability; retain the original result. This is a reasoning exercise only, not a collection or storage protocol.",
+                "summary": "The sample chain shows why evidence quality and biological interpretation cannot be separated. A correct number from an uncertain specimen is not a reliable answer about a patient. The next lesson assumes identity and suitability have been addressed, then asks a different question: what does comparison with a reference interval actually justify?"
+              },
+              "readings": [
+                {
+                  "title": "MSD Veterinary Manual: Collection and Submission of Laboratory Samples from Animals",
+                  "url": "https://www.msdvetmanual.com/clinical-pathology-and-procedures/collection-and-submission-of-laboratory-samples/collection-and-submission-of-laboratory-samples-from-animals",
+                  "note": "Read the opening discussion of changing laboratory protocols, communication, test requests, and detailed history. Extraction verified these sections, not every collection procedure."
+                },
+                {
+                  "title": "MSD Veterinary Manual: Overview of Diagnostic Procedures for the Private Practice Laboratory",
+                  "url": "https://www.msdvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/overview-of-diagnostic-procedures-for-the-private-practice-laboratory",
+                  "note": "Read the discussion of rigorous quality control and errors in collection, handling, testing, and recording."
+                },
+                {
+                  "title": "Cornell eClinpath: Test interpretation",
+                  "url": "https://eclinpath.com/test-basics/test-interpretation/",
+                  "note": "Read Non-disease variables for preanalytical, analytical, and postanalytical distinctions."
+                }
+              ],
+              "visual": {
+                "title": "Audit the sample-to-result chain — reasoning sequence",
+                "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
+                "steps": [
+                  "Patient and request: verify identity",
+                  "Specimen pathway: expose handling unknowns",
+                  "Measurement: examine quality and interference comments",
+                  "Report: verify transfer, units, and professional interpretation"
+                ]
+              }
+            },
+            {
+              "id": "23",
+              "title": "Interpret reference intervals without binary thinking",
+              "explanation": "The objective is to explain why a laboratory flag is neither a diagnosis nor an irrelevant decoration. Previous work established that reference intervals describe specified populations and methods. Cornell eClinpath adds an important distinction: population intervals and changes within an individual animal answer different questions. A population comparison asks how this result relates to results in the reference group. A longitudinal comparison asks whether this patient's value has changed meaningfully from its own baseline. Neither question alone decides the cause, urgency, or appropriate treatment. A learner can identify limitations and prepare questions; the veterinarian interprets the patient's result and decides action.",
+              "example": "Imagine an educational report for an adult dog. A result is inside the laboratory interval but differs from this dog's established earlier pattern. The owner asks whether “inside” proves that nothing changed. The useful response separates claims. The new value is within the supplied population interval; that does not settle whether the individual change matters. Check whether the earlier and later results used comparable methods and conditions, then bring the trend to the clinician. The converse also matters: a mildly flagged value in an otherwise clinically unremarkable fictional case is not proof of disease. Its importance depends on the analyte, patient, associated findings, and possible non-disease influences. Neither example supports independently dismissing a result.",
+              "question": "What does an unflagged result establish by itself?",
+              "answer": "It falls within the supplied comparison interval",
+              "distractor": "It proves the animal has no clinically relevant disease",
+              "correction": "Interval membership is a population comparison, not a complete health assessment.",
+              "depth": {
+                "definitions": "An analyte is the constituent being measured. Biological variation includes natural differences within an animal and between animals. Analytical variation arises from the measuring process. A reference change value is a method-informed way of considering whether a change exceeds expected variation; it is not a universal percentage for every test. A decision threshold is used for a particular clinical purpose and need not be the same as a reference limit. This distinction explains why a line drawn by a laboratory cannot substitute for the whole clinical question.",
+                "mechanism": "Cornell describes commonly constructed intervals as including the middle 95 percent of results in the selected reference population. That construction deliberately leaves some clinically healthy reference animals outside the limits. It does not imply that a flagged patient has a 95 percent probability of disease, nor that an unflagged patient is 95 percent certain to be healthy. Those are different conditional statements requiring additional evidence. Interval suitability also depends on species, age, instrument, reagents, and sample conditions. A value can cross a printed boundary because the comparison population is imperfectly matched. When several results move together, a clinician examines whether a shared physiological mechanism explains the pattern. Simply counting flags ignores both dependence among tests and the difference between statistical unusualness and clinical importance. The shape, degree, and context of change matter.",
+                "secondExample": "Contrast a growing animal with an adult reference population. Cornell describes age-dependent differences in several laboratory measurements, so an adult interval can make a developmental pattern look pathological. The correct response is not “young animals cannot be sick.” It is “age affects the comparison; assess age-appropriate interpretation alongside this animal's signs.” Now contrast results obtained from different laboratories. A rising sequence may partly reflect method differences rather than deterioration. Record the laboratory and method change visibly. Do not draw an uninterrupted trend line that invites a biological interpretation the data do not yet support.",
+                "mistake": "The most common misconception is treating normal as a single property shared by the animal, the measurement, and the report. Replace it with precise statements: within this interval, unchanged under comparable measurement, or no relevant abnormality identified by the clinician. These statements are not interchangeable. A second error is using a statistical explanation to reassure an owner despite concerning signs. If the animal develops breathing difficulty or collapse, urgent veterinary assessment takes precedence over a previously reassuring report.",
+                "application": "Optional task: an animal's new test is unflagged, previous results came from another laboratory, and the owner reports reduced activity. Write a cautious interpretation request. Model response: “The new result is within this laboratory's interval, but comparison with the previous laboratory may be method-dependent. Reduced activity remains clinically relevant and should be assessed; please review comparability and the full case.” Self-review checks: identify which interval was used; mention the method change; preserve the owner's report; avoid calling the animal healthy from one number; leave clinical decisions to the veterinarian. No numerical threshold or retesting schedule should be invented.",
+                "summary": "Reference intervals help organize uncertainty rather than abolish it. Carry forward three comparisons: the patient against an appropriate population, the patient against its own comparable history, and the result against the rest of the case. Next, use mechanisms to connect laboratory patterns without confusing a plausible explanation with a proven cause."
+              },
+              "readings": [
+                {
+                  "title": "Cornell eClinpath: Reference intervals",
+                  "url": "https://eclinpath.com/test-basics/reference-intervals/",
+                  "note": "Read Population-based reference intervals, Method of determination, Subject-based reference values, and Population versus subject intervals. Do not adopt the page’s retesting examples as personal instructions."
+                }
+              ],
+              "visual": {
+                "title": "Interpret reference intervals without binary thinking — reasoning sequence",
+                "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
+                "steps": [
+                  "Population comparison: species, age, and method",
+                  "Individual comparison: comparable baseline and variation",
+                  "Clinical comparison: signs and related measurements",
+                  "Professional synthesis: significance is not the flag alone"
+                ]
+              }
+            },
+            {
+              "id": "24",
+              "title": "Trace mechanisms rather than diagnose from isolated values",
+              "explanation": "The objective is to build a causal sketch that explains why a measured constituent can change for different reasons. You have studied fluid balance and cooperating body systems. Extend that reasoning to laboratory interpretation: a concentration reflects both the amount of material and the fluid space in which it is measured. A change in concentration therefore does not automatically identify increased production or loss of a particular organ function. Cornell eClinpath organizes mechanistic reasoning around input, movement between compartments, metabolism, output, physiological influences, and effects of treatment. These are hypothesis-generating categories, not a shortcut to choosing therapy.",
+              "example": "In a fictional paper case, a clinician receives a higher-than-expected concentration of a blood constituent. A student immediately says the body must be producing more. Draw two boxes instead: total relevant material and sampled fluid compartment. An increased input is one possible explanation, but reduced removal, movement into the sampled compartment, or a change in fluid distribution may also affect the result. The student now asks what other history and findings would help distinguish these mechanisms. The useful outcome is not a longer list of disease names. It is a testable explanation of why a number might move and what the current data do not distinguish.",
+              "question": "Why can a higher concentration have more than one explanation?",
+              "answer": "Input, removal, distribution, and specimen effects may influence the measurement",
+              "distractor": "Concentration always directly measures increased bodily production",
+              "correction": "The measured relationship depends on multiple processes; production is only one candidate.",
+              "depth": {
+                "definitions": "Input means entry into the relevant system, whether by intake, absorption, or production. Output means removal from it. Distribution describes where material is located among compartments. Metabolism transforms or uses a constituent. A concentration is an amount relative to a volume; it is not automatically a measure of the total body store. A marker is a measured feature used as evidence about a process. The process inferred from a marker may be injury, altered regulation, or another mechanism rather than complete functional failure.",
+                "mechanism": "Construct the diagram in layers. First state exactly what is measured and in which specimen. Then identify mechanisms capable of changing that measurement. Next ask which observations would be expected if each mechanism were operating. Finally look for contradictory evidence and measurement limitations. Cornell gives movement out of injured cells as one route by which constituents appear in blood. This supports an important inference boundary: evidence compatible with cellular injury does not by itself establish the cause, reversibility, or remaining function of the organ. Some patterns can be affected by drugs or analytical interference, so the medication history and laboratory comments belong beside the biological arrows. A mechanistic model earns usefulness by making differences visible, including observations that would weaken it. Merely labeling every arrow “disease” explains nothing.",
+                "secondExample": "A contrasting fictional case concerns a lower measured concentration. A student assumes deficiency and proposes supplementation. The diagram reveals why that leap is unsafe: loss, altered distribution, reduced input, or measurement effects can produce superficially similar findings. Treatment based on the wrong mechanism may be inappropriate. The learner therefore reports the result and asks the supervising clinician to integrate the relevant history and associated tests. Consider also the difference between the patient and the tube: a process occurring after collection can alter the sample without representing a change in the living animal. That alternative reconnects mechanistic interpretation with the sample audit.",
+                "mistake": "Mechanistic fluency can create overconfidence. Knowing an elegant pathway does not prove it operates in this patient. Correct this by adding an uncertainty label to every explanatory arrow and a separate evidence statement underneath it. “Could explain” belongs to a model; “was observed” belongs to the record. Another error is forgetting that mechanisms can coexist. An animal can have altered intake and losses together, so reasoning should not force mutually exclusive explanations where the biology permits interaction.",
+                "application": "Optional task: make a paper diagram for an unspecified constituent with an unexpectedly high concentration. Provide an input hypothesis, an output hypothesis, and a sample-related alternative, then explain what you would not conclude. Model response: “Increased entry and reduced removal are possible biological pathways; sample handling could also alter the measured result. I would ask for patient history and laboratory suitability comments before interpreting the pattern. I would not name an organ disease or recommend treatment from this concentration alone.” Self-review checks: arrows name mechanisms rather than disease labels; specimen and patient remain distinct; missing evidence is identified; alternatives are not presented as equally likely by default; no treatment instructions are supplied.",
+                "summary": "Mechanisms turn isolated flags into questions that can be examined. Their value is disciplined uncertainty, not the appearance of diagnostic sophistication. The next lesson applies a related distinction to behavior: a sign can be important evidence of a welfare concern without uniquely identifying its cause. Behavioral interpretation also requires comparable observations and attention to context."
+              },
+              "readings": [
+                {
+                  "title": "Cornell eClinpath: Test interpretation",
+                  "url": "https://eclinpath.com/test-basics/test-interpretation/",
+                  "note": "Read Mechanistic changes, especially Input, Movement between cells, tissues or compartments, Metabolism, Output, and Iatrogenic. Examples here are conceptual, not diagnostic algorithms."
+                }
+              ],
+              "visual": {
+                "title": "Trace mechanisms rather than diagnose from isolated values — reasoning sequence",
+                "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
+                "steps": [
+                  "Define constituent and sampled compartment",
+                  "Map input, output, distribution, and transformation",
+                  "Attach evidence and competing explanations to each arrow",
+                  "Distinguish plausible mechanism from established cause"
+                ]
+              }
+            },
+            {
+              "id": "25",
+              "title": "Integrate pain observations across settings",
+              "explanation": "The objective is to compare behavioral evidence across home and clinic without treating silence, stillness, or a single score as proof of comfort. You already know that pain can be subtle and handling can alter behavior. The AAHA pain guidelines emphasize assessment, owner involvement, and reassessment, with important differences between canine and feline assessment. Here the emphasis is not selecting analgesia but building an interpretable account of functional change for a trained veterinary team. Recognition matters because both underrecognition and careless interpretation can impair welfare. A reading exercise cannot establish whether a particular animal has pain or select a treatment plan.",
+              "example": "A fictional cat previously used a high resting place but now chooses a lower chair. The owner supplies this history; in the clinic the cat is motionless and does not vocalize. The trainee should not mark “comfortable” simply because the cat is quiet. Instead, record the lost familiar activity, the owner's account of timing, and the clinic behavior with its setting. Ask the supervising clinician whether additional history or a suitable owner assessment tool would help. A tool chosen for a particular species and purpose may structure evidence, but a trainee should not invent a scoring system and interpret it as validated. Nor should the owner force the cat to jump to demonstrate a deficit.",
+              "question": "How should a quiet clinic cat and an owner-reported mobility change be combined?",
+              "answer": "Preserve both observations with their settings for veterinary assessment",
+              "distractor": "Treat clinic silence as proof that the home report is mistaken",
+              "correction": "Different settings reveal different evidence; silence alone does not establish comfort.",
+              "depth": {
+                "definitions": "Function is what the animal can and chooses to do in its usual setting. A baseline is the established earlier pattern used for comparison. Acute and chronic pain refer to different temporal and clinical contexts, not simply different amounts of visible distress. An assessment instrument organizes observations or responses; validation concerns evidence that it measures usefully in its intended context. Observer variation occurs when different people record or interpret the same behavior differently. Responsiveness concerns whether a measure can detect meaningful change over time.",
+                "mechanism": "Behavior is an output influenced by several causes at once. Pain can alter movement and engagement, while fear, unfamiliar surroundings, fatigue, and physical opportunity can also influence what is visible. The solution is not to dismiss behavior as subjective noise. It is to improve the observation design: describe the activity, preserve the setting, record the informant, and compare like with like. Owner reports are valuable because daily home functions may not appear during a brief visit. Direct clinic observation contributes another perspective rather than automatically outranking home evidence. AAHA describes pain care as an ongoing process, not a single assessment event. In supervised practice, reassessment connects the team's plan with later observations; a changed behavior should be interpreted with the intervention and context documented, not automatically attributed to one cause.",
+                "secondExample": "Contrast a dog observed after an unfamiliar, noisy journey with the same dog resting in a familiar room at home. Reduced movement in the clinic may reflect several interacting influences. Conversely, an animal that becomes more active while excited is not thereby proven pain-free. A better comparison uses a veterinarian-approved functional goal, such as participation in an ordinary comfortable activity, and observations obtained without provoking distress. If the owner reports deterioration or new concerning signs, the team should review them rather than waiting for an assessment form to be complete. Breathing difficulty or collapse requires immediate veterinary emergency attention, regardless of a previous reassuring behavioral score.",
+                "mistake": "A frequent mistake is averaging incompatible evidence into a false middle: “owner says changed, clinic says quiet, so probably fine.” The accounts may concern different behaviors under different conditions, not opposite votes on one question. Correct the reasoning by writing a setting-by-activity table. Another mistake is using improvement after a prescribed intervention as sole proof of a diagnosis. Concurrent environmental changes and other influences can affect function. The responsible clinician evaluates the whole response rather than allowing a student to retrospectively declare certainty.",
+                "application": "Optional task: design a noninvasive observation note for the cat case. Model response: “Owner reports abandoning the high resting place and choosing a lower chair; onset needs clarification. Cat remains in carrier during clinic observation; unfamiliar environment noted. Ask veterinarian which home activities and species-appropriate assessment approach should be documented without provoking movement.” Self-review checks: preserve both settings; distinguish report from direct observation; include a functional comparison; do not equate silence with comfort; do not prescribe, restrain, or deliberately elicit pain. A strong answer also states what information would make later comparisons more interpretable.",
+                "summary": "Pain-related reasoning combines welfare sensitivity with evidential discipline. Careful observation is neither diagnosis nor passivity: it can make an important concern visible and support timely professional review. Complete the unit quiz as a learning check, not proof of clinical competence. The next unit expands the same reasoning from individual evidence to transmission systems, stewardship, communication, and accountable team decisions."
+              },
+              "readings": [
+                {
+                  "title": "AAHA: 2022 Pain Management Guidelines for Dogs and Cats — Abstract and Introduction",
+                  "url": "https://aaha.org/resources/2022-aaha-pain-management-guidelines-for-dogs-and-cats/home-3",
+                  "note": "Read Abstract and Introduction on chronic pain, owner evaluation, assessment, and case-specific planning. Treatment sections are for qualified clinicians, not self-directed use."
+                }
+              ],
+              "visual": {
+                "title": "Integrate pain observations across settings — reasoning sequence",
+                "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
+                "steps": [
+                  "Home baseline: familiar activity and owner account",
+                  "Clinic observation: behavior with environmental context",
+                  "Comparison: species-appropriate assessment under supervision",
+                  "Reassessment: function, context, and clinician review"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-vet-21-a",
+              "prompt": "A referral says “weak animal” but omits species and whether the change began today or has always been present. What improves the handover most?",
+              "answer": "Restore patient context and time course before adding diagnostic labels",
+              "distractor": "Replace weak with a more technical synonym and keep the missing history",
+              "correction": "Species and chronology can alter interpretation and urgency; vocabulary alone cannot restore missing evidence.",
+              "reviewLessonIds": [
+                "21"
+              ]
+            },
+            {
+              "id": "uq-vet-21-b",
+              "prompt": "A lab reruns a specimen with unresolved identity and obtains the same result. What has repetition established?",
+              "answer": "Reproducibility in that material, not attribution to the intended patient",
+              "distractor": "The repeated number proves the specimen belongs to the intended patient",
+              "correction": "Repeating measurement does not resolve provenance; preserve the discrepancy and seek reconciliation.",
+              "reviewLessonIds": [
+                "22"
+              ]
+            },
+            {
+              "id": "uq-vet-21-c",
+              "prompt": "A practice imports an interval from another analyzer because it makes a flagged result unflagged. Is that defensible?",
+              "answer": "No; interval suitability depends on the laboratory method and patient population",
+              "distractor": "Yes; any published interval is interchangeable if it avoids an alarming flag",
+              "correction": "The reference is part of the measurement context, not an adjustable reassurance device.",
+              "reviewLessonIds": [
+                "23"
+              ]
+            },
+            {
+              "id": "uq-vet-21-d",
+              "prompt": "A student calls every increased blood marker proof of organ failure. What distinction is missing?",
+              "answer": "A marker can reflect injury or other mechanisms without measuring complete functional failure",
+              "distractor": "Any increase proves the entire organ has stopped functioning",
+              "correction": "Define what is measured, consider mechanisms, and integrate other evidence before clinical inference.",
+              "reviewLessonIds": [
+                "24"
+              ]
+            },
+            {
+              "id": "uq-vet-21-e",
+              "prompt": "A home activity log worsens while clinic behavior is unchanged. What is the strongest next reasoning step?",
+              "answer": "Compare settings and activities and bring the functional change to the veterinarian",
+              "distractor": "Discard the home log because only clinic observations are evidence",
+              "correction": "Owner observations can capture daily function absent during a visit; retain provenance and avoid a false contradiction.",
+              "reviewLessonIds": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safer Systems, Stewardship, and Shared Decisions",
+          "lessons": [
+            {
+              "id": "26",
+              "title": "Map transmission pathways and layered controls",
+              "explanation": "The objective is to explain how a clinic's everyday workflow can connect a possible source of contamination to another patient, then identify where trained teams can interrupt that pathway. Earlier lessons established hand hygiene and the limits of gloves. The AAHA infection-control guidelines broaden the frame: limiting pathogen entry and transmission requires coordinated practices, staff education, surveillance, and evaluation. A contaminated surface does not prove an animal has acquired an infection, but a plausible exposure pathway can justify preventive attention before a diagnosis is confirmed. This lesson is a systems analysis exercise, not a disinfectant recipe or permission to enter an isolation area without training.",
+              "example": "In a fictional clinic, a worker carries a shared tablet from an area used by an animal with diarrhea to a clean preparation surface. The tablet is a possible bridge between locations. Begin with the actual observations: where the tablet was used, what contacted it, and where it went next. Then draw the proposed route from the patient area to the tablet to the clean area. Do not write that an infection definitely occurred; no such outcome is provided. Alert the designated infection-control lead and follow the practice's instructions for the item and area. The useful lesson is that a mobile object can undermine otherwise well-separated spaces if the workflow does not define how it crosses the boundary.",
+              "question": "What does a tablet moving between patient and clean areas establish?",
+              "answer": "A possible transmission bridge requiring protocol-based review",
+              "distractor": "Proof that a particular pathogen infected the next patient",
+              "correction": "A mapped exposure route is evidence of risk, not a confirmed infection or pathogen identity.",
+              "depth": {
+                "definitions": "A reservoir is a place where an infectious agent can persist. A route of transmission describes how it reaches another host. A fomite is an inanimate object that can carry contamination. Exposure means contact with a potential hazard; infection requires additional biological events and is not guaranteed by exposure. Biosecurity concerns measures that reduce introduction and spread of infectious hazards. A control is an intervention in the pathway, while a standard operating procedure describes the locally approved way to perform a recurring task.",
+                "mechanism": "Layered controls work because no single barrier covers every opportunity for failure. Patient flow can reduce unnecessary contacts; designated equipment can reduce movement between areas; training can make the expected sequence explicit; appropriate hygiene and environmental procedures can address contamination; and surveillance can reveal when the system is not working as intended. AAHA recommends a coordinating infection-control practitioner because disconnected good intentions leave gaps at boundaries between roles. In a diagram, place each control on the link it actually interrupts. Gloves do not make a tablet clean, signage does not remove contamination, and a written policy does not prove staff can implement it. Before judging an individual lapse, ask whether supplies, time, space, and clear responsibilities made the expected action feasible. This does not remove accountability; it makes improvement more reliable than blame alone.",
+                "secondExample": "Contrast a fixed piece of equipment that stays in one designated area with a reusable item that travels among patients. Their hazards may differ even if both surfaces look clean. The moving item connects parts of the clinic that otherwise appear separate. In a second contrasting scenario, a staff member has followed the approved barrier procedure but must use a shared door handle immediately afterward. The diagram should include that transition rather than end at glove removal. The exact method for managing the contact depends on the approved procedure, product suitability, and patient context. A learner identifies the weak link and asks the trained lead to evaluate it, rather than improvising chemical mixtures or equipment processing.",
+                "mistake": "A common mistake is drawing “dirty” and “clean” as permanent identities of rooms or people. Clean status is conditional on what has happened since the last appropriate process. A clean item can be recontaminated, and a boundary can be crossed unintentionally. Another error is inferring the pathogen solely from a sign such as diarrhea. Several causes can produce the sign. Preventive precautions can be based on assessed risk while diagnostic identity remains uncertain; the two decisions should not be conflated.",
+                "application": "Optional task: draw a pathway for a reusable pen carried from a patient area to a shared desk. Label a source, a bridge, and a destination; then propose a question for the infection-control lead. Model response: “Patient-area contact may contaminate the pen; carrying it to the desk creates a possible indirect route. Does our approved workflow designate pens by area or specify how this transition is managed?” Self-review checks: distinguish possibility from demonstrated transmission; name the object and boundary; propose a system question rather than a blame statement; avoid chemical instructions; identify professional ownership of the response.",
+                "summary": "Transmission mapping changes infection control from a list of isolated rules into an explanation of connected contacts. A good diagram is concrete enough to expose a gap yet cautious about outcomes not observed. Next, examine surveillance: how can a clinic know whether it is detecting problems and whether a change to its system is actually helping?"
+              },
+              "readings": [
+                {
+                  "title": "AAHA: Infection Control, Prevention, and Biosecurity Guidelines (2018)",
+                  "url": "https://www.aaha.org/resources/2018-aaha-infection-control-prevention-and-biosecurity-guidelines/aaha-infection-control-prevention-and-biosecurity-guidelines/",
+                  "note": "Read Abstract and Introduction, including the two principal infection-control components and the coordinating practitioner. The page links procedural resources; this lesson does not reproduce their chemical or handling instructions."
+                }
+              ],
+              "visual": {
+                "title": "Map transmission pathways and layered controls — reasoning sequence",
+                "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
+                "steps": [
+                  "Possible source: patient-area contact",
+                  "Bridge: mobile tablet, pen, or equipment",
+                  "Destination: next surface or host",
+                  "Layer controls on each transition and assign review responsibility"
+                ]
+              }
+            },
+            {
+              "id": "27",
+              "title": "Use surveillance without mistaking detection for incidence",
+              "explanation": "The objective is to interpret a clinic's infection-control observations without confusing the number of reports with the underlying frequency of disease. AAHA warns that hospital-acquired infections may go unnoticed and that absence of recognized outbreaks can create false security. Surveillance is therefore an organized way to look, not simply waiting until a dramatic cluster becomes obvious. Building on transmission mapping, you will distinguish what a monitoring system observes from what is actually happening. The learner's task is to critique paper evidence and propose questions for the infection-control lead; it is not to declare an outbreak, publish patient information, or independently direct a clinical response.",
+              "example": "A fictional practice begins asking owners about new signs after hospitalization. More possible postoperative concerns are recorded than before the calls began. Someone concludes that infection control must have deteriorated. Another concludes that the calls caused infection. Neither inference follows from the observation. The surveillance system has changed: events that previously went unreported may now be detected. Compare the definitions, follow-up methods, eligible patient population, and opportunity for observation before interpreting the increase. Meanwhile, each current patient concern still needs appropriate clinical review. Uncertainty about aggregate trends must not be used to dismiss an individual animal's symptoms.",
+              "question": "Why can reported complications rise after active follow-up begins?",
+              "answer": "The system may be finding events it previously missed",
+              "distractor": "An increase in reports necessarily proves the new follow-up harms patients",
+              "correction": "Detection changed, so a trend cannot be attributed to patient risk without examining ascertainment.",
+              "depth": {
+                "definitions": "Surveillance is systematic collection, review, and use of information about a defined health concern. A case definition specifies what qualifies for inclusion in a monitoring category; suspected cases and confirmed cases should remain distinguishable. A numerator counts qualifying events, while a denominator describes the population or opportunities at risk. Ascertainment is the process by which events become known. A process measure records whether an intended practice occurred; an outcome measure records what happened to patients. Neither measure completely substitutes for the other.",
+                "mechanism": "Start with the question the system is meant to answer. “Are isolation transitions following our procedure?” calls for observation of transitions. “Are patients developing a defined complication?” requires clinical outcome follow-up. If the practice changes the case definition or how actively it contacts owners, an apparent trend can be partly a measurement change. Patient mix also matters: a period involving more complex referrals may not be comparable with a period dominated by routine visits. Do not silently combine suspected and confirmed events, repeated reports about the same episode, or unequal follow-up opportunities. Document these differences before attributing an outcome to one intervention. AAHA's emphasis on standardized processes, self-audit, and protocol adjustment supports learning from these limitations rather than treating surveillance as a public-relations scorecard.",
+                "secondExample": "Contrast a clinic with few reported complications but almost no follow-up with one that actively seeks reports and records concerns candidly. The second clinic's larger list does not automatically mean worse care. It may have a more informative detection system. Now contrast a process audit showing that staff can locate a protocol with an observation showing whether they actually use it during busy transitions. Locating the document assesses availability; observing practice assesses implementation. Both can be useful, but they answer different questions. An ethical improvement project reports the chosen measure honestly instead of selecting whichever makes the intervention look successful.",
+                "mistake": "A frequent mistake is treating a before-and-after comparison as a controlled experiment. Other changes can occur at the same time: staffing, case complexity, follow-up, equipment, or seasonal exposure. A second mistake is demanding perfect causal proof before responding to a plausible hazard. The appropriate response can be risk-based professional review while the investigation continues. Separate the immediate safety decision from the strength of the causal conclusion. Neither “proved” nor “meaningless” is an adequate label for every imperfect dataset.",
+                "application": "Optional task: a practice introduces a hand-hygiene reminder and a new owner follow-up form at the same time. Reports of possible infection rise. Draft an interpretation and a better monitoring question. Model response: “The increase may reflect changed ascertainment as well as a true change; the data do not isolate the reminder's effect. Keep case definitions and follow-up explicit, review individual concerns, and examine whether the intended hygiene process was performed.” Self-review checks: mention the simultaneous measurement change; avoid claiming improvement or harm from counts alone; distinguish process and outcome; identify the eligible patient group; preserve suspected versus confirmed status. No invented numerical rates are needed to make the reasoning precise.",
+                "summary": "Surveillance turns uncertainty into structured learning when definitions, opportunities for detection, and action responsibilities are visible. A silent reporting system is not proof of safety, and more reports are not necessarily proof of deterioration. Next, connect prevention and evaluation to antimicrobial stewardship, where the quality of the decision matters more than merely counting prescriptions."
+              },
+              "readings": [
+                {
+                  "title": "AAHA: Infection Control, Prevention, and Biosecurity Guidelines (2018)",
+                  "url": "https://www.aaha.org/resources/2018-aaha-infection-control-prevention-and-biosecurity-guidelines/aaha-infection-control-prevention-and-biosecurity-guidelines/",
+                  "note": "Read Introduction on unnoticed hospital-acquired infections, false security from absent outbreaks, self-audit, and evaluating infection-control effectiveness. The hypothetical monitoring examples are original teaching cases, not study results."
+                }
+              ],
+              "visual": {
+                "title": "Use surveillance without mistaking detection for incidence — reasoning sequence",
+                "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
+                "steps": [
+                  "Define event and eligible patient group",
+                  "Specify how and when concerns become known",
+                  "Separate process adherence from patient outcomes",
+                  "Interpret trends with detection changes and assign clinical review"
+                ]
+              }
+            },
+            {
+              "id": "28",
+              "title": "Evaluate antimicrobial stewardship as a decision system",
+              "explanation": "The objective is to explain why responsible antimicrobial use requires prevention, evidence, communication, and review rather than a slogan to always use or always avoid antibiotics. Earlier lessons separated inflammation from infection. The AVMA defines stewardship around preserving antimicrobial effectiveness and availability while safeguarding animal, public, and environmental health. Its core principles include preventive care, evidence-based decisions about indication, appropriate selection by veterinarians, and evaluation of outcomes. This lesson analyzes the reasoning structure. It does not recommend a drug, dose, duration, route, treatment change, or an alternative home remedy.",
+              "example": "In a fictional case, an owner asks for an antibiotic because a previously treated skin problem looked similar. The trainee should not promise a prescription or declare that antibiotics are never needed. The visible similarity does not establish the same cause, and prior improvement alone does not identify which part of the earlier care caused it. A useful response is: “The veterinarian needs to assess what is causing this episode and whether an antimicrobial is indicated. I will pass on the previous treatment history and your concern.” The response validates relevant history while keeping the decision attached to current evidence and professional responsibility.",
+              "question": "What makes stewardship more than simply reducing prescription counts?",
+              "answer": "It evaluates indication, prevention, implementation, and patient outcomes",
+              "distractor": "Its sole objective is the smallest possible number of prescriptions",
+              "correction": "Appropriate necessary treatment and disease prevention matter; fewer prescriptions alone cannot establish better care.",
+              "depth": {
+                "definitions": "An indication is a justified reason to use an intervention in a particular context. Antimicrobial resistance concerns the ability of microorganisms to withstand a drug's effects; it is not the animal becoming morally or generally resistant to care. Stewardship includes the system that supports appropriate decisions, not just the moment a prescription is written. Empirical treatment is selected before complete organism-specific information is available; targeted decisions can use additional diagnostic evidence. Whether and when either approach is appropriate belongs to the responsible veterinarian, considering urgency, patient needs, and applicable rules.",
+                "mechanism": "Follow the AVMA decision structure. Prevention can reduce the need for antimicrobial use by addressing husbandry, hygiene, biosecurity, nutrition, and vaccination through appropriate care plans. When an animal is ill, the veterinarian evaluates whether an antimicrobial is indicated rather than treating any inflammation as bacterial disease. If treatment is selected, the plan needs a clear clinical rationale, feasible implementation, and outcome review. Diagnostic evidence must also be fit for purpose: a poorly attributed sample or a result detached from its clinical context does not become decisive merely because it names an organism. Stewardship therefore connects directly to the sample chain and problem representation. Evaluation should ask whether decisions and outcomes were appropriate, not reward fewer prescriptions regardless of animal suffering or necessary treatment. Protecting future effectiveness and treating present patients responsibly are complementary aims, not a forced choice between them.",
+                "secondExample": "Contrast a clinic that reduces avoidable infection through a reliable equipment workflow with one that merely pressures clinicians to prescribe less without improving diagnostic support. The first addresses a causal pathway that can reduce treatment need; the second may change a number without improving care. In another fictional scenario, an owner says the prescribed plan is difficult to carry out because of work and animal handling constraints. The team should communicate the barrier to the prescriber and seek an authorized, feasible plan. Advising the owner to share another animal's medication, improvise a schedule, or stop treatment on the basis of a course lesson would undermine both safety and stewardship.",
+                "mistake": "“Stronger antibiotic means better care” overlooks whether the drug is needed and appropriate for the patient and likely cause. “Stewardship means never treating until every test is complete” is also unsafe because clinical urgency can change decisions. Correct both by locating the decision within professional assessment and asking what evidence, urgency, and review plan justify it. A third misconception is that the learner must settle the indication to be useful. Accurate history, documented barriers, prevention work within training, and clear escalation are meaningful contributions.",
+                "application": "Optional task: an owner requests a leftover antimicrobial from another pet while waiting for assessment. Write a response that preserves rapport and scope. Model response: “I cannot recommend using another animal's medication. Similar signs do not establish the same cause or a safe plan. Please contact the treating veterinarian for assessment and instructions; I can help communicate the signs, previous treatment, and practical concerns.” Self-review checks: no prescription or dosing advice; no judgment of the owner; explain the missing causal and patient-specific evidence; route decisions to the clinician; identify history that improves the assessment. If severe or rapidly worsening signs occur, urgent veterinary help must not wait for a routine appointment.",
+                "summary": "Stewardship is evidence-aware care across the entire system: prevent avoidable disease, justify treatment, implement an authorized plan, and review outcomes. It cannot be reduced to prescription counts or a learner's confidence. Next, study consent and communication, where a scientifically reasonable proposal still requires an understandable discussion of choices, uncertainties, and practical constraints."
+              },
+              "readings": [
+                {
+                  "title": "AVMA: Antimicrobial stewardship definition and core principles",
+                  "url": "https://www.avma.org/resources-tools/avma-policies/antimicrobial-stewardship-definition-and-core-principles",
+                  "note": "Read the definition and all core principles, especially prevention, evidence-based indication, outcome assessment, and evaluation of use practices. This is a professional policy framework, not an individual treatment protocol."
+                },
+                {
+                  "title": "Cornell eClinpath: Test interpretation",
+                  "url": "https://eclinpath.com/test-basics/test-interpretation/",
+                  "note": "Review the requirement to interpret test evidence with patient context and consider artifacts before biological conclusions."
+                }
+              ],
+              "visual": {
+                "title": "Evaluate antimicrobial stewardship as a decision system — reasoning sequence",
+                "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
+                "steps": [
+                  "Prevention: reduce avoidable disease opportunities",
+                  "Assessment: veterinarian determines whether treatment is indicated",
+                  "Implementation: authorized plan and practical barriers",
+                  "Evaluation: patient outcomes and decision quality, not counts alone"
+                ]
+              }
+            },
+            {
+              "id": "29",
+              "title": "Make consent a conversation rather than a signature",
+              "explanation": "The objective is to identify what makes a veterinary decision meaningfully understood and authorized. Previous lessons introduced teach-back and owner communication. Here you examine a harder situation: the client appears agreeable but holds a different understanding of the proposed plan. RCVS guidance emphasizes clear language, questions, sufficient discussion time, recording limits on consent, and escalation when practice staff notice misunderstanding. RCVS is a UK regulator; its guidance is a concrete professional example, not a statement that all jurisdictions share identical rules. Actual authority, emergency exceptions, and delegated roles must be checked locally by the responsible professionals.",
+              "example": "A fictional owner signs a form for a veterinarian-proposed diagnostic procedure. During routine conversation, the owner says the signature means the condition will definitely be cured that day. A trainee should not treat the signature as proof of understanding or independently revise the clinician's recommendation. The discrepancy concerns purpose and expected outcome. A safe response is: “I want to make sure our explanation was clear. You are expecting a definite cure today; I will ask the veterinarian to clarify what this procedure can establish and what decisions may follow.” The concern should reach the responsible clinician before a nonurgent procedure proceeds, rather than being hidden because the paperwork is complete.",
+              "question": "What should happen when a signed form coexists with a clear misunderstanding?",
+              "answer": "Flag the mismatch for clinician clarification rather than assuming the signature settles it",
+              "distractor": "Ignore the misunderstanding because consent is only the signed document",
+              "correction": "Known mismatch concerns understanding and scope; a form does not replace the professional conversation.",
+              "depth": {
+                "definitions": "Informed consent is an authorization process involving understanding of the proposed intervention and relevant choices, not merely a mark on a document. An estimate communicates expected costs under stated assumptions; it is not automatically a guarantee about every possible expense or outcome. A material concern is something significant to the client's decision in the case at hand. Teach-back asks the client to explain the plan in their own words so the team can check its communication. A qualified or limited consent specifies boundaries rather than unconditional approval.",
+                "mechanism": "Communication can fail even when each sentence is technically accurate. A clinician may describe uncertainty while the owner remembers only the most hopeful possibility. Stress, unfamiliar terminology, time pressure, and a complicated sequence can increase mismatch. The remedy is to clarify the decision: what is being proposed, what it aims to do, what remains uncertain, what alternatives the veterinarian considers reasonable, and what practical or cost limits need discussion. RCVS recommends encouraging participation and questions, using understandable language, and recording consent limitations. These are reciprocal obligations of communication, not a test of whether the client is sufficiently intelligent or compliant. If the plan changes, the existing authorization may not cover the new proposal. A trainee identifies that issue and seeks professional clarification rather than assuming a broad signature authorizes any additional action.",
+                "secondExample": "Contrast an owner who understands the clinical purpose but cannot manage the proposed follow-up arrangements. This is not necessarily a knowledge deficit. Repeating the explanation louder will not remove transport, cost, work, or handling barriers. The team should bring those constraints into the clinician's discussion of feasible options. In a different case, the person presenting an animal may not have authority to consent for the owner. RCVS explicitly advises attention to authority when owner and client differ. The learner should flag the issue through practice policy, not demand private documents beyond their role or invent a universal legal rule. Urgent welfare concerns require prompt professional handling of applicable emergency obligations.",
+                "mistake": "The key misconception is that consent protects the form rather than the patient-client decision. A completed document is useful evidence, but it cannot repair a known misunderstanding. Another error is framing a client's limited budget as moral failure. Ethical communication neither promises unavailable care nor humiliates someone for a constraint. Correct these errors by documenting the actual question, preference, or limitation neutrally and making sure the clinician has an opportunity to discuss it.",
+                "application": "Optional task: a client says “I agreed to the test, but not additional procedures or charges without a call.” Draft a communication note and a handover request. Model response: “Client states authorization is limited to the discussed test and requests contact before additional procedures or costs. Please clarify and document the agreed scope and contact plan with the client.” Self-review checks: preserve the limit accurately; do not erase it with a generic consent statement; avoid guaranteeing a legal interpretation; name who must clarify the clinical plan; check understanding respectfully. A stronger response asks the client to describe the agreed next step after the veterinarian's clarification, without turning teach-back into a quiz.",
+                "summary": "Consent connects evidence with values, feasibility, and authority. The learner's responsible role is to notice and communicate mismatch, not decide on behalf of client or clinician. Next, integrate these commitments into a complete handover and an auditable record, so uncertainty and unfinished actions survive a change of personnel."
+              },
+              "readings": [
+                {
+                  "title": "RCVS: 11. Communication and consent",
+                  "url": "https://www.rcvs.org.uk/veterinary-professionals/conduct-and-guidance/supporting-guidance/11-communication-and-consent",
+                  "note": "Read Client relationship, Communication, and Discussion of fees, especially authority, understanding, limited consent, staff escalation, and estimates. This is UK guidance, not jurisdiction-independent legal advice."
+                }
+              ],
+              "visual": {
+                "title": "Make consent a conversation rather than a signature — reasoning sequence",
+                "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
+                "steps": [
+                  "Proposal: purpose, uncertainty, and reasonable options",
+                  "Client understanding: explain back and identify mismatch",
+                  "Authorization: scope, constraints, and contact plan",
+                  "Documentation: clinician clarification and recorded limits"
+                ]
+              }
+            },
+            {
+              "id": "30",
+              "title": "Close the loop in handover and learning from error",
+              "explanation": "The objective is to produce a handover that transfers responsibility for unresolved questions, not merely information. You have practiced observations, sample quality, interpretation, welfare, infection control, stewardship, and consent. The final skill is continuity: can the next person tell what is known, what is provisional, what has been communicated, and who must act? RCVS record guidance calls for clear, factual, timely records that support continuity of care and for amendments that preserve the original entry and audit trail. This is a UK professional reference, used here to teach accountable communication rather than to confer legal or clinical authority.",
+              "example": "In a fictional case, a dog is awaiting veterinarian review of a laboratory result. The report has a sample-suitability comment, the owner has described reduced activity, and consent is limited to the already discussed tests. A departing trainee writes “results back; owner informed.” This leaves several ambiguities: was the suitability concern reviewed, what exactly was the owner told, and is anyone responsible for follow-up? A better handover identifies the patient, separates the owner report from direct observations, names the unresolved laboratory issue, preserves the consent limit, and explicitly requests clinician review. The receiving team member acknowledges the task through local workflow. Sending a message is not the same as knowing that responsibility was accepted.",
+              "question": "What closes a handover loop for an unresolved laboratory issue?",
+              "answer": "Confirmed ownership and follow-through through the approved clinical workflow",
+              "distractor": "A note saying everything is complete before review actually occurs",
+              "correction": "A message must not be mistaken for acknowledged responsibility or completed clinical review.",
+              "depth": {
+                "definitions": "An open loop is an action or question without confirmed completion or ownership. Closed-loop communication includes a message, acknowledgment, and confirmation of the relevant understanding or action. An audit trail preserves who entered or corrected information and when, without disguising the earlier record. A near miss is an event that could have caused harm but did not do so in the observed circumstances. A systems review asks how workflow and conditions contributed, while retaining responsibility for specific actions. These concepts support learning without converting uncertain facts into accusations.",
+                "mechanism": "Build the handover in an order that serves the receiving person's decision. State current urgency first if there is immediate concern. Then provide patient identity, the reason for contact, relevant chronology, evidence sources, and significant limitations. Finish with an explicit request and the person or role expected to handle it. If an urgent concern is not acknowledged, follow the practice's escalation route rather than assuming that an unread note provides care. A record should distinguish “message sent” from “veterinarian reviewed” and “owner contacted” from “owner confirmed understanding.” These differences may seem administrative, but each describes a distinct stage in a safety process. Record only stages that actually occurred. Confidentiality also matters: educational analysis should use fictional or appropriately anonymized material, not export owner identifiers or private clinical details into a learning portfolio.",
+                "secondExample": "Contrast a discovered transcription error with a change in clinical judgment. If a value was copied incorrectly, the correction should be clear, attributed, and linked to the original report through the approved record system. Silently overwriting the old entry can hide what earlier decisions relied on. If a veterinarian changes a working interpretation after new evidence, that is not necessarily an error. The record should show the new evidence and revised assessment, not rewrite history as if the final conclusion had always been known. In a near miss involving a mislabeled specimen, investigate where identification became ambiguous and what prevented harm. The fact that no harm was observed does not mean the process needs no improvement.",
+                "mistake": "A frequent misconception is that a longer handover is automatically safer. A dense chronological dump can bury the urgent issue and the pending action. Correct it by separating decision-critical content from supporting detail. Another mistake is using confident language to make a transfer seem finished: “all addressed” is unsafe when a lab question is still pending. A good handover names incompleteness accurately and assigns a route to resolution. Accountability is visible ownership, not rhetorical certainty.",
+                "application": "Optional capstone: write a handover for the dog case and propose a small learning review if the suitability comment was initially overlooked. Model response: “Dog awaiting veterinarian review; owner reports reduced activity. Report contains unresolved sample-suitability comment; no diagnostic conclusion communicated by this trainee. Consent limited to discussed tests. Please review the comment, interpret the case, and clarify the owner contact plan; receiving role to acknowledge ownership.” Review proposal: examine how comments appear in the workflow and whether staff know who checks them. Self-review rubric: accurate identity and provenance; urgency and scope preserved; no invented review or diagnosis; pending issue explicit; named ownership or escalation route; correction trail retained; improvement question targets the process as well as the action.",
+                "summary": "This level ends with a disciplined form of usefulness: make evidence interpretable, uncertainty visible, and responsibility traceable. Complete the unit quiz and cumulative level application test, then review weak reasoning using the linked lessons. Binary-choice performance and paper cases demonstrate learning within this course only. They do not certify professional competence, authorize clinical procedures, or replace supervised veterinary training and jurisdiction-specific licensure."
+              },
+              "readings": [
+                {
+                  "title": "RCVS: 13. Clinical and client records",
+                  "url": "https://www.rcvs.org.uk/veterinary-professionals/conduct-and-guidance/supporting-guidance/13-clinical-and-client-records",
+                  "note": "Read General principles and Clinical records on continuity, prompt transfer, confidentiality, and amendments preserving the original record. UK regulatory context applies."
+                },
+                {
+                  "title": "RCVS: 11. Communication and consent",
+                  "url": "https://www.rcvs.org.uk/veterinary-professionals/conduct-and-guidance/supporting-guidance/11-communication-and-consent",
+                  "note": "Read Communication on team coordination and staff escalation of client misunderstanding; apply only within locally authorized roles."
+                }
+              ],
+              "visual": {
+                "title": "Close the loop in handover and learning from error — reasoning sequence",
+                "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
+                "steps": [
+                  "State concern and separate observed, reported, and provisional evidence",
+                  "Name pending question, consent boundary, and responsible role",
+                  "Obtain acknowledgment or escalate through approved workflow",
+                  "Record actual resolution and preserve corrections for learning"
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-vet-26-a",
+              "prompt": "A clinic has separate patient areas, but the same clipboard travels through both without a defined transition process. Which problem remains?",
+              "answer": "A mobile object can bridge the separation",
+              "distractor": "Physical room separation guarantees no indirect contact",
+              "correction": "Map objects and hands across the boundary; a room label alone does not control every route.",
+              "reviewLessonIds": [
+                "26"
+              ]
+            },
+            {
+              "id": "uq-vet-26-b",
+              "prompt": "A team reports no recognized infections but does not seek post-discharge concerns. Which claim is justified?",
+              "answer": "Detection is limited, so absence of reports does not establish absence of events",
+              "distractor": "The lack of reports proves the prevention system is completely effective",
+              "correction": "Surveillance design determines what becomes visible; review both detection and processes.",
+              "reviewLessonIds": [
+                "27"
+              ]
+            },
+            {
+              "id": "uq-vet-26-c",
+              "prompt": "A manager rewards only lower antimicrobial totals despite changing patient complexity. What should the review add?",
+              "answer": "Indication, case mix, prevention, and clinical outcomes",
+              "distractor": "A rule that every reduction proves improved care",
+              "correction": "Counts cannot establish appropriateness; necessary treatment and patient welfare must remain part of evaluation.",
+              "reviewLessonIds": [
+                "28"
+              ]
+            },
+            {
+              "id": "uq-vet-26-d",
+              "prompt": "A client understands a procedure but cannot attend the proposed follow-up. What is the communication problem?",
+              "answer": "A feasibility constraint needing clinician discussion",
+              "distractor": "Proof that the client failed to understand every explanation",
+              "correction": "Practical barriers differ from knowledge gaps and should inform discussion of an authorized workable plan.",
+              "reviewLessonIds": [
+                "29"
+              ]
+            },
+            {
+              "id": "uq-vet-26-e",
+              "prompt": "A trainee notices a transcription error after a handover. Which correction is accountable?",
+              "answer": "Use the approved correction trail and alert the responsible team to the discrepancy",
+              "distractor": "Silently replace the old value so no one sees the error",
+              "correction": "Earlier actions may rely on the original entry; preserve traceability and communicate material corrections.",
+              "reviewLessonIds": [
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-vet-21-a",
+          "prompt": "An adult cat has stopped using its usual resting shelf, is silent in the clinic, and has an unflagged laboratory result. Which synthesis preserves the strongest evidence?",
+          "answer": "Retain the home functional change and clinic context; an unflagged value and silence do not exclude a welfare concern",
+          "distractor": "Use silence and the unflagged result to conclude the owner is misinterpreting normal behavior",
+          "correction": "The representation must preserve functional evidence, interval limits, and setting effects. Veterinary assessment integrates these rather than allowing two weak exclusions to cancel the concern.",
+          "reviewLessonIds": [
+            "21",
+            "23",
+            "25"
+          ]
+        },
+        {
+          "id": "lq-vet-21-b",
+          "prompt": "A specimen has an unresolved identity discrepancy and a result compatible with several mechanisms. The owner asks which disease it proves. What should the trainee communicate?",
+          "answer": "Identity must be reconciled before patient-specific interpretation, and the value alone would not uniquely identify a disease",
+          "distractor": "The most familiar mechanism can be declared because the analyzer produced a precise value",
+          "correction": "Provenance precedes biological interpretation. Even a correctly attributed concentration can reflect input, output, distribution, or other processes. Neither stage licenses an independent diagnosis.",
+          "reviewLessonIds": [
+            "22",
+            "24",
+            "29"
+          ]
+        },
+        {
+          "id": "lq-vet-21-c",
+          "prompt": "A clinic sees more possible infections after introducing both designated equipment and active follow-up calls. What is the defensible review?",
+          "answer": "Assess implementation of the equipment boundary and account for improved detection before judging outcome change",
+          "distractor": "Conclude designated equipment increased infections because report totals rose",
+          "correction": "The intervention targets a pathway, while follow-up changes ascertainment. Process evidence and comparable clinical outcome definitions are needed; individual concerns still receive review.",
+          "reviewLessonIds": [
+            "26",
+            "27"
+          ]
+        },
+        {
+          "id": "lq-vet-21-d",
+          "prompt": "An owner requests the previous pet’s antibiotic for a new animal with similar signs; the current sample history is incomplete. What combines stewardship and evidence quality?",
+          "answer": "Explain that similarity does not establish indication and route the current history and specimen limitations to the veterinarian",
+          "distractor": "Recommend the previous medication while waiting because incomplete samples make professional assessment unnecessary",
+          "correction": "Stewardship requires current patient-specific evidence and authorized decisions. A sample limitation increases uncertainty; it does not justify medication sharing or trainee prescribing.",
+          "reviewLessonIds": [
+            "21",
+            "22",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-vet-21-e",
+          "prompt": "A client signed a test form but states that no further costs are authorized without contact. A shift changes before results are reviewed. What must the handover preserve?",
+          "answer": "The consent limit, pending review, contact requirement, and acknowledged responsible role",
+          "distractor": "Only the signature because it overrides the later stated limit",
+          "correction": "Communication and continuity require explicit scope and ownership. The trainee should not reinterpret authorization or claim review has occurred when it is pending.",
+          "reviewLessonIds": [
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-vet-21-f",
+          "prompt": "An apparent laboratory trend crosses an interval boundary after a laboratory change, while home activity declines. Which response avoids both overdiagnosis and dismissal?",
+          "answer": "Flag method comparability and preserve the activity change for clinical assessment",
+          "distractor": "Dismiss the entire case as an analyzer difference without reviewing the animal",
+          "correction": "A method change can confound a laboratory trend, but it does not erase independent functional evidence. Both limitations and concerns belong in the representation.",
+          "reviewLessonIds": [
+            "21",
+            "23",
+            "25"
+          ]
+        },
+        {
+          "id": "lq-vet-21-g",
+          "prompt": "A near miss involves a mislabeled specimen carried through a shared work area. No patient harm is documented. What learning review is appropriate?",
+          "answer": "Review identity safeguards and material movement while separating possible exposure from demonstrated harm",
+          "distractor": "Close the review because absence of documented harm proves all safeguards worked",
+          "correction": "A near miss can expose distinct provenance and transmission weaknesses. Preserve what is known, avoid inventing infection, and investigate the workflow that permitted the risk.",
+          "reviewLessonIds": [
+            "22",
+            "26",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-vet-21-h",
+          "prompt": "A manager says lower antimicrobial use proves a new hygiene policy worked, but follow-up and patient mix also changed. What evidence is still needed?",
+          "answer": "Comparable outcome definitions, case context, process adherence, and appropriateness of treatment decisions",
+          "distractor": "No additional evidence because prescription totals directly measure infection prevention",
+          "correction": "Stewardship and infection control cannot be inferred from a single unadjusted count. Different patient needs and detection systems can change outcomes and prescribing independently.",
+          "reviewLessonIds": [
+            "26",
+            "27",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-vet-21-i",
+          "prompt": "A report compatible with cellular injury is described to an owner as irreversible organ failure before clinician review. How should the trainee respond on discovering this?",
+          "answer": "Escalate the communication error, preserve the correction trail, and seek clinician clarification of what the marker can establish",
+          "distractor": "Erase the message silently and tell the owner the opposite diagnosis is certain",
+          "correction": "Injury evidence does not establish reversibility or complete function. Repairing misinformation requires transparent correction and authorized interpretation, not a replacement unsupported certainty.",
+          "reviewLessonIds": [
+            "24",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-vet-21-j",
+          "prompt": "A dog’s behavior appears improved after a clinician-directed plan, but the observation setting also became quieter. Can the trainee declare the diagnosis confirmed and change the plan?",
+          "answer": "No; document function and setting, then refer interpretation and any plan changes to the clinician",
+          "distractor": "Yes; improvement proves a single cause and authorizes independent treatment changes",
+          "correction": "Behavior has multiple influences, and response alone does not settle causation. Accurate reassessment informs the prescriber without transferring clinical authority to the learner.",
+          "reviewLessonIds": [
+            "24",
+            "25",
+            "28"
+          ]
+        },
+        {
+          "id": "lq-vet-21-k",
+          "prompt": "While a team reconciles a questionable report, the owner reports that the animal has collapsed. Which priority should the handover adopt?",
+          "answer": "Immediate veterinary emergency assessment, with the unresolved report communicated without delaying help",
+          "distractor": "Finish the record audit before asking for emergency assessment",
+          "correction": "Evidence quality matters, but urgent deterioration changes the action priority. State the immediate concern and summon qualified help; do not make administrative completeness a barrier to care.",
+          "reviewLessonIds": [
+            "21",
+            "22",
+            "30"
+          ]
+        },
+        {
+          "id": "lq-vet-21-l",
+          "prompt": "A capstone note says “normal tests, infection prevented, consent obtained, all complete,” although follow-up is absent and review ownership is unclear. Which revision is justified?",
+          "answer": "Replace broad conclusions with specific interval findings, detection limits, consent scope, and pending actions with ownership",
+          "distractor": "Keep the confident summary because concise records should omit uncertainty",
+          "correction": "Each phrase overclaims a different kind of evidence. Interval membership, absence of detected events, a consent process, and completed follow-through require separate support. Concision should preserve those distinctions.",
+          "reviewLessonIds": [
+            "23",
+            "27",
+            "29",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

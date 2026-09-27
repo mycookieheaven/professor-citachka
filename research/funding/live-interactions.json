@@ -1,0 +1,56 @@
+{
+  "deploymentId": "dpl_FjwdSbPigXqpZHtam7moWyCsu73Z",
+  "kind": "deployed production JavaScript exercised in jsdom; no browser or layout engine",
+  "visualRenderingVerified": false,
+  "reports": [
+    {
+      "path": "/learn/business-funding/01",
+      "width": 1280,
+      "hydrated": true,
+      "writingGate": true,
+      "wrongBranchBlocked": true,
+      "selfReview": true,
+      "saved": true,
+      "navigatedTo": "/learn/business-funding/02",
+      "errors": []
+    },
+    {
+      "path": "/subjects/business-funding",
+      "width": 390,
+      "resumeAfterFreshDOM": true,
+      "errors": []
+    },
+    {
+      "path": "/learn/business-funding/41",
+      "width": 390,
+      "hydrated": true,
+      "writingGate": true,
+      "wrongBranchBlocked": true,
+      "selfReview": true,
+      "saved": true,
+      "navigatedTo": "/learn/business-funding/42",
+      "errors": []
+    },
+    {
+      "path": "/learn/business-funding/50",
+      "width": 390,
+      "hydrated": true,
+      "writingGate": true,
+      "wrongBranchBlocked": true,
+      "selfReview": true,
+      "saved": true,
+      "navigatedTo": "/subjects/business-funding",
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "mobileMenuPriority": [
+        "Russian",
+        "Business Funding & Sales"
+      ],
+      "dashboardResume": true,
+      "errors": []
+    }
+  ]
+}

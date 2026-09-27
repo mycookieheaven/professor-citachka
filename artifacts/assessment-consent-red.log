@@ -1,0 +1,31 @@
+
+> professor-citachka@0.1.0 test
+> vitest run src/components/AssessmentLesson.test.tsx
+
+
+ RUN  v4.1.11 /Users/<user>/professor-citachka
+
+ ❯ src/components/AssessmentLesson.test.tsx (3 tests | 1 failed) 221ms
+   × keeps supplemental assessment items behind consent with two sound controls each 30ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/components/AssessmentLesson.test.tsx > keeps supplemental assessment items behind consent with two sound controls each
+Error: [2mexpect([22m[31melement[39m[2m).not.toBeInTheDocument()[22m
+
+[31mexpected document not to contain element, found <strong
+  lang="ru"
+>
+  Блин!
+</strong> instead[39m
+ ❯ src/components/AssessmentLesson.test.tsx:13:129
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 2 passed (3)
+   Start at  01:41:48
+   Duration  760ms (transform 113ms, setup 46ms, import 149ms, tests 221ms, environment 263ms)
+

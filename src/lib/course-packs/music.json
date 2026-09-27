@@ -1,0 +1,636 @@
+{
+  "subject": "music",
+  "levels": [
+    {
+      "title": "From counted gestures to a documented miniature",
+      "units": [
+        {
+          "title": "Embodied rhythm and harmonic movement",
+          "lessons": [
+            {
+              "id": "21",
+              "title": "Offbeat attacks without losing the beat",
+              "explanation": "An offbeat is meaningful only in relation to a beat that continues. Your objective is to keep an even underlying pulse while placing selected attacks between its beats. Earlier lessons established pulse, rests, and half-beat counting; now those skills become a controlled relationship between two layers. In simple meter, beats divide into two equal parts, commonly counted with numbers and “and.”[6] The number does not have to contain a sound. A silent numbered beat still organizes the offbeat that follows it. This is a timing exercise, not a demand to play faster, louder, or with extra muscular effort.",
+              "example": "Work in four-beat groups at a comfortable tempo. With hands resting loosely, tap one hand on your thigh on each number while saying “one and two and three and four and.” With the other hand, tap only the “and” after two and the “and” after four. Begin by speaking before adding either hand. At 80 quarter-note beats per minute, a beat lasts 0.75 seconds, its equal half lasts 0.375 seconds, and the bar lasts three seconds. The attack after four therefore anticipates the next bar without becoming its downbeat. Listen for the next one arriving at its original time rather than being pulled early.",
+              "question": "What remains unchanged when an attack moves to the and after two?",
+              "answer": "Underlying beat spacing",
+              "distractor": "The bar gains another beat",
+              "correction": "An offbeat occupies an existing subdivision rather than extending the meter.",
+              "depth": {
+                "definitions": "A subdivision partitions a beat; it is not an extra beat added to the bar. An onset is the instant an attack begins. A rest is an interval with no intended sound, not suspended time. An accent makes an event relatively prominent through articulation, duration, level, or context. Offbeat placement and accent are therefore different variables. This lesson uses equal eighth-note subdivisions in simple quadruple meter. It does not imply that every musical tradition uses this grid, that every offbeat must be accented, or that every syncopation has precisely this form.",
+                "mechanism": "The coordination problem is maintaining a stable reference while one action contradicts your habitual tendency to tap on that reference. If both hands immediately move together, remove the offbeat hand and speak its attacks as a quiet syllable. Reintroduce the hand only when the spoken pattern is stable. In a DAW, make one reference lane with evenly spaced beat attacks and another with the two specified offbeats. The Piano roll represents note starts and durations as sequencing information sent to an instrument, rather than as recorded sound.[1] The comparison becomes audible only when each lane has a functioning sound source and sensible routing.",
+                "secondExample": "Contrast this with a sustained keyboard note beginning on the “and” after two and continuing across beat three. There is no new attack on three even though sound remains present. Count three while holding the key, then release without thrusting the wrist downward. A muted guitar version uses a small relaxed down-up motion; allow the hand to pass silently at the numbered beat and touch the strings at the selected offbeat. Do not invent a complicated chord change while learning the timing. If the setup strains the wrist, return to thigh tapping, where the temporal problem can be isolated.",
+                "mistake": "A common error is placing the second layer correctly once, then speeding the underlying pulse to accommodate it. The result has the right order of sounds but the wrong spacing. Diagnose this by recording a brief take with a reference click at low volume, then listening for whether your numbered taps gradually move ahead. Do not erase every discrepancy automatically: first determine whether the event was meant to be offbeat. A grid can reveal a timing relationship, but a misplaced reference or incorrect subdivision will make even apparently tidy editing musically wrong.",
+                "application": "For a two-minute nonblocking task, spend the first part speaking the count, the next tapping both layers, and the final part listening to one short recording. Self-review on three criteria: the beat hand stays evenly spaced; the other hand attacks only after two and four; the return to one stays unhurried. A model report is “My first offbeat was accurate, but I anticipated the new bar after four; I will speak four-and-one while removing the second hand.” If recording is unavailable, ask a partner to keep the reference or use a metronome. Record uncertainty rather than awarding yourself accuracy from memory.",
+                "summary": "The transferable skill is holding a temporal frame while choosing where not to attack. Sparse offbeats can produce movement without more notes, and sustained sound can cross a beat without replacing it. Next, use the same stable beat to separate note onset from release: a short note and a long note can begin at the same instant while creating very different phrases."
+              },
+              "readings": [
+                {
+                  "title": "[6] Open Music Theory — Simple Meter and Time Signatures",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/",
+                  "note": "Open Music Theory — Simple Meter and Time Signatures; read Counting in Simple Meter, including sustained counts and subdivisions."
+                },
+                {
+                  "title": "[1] Piano roll",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll.htm",
+                  "note": "Companion reference for the cited distinction; consult Piano roll."
+                }
+              ],
+              "visual": {
+                "title": "Offbeat attacks without losing the beat — reasoning sequence",
+                "description": "Two aligned timing lanes distinguish reference beats from attacks.",
+                "steps": [
+                  "Reference: 1 | 2 | 3 | 4 | next 1",
+                  "Subdivision: 1-and | 2-and | 3-and | 4-and",
+                  "Attacks: and after 2; and after 4",
+                  "Keep the next 1 aligned with the unchanged reference."
+                ]
+              }
+            },
+            {
+              "id": "22",
+              "title": "Shape a phrase with note releases",
+              "explanation": "A phrase has a pattern of endings as well as beginnings. Your objective is to perform and sequence one small motif with deliberate note releases while keeping its attacks fixed. Earlier work distinguished rests from stopping the clock. Here you decide whether sound occupies all of a beat or leaves space before the next onset. This makes articulation audible without introducing difficult new pitches. In FL Studio, the Piano roll sends note data to the selected plugin instrument.[1] The visual length of a MIDI note is therefore an instruction about holding, not a promise that the resulting sound will stop at precisely the rectangle’s edge.",
+              "example": "Place four C notes on consecutive beats in a simple four-beat bar. First hold each until just before the next onset, releasing the final note at the bar’s end. Then repeat with a small silence after each attack while keeping all starts on the same counted numbers. On a keyboard, press with a loose hand and release by letting the key rise; do not snap the wrist upward. Listen for separation in the second version, not a faster pulse. In the Piano roll, duplicate the pattern and shorten the note rectangles in the duplicate without moving their left edges. Name the copies “connected” and “separated” before comparing them.",
+              "question": "Why can a sound outlast its MIDI note rectangle?",
+              "answer": "The instrument may have a release tail",
+              "distractor": "The rectangle is an audio recording",
+              "correction": "Note data is interpreted by an instrument; audible decay can outlast gate length.",
+              "depth": {
+                "definitions": "Articulation is how notes are begun, connected, sustained, and ended. Legato describes a connected manner; staccato describes a detached manner, with exact execution depending on context and instrument. Gate length is the duration for which a note is held by the sequencer. An amplitude envelope shapes how a sound grows and decays; its release portion can continue after the note-off instruction. Sustain pedal data can also change what you hear. For this experiment, remove pedal use and choose a plain sustained sound so that your finger release and the software’s response can be distinguished.",
+                "mechanism": "The mechanism is a chain: a timed onset starts a note, a held interval sustains its instruction, a note-off releases it, and the instrument interprets that release. Some drum samples ring out largely independently of the note rectangle. A long ambient patch may continue after every note and obscure the spaces you intended. Rather than shortening rectangles repeatedly until they become almost invisible, test one isolated note first. Compare what happens when you hold it and when you release it. This establishes whether the chosen instrument is suitable for teaching articulation before you evaluate the performance itself.",
+                "secondExample": "A contrasting acoustic case uses one clean fretted guitar note. Pluck gently, then stop the ringing by relaxing fretting pressure enough to damp the note without dragging the finger along the string. Listen for an intentional end, not a squeak or a second pluck. Open strings require a different damping action, so start with the already familiar fretted note. The body action is not identical to lifting a keyboard key, but the musical question is the same: did the sound end where intended while the count continued? If discomfort appears, stop rather than increasing pressure to force a clearer cutoff.",
+                "mistake": "One misconception equates separated playing with weak or hesitant playing. A detached phrase can be rhythmically decisive; it simply contains purposeful gaps. Another equates connected playing with overlapping every MIDI rectangle. On some instruments, overlaps trigger legato behavior; on others, they create simultaneous notes or blur. Diagnose the result by listening to the transition rather than assuming that a visual overlap means stylistic correctness. Keep velocity fixed during your first comparison so that changes in loudness or sample timbre do not distract from the changed endings.",
+                "application": "For a two-minute practice, perform one bar connected, rest your hands, then perform it separated. Record or sequence both versions and label the intended release pattern. The rubric has four observable checks: starts remain aligned with the same beat; gaps occur only in the separated version; no pedal or long release obscures the contrast; hand and shoulder remain comfortable. A model self-review says “Both versions start together, but my patch rings after note-off, so I will test a shorter-release instrument before judging my timing.” Without software, speak “daaa” and “dat” on the same pulse and explain how the syllable endings create the difference.",
+                "summary": "Duration control adds expression without increasing pitch vocabulary. It also improves diagnostic listening: a muddy phrase might be a release problem rather than a wrong-note problem. Keep your two versions as a reference for later arrangement work. Next, hold rhythm and articulation steady while changing one note within a triad, so harmonic quality can be heard as a specific interval relationship rather than inferred from mood alone."
+              },
+              "readings": [
+                {
+                  "title": "[1] Image-Line — Piano roll",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll.htm",
+                  "note": "Image-Line — Piano roll; read the introduction and Using the Piano roll, then test the selected instrument."
+                }
+              ],
+              "visual": {
+                "title": "Shape a phrase with note releases — reasoning sequence",
+                "description": "Separate instruction duration from audible decay.",
+                "steps": [
+                  "Beat marker → note-on: keep the start fixed.",
+                  "Rectangle length → held-note instruction.",
+                  "Rectangle ends → note-off sent.",
+                  "Instrument release → possible audible tail."
+                ]
+              }
+            },
+            {
+              "id": "23",
+              "title": "Hear major and minor by changing the third",
+              "explanation": "Your objective is to change a triad’s quality while preserving its root and fifth, then explain exactly what changed. You already know C–E–G as a major triad. A triad is a three-note chord that can be arranged in thirds; its quality depends on the intervals from its root.[5] Major and minor triads share a perfect fifth but differ in the third. This offers a controlled listening experiment: keep the outside notes, rhythm, register, and sound constant while changing the middle pitch. The aim is not to memorize that major is always happy and minor always sad. Those associations are context-sensitive descriptions, not definitions.",
+              "example": "Locate C, E, and G on a keyboard or in the Piano roll. Play each separately to confirm the notes, then sound them together gently. Repeat with E lowered to E-flat, the black key immediately below E, keeping C and G unchanged. The first collection is C major; the second is C minor. Listen once to the complete sonorities, then alternate E and E-flat against a sustained or repeated C if comfortable. In the DAW, duplicate the original chord and move only its third down one semitone. Label the patterns with their pitch collections, not merely “bright” and “dark.”",
+              "question": "What makes C major into C minor with root and fifth fixed?",
+              "answer": "Lower E to E-flat",
+              "distractor": "Lower every note by a semitone",
+              "correction": "Changing only the third alters quality; moving all notes equally transposes it.",
+              "depth": {
+                "definitions": "The root names the chord’s underlying identity; it is not necessarily the lowest sounding pitch in every arrangement. The third is the chord member a generic third above the root, and its interval quality distinguishes these two chord types. A semitone is the adjacent-key distance on the standard keyboard, including black keys. A pitch class groups octave-related instances of a note name. Quality identifies the interval pattern, whereas voicing identifies how chord members are distributed across actual pitches. Keep those terms separate now so that the next lesson’s inversion work does not accidentally become a different chord-quality exercise.",
+                "mechanism": "Why isolate the third? If you change the bass register, attack level, instrument, and third simultaneously, you may hear a dramatic difference without knowing which change caused it. Fixing other variables creates an interpretable comparison. Open Music Theory describes major and minor triads in terms of their thirds and shared perfect fifth.[5] This does not establish that a listener must attach the same emotional label in every style. A faster minor passage may feel animated; a slow major passage may feel reflective. The structural description survives those changes in interpretation and is therefore the more reliable first answer.",
+                "secondExample": "For a contrasting application, compare A–C–E with A–C-sharp–E. This time the starting triad is minor and raising the third makes it major. Before touching an instrument, say which pitch changes and which stay fixed. A guitar learner can enter these notes separately in software or play them one at a time where comfortable; a new full barre shape is unnecessary. If you arpeggiate rather than sound all notes simultaneously, label that performance choice. The ordered notes still disclose the chord members, but the listening experience differs from a simultaneous block chord.",
+                "mistake": "The frequent error is lowering every pitch by a semitone and calling the result minor. That operation transposes the entire chord; it preserves the interval relationships and therefore preserves major quality. Another error is lowering the fifth because it is visually closest to the cursor. Read note names after editing instead of relying on the direction of a drag. If your comparison sounds almost identical, verify that the changed note is audible, that the correct pattern is playing, and that the previous sustained chord has stopped. Do not raise monitoring volume to solve a routing or selection problem.",
+                "application": "Practice for two minutes: identify the three chord members, make the one-note change, and listen in alternating order with a short silence between chords. Your self-review rubric asks for correct spellings, unchanged outer notes, equal timing and approximate level, and an explanation based on the third rather than emotion. A model response is “C and G stayed fixed; E became E-flat, so the major third became minor.” For retrieval without an instrument, write the A minor example and circle the single note you would alter to make it major. Check against the contrasting example only after committing to an answer.",
+                "summary": "Triad quality can now be treated as a manipulable relationship rather than an opaque label. You have also practiced a useful production habit: alter one parameter, preserve a comparison version, and listen for the predicted consequence. Next, keep all chord pitch classes unchanged while changing their placement, which creates a new voicing or inversion without automatically changing the chord’s quality."
+              },
+              "readings": [
+                {
+                  "title": "[5] Open Music Theory — Triads",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/triads/",
+                  "note": "Open Music Theory — Triads; read Triadic Qualities and Spelling Triads, distinguishing structure from expressive associations."
+                }
+              ],
+              "visual": {
+                "title": "Hear major and minor by changing the third — reasoning sequence",
+                "description": "A controlled comparison tracks the one changed member.",
+                "steps": [
+                  "C major: root C — third E — fifth G.",
+                  "Hold C and G fixed.",
+                  "Lower E to adjacent E-flat.",
+                  "C minor: root C — third E-flat — fifth G."
+                ]
+              }
+            },
+            {
+              "id": "24",
+              "title": "Use common tones to make chord changes smaller",
+              "explanation": "Your objective is to connect two triads while preserving a common tone and reducing unnecessary movement. Earlier guitar and keyboard work established comfortable, accurate changes. Now the question is not merely whether you reach the next chord but how individual notes travel between chords. A chord can retain its identity when its pitch classes are reordered or doubled.[5] This lets you choose a nearby voicing instead of moving every finger to a new root-position shape. The exercise teaches one local voice-leading choice; it does not claim that the smallest possible motion is always the best musical result.",
+              "example": "Begin with the keyboard pitches C–E–G in a comfortable middle register. Your destination is F major, whose pitch classes are F–A–C. Instead of jumping the entire hand to F–A–C above the original C, keep the original C, move E up to F, and move G up to A. The destination sounds C–F–A from lowest to highest. It is still F major because its members can be reordered F–A–C, but C is now in the bass. Play each line separately before combining them: C stays, E rises to F, and G rises to A. Release and reset whenever holding a position creates tension.",
+              "question": "What is C–F–A from lowest to highest?",
+              "answer": "F major with C in the bass",
+              "distractor": "C major because C is lowest",
+              "correction": "The collection rearranges to F–A–C; bass and root are not interchangeable.",
+              "depth": {
+                "definitions": "A common tone belongs to both adjacent chords. A voice is one traceable line of pitches, not necessarily a human singer or a separate instrument. Voice leading describes how those lines connect. Voicing is the particular register and spacing of chord tones; inversion identifies which chord member is lowest. Root position places the root lowest. A slash chord symbol names a chord followed by its bass pitch, so F/C means F major with C in the bass. The bass may strongly influence perceived stability, but it does not automatically rename the chord after itself.",
+                "mechanism": "The benefit of a common tone is continuity: one part remains stable while other parts signal harmonic change. Physically, smaller movements may also make the transition more manageable, although comfort depends on anatomy, fingering, and instrument. In a Piano roll, draw each chord for the same duration and inspect three horizontal paths. The unchanged C should sit on one pitch row across the boundary. Decide whether to retrigger it or hold it; those are articulation choices with different results. Keep the first comparison simple by retriggering all notes together, then test a held common tone in a separate copy.",
+                "secondExample": "A contrasting destination is A minor. From C–E–G, retain C and E while moving G to A, yielding C–E–A. This preserves two pitch classes rather than one. Listen to the two changes side by side: C major to F/C and C major to A minor with C in the bass. The amount of movement differs, but neither count of shared notes is a universal measure of expressive value. A dramatic leap might suit an arrangement’s climax. For a guitar version, first identify one common sounding pitch in two already comfortable shapes; do not assume that keeping a finger in place always preserves the same sounding note across different strings.",
+                "mistake": "A common misconception is that the lowest note is always the root. In C–F–A, treating C as root obscures the F–A–C triad. Diagnose by collecting the pitch classes and attempting to arrange them in thirds, as in the reading’s triad-identification method.[5] Another error is stretching to hold the common note while the rest of the hand twists. Musical continuity does not require painful physical continuity. Lift, relocate, and replay if needed, or sequence the example and study the sound while developing the physical technique with qualified guidance.",
+                "application": "For a three-minute nonblocking task, perform or program both destinations and sketch arrows for every voice. Assess four features: correct chord membership, correctly named bass, explicit common tones, and comfortable execution or a stated software alternative. A model annotation is “C remains C; E moves to F; G moves to A; the resulting chord is F/C, not C major.” Then explain what changes if C is retriggered instead of sustained. Keep the answer specific: the chord membership stays the same, while the articulation of the common-tone line changes. If the rhythm becomes uneven, isolate the change silently before restoring the pulse.",
+                "summary": "Small-motion connections integrate harmonic identification with physical planning. The important achievement is being able to account for every voice, not merely arriving at a pleasing shape by accident. Retain your arrow sketch beside the saved patterns. Next, use a short melodic motif over these stable chord changes, preserving enough rhythm for a listener to recognize a return even when the ending changes."
+              },
+              "readings": [
+                {
+                  "title": "[5] Open Music Theory — Triads",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/triads/",
+                  "note": "Open Music Theory — Triads; read Chord Symbols and Identifying Triads, Doubling, and Spacing."
+                }
+              ],
+              "visual": {
+                "title": "Use common tones to make chord changes smaller — reasoning sequence",
+                "description": "Trace every voice instead of naming a chord from its lowest note.",
+                "steps": [
+                  "Lower: C → C, common tone.",
+                  "Middle: E → F.",
+                  "Upper: G → A.",
+                  "C–F–A rearranges as F–A–C: F/C."
+                ]
+              }
+            },
+            {
+              "id": "25",
+              "title": "Build a recognizable motif and a contrasting answer",
+              "explanation": "Your objective is to make a short musical idea recognizable through repetition while changing one feature in its answer. A motif is a compact idea that can be identified through rhythm, pitch contour, articulation, or a combination. Instead of adding unrelated notes every time the phrase returns, choose what remains invariant and what changes. Your earlier work on counted offbeats, releases, chord quality, and small-motion connections supplies the vocabulary. The compositional exercises here are original teaching examples, not rules attributed to a historical style. The Piano roll is the practical tool for representing their note events and auditioning deliberate variations.[1]",
+              "example": "Make a one-bar idea in four-beat meter: play C on one, E on two, G on three, then leave four silent. Hold each note for approximately a beat without overlap. Repeat the rhythm in the next bar, but use C, E, F before the same rest. The shared onset pattern helps the second bar sound related; the altered final pitch provides contrast. First speak the rhythm on one syllable and count through the rest. Then play the pitches slowly with a released shoulder. In software, duplicate the first bar and change only its final pitch. Name the result “A” and “answer” rather than calling every difference a new section.",
+              "question": "Which choice preserves a clear relationship while changing melodic content?",
+              "answer": "Keep onsets and rests but change the final pitch",
+              "distractor": "Change tempo, sound, rhythm, and all pitches at once",
+              "correction": "Keeping timing fixed makes the effect of a melodic change interpretable.",
+              "depth": {
+                "definitions": "Contour is the pattern of upward, downward, and repeated pitch motion. Transposition shifts every pitch by the same interval, preserving the interval relationships. Rhythmic variation changes timing or duration, while melodic variation changes pitch choices. A phrase ending can suggest continuation or arrival, but such impressions depend on harmonic and stylistic context. In this exercise, a changed last note is not guaranteed to create a particular emotion or a textbook cadence. Describe what a listener can check before offering an interpretation: three attacks, an ascending shape, a silent fourth beat, and one changed ending pitch.",
+                "mechanism": "Recognition requires a balance of persistence and change. If you alter sound, tempo, rhythm, articulation, and pitches at once, a listener may lose the relationship you intended. By holding rhythm fixed you can test whether a pitch change is enough to create an answer. Add the C-major-to-F/C accompaniment from the preceding lesson only after the melody works alone. Listen for whether the changed F aligns with the harmony rather than assuming that any scale note must sound equally settled against any chord. A dissonance can be intentional, but you should be able to identify its placement and hear how it resolves or persists.",
+                "secondExample": "For a contrasting variation, keep C–E–G unchanged but move the last attack from three to the “and” after three, leaving the bar’s duration intact. This revisits offbeat counting and produces rhythmic rather than pitch contrast. Clap both versions while your foot maintains the beat. On guitar, use one familiar fretted pitch to study the rhythm first; a motif need not demand a new fretboard position immediately. The one-pitch reduction preserves timing but removes melodic contour, so label it as a practice reduction rather than claiming it is the full melody.",
+                "mistake": "A frequent error is confusing a new motif with an accidental inconsistency. If the changed ending happens unpredictably because a finger misses, it is not yet a controlled variation. Preserve two clearly named versions and demonstrate that you can reproduce either on request. Another error is filling the final rest because silence feels unfinished. The rest is a feature that gives the idea breathing space and makes its boundary audible. Count it explicitly. When duplicating patterns, verify whether editing the duplicate changes the original too; shared pattern instances and independent patterns behave differently in an arrangement.",
+                "application": "For a three-minute task, make an original three-attack motif, an exact repetition, and one answer that changes only pitch or rhythm. Save or notate all three. Your rubric asks for a reproducible original, an accurate repetition, one named transformation, and an explanation of what remained invariant. A model self-review is “The answer keeps the three onset positions and final rest but lowers the last pitch; I can hear the shared rhythm without looking.” Test that claim by listening with the screen hidden. If recognition is weak, simplify the transformation rather than adding more instruments or louder effects.",
+                "summary": "This unit ends with a small vocabulary you can control: offbeat attacks, intentional releases, major/minor quality, common-tone movement, and motif variation. Those are ingredients, not a finished composition by themselves. Next, move into the production unit by capturing a short performance, preserving an unedited version, and deciding which timing differences are errors and which belong to the motif’s character. The unit quiz checks reasoning; your labeled recordings or scores provide richer evidence of practical progress."
+              },
+              "readings": [
+                {
+                  "title": "[1] Image-Line — Piano roll",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll.htm",
+                  "note": "Image-Line — Piano roll; use Adding Notes to construct these original teaching examples, not as a source of compositional rules."
+                }
+              ],
+              "visual": {
+                "title": "Build a recognizable motif and a contrasting answer — reasoning sequence",
+                "description": "Track the invariant rhythm and one changed ending.",
+                "steps": [
+                  "A: C on 1, E on 2, G on 3, rest on 4.",
+                  "Repeat: same pitch, onset, release, rest.",
+                  "Melodic answer: C on 1, E on 2, F on 3, rest on 4.",
+                  "Alternative: preserve pitches and delay G to and after 3."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "music-u1-a",
+              "prompt": "Offbeats are correct but the next bar arrives early. What needs rebuilding?",
+              "answer": "Stable numbered beats through the final and",
+              "distractor": "A louder final offbeat",
+              "correction": "An offbeat must not shorten the interval to the next downbeat.",
+              "reviewLessonIds": [
+                "21"
+              ]
+            },
+            {
+              "id": "music-u1-b",
+              "prompt": "Short MIDI rectangles produce a continuous wash. What should be tested first?",
+              "answer": "One isolated note and its release or pedal behavior",
+              "distractor": "An even shorter global note length",
+              "correction": "The sound source can continue after note-off; inspect it before judging performance.",
+              "reviewLessonIds": [
+                "22"
+              ]
+            },
+            {
+              "id": "music-u1-c",
+              "prompt": "C–E–G becomes D–F-sharp–A and is labeled minor. Why is this wrong?",
+              "answer": "It was transposed and remains major",
+              "distractor": "Every change of root creates minor quality",
+              "correction": "Equal pitch displacement preserves chord intervals.",
+              "reviewLessonIds": [
+                "23"
+              ]
+            },
+            {
+              "id": "music-u1-d",
+              "prompt": "Retain C and E; move G to A. Which analysis follows?",
+              "answer": "A minor with C bass and two common tones",
+              "distractor": "C major because its lowest note stayed C",
+              "correction": "Reorder the collection A–C–E to identify its root and quality.",
+              "reviewLessonIds": [
+                "23",
+                "24"
+              ]
+            },
+            {
+              "id": "music-u1-e",
+              "prompt": "A figure keeps its pitches but delays its last onset. What changed?",
+              "answer": "Rhythm while pitch content persisted",
+              "distractor": "The transposition interval",
+              "correction": "Changing onset time is rhythmic variation, not pitch transposition.",
+              "reviewLessonIds": [
+                "21",
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Capture, arrange, balance, and verify a miniature",
+          "lessons": [
+            {
+              "id": "26",
+              "title": "Quantize selectively while preserving intention",
+              "explanation": "Your objective is to compare an unedited performance with a selectively corrected copy and justify each timing change. Quantization moves note events toward a timing template; it is not a general command to improve music. Image-Line’s Quantizer distinguishes start time, sensitivity, duration, and end-time behavior.[7] These controls matter because a correction to an onset need not imply the same correction to a release. Your motif already contains intentional rests and may contain an offbeat. Preserve that design while investigating accidental drift. Start with a low monitoring level and a comfortable sitting position; software precision does not require forceful playing.",
+              "example": "Record or enter a short motif with attacks intended on one, two, and the “and” after three. Keep the original pattern untouched and make an independent copy. In the copy, inspect which onset is genuinely misplaced. If the final event belongs between beats, a grid containing only numbered beats is too coarse for this task. Choose a subdivision that represents the intended offbeat, select only the suspect note or passage, and preview the correction. Compare both patterns with the same instrument and level. The edited version should preserve the offbeat and final rest rather than snapping the motif into an entirely different rhythm.",
+              "question": "What should happen before quantizing an intentional offbeat?",
+              "answer": "Choose a template that includes its intended subdivision",
+              "distractor": "Snap it to the nearest numbered beat regardless of intention",
+              "correction": "A coarse grid can destroy the intended rhythm rather than repair it.",
+              "depth": {
+                "definitions": "A timing template supplies candidate positions. Quantization strength determines how far events move toward them; sensitivity determines which sufficiently nearby events are affected in this tool.[7] Duration concerns the interval between note-on and note-off. End time is the absolute position of note-off. Preserving duration while moving the onset moves the ending too; preserving the original end time instead changes the held length. These are different operations. A take is one recorded attempt. A comparison copy is a reversible editing experiment, not a declaration that the original performance was inadequate.",
+                "mechanism": "Listen before interpreting the grid. A consistent delay across every note might reflect performance placement or a recording/monitoring issue, whereas a single unusually late note suggests a local problem. The visual pattern alone does not establish the cause. Check the reference count, the intended subdivision, and whether playback sounds delayed before repeatedly rerecording. Do not prescribe an arbitrary buffer setting without knowing the device and software configuration. For this bounded exercise, a manually entered reference motif provides a useful comparison even when recording setup is unavailable. It separates the musical target from the technical capture process.",
+                "secondExample": "Consider a contrasting phrase whose starts are already correct but whose last note is released too early. Applying full start-time quantization cannot solve that articulation problem. Select the final note and extend its duration to the intended release, then verify that it does not overlap a rest you meant to preserve. Conversely, moving a late onset earlier while retaining its old endpoint lengthens the note. That may help or harm the phrase. The earlier articulation lesson gives you a way to describe this result: the start and ending are independent musical decisions, even when a tool offers to edit them together.",
+                "mistake": "The dangerous shortcut is “select all, quantize hard, assume finished.” It can erase intended timing relationships, alter release lengths, or conceal a wrong rhythmic conception. Another error is calling every irregularity expressive. Expression needs an intention you can describe and reproduce or defend by listening. Preserve the original precisely because your judgment may change. Image-Line notes that accepted quantizer changes can be undone through history.[7] A separately named copy remains useful beyond the immediate undo chain, especially after other edits. Confirm the original is actually independent, not another Playlist instance of the same pattern.",
+                "application": "For a three-minute nonblocking lab, compare original and edited versions, then write a two-sentence edit log. The rubric asks for a correct target subdivision, one identified error, preservation of deliberate offbeats and rests, and an audible before/after check. A model log says “I moved only the late second onset toward beat two. I preserved the final offbeat and listened for any changed note length.” If nothing improves, keep the original and say why. Successful reasoning can justify no edit; it does not require the edited version to win.",
+                "summary": "Selective quantization connects embodied rhythm with reversible software decisions. A tidy grid is evidence of alignment to a chosen template, not proof of musical understanding. Keep your source take, corrected copy, and edit log. Next, use controlled velocity differences to shape accents while keeping timing fixed, so that a change in perceived groove is not confused with another timing correction."
+              },
+              "readings": [
+                {
+                  "title": "[7] Image-Line — Piano roll Quantizer",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll_qnt.htm",
+                  "note": "Image-Line — Piano roll Quantizer; read Strength, quantize modes, and Action buttons."
+                }
+              ],
+              "visual": {
+                "title": "Quantize selectively while preserving intention — diagnostic map",
+                "description": "Decision path preserves musical intent before editing.",
+                "steps": [
+                  "State intended onset and release.",
+                  "Choose a template containing that subdivision.",
+                  "Duplicate independently; select only the suspect events.",
+                  "Compare starts and endings by listening; retain the original."
+                ]
+              }
+            },
+            {
+              "id": "27",
+              "title": "Design accents with velocity rather than force",
+              "explanation": "Your objective is to create a deliberate accent pattern using MIDI velocity while distinguishing it from timing and overall mix level. Velocity is note-control information interpreted by an instrument; its audible effect depends on that instrument. Image-Line notes that sample channels respond to note velocity and that different playback paths can produce different levels.[8] A higher velocity may change loudness, timbre, or both. The task is therefore empirical: predict a contrast, audition it, and describe what actually changes. This extends earlier comfortable-touch work without asking you to strike harder than feels safe or to increase headphone volume.",
+              "example": "Program a repeating line of equal-length notes on the same pitch and evenly spaced subdivisions. Keep their starts and releases unchanged. In a comparison copy, give the numbered beats a moderately higher velocity than the intervening “ands.” Play both copies at a low level. Ask whether the second version clarifies the beat or merely becomes louder overall. Lower its channel level if needed for a fair comparison, without erasing the relative velocity pattern. On a keyboard, first play one soft note and one moderately firmer note with a relaxed arm; if the sound changes sharply, note that the instrument may switch samples or tone behavior.",
+              "question": "Why might lowering channel level not reproduce lower velocity?",
+              "answer": "Velocity can alter timbre before audio reaches the level control",
+              "distractor": "Channel level always changes the MIDI note number",
+              "correction": "Velocity is interpreted by the sound source; level control need not change that interpretation.",
+              "depth": {
+                "definitions": "An accent is relative prominence within a phrase. Dynamics concern levels and contrasts in performance, not simply the position of a master fader. Velocity is attached to individual MIDI note events. Channel level scales a sound source’s audio contribution more broadly. Timbre is the quality of the sound apart from basic pitch and level. A sampler may respond differently from a synthesizer, and patches inside one instrument may differ. Avoid treating the MIDI editor’s numeric values as calibrated acoustic loudness. The same value through another patch is not a promise of the same perceived intensity.",
+                "mechanism": "The mechanism has two stages: the note supplies a velocity value, and the sound source maps that value to its internal response. Only afterward does the resulting audio travel through level controls and effects. This is why lowering a channel fader is not always equivalent to reducing every note’s velocity. The fader may make an already bright attack quieter, while lower velocity may trigger a softer-sounding attack. In a controlled experiment, change one parameter at a time and listen to the onset as well as the sustained sound. Document whether your chosen patch responds mainly through level or through a noticeable tone change.",
+                "secondExample": "For a contrasting pattern, keep the numbered beats softer and emphasize only an offbeat from your motif. The beat must still be internally stable, but its most prominent event need not coincide with a numbered attack. Tap the pattern on a thigh before sequencing it. For guitar, make a gentle accented strum through a slightly clearer attack while preserving a small relaxed motion; do not turn accent into a large shoulder swing. If your technique cannot produce the contrast comfortably, study it through MIDI first. The musical idea can be understood before its acoustic performance is fully reliable.",
+                "mistake": "A common mistake is confusing accent with tempo change: the stronger note arrives early because the player prepares it with extra motion. Compare onset positions after recording. Another mistake is randomizing velocity and calling the result human. Random differences can disrupt a phrase’s hierarchy. Intentional variation should relate to the beat, motif, or phrase direction and remain interpretable. A flat velocity pattern is not automatically bad, either; some genres and sounds require uniform attacks. State the expressive goal before deciding that variation improves the result.",
+                "application": "Spend two minutes making a plain version and two accent alternatives, one on-beat and one offbeat. Your rubric asks whether timing stayed fixed, the contrast can be heard at comfortable volume, the accent locations match the plan, and any timbral change is described accurately. A model response is “The offbeat sounds brighter as well as louder; lowering the channel level keeps that brighter attack, so velocity and volume are not interchangeable here.” If you hear no contrast, verify the instrument’s response rather than assuming your ears failed. Keep screenshots or note lists only as documentation; the audible comparison remains the test.",
+                "summary": "Velocity becomes useful when it serves an intelligible hierarchy instead of arbitrary variation. You have now separated onset, release, pitch, and attack emphasis as editable dimensions. Next, place your motifs in a short arrangement, deciding where density and contrast should change over time. Carry the accent plan into that structure rather than letting repeated copies accidentally erase the phrase’s direction."
+              },
+              "readings": [
+                {
+                  "title": "[8] Image-Line — Levels, Mixing & Clipping",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer_levelsandmixing.htm",
+                  "note": "Image-Line — Levels, Mixing & Clipping; read Sampler Channels vs Audio Clips and distinguish velocity response from level controls."
+                }
+              ],
+              "visual": {
+                "title": "Design accents with velocity rather than force — diagnostic map",
+                "description": "Separate note information from the downstream audio level.",
+                "steps": [
+                  "Note event: pitch, timing, velocity.",
+                  "Instrument mapping: attack level and possibly timbre.",
+                  "Audio level control: scale the resulting signal.",
+                  "Compare accents with timing fixed and monitoring comfortable."
+                ]
+              }
+            },
+            {
+              "id": "28",
+              "title": "Arrange eight bars with an audible beginning and ending",
+              "explanation": "Your objective is to organize a short miniature whose sections can be recognized without looking at the Playlist. Earlier lessons produced patterns, but an arrangement concerns their placement over time. FL Studio’s Playlist supports patterns, audio clips, and automation clips as different kinds of material.[2] A repeated block on screen is not automatically a new musical event: it may simply repeat the same source pattern. Plan an audible change first, then use the appropriate clip behavior to realize it. The miniature is a bounded composition exercise, not a universal formula for song form or a substitute for studying a specific musical tradition.",
+              "example": "Sketch eight bars in four-beat meter. Let bars one and two introduce the motif alone. In bars three and four, add the restrained beat. Use bars five and six for the motif’s altered answer over the common-tone chord change. In bars seven and eight, return to the original idea and create an intentional final release. At 80 quarter-note beats per minute, the eight bars occupy 24 seconds before any additional effect tail. Mark that as a planning calculation rather than an exact export-length guarantee. In the Playlist, label section boundaries with descriptive names so their roles remain clear when zoomed out.",
+              "question": "Why can changing one copied clip alter the opening too?",
+              "answer": "Both instances may reference the same source pattern",
+              "distractor": "Playlist colors force identical audio",
+              "correction": "Independent placement does not necessarily create independent note content.",
+              "depth": {
+                "definitions": "Form is the organization of musical material across time. Texture describes the combination and roles of sounding parts. Density is how much simultaneous or closely spaced activity occupies a passage. A pattern is a reusable note sequence; a Playlist instance places that sequence in the arrangement. An independent variation must be separated from its source before editing if you want other instances unchanged. A transition links sections. An ending is a designed musical boundary, which may include a sustained decay rather than an abrupt cut. None of these requires introducing a new plugin or another melodic line.",
+                "mechanism": "The listening mechanism is expectation: repeated material establishes something recognizable, and changes become meaningful against that reference. Introducing the beat after the motif creates contrast through texture while preserving melodic identity. The altered answer changes a different dimension later, so the listener can follow a developing relationship. Too many simultaneous changes may obscure the relationship; too few may make the intended boundary inaudible. The correct balance is a compositional judgment tested by listening, not a fixed density score. Use subtraction as well as addition: removing percussion can announce a return just as clearly as adding another sound.",
+                "secondExample": "For a contrasting arrangement, begin with the beat alone and withhold the motif until the middle. Keep the same inventory of notes and sounds but change their entry order. Listen to whether attention shifts from rhythm toward melody differently. This comparison demonstrates that arrangement is not identical to composition of new material. Without a DAW, draw eight labeled boxes and perform the roles with voice and thigh taps, leaving silence where a part is absent. That reduction can demonstrate timing and entries, but it cannot verify an exported audio file or the actual balance between software instruments.",
+                "mistake": "The common technical error is editing a copied Playlist instance and discovering that every occurrence changed. Inspect whether the clips refer to one pattern or independent patterns. Preserve the original motif before altering the answer. Another error is judging structure only by colored rectangles: two visually different tracks may sound nearly identical, while a subtle release change can be audible without a dramatic visual difference. Hide the editor briefly and note where you actually hear a new section. If the planned change is inaudible, revise the musical material rather than only renaming the marker.",
+                "application": "For a four-minute arrangement pass, make the eight-bar sketch, place its materials, and listen from start to finish without stopping. The rubric asks for a clear entry plan, one recognizable return, one controlled contrast, and a deliberate final release. A model review says “The fuller section is audible when percussion enters, but the answer sounds too similar; I will expose it by removing the competing chord attack.” Check that the final note is neither accidentally cut nor followed by unintended empty bars. Write one revision priority rather than changing every section at once.",
+                "summary": "An arrangement gives your earlier isolated skills a reason to occur at particular times. The result should have a describable path even with very few sounds. Keep the section sketch beside the project and note any divergence between intention and listening. Next, trace the audio routes and set a restrained balance, because a well-planned entrance can still disappear if another part masks it or the output distorts."
+              },
+              "readings": [
+                {
+                  "title": "[2] Image-Line — The Playlist",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/playlist.htm",
+                  "note": "Image-Line — The Playlist; read Patterns, Audio Clips and Automation Clips and Working with Clips."
+                }
+              ],
+              "visual": {
+                "title": "Arrange eight bars with an audible beginning and ending — diagnostic map",
+                "description": "Eight bars become an audible plan rather than decorative blocks.",
+                "steps": [
+                  "Bars 1–2: motif alone establishes identity.",
+                  "Bars 3–4: beat enters, increasing texture.",
+                  "Bars 5–6: altered answer and chord connection.",
+                  "Bars 7–8: recognizable return and planned release."
+                ]
+              }
+            },
+            {
+              "id": "29",
+              "title": "Trace signal flow and balance without chasing loudness",
+              "explanation": "Your objective is to identify where each sound travels and make a simple balance that keeps the miniature’s musical roles audible. MIDI notes instruct instruments; their resulting audio then passes through the Mixer. Image-Line distinguishes Channel Rack instruments, Mixer tracks, and Playlist placement, noting that the Playlist is not inherently bound to one instrument or Mixer track.[3] This matters whenever moving a clip appears not to change its mixing destination. Begin with comfortable monitoring and no unnecessary processing. A clear source, sensible routing, and relative levels are more useful at this stage than a chain of impressive-looking effects.",
+              "example": "Use a motif, chord accompaniment, and restrained percussion. Give each sound a clear name and verify its Mixer destination by playing it alone and watching which meter responds. Then restore all parts. Lower the accompaniment until the motif’s attacks and releases can be followed without strain. Listen to the fullest section, not only the sparse introduction. If the output meter exceeds the final output limit, reduce appropriate levels and replay the entire section. Do not solve an overloaded digital output merely by lowering the headphones: monitoring level and the signal being exported are different parts of the system.[8]",
+              "question": "Why does lowering headphone volume not repair an overloaded export?",
+              "answer": "It changes monitoring rather than the signal written to the file",
+              "distractor": "It changes every MIDI velocity automatically",
+              "correction": "The listening path and rendered mix level are separate controls.",
+              "depth": {
+                "definitions": "Routing describes connections between signal stages. An insert track receives audio and may contain effects before passing onward. The master combines routed contributions and commonly feeds the listening output. A peak meter reports short-lived signal maxima; it is not a complete measure of perceived loudness. Headroom is room below a relevant limit. Masking describes one sound making another difficult to hear. These terms identify different problems: silence can be a routing problem, harsh distortion can involve overload, and an inaudible melody can occur even when no meter clips.",
+                "mechanism": "Trace the path explicitly: note data reaches an instrument, audio reaches its assigned Mixer track, that track reaches the master or another destination, and the output reaches the monitoring device. The Mixer manual describes routing and effect order; the levels guide distinguishes floating-point internal processing from fixed-depth output limits.[3][8] Do not interpret every internal meter above zero as identical to a clipped exported file. Equally, do not assume internal headroom makes all plugins immune to overload or nonlinear changes. For this beginner mix, keep practical levels conservative and inspect the actual output and sound rather than exploiting theoretical limits.",
+                "secondExample": "Contrast two fixes for a buried motif. Turning up the motif may help, but it may also consume headroom while leaving the arrangement crowded. Lowering or simplifying the chord part can improve clarity without increasing total level. Mute the chord briefly to test its contribution to the problem. If the motif becomes clear, restore the chord more quietly or reduce simultaneous attacks in the busy section. This is an arrangement decision as much as a mixing decision. A guitar-and-keyboard performance can use the same reasoning: a gentler accompaniment may reveal a melody more effectively than forcing the melody louder.",
+                "mistake": "A common mistake is equating a louder comparison with a better one. Match approximate listening levels before deciding whether an effect or balance revision improves clarity. Another is adding a limiter to avoid learning what is overloading. Limiting can be useful in an appropriate workflow, but it does not establish correct routing, good arrangement, or a comfortable listening level. Avoid repeated high-volume tests. If a silent track unexpectedly returns after rerouting, start from a low monitor setting so that troubleshooting does not produce an abrupt loud burst.",
+                "application": "For a three-minute diagnostic pass, solo each source, identify its destination, restore the ensemble, and test the fullest section. Use four rubric items: route names match observed meters; the motif remains traceable; the final output avoids overload; monitoring stays comfortable. A model report is “The chord and melody shared a destination, so I separated their controls; lowering the chord clarified the melody without raising the master.” If you cannot identify the route, draw the last confirmed connection and stop guessing. Save the project before changing unfamiliar routing or processing so the experiment remains reversible.",
+                "summary": "A balance is an argument about musical priority: which event should attract attention, and what should support it? Meters constrain the technical result but do not make that artistic decision. Keep a short route diagram and one listening note. Next, export the miniature and inspect the actual delivered audio, because a project that sounds correct during editing can still produce the wrong range, missing material, or a truncated ending."
+              },
+              "readings": [
+                {
+                  "title": "[8] Image-Line — Levels, Mixing & Clipping",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer_levelsandmixing.htm",
+                  "note": "Image-Line — Levels, Mixing & Clipping; read Setting Output Mix Levels and Using FL Studio Peak Meters, especially internal versus final output."
+                },
+                {
+                  "title": "[3] Mixer Functions",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer.htm",
+                  "note": "Companion reference for the cited distinction; consult Mixer Functions."
+                }
+              ],
+              "visual": {
+                "title": "Trace signal flow and balance without chasing loudness — diagnostic map",
+                "description": "Trace instructions, audio, and monitoring separately.",
+                "steps": [
+                  "MIDI notes → instrument generates audio.",
+                  "Instrument → named Mixer insert → master.",
+                  "Master output → rendering path: inspect output level.",
+                  "Monitoring control → comfortable listening; not an export repair."
+                ]
+              }
+            },
+            {
+              "id": "30",
+              "title": "Export, listen back, and defend the miniature",
+              "explanation": "Your objective is to deliver a short audio miniature with enough documentation that another person can understand both its musical plan and its limitations. Exporting is a separate operation from saving the editable project. Image-Line describes audio export as rendering and distinguishes audio formats from MIDI note and automation data.[4] A MIDI file is not a recording of the sound you chose. A project file also need not contain every external dependency. Treat delivery as a listening and documentation task, not simply the appearance of a filename in a folder. The course assessment checks reasoning, not professional production competence.",
+              "example": "Save your editable project, then choose an audio export of the full eight-bar arrangement. Use a lossless audio format for your working check if available and appropriate, preserving the project separately for revision. Inspect the selected range, song versus pattern context, and the ending behavior before rendering. Listen to the resulting file from beginning to end in a separate playback context at comfortable volume. Confirm the motif enters where planned, the contrasting answer appears, and the final note decays intentionally. The calculated musical body is 24 seconds at 80 quarter-note beats per minute in eight four-beat bars; a retained effect tail can extend the file beyond that body.",
+              "question": "What proves that the delivered file contains the planned arrangement?",
+              "answer": "Listening to the actual export against the section plan",
+              "distractor": "Seeing that a file exists with an audio extension",
+              "correction": "Existence does not establish correct range, content, balance, or ending.",
+              "depth": {
+                "definitions": "Rendering computes an audio file from the project’s instruments, clips, routing, effects, and selected export options. A tail is sound continuing after the last scheduled event, such as reverb or a released instrument. A delivery specification states what the recipient needs: format, range, naming, and any additional files. A stem is a grouped audio contribution rather than necessarily one instrument; do not promise stems when you only rendered the full mix. A version label links a file to a documented revision. These concepts prevent a technically valid file from being mistaken for the intended deliverable.",
+                "mechanism": "Export settings can change what is included. The Image-Line manual identifies options for insert and master effects, and notes that some split-track rendering behavior differs from a master mix.[4] Therefore, hearing an effect inside the project does not guarantee it appears in every export configuration. External hardware controlled by MIDI requires its audio to be recorded before an ordinary offline render can include that sound.[4] Do not confuse a successful MIDI connection with captured audio. For this miniature, software instruments or already recorded clips keep the workflow bounded, but document any hardware dependence instead of pretending it has been solved.",
+                "secondExample": "Consider a contrasting failure: the file opens and contains sound, but only the currently selected motif pattern was rendered. Its first bar may sound excellent while the arrangement is entirely absent. The correction is not another mix adjustment; it is selecting the intended arrangement context and range. Another file may contain all sections but cut the final release abruptly. That calls for reviewing tail and range behavior, not lengthening every MIDI note indiscriminately. Compare the audio against the section sketch from lesson 28 so each discrepancy leads to the relevant stage of the workflow.",
+                "mistake": "A common misconception is that export success proves musical success. File existence checks only one technical condition. Listen for clipped or distorted output, unintended silence, changed instrument balance, and missing transitions. Conversely, a modest musical result can still be a successful learning artifact if its choices are intentional and its limitations accurately reported. Do not label the file “mastered” simply because it is loud. Do not claim a listening test you did not perform. If software access is unavailable, submit a score and performance plan as an alternative study artifact, clearly marked as not an audio-export verification.",
+                "application": "For a five-minute review, make a delivery note with four sections: intent, files, listening findings, and next revision. Assess timing and rests, controlled harmonic or melodic contrast, audible arrangement boundaries, and technical playback. A model note says “The answer changes its last pitch while preserving rhythm; the exported song includes all eight bars and a natural tail. The chord entry masks one attack, so my next revision will reduce that accompaniment.” Support every positive claim with a specific observation. Retain the previous version when revising, then repeat the file-level listen rather than assuming a small change cannot alter the ending.",
+                "summary": "This level’s portfolio is a motif source, a reversible edit comparison, an accent plan, an eight-bar arrangement sketch, a routing note, and a verified audio file where software permits. Together they show how physical timing, harmonic relationships, and technical decisions cooperate. The twelve cumulative questions revisit these relationships, but binary answers alone cannot demonstrate playing or mixing skill. Your next study step is a new miniature with a different texture and the same transparent review process, not an immediate increase in speed, loudness, or plugin count."
+              },
+              "readings": [
+                {
+                  "title": "[4] Image-Line — Exporting Audio & MIDI",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm",
+                  "note": "Image-Line — Exporting Audio & MIDI; read About Rendering, output formats, external hardware, and effects options."
+                }
+              ],
+              "visual": {
+                "title": "Export, listen back, and defend the miniature — diagnostic map",
+                "description": "Separate project preservation from delivery verification.",
+                "steps": [
+                  "Save project and note version.",
+                  "Select full arrangement, output format, range, and tail behavior.",
+                  "Render audio; open the actual file.",
+                  "Listen against the section map; revise and recheck discrepancies."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "music-u2-a",
+              "prompt": "A note starts correctly but ends before its intended rest boundary. Which edit addresses the actual problem?",
+              "answer": "Adjust its release while preserving onset",
+              "distractor": "Apply stronger start-time quantization to every note",
+              "correction": "The error is duration, not onset placement.",
+              "reviewLessonIds": [
+                "22",
+                "26"
+              ]
+            },
+            {
+              "id": "music-u2-b",
+              "prompt": "A quieter version loses the bright attack after lowering note velocity. Why?",
+              "answer": "The instrument maps velocity to timbre as well as level",
+              "distractor": "Velocity changes only the master fader",
+              "correction": "A downstream level change can preserve an attack character that a velocity change alters.",
+              "reviewLessonIds": [
+                "27"
+              ]
+            },
+            {
+              "id": "music-u2-c",
+              "prompt": "The screen shows new colors at bar five but a listener hears no change. What should guide revision?",
+              "answer": "An audible change in material, texture, or articulation",
+              "distractor": "More contrasting clip colors alone",
+              "correction": "Visual labels document form; they do not create it acoustically.",
+              "reviewLessonIds": [
+                "25",
+                "28"
+              ]
+            },
+            {
+              "id": "music-u2-d",
+              "prompt": "The melody is masked only when chords enter. Which low-complexity test is useful?",
+              "answer": "Briefly mute then restore the chords at a lower level",
+              "distractor": "Add a limiter before investigating the competing part",
+              "correction": "Testing the competing source helps distinguish masking from a melody error.",
+              "reviewLessonIds": [
+                "28",
+                "29"
+              ]
+            },
+            {
+              "id": "music-u2-e",
+              "prompt": "The export contains a clean loop but lacks the final return. What should be inspected first?",
+              "answer": "Song/pattern context and rendered range",
+              "distractor": "The melody velocity mapping alone",
+              "correction": "Correct sound inside a short pattern does not establish full-arrangement export.",
+              "reviewLessonIds": [
+                "28",
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "music-l-a",
+          "prompt": "A deliberate offbeat is pulled onto beat four after editing, and the answer loses character. What combined correction is appropriate?",
+          "answer": "Restore its intended subdivision and compare the motif before and after",
+          "distractor": "Increase its velocity to compensate for the wrong onset",
+          "correction": "An accent cannot restore a displaced rhythmic relationship; use the intended template and preserve the motif.",
+          "reviewLessonIds": [
+            "21",
+            "25",
+            "26"
+          ]
+        },
+        {
+          "id": "music-l-b",
+          "prompt": "A common C is held across two chords, but the export blurs their boundary. What should be tested?",
+          "answer": "Retriggering versus holding C and the instrument release behavior",
+          "distractor": "Renaming the second chord C major",
+          "correction": "Articulation changes a boundary without changing F–A–C membership; inspect the sound as well as the note data.",
+          "reviewLessonIds": [
+            "22",
+            "24",
+            "30"
+          ]
+        },
+        {
+          "id": "music-l-c",
+          "prompt": "A minor-sounding answer is required without changing pulse or root. Which experiment isolates the harmonic change?",
+          "answer": "Keep C and G, lower E to E-flat, preserve timing and sound",
+          "distractor": "Transpose every note and change the instrument at once",
+          "correction": "The controlled one-note comparison changes chord quality while preserving the temporal reference.",
+          "reviewLessonIds": [
+            "21",
+            "23",
+            "25"
+          ]
+        },
+        {
+          "id": "music-l-d",
+          "prompt": "A copied answer changes the opening unexpectedly. How do you preserve motif identity?",
+          "answer": "Restore the original and make an independent pattern for the answer",
+          "distractor": "Move both instances to different Mixer tracks only",
+          "correction": "Routing changes audio destinations, not shared note content; independence must exist at the pattern level.",
+          "reviewLessonIds": [
+            "25",
+            "28",
+            "29"
+          ]
+        },
+        {
+          "id": "music-l-e",
+          "prompt": "Stronger notes arrive early although their intended accents are correct. What is the best diagnostic sequence?",
+          "answer": "Separate onset accuracy from velocity contrast and test each with other variables fixed",
+          "distractor": "Randomize velocity and quantize everything without a copy",
+          "correction": "An accent plan and a timing plan are distinct; controlled comparisons expose which is failing.",
+          "reviewLessonIds": [
+            "21",
+            "26",
+            "27"
+          ]
+        },
+        {
+          "id": "music-l-f",
+          "prompt": "The fullest section overloads the export but the intro is quiet. What must be checked?",
+          "answer": "Balance and output during the fullest passage, then the actual new export",
+          "distractor": "Only headphone volume during the introduction",
+          "correction": "Sparse sections do not test the maximum combined signal, and monitoring level does not repair rendering.",
+          "reviewLessonIds": [
+            "28",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "music-l-g",
+          "prompt": "A learner identifies C–E–A as C major and holds a painful stretch to connect it. Which feedback addresses both errors?",
+          "answer": "Identify A minor with C bass and use a comfortable reset or sequencing alternative",
+          "distractor": "Keep the painful shape because common tones require uninterrupted fingering",
+          "correction": "Chord membership establishes identity; musical continuity does not justify physical strain.",
+          "reviewLessonIds": [
+            "23",
+            "24",
+            "28"
+          ]
+        },
+        {
+          "id": "music-l-h",
+          "prompt": "A MIDI export opens silently on another system. Which distinction matters?",
+          "answer": "MIDI holds instructions and needs a sound source; audio rendering captures sound",
+          "distractor": "Every MIDI file includes the exact original instrument recording",
+          "correction": "The recipient may lack the source instrument or routing, so choose the requested delivery format.",
+          "reviewLessonIds": [
+            "26",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "music-l-i",
+          "prompt": "Your answer changes pitch, onset, release, and sound, and is no longer recognizable. What revision is most interpretable?",
+          "answer": "Restore the original rhythm and articulation, then change only the final pitch",
+          "distractor": "Add more simultaneous layers to reinforce every change",
+          "correction": "A stable reference lets the listener perceive one transformation instead of unrelated material.",
+          "reviewLessonIds": [
+            "22",
+            "25",
+            "28"
+          ]
+        },
+        {
+          "id": "music-l-j",
+          "prompt": "A patch becomes duller at lower velocity but the desired accent is bright and quiet. Which comparison is informative?",
+          "answer": "Retain its velocity response and lower downstream level, then listen in context",
+          "distractor": "Assume velocity and level must produce identical sound",
+          "correction": "Instrument mapping occurs before level scaling; the resulting timbre may survive a quieter mix.",
+          "reviewLessonIds": [
+            "27",
+            "29",
+            "30"
+          ]
+        },
+        {
+          "id": "music-l-k",
+          "prompt": "An eight-bar file is longer than its calculated musical body. Must it be wrong?",
+          "answer": "No; inspect whether the extra duration is the intended release tail or unintended silence",
+          "distractor": "Yes; every export must end exactly on the last note-off",
+          "correction": "Note instructions and audible tails differ; the section plan and listening establish whether the ending is intentional.",
+          "reviewLessonIds": [
+            "22",
+            "28",
+            "30"
+          ]
+        },
+        {
+          "id": "music-l-l",
+          "prompt": "The quiz score is high but the only portfolio file is an unplayed export. What conclusion is justified?",
+          "answer": "Reasoning was checked, but performance and file-level listening remain unverified",
+          "distractor": "The score proves professional production competence",
+          "correction": "Assessment types support different claims; a practical deliverable needs its own observed checks.",
+          "reviewLessonIds": [
+            "26",
+            "29",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

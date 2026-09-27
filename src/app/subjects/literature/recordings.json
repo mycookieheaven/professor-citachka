@@ -1,0 +1,586 @@
+{
+  "jane-eyre": {
+    "narrator": "Elizabeth Klett",
+    "archiveId": "jane_eyre_ver03_0809_librivox",
+    "catalogUrl": "https://librivox.org/jane-eyre-version-3-by-charlotte-bronte/",
+    "rightsUrl": "http://creativecommons.org/licenses/publicdomain/",
+    "edition": "Complete novel",
+    "chapters": [
+      {
+        "title": "01 - Chapter 01",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_01_bronte.mp3"
+      },
+      {
+        "title": "02 - Chapter 02",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_02_bronte.mp3"
+      },
+      {
+        "title": "03 - Chapter 03",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_03_bronte.mp3"
+      },
+      {
+        "title": "04 - Chapter 04",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_04_bronte.mp3"
+      },
+      {
+        "title": "05 - Chapter 05",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_05_bronte.mp3"
+      },
+      {
+        "title": "06 - Chapter 06",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_06_bronte.mp3"
+      },
+      {
+        "title": "07 - Chapter 07",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_07_bronte.mp3"
+      },
+      {
+        "title": "08 - Chapter 08",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_08_bronte.mp3"
+      },
+      {
+        "title": "09 - Chapter 9",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_09_bronte.mp3"
+      },
+      {
+        "title": "10 - Chapter 10",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_10_bronte.mp3"
+      },
+      {
+        "title": "11 - Chapter 11",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_11_bronte.mp3"
+      },
+      {
+        "title": "12 - Chapter 12",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_12_bronte.mp3"
+      },
+      {
+        "title": "13 - Chapter 13",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_13_bronte.mp3"
+      },
+      {
+        "title": "14 - Chapter 14",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_14_bronte.mp3"
+      },
+      {
+        "title": "15 - Chapter 15",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_15_bronte.mp3"
+      },
+      {
+        "title": "16 - Chapter 16",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_16_bronte.mp3"
+      },
+      {
+        "title": "17 - Chapter 17",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_17_bronte.mp3"
+      },
+      {
+        "title": "18 - Chapter 18",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_18_bronte.mp3"
+      },
+      {
+        "title": "19 - Chapter 19",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_19_bronte.mp3"
+      },
+      {
+        "title": "20 - Chapter 20",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_20_bronte.mp3"
+      },
+      {
+        "title": "21 - Chapter 21",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_21_bronte.mp3"
+      },
+      {
+        "title": "22 - Chapter 22",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_22_bronte.mp3"
+      },
+      {
+        "title": "23 - Chapter 23",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_23_bronte.mp3"
+      },
+      {
+        "title": "24 - Chapter 24",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_24_bronte.mp3"
+      },
+      {
+        "title": "25 - Chapter 25",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_25_bronte.mp3"
+      },
+      {
+        "title": "26 - Chapter 26",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_26_bronte.mp3"
+      },
+      {
+        "title": "27 - Chapter 27",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_27_bronte.mp3"
+      },
+      {
+        "title": "28 - Chapter 28",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_28_bronte.mp3"
+      },
+      {
+        "title": "29 - Chapter 29",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_29_bronte.mp3"
+      },
+      {
+        "title": "30 - Chapter 30",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_30_bronte.mp3"
+      },
+      {
+        "title": "31 - Chapter 31",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_31_bronte.mp3"
+      },
+      {
+        "title": "32 - Chapter 32",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_32_bronte.mp3"
+      },
+      {
+        "title": "33 - Chapter 33",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_33_bronte.mp3"
+      },
+      {
+        "title": "34 - Chapter 34",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_34_bronte.mp3"
+      },
+      {
+        "title": "35 - Chapter 35",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_35_bronte.mp3"
+      },
+      {
+        "title": "36 - Chapter 36",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_36_bronte.mp3"
+      },
+      {
+        "title": "37 - Chapter 37",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_37_bronte.mp3"
+      },
+      {
+        "title": "38 - Chapter 38, Conclusion",
+        "url": "https://archive.org/download/jane_eyre_ver03_0809_librivox/janeeyre_38_bronte.mp3"
+      }
+    ]
+  },
+  "pride-and-prejudice": {
+    "narrator": "Karen Savage",
+    "archiveId": "pride_prejudice_krs_librivox",
+    "catalogUrl": "http://librivox.org/pride-and-prejudice-by-jane-austen-2/",
+    "rightsUrl": "http://creativecommons.org/licenses/publicdomain/",
+    "edition": "Complete novel",
+    "chapters": [
+      {
+        "title": "Chapter 01",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_01_austen.mp3"
+      },
+      {
+        "title": "Chapter 02",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_02_austen.mp3"
+      },
+      {
+        "title": "Chapter 03",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_03_austen.mp3"
+      },
+      {
+        "title": "Chapter 04",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_04_austen.mp3"
+      },
+      {
+        "title": "Chapter 5",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_05_austen.mp3"
+      },
+      {
+        "title": "Chapter 06",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_06_austen.mp3"
+      },
+      {
+        "title": "Chapter 07",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_07_austen.mp3"
+      },
+      {
+        "title": "Chapter 08",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_08_austen.mp3"
+      },
+      {
+        "title": "Chapter 09",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_09_austen.mp3"
+      },
+      {
+        "title": "Chapter 10",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_10_austen.mp3"
+      },
+      {
+        "title": "Chapter 11",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_11_austen.mp3"
+      },
+      {
+        "title": "Chapter 12",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_12_austen.mp3"
+      },
+      {
+        "title": "Chapter 13",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_13_austen.mp3"
+      },
+      {
+        "title": "Chapter 14",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_14_austen.mp3"
+      },
+      {
+        "title": "Chapter 15",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_15_austen.mp3"
+      },
+      {
+        "title": "Chapter 16",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_16_austen.mp3"
+      },
+      {
+        "title": "Chapter 17",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_17_austen.mp3"
+      },
+      {
+        "title": "Chapter 18",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_18_austen.mp3"
+      },
+      {
+        "title": "Chapter 18",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_19_austen.mp3"
+      },
+      {
+        "title": "Chapter 20",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_20_austen.mp3"
+      },
+      {
+        "title": "Chapter 21",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_21_austen.mp3"
+      },
+      {
+        "title": "Chapter 22",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_22_austen.mp3"
+      },
+      {
+        "title": "Chapter 23",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_23_austen.mp3"
+      },
+      {
+        "title": "Chapter 24",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_24_austen.mp3"
+      },
+      {
+        "title": "Chapter 25",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_25_austen.mp3"
+      },
+      {
+        "title": "Chatper 26",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_26_austen.mp3"
+      },
+      {
+        "title": "Chapter 27",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_27_austen.mp3"
+      },
+      {
+        "title": "Chapter 28",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_28_austen.mp3"
+      },
+      {
+        "title": "Chapter 29",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_29_austen.mp3"
+      },
+      {
+        "title": "Chapter 30",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_30_austen.mp3"
+      },
+      {
+        "title": "Chapter 31",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_31_austen.mp3"
+      },
+      {
+        "title": "Chapter 32",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_32_austen.mp3"
+      },
+      {
+        "title": "Chatper 33",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_33_austen.mp3"
+      },
+      {
+        "title": "Chapter 34",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_34_austen.mp3"
+      },
+      {
+        "title": "Chapter 35",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_35_austen.mp3"
+      },
+      {
+        "title": "Chapter 36",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_36_austen.mp3"
+      },
+      {
+        "title": "Chapter 37",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_37_austen.mp3"
+      },
+      {
+        "title": "Chapter 38",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_38_austen.mp3"
+      },
+      {
+        "title": "Chapter 39",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_39_austen.mp3"
+      },
+      {
+        "title": "Chapter 40",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_40_austen.mp3"
+      },
+      {
+        "title": "Chapter 41",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_41_austen.mp3"
+      },
+      {
+        "title": "Chapter 42",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_42_austen.mp3"
+      },
+      {
+        "title": "Chapter 43",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_43_austen.mp3"
+      },
+      {
+        "title": "Chapter 44",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_44_austen.mp3"
+      },
+      {
+        "title": "Chapter 45",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_45_austen.mp3"
+      },
+      {
+        "title": "Chapter 46",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_46_austen.mp3"
+      },
+      {
+        "title": "Chapter 47",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_47_austen.mp3"
+      },
+      {
+        "title": "Chapter 48",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_48_austen.mp3"
+      },
+      {
+        "title": "Chapter 49",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_49_austen.mp3"
+      },
+      {
+        "title": "Chapter 50",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_50_austen.mp3"
+      },
+      {
+        "title": "Chapter 51",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_51_austen.mp3"
+      },
+      {
+        "title": "Chapter 52",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_52_austen.mp3"
+      },
+      {
+        "title": "Chapter 53",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_53_austen.mp3"
+      },
+      {
+        "title": "Chapter 54",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_54_austen.mp3"
+      },
+      {
+        "title": "Chapter 55",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_55_austen.mp3"
+      },
+      {
+        "title": "Chapter 56",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_56_austen.mp3"
+      },
+      {
+        "title": "Chapter 57",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_57_austen.mp3"
+      },
+      {
+        "title": "Chapter 58",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_58_austen.mp3"
+      },
+      {
+        "title": "Chapter 59",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_59_austen.mp3"
+      },
+      {
+        "title": "Chapter 60",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_60_austen.mp3"
+      },
+      {
+        "title": "Chapter 61",
+        "url": "https://archive.org/download/pride_prejudice_krs_librivox/pride_and_prejudice_61_austen.mp3"
+      }
+    ]
+  },
+  "frankenstein": {
+    "narrator": "Cori Samuel",
+    "archiveId": "frankenstein_cs_librivox",
+    "catalogUrl": "http://librivox.org/frankenstein-or-the-modern-prometheus-1818-by-mary-wollstonecraft-shelley/",
+    "rightsUrl": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "edition": "1818 first edition",
+    "chapters": [
+      {
+        "title": "01 - Dedication and Preface",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_01_shelley.mp3"
+      },
+      {
+        "title": "02 - Vol. I, Letter I",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_02_shelley.mp3"
+      },
+      {
+        "title": "03 - Vol. I, Letter II",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_03_shelley.mp3"
+      },
+      {
+        "title": "04 - Vol. I, Letter III",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_04_shelley.mp3"
+      },
+      {
+        "title": "05 - Vol. I, Letter IV",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_05_shelley.mp3"
+      },
+      {
+        "title": "06 - Vol. I, Chapter I",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_06_shelley.mp3"
+      },
+      {
+        "title": "07 - Vol. I, Chapter II",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_07_shelley.mp3"
+      },
+      {
+        "title": "08 - Vol. I, Chapter III",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_08_shelley.mp3"
+      },
+      {
+        "title": "09 - Vol. I, Chapter IV",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_09_shelley.mp3"
+      },
+      {
+        "title": "10 - Vol. I, Chapter V",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_10_shelley.mp3"
+      },
+      {
+        "title": "11 - Vol. I, Chapter VI",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_11_shelley.mp3"
+      },
+      {
+        "title": "12 - Vol. I, Chapter VII",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_12_shelley.mp3"
+      },
+      {
+        "title": "13 - Vol. II, Chapter I",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_13_shelley.mp3"
+      },
+      {
+        "title": "14 - Vol. II, Chapter II",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_14_shelley.mp3"
+      },
+      {
+        "title": "15 - Vol. II, Chapter III",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_15_shelley.mp3"
+      },
+      {
+        "title": "16 - Vol. II, Chapter IV",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_16_shelley.mp3"
+      },
+      {
+        "title": "17 - Vol. II, Chapter V",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_17_shelley.mp3"
+      },
+      {
+        "title": "18 - Vol. II, Chapter VI",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_18_shelley.mp3"
+      },
+      {
+        "title": "19 - Vol. II, Chapter VII",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_19_shelley.mp3"
+      },
+      {
+        "title": "20 - Vol. II, Chapter VIII",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_20_shelley.mp3"
+      },
+      {
+        "title": "21 - Vol. II, Chapter IX",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_21_shelley.mp3"
+      },
+      {
+        "title": "22 - Vol. III, Chapter I",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_22_shelley.mp3"
+      },
+      {
+        "title": "23 - Vol. III, Chapter II",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_23_shelley.mp3"
+      },
+      {
+        "title": "24 - Vol. III, Chapter III",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_24_shelley.mp3"
+      },
+      {
+        "title": "25 - Vol. III, Chapter IV",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_25_shelley.mp3"
+      },
+      {
+        "title": "26 - Vol. III, Chapter V",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_26_shelley.mp3"
+      },
+      {
+        "title": "27 - Vol. III, Chapter VI",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_27_shelley.mp3"
+      },
+      {
+        "title": "28 - Vol. III, Chapter VII",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_28_shelley.mp3"
+      },
+      {
+        "title": "29 - Vol. III, Letters",
+        "url": "https://archive.org/download/frankenstein_cs_librivox/frankenstein_29_shelley.mp3"
+      }
+    ]
+  },
+  "the-great-gatsby": {
+    "narrator": "Kara Shallenberg",
+    "archiveId": "greatgatsby_2101_librivox",
+    "catalogUrl": "https://librivox.org/the-great-gatsby-by-f-scott-fitzgerald/",
+    "rightsUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "edition": "Complete novel",
+    "chapters": [
+      {
+        "title": "01 - Chapter 1",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_01_fitzgerald_128kb.mp3"
+      },
+      {
+        "title": "02 - Chapter 2",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_02_fitzgerald_128kb.mp3"
+      },
+      {
+        "title": "03 - Chapter 3",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_03_fitzgerald_128kb.mp3"
+      },
+      {
+        "title": "04 - Chapter 4",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_04_fitzgerald_128kb.mp3"
+      },
+      {
+        "title": "05 - Chapter 5",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_05_fitzgerald_128kb.mp3"
+      },
+      {
+        "title": "06 - Chapter 6",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_06_fitzgerald_128kb.mp3"
+      },
+      {
+        "title": "07 - Chapter 7",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_07_fitzgerald_128kb.mp3"
+      },
+      {
+        "title": "08 - Chapter 8",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_08_fitzgerald_128kb.mp3"
+      },
+      {
+        "title": "09 - Chapter 9",
+        "url": "https://archive.org/download/greatgatsby_2101_librivox/greatgatsby_09_fitzgerald_128kb.mp3"
+      }
+    ]
+  }
+}

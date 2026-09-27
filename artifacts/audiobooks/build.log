@@ -1,0 +1,74 @@
+
+> professor-citachka@0.1.0 build
+> next build
+
+▲ Next.js 16.3.3 (Turbopack)
+✓ Running next.config took 6ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 613ms
+  Running TypeScript ...
+  Finished TypeScript in 1392ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/322) ...
+  Generating static pages using 7 workers (80/322) 
+  Generating static pages using 7 workers (160/322) 
+  Generating static pages using 7 workers (241/322) 
+✓ Generating static pages using 7 workers (322/322) in 1004ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /learn/[subject]/[topic]
+│ ├ ● /learn/literature/01
+│ ├ ● /learn/literature/02
+│ ├ ● /learn/literature/03
+│ └ ● [+247 more paths]
+├ ○ /manifest.webmanifest
+├ ƒ /subjects/[subject]
+├ ƒ /subjects/finance/[lesson]
+├ ○ /subjects/literature
+├ ○ /subjects/music
+├   /subjects/music/[lesson]
+│ ├ ● /subjects/music/beat-and-counting
+│ ├ ● /subjects/music/note-names-and-keyboard-map
+│ ├ ● /subjects/music/scales-and-chords
+│ └ ● [+9 more paths]
+├   /subjects/neuroscience/[lesson]
+│ ├ ● /subjects/neuroscience/neural-foundations
+│ ├ ● /subjects/neuroscience/sensation-and-movement
+│ ├ ● /subjects/neuroscience/learning-memory-attention
+│ └ ● [+2 more paths]
+├ ○ /subjects/philosophy
+├ ○ /subjects/psychiatry
+├ ○ /subjects/russian
+├   /subjects/russian/[lesson]
+│ ├ ○ /subjects/russian/alphabet-foundations
+│ ├ ● /subjects/russian/stress-and-sounds
+│ ├ ● /subjects/russian/greetings-and-courtesy
+│ └ ● [+21 more paths]
+├ ○ /subjects/russian/alphabet-foundations
+├ ○ /subjects/skincare
+├   /subjects/skincare/[lesson]
+│ ├ ● /subjects/skincare/skin-as-an-organ
+│ ├ ● /subjects/skincare/build-a-basic-routine
+│ ├ ● /subjects/skincare/read-a-product-label
+│ └ ● [+7 more paths]
+├ ○ /subjects/theology
+├ ○ /subjects/theology/christ-and-salvation
+├ ○ /subjects/theology/church-sacraments-and-moral-life
+├ ○ /subjects/theology/god-creation-and-the-human-person
+├ ○ /subjects/theology/history-philosophy-and-questions
+├ ○ /subjects/theology/how-theology-reasons
+├ ○ /subjects/veterinary-science/clinical-foundations
+├ ○ /subjects/veterinary-science/comparative-anatomy
+├ ○ /subjects/veterinary-science/patient-care-practice
+├ ○ /subjects/veterinary-science/pharmacology-diagnostics
+└ ○ /subjects/veterinary-science/physiology-pathology
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

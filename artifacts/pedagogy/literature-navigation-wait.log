@@ -1,0 +1,54 @@
+CLICK → Review Literature department
+FETCH https://professor-citachka.vercel.app/subjects/literature?_rsc=10l5r {
+  rsc: '1',
+  'next-router-state-tree': '%5B%22%22%2C%7B%22children%22%3A%5B%22assess%22%2C%7B%22children%22%3A%5B%5B%22subject%22%2C%22literature%22%2C%22d%22%2Cnull%5D%2C%7B%22children%22%3A%5B%5B%22assessment%22%2C%22level-2%22%2C%22d%22%2Cnull%5D%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2Cnull%2C4608%5D%7D%2Cnull%2Cnull%2C4608%5D%7D%2Cnull%2Cnull%2C4608%5D%7D%2Cnull%2Cnull%2C4608%5D%7D%2Cnull%2Cnull%2C4624%5D',
+  'next-url': '/assess/literature/level-2'
+}
+RESPONSE 200 text/x-component null
+PENDING LINKS [
+  {
+    rel: 'preload',
+    href: 'https://professor-citachka.vercel.app/_next/static/media/3131c862d4942660-s.p.woff2'
+  },
+  {
+    rel: 'preload',
+    href: 'https://professor-citachka.vercel.app/_next/static/media/68180864d7f93f02-s.p.woff2'
+  },
+  {
+    rel: 'preload',
+    href: 'https://professor-citachka.vercel.app/_next/static/media/c126d80dc21dff90-s.p.woff2'
+  },
+  {
+    rel: 'preload',
+    href: 'https://professor-citachka.vercel.app/_next/static/media/ee40bb094c99a29a-s.p.woff2'
+  },
+  {
+    rel: 'stylesheet',
+    href: 'https://professor-citachka.vercel.app/_next/static/css/9f814d194eb4ac7a.css'
+  },
+  {
+    rel: 'preload',
+    href: 'https://professor-citachka.vercel.app/_next/static/chunks/webpack-0d93638fa07ce67f.js'
+  },
+  {
+    rel: 'manifest',
+    href: 'https://professor-citachka.vercel.app/manifest.webmanifest'
+  },
+  {
+    rel: 'icon',
+    href: 'https://professor-citachka.vercel.app/favicon.ico'
+  },
+  {
+    rel: 'icon',
+    href: 'https://professor-citachka.vercel.app/icons/panda-32.png'
+  },
+  {
+    rel: 'apple-touch-icon',
+    href: 'https://professor-citachka.vercel.app/icons/panda-180.png'
+  },
+  {
+    rel: 'preload',
+    href: 'https://professor-citachka.vercel.app/_next/static/css/f662b2c7f08a261a.css'
+  }
+]
+FINAL https://professor-citachka.vercel.app/subjects/literature Literature

@@ -1,0 +1,664 @@
+{
+  "subject": "skincare",
+  "levels": [
+    {
+      "title": "Evidence-informed routine decisions and referral",
+      "units": [
+        {
+          "title": "Evidence, exposure, and safe routine decisions",
+          "lessons": [
+            {
+              "id": "21",
+              "title": "Audit a product claim without mistaking registration for approval",
+              "explanation": "Your objective is to turn a skincare advertisement into a set of checkable claims, rather than accepting or rejecting the whole advertisement on tone alone. Earlier lessons distinguished cosmetic care from medical treatment. Here you examine intended use, regulatory language, and evidence separately. In the United States, FDA defines cosmetics and drugs by their intended uses, and a product can fall into both categories.[9] This lesson teaches consumer evidence literacy, not legal advice or a method for diagnosing disease. A persuasive photograph, impressive ingredient name, and regulatory registration answer different questions and should not be combined into a single vague impression of authority.",
+              "example": "Consider a hypothetical moisturizer advertised as “FDA registered, clinically inspired, cures recurring eczema, visibly smoother after one application.” Underline four separate claims. Registration is an administrative statement, not evidence that FDA approved this cosmetic’s effectiveness. “Clinically inspired” does not identify a trial design or outcome. A claim to cure a disease changes the regulatory questions because intended treatment of disease falls within the drug definition. Smoother appearance after one application is a different, narrower claim that would need its own evidence. The responsible conclusion is not that you have proved fraud; it is that the advertisement has not supplied the evidence needed for its stronger promises.",
+              "question": "Does cosmetic facility registration establish FDA approval of a disease-cure claim?",
+              "answer": "No; registration and evidence of effectiveness are different",
+              "distractor": "Yes; registration validates every advertised use",
+              "correction": "FDA describes distinct cosmetic and drug requirements; administrative listing is not blanket approval.",
+              "depth": {
+                "definitions": "Intended use is what the product is represented as doing. A cosmetic claim concerns cleansing, beautifying, or changing appearance; a drug claim concerns diagnosis, prevention, treatment, or effects on body structure or function under U.S. law.[9] Premarket approval means an authority has reviewed a product through a relevant approval pathway before marketing. Registration and listing are not synonyms for that review. Safety substantiation means supporting the product’s safety, not proving every advertised benefit. A finished formulation includes the whole product, not only the ingredient featured on the front label.",
+                "mechanism": "FDA states that cosmetic products and ingredients generally do not receive preapproval, with an important exception for certain color additives, while firms remain responsible for safe, properly labeled products.[9] It also describes newer cosmetic oversight requirements under MoCRA. These two points must stay together: lack of routine preapproval does not mean cosmetics are unregulated, and regulation does not mean an individual claim is clinically demonstrated. Ask whether the evidence concerns the same finished product, use conditions, population, comparison, and outcome. This checklist is a reasoning tool, not a claim that every manufacturer must publish an identical study design.",
+                "secondExample": "A contrasting example is a moisturizer with sun-protection claims. It can have both cosmetic and drug functions in the United States.[9] Its pleasant texture does not replace reading sunscreen directions, and a cosmetic-style package does not remove its protective-use requirements. Conversely, a basic cleanser does not become a prescription treatment merely because it is sold in a clinic. Identify the actual label and jurisdiction before importing assumptions from where the product was purchased. Products classified as cosmetics in one country may be drugs in another, so an international review cannot settle the U.S. classification by itself.",
+                "mistake": "A common error is treating one legitimate fact as proof of a different claim: “The facility is registered, therefore this cream repairs all rashes.” Another is the opposite overreaction: “FDA does not approve ordinary cosmetics, therefore every moisturizer is unsafe.” Both collapse distinct questions. Diagnose the reasoning error by completing the sentence “This evidence directly establishes…” If the answer is only that a facility submitted a listing, stop there. Clinical suitability also depends on the person, exposure, and concern; an advertisement cannot determine whether a changing lesion or painful rash belongs in routine cosmetic care.",
+                "application": "For a nonblocking task, choose a real label or use the hypothetical advertisement. Make columns for exact wording, claim type, supporting evidence supplied, missing information, and safe next action. The rubric rewards accurate quotation, explicit U.S. scope, separation of registration from approval, and refusal to diagnose from marketing. A model entry is “The label says visibly smoother; no comparator or measurement is supplied, so I will not translate that into disease treatment.” Do not purchase or apply anything for this exercise. If the product makes a medical promise about a current concern, bring the label to a qualified clinician rather than testing the claim on symptomatic skin.",
+                "summary": "Evidence literacy begins with separating questions that marketing blends together. Product identity, legal category, safety, efficacy, and personal suitability are related but nonidentical. Preserve your claim table for the capstone, where you will compare a protective basic with an optional active. Next, practice this distinction on sunscreen labels, which combine standardized protective claims, practical directions, and words such as “sport” that do not carry the same regulatory meaning."
+              },
+              "readings": [
+                {
+                  "title": "[9] Cosmetics & U.S. Law",
+                  "url": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/cosmetics-us-law",
+                  "note": "Read definitions of cosmetics/drugs, Assuring Ingredient and Product Safety, and Registration and Listing; U.S. scope only."
+                }
+              ],
+              "visual": {
+                "title": "Audit a product claim without mistaking registration for approval — decision sequence",
+                "description": "Separate administrative status from clinical evidence.",
+                "steps": [
+                  "Copy the exact claim and identify jurisdiction.",
+                  "Classify appearance versus disease or structure/function intent.",
+                  "Ask what registration, testing, and safety evidence actually establish.",
+                  "Do not infer diagnosis or personal suitability from marketing."
+                ]
+              }
+            },
+            {
+              "id": "22",
+              "title": "Translate sunscreen claims into an exposure plan",
+              "explanation": "Your objective is to read a sunscreen label as an instruction for a real day rather than as a single impressive SPF number. Earlier lessons established shade, clothing, and sunscreen as complementary. Here you connect broad-spectrum coverage, SPF, water resistance, and reapplication to changing exposure. AAD recommends broad-spectrum, water-resistant sunscreen with SPF 30 or higher and additional sun-protective measures.[12] This is general education for routine adult decisions, not individualized advice for a photosensitivity disorder, infant care, or a medication-related reaction. When a clinician has given a specific protection plan, that plan remains the reference.",
+              "example": "Imagine an outdoor afternoon involving a walk, swimming, and drying with a towel. A package says “sport,” SPF 50, broad spectrum, and water resistant for 80 minutes. Record each statement separately. Broad spectrum concerns UVA and UVB protection; SPF relates to sunburn protection; the water-resistance statement describes a tested duration under wet conditions.[12] “Sport” alone does not establish that duration. Before leaving, consult application directions and prepare shade, clothing, and enough product for reapplication. After toweling, do not wait for a clock merely because the bottle says 80 minutes. AAD explicitly includes toweling off among reasons to reapply.[12]",
+              "question": "What should the swimmer infer from an 80-minute water-resistant label after toweling?",
+              "answer": "Toweling is a reason to reapply according to directions, not wait for the full interval",
+              "distractor": "The label guarantees waterproof protection until 80 minutes regardless of removal",
+              "correction": "Water resistance is limited; AAD includes toweling as a reapplication trigger.",
+              "depth": {
+                "definitions": "Ultraviolet radiation includes UVA and UVB, both relevant to skin damage. Broad spectrum indicates coverage against both, not complete elimination of risk. Sun protection factor is not a personal countdown telling you how long unlimited exposure becomes safe. Water resistance is a limited claim, not waterproofness. Reapplication renews protection that can be removed or become uneven during use. A protective plan also includes behavior: where you sit, which areas clothing covers, and whether the product is actually available when needed. A high number on a bottle cannot compensate for an uncovered area that receives no product.",
+                "mechanism": "The key mechanism is that tested product performance and real-world exposure are not identical conditions. Amount, coverage, removal, and subsequent activity affect the protective layer. AAD explains that no sunscreen filters all UVB and recommends shade and protective clothing alongside sunscreen.[12] Therefore, treat the label as a set of constraints rather than permission to prolong exposure. When outdoors, the source advises reapplication every two hours and after relevant water, sweat, or towel exposure, following the product’s water-resistance directions. Those intervals do not imply that every person has the same sun sensitivity or that a single application survives all activities.",
+                "secondExample": "A contrasting day involves sitting under an open-sided shelter without swimming. Water-resistance time is not the only consideration, because shade does not guarantee that all skin is isolated from ultraviolet exposure. Clothing, sunscreen on exposed areas, and outdoor reapplication still belong in the plan. Another contrast is a sunscreen advertised as mineral. AAD identifies zinc oxide and titanium dioxide as mineral ingredients and explains that these products absorb rays as well as reflecting some.[12] Avoid the oversimplified claim that mineral filters only bounce all radiation away while other filters alone absorb it. Filter category also does not guarantee personal tolerance.",
+                "mistake": "The common mistake is choosing by “sport,” “sensitive,” or a very high SPF while overlooking broad spectrum, directions, or the water-resistance statement. Another is treating reapplication as a reason to stay outdoors indefinitely. Diagnose your plan by asking what happens after each real event: sweating, toweling, swimming, or remaining outdoors. If the answer is always “the morning application handles it,” the plan has not engaged with exposure. If a sunscreen causes a reaction, do not repeatedly apply it to prove tolerance; seek an appropriate alternative and medical guidance when symptoms warrant it while using other protection.",
+                "application": "For a five-minute paper exercise, make an event-based plan from a real label without exposing yourself to sunlight as a test. Include the exact protective claims, application directions, reapplication triggers, shade and clothing, and one contingency if the product is unavailable or not tolerated. The rubric asks whether each action follows a label or authoritative recommendation, whether “waterproof” is rejected, and whether the plan avoids unlimited-exposure promises. A model response is “After swimming and toweling, I will follow reapplication directions and return to shade rather than relying on the sport label.” Do not calculate a supposedly safe sunbathing duration from SPF.",
+                "summary": "A sunscreen label becomes useful when translated into practical actions and limits. The scientific claim, the user’s behavior, and the environment all matter. Keep the event plan for later routine auditing, especially when comparing protective basics with optional products. Next, design a cautious product-tolerance observation that can reduce uncertainty without pretending to diagnose allergy or guarantee that every future use will be safe."
+              },
+              "readings": [
+                {
+                  "title": "[12] How to decode sunscreen labels",
+                  "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/understand-sunscreen-labels",
+                  "note": "Read broad spectrum, SPF, water resistance, reapplication, mineral filters, and undefined sports terminology."
+                }
+              ],
+              "visual": {
+                "title": "Translate sunscreen claims into an exposure plan — decision sequence",
+                "description": "Map claims to events rather than a safe-exposure countdown.",
+                "steps": [
+                  "Broad spectrum → UVA and UVB coverage, not total protection.",
+                  "SPF → sunburn protection claim, not permission for longer exposure.",
+                  "Water resistance → label-specific wet-use duration.",
+                  "Towel, sweat, water, and outdoor time → follow reapplication directions plus shade/clothing."
+                ]
+              }
+            },
+            {
+              "id": "23",
+              "title": "Design a tolerance trial with honest stopping rules",
+              "explanation": "Your objective is to distinguish a cautious small-area observation from a medical allergy test and to write stopping rules before using a new ordinary cosmetic. Earlier lessons warned that a tolerated patch is not a universal safety certificate. Here you make that limitation operational by recording the product, site, exposure, and observation period. AAD provides a home-testing approach for skincare products and directs people with difficult-to-identify reactions toward a dermatologist and possible clinical patch testing.[11] This exercise is not permission to challenge a known allergy, test a strong peel, override a drug label, or apply a product to already inflamed skin.",
+              "example": "A hypothetical adult wants to try a new ordinary moisturizer while their skin is comfortable. Instead of replacing the entire routine, they photograph the label for their own records, retain the usual tolerated basics, and review the manufacturer’s directions. AAD’s general method uses a quarter-sized test area, normal amount and thickness, and repeated application twice daily for seven to ten days.[11] That is guidance for this kind of product, not an instruction to exceed the label of a medication or potent active. The person records whether itching, swelling, discomfort, or visible change occurs and stops if a reaction develops rather than completing the schedule at all costs.",
+              "question": "What does an uneventful small-area trial establish?",
+              "answer": "Limited tolerance under the recorded conditions",
+              "distractor": "That contact allergy and all future irritation are impossible",
+              "correction": "Site, exposure, concurrent products, and time can change the response; clinical testing is different.",
+              "depth": {
+                "definitions": "Tolerance is the absence of a troublesome response under particular conditions. Sensitization is an immune process that cannot be inferred simply from whether one spot looks normal after a short period. Irritant and allergic reactions can resemble one another; clinical patch testing is a professional diagnostic procedure, not the same as an unsupervised product trial. Exposure includes dose, frequency, duration, body site, and concurrent products. A negative observation means “no reaction noticed here under these conditions,” not “this product cannot cause allergy” or “this product is effective for the advertised concern.”",
+                "mechanism": "Why document exposure? A rinse-off cleanser and a leave-on moisturizer contact skin differently. AAD says to leave products on for their normal duration and to respect rinse-off instructions.[11] Extending a cleanser’s contact time to make the trial more intense creates a different exposure from ordinary use and can undermine the result. Likewise, testing several new products on the same area makes a later response difficult to attribute. One controlled change improves interpretability, but it does not transform a home observation into a blinded clinical experiment. The learner’s account and photographs remain observations that a clinician may need to interpret.",
+                "secondExample": "Contrast a normal-looking arm spot with later facial discomfort after repeated use. That is not proof that the original observation was dishonest or useless. The site, combined routine, exposure pattern, and skin condition have changed. The correct next step is to stop the suspected product and reassess the reaction, not argue that the earlier trial guarantees safety. A second contrast is someone with a known contact allergy to an ingredient on the label. A deliberate home challenge is unnecessary and potentially harmful; use the established avoidance guidance and ask the clinician about alternatives. Uncertainty is not always best reduced by more exposure.",
+                "mistake": "A frequent mistake is calling burning “purging” or “proof of active ingredients working” and continuing despite worsening symptoms. Some products can cause irritation, but that does not give a novice a reliable way to classify every reaction or decide it is safe to persist. AAD advises washing off a product when a reaction develops and not using it again, with dermatologic help for severe or unresolved reactions.[11] Serious symptoms require more urgent assessment rather than waiting for the trial to finish. The next lesson on triage will distinguish warning signs from a routine observation log.",
+                "application": "For a nonblocking task, write a trial plan for the hypothetical moisturizer without applying anything. Include the exact product, normal directions, intended test site, observation schedule, what will remain unchanged, and stopping/escalation criteria. Score the plan on exposure realism, one-variable design, appropriate boundaries, and honest interpretation. A model conclusion is “No response was seen on the test site during the observation period; facial tolerance and future use remain uncertain.” A poor conclusion is “Allergy excluded.” If the actual learner has active symptoms or a prior serious reaction, the model task remains on paper and professional advice takes priority.",
+                "summary": "Cautious observation is useful because it makes uncertainty visible, not because it abolishes uncertainty. Your record should be clear enough that another person can tell what was and was not tested. Keep the plan for the final audit, where multiple product changes will tempt you to overinterpret timing. Next, examine environmental and mechanical exposures that can destabilize comfort even when no new ingredient has been introduced."
+              },
+              "readings": [
+                {
+                  "title": "[11] How to test skin care products",
+                  "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+                  "note": "Read the full home-testing method, reaction stopping advice, and distinction from professional patch testing."
+                }
+              ],
+              "visual": {
+                "title": "Design a tolerance trial with honest stopping rules — decision sequence",
+                "description": "A bounded observation never becomes a universal safety certificate.",
+                "steps": [
+                  "Choose an ordinary product and read its actual directions.",
+                  "Record site, normal amount, contact time, and unchanged routine.",
+                  "Stop for a reaction; seek appropriate care rather than completing the schedule.",
+                  "No reaction observed → limited evidence, not allergy exclusion."
+                ]
+              }
+            },
+            {
+              "id": "24",
+              "title": "Audit cumulative dryness without adding another active",
+              "explanation": "Your objective is to build an exposure map when skin becomes dry or uncomfortable, rather than assuming one missing serum explains the problem. Earlier lessons described barrier function and moisturizer roles. Here you connect cleansing, water temperature, rubbing, climate, clothing, and repeated wet work to the whole day. AAD’s dry-skin guidance recommends gentle cleansing, short warm bathing, gentle drying, moisturizer, and protection from irritating exposures.[10] This is education about supportive care, not a diagnosis of eczema or a prescription for a rash. Persistent dryness, pain, cracking, bleeding, or products that repeatedly sting merit professional assessment rather than indefinite cosmetic experimentation.",
+              "example": "Consider someone who changes no facial products yet develops tightness after beginning frequent hot showers and washing dishes without gloves. A product-only inventory misses the changed exposures. Make a timeline: shower, towel rubbing, morning products, repeated handwashing, wet work, heating or dry air, and evening cleansing. The initial reasoning is not “water is bad” or “stop hygiene.” It is that duration, temperature, repetition, and friction can change comfort. AAD suggests short warm rather than hot bathing, gentle patting, and moisturizer while skin remains damp.[10] Preserve necessary hygiene and clinician instructions while reviewing avoidable intensity and adding appropriate protective practices.",
+              "question": "Why include hot showers and wet work in a routine audit?",
+              "answer": "Exposure conditions can change comfort even without new ingredients",
+              "distractor": "Only newly purchased products can affect dryness",
+              "correction": "A complete audit includes method, frequency, friction, and environment rather than ingredients alone.",
+              "depth": {
+                "definitions": "Cumulative exposure means multiple contacts whose combined burden may matter even when none seems dramatic alone. Occlusion reduces water loss; humectancy helps retain water; emollience improves the feel of the surface. Those familiar formulation roles do not explain every case of persistent dry skin. Friction is rubbing against skin, while wet work repeatedly exposes it to water and related materials. A trigger is a suspected contributor, not automatically a proven cause. A baseline is the prior routine and symptom state against which a change is compared. These terms help keep the audit descriptive rather than diagnostic.",
+                "mechanism": "The practical mechanism is a feedback loop: discomfort can prompt more washing or exfoliation to remove perceived roughness, which may create more irritation and further product use. Interrupt that loop by questioning the assumed need for stronger treatment. AAD notes that some products marketed for itch may irritate very dry skin and recommends asking a dermatologist before using them.[10] Do not turn a list of ingredient categories into a universal blacklist: finished formulation, intended use, prior reactions, and medical advice matter. For example, required hand-sanitizer use should not be casually abandoned because a cosmetic alcohol warning was read without its context.",
+                "secondExample": "Contrast dry hands with a facial routine that stings after several exfoliants are combined. The hand case invites review of repeated wet work and protection; the facial case raises concern about overlapping irritating products. Both require attention to symptoms and appropriate escalation, but they are not identical experiments. In the facial case, do not add another exfoliant to remove the peeling. If even bland, previously tolerated moisturizer burns or the problem persists, tell a dermatologist rather than cycling through expensive “barrier repair” products. AAD specifically recommends reporting burning, stinging, or irritation with applied products.[10]",
+                "mistake": "The common misconception is that a richer texture must solve every dry-skin problem. Creams and ointments may be useful for dry skin, as the reading explains, but texture alone cannot identify an underlying condition or guarantee tolerance.[10] Another is attributing improvement after several simultaneous changes to the newest product. If shower temperature, cleanser, environment, and moisturizer all changed, the outcome cannot isolate one ingredient. You can still report that the simplified approach was more comfortable; just avoid claiming a mechanism the observation did not test. Supportive care and causal proof are different standards.",
+                "application": "For a ten-minute paper audit, list exposures by body area and time rather than by product price. Mark necessary exposures, modifiable habits, known tolerated care, recent changes, and symptoms requiring assessment. The rubric rewards preservation of hygiene, attention to friction and water, no escalation of irritating actives, and a defined follow-up boundary. A model note is “The timing coincides with increased wet work; I will review protective practices and seek care if cracking or discomfort persists, without assuming allergy.” Do not instruct someone to change prescribed medication as part of this cosmetic audit; discuss that portion with the treating clinician.",
+                "summary": "A barrier-respecting audit is often a subtraction and context exercise rather than a shopping exercise. It identifies what changed, what is necessary, what can reasonably be made gentler, and what exceeds self-care. Keep the exposure map beside the product list. Next, learn to prioritize a new reaction by its symptoms and trajectory, because even an excellent routine diary must never delay care for a concerning rash."
+              },
+              "readings": [
+                {
+                  "title": "[10] Dermatologists’ top tips for relieving dry skin",
+                  "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin",
+                  "note": "Read bathing, moisturizing, gloves, product selection, and When should I see a dermatologist for dry skin?"
+                }
+              ],
+              "visual": {
+                "title": "Audit cumulative dryness without adding another active — decision sequence",
+                "description": "Map total exposure before assigning blame to a product.",
+                "steps": [
+                  "Timeline: bathing → rubbing → products → wet work → evening care.",
+                  "Separate necessary hygiene from avoidable intensity.",
+                  "Review gentle methods and tolerated moisturizer without stacking actives.",
+                  "Persistent symptoms or burning with products → professional assessment."
+                ]
+              }
+            },
+            {
+              "id": "25",
+              "title": "Triage a new reaction before investigating its cause",
+              "explanation": "Your objective is to choose an appropriate level of help for a new skin reaction before spending time identifying its cause. Earlier lessons separated irritation from allergy and emphasized referral. This lesson turns that boundary into an ordered decision process: urgent symptoms first, concerning rash features next, then documentation and routine review. AAD lists rash features that need medical attention and warns that breathing or swallowing difficulty and swelling of the eyes or lips can require immediate emergency care.[15] A skincare course cannot rule out serious disease remotely. The absence of a familiar bright-red appearance is not reassurance across all skin tones.",
+              "example": "Imagine a person applies a new face product, develops widespread rash, and reports lip swelling and difficulty swallowing. The task is not to compare ingredient lists or complete a patch test. Seek emergency medical help immediately through the local emergency number or appropriate emergency service. Do not delay for photographs, online advice, or product reporting. If possible without delaying care, stop exposure and make the product information available to clinicians. This scenario illustrates prioritization, not a diagnosis of a specific allergic mechanism. The same urgent symptoms deserve attention even when the person is unsure which product, food, medicine, or other event preceded them.",
+              "question": "Must a person identify the responsible ingredient before seeking help for rash with swallowing difficulty?",
+              "answer": "No; seek emergency help immediately",
+              "distractor": "Yes; finish an ingredient comparison first",
+              "correction": "Urgent symptoms determine priority even when the cause remains uncertain.",
+              "depth": {
+                "definitions": "Triage means prioritizing urgency; diagnosis means identifying the condition. A symptom is what the person experiences, such as pain or itch. A sign is an observed feature, such as swelling or blistering. Trajectory is how the problem changes over time, including rapid spread or worsening. Mucosal involvement includes areas such as the mouth or eyes, which can change the urgency of a rash. An adverse event is an unwanted occurrence after exposure; the timing does not by itself prove causation. These distinctions prevent a nonclinical observer from overstating what a photograph can establish.",
+                "mechanism": "AAD identifies widespread rash, blistering or raw skin, fever or illness, rapid spread, pain, and involvement of eyes, lips, mouth, or genital skin as reasons for medical attention.[15] Possible infection signs include pus, crusting, warmth, swelling, pain, unpleasant smell, and systemic symptoms. The surrounding skin may appear red, purple, or brown.[15] Therefore, ask about sensation, warmth, change, and overall illness rather than relying on one color threshold. When severe or rapidly worsening symptoms are present, seek urgent care; when emergency symptoms occur, use emergency services. A fixed “wait a week” rule is not appropriate for all reactions.",
+                "secondExample": "Contrast that with a small area of mild discomfort after a new ordinary moisturizer, with no concerning features and no progression. AAD advises gently washing off a product that produces a reaction and not using it again; seek dermatologic help when the reaction is severe or not relieved.[11] The bounded response is to stop the suspected product, avoid further experimentation on the irritated area, and obtain medical advice if symptoms persist, worsen, or create uncertainty. This is not permission to diagnose contact allergy or to prescribe steroids, antibiotics, or antihistamines. Existing treatment instructions should be discussed with the clinician who gave them.",
+                "mistake": "The common error is making causal certainty a prerequisite for seeking help. You do not need to know the responsible ingredient before acting on a dangerous symptom. Another error is assuming a previously tolerated product cannot be involved, or that every reaction to a new product must be allergy. Both go beyond the evidence. A useful record can say “rash began after use” without saying “ingredient X caused an allergy.” Similarly, no rash image can establish that breathing symptoms are harmless. The symptom pathway takes priority over the cosmetic product pathway.",
+                "application": "For a nonblocking exercise, sort three written cases: a localized mild reaction, a rapidly spreading painful rash with fever, and a rash with swallowing difficulty. Write the urgency decision before the product questions. The rubric requires immediate emergency escalation for the last case, prompt medical evaluation for concerning features, and a limited stop-and-observe approach only when appropriate. A model handoff is “New product yesterday; spreading painful rash and fever today; cause uncertain; needs medical assessment.” Include onset, body sites, symptoms, trajectory, and relevant exposures, but do not demand that someone complete a form before obtaining care.",
+                "summary": "The safest routine is one that knows when to stop being a routine. Triage protects the person while later history-taking supports diagnosis. Keep this decision order available during the next unit’s case work: safety before causal speculation, clinical boundaries before cosmetic optimization. Next, apply those boundaries to acne and residual dark marks, where concern about appearance can otherwise lead to aggressive procedures that create additional injury."
+              },
+              "readings": [
+                {
+                  "title": "[15] Rash 101 in adults: When to seek medical treatment",
+                  "url": "https://www.aad.org/public/everyday-care/itchy-skin/rash/rash-101",
+                  "note": "Read all medical-attention and emergency features, including color variation and infection signs."
+                },
+                {
+                  "title": "[11] How to test skin care products",
+                  "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+                  "note": "Read reaction stopping advice; do not generalize home trials to serious reactions."
+                }
+              ],
+              "visual": {
+                "title": "Triage a new reaction before investigating its cause — decision sequence",
+                "description": "Safety decisions precede cause-finding.",
+                "steps": [
+                  "Breathing/swallowing difficulty or eye/lip swelling → emergency help now.",
+                  "Rapid spread, pain, fever, blistering, sensitive-site involvement → medical attention.",
+                  "Mild localized reaction without warning signs → stop suspected product and monitor appropriately.",
+                  "Document timing and exposures without claiming a diagnosis or delaying care."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "skincare-u1-a",
+              "prompt": "A serum lists a registered facility and promises to cure every rash. What is established?",
+              "answer": "The registration claim does not prove the cure claim",
+              "distractor": "Registration establishes clinical suitability for all rashes",
+              "correction": "Administrative status, regulatory category, evidence, and personal suitability must be separated.",
+              "reviewLessonIds": [
+                "21"
+              ]
+            },
+            {
+              "id": "skincare-u1-b",
+              "prompt": "A sunscreen says sport but gives no readable water-resistance statement. What should you do?",
+              "answer": "Inspect the actual directions and tested claims rather than infer waterproof protection",
+              "distractor": "Assume sport means waterproof for the entire day",
+              "correction": "Sport is not the standardized water-resistance duration; protective behavior still matters.",
+              "reviewLessonIds": [
+                "22"
+              ]
+            },
+            {
+              "id": "skincare-u1-c",
+              "prompt": "An arm trial was uneventful; a later facial application causes itching. Which conclusion is justified?",
+              "answer": "The later reaction requires reassessment despite limited earlier tolerance",
+              "distractor": "The itch cannot be product-related because the trial passed",
+              "correction": "Site and exposure differ, and a home trial does not exclude future reactions.",
+              "reviewLessonIds": [
+                "23"
+              ]
+            },
+            {
+              "id": "skincare-u1-d",
+              "prompt": "Dryness begins after frequent wet work without any new skincare purchase. What belongs in the audit?",
+              "answer": "Exposure frequency, friction, protection, and symptoms",
+              "distractor": "Only the prices of existing products",
+              "correction": "Routine exposure includes methods and environment, not merely newly introduced ingredients.",
+              "reviewLessonIds": [
+                "24"
+              ]
+            },
+            {
+              "id": "skincare-u1-e",
+              "prompt": "A rash is rapidly spreading and painful, but its color is not bright red. What follows?",
+              "answer": "Medical assessment based on symptoms and progression",
+              "distractor": "Wait for bright redness before considering referral",
+              "correction": "Color alone is an unreliable gate; concerning symptoms matter across skin tones.",
+              "reviewLessonIds": [
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Complex cases, product stewardship, and professional handoff",
+          "lessons": [
+            {
+              "id": "26",
+              "title": "Separate active acne, residual marks, and procedural risk",
+              "explanation": "Your objective is to build a referral-oriented case description that distinguishes ongoing breakouts from residual dark marks and possible scars. Earlier lessons introduced acne mechanisms and post-inflammatory marks. Here you use those distinctions to avoid an appearance-driven cycle of stronger products and home procedures. AAD explains that acne and dark spots can coexist and that controlling the acne matters because it can continue generating new marks.[16] This does not authorize you to diagnose every bump as acne or every patch as post-inflammatory pigment. The lesson is about describing what remains uncertain and seeking suitable care, not choosing a drug combination for an individual.",
+              "example": "Consider a hypothetical person with recurring tender facial bumps, flat dark marks where earlier bumps resolved, and a few areas of changed texture. They want a strong home peel to make everything disappear before an event. Begin by separating the observations into active symptoms, residual color, and texture changes. Ask whether there is pain, rapid worsening, scarring, or substantial distress, and encourage dermatologic assessment rather than escalating a procedure. AAD specifically advises people with darker skin tones to consult a dermatologist before chemical peels, microdermabrasion, or laser treatments because these can cause pigment-related adverse effects, including with home versions.[16]",
+              "question": "Why is treating only residual color insufficient when painful breakouts continue?",
+              "answer": "Ongoing lesions may generate new marks and need a suitable clinical plan",
+              "distractor": "Every dark mark proves a permanent scar",
+              "correction": "Active inflammation and residual appearance are different targets; neither should be diagnosed or treated by a blanket assumption.",
+              "depth": {
+                "definitions": "An active lesion is a current abnormal area that may be raised, inflamed, tender, or otherwise symptomatic. A residual mark is a color change remaining after the earlier process settles. A scar involves a lasting structural change, which may be raised or depressed; this course cannot confirm one from a casual image. Post-inflammatory hyperpigmentation describes increased pigment following inflammation. A procedure is an intervention such as a peel or laser treatment with its own indications and risks. Skin tone is relevant to observation and some risk considerations, but it is not a diagnosis, a measure of hygiene, or a reason to dismiss a person’s goals.",
+                "mechanism": "The important causal structure is upstream and downstream. Repeated inflammation can produce new marks; focusing only on existing color while ignoring new breakouts may leave the source of additional marks active. AAD therefore recommends addressing both acne and associated dark spots, while emphasizing gentle care and avoiding picking or harsh scrubbing.[16] That recommendation does not mean every person needs every listed ingredient. Treatment selection depends on examination, severity, prior response, pregnancy considerations, tolerance, and other factors. Your educational role is to recognize why a comprehensive clinical plan may be needed and why aggressive surface removal is not a neutral shortcut.",
+                "secondExample": "A contrasting case has a stable flat mark after a single resolved blemish, no continuing tenderness, and no new breakouts. This presents a different question from recurrent painful lesions: the concern may be residual appearance rather than uncontrolled active disease. Support gentle care and appropriate sun protection, but do not guarantee a fading deadline or assume every pigment change shares the same cause. If the mark is changing, unusual, bleeding, or otherwise concerning, it belongs in the lesion-assessment pathway rather than being automatically classified as an acne remnant. A familiar location does not make a new change diagnostically harmless.",
+                "mistake": "A frequent misconception is that darker marks require stronger exfoliation. Irritating a region to remove its color can create further inflammation and may worsen the appearance the person hopes to improve. Another is blaming acne on poor cleanliness and recommending repeated harsh cleansing. AAD’s guidance instead emphasizes gentle fingertip cleansing and warns that scrubbing and picking can worsen outcomes.[16] Diagnose the reasoning error by asking whether the proposed action addresses a known mechanism safely or simply expresses urgency. A deadline for a social event does not reduce procedural risk or create evidence of personal suitability.",
+                "application": "For a nonblocking case exercise, write a three-column observation sheet: current symptoms, residual changes, and questions for the dermatologist. Include a question about experience treating the relevant skin tone if a procedure is being considered. The rubric rewards distinction without overdiagnosis, avoidance of picking and aggressive home procedures, an appropriate referral reason, and respect for the person’s appearance-related concern. A model handoff says “Recurring tender bumps continue to produce marks; some texture change is reported; the person requests a peel but wants to understand safer options.” Do not name a prescription, concentration, or treatment schedule as the assignment’s answer.",
+                "summary": "The transferable skill is to separate what needs prevention from what needs assessment after the original inflammation has settled. Supportive routines, pigment concerns, and procedural decisions belong in one coordinated conversation but are not interchangeable. Keep this case sheet for the capstone. Next, add medication and life-stage context, where an otherwise familiar ingredient category may require prompt professional review rather than a casual cosmetic substitution."
+              },
+              "readings": [
+                {
+                  "title": "[16] 10 tips for clearing acne in darker skin tones",
+                  "url": "https://www.aad.org/public/diseases/acne/diy/skin-color",
+                  "note": "Read tips 1–2, gentle care, avoiding picking, procedural cautions, and seeking dermatologic help; ingredient lists are background, not a regimen."
+                }
+              ],
+              "visual": {
+                "title": "Separate active acne, residual marks, and procedural risk — reasoning map",
+                "description": "Separate observations before choosing the next kind of help.",
+                "steps": [
+                  "Current bumps and pain → active concern for clinical assessment.",
+                  "Flat residual color → describe history without assuming diagnosis.",
+                  "Raised/depressed texture → ask about possible scarring.",
+                  "Home peel request → discuss risks and experienced dermatologic care first."
+                ]
+              }
+            },
+            {
+              "id": "27",
+              "title": "Reconcile skincare with pregnancy and existing treatment",
+              "explanation": "Your objective is to prepare an accurate product-and-medication list for a clinician when pregnancy, pregnancy planning, breastfeeding, or an existing treatment changes the context of skincare. Earlier lessons established that retinoids differ and that medical circumstances matter. Now you practice reconciliation: identifying every relevant exposure so the clinician can review the whole plan. AAD advises people who are pregnant or trying to become pregnant to tell their obstetrician and dermatologist about medications and prescription skincare and to review changes for pregnancy and breastfeeding.[14] This lesson does not calculate fetal risk, prescribe substitutes, or provide a comprehensive list of safe products.",
+              "example": "Imagine someone planning pregnancy who uses a prescription acne treatment, an over-the-counter retinol serum, an unfamiliar brightening cream, and a daily sunscreen. They assume only the prescription product needs review. Build a list from actual packages, including active ingredients where provided, product names, directions, body areas, frequency, and the reason for use. AAD lists retinoids and hydroquinone among ingredients to avoid during pregnancy.[14] Therefore, do not add or casually continue a retinoid cosmetic as an experiment while awaiting personalized review. Contact the relevant clinician promptly about the actual products, especially if already pregnant or exposure has already occurred; do not infer an outcome from the list alone.",
+              "question": "Does over-the-counter status establish suitability during pregnancy?",
+              "answer": "No; the actual ingredients and circumstances need review",
+              "distractor": "Yes; only prescriptions can require pregnancy precautions",
+              "correction": "AAD includes nonprescription retinoid skincare in its pregnancy cautions; access category is not individualized safety evidence.",
+              "depth": {
+                "definitions": "Reconciliation is a process of comparing what a person actually uses with what clinicians know and intend. Over-the-counter means available without a prescription, not automatically appropriate for every life stage. A drug class groups related agents but does not make their strength, route, absorption, or clinical evidence identical. Exposure history records what was used, where, and when. Risk counseling evaluates that history in context. Pregnancy and breastfeeding are not interchangeable conditions; a statement about one should not be copied into the other without appropriate guidance. These distinctions prevent both false reassurance and unnecessary panic.",
+                "mechanism": "The mechanism of a useful consultation is information completeness. A clinician cannot review an ingredient hidden behind a product nickname or a partial photograph. Bring the full ingredient list and the exact prescription label when possible. Include supplements and other medicines in the clinical discussion rather than treating the face routine as isolated from the rest of health care. The AAD page recommends a simple baseline of cleansing, moisturizing, and sun protection and emphasizes professional guidance for concerns.[14] It does not mean every additional product is harmful, and this course will not convert a general public article into individualized treatment permission.",
+                "secondExample": "Contrast a person with no symptoms asking about an optional cosmetic with someone whose prescribed treatment controls a significant medical condition. In the first case, deferring an optional addition while checking suitability may be straightforward. In the second, stopping, replacing, or restarting medication without the prescriber can create additional problems. The correct role is to contact the prescribing clinician and obstetric team promptly for explicit instructions, while respecting known warnings and not initiating contraindicated skincare. If the person reports a current severe reaction, the urgent symptom pathway takes precedence over compiling the perfect reconciliation table.",
+                "mistake": "A common error is interpreting “natural” as a pregnancy safety category. Another is assuming a low advertised concentration establishes negligible risk without knowing the substance, formulation, use pattern, or evidence. The opposite error is reading an avoidance recommendation as proof that an earlier exposure has caused harm. That inference is not justified by a public article. A calm response is “This needs a clinician’s review of the actual exposure; the article does not predict your outcome.” Avoid repeating broad claims about entire preservative families or essential oils as though every formulation and exposure has equivalent evidence.",
+                "application": "For a nonblocking exercise, complete a fictional reconciliation table, not a public record of personal medical information. Columns should include exact product, cosmetic or medication status when known, ingredient information, use pattern, purpose, prescriber, and questions. The rubric asks for inclusion of nonprescription products, explicit uncertainty, appropriate clinician involvement, and no self-designed replacement regimen. A model question is “Does this retinoid-containing product need to be stopped or replaced in my current circumstances, and what should I do about prior use?” Share real health details privately through an appropriate clinical channel rather than in a course portfolio.",
+                "summary": "Life-stage review is a coordination task, not a shopping filter. Your strongest contribution is accurate information, prompt questions, and respect for the limits of general evidence. Keep the fictional table as a model for future consultations. Next, examine a different source of risk: storage, shared applicators, and product aging, which can change what is in a container even when the label and intended use have not changed."
+              },
+              "readings": [
+                {
+                  "title": "[14] Dermatologist-approved pregnancy skin care",
+                  "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+                  "note": "Read Is skin care safe during pregnancy?, retinoid/hydroquinone avoidance, and clinician coordination. This lesson does not adopt every optional ingredient suggestion or prescribe alternatives."
+                }
+              ],
+              "visual": {
+                "title": "Reconcile skincare with pregnancy and existing treatment — reasoning map",
+                "description": "Reconcile actual exposure before seeking individualized guidance.",
+                "steps": [
+                  "List prescriptions, ordinary cosmetics, and nonprescription actives.",
+                  "Capture full labels, use pattern, purpose, and relevant dates.",
+                  "Pregnancy/planning/breastfeeding context → clinician review, not automatic equivalence.",
+                  "Record explicit instructions; do not infer harm or design replacements from a public article."
+                ]
+              }
+            },
+            {
+              "id": "28",
+              "title": "Assess storage and contamination without a smell-only test",
+              "explanation": "Your objective is to identify when product handling or storage makes continued use questionable, and to separate shelf-life information from a home safety guarantee. Earlier lessons addressed sanitation and shared applicators. Here you consider how the container’s contents change over time and why an unchanged appearance cannot prove microbiological safety. FDA explains that use, storage, microorganisms, preservative performance, and physical changes all affect cosmetic shelf life.[13] This lesson concerns consumer stewardship, not laboratory testing, sterilization, or professional infection-control certification. A clean-looking jar is not the same as a sterile product, and a home remedy cannot reliably rescue a suspect formulation.",
+              "example": "Consider a moisturizer left repeatedly in a hot car and accessed with fingers after shared use. The owner sees no mold and concludes it is safe. The relevant evidence is broader: heat exposure, uncertain handling, repeated introduction of material, packaging directions, and any change in texture or smell. FDA notes that fingers can introduce microorganisms and that heat can contribute to preservative breakdown and faster microbial growth.[13] Do not perform an experiment by applying the product to irritated skin or an eye area. Stop using a suspect product, consult the manufacturer about storage and shelf-life instructions, and replace or discard it when safety cannot be established appropriately.",
+              "question": "Why is absence of visible mold insufficient for a heat-exposed, shared product?",
+              "answer": "Storage and contamination history can undermine safety without visible spoilage",
+              "distractor": "All contamination must be visible before it matters",
+              "correction": "Appearance is not a microbiological test; FDA describes multiple storage and handling factors.",
+              "depth": {
+                "definitions": "Shelf life is the period during which a product is expected to remain suitable under relevant conditions. Expiration information and any period-after-opening guidance address specified conditions, not every possible mishandling event. A preservative system helps control microbial growth in a finished formulation; “preservative-free” is not automatically a safety advantage. An emulsion is a mixture of components such as oil and water that can separate. Contamination is unwanted material entering a product, including microorganisms. Spoilage may produce visible or sensory changes, but absence of those changes is not a complete microbiological test.",
+                "mechanism": "The mechanism is cumulative and formulation-dependent. Repeated use can introduce organisms; storage conditions can affect both physical stability and protective systems.[13] Adding water to thin a thickened product changes its formulation and introduces another exposure pathway. FDA specifically warns not to add water or saliva to dried mascara and advises against sharing makeup.[13] The general reasoning is not that every opened product is dangerous. It is that normal use assumes appropriate handling, and departures from those conditions weaken what you can infer from the printed date or the manufacturer’s original stability work.",
+                "secondExample": "Contrast an ordinary cosmetic with sunscreen, which is regulated as a drug in the United States and may also have cosmetic functions.[9][13] Do not generalize ordinary cosmetic date-labeling rules to every personal-care product. Read the actual expiration and storage instructions, and do not use an expired sunscreen as your planned protection. A second contrast is a product with a changed smell but no skin reaction yet. Waiting for an injury is not a necessary confirmation step. FDA accepts reports of cosmetic product problems such as unusual smell, color change, or foreign material as well as reactions.[18]",
+                "mistake": "A common misconception is that refrigeration makes any old product safe again. Cooling does not restore an unknown formulation to its original tested state or undo contamination. Another is transferring every product into an unlabeled travel pot and later identifying it by color. Decanting can remove instructions, dates, and identity information and can create handling problems. For travel, retain appropriate labeling and follow manufacturer guidance. Do not mix leftover batches or add household disinfectant to a cosmetic. A cosmetic container is not an appropriate setting for improvised preservation chemistry.",
+                "application": "For a ten-minute inventory task, use unopened labels and the history you already know; do not smell closely, taste, culture, or apply suspect contents. Record product identity, opening information if known, expiration or manufacturer guidance, storage history, sharing, and any observed change. The rubric asks for honest “unknown” entries, separation of cosmetic and drug contexts, no attempted rescue, and a clear action for suspect products. A model note is “Stored in excessive heat; opening date unknown; no visible change does not establish safety; I will not continue use based on appearance alone.” If a product caused symptoms, clinical triage comes before the inventory.",
+                "summary": "Product stewardship extends barrier safety beyond ingredient selection. Correct use requires attention to what happened to the product between manufacture and application. Save the inventory for the final routine audit, where practical reliability matters as much as advertising. Next, practice documenting a changing skin finding for medical evaluation without attempting to diagnose it, bleach it, or remove it as a cosmetic imperfection."
+              },
+              "readings": [
+                {
+                  "title": "[13] Shelf Life and Expiration Dating of Cosmetics",
+                  "url": "https://www.fda.gov/cosmetics/cosmetics-labeling/shelf-life-and-expiration-dating-cosmetics",
+                  "note": "Read shelf-life factors and Steps consumers can take; distinguish ordinary cosmetics from drug/cosmetic products."
+                },
+                {
+                  "title": "[9] Cosmetics & U.S. Law",
+                  "url": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/cosmetics-us-law",
+                  "note": "Read how a product can be both cosmetic and drug; U.S. regulatory scope."
+                },
+                {
+                  "title": "[18] How to Report a Cosmetic Product Related Complaint",
+                  "url": "https://www.fda.gov/cosmetics/cosmetics-compliance-enforcement/how-report-cosmetic-product-related-complaint",
+                  "note": "Read product-problem reporting, including odor, color change, and contamination signs."
+                }
+              ],
+              "visual": {
+                "title": "Assess storage and contamination without a smell-only test — reasoning map",
+                "description": "Combine date information with actual handling history.",
+                "steps": [
+                  "Identity and label → storage and opening guidance.",
+                  "Use history → fingers, applicators, sharing, decanting.",
+                  "Environment → heat, moisture, light, observed changes.",
+                  "Questionable condition → do not test on skin or improvise a rescue; seek appropriate guidance."
+                ]
+              }
+            },
+            {
+              "id": "29",
+              "title": "Document a changing spot for assessment, not cosmetic removal",
+              "explanation": "Your objective is to prepare a concise, privacy-respecting description of a new or changing skin spot and know why cosmetic action must wait for clinical assessment. Earlier lessons established referral boundaries for changing lesions. Here you practice the difference between surveillance, documentation, and diagnosis. AAD recommends seeing a dermatologist for a spot that differs from others or changes, itches, or bleeds, and notes that anyone can develop skin cancer regardless of skin color.[17] A course diagram or photograph cannot rule out cancer. The exercise should improve access to assessment, not create a scoring system that decides which concerns deserve attention.",
+              "example": "Consider a person who calls a spot an “old blemish mark” but now reports that it looks different and sometimes bleeds. Begin with the change, not with the reassuring nickname. Record the body location, what the person noticed, when they first noticed it, and any symptoms or progression. Encourage prompt dermatologic evaluation rather than applying a lightening product or attempting removal. If a photograph is available, it can help communicate history, but taking one is optional and must not delay care. The report should say “changing spot with intermittent bleeding,” not “benign pigment” or “melanoma confirmed.”",
+              "question": "Does a changing, bleeding spot need every other warning feature before referral?",
+              "answer": "No; the reported change and bleeding warrant assessment",
+              "distractor": "Yes; wait until every checklist feature is present",
+              "correction": "AAD advises evaluation for spots that change, itch, bleed, or differ; no complete checklist is required.",
+              "depth": {
+                "definitions": "A lesion is a general term for an abnormal area of tissue, not a cancer diagnosis. Surveillance means observing for changes over time. A baseline records what was previously seen or reported. A body map marks locations so the same finding can be identified later. A referral transfers a concern to someone with appropriate clinical expertise. Reassurance is a clinical judgment when it involves excluding disease; it should not be manufactured from an online checklist. Descriptive precision is valuable precisely because it leaves the diagnostic question open for examination and any necessary testing.",
+                "mechanism": "The mechanism of useful documentation is comparability and traceability. A vague statement such as “my skin looks worse” provides less localization than “the spot on the outer left forearm has changed and itches.” Consistent lighting, angle, and scale can make photographs easier to compare, but photographic differences can still reflect technique rather than biology. Earlier image-literacy lessons therefore apply to self-observation as well as advertising. Do not edit color, smooth texture, or use beauty filters on an image intended for clinical discussion. Preserve the original privately and explain any limitations in date, scale, or image quality.",
+                "secondExample": "Contrast a person with many stable freckles who notices one unlike the others with someone who has no prior photographs but clearly reports a new symptomatic spot. Both can seek assessment; a baseline photograph is not an entry requirement. AAD’s self-exam guidance includes checking multiple body regions and using mirrors as appropriate.[17] People may need accessible help to examine areas they cannot see comfortably. That does not justify publishing intimate images in a learning assignment or asking an unqualified helper to diagnose the finding. The learner may complete this course task using a fictional body map instead.",
+                "mistake": "A common error is requiring every warning feature before referral: “It is small and mostly one color, so bleeding does not matter.” The AAD referral wording does not require a complete checklist of abnormalities.[17] Another is assuming that a darker skin tone eliminates skin-cancer risk. Skin findings and patterns may vary, but no skin tone gives universal immunity. Conversely, a changing spot is not automatically cancer. The appropriate statement is that the change deserves assessment. This avoids both dismissive reassurance and fear-inducing diagnosis while keeping the next action clear.",
+                "application": "For a nonblocking exercise, write a referral note for the fictional bleeding spot. Include location, first-noticed timing, change, symptoms, relevant attempted products, and the question for the clinician. The rubric asks for descriptive language, explicit uncertainty, a clear recommendation for evaluation, and no cosmetic destruction or public image sharing. A model note is “Reported change and intermittent bleeding in an existing forearm spot; no diagnosis made; requesting dermatologic assessment before cosmetic treatment.” If there is uncontrolled bleeding or another acute serious symptom, obtain appropriate urgent care rather than waiting for routine documentation. The note is a communication aid, not a substitute for care.",
+                "summary": "Observation is most useful when it leads to the right expertise without pretending to replace it. Your task is to notice, describe, and refer—not to identify a disease from a visual stereotype. Keep the fictional note as a model for the capstone, which combines routine simplification, product evidence, and escalation decisions. The final challenge is to show that a good skincare plan can intentionally leave a medical question unanswered while still making the next step safer and more concrete."
+              },
+              "readings": [
+                {
+                  "title": "[17] Find skin cancer: How to perform a skin self-exam",
+                  "url": "https://www.aad.org/public/diseases/skin-cancer/find/check-skin",
+                  "note": "Read referral wording and self-exam guidance; use the body map as optional documentation, not a diagnostic instrument."
+                }
+              ],
+              "visual": {
+                "title": "Document a changing spot for assessment, not cosmetic removal — reasoning map",
+                "description": "A descriptive handoff avoids both false reassurance and diagnosis.",
+                "steps": [
+                  "Locate the spot and record first-noticed timing.",
+                  "Describe change, itch, bleeding, and other symptoms.",
+                  "Keep any optional photographs private, unfiltered, and contextualized.",
+                  "Seek dermatologic assessment before bleaching or removing the finding."
+                ]
+              }
+            },
+            {
+              "id": "30",
+              "title": "Defend a minimal routine and an adverse-event handoff",
+              "explanation": "Your objective is to produce a written routine decision that is simple, source-aware, and explicit about when cosmetic reasoning must stop. This capstone combines product claims, sun exposure, tolerance, dryness, reactions, acne-related concerns, medication context, storage, and lesion referral. It is not a personalized treatment plan or an esthetics license. A successful answer may decline an optional product, preserve tolerated basics, and recommend assessment for an unresolved concern. FDA accepts reports of both unwanted reactions after cosmetic use and problems with the product itself, even when no medical treatment was required.[18] Reporting and medical care serve different purposes.",
+              "example": "Use this fictional case: a person starts a brightening serum and exfoliating toner together, develops persistent stinging, continues outdoor exercise with a sunscreen labeled only by a remembered SPF, and notices an old facial spot has begun bleeding. They also own a moisturizer stored in a hot car. Prioritize the changing bleeding spot for dermatologic evaluation and assess the stinging for warning signs. Stop the suspected irritating cosmetic additions rather than adding more actives. Do not prescribe a substitute treatment or assume which new product caused the reaction. Review actual sunscreen directions and storage history instead of trusting memory. The case contains several independent questions, not one diagnosis.",
+              "question": "How should stinging after two simultaneous additions be reported?",
+              "answer": "Describe the timing and both products while leaving causation uncertain",
+              "distractor": "Name one ingredient as a confirmed allergy without evaluation",
+              "correction": "A temporal association supports a factual report but does not isolate cause or establish allergy.",
+              "depth": {
+                "definitions": "A routine decision log records purpose, evidence, tolerance, and action for each step. A safety boundary states when the plan must change because symptoms or uncertainty exceed cosmetic scope. A handoff summarizes observations for a clinician. A product complaint communicates a possible safety or quality issue to a manufacturer or regulator. Temporal association means an event followed an exposure; causation means the exposure produced it. A minimal routine is not a moral ideal or a fixed product count. It is a workable set of necessary, tolerated steps that avoids unsupported duplication while respecting medical treatment already in place.",
+                "mechanism": "The reasoning order is deliberate. First check urgent symptoms and refer concerning findings, because documentation must not delay care.[15][17] Next examine the product and exposure history, including simultaneous additions and storage.[13] Then preserve or rebuild an appropriate gentle baseline with clinical guidance where needed, and translate sunscreen claims into real protective behavior.[10][12] Only after these questions are addressed should optional cosmetic goals be reconsidered. This order prevents a marketing promise from becoming the organizing principle of the plan. It also avoids blaming one ingredient when several products, use conditions, and unrelated medical processes may be involved.",
+                "secondExample": "A contrasting case has comfortable skin, reliable protective habits, no concerning changes, and curiosity about an optional moisturizer. That person does not need an emergency pathway or a medicalized shopping routine. They can review the claim, check directions, and consider a cautious one-product observation within its limits.[11] The comparison matters: safe skincare reasoning is proportional, not uniformly alarmist. In either case, medication changes and pregnancy-related questions belong with the appropriate clinician.[14] Do not turn a capstone rubric into pressure to expose skin to a product just so the assignment has a measurable outcome.",
+                "mistake": "The common error is writing “allergic reaction to serum ingredient X” in a report when the only evidence is stinging after two additions. Report what actually happened and leave the cause uncertain. FDA’s consumer reporting page distinguishes consumer voluntary reporting from industry obligations and provides current submission routes.[18] Use the consumer route if reporting as a consumer; do not confuse manufacturer deadlines with a learner’s personal duties. Include product identity and available label or batch details, exposure timing, symptoms, and any care received where the form requests them. Do not invent missing dates, claim medical confirmation that did not occur, or publish identifying health information in the course portfolio.",
+                "application": "For the final nonblocking project, create a fictional decision table and a short handoff. Assess six criteria: safety is prioritized; every product has a purpose; unsupported cure or approval claims are rejected; exposure and storage are recorded; uncertainty and medical boundaries are explicit; and the next action is feasible. A model conclusion is “Two additions preceded stinging, so attribution is unresolved; the bleeding change needs assessment; suspect products will not be re-tested; the sunscreen label and safe storage will be reviewed.” Add a draft consumer complaint only if the case supplies a product problem or reaction. Do not actually submit anything for the fictional exercise.",
+                "summary": "This level’s evidence is a set of reasoned documents: claim table, sunscreen event plan, tolerance protocol, exposure audit, triage decision, clinical question list, storage inventory, and final handoff. The cumulative test checks relationships among them, not the ability to diagnose or prescribe. A thoughtful learner should now be able to say what is known, what remains uncertain, which action is within cosmetic scope, and who should handle the next question. Continue by revisiting the audit when circumstances change rather than automatically adding another product."
+              },
+              "readings": [
+                {
+                  "title": "[18] How to Report a Cosmetic Product Related Complaint",
+                  "url": "https://www.fda.gov/cosmetics/cosmetics-compliance-enforcement/how-report-cosmetic-product-related-complaint",
+                  "note": "Read Tell FDA If You Experience and consumer voluntary reporting; distinguish industry obligations."
+                },
+                {
+                  "title": "[15] Rash 101 in adults: When to seek medical treatment",
+                  "url": "https://www.aad.org/public/everyday-care/itchy-skin/rash/rash-101",
+                  "note": "Use warning signs to prioritize care before reporting."
+                },
+                {
+                  "title": "[17] Find skin cancer: How to perform a skin self-exam",
+                  "url": "https://www.aad.org/public/diseases/skin-cancer/find/check-skin",
+                  "note": "Use changing/bleeding spot referral guidance."
+                },
+                {
+                  "title": "[13] Shelf Life and Expiration Dating of Cosmetics",
+                  "url": "https://www.fda.gov/cosmetics/cosmetics-labeling/shelf-life-and-expiration-dating-cosmetics",
+                  "note": "Review actual handling and storage history."
+                },
+                {
+                  "title": "[10] Dermatologists’ top tips for relieving dry skin",
+                  "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin",
+                  "note": "Use gentle-care guidance and referral limits, not a shopping list."
+                },
+                {
+                  "title": "[12] How to decode sunscreen labels",
+                  "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/understand-sunscreen-labels",
+                  "note": "Translate label claims into exposure-specific protection."
+                },
+                {
+                  "title": "[11] How to test skin care products",
+                  "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+                  "note": "Apply limited home-observation principles only when appropriate."
+                },
+                {
+                  "title": "[14] Dermatologist-approved pregnancy skin care",
+                  "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care",
+                  "note": "Refer medication and life-stage review to the appropriate clinician."
+                }
+              ],
+              "visual": {
+                "title": "Defend a minimal routine and an adverse-event handoff — reasoning map",
+                "description": "Order decisions by safety, evidence, and scope.",
+                "steps": [
+                  "Urgency and changing lesions → clinical pathway first.",
+                  "Product timeline and storage → factual exposure record.",
+                  "Tolerated basics and protection → simplify without prescribing.",
+                  "Unresolved cause → honest handoff or consumer report, not a definitive allergy claim."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "skincare-u2-a",
+              "prompt": "A person with recurring tender bumps wants a home peel for the marks before an event. What is the strongest response?",
+              "answer": "Separate active lesions from residual changes and seek appropriate dermatologic guidance before procedures",
+              "distractor": "Choose the strongest peel because the deadline is short",
+              "correction": "Ongoing inflammation and procedural risk are separate concerns; urgency about appearance does not establish suitability.",
+              "reviewLessonIds": [
+                "26"
+              ]
+            },
+            {
+              "id": "skincare-u2-b",
+              "prompt": "A pregnancy-planning product list omits a nonprescription retinol. What is the correction?",
+              "answer": "Include it with the exact label for clinician review",
+              "distractor": "Exclude all nonprescription products from reconciliation",
+              "correction": "Access without prescription does not remove relevant ingredient precautions.",
+              "reviewLessonIds": [
+                "27"
+              ]
+            },
+            {
+              "id": "skincare-u2-c",
+              "prompt": "A dried eye cosmetic is diluted with water to restore texture. What is wrong with that rescue?",
+              "answer": "It changes the product and can introduce contamination",
+              "distractor": "Water restores the original preservative system automatically",
+              "correction": "FDA specifically warns against adding water or saliva to dried mascara; restoring texture does not establish safety.",
+              "reviewLessonIds": [
+                "28"
+              ]
+            },
+            {
+              "id": "skincare-u2-d",
+              "prompt": "A spot differs from nearby spots and itches, but there is no baseline photograph. What should happen?",
+              "answer": "Seek assessment without requiring a historical image",
+              "distractor": "Wait to build a long photographic record before seeking care",
+              "correction": "A photograph is optional documentation, not a prerequisite for evaluation of a concerning finding.",
+              "reviewLessonIds": [
+                "29"
+              ]
+            },
+            {
+              "id": "skincare-u2-e",
+              "prompt": "A complaint draft says a serum caused a confirmed allergy, but two products began together and no clinician assessed it. What needs revision?",
+              "answer": "State the observed reaction, timing, and both exposures without claiming confirmed causation",
+              "distractor": "Keep the diagnosis because certainty makes reports more useful",
+              "correction": "Accurate uncertainty improves the report; invented confirmation undermines it.",
+              "reviewLessonIds": [
+                "23",
+                "25",
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "skincare-l-a",
+          "prompt": "A registered cosmetic promises to erase a newly bleeding spot. Which two decisions are justified?",
+          "answer": "Registration does not prove the claim, and the changing spot needs clinical assessment",
+          "distractor": "Registration makes cosmetic treatment appropriate before referral",
+          "correction": "Administrative status cannot establish diagnosis or suitability; concerning change takes priority.",
+          "reviewLessonIds": [
+            "21",
+            "29"
+          ]
+        },
+        {
+          "id": "skincare-l-b",
+          "prompt": "A tolerated arm trial is followed by lip swelling and swallowing difficulty during later use. What takes priority?",
+          "answer": "Emergency help now, regardless of the earlier trial",
+          "distractor": "Finish the observation period to make the result reliable",
+          "correction": "Limited prior tolerance does not override emergency symptoms; causal investigation can wait.",
+          "reviewLessonIds": [
+            "23",
+            "25"
+          ]
+        },
+        {
+          "id": "skincare-l-c",
+          "prompt": "Outdoor exercise, repeated toweling, and a hot-car sunscreen are followed by concern about protection. What should be reviewed?",
+          "answer": "Actual label, reapplication events, and storage/expiration suitability",
+          "distractor": "Only the highest SPF number available online",
+          "correction": "Protection depends on directions, exposure and product condition, not one remembered number.",
+          "reviewLessonIds": [
+            "22",
+            "28"
+          ]
+        },
+        {
+          "id": "skincare-l-d",
+          "prompt": "Dark marks coexist with new painful lesions and stinging after stacked exfoliants. What avoids conflating the problems?",
+          "answer": "Describe active symptoms and residual marks separately, stop suspect irritation, and seek appropriate care",
+          "distractor": "Treat all visible changes as dead skin requiring stronger removal",
+          "correction": "Appearance categories, irritation, and ongoing disease are different questions; escalating exfoliation can add injury.",
+          "reviewLessonIds": [
+            "24",
+            "25",
+            "26"
+          ]
+        },
+        {
+          "id": "skincare-l-e",
+          "prompt": "A pregnancy-planning learner assumes natural brightening products are automatically suitable. What is the next evidence step?",
+          "answer": "Collect full labels and use history for clinician review",
+          "distractor": "Replace prescribed treatment with the natural product without consultation",
+          "correction": "Marketing categories do not establish life-stage suitability or justify medication substitution.",
+          "reviewLessonIds": [
+            "21",
+            "27"
+          ]
+        },
+        {
+          "id": "skincare-l-f",
+          "prompt": "An old jar looks normal after heat exposure and sharing. A small-area test is proposed to prove it safe. Why reject that design?",
+          "answer": "A skin trial cannot validate a potentially compromised product’s microbial safety",
+          "distractor": "A negative trial certifies the entire container",
+          "correction": "Tolerance observation and product-quality assessment answer different questions; do not use skin as a contamination test.",
+          "reviewLessonIds": [
+            "23",
+            "28"
+          ]
+        },
+        {
+          "id": "skincare-l-g",
+          "prompt": "A rash is painful and spreading but appears brown rather than bright red. Which record supports the right action?",
+          "answer": "Document symptoms and trajectory and seek medical assessment",
+          "distractor": "Record no inflammation because the color stereotype is absent",
+          "correction": "AAD describes color variation; pain and progression must not be ignored while waiting for redness.",
+          "reviewLessonIds": [
+            "24",
+            "25",
+            "30"
+          ]
+        },
+        {
+          "id": "skincare-l-h",
+          "prompt": "A consumer notices foreign material in a cosmetic but has no rash. Is a product complaint appropriate?",
+          "answer": "Yes; FDA accepts quality/contamination concerns as well as reactions",
+          "distractor": "No; deliberate application must first produce an injury",
+          "correction": "Product problems can be reported without inducing or waiting for harm.",
+          "reviewLessonIds": [
+            "28",
+            "30"
+          ]
+        },
+        {
+          "id": "skincare-l-i",
+          "prompt": "Dryness improves after shorter showers, a new moisturizer, and stopping a toner. What can be claimed?",
+          "answer": "The combined changes preceded improved comfort, but the effective component is uncertain",
+          "distractor": "The new moisturizer alone has proved its advertised mechanism",
+          "correction": "Several simultaneous changes prevent clean attribution, even if the overall result is welcome.",
+          "reviewLessonIds": [
+            "21",
+            "23",
+            "24"
+          ]
+        },
+        {
+          "id": "skincare-l-j",
+          "prompt": "A mild stable mark prompts interest in a procedure, while a different spot has recently begun bleeding. How should priorities differ?",
+          "answer": "Discuss cosmetic goals safely, but arrange assessment of the bleeding change before cosmetic intervention",
+          "distractor": "Treat both with the same home peel to save time",
+          "correction": "Residual appearance and concerning evolution need different pathways; one label cannot collapse their risks.",
+          "reviewLessonIds": [
+            "26",
+            "29"
+          ]
+        },
+        {
+          "id": "skincare-l-k",
+          "prompt": "A fictional routine case includes a medication, an optional serum, and uncertain pregnancy context. What belongs in a responsible submission?",
+          "answer": "A reconciliation question for clinicians and no invented replacement regimen",
+          "distractor": "A precise new medication schedule generated from the general article",
+          "correction": "Public guidance establishes boundaries, not individualized prescribing; keep private health details out of the portfolio.",
+          "reviewLessonIds": [
+            "27",
+            "30"
+          ]
+        },
+        {
+          "id": "skincare-l-l",
+          "prompt": "A learner passes every binary quiz and writes a detailed product report. What does that establish?",
+          "answer": "Some evidence of reasoning, not competence to diagnose rashes or prescribe treatment",
+          "distractor": "Qualification to manage any skincare reaction independently",
+          "correction": "Educational assessment is narrower than clinical competence; observed reasoning must retain referral boundaries.",
+          "reviewLessonIds": [
+            "25",
+            "29",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

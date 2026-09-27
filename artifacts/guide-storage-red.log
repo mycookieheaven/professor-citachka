@@ -1,0 +1,735 @@
+
+> professor-citachka@0.1.0 test
+> vitest run src/app/subjects/literature/page.test.tsx
+
+
+ RUN  v4.1.11 /Users/<user>/professor-citachka
+
+ ❯ src/app/subjects/literature/page.test.tsx (7 tests | 1 failed) 2359ms
+     × ignores corrupt saved state and reports storage failure without claiming a save 331ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/app/subjects/literature/page.test.tsx > Literature department > ignores corrupt saved state and reports storage failure without claiming a save
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Continue without saving"
+
+Here are the accessible roles:
+
+  paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m/>[39m
+
+  --------------------------------------------------heading:
+
+  Name "Jane Eyre":
+  [36m<h2[39m
+    [33mid[39m=[32m"jane-eyre-title"[39m
+  [36m/>[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"_byline_56ae13"[39m
+  [36m/>[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  [36m<strong />[39m
+
+  --------------------------------------------------heading:
+
+  Name "Reading assignment":
+  [36m<h3 />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------group:
+
+  Name "":
+  [36m<details />[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------heading:
+
+  Name "Core idea":
+  [36m<h3 />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------heading:
+
+  Name "Worked examples · interpretations to test":
+  [36m<h3 />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------heading:
+
+  Name "Practice · read, retrieve, explain":
+  [36m<h3 />[39m
+
+  --------------------------------------------------list:
+
+  Name "":
+  [36m<ol />[39m
+
+  --------------------------------------------------
+  listitem:
+
+  Name "":
+  [36m<li />[39m
+
+  Name "":
+  [36m<li />[39m
+
+  Name "":
+  [36m<li />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------region:
+
+  Name "Jane Eyre learning check":
+  [36m<section[39m
+    [33maria-label[39m=[32m"Jane Eyre learning check"[39m
+    [33mclass[39m=[32m"_practice_56ae13"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "Optional retrieval practice":
+  [36m<h3 />[39m
+
+  Name "One defensible response · not the only answer":
+  [36m<h4 />[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p[39m
+    [33mid[39m=[32m"jane-eyre-help"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "Every adult’s private motive is known with certainty.":
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "The curtain and book suggest a refuge from exclusion.":
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"true"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Charlotte Brontë and Jane are the same speaker.":
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Compare with a model":
+  [36m<button[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Next reading guide: Pride and Prejudice":
+  [36m<button[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  status:
+
+  Name "":
+  [36m<p[39m
+    [33mclass[39m=[32m"_feedback_56ae13"[39m
+    [33mrole[39m=[32m"status"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  [36m<strong />[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "Your interpretation · short paragraph":
+  [36m<textarea[39m
+    [33maria-describedby[39m=[32m"jane-eyre-help"[39m
+    [33mid[39m=[32m"jane-eyre-response"[39m
+  [36m/>[39m
+
+  --------------------------------------------------heading:
+
+  Name "Next reading":
+  [36m<h3 />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------region:
+
+  Name "Jane Eyre audiobook":
+  [36m<section[39m
+    [33maria-label[39m=[32m"Jane Eyre audiobook"[39m
+    [33mclass[39m=[32m"_audio_56ae13"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  heading:
+
+  Name "Listen here · Jane Eyre":
+  [36m<h3 />[39m
+
+  --------------------------------------------------
+  paragraph:
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  Name "":
+  [36m<p />[39m
+
+  --------------------------------------------------
+  combobox:
+
+  Name "Jane Eyre chapter":
+  [36m<select[39m
+    [33mid[39m=[32m"jane-eyre-chapter"[39m
+  [36m/>[39m
+
+  Name "Jane Eyre playback speed":
+  [36m<select[39m
+    [33mid[39m=[32m"jane-eyre-speed"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  option:
+
+  Name "01 - Chapter 01":
+  [36m<option[39m
+    [33mvalue[39m=[32m"0"[39m
+  [36m/>[39m
+
+  Name "02 - Chapter 02":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1"[39m
+  [36m/>[39m
+
+  Name "03 - Chapter 03":
+  [36m<option[39m
+    [33mvalue[39m=[32m"2"[39m
+  [36m/>[39m
+
+  Name "04 - Chapter 04":
+  [36m<option[39m
+    [33mvalue[39m=[32m"3"[39m
+  [36m/>[39m
+
+  Name "05 - Chapter 05":
+  [36m<option[39m
+    [33mvalue[39m=[32m"4"[39m
+  [36m/>[39m
+
+  Name "06 - Chapter 06":
+  [36m<option[39m
+    [33mvalue[39m=[32m"5"[39m
+  [36m/>[39m
+
+  Name "07 - Chapter 07":
+  [36m<option[39m
+    [33mvalue[39m=[32m"6"[39m
+  [36m/>[39m
+
+  Name "08 - Chapter 08":
+  [36m<option[39m
+    [33mvalue[39m=[32m"7"[39m
+  [36m/>[39m
+
+  Name "09 - Chapter 9":
+  [36m<option[39m
+    [33mvalue[39m=[32m"8"[39m
+  [36m/>[39m
+
+  Name "10 - Chapter 10":
+  [36m<option[39m
+    [33mvalue[39m=[32m"9"[39m
+  [36m/>[39m
+
+  Name "11 - Chapter 11":
+  [36m<option[39m
+    [33mvalue[39m=[32m"10"[39m
+  [36m/>[39m
+
+  Name "12 - Chapter 12":
+  [36m<option[39m
+    [33mvalue[39m=[32m"11"[39m
+  [36m/>[39m
+
+  Name "13 - Chapter 13":
+  [36m<option[39m
+    [33mvalue[39m=[32m"12"[39m
+  [36m/>[39m
+
+  Name "14 - Chapter 14":
+  [36m<option[39m
+    [33mvalue[39m=[32m"13"[39m
+  [36m/>[39m
+
+  Name "15 - Chapter 15":
+  [36m<option[39m
+    [33mvalue[39m=[32m"14"[39m
+  [36m/>[39m
+
+  Name "16 - Chapter 16":
+  [36m<option[39m
+    [33mvalue[39m=[32m"15"[39m
+  [36m/>[39m
+
+  Name "17 - Chapter 17":
+  [36m<option[39m
+    [33mvalue[39m=[32m"16"[39m
+  [36m/>[39m
+
+  Name "18 - Chapter 18":
+  [36m<option[39m
+    [33mvalue[39m=[32m"17"[39m
+  [36m/>[39m
+
+  Name "19 - Chapter 19":
+  [36m<option[39m
+    [33mvalue[39m=[32m"18"[39m
+  [36m/>[39m
+
+  Name "20 - Chapter 20":
+  [36m<option[39m
+    [33mvalue[39m=[32m"19"[39m
+  [36m/>[39m
+
+  Name "21 - Chapter 21":
+  [36m<option[39m
+    [33mvalue[39m=[32m"20"[39m
+  [36m/>[39m
+
+  Name "22 - Chapter 22":
+  [36m<option[39m
+    [33mvalue[39m=[32m"21"[39m
+  [36m/>[39m
+
+  Name "23 - Chapter 23":
+  [36m<option[39m
+    [33mvalue[39m=[32m"22"[39m
+  [36m/>[39m
+
+  Name "24 - Chapter 24":
+  [36m<option[39m
+    [33mvalue[39m=[32m"23"[39m
+  [36m/>[39m
+
+  Name "25 - Chapter 25":
+  [36m<option[39m
+    [33mvalue[39m=[32m"24"[39m
+  [36m/>[39m
+
+  Name "26 - Chapter 26":
+  [36m<option[39m
+    [33mvalue[39m=[32m"25"[39m
+  [36m/>[39m
+
+  Name "27 - Chapter 27":
+  [36m<option[39m
+    [33mvalue[39m=[32m"26"[39m
+  [36m/>[39m
+
+  Name "28 - Chapter 28":
+  [36m<option[39m
+    [33mvalue[39m=[32m"27"[39m
+  [36m/>[39m
+
+  Name "29 - Chapter 29":
+  [36m<option[39m
+    [33mvalue[39m=[32m"28"[39m
+  [36m/>[39m
+
+  Name "30 - Chapter 30":
+  [36m<option[39m
+    [33mvalue[39m=[32m"29"[39m
+  [36m/>[39m
+
+  Name "31 - Chapter 31":
+  [36m<option[39m
+    [33mvalue[39m=[32m"30"[39m
+  [36m/>[39m
+
+  Name "32 - Chapter 32":
+  [36m<option[39m
+    [33mvalue[39m=[32m"31"[39m
+  [36m/>[39m
+
+  Name "33 - Chapter 33":
+  [36m<option[39m
+    [33mvalue[39m=[32m"32"[39m
+  [36m/>[39m
+
+  Name "34 - Chapter 34":
+  [36m<option[39m
+    [33mvalue[39m=[32m"33"[39m
+  [36m/>[39m
+
+  Name "35 - Chapter 35":
+  [36m<option[39m
+    [33mvalue[39m=[32m"34"[39m
+  [36m/>[39m
+
+  Name "36 - Chapter 36":
+  [36m<option[39m
+    [33mvalue[39m=[32m"35"[39m
+  [36m/>[39m
+
+  Name "37 - Chapter 37":
+  [36m<option[39m
+    [33mvalue[39m=[32m"36"[39m
+  [36m/>[39m
+
+  Name "38 - Chapter 38, Conclusion":
+  [36m<option[39m
+    [33mvalue[39m=[32m"37"[39m
+  [36m/>[39m
+
+  Name "0.75×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"0.75"[39m
+  [36m/>[39m
+
+  Name "1× · normal":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1"[39m
+  [36m/>[39m
+
+  Name "1.25×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1.25"[39m
+  [36m/>[39m
+
+  Name "1.5×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1.5"[39m
+  [36m/>[39m
+
+  Name "1.75×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"1.75"[39m
+  [36m/>[39m
+
+  Name "2×":
+  [36m<option[39m
+    [33mvalue[39m=[32m"2"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "Play Jane Eyre":
+  [36m<button[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Back 15 seconds":
+  [36m<button[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Forward 15 seconds":
+  [36m<button[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Previous chapter":
+  [36m<button[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  Name "Next chapter":
+  [36m<button[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  slider:
+
+  Name "Jane Eyre playback position":
+  [36m<input[39m
+    [33maria-label[39m=[32m"Jane Eyre playback position"[39m
+    [33maria-valuetext[39m=[32m"0:00 of 0:00"[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mid[39m=[32m"jane-eyre-position"[39m
+    [33mmax[39m=[32m"1"[39m
+    [33mmin[39m=[32m"0"[39m
+    [33mstep[39m=[32m"1"[39m
+    [33mtype[39m=[32m"range"[39m
+    [33mvalue[39m=[32m"0"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  group:
+
+  Name "":
+  [36m<details />[39m
+
+  --------------------------------------------------link:
+
+  Name "Back to reading orientation ↑":
+  [36m<a[39m
+    [33mclass[39m=[32m"_back_56ae13"[39m
+    [33mhref[39m=[32m"#orientation"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<article[39m
+  [33maria-labelledby[39m=[32m"jane-eyre-title"[39m
+  [33mclass[39m=[32m"_guide_56ae13"[39m
+  [33mid[39m=[32m"jane-eyre"[39m
+[36m>[39m
+  [36m<p[39m
+    [33mclass[39m=[32m"eyebrow"[39m
+  [36m>[39m
+    [0mAvailable guide · [0m
+    [0mBeginner entry · voice and evidence[0m
+  [36m</p>[39m
+  [36m<h2[39m
+    [33mid[39m=[32m"jane-eyre-title"[39m
+  [36m>[39m
+    [0mJane Eyre[0m
+  [36m</h2>[39m
+  [36m<p[39m
+    [33mclass[39m=[32m"_byline_56ae13"[39m
+  [36m>[39m
+    [0mCharlotte Brontë · 1847 · English novel[0m
+  [36m</p>[39m
+  [36m<p>[39m
+    [36m<strong>[39m
+      [0mObjective:[0m
+    [36m</strong>[39m
+    [0m [0m
+    [0mSeparate an event from a narrator’s interpretation, then support a claim about belonging with a precise detail.[0m
+  [36m</p>[39m
+  [36m<h3>[39m
+    [0mReading assignment[0m
+  [36m</h3>[39m
+  [36m<p>[39m
+    [0mRead or listen to chapters 1–4. Begin with chapter 1 alone if you are new to classics. Stop after each scene to name who acts, who tells, and what changes; page numbers vary by edition.[0m
+  [36m</p>[39m
+  [36m<details>[39m
+    [36m<summary>[39m
+      [0mContext and content notes[0m
+    [36m</summary>[39m
+    [36m<p>[39m
+      [0mJane recounts her childhood from a later point in her life. A governess was an educated employee in a private household: this later role places Jane uneasily between family and servant. The novel connects a woman’s self-respect with dependence, class, and moral choice; it is not simply a romance.[0m
+    [36m</p>[39m
+    [36m<p>[39m
+      [0mContent note: child abuse, neglect, illness, and death. Later chapters include confinement and racialized representations of the Caribbean; read these critically rather than treating the narrator’s viewpoint as neutral.[0m
+    [36m</p>[39m
+  [36m</details>[39m
+  [36m<h3>[39m
+    [0mCore idea[0m
+  [36m</h3>[39m
+  [36m<p>[39m
+    [0mA first-person narrator says ‘I’, but the speaking voice is not identical to the author. Here we encounter both a child experiencing exclusion and an older Jane arranging that experience into a story. Close reading means noticing how wording and narrative order create meaning—not merely retelling the plot. Jane’s account deserves attention without assuming she can know every other person’s inner life.[0m
+  [36m</p>[39m
+  [36m<h3>[39m
+    [0mWorked examples · interpretations to test[0m
+  [36m</h3>[39m
+  [36m<p>[39m
+    [0mIn chapter 1, Jane retreats behind a curtain with a book. Event: she withdraws from the household. Interpretation: reading offers a private refuge when family belonging is denied. The curtain and the book support that claim more precisely than ‘Jane is sad’. This is a defensible reading, not the only possible one.[0m
+  [36m</p>[39m
+  [36m<p>[39m
+    [0mIn the red-room episode, a frightening space is filtered through a child’s fear and the adult narrator’s recollection. Calling the room frightening describes its effect on Jane; claiming the scene proves a supernatural event would exceed the evidence. Distinguish what Jane perceives from what the story establishes.[0m
+  [36m</p>[39m
+  [36m<h3>[39m
+    [0mPractice · read, retrieve, explain[0m
+  [36m</h3>[39m
+  [36m<ol>[39m
+    [36m<li>[39m
+      [0mMake two columns: what happened / what Jane makes of it.[0m
+    [36m</li>[39m
+    [36m<li>[39m
+      [0mChoose one detail about a room, a book, or an exclusion. Record its chapter and a short quotation from your edition.[0m
+    [36m</li>[39m
+    [36m<li>[39m
+      [0mWrite: ‘The detail suggests ___ because ___.’ Add one plausible alternative reading.[0m
+    [36m</li>[39m
+  [36m</ol>[39m
+  [36m<p>[39m
+    [0mIn three sentences, explain how a physical boundary shapes Jane’s sense of belonging. Use one detail from chapters 1–4 and distinguish observation from interpretation.[0m
+  [36m</p>[39m
+  [36m<section[39m
+    [33maria-label[39m=[32m"Jane Eyre learning check"[39m
+    [33mclass[39m=[32m"_practice_56ae13"[39m
+  [36m>[39m
+    [36m<h3>[39m
+      [0mOptional retrieval practice[0m
+    [36m</h3>[39m
+    [36m<p>[39m
+      [0mWhich claim stays closest to the evidence in the opening?[0m
+    [36m</p>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"_choices_56ae13"[39m
+    [36m>[39m
+      [36m<button[39m
+        [33maria-pressed[39m=[32m"false"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m>[39m
+        [0mEvery adult’s private motive is known with certainty.[0m
+      [36m</button>[39m
+      [36m<button[39m
+        [33maria-pressed[39m=[32m"true"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m>[39m
+        [0mThe curtain and book suggest a refuge from exclusion.[0m
+      [36m</button>[39m
+      [36m<button[39m
+        [33maria-pressed[39m=[32m"false"[39m
+        [33mtype[39m=[32m"button"[39m
+      [36m>[39m
+        [0mCharlotte Brontë and Jane are the same speaker.[0m
+      [36m</button>[39m
+    [36m</div>[39m
+    [36m<p[39m
+      [33mclass[39m=[32m"_feedback_56ae13"[39m
+      [33mrole[39m=[32m"status"[39m
+    [36m>[39m
+      [0mYes. You connect concrete objects to a modest interpretive claim. ‘Suggest’ leaves room for other readings instead of pretending interpretation is proof.[0m
+      [0m Your work could not be saved. Browser storage may be blocked or full; copy your response before leaving.[0m
+    [36m</p>[39m
+    [36m<label[39m
+      [33mfor[39m=[32m"jane-eyre-response"[39m
+    [36m>[39m
+      [36m<strong>[39m
+        [0mYour interpretation · short paragraph[0m
+      [36m</strong>[39m
+    [36m</label>[39m
+    [36m<p[39m
+      [33mid[39m=[32m"jane-eyre-help"[39m
+    [36m>[39m
+      [0mOptional writing: use the prompt above. Compare with the model whenever useful; no minimum length or writing grade is required.[0m
+    [36m</p>[39m
+    [36m<textarea[39m
+      [33maria-describedby[39m=[32m"jane-eyre-help"[39m
+      [33mid[39m=[32m"jane-eyre-response"[39m
+    [36m>[39m
+      [0mThe curtain is both an imposed boundary and a way for Jane to create a private reading space.[0m
+    [36m</textarea>[39m
+    [36m<button[39m
+      [33mtype[39m=[32m"button"[39m
+    [36m>[39m
+      [0mCompare with a model[0m
+    [36m</button>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"_feedback_56ae13"[39m
+    [36m>[39m
+      [36m<h4>[39m
+        [0mOne defensible response · not the only answer[0m
+      [36m</h4>[39m
+      [36m<p>[39m
+        [0mJane places herself behind a curtain with a book. The separation can be read as both exclusion and a small act of self-protection: she cannot command the household, but she can choose where to direct her attention. This does not mean she never wants companionship; the refuge matters because belonging remains difficult.[0m
+      [36m</p>[39m
+      [36m<p>[39m
+        [0mSelf-review: di...
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/app/subjects/literature/page.test.tsx:61:18
+     59|     await user.click(guide.getByRole("button", { name: /Next reading g…
+     60|     expect(guide.getByRole("status")).toHaveTextContent("could not be …
+     61|     expect(guide.getByRole('button',{name:'Continue without saving'}))…
+       |                  ^
+     62|     expect(guide.getByRole("status")).not.toHaveTextContent("Guide com…
+     63|     fail.mockRestore();
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 6 passed (7)
+   Start at  01:42:27
+   Duration  2.94s (transform 139ms, setup 48ms, import 204ms, tests 2.36s, environment 256ms)
+
