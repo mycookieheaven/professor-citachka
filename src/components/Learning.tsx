@@ -7,6 +7,7 @@ import {allTopics,getProgram,requestedUnits,topicHref,type Program} from '@/lib/
 import {resumeTopic,subjectStats,type Progress} from '@/lib/progress';
 import {recordPosition,recordStudy,retryStudySave,useStudy} from '@/lib/study-store';
 import {PronunciationControls} from './PronunciationControls';
+import {UnitPath} from './UnitPath';
 import {legacyPaths,legacyTitle} from '@/lib/legacy';
 import {assessmentHref,courseAssessments,courseUnits,lessonDestination} from '@/lib/assessments';
 import {lessonDepth} from '@/lib/lesson-depth';
@@ -55,6 +56,7 @@ export function ProgramPath({subject}:{subject:string}){
  const nextId=resumeTopic(progress,subject,allTopics(p).map(t=>t.id));
  return <section className="program-path duolingo-inspired-path" id="course-path" aria-label={`${p.title} interactive learning path`}>
   <p className="eyebrow">A clear route, built for real understanding</p><h2>Your guided study path</h2><p>Move through <strong>sections → levels → units → lessons</strong>. Each lesson is deliberately longer than a drill: it explains the idea, works through an example, gives you optional retrieval practice, and then saves your reading. Unit quizzes and level assessments come after the teaching—not every two minutes, because we are building knowledge, not training a very anxious button-pusher.</p>
+  <UnitPath subject={subject}/>
   <SubjectProgress subject={subject}/>
   <p className="scope-note">Expanded instructional sections: {allTopics(p).filter(t=>t.depth||lessonDepth[`${subject}/${t.id}`]).length} / {allTopics(p).length} published course lessons. Original explanations elsewhere remain available but are not counted as expanded. Earlier assessment banks reuse lesson questions; appended course levels have separately authored application questions and longer cumulative tests. Extended lessons and book guides retain separate reading sequences; their own multi-unit assessment maps are not yet authored.</p>
   <p className="scope-note"><strong>Published now: {courseUnits(p).filter(unit=>!p.levels[unit.levelIndex].supplemental).length} of {requestedUnits()} requested core units.</strong> These are grouped into {p.levels.filter(level=>!level.supplemental).length} published core levels, not the full requested curriculum or a professional qualification.{subject==='russian'?' Also available: one optional ten-topic strong-language sequence in two units, counted separately; these course levels are not CEFR certification.':''} The remaining units are not published, not hidden behind a paywall or presented as completed work.</p>

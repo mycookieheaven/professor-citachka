@@ -3,6 +3,7 @@ import { Nunito, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import "./learning.css";
 import "./motion.css";
+import "./unit-path.css";
 import {StudyAtmosphere} from "@/components/StudyAtmosphere";
 import {StudyCelebration} from "@/components/StudyCelebration";
 import { PinkGlitterCursor } from "@/components/PinkGlitterCursor";
