@@ -12,7 +12,7 @@ function answer(){fireEvent.click(screen.getByLabelText(p.levels[0].topics[0].an
 describe('guided learning and resume',()=>{
  it('reports the actual expanded Philosophy scope rather than a fixed introductory count',()=>{
   render(<ProgramPath subject="philosophy"/>);
-  expect(screen.getByText(/Published now: 16 of 100 requested core units/)).toBeVisible();
+  expect(screen.getByText(/Published now: 18 of 100 requested core units/)).toBeVisible();
   expect(screen.queryByText(/These are two authored/)).not.toBeInTheDocument();
  });
  it('keeps retrieval optional, persists it, and navigates immediately on the next-title arrow',()=>{
@@ -45,7 +45,7 @@ describe('guided learning and resume',()=>{
  it('shows all published topics, bounded scope and optional adult unit without fake levels',()=>{
   render(<ProgramPath subject="russian"/>);
   expect(screen.getByText('Russian swearing & strong language')).toBeVisible();
-  expect(screen.getByText(/Published now: 12 of 100 requested core units/)).toBeVisible();
+  expect(screen.getByText(/Published now: 14 of 100 requested core units/)).toBeVisible();
  });
  it('organizes the course as a guided section path with unit guidebooks, lesson nodes, review, and an assessment',()=>{
   render(<ProgramPath subject="finance"/>);

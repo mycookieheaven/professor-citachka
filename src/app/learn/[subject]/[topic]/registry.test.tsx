@@ -9,10 +9,10 @@ vi.mock('next/navigation',()=>({useRouter:()=>({push:vi.fn()}),notFound:()=>{thr
 it('registers the reviewed continuation level for every course, keeping Russian first and Funding second',()=>{
  expect(programs.slice(0,2).map(p=>p.id)).toEqual(['russian','business-funding']);
  const core=(id:string)=>courseUnits(getProgram(id)!).filter(u=>!getProgram(id)!.levels[u.levelIndex].supplemental).length;
- expect(core('russian')).toBe(12);expect(core('business-funding')).toBe(16);expect(core('philosophy')).toBe(16);
-  for(const id of ['literature','neuroscience','veterinary-science','theology','finance','music','psychiatry'])expect(core(id)).toBe(10);
-  expect(core('skincare')).toBe(8);
-  expect(allTopics(getProgram('russian')!).map(t=>t.id)).toContain('70');
+ expect(core('russian')).toBe(14);expect(core('business-funding')).toBe(18);expect(core('philosophy')).toBe(18);
+  for(const id of ['literature','neuroscience','veterinary-science','theology','music','psychiatry'])expect(core(id)).toBe(12);
+  expect(core('skincare')).toBe(10);expect(core('finance')).toBe(10);
+  expect(allTopics(getProgram('russian')!).map(t=>t.id)).toContain('80');
  expect(generateStaticParams()).toContainEqual({subject:'business-funding',topic:'60'});
 });
 it('renders original funding lessons with the specialized renderer and new funding lessons with the generic depth renderer',async()=>{
