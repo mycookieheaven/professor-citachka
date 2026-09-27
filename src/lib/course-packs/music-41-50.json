@@ -1,0 +1,686 @@
+{
+  "subject": "music",
+  "levels": [
+    {
+      "title": "Hearing harmony in practice, arranging the parts, and finishing the piece",
+      "units": [
+        {
+          "title": "How harmony moves: function, the fifths, borrowed colour, bass and the rhythm section",
+          "lessons": [
+            {
+              "id": "41",
+              "title": "Name what each chord is doing, not only what it is",
+              "explanation": "You can already build the diatonic triads of a key and label them with Roman numerals. This lesson adds the layer that makes those labels useful: function, the job a chord performs in a phrase. Open Music Theory divides chords into three functions. Tonic function is the stable centre, and in major or minor it is the I or i chord. Predominant function moves away from the centre toward the dominant, and it splits in two: strong predominants, IV and ii, signal that the dominant is imminent, while weak predominants, iii and vi, leave the centre without yet demanding a return. Dominant function creates urgency to resolve, and it is V and vii. The phrase model is simply the typical order in which those functions flow: tonic, then predominant, then dominant, then tonic. Reading a progression by function is more useful than reading it by identity because it tells you what the listener expects next. Two loops may share three chords and feel completely different, because the same chord in a different position does a different job.",
+              "example": "Work in C major, one chord per bar at 100 beats per minute, where a bar lasts 2.4 seconds and a four-bar loop lasts 9.6 seconds. First, C, F, G, C. Functionally that is tonic, strong predominant, dominant, tonic: the model in its plainest form, and the last chord is an arrival because the dominant has demanded it. Now reorder the inner two chords: C, G, F, C. Same four pitch collections, completely different effect, because the dominant now arrives before the predominant and the phrase model runs backwards against the listener's expectation. Third, write the singer-songwriter schema from the pop chapter, vi, IV, I, V, which in C is A minor, F, C, G. Here the loop begins on a weak predominant, reaches tonic only in third position, and ends on the dominant, which is precisely why it can repeat without ever sounding finished. Fourth, take the same four numerals and read them from the relative minor, A minor, where they become i, VI, III, VII: A minor, F, C, G. The notes are identical and the functional description is not.",
+              "question": "In C major a progression moves C, A minor, F, G. Which chord carries strong predominant function, and which carries dominant function?",
+              "answer": "F is the strong predominant and G is the dominant",
+              "distractor": "A minor is the strong predominant and F is the dominant",
+              "correction": "Strong predominants are IV and ii, so F is the strong predominant. A minor is vi, a weak predominant that moves away from the centre without directly demanding a return. The dominant function belongs to G, which is V, and it is the chord whose resolution the listener expects.",
+              "depth": {
+                "definitions": "Harmonic function is the role a chord plays relative to a tonic, not a description of its mood. Tonic function is stability and return; predominant function is departure in preparation for arrival; dominant function is tension that expects resolution. A strong predominant is IV or ii; a weak predominant is iii or vi. The phrase model is the conventional left-to-right flow of those functions, and the source states that phrases almost always progress in that direction rather than the reverse. A cadence is a gesture of closure: an authentic cadence is V-I and a half cadence ends on V. A phrase is a unit of musical thought, and a schema is a stock progression shared by many songs. Prerequisites are the diatonic triads and Roman numerals from lesson 34 and the key-signature derivations from lesson 33.",
+                "mechanism": "The reason function rather than identity predicts what comes next is that function is defined by direction: the source organises the phrase model around a left-to-right gradient from stability through departure to tension. A listener tracks that gradient, so a chord placed out of order reads as a delay or a surprise rather than as an error. Three limits follow. First, a functional analysis assumes a key, so a loop that never settles on a clear tonic resists it; pop music often repeats four chords cyclically without any cadence, which the schema table documents as normal rather than deficient. Second, function says nothing about voicing, register, or rhythm, all of which can make the same function sound weighty or weightless. Third, the three-category scheme is a model of common-practice and pop practice, not a law: modal writing, blues, and much electronic music run on other organising principles, and a learner who forces those into the model will invent progressions that do not exist on the recording.",
+                "secondExample": "A contrasting case is the same three functions in minor, because there the dominant is not automatic. In A minor the natural-minor triads give a minor v on the fifth degree, E minor, which does not contain the leading tone that creates the pull home. Raise the seventh degree from G to G sharp and v becomes V, E major, which is why minor-key progressions routinely show both v and V and why the numeral carries a case change rather than a new letter. Follow that with the lament schema from the pop chapter, i, flat VII, flat VI, V, which in A minor is A minor, G, F, E: here the departure is a stepwise descent through borrowed-sounding chords rather than a IV to ii motion, yet the final V still carries dominant function. Then compare a plagal close, IV to I, which arrives without any dominant at all. The same listener who expects V-I will accept F to C as an ending because the schema is familiar, which shows that expectation is learned from repertoire rather than built into the intervals.",
+                "mistake": "Three misconceptions recur. The first treats the labels as moods and then works backwards: a minor key is assumed to be sad, so an animated minor-key passage is called an analysis error. The check is structural, not emotional; name the tonic, assign the functions, and only then describe what you hear. The second hears a chord as its numeral and forgets that position decides function, so a V that never resolves is still called a dominant and a plagal IV-I close is reported as authentic. The diagnostic is to ask what the passage expects next and whether that expectation is met. The third reads every four-chord loop from a major tonic, so the singer-songwriter schema is analysed as vi-IV-I-V when the song itself treats the first chord as home. Play the loop twice, once with each chord emphasised in turn, and notice how the sense of home moves.",
+                "application": "For a five-minute nonblocking task, take one four-chord loop you can already play and write it three ways: as Roman numerals in a major key, as the same numerals read from the relative minor, and as a function column using the letters T, PD and D. Then play it at 100 beats per minute with one chord per bar, which is 2.4 seconds each and 9.6 seconds for the loop, and write one sentence saying which position feels least settled and why. The rubric asks for correct numerals in both readings, a function letter for every chord, correct arithmetic for the loop duration, one observation about position rather than about mood, and a playable rendition or a stated alternative. A model report reads: C F G C reads tonic, strong predominant, dominant, tonic; the same chords read from A minor are III, VI, VII, III, and the G in third position is the only chord that sounds unfinished because nothing follows it that resolves. If playing is uncomfortable, sequence the loop as note data and keep the same written analysis.",
+                "summary": "Function converts a list of chords into a trajectory with a direction. From here you can predict endings, diagnose why a loop will not close, and describe a progression in a way that survives transposition into any key. The next lesson turns to the tool that generates the strongest of all those motions, the fifthwise root movement that the circle of fifths describes, and treats that circle as a working method for finding keys, spelling them, and building progressions rather than as a poster to memorise."
+              },
+              "readings": [
+                {
+                  "title": "[30] Open Music Theory — Introduction to Harmony, Cadences, and Phrase Endings",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony",
+                  "note": "Read the Key Takeaways, then the sections Introduction to Harmony and Introduction to Cadences. The Key Takeaways define authentic and half cadences, and the harmonic-function list gives the exact three categories, with strong and weak predominants named, that this lesson uses."
+                },
+                {
+                  "title": "[31] Open Music Theory — Introduction to Harmonic Schemas in Pop Music",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-pop-schemas",
+                  "note": "Read the opening paragraphs and the schema table. Use the Singer/Songwriter row for the vi-IV-I-V loop and its rotations, and the Circle-of-fifths and Plagal rows when the next lesson asks why one root motion feels more directed than another."
+                }
+              ],
+              "visual": {
+                "title": "Name what each chord is doing, not only what it is — reasoning sequence",
+                "description": "The same pitch collections become different trajectories when their functions are reordered.",
+                "steps": [
+                  "Establish tonic: C major, one chord per bar at 100 BPM, bar = 2.4 s, loop = 9.6 s.",
+                  "Assign functions: I = tonic, IV = strong predominant, ii = strong predominant, iii and vi = weak predominant, V and vii = dominant.",
+                  "Order for arrival: C (T) -> F (PD) -> G (D) -> C (T); the closing chord is heard as an arrival.",
+                  "Reorder and compare: C (T) -> G (D) -> F (PD) -> C (T) delays the probable return.",
+                  "Same chords read from the relative minor: vi-IV-I-V becomes i-VI-III-VII, identical pitches, different trajectory."
+                ]
+              }
+            },
+            {
+              "id": "42",
+              "title": "Use the circle of fifths as a working tool rather than a diagram",
+              "explanation": "The circle of fifths arranges the twelve major keys by how many accidentals they carry, each neighbouring key a perfect fifth away. It is not an image to memorise but a procedure with three practical outputs. The first is navigation: the keys nearest a given key share nearly all of its notes, so they are the keys a piece is most likely to move to and the region from which borrowed chords come. The second is spelling: moving clockwise from C adds sharps in the fixed order F, C, G, D, A, E, B, and moving anticlockwise adds flats in the reverse order, so you can name the altered note of any key by counting steps rather than reciting a list. The third, and the one this level depends on, is that fifthwise root motion is the strongest directed progression available to you: when chord roots fall by a fifth or rise by a fourth, the motion sounds purposeful, and the pop chapter lists a circle-of-fifths schema precisely because it recurs so often. A circle is a method for answering questions about keys and root motion. If it answers nothing, you are reading it as decoration.",
+              "example": "Derive the whole circle from scratch without looking one up. Begin at C, zero accidentals. Each clockwise step raises the tonic a perfect fifth and adds one sharp: G has one sharp, F sharp; D has two, F sharp and C sharp; A has three; E has four; B has five; F sharp has six; C sharp has seven. Each anticlockwise step lowers the tonic a fifth and adds one flat: F has one flat, B flat; B flat has two; E flat has three; A flat has four; D flat has five; G flat has six; C flat has seven. The relative minor of each major key sits three semitones below its tonic on the same signature, which is where E minor, B minor and F sharp minor come from. Now check the arithmetic that makes the circle close. In equal temperament a perfect fifth is 700 cents, so twelve of them measure 12 times 700, which is 8400 cents, and seven octaves measure 7 times 1200, which is also 8400 cents: the twelve steps return exactly to the starting pitch class. A pure 3 to 2 fifth measures about 701.955 cents, and twelve of those total about 8423.46 cents, roughly 23.46 cents wider than seven octaves. That difference is the reason equal temperament exists. Finally play the fifthwise loop found in the schema table: in C, Am, Dm, G, C, roots falling A to D to G to C. At 96 beats per minute a bar lasts 2.5 seconds, so one pass takes 10 seconds and two passes 20 seconds.",
+              "question": "Starting from C major with no accidentals, which key lies four steps clockwise, and how many sharps does it carry?",
+              "answer": "E major, with four sharps",
+              "distractor": "A major, with four sharps",
+              "correction": "Counting clockwise from C: one step is G, two is D, three is A, four is E. E major carries four sharps, F sharp, C sharp, G sharp and D sharp. A major is only three steps from C and carries three sharps, so the key name and the accidental count must agree.",
+              "depth": {
+                "definitions": "A perfect fifth is seven semitones, or 700 cents in equal temperament. A key signature is the notational list of altered notes belonging to a key, and its contents follow a fixed order: sharps appear as F, C, G, D, A, E, B and flats as the reverse. Relative keys share a signature and differ by a minor third in tonic; parallel keys share a tonic and differ in signature. Enharmonic spellings name the same sounding pitch with different letters, as F sharp major and G flat major do. A cent is one hundredth of an equal-tempered semitone, which lets the difference between a pure and a tempered fifth be stated as a number. In a sequence, the model is the first statement of a pattern and a copy is each transposition of it. Prerequisites are key signatures, the order of sharps and flats, and the diatonic triads from lessons 32 to 34.",
+                "mechanism": "The mechanism is that a fifthwise root motion reproduces, in the chord roots, the interval that generates the key collection itself: each new sharp in a signature is added a fifth above the previous one, so the scale and the strongest progression are built from the same relationship. When roots descend by fifth, each chord contains a note that wants to move into the next, which produces continuity without any need for a cadence. The source calls this a descending fifths sequence and gives the naming caveat that the same pattern may be called circle-of-fifths in other conventions; it also notes that the pattern is called descending fifths because each root descends by fifth or ascends by fourth, which are the same interval inverted. Two limits matter. First, directedness is a stylistic expectation, not a physical law: a pop loop may avoid fifthwise motion entirely, as the subtonic shuttle I to flat VII does, and still sound complete. Second, the circle closes exactly only in equal temperament. The 23.46-cent shortening of each pure fifth is the compromise that lets one keyboard play in every key, and a player who tunes a fifth by ear to pure will find the circle failing to close at all.",
+                "secondExample": "Contrast the circle used as a key-finding tool with the circle used as a sequencing tool. For key finding, take a song whose chords are G, Em, C, D and ask which key contains all four: G major does, with D as the dominant and Em as the relative minor of the tone centre, so the sheet with one sharp is the right one. For sequencing, use the writing procedure the sequences chapter recommends: write the whole model first, then write the entire first chord of the first copy, then follow the interval pattern to fill the remaining copies. Applied to a descending fifths model of two chords, the model might be Am to Dm and the first copy Dm to G, each root a fifth lower, so the shape is established before it is repeated. The point of the contrast is that the same underlying relationship answers two very different questions, and neither requires you to recite the picture. A practical third use is transposition: transposing the schema vi-ii-V-I from C to G gives Em, Am, D, G, and the numerals are the evidence that the shape was preserved while the letters changed.",
+                "mistake": "Four errors are common. The first recites the circle as a memorised ring and then cannot answer a question one step off the ring, such as which key is six steps clockwise; derive the tonic by counting fifths every time until the facts become automatic. The second confuses the order of sharps with the order of flats and invents a signature that does not exist; the flat order is the sharp order reversed, and writing both out side by side prevents it. The third assumes that a key signature is a permission list, so a chromatic note is called a mistake rather than an applied chord or a borrowed chord, which the next lesson addresses. The fourth assumes fifthwise motion is classical and therefore cannot sound contemporary; the pop schema table lists it among the standard progressions, and a loop that never resolves is entirely normal.",
+                "application": "For a five-minute nonblocking task, write the circle twice from memory: once as tonic names in clockwise order with the accidental count beside each, and once as the two accidental orders written out in full. Then derive three keys you did not already know, state each relative minor by subtracting three semitones, and play a fifthwise loop in two of them at 96 beats per minute, one chord per bar, which is 2.5 seconds per bar and 10 seconds per pass. The rubric asks for a correctly derived accidental count, three keys with their relative minors, the fifthwise loop transposed rather than re-learned, correct timing arithmetic, and at least one sentence about which version was physically easier and why. A model report reads: four steps clockwise from C is E major with four sharps, its relative minor is C sharp minor, and the fifthwise loop Em, Am, D, G was easier than in C because three of the shapes were open chords. Keep the derivation next to the recording so the reasoning and the sound stay connected.",
+                "summary": "The circle is a compact statement of two facts you can use immediately: which keys are close to yours, and which root motions will sound directed. Having used it to find and spell keys, you can now treat an unexpected chromatic chord as information rather than as an error. The next lesson asks what those chords are doing, why a chord borrowed from the parallel minor produces the effect it does, and how to describe that effect structurally instead of calling it dark."
+              },
+              "readings": [
+                {
+                  "title": "[32] Open Music Theory — Diatonic Sequences in Middles",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/diatonic-sequences/",
+                  "note": "Read the Key Takeaways, then the section Descending fifths (a.k.a. circle-of-fifths). It defines the sequence, the model and the copy, gives the naming caveat about alternative labels, and explains that the pattern is named for descending fifths which are ascending fourths inverted."
+                },
+                {
+                  "title": "[10] Open Music Theory — Major Scales, Scale Degrees, and Key Signatures",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/major-scales/",
+                  "note": "Re-read only the Key Signatures and The Circle of Fifths sections. That subsection is where the last-sharp and second-to-last-flat rules live, and it is the source for the accidental-counting procedure used in this lesson's example."
+                }
+              ],
+              "visual": {
+                "title": "Use the circle of fifths as a working tool rather than a diagram — reasoning sequence",
+                "description": "Keys are derived by counting fifths, and the same relationship generates directed root motion.",
+                "steps": [
+                  "Clockwise from C: G (1 sharp), D (2), A (3), E (4), B (5), F sharp (6), C sharp (7).",
+                  "Anticlockwise from C: F (1 flat), B flat (2), E flat (3), A flat (4), D flat (5), G flat (6), C flat (7).",
+                  "Relative minor: three semitones below each tonic on the same signature; E minor sits under G major.",
+                  "Check closure: 12 equal-tempered fifths = 12 x 700 = 8400 cents = 7 x 1200, so the circle closes exactly.",
+                  "Apply: fifthwise loop in C is Am - Dm - G - C; at 96 BPM a bar is 2.5 s and a pass is 10 s."
+                ]
+              }
+            },
+            {
+              "id": "43",
+              "title": "Borrowed chords and why they sound the way they do",
+              "explanation": "Modal mixture, also called borrowing, is the technique of taking notes from the parallel key, meaning the key with the same tonic and the other mode. In C major you borrow from C minor, and the three pitches that differ are the lowered third, E flat, the lowered sixth, A flat, and the lowered seventh, B flat. The source states the crucial consequence plainly: mixture changes the quality of a chord, but not its function. So the borrowed iv is still a predominant and continues to prepare a dominant exactly as the diatonic IV did. Because only one or two pitches change, the listener hears the same key with a different colour rather than a departure into a new key, which is why mixture is a local effect and not a modulation. Chords whose root is itself lowered take a flat sign before the Roman numeral, so the lowered sixth degree triad in C major is written flat VI. This is the first lesson in the level where a chord arrives that your key signature does not contain, so it is also where the circle from lesson 42 pays off: borrowed chords come from the parallel mode, which is one step away, not from a distant key.",
+              "example": "Count the borrowed notes in four chords and the explanation writes itself. Write the progression I, IV, iv, I in C major: C, F, F minor, C, one chord per bar at 84 beats per minute, where a bar lasts about 2.857 seconds and the four bars last about 11.43 seconds. Spelled out, F minor is F, A flat, C. Only one of its three notes is borrowed, the A flat, which is the lowered sixth degree. Now flat VI: A flat, C, E flat. Here two notes are borrowed, A flat and E flat. Then flat VII: B flat, D, F, again one borrowed note, B flat. And flat III: E flat, G, B flat, two borrowed notes. The pattern is worth stating as a rule of thumb rather than a law: chords built on lowered roots tend to borrow two scale degrees, while chords that keep a diatonic root and lower an internal note borrow one. That is why iv can slip past almost unnoticed inside a major-key phrase while flat VI announces itself. Try the same counting in A minor, where the parallel key is A major and the borrowed notes are C sharp, F sharp and G sharp, and the borrowed IV becomes a major chord. Play C, F, F minor, C and then transpose the same shape to F major as F, B flat, B flat minor, F, and note that the borrowed note is now D flat rather than A flat.",
+              "question": "In C major a progression inserts the chord iv before returning to I. Which scale degree is borrowed, and how is the chord spelled?",
+              "answer": "The lowered sixth degree, A flat, giving the chord F, A flat, C",
+              "distractor": "The lowered third degree, E flat, giving the chord F, A flat, E flat",
+              "correction": "F minor retains the diatonic root F and the diatonic fifth C, so exactly one note is altered, the third of the chord, which is the lowered sixth degree of the key, A flat. The erroneous spelling also lowers the fifth and produces a different chord entirely, which is why chords are counted note by note against the parallel minor rather than described by impression.",
+              "depth": {
+                "definitions": "Modal mixture, or borrowing, is the use of scale degrees from the parallel key within a passage that remains in the original key. The parallel key shares the tonic and changes the mode; the relative key shares the signature and changes the tonic. In major keys the three borrowed degrees are the lowered third, sixth and seventh, conventionally written with downward arrows in solfege analysis. A Roman numeral with a flat sign before it indicates that the chord root is lowered by a semitone from its diatonic position rather than that the chord is literally a flat chord. A plagal progression is IV to I, and the source's schema table lists a plagal sigh variation, IV to iv to I. An applied chord, by contrast, temporarily tonicises a degree other than the tonic; it is a different phenomenon from mixture because it does not borrow from the parallel mode. Prerequisites are the diatonic triads and Roman numerals from lesson 34 and the parallel-versus-relative distinction from lesson 33.",
+                "mechanism": "Why does a borrowed chord sound the way it does? The listener carries an expectation of the major collection formed over the preceding bars. A borrowed chord contradicts one or two of those expected pitches inside an otherwise unchanged progression, so the contradiction is perceived as colour applied to the existing key rather than as a movement to a new tonal centre. Confirming evidence is the source's own statement that mixture can occur in a melody alone, in one chord, across several chords, or even as part of an extended tonicisation or modulation; the graduated list shows that the technique scales from a single accidental to a structural change. The limits are equally clear. First, a chord used as mixture in one style is ordinary in another: the flat VII chord that colours a rock chorus is a stock member of the Aeolian shuttle rather than an expressive exception. Second, mixture does not change function, so a borrowed predominant cannot substitute for a dominant if you want an authentic ending. Third, a long passage on borrowed degrees stops sounding borrowed and starts sounding like a modulation, at which point the analysis changes rather than the notes.",
+                "secondExample": "A contrasting application reverses the direction of borrowing and shows that the effect is directional. In A minor, borrow from the parallel major: raise the third, sixth and seventh degrees to C sharp, F sharp and G sharp. The subdominant iv, spelled D, F, A in minor, becomes D, F sharp, A, that is a major IV, and the fifth chord v becomes V, because the borrowed seventh degree supplies the leading tone that natural minor lacks. Compare that with the more familiar direction, major borrowing from minor, where the borrowed chords tend to feel weightier or more plaintive. The analytical point is the same in both directions: mixture changes quality without changing function, so a borrowed major IV in minor still prepares the dominant. Now take the lament schema from the pop chapter, i, flat VII, flat VI, V, and transpose it to C minor as Cm, B flat, A flat, G: every chromatic chord there is a stock member of the minor collection rather than a borrowed exception, which shows how style rather than theory decides whether a flat sign reads as colour or as home.",
+                "mistake": "Three errors recur. The first calls a borrowed chord wrong because it is not in the key signature; the diagnostic is to spell the chord against the parallel minor and see whether every altered note is a lowered third, sixth or seventh, in which case the chord is ordinary mixture and not a mistake. The second confuses mixture with modulation and starts using a new key signature after a single borrowed chord; a modulation requires the new tonic to be established, and one coloured chord does not establish anything. The third reduces the effect to a mood label and calls the chord sad or dark, which makes it impossible to predict or reproduce; the structural description is what a co-performer can act on, so say which note was lowered and which function the chord still performs. A fourth, quieter error appears when the chord is written but the bass is not adjusted, so the intended bass line steps to a pitch the chord does not contain; check the bass note against the chord members before deciding the chord is wrong.",
+                "application": "For a five-minute nonblocking task, take a four-chord progression you already control and produce three versions: the diatonic original, one with a single borrowed chord substituted in place of a diatonic chord of the same function, and one with a borrowed chord added rather than substituted. For each version, write the chord spelling, mark which scale degree is borrowed, and state the function the borrowed chord performs. Play all three at a slow tempo such as 84 beats per minute, one chord per bar, which is about 2.857 seconds per bar and about 11.43 seconds for four bars. The rubric asks for correct spellings, borrowed degrees marked against the parallel key, functions preserved rather than invented, and one listening sentence that describes what changed without using a mood word alone. A model report reads: the third version substitutes F minor for F before C, one note moves, A to A flat, the dominant is still prepared in the same place, and the effect is a momentary shadow that resolves rather than a change of key.",
+                "summary": "Mixture is the clearest demonstration that function and colour are separable: the job a chord does can stay fixed while the pitch content is altered by one or two notes. You can now explain a chromatic chord structurally instead of describing it impressionistically, and you can place a borrowed chord deliberately rather than by accident. The next lesson turns to the lowest part of the texture, where the bass note determines which member of the chord the listener hears as the anchor, and where a single inversion can change an entire progression's smoothness without changing a single chord."
+              },
+              "readings": [
+                {
+                  "title": "[33] Open Music Theory — Modal Mixture",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/modal-mixture",
+                  "note": "Read the Key Takeaways first, including the statement that mixture changes a chord's quality but not its function and the flat-sign convention for lowered roots. Then read Chords with le only, which covers ii, ii half-diminished and iv, and Altering Chord Roots, which covers flat VI, flat III and flat VII."
+                },
+                {
+                  "title": "[14] Open Music Theory — Four-Chord Schemas",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/4-chord-schemas/",
+                  "note": "Read the schema entries again with mixture in mind. The plagal sigh variation and the lament schema given here are the two places where a borrowed chord is part of the pattern rather than an added colour."
+                }
+              ],
+              "visual": {
+                "title": "Borrowed chords and why they sound the way they do — reasoning sequence",
+                "description": "Count borrowed notes against the parallel minor and keep the function unchanged.",
+                "steps": [
+                  "Parallel key of C major is C minor; the three differences are E flat (down-3), A flat (down-6), B flat (down-7).",
+                  "iv in C: F, A flat, C — one borrowed note (the lowered sixth).",
+                  "Flat VI in C: A flat, C, E flat — two borrowed notes. Flat VII in C: B flat, D, F — one.",
+                  "Function check: iv remains a predominant, so the dominant and the return are still in the same positions.",
+                  "Timing: one chord per bar at 84 BPM = about 2.857 s per bar and about 11.43 s for four bars."
+                ]
+              }
+            },
+            {
+              "id": "44",
+              "title": "Let the bass line tell you what the harmony is doing",
+              "explanation": "The bass is the lowest sounding part, regardless of which instrument or voice produces it, and it does two jobs at once. It selects which member of a chord the listener hears as the anchor, and it creates the motion between chords. Open Music Theory states the first job directly: the bass voice of triadic harmonies determines inversion, and a chord that does not have its root in the bass is inverted. When the third is in the bass the chord is in first inversion, when the fifth is in the bass it is in second inversion. The source is equally direct about the second half of the idea: the bass voice is not the same thing as the chord's root, because the root of an A major triad is always A whether the triad is in root position, first inversion or second inversion. Chord symbols express this with a slash: A over C sharp means an A major triad with C sharp in the bass. In the layered model of pop texture, bass-register instruments form the functional bass layer, and that layer supplies the harmonic foundation for the track. Practically, this means a chord change and a bass change are separate decisions, and a bass line that moves smoothly can make a clumsy progression sound inevitable.",
+              "example": "Take a four-chord loop, C, G, A minor, F, one chord per bar at 100 beats per minute, so a bar lasts 2.4 seconds and the loop lasts 9.6 seconds. In root position the bass line is C, G, A, F: two leaps of a fifth and a leap of a third, which draws attention to the bass at every change. Now invert only the second chord: write it as G over B, meaning the bass moves to B, the third of G. The bass line becomes C, B, A, F, a stepwise descent through the first three changes, and the harmony is unchanged: the chord on bar two is still a G triad. Now invert the fourth chord as F over A, so the bass becomes C, B, A, A and the last two bars hold one bass note while the harmony still changes. Spell the inverted chords to check the arithmetic rather than trusting the labels: G is G, B, D, so G over B has B in the bass and is in first inversion; F is F, A, C, so F over A has A in the bass and is also in first inversion. Three of the four chords now share a smooth or static bass line, and the progression has not gained or lost a single pitch class.",
+              "question": "A chord symbol reads G over B and the chord contains the notes G, B and D. What does the slash indicate, and what is the chord's root?",
+              "answer": "The bass note is B, which makes it a first inversion of G, and the root is still G",
+              "distractor": "The chord has become a B major triad with a G added underneath",
+              "correction": "The slash names the pitch in the bass, not the root. Because B is the third of the G triad, the chord is in first inversion, and its root remains G. Reading the lowest sounding note as the root is the error that the source warns about explicitly.",
+              "depth": {
+                "definitions": "The bass, or bass voice, is the lowest part of the music whatever instrument plays it. Inversion describes which chord member is in the bass: root position has the root lowest, first inversion has the third lowest, second inversion has the fifth lowest. The root is the note the chord is built from and named after; it does not change when the inversion changes. A slash chord names a chord followed by its bass pitch. A chord symbol states a chord's root, quality and inversion rather than a fingering, so the same symbol may be realised in many voicings. The functional bass layer in pop texture is the group of bass-register instruments that supplies harmonic foundation. Voice leading is the way individual parts connect from chord to chord. Prerequisites are the triads and Roman numerals from lesson 34, the common-tone connection work from lesson 24, and the function labels from lesson 41.",
+                "mechanism": "Why does the bass carry so much weight while the upper parts can be rearranged freely? The bottom of the texture is where the ear locates harmonic ground, so the lowest sounding pitch is the note against which the other notes are measured as consonant or dissonant, stable or tense. Changing the bass therefore changes the perceived stability of the chord without altering a single note above it. This is also why a bass line can disguise a weak progression: a stepwise bass connects chords that would otherwise sound abrupt, because the listener tracks the moving line rather than the chord labels. Two limits are worth stating. First, the source's inversion labels apply to triadic and seventh-chord harmony in the common-practice and pop systems it describes; a bass motion in a drone-based or modal tradition may not be helpfully described as an inversion at all. Second, a bass line is not free: it must state enough of the chord to keep the harmony audible, since a bass that wanders onto non-chord tones for too long makes the chord identity uncertain, which is why passing and neighbour notes in bass lines are normally brief.",
+                "secondExample": "Contrast a bass line that defines the chord with one that deliberately obscures it. In the first case, take the same loop in F major instead of C: F, C, D minor, B flat, and invert the second chord as C over E so the bass reads F, E, D, B flat, again a stepwise descent of a third at the start. The harmony still moves I, V, vi, IV and the bass notes are all chord members. In the second case, keep the chords and give the bass a repeated pedal on F, the tonic, so the bass no longer changes with the harmony. The listener now hears F as the permanent ground and the upper chords as colours against it, which is a legitimate arrangement choice and a genuinely different harmonic effect: the same chords, a different sense of where home is. Notice that the second version can no longer be described accurately by inversion labels, because the bass is not a chord member of most of the chords; the correct description is a pedal or drone with changing upper voices.",
+                "mistake": "Three errors recur. The first names the chord after the bass note, so a first-inversion triad is relabelled after its lowest pitch; the diagnostic is to restack the chord in thirds, read root and quality, and then report the bass separately. The second assumes that a smooth bass line is always better, and moves the bass onto pitches that make the harmony ambiguous; check that each bass note is a member of its chord unless it is a deliberate short passing tone. The third answers a bass problem by re-voicing the upper parts, which changes the chord's character rather than its direction; if the harmonic motion feels abrupt, the fix belongs to the bass. A fourth, quieter error is presentational but consequential: writing a slash chord without checking which note it produces, so a chart asks for a bass note the chord does not contain, which players then either ignore or play wrongly.",
+                "application": "For a five-minute nonblocking task, choose a four-bar progression and write three bass versions: all root position, one chord inverted, and a deliberate pedal. For each version write the bass note on every bar, name the inversion where one applies, and state whether each bass note is a chord member. Play or program the three and listen for where the motion feels connected rather than merely correct. The rubric asks for correctly named inversions, bass notes that are chord members except in the pedal version, a stated reason why one version was preferred, and correct timing arithmetic: at 100 beats per minute a bar is 2.4 seconds and four bars are 9.6 seconds. A model report reads: inverting the second chord turned a fifth-leap into a step and the loop became smoother without any change to the chords; the pedal version stopped sounding like a progression and started sounding like a texture, so I kept it for a later section rather than for the main loop.",
+                "summary": "The bass is where harmony becomes audible as direction rather than as a list. You can now separate two decisions that beginners usually fuse: which chord is sounding, and which of its notes is underneath. The next lesson moves from one part to the whole rhythm section, asking what each group of instruments is for, and why a guitar and a keyboard in the same register and the same role will always sound muddy no matter how well each is played."
+              },
+              "readings": [
+                {
+                  "title": "[34] Open Music Theory — Inversion",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/inversion",
+                  "note": "Read the Key Takeaways and the section Triadic Inversion, including the root and bass summary table. The sentence stating that the bass voice is not the same thing as the chord's root, and the slash-chord convention, are both there and are the basis for this lesson's example."
+                },
+                {
+                  "title": "[35] Open Music Theory — Texture in Pop Music",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/texture-in-pop-music",
+                  "note": "Read the definition of the functional bass layer near the top. It describes bass-register instruments as providing the harmonic foundation for the track, which is the arrangement-level version of what the inversion chapter states theoretically."
+                }
+              ],
+              "visual": {
+                "title": "Let the bass line tell you what the harmony is doing — reasoning sequence",
+                "description": "Chord identity and bass note are tracked as two separate decisions.",
+                "steps": [
+                  "Loop: C - G - Am - F at 100 BPM; bar = 2.4 s, loop = 9.6 s.",
+                  "Root position bass: C, G, A, F; each chord's root is also its lowest note.",
+                  "Invert bar two to G over B: chord members G, B, D; bass B; first inversion; root still G.",
+                  "Invert bar four to F over A: chord members F, A, C; bass A; the line becomes C, B, A, A.",
+                  "Pedal variant: hold F in the bass under all four chords; inversion labels no longer apply."
+                ]
+              }
+            },
+            {
+              "id": "45",
+              "title": "Give the rhythm section separate jobs so guitar and keys stop fighting",
+              "explanation": "Open Music Theory describes pop texture as a set of functional layers rather than with the traditional terms monophony, homophony, polyphony and heterophony, which the chapter notes were developed for classical music and do not explain pop well. The layers are the melodic layer, usually the voice plus bright melodic instruments; the harmonic filler layer, typically keyboards, synthesizers and guitars, which thickens the texture and supplies harmonic context; the functional bass layer of bass-register instruments; the explicit beat layer, which articulates the meter and pulse and includes most percussion; and, added by later work, a novelty layer that works against the melodic layer with call-and-response or interjections and often uses timbres that resist blending. The practical consequence for a guitarist who also plays keys is uncomfortable and useful: guitar and keyboard are both default members of the harmonic filler layer, so by default they occupy the same function, the same register and the same rhythmic space. They are not competing because someone played badly; they are competing because the arrangement gave them the same job. Redistributing roles is a composing decision, and it is the first thing to change, before any level or equalisation work.",
+              "example": "Assign explicit roles for an eight-bar section at 96 beats per minute, where a bar lasts 2.5 seconds and eight bars last 20 seconds. Explicit beat layer: kick drum on beats one and three, snare on two and four, which the drumbeats chapter calls the backbeat, defined as an accented articulation on beats two and four in quadruple meters, usually played by the snare; closed hi-hat on every eighth note. Functional bass layer: the chord root on the first beat of each bar, in the bass register. Harmonic filler layer, split in two: the guitar plays short two-note chords on the offbeats, and the keyboard holds one sustained note at a time an octave above the guitar figure. Melodic layer: a single-line melody that enters in the second four bars. Now test the split before accepting it. Play guitar and keys alone with the beat muted and listen for whether the pad covers the guitar's attacks; if it does, change one variable only. Register: move the pad up an octave, which doubles its frequency, so a note at about 262 hertz becomes about 523 hertz and the guitar's strand clears. Density: reduce the pad from three notes to one. Rhythm: let the pad hold while the guitar moves, or invert that. Only after one arrangement change has been judged should level, panning or equalisation be considered.",
+              "question": "A guitarist and a keyboardist both play sustained chords in the same register through a whole song, and the mix sounds cloudy. Following the functional-layer model, what should change first?",
+              "answer": "Their roles and registers within the harmonic filler layer, so the two parts no longer occupy the same function and range",
+              "distractor": "Their stereo positions, since both belong to the harmonic filler layer and can be separated by panning alone",
+              "correction": "Both parts sit in the harmonic filler layer by default, so the collision is structural rather than a mixing fault. Panning does not separate them once the channels are combined for a mono listener, whereas a change of register, density or rhythmic role survives every playback system. Level and equalisation come afterwards, as refinements.",
+              "depth": {
+                "definitions": "A functional layer is a group of instruments that together perform one role in the texture, and the source notes that a layer may be one instrument or several. The five layers are melodic, harmonic filler, functional bass, explicit beat and novelty. Texture describes which kinds of part are sounding and how they relate; density is how much happens at once; register is the range of pitches a part occupies. The backbeat is an accented articulation on beats two and four in quadruple meters, usually on the snare drum. Masking is one sound reducing the audibility of another in the same frequency region and time. Doubling is two parts playing the same material, which thickens one line rather than adding a second role. Prerequisites are the masking work from lesson 39 and the bass discussion from lesson 44.",
+                "mechanism": "Why does the layer model prevent collisions that mixing cannot? Because a collision between a guitar and a keyboard is usually a redundancy at the level of function: two instruments doing the same job, in the same register, at the same moments. The source frames layers as an analytical tool for understanding how a texture is constituted, and the same analysis works prescriptively: if two instruments occupy one layer, the composite is one thicker voice rather than two voices, and thickness in a single band crowds out everything else. Splitting them into different roles, or into different sub-registers of the same role, restores two distinguishable strands. The limits matter too. Layers are not genres: the chapter states that a layer can be fulfilled by several instruments and that the practice varies widely with genre, so a rule such as keyboards should always play high is not supported. And the model describes texture, not quality: correctly layered parts can still be poorly played, badly tuned or unsuitable for the song.",
+                "secondExample": "Contrast a deliberate collision with an accidental one. In the second verse of a rock arrangement the guitar and the keyboard may both play the same chord in the same register and the same rhythm, which is a doubling, an intentional thickening of one line: the correct response is to accept it and manage the combined level, not to separate the parts. A different case is a three-piece texture where the guitar must cover both harmonic filler and melodic functions because there is no keyboard and no second guitarist; here the honest description is one instrument performing two layers at different times, which is how the arrangement should be planned, since the player cannot strum a chord and hold a melody simultaneously without a looping or two-handed strategy. A third case is the novelty layer: an instrument with a deliberately non-blending timbre, such as a whistle or a percussive organ stab, earns its separation by sounding unlike the ensemble, and separating it by panning only is the weakest version of that idea.",
+                "mistake": "Three errors recur. The first diagnoses a role redundancy as a playing or equipment fault and responds with a new pedal, a brighter pickup setting or heavier compression rather than a change of function. The second moves levels first, so the pad is turned down until it disappears and the arrangement loses a layer instead of gaining separation; the check is to mute each part in turn and ask what it contributed where it sat. The third panning as a solution, which works only for listeners in stereo and can make a mono playback worse by collapsing the two parts back on top of each other. A fourth error is treating the layer names as rules of instrumentation: the model says which role a group usually fills, not which instrument is permitted, and a keyboard can carry the functional bass while a guitar carries the melodic layer without any violation.",
+                "application": "For a six-minute nonblocking task, write a role table for an eight-bar section with one row per part and one column per layer, then play or program the section with the beat muted and listen for collisions, making at most one arrangement change before any mixing change. The rubric asks for every part assigned to a named layer, at most one structural change, a stated justification for it, and correct arithmetic: at 96 beats per minute a bar is 2.5 seconds, so an eight-bar section is 20 seconds. A model report reads: the guitar plays two-note offbeat chords and the pad holds one high note, the pad no longer covers the strum attacks, the change was register-only, and no equalisation was needed. If either part cannot be played while the other sounds, sequence the pad as note data and play the guitar part physically, stating which part was realised by software.",
+                "summary": "Arrangement is the assignment of functions, and a crowded mix is usually a crowded function. You can now state what each instrument is for before deciding how loud it should be, which turns most mixing problems into composing problems with cheaper solutions. The next lesson keeps the texture and adds the line on top of it, asking how a melody should be shaped over a progression you already control, and how to test a melody by ear rather than by opinion."
+              },
+              "readings": [
+                {
+                  "title": "[35] Open Music Theory — Texture in Pop Music",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/texture-in-pop-music",
+                  "note": "Read the Key Takeaways listing the five functional layers, then the introduction explaining Allan Moore's four layers and the fifth added later, and note the worked example table that assigns instruments to layers. The layer graph discussion is about reading the same information as a diagram."
+                },
+                {
+                  "title": "[36] Open Music Theory — Drumbeats",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/drumbeats",
+                  "note": "Read the Key Takeaways for the backbeat definition and the list of common drumbeats, then the acoustic drum kit section describing the snare, kick, toms, ride and hi-hats. The kick drum description includes the note that it is often syncopated, which matters when assigning the explicit beat layer."
+                }
+              ],
+              "visual": {
+                "title": "Give the rhythm section separate jobs so guitar and keys stop fighting — reasoning sequence",
+                "description": "Assign functions first; the collision is resolved in the arrangement, not the mix.",
+                "steps": [
+                  "Backbeat foundation: kick on 1 and 3, snare on 2 and 4, closed hi-hat on eighths; 8 bars at 96 BPM = 20 s.",
+                  "Functional bass: root per chord in the bass register.",
+                  "Harmonic filler split: guitar plays two-note offbeat chords; pad holds one note an octave above.",
+                  "Test the split with the beat muted, then change exactly one variable: register, density or rhythmic role.",
+                  "Reserve level, panning and equalisation for after the arrangement change has been judged."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-41-50-a",
+              "prompt": "A learner plays C, G, F, C and argues that the G cannot be a dominant because the next chord is F rather than the tonic. What is the accurate account?",
+              "answer": "G keeps dominant function wherever it appears; running the phrase model out of order delays the expected return instead of changing the chord's role",
+              "distractor": "G becomes a weak predominant because a predominant is any chord that is followed by IV",
+              "correction": "Function is defined relative to the tonic, not by the identity of the following chord. V is dominant whether or not it resolves immediately, and placing it before IV makes the eventual arrival feel postponed. Weak predominants are iii and vi, not a V that is simply out of position.",
+              "reviewLessonIds": [
+                "41"
+              ]
+            },
+            {
+              "id": "uq-41-50-b",
+              "prompt": "A song uses the chords G, E minor, C and D. Using the circle of fifths, which key contains all four, and how many accidentals does its signature carry?",
+              "answer": "G major, whose signature carries one sharp, F sharp",
+              "distractor": "D major, whose signature carries two sharps, F sharp and C sharp",
+              "correction": "G major contains G, A, B, C, D, E and F sharp, so all four chords are diatonic and D is the dominant. D major raises C to C sharp, which contradicts the C major chord in the set, so the two-sharp signature cannot be the key.",
+              "reviewLessonIds": [
+                "42"
+              ]
+            },
+            {
+              "id": "uq-41-50-c",
+              "prompt": "In C major a progression runs C, F, F minor, C. A learner describes the third chord as a modulation to F minor. What is the accurate description?",
+              "answer": "It is modal mixture: A flat is borrowed from the parallel minor, and F minor keeps predominant function in the original key",
+              "distractor": "It is a modulation to F minor, because one chord taken from the parallel key establishes a new tonic",
+              "correction": "Mixture changes a chord's quality but not its function, and a single coloured chord does not establish a new tonic. The key signature does not change, the surrounding chords remain diatonic to C major, and the F minor still prepares the dominant in the same position the diatonic F occupied.",
+              "reviewLessonIds": [
+                "43",
+                "33"
+              ]
+            },
+            {
+              "id": "uq-41-50-d",
+              "prompt": "The second chord of a four-bar loop is written as G over B. Which statement is accurate?",
+              "answer": "The bass note is B, so the G triad is in first inversion, and the chord's root is still G",
+              "distractor": "The chord has become a B triad with a G added above it, because the lowest sounding note names the chord",
+              "correction": "The slash names the bass pitch, not the root. B is the third of the G triad, so the chord is in first inversion; reading the lowest note as the root is exactly the error the inversion chapter warns against.",
+              "reviewLessonIds": [
+                "44",
+                "34"
+              ]
+            },
+            {
+              "id": "uq-41-50-e",
+              "prompt": "A guitarist and a keyboardist both play sustained chords in the same register through a whole song, and the texture is cloudy. The learner's response is to add compression and raise the pad. What is the appropriate diagnosis?",
+              "answer": "Both parts are filling the harmonic filler layer at once, so one needs a different register, density or rhythmic role before any processing is added",
+              "distractor": "The pad needs more level and compression so it can be heard clearly over the guitar",
+              "correction": "The collision is a redundancy of function, not a level shortage, so processing cannot separate two parts doing the same job in the same range. Raising the pad also consumes headroom, and compression flattens the attacks that would distinguish the two parts.",
+              "reviewLessonIds": [
+                "45",
+                "39"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Arranging, moving, balancing and finishing the piece",
+          "lessons": [
+            {
+              "id": "46",
+              "title": "Write a melody over a progression and test it by ear",
+              "explanation": "In pop and rock, a phrase typically lasts four bars and corresponds to one line of the lyrics, and a section is built from two, three or four phrases: two-part sections are labelled aa prime, three-part sections aa prime b, and four-part sections srdc, which stands for statement, restatement or response, departure, and conclusion. That structure is the most useful thing to know before writing a note, because it means melody writing over a progression is a question of phrase shape before it is a question of pitch choice. A workable procedure follows. Fix the progression and the phrase length. Write the rhythm first, spoken or tapped, so the shape of the phrase exists before the pitches complicate it. Choose the first pitch from the chord that is sounding, which anchors the phrase in the harmony. Move mostly by step, with one or two leaps for emphasis. End each phrase deliberately: an open ending that leaves the harmony unresolved, or a closed ending on a stable chord tone. Then test by ear, which is a skill with its own method: the sight-singing and dictation chapter recommends contour lines, writing down solmization syllables, and protonotation as strategies for melodic dictation, and every one of those is equally a way of checking a melody you wrote yourself.",
+              "example": "Write an eight-bar melody over the loop I, vi, IV, V, which in C is C, A minor, F, G, one chord per bar at 100 beats per minute, so a bar is 2.4 seconds and eight bars are 19.2 seconds. Phrase a occupies bars one to four. Its rhythm is quarter, quarter, half, half, spoken as one, two, three-four, one-two. Its pitches are E, G, E, D: E is the third of C so the phrase begins on a chord tone, G is the fifth, and the phrase ends on D, which over the G chord is the fifth and leaves the phrase open rather than closed. Phrase a prime occupies bars five to eight with exactly the same rhythm and the same first three pitches, E, G, E, but ends on C, the root of the tonic chord, which closes the phrase. Because the rhythm and the opening are identical and only the final pitch differs, the pair is aa prime: the mathematical structure of a two-phrase section, realised in one scale degree of difference. Now test by ear. Hum phrase a with no instrument and stop on the last note; then hum phrase a prime and notice that the final note is a step lower and feels finished. That comparison is the contour method applied to your own writing, and it is the check that a written analysis cannot replace.",
+              "question": "Two phrases share the same rhythm and the same first three pitches, and they differ only in their final pitch. Which structure is that, and why does the second phrase sound finished?",
+              "answer": "An aa prime pair, and the second phrase closes because its final pitch is the tonic sounding over the tonic chord",
+              "distractor": "An aa pair, and the second phrase closes because the rhythm repeats identically",
+              "correction": "A repeated phrase with a different ending is labelled a prime, not a plain repetition, because the two halves are not identical. Rhythmic repetition alone cannot create closure: the closure comes from the final pitch, which is the tonic and therefore a stable point of arrival rather than a suspended one.",
+              "depth": {
+                "definitions": "A phrase is a musical unit, typically four bars in pop and rock, often corresponding to one line of lyrics. A section contains two to four phrases and presents a single formal function. In two-part sections the second half is usually based on the same music as the first and is labelled a prime. The four-part pattern srdc means statement, restatement or response, departure, conclusion. A cadence is a gesture of closure, and in melodic terms a phrase ending is open when it leaves the harmony unresolved and closed when it reaches a stable chord tone. Contour is the pattern of upward, downward and repeated motion. Solmization assigns syllables to scale degrees. Protonotation is a shorthand method of writing down what you hear before committing to staff notation. Prerequisites are the motif and answer work from lesson 25 and the function labels from lesson 41.",
+                "mechanism": "Why does phrase shape govern melody more than pitch choice does? Because a listener tracks expectation across time, and a four-bar phrase establishes a pattern that the next phrase either fulfils or alters. The source describes the two-part section as an antecedent and consequent relationship, weak leading to strong, which is exactly what the aa prime ending in this lesson's example produces. The ear-testing mechanism is separate and complements it. Dictation strategies work because they force you to commit to a representation before checking it: drawing a contour line records your prediction of the shape, and singing the melody back without accompaniment removes the instrument's ability to hide a wrong note behind timbre. Two limits should be stated. First, aa prime and srdc are analytical categories drawn from repertoire, not compositional requirements; a melody that ignores them can be excellent, and the chapter itself notes that in many songs the relationship is not clear cut. Second, an ear test tells you whether you can reproduce what you wrote, not whether the melody is good; those are different judgements and only the first is a technical check.",
+                "secondExample": "A contrasting application writes a rhythmic answer instead of a pitch answer. Keep the same four-bar progression and the same four onset positions, but move the fourth attack from the downbeat of bar four to the and of that beat, shortening the final note by half a beat and leaving the last half beat silent. The pitch content is unchanged, so the variation is entirely rhythmic, and the phrase now ends with a push into the following bar rather than a settled arrival. Now a second contrast, in articulation: keep both pitch and rhythm identical and shorten only the final note, so the phrase ends with a deliberate gap before the next chord. The first variation alters where the music points; the second alters how it stops pointing. Testing each by ear follows the same procedure, and the comparison also demonstrates why the dictation strategies list contour separately from rhythm: the two dimensions can be changed independently, and a single change is easier to hear than several at once.",
+                "mistake": "Three errors recur. The first writes pitches and rhythm simultaneously and then cannot tell which one failed, because the phrase is not yet a shape; separate them by speaking the rhythm alone first. The second fills every bar with the maximum number of events, so the phrase has no boundary and the section structure becomes inaudible; count the intended rests aloud as part of the melody rather than treating them as gaps to be filled. The third treats the ear test as a formality and hums the melody with the instrument playing, which makes any wrong note easy to miss; the test only works without accompaniment, and it is honest to record a failure. A fourth error is an outright claim error rather than a musical one: describing a melody as having passed an aural test when it was only played back through software, since playing a sequence proves the software works, not that you can hear or sing the line.",
+                "application": "For a ten-minute nonblocking task, write an eight-bar melody over a four-chord loop you can already play, using one chord per bar, and produce an aa prime pair with the same rhythm in both phrases and a different final pitch. Write the rhythm as speech first, then the pitches, then draw a contour line of the finished melody. Sing each phrase back without the instrument and note whether the ending felt open or closed. The rubric asks for an identifiable aa prime structure, a stated harmonic reason for the first pitch, a contour drawing, an unaccompanied ear test with a truthful result, and correct duration arithmetic: at 100 beats per minute eight bars are 19.2 seconds. A model report reads: the second phrase keeps the rhythm and opens on the third of the chord, ends a step lower on the tonic, and in the unaccompanied test the final note was flat on the first attempt, so I sang it again more slowly.",
+                "summary": "Melody is phrase shape made audible, and an ear test is the only check that does not depend on the screen. You can now write a line over a progression and say why it ends where it ends. The next lesson takes several such phrases and organises them into a form, asking how a section boundary can be made audible to a listener who cannot see the arrangement, and why subtraction is often a stronger marker of change than addition."
+              },
+              "readings": [
+                {
+                  "title": "[37] Open Music Theory — Melody and Phrasing",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/melody-and-phrasing/",
+                  "note": "Read the opening Key Takeaways for the two-part aa prime, three-part aa prime b and four-part srdc shapes, then the Two-Part and Four-Part sections. Note the statement that a phrase typically lasts four bars and corresponds to one line of lyrics, and the observation that in many songs the relationship is not clear cut."
+                },
+                {
+                  "title": "[38] Open Music Theory — The Basics of Sight-Singing and Dictation",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/the-basics-of-sight-singing-and-dictation/",
+                  "note": "Read the Key Takeaways and the strategies for melodic dictation, which list contour lines, solmization syllables and protonotation. The posture note about sitting forward and breathing from the diaphragm supports the physical step in this lesson's ear test."
+                }
+              ],
+              "visual": {
+                "title": "Write a melody over a progression and test it by ear — reasoning sequence",
+                "description": "Phrase shape is fixed before pitch, and the ear test is performed without the instrument.",
+                "steps": [
+                  "Fix the frame: I - vi - IV - V in C, one chord per bar at 100 BPM; 8 bars = 19.2 s.",
+                  "Phrase a, bars 1-4: rhythm quarter, quarter, half, half; pitches E, G, E, D; ends on the fifth of V, open.",
+                  "Phrase a prime, bars 5-8: same rhythm and same first three pitches; ends on C, the tonic, closed.",
+                  "Structure check: identical opening with a different ending is aa prime, a two-part phrase relationship.",
+                  "Ear test: sing each phrase unaccompanied; record whether the ending was open or closed, and report truthfully."
+                ]
+              }
+            },
+            {
+              "id": "47",
+              "title": "Build structure from contrast, and mark boundaries a listener can hear",
+              "explanation": "Open Music Theory defines form as foundational concepts first: a section in pop and rock typically spans between eight and twenty-four bars and contains two to four phrases, presents a single formal function, and usually sets a stanza of lyrics. Sections fall into two groups. Core sections form the main content, and the chapter lists verse, chorus, strophe and bridge among them; auxiliary sections frame the core, and include introduction, outro and coda. Sections are further described as lyric-variant when each appearance brings mostly different words and lyric-invariant when each brings mostly the same ones, with invariance tending to occur at points of closure. The most immediately useful part of the chapter is its account of how a boundary is actually created. Boundaries are usually made apparent by poetic structure, by a clear rhythmic, harmonic and melodic arrival, by a change in instrumentation or volume, or by a return to the beginning of a previously heard section. Notice what that list implies: a boundary is a difference that a listener can perceive, so renaming a marker or recolouring a clip changes nothing. In verse-chorus form the title lyrics, the most memorable music and the main narrative are split between the verse and the chorus, and a prechorus is identified by energy gain; that is a description of effect, not of label.",
+              "example": "Plan a thirty-two-bar map in four eight-bar sections at 100 beats per minute, where a bar lasts 2.4 seconds, one section lasts 19.2 seconds, and the whole piece lasts 76.8 seconds. Section A, bars one to eight: bass and beat only, plus a sparse guitar figure; this is the introduction and it is deliberately thin. Section B, bars nine to sixteen: add the harmonic filler and the melody from lesson 46; the boundary at bar nine is made by two simultaneous surface features, a change in instrumentation and a rise in density, which is the clearest kind of marker the chapter describes. Section C, bars seventeen to twenty-four: remove the beat entirely and move the melody up an octave. The boundary here is created by subtraction, and it is worth noticing that removing a layer is a change in instrumentation and therefore belongs on the chapter's own list. Section D, bars twenty-five to thirty-two: return to the material of section A with the fullest texture and end with a planned release. That boundary is a return to previously heard material, which the chapter names as a boundary marker in its own right. Check the arithmetic: four sections of eight bars is thirty-two bars, and four times 19.2 seconds is 76.8 seconds of musical body before any release tail.",
+              "question": "A section boundary is planned for bar seventeen, but when the piece is played without looking at the arrangement nothing changes there. Using the definition of a boundary used in this level, what has gone wrong?",
+              "answer": "No surface feature changes at that point: there is no arrival, no change of instrumentation or volume, and no return to earlier material, so the map records a form the listener cannot hear",
+              "distractor": "The section is too short, because pop sections must span between eight and twenty-four bars",
+              "correction": "The chapter defines boundaries by what makes them apparent: poetic structure, a rhythmic, harmonic and melodic arrival, a change in instrumentation or volume, or a return to a heard section. If none of those changes at bar seventeen, the boundary exists only in the layout. Section length is not the issue, since eight bars sits inside the stated range.",
+              "depth": {
+                "definitions": "Form is the organisation of musical material in time. A section presents a single formal function and typically spans eight to twenty-four bars with two to four phrases. Core sections carry the main content; auxiliary sections introduce, frame, relieve or wind down. A section or phrase is lyric-variant when its appearances bring mostly different lyrics and lyric-invariant when they bring mostly the same ones. A cycle groups the sections that recur together, such as verse, prechorus, chorus and postchorus in that order. A strophe is a core section in strophic and AABA forms rather than in verse-chorus form. An ending is a designed boundary and may be a sustained release rather than a cut. Prerequisites are the phrase structures from lesson 46 and the density and texture vocabulary from lesson 45.",
+                "mechanism": "Why must a boundary be a perceptible difference rather than a labelled one? Because the listener has no access to the arrangement view; form is heard as a sequence of expectations repeatedly met or altered. The chapter's worked example, the transition from a verse to a chorus, lists several features changing at the same moment: a rhyming lyric closes the stanza, a drum fill signals the end of the phrase, the general dynamic gets louder quickly, the guitar becomes more active and is doubled, the lead vocal rises in register, and background vocals are added. The point is not that all six are required but that redundancy makes the boundary unmistakable, and every feature on that list is audible without a screen. The mechanism has two limits. First, features that depend on a single playback system, such as a stereo placement, do not belong on the list because they vanish in mono. Second, more boundary markers are not automatically better: a change in material, density, register and level simultaneously can obscure which relationship the listener was meant to follow, so the useful discipline is one clear marker plus, at most, one supporting change.",
+                "secondExample": "A contrasting form makes the same point from a different direction. In AABA form, which the pop section pairs with strophic form, the A section recurs and the B section contrasts against it, so the returning A is itself the boundary marker: the form depends on recognition rather than on continuous escalation. In strophic form, by contrast, one section repeats with changing lyrics and the boundaries are created largely by poetic structure and by the phrase endings rather than by instrumentation changes at all. Now apply both to the same eight bars. Presented as an AABA map, the same material can stay almost identical across three blocks with one contrasting middle; presented as a verse-chorus map, the same material needs an energy gain and a memorable chorus. The inventory of notes need not change at all. That is the demonstration that form is an arrangement of expectations, and that the choice of form is a composing decision independent of the notes on the page.",
+                "mistake": "Four errors recur. The first judges structure from the screen, so a differently coloured clip is assumed to be a boundary; hide the arrangement and listen for where the music actually changes. The second marks every boundary with an addition, adding a layer at each section until the piece is uniformly dense and nothing sounds like an arrival; try subtraction, since removing the beat or a chord part can announce a return more clearly than adding a new instrument. The third writes sections of sixteen or thirty-two bars because the phrase happened to be that long, which exceeds the range the source describes for sections and usually means two sections have been fused; check where the phrase endings fall and split there. The fourth claims a boundary exists because the intention was to create one; the honest test is the listen, and a boundary that is only intended is a revision item, not a feature of the piece.",
+                "application": "For a fifteen-minute nonblocking task, write a section map with a bar count and a duration for each section, name the boundary marker for each transition, assemble the piece, and then listen from start to finish without looking at the screen and note where each boundary actually registered. The rubric asks for durations computed from the tempo, one named and audible marker per boundary, at least one boundary created by subtraction, a documented listen with a truthful result, and at most one revision priority. A model report reads: at 100 beats per minute a bar is 2.4 seconds so each eight-bar section is 19.2 seconds; the boundary into section C registered because the beat dropped out; the boundary into section B did not register because the added pad was too quiet and too close in register to the guitar, so the next revision is to change its register rather than its level.",
+                "summary": "Form is a plan for expectation, and its boundaries are audible differences rather than labels. You can now plan a piece in bars and seconds, choose markers that survive any playback system, and diagnose a boundary that failed to arrive. The next lesson takes the single most reliable tool for making a change recur identically every time the project plays, so that the movement you planned is stored as data instead of as a gesture."
+              },
+              "readings": [
+                {
+                  "title": "[39] Open Music Theory — Introduction to Form in Popular Music",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-form-in-popular-music/",
+                  "note": "Read the Key Takeaways, then the sections Sections within Pop Forms and Terminology and Basic Concepts. The list of surface features that make a boundary apparent, with the worked verse-to-chorus example, is the basis for this lesson's definition of an audible boundary, and the core and auxiliary definitions are given there too."
+                },
+                {
+                  "title": "[41] Open Music Theory — AABA Form and Strophic Form",
+                  "url": "https://viva.pressbooks.pub/openmusictheory/chapter/aaba-form/",
+                  "note": "Read how AABA and strophic forms are defined and how their boundaries work, as a contrast to the verse-chorus cycle. The chapter is the source for the point that a returning section can itself serve as the boundary marker."
+                }
+              ],
+              "visual": {
+                "title": "Build structure from contrast, and mark boundaries a listener can hear — reasoning sequence",
+                "description": "Four sections are planned in bars and seconds, and each boundary is tied to a surface feature.",
+                "steps": [
+                  "Frame: 32 bars in four 8-bar sections at 100 BPM; bar = 2.4 s, section = 19.2 s, body = 76.8 s.",
+                  "A (1-8) introduction: bass and beat plus sparse guitar; deliberately thin.",
+                  "B (9-16): marker is a change in instrumentation and a rise in density as filler and melody enter.",
+                  "C (17-24): marker is subtraction — the beat is removed and the melody moves up an octave.",
+                  "D (25-32): marker is a return to A's material at full density, then a planned release."
+                ]
+              }
+            },
+            {
+              "id": "48",
+              "title": "Use automation to create movement that repeats identically",
+              "explanation": "An automation clip moves a linked control on the interface or in a plugin. Image-Line's manual states that automation clips are closely related to event automation and are a form of internal controller; unlike event data they are not bound to a specific pattern, and they exist as a special kind of generator loaded into a channel. In the playlist an automation clip appears as a line graph, which means a change over time becomes something you can see, edit and reproduce. Recorded movements are handled differently: when you record automation with the mouse or with a linked controller, the movement is stored as event data inside the pattern that was selected for the session, and the manual notes that any number of controls can be recorded into the same pattern and then edited independently in the event editor. You can convert recorded event data into an automation clip. Two facts make the practical difference clear. First, converting and editing a clip is usually easier than editing a recorded pass, because the manual observes that at ninety-six pulses per quarter note an unedited pass can contain hundreds of control points per bar. Second, only the master mixer track is rendered by default, and the monitor volume knob has no effect on rendered levels, so automating the monitor changes nothing in the file.",
+              "example": "Plan one movement and check it arithmetically before drawing it. A pad should rise across a four-bar section from minus twelve decibels to zero decibels relative to full level. At 100 beats per minute a bar lasts 2.4 seconds, so four bars last 9.6 seconds, and the move is twelve decibels over 9.6 seconds, which is 1.25 decibels per second on average. Because the decibel scale is not linear in amplitude, the same twelve decibels also means a change from about twenty-five per cent of the original amplitude to full amplitude, using the manual's own rounded values for a minus twelve decibel change. Create the clip by right-clicking the pad's track fader and choosing to create an automation clip; the control is automatable if hovering over it shows the automation icon in the hint bar. Set the first control point at minus twelve decibels, place the final control point at zero decibels on the first beat after the section, and shape the curve with the tension handle rather than adding intermediate points. Now the same recorded gesture, done the other way: link a knob to the pad's level, arm recording with the automation filter enabled, play the project and turn the knob. The move is captured as event data inside the selected pattern. Copy the pattern reference first, then convert the event data to an automation clip so the curve can be edited as a shape rather than as a dense stream of points.",
+              "question": "A producer wants a filter to open across every chorus in exactly the same way, and does not want to add any plugin. What does an automation clip provide that a recorded mouse gesture does not?",
+              "answer": "The change is stored as an editable clip linked to the target control, independent of any pattern, and it repeats identically on every playback",
+              "distractor": "The movement is rendered to an audio file, so the effect is frozen into the mix permanently",
+              "correction": "An automation clip stores control data linked to a parameter, appears in the playlist as a line graph, and is not bound to a pattern, so it recurs identically and stays editable. Recording the gesture instead places event data inside the pattern that was record-armed, and rendering is a separate operation that produces an audio file rather than a control change.",
+              "depth": {
+                "definitions": "Automation is a recorded or drawn change to a control over time. An automation clip moves a linked control, is not bound to a pattern, and exists as a special generator in a channel; event automation edits individual values inside a pattern instead. A target link connects a control to a clip or to a hardware controller. A control point is a value at a time, and tension shapes the curve between two points. The recording filter is the set of data types the transport records: audio, note data and automation. Pulses per quarter note is the project's timing resolution, so at 96 PPQ a quarter note is 96 ticks and a 4/4 bar is 384. The master mixer track is what is rendered by default. Prerequisites are the section planning from lesson 47 and the automation introduction in lesson 40.",
+                "mechanism": "Why does automation make a change repeatable when a performance does not? Because the change is stored as data attached to a control rather than as a gesture attached to a moment. A drawn clip defines values against the project timeline, so it plays back identically at any tempo and can be edited, copied to another control or disabled without re-performing anything. The mechanism also explains the manual's practical advice about dense data: recording a continuous mouse movement produces a value at every processing tick, so at 96 PPQ a single unedited bar can hold hundreds of points, which is why converting that recording into a clip and simplifying its shape is usually faster than editing the points individually. Two limits belong in the same paragraph as the benefits. First, an automation clip can only move a control that exists and is automatable, so a musical change that needs a different instrument or a different part cannot be automated into existence. Second, automation is invisible in a rendered file: once rendered, the movement is part of the audio and can no longer be adjusted, so the version of the project that contains the clips is the one worth keeping.",
+                "secondExample": "Contrast two uses of the same tool that produce different musical results. In the first, automation carries a structural change: a level rise that implements the density increase at section B from the previous lesson, which is the efficient way to make a boundary recurring. In the second, automation carries a textural detail: a pan position that drifts a few per cent across a bar so a repeated part stops sounding static to a listener in stereo. The first case is a decision about form and only needs to be checked against the section map. The second is a decision about stereo image and needs an extra check, because panning that improves a stereo listen may collapse in mono; listen in mono before accepting it. A third case shows the boundary between automation and composition: automating a filter is a change to an existing sound, while adding a new instrument is a new layer. When a section still feels static after two automated moves, the honest conclusion is usually that the arrangement needs a different part or a thinner one, not a third automation curve.",
+                "mistake": "Four errors recur. The first automates the monitoring level and then wonders why the exported file is unchanged; the manual states plainly that the monitor volume knob has no effect on rendered levels, so the automation must target the track or plugin parameter that the render actually uses. The second arms recording without enabling the automation filter, so the gesture is not captured at all; check the transport record button's filter before recording. The third records a dense pass and then edits it point by point instead of converting it to a clip whose curve can be shaped, which is slow and error-prone. The fourth mistakes automation for arrangement and attempts to fix a static section with more curves, which produces constant motion and no contrast. A fifth error is a claim error rather than a technical one: describing an automated change as clean or audible without listening to the render, since a change that was drawn is not automatically a change that was heard.",
+                "application": "For a ten-minute nonblocking task, choose one parameter that implements a decision from your section map, create an automation clip for it, and write down the arithmetic of the movement before drawing it: the parameter's start and end values, the section's duration at your tempo, and the resulting rate of change. Then create the clip, listen to the section, and test the other route by recording the same gesture with a controller or the mouse into a pattern and converting it. The rubric asks for a named target control, computed values, a clip that recurs on playback, a stated difference between clip and event data, and monitoring kept at a comfortable level. A model report reads: twelve decibels over 9.6 seconds is 1.25 decibels per second; the drawn clip reproduced the move on every pass, and the recorded version contained a dense stream of points that I converted to a clip before editing.",
+                "summary": "Automation converts an intention about time into data about a control, which is why it is the most reliable way to make a planned change recur. You can now implement a boundary, a level move or a filter sweep as an editable curve rather than as a one-off gesture, and you know which control to automate so that the change reaches the file. The next lesson moves from movement to balance, where the goal is not more level but the right amount, and where subtracting is usually more effective than adding."
+              },
+              "readings": [
+                {
+                  "title": "[27] Image-Line — Automation Clips",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/playlist_automationclip.htm",
+                  "note": "Read the introductory paragraphs stating that automation clips move linked controls, are not bound to a pattern and exist as a special type of generator in a channel, then the section Creating Automation Clips for the native-control, VST and event-data conversion routes. The note about automating an audio clip's volume or panning directly is in the same section."
+                },
+                {
+                  "title": "[26] Image-Line — Recording Automation",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_automation.htm",
+                  "note": "Read Recording automation filter and Recording automation, then the section Where is my automation data stored, which explains that recorded movements become event data inside the selected pattern and describes converting them. The hint-bar icons that show whether a control is automatable or linkable are described just above."
+                }
+              ],
+              "visual": {
+                "title": "Use automation to create movement that repeats identically — reasoning sequence",
+                "description": "A planned change is computed, stored as linked control data, and verified by hearing the render.",
+                "steps": [
+                  "Decide the change: pad level from -12 dB to 0 dB across one 4-bar section at 100 BPM (9.6 s).",
+                  "Compute the rate: 12 dB over 9.6 s = 1.25 dB per second; -12 dB is about 25% of full amplitude.",
+                  "Create a clip on the pad's track fader; two control points, shaped by tension.",
+                  "Alternative route: record the gesture with the automation filter enabled, then convert event data to a clip.",
+                  "Automate the parameter the render uses; the monitor volume knob does not affect rendered levels."
+                ]
+              }
+            },
+            {
+              "id": "49",
+              "title": "Balance and pan by subtracting, before adding anything",
+              "explanation": "All audio in FL Studio passes through the mixer unless it is routed elsewhere, and the mixer page states that the playlist is not bound to any instrument or mixer track, which is why moving a clip can fail to move its mixing destination. Balance has a procedure. The levels page describes it: set the relative instrument levels with the mixer track faders or channel volume knobs, then use the master track fader for the final level, keeping the master from exceeding zero decibels because that is where clipping occurs in the deliverable. The same page gives the rounded decibel values worth remembering, and they are the reason small moves matter: plus six decibels is twice the original level, minus six decibels is half, minus twelve decibels leaves about twenty-five per cent, and plus or minus one decibel is close to the just-noticeable difference. Panning has its own arithmetic: the default circular panning law reduces a centred signal by about three decibels so that its apparent loudness matches hard panning, so a centred instrument is already three decibels down and panning it changes level as well as position. The case for subtracting rather than adding is a combination of headroom and masking. Boosting a part consumes headroom and can make a collision worse, while cutting a narrow band, thinning a voicing or removing a layer leaves room for everything else and keeps the master below the clipping point.",
+              "example": "Take guitar, pad and bass with the master peaking slightly above zero decibels, showing the orange peak the manual uses to indicate clipping, and with the pad audible only when the guitar is silent. Name the priority first: the guitar figure carries the material, so it stays. Now change things in order, all of them subtractive. First level: reduce the pad's track fader by six decibels, which is half its previous level, and re-check the master, which should now sit below zero. Second density: reduce the pad from a three-note voicing to one sustained note, which removes two simultaneous contributors without touching any fader. Third, only if the guitar's attacks are still covered, use a narrow equaliser cut on the pad around the guitar's upper band rather than boosting the guitar; the parametric equaliser page describes centre frequency and width as the controls that make a cut narrow. Fourth, panning: a small pan on the pad can help a stereo listener, remembering that the circular panning law had already placed the centred signal about three decibels down and that the separation disappears in mono, so check the mono sum before keeping the pan. Finally, if the master still peaks above zero decibels across the whole mix, prefer a level reduction on the loudest contributor to a limiter applied at the end, because limiting hides a balance problem rather than solving it.",
+              "question": "The master peak exceeds zero decibels only where the pad and the guitar sound together, and the proposed fix is a six decibel boost on the guitar plus a limiter on the master. What is the better first response?",
+              "answer": "Subtract instead: reduce the pad's level and thin its voicing so the combined signal stays below zero decibels",
+              "distractor": "Boost and limit, because a six decibel boost doubles the guitar and a limiter prevents any overshoot",
+              "correction": "A boost raises the total signal and pushes the master further toward clipping, and a limiter on the master conceals the balance problem instead of resolving it. Reducing the pad's level by six decibels halves its contribution, and thinning the voicing removes simultaneous contributors, so both the masking and the overload are addressed at their source.",
+              "depth": {
+                "definitions": "Balance is the set of relative levels between parts. Headroom is the margin between a signal's level and the ceiling where information is lost, here zero decibels on the master. Clipping occurs when a waveform exceeds the maximum level that can be reproduced, and the manual distinguishes internal floating-point processing, where peaks above zero decibels are not automatically destructive, from the fixed bit-depth output, where they are. A peak meter reports short-lived maxima rather than perceived loudness. The circular panning law is the default rule that reduces a centred signal by about three decibels. Masking is one sound reducing the audibility of another in the same frequency region. A parametric equaliser changes the level of specific frequency bands, with controls for centre frequency and width. Prerequisites are the masking work from lesson 39 and the layer roles from lesson 45.",
+                "mechanism": "Why is subtracting usually the stronger move? Two mechanisms operate together. The first is arithmetic: levels combine, so two parts at the same nominal level do not stay at that level when they sound together, and any boost applied to a part in a crowded section increases the total that the output must accommodate. The second is perceptual: masking is caused by overlapping energy in the same frequency region, so removing energy from the overlapping part restores the audibility of the masked one without raising anything. A narrow cut is preferable to a wide one because it removes less of the instrument's character, which is a real cost of equalisation and should be stated rather than hidden. Three limits belong here. First, this does not make equalisation or limiting illegitimate; both are tools for specific jobs, and the manual itself suggests a limiter on the master to prevent clipping in a final mix. Second, a balance tuned only in the fullest section will fail in the sparse one, so check the loudest passage and at least one quiet one. Third, internal floating-point headroom does not mean plugin processing is immune to overload, so the practical rule is to keep levels conservative and inspect the output rather than to rely on theoretical margin.",
+                "secondExample": "Contrast a balance problem in the low register, where the choices are different. If the bass and the pad's lowest note both occupy the region around the bass register, thinning and panning will not help, because low frequencies are difficult to place in the stereo field and the pad's low notes will usually be heard as extra bass rather than as a separate part. The subtractive response here is allocation: let one part own the low note and move the other up a fifth or an octave, which halves or further reduces the frequency of the doubled pitch, and reduce the pad to a single note. A second contrast concerns the order of operations in a session. If a part is out of time or badly tuned, no balance or panning change will make it sound intentional, and the subtractive instinct should be applied to the arrangement instead: remove the part rather than repair it in the mix. The distinction is worth keeping explicit, because a mix can only clarify material that is already playable and in tune.",
+                "mistake": "Four errors recur. The first equates louder with better, so every comparison is unfair and every processing decision is made at a different listening level; match the approximate level before judging. The second adds a limiter on the master to stop a light from turning orange, which hides an unbalanced mix and leaves the underlying collision intact. The third pans parts hard apart, hears an improvement in stereo and never checks the mono sum, where the separation collapses. The fourth raises the record or monitor level to solve an audibility problem that is actually a routing problem, so the meter changes but nothing reaches the right destination; verify the route by soloing the part and watching which track's meter responds. A fifth error is presentational: describing a mix as balanced when only the quiet section was checked, since the fullest passage is the one that tests the balance.",
+                "application": "For a fifteen-minute nonblocking task, name the priority in your mix in one sentence, then make at most two subtractive changes and no boosts, keeping a saved copy of the previous state so each change can be undone. Check the loudest four bars and one quiet passage, and listen once in mono. The rubric asks for a stated priority, only subtractive changes, a master that stays below zero decibels in the fullest section, a documented mono check, and monitoring kept at a comfortable level. A model report reads: the guitar carries the figure; the pad lost six decibels, which is half its level, and two of its three notes; the master peaks just below zero in the fullest bar and the collision survives the mono check intact; no equalisation or limiting was needed. If a change does not improve the result, restoring the earlier version is a correct outcome, and saying so is part of the task.",
+                "summary": "Balance is an argument about priority, and the arithmetic of decibels decides how large a change actually is. You can now solve a crowded mix by removing what is in the way rather than by pushing something above it, and you know why a centred part is already several decibels down. The final lesson takes a piece that is balanced and moving and asks the question that ends more projects than any technical fault: how to decide that it is finished, deliver it, and stop starting new ones."
+              },
+              "readings": [
+                {
+                  "title": "[8] Image-Line — Levels, Mixing & Clipping",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer_levelsandmixing.htm",
+                  "note": "Read Setting Output Mix Levels, Using FL Studio Peak Meters, and dB change values to remember, which is where the six and twelve decibel correspondences and the one-decibel noticeability note come from. The panning law note under Sampler Channels versus Audio Clips is the source for the three decibel reduction on a centred signal."
+                },
+                {
+                  "title": "[3] Image-Line — Mixer Functions",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer.htm",
+                  "note": "Read Mixer Controls and Routing Instrument Channels to Mixer Tracks. The opening statements that all audio passes through the mixer and that the playlist is not bound to any instrument or mixer track are the reason a clip can move without its destination changing."
+                },
+                {
+                  "title": "[29] Image-Line — Fruity Balance",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Balance.htm",
+                  "note": "Read Parameters on this short page. It describes a simple level and pan effect, which is the cheapest way to test a rebalance before reaching for equalisation."
+                },
+                {
+                  "title": "[28] Image-Line — Fruity Parametric EQ 2",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Parametric%20EQ%202.htm",
+                  "note": "Read the Parameters section for band types, centre frequency and width controls, and note the framing of equalisation as changing the level of specific frequencies. Width is what makes a narrow subtractive cut possible."
+                }
+              ],
+              "visual": {
+                "title": "Balance and pan by subtracting, before adding anything — reasoning sequence",
+                "description": "Priority is named first, then changes are made subtractively and checked at the loudest point and in mono.",
+                "steps": [
+                  "Name the priority: the guitar figure carries the material, so it stays at its level.",
+                  "Subtract level: pad down 6 dB, which halves its contribution (12 dB would leave 25%).",
+                  "Subtract density: pad reduced from three notes to one.",
+                  "Only if needed, subtract a narrow band on the pad rather than boosting the guitar.",
+                  "Pan slightly and check mono; a centred signal is already about 3 dB down under the circular panning law."
+                ]
+              }
+            },
+            {
+              "id": "50",
+              "title": "Finish the piece: render it, listen to the file, and write the delivery note",
+              "explanation": "Exporting is not saving. Saving stores the editable project so you can keep working; rendering computes an audio file from the instruments, clips, routing, effects and export options, and the manual points out that saving the project is unnecessary before you can export. Three details decide whether the file contains what you think it does. First, by default the master mixer track is rendered, unless the split mixer tracks option is used, which means any track not routed directly or indirectly to the master will be absent from the render. Second, the length of the render is set by a hierarchy that ends with the tail setting, so a file can legitimately be longer than the counted bars, and the manual's own wording puts the end of the last bar containing data and the tail setting in the same list. Third, sounds from external hardware driven by MIDI are not included unless their audio is recorded and placed as an audio clip, so a hardware part can be perfectly sequenced and completely silent in the file. The manual also states plainly that MIDI is not an audio format, which is the same distinction MIDI.org makes: a MIDI file holds instructions and requires a sound source. Finishing is therefore a procedure rather than a feeling: fix the scope, render, listen to the actual file from the first attack to the end of the tail, log what you heard against what you intended, and then stop.",
+              "example": "Apply the procedure to the thirty-two-bar piece from lesson 47 at 100 beats per minute, where the musical body is 32 times 2.4 seconds, which is 76.8 seconds. Render the audio and find that the file is 80.3 seconds long. Subtract to find the difference: 80.3 minus 76.8 is 3.5 seconds. Listen to those final 3.5 seconds with the screen hidden and decide whether they contain an intentional release, such as a reverb tail or a released instrument, or unintended silence. Record the answer, because a 3.5-second unintentional silence is a revision item and a 3.5-second intended tail is a feature. Now check the content rather than the duration: confirm that section A is sparse, that section B gains the filler and melody, that section C drops the beat, and that section D returns. If a part that was driven from the MIDI keyboard through an external keyboard or synth is missing, the cause is the capture type, not the arrangement: the notes were instructions and the sound was never recorded, so either record the audio and place it as a clip or document the dependency. Finally, write the delivery note in four parts, intent, files, listening findings, and next revision, and then declare the piece finished if those four parts agree with one another.",
+              "question": "A rendered file is 3.5 seconds longer than the piece's counted body. What has to be established before the file is delivered?",
+              "answer": "Whether the extra duration is an intended release, such as a reverb or instrument tail, or unintended silence, by listening against the section plan",
+              "distractor": "That the export is invalid, because a render must end exactly at the last bar containing notes",
+              "correction": "The manual's render-length hierarchy includes the tail setting, so a file extending past the last bar is expected rather than broken. Note instructions and audible releases are different things, which is why the section plan and a listen decide whether the extra duration was intended. Unintended trailing silence is a revision item, not a mathematical error.",
+              "depth": {
+                "definitions": "Rendering computes an audio file from the project's instruments, clips, routing, effects and selected options. A tail is sound continuing after the last scheduled event. Split mixer tracks is an export option that renders individual tracks rather than the master mix. Song mode and pattern mode determine which material the render length is measured from. A MIDI file stores note data and is explicitly not an audio format. A delivery note records intent, files, listening findings and next revision. A stem is a grouped audio contribution, which is not always a single instrument, so do not promise stems when only a full mix was rendered. Prerequisites are the export and delivery work from lesson 40 and the section plan from lesson 47.",
+                "mechanism": "Why does finishing need a procedure when the music is already written? Because the last step is the only one with a defined end, and every earlier step is open-ended. Leaving a piece unfinished is the default outcome of unlimited refinement, whereas rendering fixes a version, listening supplies the evidence about it, and the delivery note converts that evidence into at most one revision priority. The mechanism behind missed content is worth understanding rather than memorising. A render is a computation over routed material, so anything outside the routed chain, outside the selected range, or outside the set of captured data types is simply not part of the computation: a track routed away from the master, a part that exists only as unrecorded hardware sound, or a range that stops before the intended ending. That is why the checks belong to content, length and listening rather than to a single glance at the file. Two limits must be stated plainly. First, a completed render is evidence about the file, not about musicianship, and a technically valid export can be musically poor. Second, nothing in this lesson was executed here: no project was opened and no file was rendered, so the durations are computed values and the checks are procedures to perform, not observations that were made.",
+                "secondExample": "Contrast two kinds of unfinished project and the different responses they need. The first is unfinished because of a technical gap: the arrangement is complete and the render is missing a part, which calls for the content checks above and produces a fixed file. The second is unfinished because of an artistic gap: every section exists but nothing ever feels like a final section, which calls for a revision to the material and cannot be repaired by any export setting. A third case is a project that is in fact finished and is being kept open by preference, which is common and worth naming honestly; the way out is to set a bounded stopping rule before the session, such as finishing this piece completely before starting another, and then to hold it. The useful transferable habit is that the stopping rule is decided in advance, when you are not attached to the current version, rather than at the moment when stopping would mean accepting something imperfect.",
+                "mistake": "Four errors recur. The first declares the work complete because the render finished, without listening to the file end to end; the manual's own point that exporting is not saving is the counterpart of the point that rendering is not listening. The second delivers a project file and expects the recipient to hear what you heard, when a project depends on instruments, plugins and routing that may not travel. The third confuses loudness with completion and describes a file as mastered because it is loud, which conflates a level decision with a finished judgement. The fourth claims a verification that did not happen, such as reporting listening checks on a file that was never opened; a truthful note about an unchecked file is more useful than a confident claim, and the level quiz in this course is not a substitute for a file-level listen.",
+                "application": "For a twenty-minute nonblocking task, fix the scope of one piece in writing, render it as audio, open the file, and listen from the first attack to the end of the tail at a comfortable level without looking at the project. Record the calculated body length and the actual file length and subtract to get the difference. Then write a delivery note with four headings: intent, files, listening findings, next revision. The rubric asks for a fixed scope stated before rendering, a rendered file that was actually opened and heard, computed durations and their difference, at most one revision priority, and an honest statement of what was not checked. A model note reads: intended a four-section, thirty-two-bar piece at 100 beats per minute, so 76.8 seconds of body; the file is 80.3 seconds, and the extra 3.5 seconds is an intended release; section C's beat drop is audible; the melody is partly covered in section B, so the next revision thins the pad rather than raising the melody; I did not check the file on a second playback device.",
+                "summary": "A piece is finished when a version is fixed, heard and documented, not when it stops being improvable. Across this level you counted functions rather than labelling chords, derived keys from the circle of fifths, explained borrowed chords by counting the notes they alter, moved harmony with the bass, separated guitar and keys into distinct roles, shaped a melody as a phrase and tested it without the instrument, planned a form whose boundaries are audible, stored movement as automation, balanced by subtraction, and delivered a rendered file with a delivery note. Each of those is a decision you can now state and defend. What none of it does is prove that anything was played, recorded or heard: the arithmetic in this level is computed, the documents were read, and no project was run, so the written and recorded artifacts you produce remain the evidence that matters."
+              },
+              "readings": [
+                {
+                  "title": "[4] Image-Line — Exporting Audio & MIDI",
+                  "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm",
+                  "note": "Read About Rendering, Render length and Recording External Hardware. About Rendering gives the statement that the master mixer track is rendered by default, the note that MIDI is not an audio format, and the render-length hierarchy that includes the tail setting; Recording External Hardware lists the steps needed for hardware sound to appear in a render."
+                },
+                {
+                  "title": "[19] MIDI.org — About MIDI, Part 1: Overview",
+                  "url": "https://midi.org/about-midi-part-1overview",
+                  "note": "Read the section headed MIDI is not audio and the surrounding paragraphs on flexibility. It is the standard reference for the distinction between instructions and recorded sound that this lesson applies when a rendered file turns out to be silent where a hardware part was expected."
+                }
+              ],
+              "visual": {
+                "title": "Finish the piece: render it, listen to the file, and write the delivery note — reasoning sequence",
+                "description": "A fixed version is rendered, heard end to end, and documented against the plan.",
+                "steps": [
+                  "Fix the scope before rendering: section map, bar count, tempo, target format.",
+                  "Compute the body: 32 bars at 100 BPM = 32 x 2.4 s = 76.8 s.",
+                  "Render; note the actual file length and subtract: 80.3 s - 76.8 s = 3.5 s.",
+                  "Listen to the whole file; decide whether the 3.5 s is an intended tail or unintended silence.",
+                  "Check content: a track routed away from the master, or an unrecorded hardware part, is absent from the render."
+                ]
+              }
+            }
+          ],
+          "questions": [
+            {
+              "id": "uq-41-50-f",
+              "prompt": "The first four bars and the second four bars of a melody share their rhythm and their first three pitches, and the second phrase ends on the tonic over the tonic chord. Which structure is this, and what does the ending do?",
+              "answer": "An aa prime pair, and the tonic ending closes the phrase",
+              "distractor": "A four-part srdc section in which the tonic ending marks the departure stage",
+              "correction": "A repeated phrase with a changed ending is labelled a prime rather than a plain repetition, so the pair is aa prime, a two-part structure. Departure is the third stage of an srdc four-part pattern, and closure is produced by the stable final pitch rather than by the repetition of the rhythm.",
+              "reviewLessonIds": [
+                "46",
+                "25"
+              ]
+            },
+            {
+              "id": "uq-41-50-g",
+              "prompt": "A boundary is planned at bar seventeen, but nothing changes audibly there when the piece is played. Which change is most likely to make the boundary register?",
+              "answer": "Remove a layer at bar seventeen, since a change in instrumentation is one of the surface features that makes a boundary apparent",
+              "distractor": "Give the section a new name and a different clip colour so the boundary is documented in the arrangement",
+              "correction": "Names and colours are not on the source's list of features that make a boundary apparent, which includes poetic structure, a rhythmic, harmonic and melodic arrival, a change in instrumentation or volume, and a return to previously heard material. Subtracting a layer satisfies the list and is audible on any playback system.",
+              "reviewLessonIds": [
+                "47"
+              ]
+            },
+            {
+              "id": "uq-41-50-h",
+              "prompt": "A producer records a filter sweep by hand into a pattern and then spends an hour editing individual points. What route would the documentation have suggested instead?",
+              "answer": "Convert the recorded event data into an automation clip and edit the curve as a shape rather than as individual points",
+              "distractor": "Render the sweep into audio so the movement can be edited afterwards as a waveform",
+              "correction": "Recorded movements are stored as event data inside the selected pattern, and the manual notes that at 96 pulses per quarter note an unedited pass can hold hundreds of control points per bar. Converting the recording into a clip makes the movement editable as a curve. Rendering produces audio, after which the control change can no longer be adjusted.",
+              "reviewLessonIds": [
+                "48",
+                "26"
+              ]
+            },
+            {
+              "id": "uq-41-50-i",
+              "prompt": "A mix exceeds zero decibels only in the fullest bar, and the learner's response is a limiter on the master plus a six decibel boost on the melody. What is the better first action?",
+              "answer": "Subtract on the loudest contributor by reducing its level and thinning its voicing, then re-check the fullest bar",
+              "distractor": "Add the limiter alone, because the master must not exceed zero decibels under any circumstances",
+              "correction": "A boost raises the total that the output has to accommodate, and a limiter conceals an unbalanced mix rather than resolving it. Six decibels of reduction halves the contributing part, and thinning a voicing removes simultaneous contributors, so both the masking and the overload are addressed at their source.",
+              "reviewLessonIds": [
+                "49",
+                "39"
+              ]
+            },
+            {
+              "id": "uq-41-50-j",
+              "prompt": "Five sketch projects exist and none of them has been delivered. Which procedure follows this level?",
+              "answer": "Fix the scope of one piece, render it, listen to the file end to end, and write a delivery note with one revision priority",
+              "distractor": "Start a sixth sketch so that the strongest idea can be chosen before any of them is finished",
+              "correction": "Rendering fixes a version, listening supplies the evidence about that version, and the delivery note converts the evidence into at most one revision priority. Starting another sketch defers the only step that has a defined end, since every earlier step is open-ended.",
+              "reviewLessonIds": [
+                "50",
+                "40"
+              ]
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lq-41-50-a",
+          "prompt": "A loop in G major runs E minor, A minor, D, G, with the roots E, A, D and G. A learner labels the passage a descending-fifths sequence and then calls the closing G a half cadence. Which part of that is right, and what is wrong?",
+          "answer": "The descending-fifths label is right because each root falls a fifth, but the closing G is a tonic arrival rather than a half cadence, which by definition ends on V",
+          "distractor": "Both labels are right, because a sequence can end on any chord and a half cadence ends wherever the phrase happens to stop",
+          "correction": "The root motion E to A to D to G descends by fifth at each step, which is what the sequences chapter names a descending fifths pattern. A half cadence ends on the dominant, so a phrase arriving on the tonic is a tonic arrival in the opposite direction, and the chapter's own definition of the half cadence as ending on V rules the second label out.",
+          "reviewLessonIds": [
+            "41",
+            "42"
+          ]
+        },
+        {
+          "id": "lq-41-50-b",
+          "prompt": "In C major a progression runs C, F, F minor, C, and the third chord is written as F minor with F, its root, in the bass. Which description is accurate?",
+          "answer": "A flat is borrowed from the parallel minor, the chord is in root position because F is in the bass, and it still carries predominant function",
+          "distractor": "The chord is a first-inversion A flat major triad because A flat is present and the chord is spelled from the parallel mode",
+          "correction": "F minor is spelled F, A flat, C, so F in the bass places it in root position and the chord's root stays F. Only one scale degree is borrowed, the lowered sixth. An A flat major triad would be A flat, C, E flat, which is a different collection and would also change the chord's function.",
+          "reviewLessonIds": [
+            "43",
+            "44"
+          ]
+        },
+        {
+          "id": "lq-41-50-c",
+          "prompt": "A pad sounding middle C at about 262 hertz covers a guitar figure in the same range. A learner moves the pad up an octave and reduces its level by six decibels. What are the resulting figures, and does the change address the cause?",
+          "answer": "About 524 hertz, close to the 523 hertz of C5, and about half the previous level; the register change addresses the overlap, which a level change alone would not",
+          "distractor": "About 524 hertz and about 75 per cent of the previous level; the level reduction is what removes the overlap",
+          "correction": "Moving up an octave doubles the frequency, so about 262 hertz becomes about 524 hertz, close to the 523 hertz of C5. Six decibels of reduction halves the contribution rather than leaving three quarters, which would correspond to roughly two and a half decibels. Register separation removes the masking; level alone would only move the competition.",
+          "reviewLessonIds": [
+            "45",
+            "39"
+          ]
+        },
+        {
+          "id": "lq-41-50-d",
+          "prompt": "A learner writes an aa prime melody, plays it back through the sequencer, and reports that the second phrase was heard as closed. What can be concluded?",
+          "answer": "Only that the sequence played back; an aural check requires singing each phrase unaccompanied, with a contour line or solmization used to record what was heard",
+          "distractor": "The closed ending is confirmed, because hearing the sequencer play the melody is equivalent to an aural check of it",
+          "correction": "Playing a sequence verifies that the software produced the notes, not that the writer can hear or reproduce the line. The dictation strategies in the source, contour lines, solmization syllables and protonotation, are the methods that commit a prediction and then test it, and the unaccompanied singing removes the instrument's ability to cover a wrong note.",
+          "reviewLessonIds": [
+            "46",
+            "38"
+          ]
+        },
+        {
+          "id": "lq-41-50-e",
+          "prompt": "A piece is planned as three eight-bar sections at 96 beats per minute, and the third section is meant to be a departure. Compute the section duration and state what the boundary into that section requires.",
+          "answer": "2.5 seconds per bar, so each section lasts 20 seconds; the boundary needs a perceptible change such as an arrival, a change of instrumentation or volume, or a return to heard material",
+          "distractor": "2.5 seconds per bar, so each section lasts 20 seconds; renaming the section markers is enough once the durations are correct",
+          "correction": "At 96 beats per minute the beat is 0.625 seconds, so a 4/4 bar is 2.5 seconds and eight bars are 20 seconds. Section length is only half the requirement: the source defines boundaries by what makes them apparent, so a marker that is only a label leaves the boundary inaudible.",
+          "reviewLessonIds": [
+            "47",
+            "46"
+          ]
+        },
+        {
+          "id": "lq-41-50-f",
+          "prompt": "A producer automates the monitor volume knob to rise across the chorus and reports that the rendered file is unchanged. Why is that, and what should have been automated?",
+          "answer": "The monitor volume knob has no effect on rendered levels, so the track fader or plugin parameter that the render actually uses should have been automated",
+          "distractor": "The automation was never converted from event data, which is why the rendered level did not change",
+          "correction": "The manual states plainly that the monitor volume knob is designed to adjust monitoring without affecting the mix level, so automating it changes nothing in the file. Unconverted event data would still have played back during the project, so it would have affected the render rather than leaving it unchanged.",
+          "reviewLessonIds": [
+            "48",
+            "40"
+          ]
+        },
+        {
+          "id": "lq-41-50-g",
+          "prompt": "At 96 pulses per quarter note, how many ticks are in a 4/4 bar, and why does the manual advise care with recorded automation?",
+          "answer": "384 ticks, and a continuous recorded pass can create a control point at almost every tick, so converting it to a clip and editing the curve is easier than editing the points",
+          "distractor": "96 ticks, because one control point is written per quarter note, so dense automation data cannot occur",
+          "correction": "At 96 pulses per quarter note a quarter note is 96 ticks and a 4/4 bar is four quarters, which is 384 ticks. The manual's warning about control-point density reflects the fact that a recorded movement can define a new point at nearly every step of the timeline, which is why the recommended route is to convert the recording into an automation clip whose shape can be edited.",
+          "reviewLessonIds": [
+            "48",
+            "38"
+          ]
+        },
+        {
+          "id": "lq-41-50-h",
+          "prompt": "A mix sounds well separated in stereo, but in mono the pad covers the guitar. A learner responds by panning the two parts further apart. What is wrong with that, and what does the three decibel figure refer to in this situation?",
+          "answer": "Panning collapses when the channels are combined, so the register or density has to change; the three decibel figure is the reduction the default circular panning law applies to a centred signal",
+          "distractor": "Panning is sufficient if it is increased, and the three decibel figure is the boost that a hard-panned signal receives",
+          "correction": "Stereo separation disappears in the mono sum, which is why arrangement changes rather than placement changes survive every playback system. The circular panning law reduces a centred signal by about three decibels so that its apparent loudness matches hard panning, so centring a part is already a level decision rather than a neutral one.",
+          "reviewLessonIds": [
+            "49",
+            "39"
+          ]
+        },
+        {
+          "id": "lq-41-50-i",
+          "prompt": "A project sounds complete in the studio, but the render is silent where a part played from external hardware controlled by MIDI should be. Which explanation matches the documentation?",
+          "answer": "MIDI carries instructions rather than audio, and the hardware's sound has to be recorded and placed as an audio clip for an ordinary offline render to include it",
+          "distractor": "The MIDI export option should have been chosen instead, because a MIDI file contains the recorded sound of external hardware",
+          "correction": "The export page's Recording External Hardware section describes making both MIDI and audio connections, recording the sound as it is played, and placing that audio in the playlist before rendering. The same page states that MIDI is not an audio format, so choosing a MIDI file would deliver instructions and no sound at all.",
+          "reviewLessonIds": [
+            "50",
+            "36"
+          ]
+        },
+        {
+          "id": "lq-41-50-j",
+          "prompt": "A 32-bar piece at 100 beats per minute renders to a file of 80.3 seconds. Which statement is correct?",
+          "answer": "The musical body is 76.8 seconds because 32 bars at 2.4 seconds each, so the extra 3.5 seconds must be listened to and classified as an intended tail or unintended silence",
+          "distractor": "The musical body is 76.8 seconds, so the extra 3.5 seconds prove that the export settings were wrong",
+          "correction": "The manual's render-length hierarchy includes the tail setting, so a file legitimately extends past the last bar containing data. Reverb and instrument releases are audible tails rather than errors, and the decision between an intended tail and unintended silence comes from listening to the file against the section plan rather than from the arithmetic alone.",
+          "reviewLessonIds": [
+            "47",
+            "50"
+          ]
+        },
+        {
+          "id": "lq-41-50-k",
+          "prompt": "A loop is A minor, F, C, G. One learner calls it vi-IV-I-V in C major, another calls it i-VI-III-VII in A minor. Which framing is defensible, and what does the choice change?",
+          "answer": "Both readings use the same pitch classes and the same chords; the difference is where home is heard, and in the second reading the loop begins on the tonic and ends on the dominant",
+          "distractor": "Only the C major reading is defensible, because the loop contains a G major chord and G is the dominant of C",
+          "correction": "Roman numerals describe function relative to a tonic, so the same four chords can be analysed from either tonic using the same numerals in different cases. Which reading is more useful depends on where the music sounds like home, and the second reading shows a loop that starts at the tonic and ends on the chord that expects a return, which explains why the cycle can repeat. The presence of G does not settle the question, since the reading from A minor treats G as the seventh-degree chord.",
+          "reviewLessonIds": [
+            "41",
+            "33"
+          ]
+        },
+        {
+          "id": "lq-41-50-l",
+          "prompt": "A learner scores full marks on this level's quiz, owns a sequenced sketch, and has never rendered a file or listened to one. What claim is supported by that evidence?",
+          "answer": "That the reasoning in the level was checked and an unfinished sketch exists; playing, rendering and file-level listening remain unverified",
+          "distractor": "That the learner has demonstrated finished-piece delivery competence, since the quiz score and the sketch together are sufficient evidence",
+          "correction": "The quiz tests the reasoning in the level and the sketch is a saved artifact, but neither involves rendering a file or hearing it end to end, which is what this level's final lesson defines as finishing. This course states that a quiz score is not proof of practical competence, so the honest conclusion names what remains unchecked rather than extending the claim.",
+          "reviewLessonIds": [
+            "50",
+            "40",
+            "30"
+          ]
+        }
+      ]
+    }
+  ]
+}

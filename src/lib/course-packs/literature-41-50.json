@@ -1,0 +1,735 @@
+{
+ "subject": "literature",
+ "levels": [
+  {
+   "title": "Constraint, genre and the sustained argument",
+   "units": [
+    {
+     "title": "Form and genre as arguments: constraint, tragedy, comedy",
+     "lessons": [
+      {
+       "id": "41",
+       "title": "Constraint and the turn: Milton's sonnet XVI and Pope's closed couplet",
+       "explanation": "A fixed form is a set of constraints: a required number of lines, a rhyme scheme, a metrical pattern, and often a division into parts. Poets are not merely limited by these rules, they think with them, because a constraint forces a choice and a choice can carry meaning. Milton's sonnet XVI shows the machinery at work. Its first eight lines raise a complaint: a speaker who has lost his sight asks whether God still demands the work he can no longer do, ‘Doth God exact day-labour, light deny'd, / I fondly ask’ — where ‘fondly’ means foolishly, not tenderly. Then the poem turns, and the reply arrives from somewhere other than the complainer: ‘But patience to prevent / That murmur, soon replies’. A virtue speaks, and the answer — that those who best bear their lot serve best, and that ‘They also serve who only stand and waite’ — occupies the last six lines exactly. The division is not a decorative envelope around the argument; it is the argument, because a Petrarchan sonnet asks in the octave and answers in the sestet. Constraint here produces a shape for thinking: the poem cannot wander, so the complaint must be compressed into eight lines and the reply must arrive on schedule. Read form as machinery for meaning rather than as a container with a poem inside it [1][2].",
+       "example": "Work the poem through four steps. Step one, mark the rhyme scheme by lettering the line-endings of the 1745 transcription: spent, wide, hide, bent, present, chide, deny'd, prevent — that is A B B A A B B A, a strict octave. The sestet then runs need, best, State, speed, rest, waite: C D E C D E. So the rhyme itself announces the turn at line nine, before any reader has decided what the poem is about. Step two, locate who speaks in each half: the octave belongs to the questioning ‘I’, and the sestet belongs to ‘patience’, introduced with a capital and given the verbs. Step three, note what the constraint costs and buys. Because the octave must close on a rhyme with ‘deny'd’ you get the very line ‘Doth God exact day-labour, light deny'd’ — the accusation placed in the final couplet of the octave, where rhyme weight makes it land hardest. Step four, watch the vocabulary that a short poem cannot explain: ‘Talent’ is a single capitalised noun carrying the parable of the servants and the buried money, and ‘day-labour’ imports the parable of the labourers hired at the eleventh hour. Two allusions arrive as two words, which is what compression buys. A counterreading keeps the structure and doubts the consolation: the reply is spoken by an allegorical figure whom the speaker has summoned, so the poem may be arguing with itself rather than resolving anything, and the word ‘waite’ leaves the waiting unending. Both readings rest on the same line divisions, and that is why the formal description has to come first [1].",
+       "question": "What does the rhyme scheme of Milton's sonnet XVI show about where the poem's turn falls?",
+       "answer": "The octave rhymes A B B A A B B A and the sestet C D E C D E, so the rhyme itself marks the turn at line nine, where the question gives way to the reply from ‘patience’",
+       "distractor": "The rhyme is continuous throughout, so the turn is marked only by the appearance of a new speaker",
+       "correction": "Lettering the line-endings gives ABBAABBA then CDECDE, which is a strict Petrarchan division. A continuous rhyme scheme would not distinguish question from answer, and the new speaker appears after the division has already been signalled. Mark the rhymes before deciding what the structure means.",
+       "depth": {
+        "definitions": "A fixed, or closed, form prescribes line count, metre and rhyme; the sonnet's Petrarchan version divides into an octave of eight lines and a sestet of six. Rhyme scheme is described by lettering line-endings so that identical letters mark identical sounds. The volta, or turn, is the point where the argument changes direction, conventionally at line nine in the Italian form. Enjambment runs a sentence past a line-ending, while an end-stopped line completes a clause at the line's edge. A couplet is two rhymed lines, and in English verse the closed heroic couplet completes its sense and its rhyme together. Prerequisites: the beat-counting and rhyme-letter skills from lesson 38, and the observation-versus-inference discipline from lesson 37, because a rhyme scheme is an observation while a volta is a reading of one [3].",
+        "mechanism": "Constraint generates meaning through four operations. Compression makes a word carry a text: ‘Talent’ and ‘day-labour’ each import a parable that the poem has no room to narrate. Position creates emphasis: because a rhyme must be satisfied at a fixed point, the rhyme word and its partner sit in the loudest places in the line-unit, which is why the octave's closing accusation is so bare. Division creates dialogue: a two-part form gives a speaker somewhere to hand the question over, so the turn is a structural permission to answer. Closure makes an ending: the last line of the sestet or the second line of a couplet is expected to land, so a withheld conclusion registers as refusal. Limits matter. A rhyme scheme is a description of sound, not a cause of meaning, and the same scheme can carry a trivial poem; constraint raises the stakes of each choice without guaranteeing that the choices are good. Stress and sound are historical, and this transcription's spellings differ from modern editions, so a formal claim is always a claim about a named text [1][2].",
+        "secondExample": "Set the sonnet beside Pope's closed heroic couplet in An Essay on Criticism: ‘True wit is nature to advantage dressed; / What oft was thought, but ne'er so well expressed’. Where Milton's form divides, Pope's couples: the second line rhymes with the first and completes its sense, and the pair generates an aphorism. The rhyme is doing argumentative work, since ‘dressed’ invites ‘expressed’ and thereby pushes the definition of wit toward the question of expression rather than invention. Note how the pair is end-stopped, so each couplet stands as a unit of finished thought, in contrast with Milton's ‘more bent / To serve therewith my Maker’, which holds a line-opening participle over from the previous line and lets the sentence flow past the formal division. Two different constraints, two different effects: subdivision produces dialogue, closure produces maxims. A further check comes from the same 1745 and 1745-era transcriptions: the Pope text prints lower-case ‘True wit is nature to advantage dressed’, while modern editions capitalise; the Milton text prints ‘E're half my days’, ‘Lodg'd’ and ‘waite’, where a modernised text would print ‘Ere’, ‘Lodged’ and ‘wait’. Quote the edition you cite, or cite the edition you quote [1][2].",
+        "mistake": "The commonest error treats form as packaging: the reader summarises the argument and then mentions that the poem is a sonnet, as though the two facts lived in different rooms. Diagnose it by rewriting the poem's two halves as continuous prose and asking what the rewrite loses; if the loss is only aesthetic flavour, the formal claim was decorative, but if the question and answer collapse into a single voice, the division was doing the work. A second error assumes a rhyme scheme dictates meaning, which turns a description of sound into a cause and produces claims no text could refute. A third error quotes modernised wording while citing a transcription that prints something else, so the formal description and the quotation describe two different objects; check the accents and apostrophes of the text actually linked [1].",
+        "application": "Transcribe the fourteen lines of Milton's sonnet XVI on one page. Letter every line-ending, bracket the octave and sestet, mark which lines are enjambed, and circle every word that alludes to a biblical parable. Then write 200–250 words arguing which formal feature carries the poem's turn, and name one rival reading of that feature. Self-review rubric: two points for an accurate rhyme lettering; two for correct identification of enjambed lines with reasons; two for connecting a formal feature to a specific interpretive effect; two for a rival reading that would survive your evidence; one for naming the edition you transcribed and any spelling you had to report as printed. Model direction: the strongest formal claim is the octave's closing couplet, because the rhyme forces the accusation onto the line that ends the complaint, so the question is placed where a reader expects a conclusion.",
+        "summary": "Fixed forms are instruments for thinking. A sonnet's division licenses question and answer, a couplet licenses closure, and both achieve emphasis by fixing where rhyme and sense must land. Carry forward three habits: describe the form before interpreting it, tie every formal feature to a stated effect, and name the edition whose punctuation and spelling you are describing. The same analysis transfers to a haiku, a sestina or a villanelle, and to any medium where rules channel expression."
+       },
+       "readings": [
+        {
+         "title": "[1] John Milton, The Poetical Works of John Milton, sonnet XVI, ‘When I consider how my light is spent’",
+         "url": "https://www.gutenberg.org/ebooks/1745.txt.utf-8",
+         "note": "Read sonnet XVI only, which this 1870s-format transcription numbers in roman numerals, in the sequence of sonnets after the Latin verses. It prints ‘E're half my days’, ‘Lodg'd with me useless’, ‘light deny'd’, ‘his milde yoak’ and ‘stand and waite’; quote these as printed and do not silently modernise them. Public domain in the USA."
+        },
+        {
+         "title": "[2] Alexander Pope, An Essay on Criticism, Part II, on wit and nature",
+         "url": "https://www.gutenberg.org/ebooks/7409.txt.utf-8",
+         "note": "Read the couplets around ‘True wit is nature to advantage dressed’ (Part II in most modern editions). This transcription prints the line in lower case and modernises some spellings, so quote only what it prints and note the difference from standard editions. Public domain in the USA."
+        },
+        {
+         "title": "[3] Academy of American Poets, glossary entry ‘Sonnet’",
+         "url": "https://poets.org/glossary/sonnet",
+         "note": "Read the definition and the paragraphs on the Petrarchan and Shakespearean forms, especially the account of octave, sestet and volta. A general reference rather than a scholarly apparatus; use it to check terminology, not to settle a reading."
+        }
+       ],
+       "visual": {
+        "title": "How a rhyme scheme marks a turn",
+        "description": "Lettering the line-endings of Milton's sonnet XVI to show that the formal division precedes and shapes the poem's question-and-answer structure.",
+        "steps": [
+         "Line-endings lettered in sequence: spent (A), wide (B), hide (B), bent (A), present (A), chide (B), deny'd (B), prevent (A)",
+         "The octave closes on the accusation ‘Doth God exact day-labour, light deny'd’, placed where rhyme weight lands hardest",
+         "Sestet endings need (C), best (D), State (E), speed (C), rest (D), waite (E) announce a new pattern",
+         "‘But patience to prevent / That murmur, soon replies’ hands the answer to a second speaker inside the new division",
+         "Enjambed lines (‘more bent / To serve therewith my Maker’) let the sentence run past the formal boundary"
+        ]
+       }
+      },
+      {
+       "id": "42",
+       "title": "Tragic structure and the question of responsibility: Macbeth, Act 1",
+       "explanation": "Tragedy is a machine for distributing causes. Its plot supplies prompting, pressure and choice in specific proportions, and reading a tragedy well means keeping those supplies separate instead of collapsing them into a single verdict. Macbeth offers an unusually clean case because Act 1 lays out every candidate and lets the audience weigh them. The witches greet Macbeth with titles he does not yet hold and one he cannot hold yet, and Banquo, standing beside him, hears the same words and does nothing: ‘The instruments of darkness tell us truths; / Win us with honest trifles, to betray's / In deepest consequence.’ Macbeth's own aside then opens a deliberation: ‘This supernatural soliciting / Cannot be ill; cannot be good’, followed by a temptation to wait — ‘If chance will have me king, why, chance may crown me, / Without my stir.’ Duncan's naming of Malcolm as Prince of Cumberland makes waiting forever, and in the next act's soliloquy the waiting has disappeared: ‘I have no spur / To prick the sides of my intent, but only / Vaulting ambition, which o'erleaps itself / And falls on th' other.’ Lady Macbeth supplies the final ingredient, first doubting his manhood — ‘When you durst do it, then you were a man’ — and then the practical instruction, ‘But screw your courage to the sticking-place, / And we'll not fail.’ The play offers supernatural suggestion, social pressure and a self that decides, and the structural question is which of the three the plot makes decisive [1][2].",
+       "example": "Build the case as a sequence with a rival path visible at each stage. Step one, the prophecy: it is ambiguous enough to be resisted, as Banquo's warning shows, and the audience is given his caution as a control case. Step two, Macbeth's first inside look: ‘This supernatural soliciting / Cannot be ill; cannot be good’ has the grammar of a man weighing, and the same speech adds ‘My thought, whose murder yet is but fantastical’, which reports a wish rather than a plan. Step three, the option he later abandons: ‘If chance will have me king, why, chance may crown me, / Without my stir’ is an explicit policy of inaction, available to him on the same night as the prophecy. Step four, the change: Duncan's announcement that he will ‘establish our estate upon / Our eldest, Malcolm’ removes the waiting strategy, and Macbeth's own soliloquy concedes that the only motive left is wanting itself — the ‘vaulting ambition’ that overshoots. Step five, the pressure: Lady Macbeth's ‘screw your courage to the sticking-place’ addresses an agent who can still refuse, and her later aside about his nature confirms that she is working on a resolve that has to be steadied. Now the counterreading, which deserves weight: the play surrounds the choice with so much supernatural machinery that a determinist reading — a man caught in a prophecy he cannot escape — has textual support, and the Weird Sisters' words do come true. What keeps that reading from being the obvious one is Banquo, who hears exactly the same words and takes the warning rather than the bait, which shows the prophecy's effect depends on what a hearer wants. A defensible claim about responsibility should therefore name the scene, the choice, and the rival path in view at that moment [1][2].",
+       "question": "Which feature of Act 1 best shows that the witches' prophecy does not by itself determine Macbeth's conduct?",
+       "answer": "Banquo hears the same prophecy, takes it as a warning rather than an invitation, and is not moved to seize the crown",
+       "distractor": "Macbeth's soliloquy reports that he feels ambition, which proves he chose his course freely",
+       "correction": "A feeling of ambition is evidence of motive, not of freedom from influence; it shows the pressure worked rather than that it was resistible. The control case is a second hearer of the same words behaving differently, and Banquo supplies it. Responsibility claims need a rival path, not a report of desire.",
+       "depth": {
+        "definitions": "Tragedy, in Aristotle's account, imitates an action that is serious and complete, with incidents that arouse pity and fear. Hamartia is the term usually translated as the protagonist's error; S. H. Butcher's nineteenth-century version renders it as arising ‘not by vice or depravity, but by some error or frailty’, while the Greek word names a missing of the mark and need not mean a moral defect, which is why ‘tragic flaw’ is a contested gloss. Peripeteia is a reversal of fortune and anagnorisis a recognition. Dramatic irony describes an audience knowing what a character does not. Agency is the capacity to act on one's own reasons, and compulsion names constraint that removes that capacity; the interesting cases sit between them. Prerequisites: characterisation through conduct and the price of speech from lesson 36, and the difference between a character's words and a narrator's report, which in drama means distinguishing soliloquy from dialogue [1][3].",
+        "mechanism": "Tragic structure distributes cause across four levels, and each level has a different evidential status. The supernatural supplies suggestion without instruction, and the audience can check its ambiguity against a second hearer. The social world supplies pressure through rank, hospitality and insult, which makes Duncan's murder also a breach of guest-right. Character supplies motive, reported in soliloquy, though a soliloquy is rhetoric addressed to an audience as well as an inside view, so it is evidence with a bias. Consequence supplies retrospection: later acts show what the choice does to the chooser, which is the plot's own commentary. The craft lies in keeping the levels weighted rather than merged, because the merging produces the two standard errors, determinism and free-will triumphalism. A further limit is definitional: Aristotle's criteria are descriptive observations about the plays he knew, not laws, and applying them to a Jacobean play about a historical Scottish king is a transfer that should be argued rather than assumed [1][3].",
+        "secondExample": "Compare the same structural question applied to the consequences rather than the cause. In Act 5 the Doctor watches Lady Macbeth sleepwalking and says, ‘Unnatural deeds / Do breed unnatural troubles.’ Here the play's later machinery assigns outcome to act: what she did in Act 2 returns as a symptom in Act 5, so responsibility is not only a matter of what prompted her but of what her conduct produced. Set that beside Macbeth's last soliloquy, where the world becomes ‘a tale / Told by an idiot, full of sound and fury, / Signifying nothing’, and his earlier ‘I have liv'd long enough: my way of life / Is fall'n into the sere, the yellow leaf’. These lines do not retract his agency; they measure its cost, and the difference between the two registers — a doctor's diagnosis and a king's resignation — shows two kinds of evidence about responsibility, one medical-moral and one biographical. A reader comparing them has to say which bears on the question of blame and which on the question of consequence [1].",
+        "mistake": "The most common error converts hamartia into a moral defect and then hunts the play for a single flaw, so Macbeth becomes ‘too ambitious’ and the prophecy becomes a trap rather than a test. Diagnose it by asking what the character could have done otherwise, at which moment, and on what evidence in the scene; if no alternative is on stage, the flaw is your invention rather than the plot's structure. A second error treats a soliloquy as a transparent window and therefore as proof of motive, ignoring that the speaker is shaping what he tells himself. A third error lets one level of cause swallow the others, so either the witches or Lady Macbeth is pronounced solely responsible; the play's own control case, Banquo, exists to prevent exactly that move [1][2].",
+        "application": "Build a responsibility ledger for Act 1 with four columns: the prompting event (with act, scene and line), the choice made (or refused), the rival path visible in the same scene, and the cost borne by the chooser in later acts. Then write 200–250 words defending a claim about responsibility, naming the counterreading you think is strongest and the evidence that would defeat your claim. Self-review rubric: two points for promptings located accurately by scene; two for choices that are genuinely acts and not feelings; two for rival paths drawn from the same scene; two for a counterreading with real support; one for a stated falsification condition. Model direction: the strongest evidential claim is comparative, because Banquo's refusal shows the prompt was resistible while Macbeth's abandonment of ‘Without my stir’ shows when resistibility ended.",
+        "summary": "Tragedy works by apportioning causes rather than by assigning a single culprit, and its structure supplies the evidence for whatever apportionment a reader proposes. Distinguish suggestion, social pressure, motive and consequence; test each against a scene with a visible alternative; and treat genre theory as a comparison, not a verdict. The transferable method — name the prompting, name the choice, name the road not taken — is the same one you would apply to a case study in conduct, which is why tragedy remains a serious instrument for thinking about responsibility."
+       },
+       "readings": [
+        {
+         "title": "[1] William Shakespeare, Macbeth, Act 1, scenes 3–7, in The Complete Works",
+         "url": "https://www.gutenberg.org/ebooks/100.txt.utf-8",
+         "note": "Read Act 1, scene 3 from the witches' greeting through Macbeth's ‘This supernatural soliciting’ aside; scene 4 for Duncan's naming of Malcolm; scene 5 for Lady Macbeth's letter and her ‘milk of human kindness’ speech; scene 7 for ‘screw your courage to the sticking-place’ and the ‘Vaulting ambition’ soliloquy. This edition modernises some spelling and prints ‘o'erleaps’ and ‘th' other’. Public domain in the USA."
+        },
+        {
+         "title": "[2] Folger Shakespeare Library, Macbeth, Act 1, scene 7",
+         "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/1/7/",
+         "note": "Read the scene with the Folger's line numbers so you can cite the ‘Vaulting ambition’ speech precisely; compare its punctuation and modern spelling against the Gutenberg text, which is the kind of variation lesson 41 asks you to declare. Free scholarly edition."
+        },
+        {
+         "title": "[3] Aristotle, Poetics, trans. S. H. Butcher, chapters 6 and 13",
+         "url": "https://www.gutenberg.org/ebooks/1974.txt.utf-8",
+         "note": "Read chapter 6 for the definition of tragedy and chapter 13 for the account of the protagonist whose misfortune comes about ‘not by vice or depravity, but by some error or frailty’. Butcher's wording is a translation, and the underlying Greek term is contested; read it as one influential rendering, not as Aristotle's own English."
+        }
+       ],
+       "visual": {
+        "title": "Four levels of cause in Act 1",
+        "description": "Separating supernatural suggestion, social pressure, character motive and later consequence, with Banquo as the control case that shows a prompt is not a compulsion.",
+        "steps": [
+         "Supernatural suggestion: the Weird Sisters greet Macbeth, and Banquo hears the same greetings",
+         "Control case: Banquo reads the words as a warning — ‘The instruments of darkness tell us truths’ — and does nothing",
+         "Policy that is later abandoned: ‘If chance will have me king, why, chance may crown me, / Without my stir’",
+         "Blocked path: Duncan names Malcolm Prince of Cumberland, so waiting can no longer produce the crown",
+         "Motive and pressure: ‘Vaulting ambition’ plus Lady Macbeth's ‘screw your courage to the sticking-place’",
+         "Consequence: in Act 5 the Doctor reports that ‘Unnatural deeds / Do breed unnatural troubles’"
+        ]
+       }
+      },
+      {
+       "id": "43",
+       "title": "Comedy's social function and its costs: Twelfth Night and the gulling of Malvolio",
+       "explanation": "Comedy is often described as if its only business were laughter. In practice the form is a social instrument that runs a standard sequence: a confusion is manufactured, an obstruction is exposed, a community is corrected and then renewed — usually with marriages and a restoration of order — while a licence is granted to misrule in the meantime. Twelfth Night stages that machinery and then shows its bill. Sir Toby, Maria and Feste manufacture confusion by forging a love letter from Olivia, and the deception works because it speaks to Malvolio's self-regard: the letter promises that ‘Some are born great, some achieve greatness, and some have greatness thrust upon ’em’, and he needs no evidence before he names himself the subject. He is then imprisoned in a dark room and visited by a clown disguised as a priest, a correction that becomes a punishment. The comedy of the play's middle is genuinely funny and genuinely cruel, and Shakespeare lets both be visible. Olivia's judgement at the end is not written as a joke: ‘He hath been most notoriously abus’d.’ The Duke answers, ‘Pursue him, and entreat him to a peace’, and Malvolio has already exited promising, ‘I’ll be revenged on the whole pack of you.’ The last word belongs to Feste, whose song ends ‘For the rain it raineth every day’. An interpretation of comedy that stops at the marriages has stopped before the play is finished [1][2].",
+       "example": "Read the letter scene in Twelfth Night 2.5 as a machine for testing interpretation. Step one, notice the forgery's craft: the letter says ‘If this fall into thy hand, revolve’, a command that makes reading into obedience, and the verse riddle asks him to work out ‘M.O.A.I. doth sway my life’. Step two, watch what Malvolio does with the difficulty. A careful reader would hesitate over a riddle that does not decode, but he resolves it instantly in his own favour, and Fabian supplies the running commentary, calling it ‘A fustian riddle!’ So the scene's joke is interpretive rather than merely situational: the gap between the evidence and the conclusion is the comedy. Step three, track the escalation past the point where the joke is fair, into the dark room of 3.4, where Sir Toby's ‘Come, we’ll have him in a dark room and bound’ turns a corrective device into confinement, and Malvolio is mocked by a clown pretending to be ‘Sir Topas’. Step four, notice what the play does with the consequences: Malvolio's grievance is put in the language of the theatre, since he asks why he has been ‘made the most notorious geck and gull / That e’er invention played on’, and Fabian has earlier admitted the affinity — ‘If this were played upon a stage now, I could condemn it as an improbable fiction’. A counterreading deserves fair weight: comedy on this account is a festival, and festivals need a figure who refuses the holiday and is excluded, so Malvolio's fate is the form's price rather than its failure, and Olivia's pity plus the Duke's order to ‘entreat him to a peace’ are the play's attempt at repair. That reading has support, and it still has to answer why the repair is offered only after the victim has left the stage [1][2].",
+       "question": "What is the best evidence in Twelfth Night that the comedy's correction of Malvolio exceeds what the joke requires?",
+       "answer": "The device continues from a letter trick into confinement in a dark room and a mock exorcism, and Olivia calls him ‘most notoriously abus’d’ after he has already left the stage",
+       "distractor": "Malvolio misunderstands the letter, which shows that the joke is on his reading rather than on him",
+       "correction": "Misreading is the trick's mechanism and would be evidence of folly, not of excess. What exceeds the joke is the change of scale and setting — bound in darkness, visited by a false priest — and the late arrival of a character's own verdict on it. Distinguish the device's purpose from what the device becomes.",
+       "depth": {
+        "definitions": "Comedy as a mode arranges obstacles so that a community is corrected and renewed, and it typically ends in marriages or their equivalent. Licensed misrule names the temporary suspension of ordinary decorum that the form allows, often through clowns, drunks or festivity. Satire aims ridicule at conduct or institutions; comedy may include satire without being reduced to it. Superiority theories explain laughter as pleasure in another's inferiority, incongruity theories as a response to a mismatch between expectation and event, and relief theories as discharge of tension. Genres are descriptive families, not biological kinds, so a play may be a comedy structurally and carry tragic material alongside. Prerequisites: conduct-based characterisation and the cost of speech from lesson 36, and the story of irony from lesson 35 [2][3].",
+        "mechanism": "Comedy does its social work through four mechanisms, each with a cost. Misrecognition produces the confusion that the plot resolves, as disguise and forged documents substitute for argument. Folly is exhibited so that an audience can measure it against a norm, which flatters the audience's judgement while exposing the fool. Correction is applied to a character who obstructs social pleasure, and the corrective device is licensed by festivity — Toby's question, ‘Dost thou think, because thou art virtuous, there shall be no more cakes and ale?’, frames Malvolio's sobriety as a public nuisance. Renewal closes the play by restoring sociability, with marriages, songs and pardons. The costs appear when the corrective device acquires force beyond the joke, which is why Malvolio can end the play accusing his tormentors, and why later criticism has read the comedy as a scapegoating ritual. Two limits govern interpretation. Staging is part of the meaning, so a printed text understates the laughter that manufactures consent. And the form's ending is a convention, not a moral verdict, which means a reading must argue from the play's own allocations of sympathy rather than from the fact that comedies usually end well [2][3].",
+        "secondExample": "Apply the same questions to the play's other deception. Viola disguises herself as a man, and the disguise generates the plot's central confusions: Olivia falls in love with a woman she thinks a man, and Orsino's desire learns to tolerate a change of object. Now compare the two deceptions by asking who bears the cost. Viola's disguise costs her the ability to declare her love until the plot allows it, and it ends in marriage and social gain. Maria's forgery costs Malvolio his liberty, his dignity and his office, and it ends in her marriage to Sir Toby — she is rewarded in the same scene in which her victim is exiled, which is a stark piece of accounting. The comparison produces a testable claim about the play's economy of sympathy, and it also produces a caution: because the play gives Maria no reflection on the trick and Olivia no power to repair it, the strongest defensible claim is not that the comedy endorses cruelty but that it dramatises a community whose renewal is unevenly distributed [1].",
+        "mistake": "Two errors dominate. The first equates comedy with harmlessness, so a reading of Twelfth Night reports the marriages and the songs and treats Malvolio's exit as the sulking of a spoilsport; diagnose it by asking who is on stage when the play closes and who has walked off it, and by counting the language of abuse. The second error swings the other way and treats the play as straightforwardly cruel, which flattens the text by ignoring Maria's wit, Feste's tenderness toward the grieving, and the play's insistence on festivity; diagnose that reading by asking what in the text it cannot explain. A third error confuses the play's norms with twentieth-century ones, so Malvolio's office and his ambition are converted instantly into a class parable; state your norm before you measure the play against it, and say which lines carry the norm [2][3].",
+        "application": "Draw a two-column table for Twelfth Night: on the left, what each deception gains for its agent; on the right, what it costs its target. Include Viola's disguise, Maria's letter, and Feste's disguise as Sir Topas. Then write 200–250 words on whether the play's ending repairs the costs it has shown, quoting at least two lines and naming a counterreading. Self-review rubric: two points for accurate attribution of each device to its agent; two for costs located in specific scenes; two for a claim about repair that quotes the ending; two for a counterreading; one for stating which staging choice would change your reading. Model direction: Fabian's ‘If this were played upon a stage now, I could condemn it as an improbable fiction’ is evidence that the play knows it is holding a mirror to its own device, which supports the claim that the ending's unease is deliberate.",
+        "summary": "Comedy is a social instrument: it manufactures confusion, exhibits folly, corrects an obstruction and renews a community, and it grants its characters a licence for behaviour ordinary life forbids. Twelfth Night shows the instrument and its bill, because the correction of Malvolio escalates beyond the joke and the repair arrives after he has gone. Read comedy with three questions — who laughs, who pays, and what does the ending repair — and the same questions transfer to sitcom, satire and the workplace joke that decides who belongs."
+       },
+       "readings": [
+        {
+         "title": "[1] William Shakespeare, Twelfth Night, Act 2, scene 5 and Act 5, scene 1",
+         "url": "https://www.gutenberg.org/ebooks/1526.txt.utf-8",
+         "note": "Read Act 2, scene 5 from Maria's ‘I can write very like my lady your niece’ through Malvolio's soliloquy over the letter, and Act 5, scene 1 from Malvolio's ‘I'll be revenged on the whole pack of you’ to Feste's song. This transcription prints the letter as ‘some have greatness thrust upon 'em’ but Feste's later quotation as ‘thrown upon them’, and prints Olivia's line with an apostrophe, ‘abus'd’; attribute each quotation to its speaker rather than merging them. Public domain in the USA."
+        },
+        {
+         "title": "[2] Folger Shakespeare Library, Twelfth Night, Act 2, scene 5",
+         "url": "https://www.folger.edu/explore/shakespeares-works/twelfth-night/read/2/5/",
+         "note": "Read the same scene in a line-numbered scholarly edition, so the letter's verse and Malvolio's decoding can be cited precisely; compare its punctuation and its treatment of the riddle with the Gutenberg text. Free scholarly edition."
+        },
+        {
+         "title": "[3] Stanford Encyclopedia of Philosophy, ‘Humor’, sections 2–4 and 6",
+         "url": "https://plato.stanford.edu/entries/humor/",
+         "note": "Read section 2, ‘The Superiority Theory’, section 4, ‘The Incongruity Theory’, and section 6, ‘Comedy’, for the competing philosophical explanations of why laughter at another's expense occurs and what it is doing socially. A survey of contested theories, not a verdict on Twelfth Night."
+        }
+       ],
+       "visual": {
+        "title": "The comedy's ledger: who laughs, who pays",
+        "description": "Tracing one comic device in Twelfth Night from manufacture to correction to aftermath, with the costs entered against the gains.",
+        "steps": [
+         "Manufacture: Maria forges Olivia's letter — ‘If this fall into thy hand, revolve’",
+         "Exhibition: Malvolio resolves the riddle ‘M.O.A.I. doth sway my life’ in his own favour without evidence; Fabian calls it ‘A fustian riddle!’",
+         "Licence: Sir Toby justifies the correction with ‘cakes and ale’ against Malvolio's virtue",
+         "Escalation: ‘we'll have him in a dark room and bound’, and a clown pretends to be Sir Topas",
+         "Cost: Malvolio exits with ‘I'll be revenged on the whole pack of you’",
+         "Repair, belated: Olivia's ‘He hath been most notoriously abus'd’ and the Duke's ‘Pursue him, and entreat him to a peace’",
+         "Frame: Feste's song ends ‘For the rain it raineth every day’"
+        ]
+       }
+      },
+      {
+       "id": "44",
+       "title": "The Gothic and the uncanny: the familiar made strange in Dr Jekyll and Mr Hyde",
+       "explanation": "Gothic fiction works by unsettling the ordinary rather than by inventing the impossible. Its characteristic device is the uncanny: a familiar thing — a house, a face, a street, a self — is presented so that it becomes unrecognisable while remaining the same thing. Stevenson's Strange Case of Dr Jekyll and Mr Hyde is a compact laboratory for this. The novella's very first description of the respectable London street breaks off to show what the street conceals: at one point ‘a certain sinister block of building thrust forward its gable on the street. It was two storeys high; showed no window, nothing but a door on the lower storey and a blind forehead of discoloured wall on the upper’, and its door ‘was equipped with neither bell nor knocker, was blistered and distained’. A building with no windows and a door nobody uses is not supernatural; it is a fact about property in a modern city, and that is precisely the uncanny effect. The same technique is applied to a person. Enfield tries to describe Hyde and fails in a specific way: ‘There is something wrong with his appearance; something displeasing, something down-right detestable. I never saw a man I so disliked, and yet I scarce know why. He must be deformed somewhere; he gives a strong feeling of deformity, although I couldn't specify the point.’ Nothing is named and the observer's own reliability is quietly put in question, so the horror is carried by an unfinished description rather than by a monster. Gothic atmosphere, in short, is a technique of withheld explanation that keeps the ordinary in view [1][2].",
+       "example": "Take the novella's opening of the door and the face as two applications of one method. Step one, catalogue what the house description refuses to supply: no window, no bell, no knocker, no entrance in use, no explanation of who owns it. Step two, notice that the refusal is filled in socially rather than fantastically — ‘Tramps slouched into the recess and struck matches on the panels; children kept shop upon the steps’ — so the disused door is situated in an ordinary street economy, and the street around it is described as full of ‘the shop fronts’ with ‘an air of invitation’. Step three, turn to the face and mark the shape of Enfield's sentence: an assertion of wrongness, then an admission that nothing can be specified, then a claim of deformity that is explicitly unsupported. Apply the test from lesson 40 before you interpret: does the text authorise a supernatural reading here, or does it authorise a story about a community that can see something wrong and cannot say what? Step four, weigh the counterreading. One respectable reading treats Hyde as the visible sign of Jekyll's hidden self, so the uncanny is a moral allegory in which the hidden thing is sin. That reading has support from Jekyll's own ‘man is not truly one, but truly two’, but it must then explain why the novella spends so much energy on doors, windows, keys and locked cabinets, since its most uncanny effects are architectural rather than moral. The two readings can coexist: the hidden life is moral, and its outward form is a problem about property and privacy in a modern city [1][3].",
+       "question": "Which feature of Stevenson's description of Hyde's appearance marks it as uncanny rather than simply frightening?",
+       "answer": "Enfield asserts something wrong and an impression of deformity while explicitly being unable to specify what is wrong",
+       "distractor": "Hyde is described as detestable, and a detestable character is by definition uncanny",
+       "correction": "Moral repulsion would be a judgement, and judgements can be named and defended. The uncanny effect here depends on an impression with no locatable cause — ‘I couldn't specify the point’ — which leaves the familiar face unrecognisable without supplying anything supernatural. Look for what the description cannot say, not for how strongly it condemns.",
+       "depth": {
+        "definitions": "The Gothic is a mode, not a fixed set of props, though it habitually uses old buildings, enclosed spaces, inherited guilt and a past that will not stay buried. The uncanny, in the psychoanalytic tradition begun by Freud's 1919 essay on the unheimlich, describes the familiar becoming strange — the word's German formation is ‘un-homely’, a negation of the domestic. Atmosphere is the accumulated emotional weather of a description, produced by selection rather than by stated feeling. Doubling names the structural repetition of one figure in another. Free indirect discourse and unreliable narration from lessons 33 and 45 are related tools; a Gothic narrating frame often makes the witness doubt his own report. Prerequisites: setting as an argument from lesson 39, and the evidential test for symbolic readings from lesson 40, since Gothic reads are prone to claiming more than the text licenses [2][3].",
+        "mechanism": "The uncanny is produced by four related operations, all of which preserve the ordinary. Refusal supplies the shape of a thing while withholding the explanation that would complete it, as the description of Hyde supplies an impression of deformity and no cause. Familiarity kept in frame prevents fantasy from taking over, so the sinister building stands on an ordinary shopping street. Displacement moves the terror from a hidden object onto a visible one: the locked cabinet and the disused door matter more than any ghost, because they are the routes by which ordinary life is split. Repetition returns the same phrase or figure at intervals, so Hyde's ‘damned Juggernaut’ effect and Jekyll's professions of respectability echo one another until the reader hears one voice where there were two. Limits matter. Gothic is a mode with conventions, and conventionality can invite over-reading, so a claim should be tied to words on the page rather than to the genre's expected furniture. The concept of the uncanny is itself contested, framed in one tradition psychoanalytically and in others aesthetically or historically, so use the term as a description of an effect, not as a hidden mechanism you have detected [2][3].",
+        "secondExample": "Compare the novella's treatment of the city with its treatment of a single room. The murder chapter begins with weather doing structural work: ‘A great chocolate-coloured pall lowered over heaven’, and the fog lets a witness see one street lamp and no further. Here the familiar city is rendered strange by visibility itself, so London becomes unknown without ceasing to be London. The locked cabinet in Jekyll's laboratory works the opposite way: it is a small, ordinary, domestic object, and the dread comes from what the ordinary object now organises — the ‘great chocolate-coloured pall’ outside, the cabinet inside, and the lawyer's questions between them. Note also that the novella's final chapter hands us Jekyll's own narration, in which the moral claim is stated: ‘man is not truly one, but truly two’. Two routes to the same theme, one by weather and one by confession, and they carry different evidential weight: the description is available to a witness, the confession is a self-account by a man with obvious reasons to shape his story, which is why it must be read with the tools of lesson 34 on interested testimony [1].",
+        "mistake": "The commonest error treats the Gothic as a taste for ghosts, so a reading hunts the text for supernatural content and finds instead a locked door; diagnose it by asking what a witness could actually report, since everything in the novella is reported by lawyers, servants and doctors. A second error converts atmosphere into evidence: a phrase like ‘down-right detestable’ is a character's judgement, not a fact about the fictional world, and reading it as fact smuggles a verdict into the analysis. A third error borrows the vocabulary of the uncanny to license any psychology you like, so Hyde becomes the id and Jekyll the ego; that mapping is an interpretation of a philosophical vocabulary rather than something the novella's words assert, and it should be labelled as a comparison. Keep three columns in your notes — what a witness reports, what a character judges, and what you infer — and the genre's traps mostly close [2][3].",
+        "application": "Choose one description from chapter 1. Write the most complete literal inventory you can of what it names and what it leaves unnamed, then write 200–250 words arguing that the passage's effect is uncanny rather than merely frightening, with at least one quotation and one counterreading. Self-review rubric: two points for a genuinely complete inventory, including omissions; two for a quotation that shows the withholding rather than stating it; two for a counterreading that reads the passage as moral allegory; two for stating what evidence would move you from one reading to the other; one for marking which witness supplies the description. Model direction: the empty doorway works because the street around it is busy, so the uncanny effect is a contrast between an ordinary economy and a place the economy has stopped using.",
+        "summary": "Gothic horror in this novella is manufactured from ordinary materials — windows, doors, fog, a face — arranged so that explanation is withheld while familiarity remains. The uncanny, whatever name a critic gives it, is a describable effect: something known becomes strange without becoming impossible. Carry two questions into any Gothic text: what has been withheld from this description, and who is doing the describing? Both keep the genre's promise of mystery from turning into unearned supernatural claims."
+       },
+       "readings": [
+        {
+         "title": "[1] Robert Louis Stevenson, The Strange Case of Dr Jekyll and Mr Hyde, chapters 1, 4 and 10",
+         "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+         "note": "Read chapter 1, ‘Story of the Door’, for the gable, the windowless façade and Enfield's account of Hyde; chapter 4, ‘The Carew Murder Case’, for the fog; and chapter 10, ‘Henry Jekyll's Full Statement of the Case’, for ‘man is not truly one, but truly two’. This transcription prints British spellings and hyphenates ‘down-right’; quote as printed. Public domain in the USA."
+        },
+        {
+         "title": "[2] The Victorian Web, ‘Robert Louis Stevenson, 1850-1890’ author index",
+         "url": "https://victorianweb.org/authors/stevenson/index.html",
+         "note": "Use this index to reach the scholarly short pieces it lists, in particular ‘Allusions in Stevenson's The Strange Case of Dr. Jekyll and Mr. Hyde’ and Michael Gold's essay on doubles and demons in late nineteenth-century London fiction. Read one item and treat it as a secondary interpretation to be tested against the novella, not as an authority that replaces it."
+        },
+        {
+         "title": "[3] Living Handbook of Narratology, ‘Unreliability’ (archive copy)",
+         "url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/66.html",
+         "note": "Read only the ‘Definition’ section here for the vocabulary of a narrator whose account cannot be taken at face value; the novella's witnesses are interested rather than simply mistaken, which is the distinction the section makes. The former lhn.uni-hamburg.de address now redirects to this archive host."
+        }
+       ],
+       "visual": {
+        "title": "Ordinary materials, withheld explanation",
+        "description": "How a windowless façade, a disused door and an unfinished description produce the uncanny without supernatural content.",
+        "steps": [
+         "The ordinary street is established first: shop fronts with ‘an air of invitation’",
+         "One building refuses the street's logic — no window, ‘nothing but a door on the lower storey’",
+         "The door is described but not explained: ‘equipped with neither bell nor knocker’, ‘blistered and distained’",
+         "A witness reports the face and then withdraws the report: ‘He must be deformed somewhere’, yet ‘I couldn't specify the point’",
+         "Weather repeats the technique at scale: ‘A great chocolate-coloured pall lowered over heaven’",
+         "Reader separates what a witness reports from what a character judges and from what the reader infers"
+        ]
+       }
+      },
+      {
+       "id": "45",
+       "title": "Detecting unreliable narration: the governess in The Turn of the Screw",
+       "explanation": "A narrator is unreliable when the account we are given diverges from what the work itself warrants, so that we cannot simply accept the version on offer. The label is a claim requiring evidence, not a mood, and the whole difficulty lies in producing that evidence. Henry James's The Turn of the Screw is the standard training ground because its narrator is both sympathetic and unverified. The tale reaches us through a frame: guests exchange ghost stories at a country house, a man named Douglas produces a manuscript written by a young woman he once knew, and warns the company what kind of story it is — ‘The story won't tell’, he says, ‘not in any literal, vulgar way’ — and when someone asks the governess's name, she has none to give. Inside the manuscript, the governess narrates her own arrival with an emotional honesty that is itself a warning: ‘I remember the whole beginning as a succession of flights and drops, a little seesaw of the right throbs and the wrong.’ Later she describes a state and claims perfect self-knowledge of it in the same sentence: ‘Of course I was under the spell, and the wonderful part is that, even at the time, I perfectly knew I was.’ Her reasoning about the children is presented as proof: ‘He had never for a second suffered. I took this as a direct disproof of his having really been chastised.’ Nothing here says she lies. What it says is that her conclusions outrun her evidence, and a reader has to decide what to do with that gap [1][2].",
+       "example": "Run the detection procedure, and mark how much each step actually establishes. Step one, internal contradiction. The governess reports that the children are under the influence of figures nobody else can see, yet also reports Miles's undisturbed cheerfulness and Flora's ordinary play; the contradiction is not decisive, because a child under a secret influence might still seem cheerful, but it raises the evidential cost of her account. Step two, unexplained certainty. When Mrs Grose confirms that Quint and Miss Jessel existed and that ‘Quint was much too free’, the governess's next move is immediate: ‘It must have been also what she wished!’ — an inference about a dead woman from a phrase Mrs Grose has not said. Marking where inference is announced as proof is the single most productive habit in this reading. Step three, corroboration. Mrs Grose says of Miss Jessel, ‘About some things—yes’, and then, when pressed, ‘Well, miss—she's gone. I won't tell tales’, so the second witness supplies atmosphere and refuses facts; note also that the governess's first sighting, ‘Only standing there and looking down at me’, is unaccompanied by any corroborating witness at all. Step four, rhetoric. The governess's idiom runs to superlatives and to a vocabulary of cosmic struggle, which does not falsify her but does mean her descriptions are shaped by what she needs the story to be. Now weigh the counterreading seriously, because a strong case exists that she is reliable: the frame presents the manuscript as a true record, the two dead servants really existed, the house is isolated, and her distress reads as trauma rather than invention. What separates the readings is a norm about how much corroboration a report needs, and that norm is what the scholarly literature argues about when it distinguishes rhetorical accounts of unreliability, in which the text controls the answer, from constructivist accounts, in which the reader's norms do [1][2].",
+       "question": "Which feature of the governess's narration is direct evidence that her conclusions outrun her evidence rather than evidence that she is dishonest?",
+       "answer": "She announces an inference about Miss Jessel's wishes immediately after Mrs Grose's remark that Quint was ‘much too free’, presenting a conclusion as if it were established",
+       "distractor": "She uses superlatives and a heightened vocabulary when describing the figures she sees",
+       "correction": "Heightened language shows emotional intensity and shapes a description, but it does not by itself show a conclusion exceeding its grounds. The inference leap does: the move from a fact about Quint to a claim about what a dead woman wished is visible in the sequence of the dialogue. Distinguish rhetorical intensity from inference announced as proof.",
+       "depth": {
+        "definitions": "An unreliable narrator is one whose account diverges from the norms the work implies, and the concept is disputed because readers disagree about where those norms live. Rhetorical accounts locate unreliability in textual signals that a competent reader detects; constructivist accounts treat it as produced by the reader's own standards being at odds with the narrator's. A frame narrative encloses one testimony inside another, as Douglas's prologue encloses the manuscript. A homodiegetic narrator takes part in the story told. Ambiguity, in this context, means a genuine plurality of defensible readings rather than vagueness. Corroboration is independent testimony to the same fact. Prerequisites: narrative levels and interested testimony from lesson 34, irony from lesson 35, and the falsification-condition discipline from lesson 40 [1][2].",
+        "mechanism": "Unreliability is detected by five checks, each of which yields different strengths of evidence. Contradiction compares the narrator's statements with one another; it is the strongest when the statements cannot both hold. Escalation of inference compares what is reported with what is concluded, and repeated leaps indicate a pattern rather than an accident. Corroboration compares the account with other witnesses, and the honest limit is that a refusal to corroborate — ‘I won't tell tales’ — neither confirms nor refutes. Rhetoric tracks the shaping of description by need, and is suggestive rather than decisive, because every witness shapes. Framing examines what the outer level says about the inner document, which is where this tale puts its strongest warning and its least verifiable assurance. The mechanism has limits that a careful reader states: interest is universal and proves nothing; a first-person narrator's limited knowledge is not the same as unreliability; and the label should be reserved for documented divergence, since a reader who applies it to any narrator with a stake has abolished the distinction the concept exists to make [2].",
+        "secondExample": "Apply the checks to Mrs Grose as a second witness, which is how a corroboration reading is actually built. She confirms the existence and character of both dead servants, saying of Quint that he ‘did what he wished’, and answering the governess's question about whom, with ‘With them all’. She also refuses to confirm anything she did not see, and refuses to discuss Miss Jessel's conduct beyond ‘About some things—yes’. That combination is exactly what an interested but honest witness looks like: she corroborates facts she knows and withdraws from conclusions she cannot check. Now contrast the two narrators on the same evidence. The governess converts a report about Quint into a claim about Miss Jessel's wishes, and later into a story about the children's corruption; Mrs Grose converts the same reports into a refusal. Since the manuscript gives us access to the governess's inferences and only to Mrs Grose's replies, the difference in evidential quality is partly an artefact of the frame — which is why the honest conclusion is a bounded one: the manuscript shows a narrator whose reasoning is unreliable, and cannot settle whether the events she reports occurred [1].",
+        "mistake": "Four errors recur. The first treats any narrator with an emotional stake as unreliable, which empties the concept; diagnose it by asking what statement of hers is contradicted, and by whom. The second takes the ambiguity of the tale as permission for any reading, including readings no passage could disconfirm; supply the falsification condition. The third treats the frame as proof of authenticity, so Douglas's ‘not in any literal, vulgar way’ becomes a guarantee that everything happened; read the frame's purpose instead, which is to establish that the story resists literal paraphrase. The fourth mistakes the question. Whether the ghosts are real or hallucinated is one question; whether the teller's inferences are warranted is another; a reader may answer the second without settling the first, and saying which question you are answering is most of the discipline [2].",
+        "application": "Build a detection table for the first three chapters of the manuscript with four columns: the statement, the check it fails or passes (contradiction, inference leap, corroboration, rhetoric, framing), the counter-evidence, and what would change the verdict. Then write 220–260 words arguing for one bounded claim about the narration — a claim about her reasoning, not about the supernatural. Self-review rubric: two points for accurate quotations with locations; two for naming which check each item exercises; two for a counterreading that keeps the ghosts real; two for a bounded formulation that avoids deciding what the text cannot decide; one for a stated falsification condition. Model direction: the strongest bounded claim is that the manuscript documents a habit of treating inference as proof, which is visible whatever one concludes about the apparitions.",
+        "summary": "Unreliable narration is a diagnosis with criteria: contradiction, inference that outruns evidence, missing corroboration, shaping rhetoric, and a frame that warns or assures. The Turn of the Screw is worth the effort because it keeps two questions separate — did these things happen, and is this teller's reasoning trustworthy — and because the scholarly dispute over whether unreliability lives in the text or in the reader is itself a lesson in stating your norms. Carry the five checks into memoir, testimony and journalism, where the same gap between conclusion and evidence appears without any ghosts."
+       },
+       "readings": [
+        {
+         "title": "[1] Henry James, The Turn of the Screw, the prologue and chapters I–III",
+         "url": "https://www.gutenberg.org/ebooks/209.txt.utf-8",
+         "note": "Read the framing prologue in which Douglas produces the manuscript and says the story ‘won't tell’ in any literal way, then chapters I–III for the governess's ‘flights and drops’, her account of seeing a figure on the tower, and her exchange with Mrs Grose. This transcription italicises single words with underscores (for example ‘_won't_’) and numbers chapters in roman numerals; quote the words but do not carry the markup into your quotation. Public domain in the USA."
+        },
+        {
+         "title": "[2] Living Handbook of Narratology, ‘Unreliability’ (archive copy), sections ‘Definition’ and ‘The Rhetorical Approach’ / ‘The Constructivist/Cognitivist Approach’",
+         "url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/66.html",
+         "note": "Read ‘Definition’ first, then ‘The Rhetorical Approach to Unreliability’ and ‘The Constructivist/Cognitivist Approach and its Relation to the Rhetorical’, which set out the dispute this lesson asks you to enter: whether unreliability is signalled by the text or produced by the reader's norms. The handbook is a scholarly survey of a contested concept, not a verdict on this tale. The former lhn.uni-hamburg.de address now redirects to this archive host."
+        }
+       ],
+       "visual": {
+        "title": "Five checks on a first-person account",
+        "description": "A detection procedure for unreliable narration, applied to the governess's manuscript and to the second witness who both corroborates and withholds.",
+        "steps": [
+         "Framing: Douglas's prologue hands us a manuscript and warns that it will not tell ‘in any literal, vulgar way’",
+         "Teller's own footing: ‘a succession of flights and drops, a little seesaw of the right throbs and the wrong’",
+         "Inference leap: ‘It must have been also what she wished!’ follows a report about Quint, not about her",
+         "Claimed self-knowledge: ‘I was under the spell, and … even at the time, I perfectly knew I was’",
+         "Corroboration: Mrs Grose confirms Quint and Miss Jessel existed, says ‘Quint was much too free’, and then ‘I won't tell tales’",
+         "Rhetoric: superlatives and cosmic vocabulary shape the descriptions without falsifying them",
+         "Bounded verdict: the teller's reasoning is unreliable; whether the apparitions occurred is a separate question"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-41-50-a",
+       "prompt": "A draft says a poem's sonnet form is ‘just its shape’ and goes on to interpret it without any formal claims. What correction follows the lesson's method?",
+       "answer": "Describe the form first — line-endings, division and turn — then tie each formal feature to a stated interpretive effect, naming the edition transcribed",
+       "distractor": "Add a paragraph about the sonnet's origin in Italy so that formal terminology is covered",
+       "correction": "Terminology is not analysis. The point of marking rhymes and divisions is to show what the constraint forced a poet to do at a particular point in the sentence, and any claim about line-endings must be tied to the text actually quoted.",
+       "reviewLessonIds": [
+        "41"
+       ]
+      },
+      {
+       "id": "uq-41-50-b",
+       "prompt": "An essay argues that Macbeth is not responsible because the witches' prophecy had to come true. Which piece of Act 1 evidence most directly weakens that argument?",
+       "answer": "Banquo hears the same prophecy, treats it as a warning, and is not moved to seize the crown",
+       "distractor": "Macbeth's dagger soliloquy, which shows that his imagination was disordered",
+       "correction": "A deterministic reading predicts that the same cause produces the same effect; Banquo is the case that fails the prediction. Imagination's disorder shows the pressure worked, not that it was irresistible.",
+       "reviewLessonIds": [
+        "42"
+       ]
+      },
+      {
+       "id": "uq-41-50-c",
+       "prompt": "A reviewer writes that Twelfth Night's treatment of Malvolio cannot be cruel because comedies end in marriage. What is the strongest reply?",
+       "answer": "Maria is rewarded in the same ending that exiles her victim, and the victim's own verdict — ‘He hath been most notoriously abus'd’ — arrives after he has left the stage",
+       "distractor": "Malvolio deserves his treatment because he is a puritan who spoils the household's festivity",
+       "correction": "Desert is a judgement about the character, while the question is what the ending repairs. The play itself supplies the language of abuse and withholds the repair, which is evidence about the comedy's economy rather than about Malvolio's deserts.",
+       "reviewLessonIds": [
+        "43"
+       ]
+      },
+      {
+       "id": "uq-41-50-d",
+       "prompt": "A student writes that the empty door in Jekyll and Hyde is ‘a supernatural sign of evil’. Which revision follows the lesson's standard?",
+       "answer": "The door is an ordinary architectural fact whose explanation is withheld, which produces the uncanny effect rather than proving anything supernatural",
+       "distractor": "The door is a symbol of Jekyll's sin, which is why it has neither bell nor knocker",
+       "correction": "Sin claims need evidence for the mapping, and the novella supplies streets, keys and cabinets instead. The safest formulation describes the effect — familiarity plus withheld explanation — and leaves the moral allegory as a reading to be argued.",
+       "reviewLessonIds": [
+        "44"
+       ]
+      },
+      {
+       "id": "uq-41-50-e",
+       "prompt": "A reader argues that the governess must be telling the truth because the tale is presented as her manuscript. Which correction best fits the lesson?",
+       "answer": "A frame establishes a document and a stake, not its accuracy; the checks — contradiction, inference leaps, corroboration and rhetoric — are what test the account",
+       "distractor": "A framed manuscript is the most reliable kind of evidence because it was written at the time of the events",
+       "correction": "The manuscript was written long after and inside a house with an interest in its own reputation, and the prologue itself warns against literal reading. Provenance tells you where a document came from, not whether its conclusions are warranted.",
+       "reviewLessonIds": [
+        "45"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Modes of the real and the discipline of the essay",
+     "lessons": [
+      {
+       "id": "46",
+       "title": "Realism and the detail that carries moral weight: Scenes of Clerical Life, ‘Amos Barton’",
+       "explanation": "Realism in fiction is often described as a style — plain, accurate, everyday. It is better understood as a claim about where moral significance lives. George Eliot's first published fiction states that claim openly, and states it about a man nobody would choose as a hero. The narrator of ‘Amos Barton’ begins a chapter with an apology: his subject ‘was, you perceive, in no respect an ideal or exceptional character’, and goes further, insisting that he was ‘palpably and unmistakably commonplace’. The apology develops into an argument, backed by a census-style appeal to numbers: ‘At least eighty out of a hundred of your adult male fellow-Britons returned in the last census are neither extraordinarily silly, nor extraordinarily wicked, nor extraordinarily wise’. Then comes the moral sentence: ‘you would gain unspeakably if you would learn with me to see some of the poetry and the pathos, the tragedy and the comedy, lying in the experience of a human soul that looks out through dull grey eyes, and that speaks in a voice of quite ordinary tones.’ The same programme is stated in Eliot's essay on German social life, where she writes that ‘The greatest benefit we owe to the artist, whether painter, poet, or novelist, is the extension of our sympathies’, and adds that appeals to ‘generalizations and statistics require a sympathy ready-made’, while a picture of particular life ‘surprises even the trivial and the selfish into that attention to what is a part from themselves’. Realism, on this account, works by particulars because only particulars can command attention [1][2].",
+       "example": "Work the burial scene, which opens the ninth chapter of ‘Amos Barton’, as a specimen of detail doing moral work. Step one, list the literal facts the sentence gives you: ‘They laid her in the grave—the sweet mother with her baby in her arms—while the Christmas snow lay thick upon the graves.’ A woman dead in childbirth, buried with the infant, in winter, in the parish graveyard. Step two, identify the contrasting particulars that make the scene mean something: the narrator reports that ‘many a sad eye’ watched the procession, that the men who had ‘bandied vulgar jests about their pastor’ now saw him ‘consecrated anew by his great sorrow’, and that all the children attended because Amos ‘had willed it so’. Step three, find the single detail that carries the most weight without comment: ‘Patty alone of all the children felt that mamma was in that coffin, and that a new and sadder life had begun for papa and herself. She was pale and trembling, but she clasped his hand more firmly as the coffin went down, and gave no sob.’ Nothing in that admits a moral verdict in so many words, and the absence is the point: the girl's silence and her grip do the work that a narrator's lament would spoil. Step four, check the counterweight in the same chapter, because the narrator refuses to let sympathy become sentimentality. Of the neighbours who lend the family money he is dry rather than tender, and of the wealthy Countess he writes that ‘ladies of rank and of luxurious habits, you know, cannot be expected to surmise the details of poverty’, a sentence that uses courtesy itself as an indictment. A counterreading deserves a hearing: a reader may object that the narrator's programme pre-empts judgement, telling us whom to pity; the reply is that the burial scene supplies particulars a reader can check, while the programme sentence is only a narrator's argument, and the two have different evidential status [1].",
+       "question": "Which feature of the burial passage shows detail carrying moral weight rather than merely supplying pathos?",
+       "answer": "Patty's silent grip on her father's hand is reported without commentary, so an unspoken recognition in a child does the work a narrator's lament would otherwise do",
+       "distractor": "The sentence mentions snow, which creates a wintry atmosphere and therefore a mood of mourning",
+       "correction": "Atmosphere is an effect, not a moral claim. The detail that carries weight is the one that shows a capacity being exercised — a child understanding what has happened — and the narrator's refusal to comment is what lets the reader supply the judgement. Ask what a detail reveals about a person's inner life, not what mood it makes.",
+       "depth": {
+        "definitions": "Realism names a set of conventions for representing ordinary life with verifiable particularity, and the term is a description of a mode rather than a photograph of reality. Detail becomes significant by selection, placement and contrast; it is not inherently moral. Story and plot are distinguished as chronological sequence and causally shaped arrangement, which matters because a moral reading usually depends on arrangement rather than on events. The narrator's address to a reader is a device with a long history, and in this text it is used to argue a programme, so its claims are the narrator's and not the story's. Prerequisites: description versus inference from lesson 32, setting as argument from lesson 39, and the symbolism tests from lesson 40, because realism tempts readers into two opposite errors, reading everything as significant and reading nothing as significant [1][2][3].",
+        "mechanism": "Moral weight accumulates through five operations. Selection admits some objects and excludes others, so a grave, a hand and a shawl may be present while the household's furniture is not. Scale alternates between the large and the small, so a parish's gossip and a child's grip occupy one paragraph. Contrast places a particular beside a norm: the Countess's eau-de-Cologne and rearranged pillow sit beside a family that cannot pay for a nurse, and the reader supplies the judgement the narrator only implies. Silence withholds comment at the moment of greatest impact, which transfers the work of evaluation to the reader, where it is harder to refuse. Repetition returns an object or phrase so that it accrues meaning across chapters, as the grave and the children recur in the closing summary. Limits matter: a detail's significance is relational and reader-dependent, and a strong reading will say what contrast or placement is doing the work rather than declaring an object symbolic. The narrator's programme is also an argument with an agenda — defending a new kind of fiction to readers who expect heroes — so its claims about the reading public are rhetorical positions that should not be quoted as sociological findings [2].",
+        "secondExample": "Take a comic detail from the same book to see that realism's technique has no fixed moral temperature. In the parish visitations the narrator notes a poor woman's gesture: Mrs Brick ‘rubbed her withered forefinger round and round her little shoe-shaped snuff-box, vainly seeking for the fraction of a pinch.’ The same apparatus is at work — a small object, an exact motion, an unnoticed frustration — and the effect is dry comedy rather than compassion, because the sentence's placement invites amusement at a thwarted habit rather than recognition of a sorrow. Set the two beside each other and the lesson sharpens: specificity is a technique, and the moral reading comes from what the surrounding sentences ask you to notice. A second comparison sharpens it further. Where the narrator's programme sentence claims that ordinary souls carry ‘unspoken sorrows, and their sacred joys’, the novel itself shows him capable of condescension toward those same souls, as when he compares a character to a sheep that ‘has cast itself, and can't get on'ts legs again’. The programme and the practice can disagree, and a careful reader reports both [1][3].",
+        "mistake": "Two errors dominate. The first treats every object as a symbol, so the snow becomes purity and the snuff-box becomes mortality; diagnose it by asking what contrast or placement earns the meaning, and by noticing whether the object appears once in passing or recurs under pressure. The second error treats realism as a transparent window and therefore as neutral reporting, which misses that selection is itself a moral act; diagnose it by listing what the passage omits — the funeral's costs, the parish's arrangements, the baby's fate — and asking why. A third error quotes the narrator's programme as though it were the author's settled creed, when the text itself shows the narrator capable of mockery and condescension; assign the claim to its speaker, then test the practice against the programme, which is exactly the method of lesson 32 [1][2].",
+        "application": "Choose one three-sentence passage from ‘Amos Barton’. Produce a literal inventory, then a table with two columns: detail and the work it does (atmosphere, character, social argument, moral pressure). Then write 220–260 words claiming which detail carries the most moral weight, naming the contrast that gives it weight and one counterreading. Self-review rubric: two points for an accurate inventory; two for identifying the contrast or placement that generates significance; two for a claim about a person's inner life rather than a mood; two for a counterreading; one for marking which sentence is the narrator's argument rather than the story's. Model direction: the strongest cases are details that show a character exercising judgement under constraint, because the reader can check the inference against conduct, as with Patty's grip and silence.",
+        "summary": "Realism makes a moral claim by attention: significance is located in ordinary particulars, and the technique of locating it is selection, scale, contrast and silence. Eliot's narrator argues the programme in the open, which gives you the rare chance to compare a stated theory against its practice in the same book. Carry forward the discipline of asking what a detail is doing — atmosphere, character, social argument or moral pressure — and of distinguishing the narrator's argument from the story's evidence, since that distinction is what keeps interpretive claims honest."
+       },
+       "readings": [
+        {
+         "title": "[1] George Eliot, Scenes of Clerical Life, ‘The Sad Fortunes of the Rev. Amos Barton’, chapters 5 and 9",
+         "url": "https://www.gutenberg.org/ebooks/17780.txt.utf-8",
+         "note": "Read chapter 5, which opens ‘The Rev. Amos Barton, whose sad fortunes I have undertaken to relate’, for the narrator's argument about commonplace subjects, and chapter 9, which opens ‘They laid her in the grave’, for the burial scene and Patty's conduct. This transcription marks chapter numbers in the form ‘Chapter 5’; the apology for an unremarkable hero falls at that chapter's beginning in modern editions too. Public domain in the USA."
+        },
+        {
+         "title": "[2] George Eliot, ‘The Natural History of German Life’, in The Essays of ‘George Eliot’, essay V",
+         "url": "https://www.gutenberg.org/ebooks/28289.txt.utf-8",
+         "note": "Read the essay's opening pages for the argument that the artist's benefit is ‘the extension of our sympathies’ and that appeals founded on ‘generalizations and statistics require a sympathy ready-made’. This is Eliot's own critical prose, published in 1856, and it states the programme the fiction enacts. Public domain in the USA."
+        },
+        {
+         "title": "[3] The Victorian Web, George Eliot author index",
+         "url": "https://victorianweb.org/authors/eliot/index.html",
+         "note": "Use this index to reach short scholarly pieces on Eliot's realism, narration and the ethical claims of her fiction. Read one and treat it as a secondary interpretation to test against the chapter you have read, not as an authority that settles it."
+        }
+       ],
+       "visual": {
+        "title": "How a detail acquires moral weight",
+        "description": "Tracing one buried detail in ‘Amos Barton’ from literal fact to moral pressure, and checking the same technique at a different temperature in a comic scene.",
+        "steps": [
+         "Literal fact: a woman and her baby are buried in winter while the parish watches",
+         "Selection: children, mourners and a father are present; costs and arrangements are absent",
+         "Contrast: the wealthy Countess's eau-de-Cologne and rearranged pillow beside a family that cannot pay for help",
+         "Silence: Patty's grip and her refusal to sob are reported without comment",
+         "Transfer of evaluation: the reader, not the narrator, supplies the moral verdict",
+         "Different temperature: Mrs Brick's ‘little shoe-shaped snuff-box’ uses the same exactness for dry comedy",
+         "Check: is the weight coming from the object, or from the contrast and placement around it?"
+        ]
+       }
+      },
+      {
+       "id": "47",
+       "title": "The bildungsroman and the arc of a self: Jane Eyre",
+       "explanation": "A bildungsroman, or novel of formation, narrates the growth of a self: an early constraint, an education of some kind, a crisis, a period of testing, and a settlement that the reader is invited to measure. Goethe's Wilhelm Meister's Apprenticeship gave the genre its name and much of its shape; Carlyle's translation begins not with reflection but in a theatre, where an apprentice actor's illusions are already being paid for — ‘The play was late in breaking up: old Barbara went more than once to the window, and listened for the sound of carriages.’ Jane Eyre belongs to the same family and makes the arc unusually legible, because its narrator tells the story after the fact. Jane's formation has checkable stages. At Gateshead she is an unwanted dependent, told by her cousin, ‘You have no business to take our books; you are a dependent, mama says; you have no money; your father left you none; you ought to beg’, and her first question — ‘Why could I never please?’ — names the problem the arc will answer. At Lowood she learns from Helen Burns a claim that will compete with her own temper: ‘Life appears to me too short to be spent in nursing animosity or registering wrongs.’ At Thornfield she states a theory of the self in words: ‘Women are supposed to be very calm generally: but women feel just as men feel’, and, more sharply, ‘they must have action; and they will make it if they cannot find it.’ The crisis then tests the theory, and the ending supplies a settlement. Reading the arc means asking which capacity changes, where it is tested, and whether the ending completes the self or merely accommodates it [1][2].",
+       "example": "Work the arc as a set of claims with evidence. Step one, name the capacity that changes. Jane begins unable to hold her own position without violence or collapse: at Gateshead she is carried off screaming, and at Lowood she obeys without understanding. Her maturity consists in stating and defending claims about herself, as she does to Mrs Reed — ‘I am not deceitful’ — and to Rochester, where she argues that her inward self meets his: ‘my spirit that addresses your spirit’. Step two, locate the test. The crisis at Thornfield is not a single refusal but a sequence: she refuses to become a mistress, leaves without money or protection, and later refuses St John Rivers's offer of a missionary marriage on grounds she articulates rather than feels. Each refusal costs her something visible, which is how the reader can check that a capacity rather than a mood is in play. Step three, inspect the settlement for agency. The ending is famously double: the fortune frees her to marry as an equal, and the fire has removed the obstacle of a living wife and altered Rochester's condition, so both luck and choice are in play, which is why ‘Reader, I married him’ is such a contested line — the word order puts her as the acting subject, while the plot has arranged the conditions. Step four, weigh the counterreadings honestly. A providential reading says the inheritance and the fire are gifts that make the ending unearned, and it has textual support, since the narrative itself reports coincidences it does not explain. A second reading says the ending subordinates her after all, since she marries a man now dependent on her; a third says her arc is religious conversion under Helen's and St John's pressure rather than secular self-making. Each reading has evidence and each must specify what it cannot explain — and the retrospective narration is itself evidence, because a teller who knows the ending will select the episodes that make it look inevitable [1][2].",
+       "question": "What is the best evidence that Jane's arc consists in a change of capacity rather than a change of circumstances?",
+       "answer": "She articulates and acts on claims about her own worth — refusing Rochester on terms she states and later refusing St John Rivers on grounds she reasons through — and each refusal visibly costs her",
+       "distractor": "She moves from Gateshead to Lowood to Thornfield, which shows a progression through increasingly comfortable settings",
+       "correction": "Setting changes are sequence, not growth; a character can be moved from house to house without changing. An arc claim needs a capacity exercised under pressure, and the refusals supply articulated reasons with visible costs, which is checkable evidence of a change in the self.",
+       "depth": {
+        "definitions": "A bildungsroman narrates the formation of a protagonist, typically through education, crisis and settlement; the related Künstlerroman concerns the making of an artist. The genre's name comes from Goethe's Wilhelm Meister, whose title announces apprenticeship rather than arrival. An arc, in this context, is a claim about directed change: the same capacity before and after, tested at a marked point. Retrospective narration means the telling happens after the events and selects among them, which is why arcs are partly the teller's construction. Providence names the arrangement of events by a benevolent design, and coincidence is its secular cousin. Prerequisites: first-person narration and narrative distance from lesson 31, the evidential discipline of lesson 40, and conduct-based character claims from lesson 36 [1][3].",
+        "mechanism": "Arc claims work through four moves, and each can be checked. Continuity identifies a capacity that persists across the story, so the girl who cannot answer Mrs Reed and the woman who answers St John are recognisably the same person. Marking locates the scene where the capacity is tested under cost, so the test is a scene and not a rumour. Contrast compares the character's conduct before and after in comparable circumstances, which is why the pattern of confrontations matters more than any single speech. Attribution asks what produced the change: the character's choices, other people's teaching, or the plot's arrangement. The last move is where readings divide, because a bildungsroman can be read as self-making or as formation imposed from outside — by Providence, by marriage law, by religion. Two narratological limits apply. Because the narrator knows the outcome, the selection of episodes is retrospective and may smooth the story, so a reading should note what the narration does not dwell on. Because genre is a family resemblance rather than a rulebook, calling a novel a bildungsroman is a comparison that has to earn its place by pointing at the arc's stages rather than by pointing at the label [2][3].",
+        "secondExample": "Compare the two novels' handling of time, because the genre's shape is visible in what it skips. In Wilhelm Meister's Apprenticeship the narrator explains his own selection: ‘we shall even pass over several years, and again take up our friend, where we hope to find him in some sort of activity and comfort’, having first offered a rationale for the practice — ‘when once the matter is decided, we turn our eyes away from him’. The genre therefore declares that it follows striving rather than settlement, and that long stretches of life will be omitted so that formative episodes can be shown at length. Jane Eyre does the same thing without explaining it: Gateshead, Lowood, Thornfield, Marsh End and Ferndean are separated by gaps, and the narration's transitions are quiet. Noticing the parallel gives you a testable claim about the genre's machinery — formation is a selection, and the gaps are where a reader must ask what was left out and why — and it also gives you a caution, since the very smoothness of Jane's transitions is an effect of retrospective telling rather than a fact about how a life is lived [1][2].",
+        "mistake": "Three errors recur. The first treats any novel about a young person as a bildungsroman, which makes the term useless; diagnose it by asking whether the text shows a specific capacity changing under a specific test, and by naming the scenes. The second reads the arc as the author's biography, so Jane becomes Charlotte Brontë and the novel becomes a report; keep the narrating self, the character and the author separate. The third error settles the ending by preference rather than by evidence, so the marriage is either a triumph or a defeat with no stated condition; supply the falsification condition and say what evidence would move you. A fourth, subtler error ignores the narration's own shaping, treating the arc as a discovered fact about a person rather than a structure the teller has built — and this is where lesson 31's tools do their work [1].",
+        "application": "Draw the arc of Jane's formation in six boxes, each containing a capacity, a scene where it is tested, and the cost paid. Then write 240–280 words arguing whether the ending completes the capacity you traced or accommodates it, quoting at least two lines and naming the strongest counterreading. Self-review rubric: two points for scenes located accurately; two for costs that are specific to the character rather than generic misfortune; two for a claim about the ending that quotes its language; two for a counterreading with support; one for an explicit statement that the arc is a retrospective construction. Model direction: the strongest formulation is comparative rather than absolute — the ending gives Jane a position she can argue from, while the plot's coincidences supply the conditions that make the argument effective.",
+        "summary": "A bildungsroman makes the growth of a self the plot's subject, and reading one means tracing a capacity through a test to a settlement while keeping narration and biography distinct. Jane Eyre is a good training text because its arc is legible, its ending contested, and its retrospective teller visible in every transition. The transferable questions — what changes, where is it tested, what did the change cost, and why is the story arranged this way — apply to memoirs, career narratives and institutional case studies."
+       },
+       "readings": [
+        {
+         "title": "[1] Charlotte Brontë, Jane Eyre, chapters 1, 4, 12, 27 and 38",
+         "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+         "note": "Read chapter 1 for Gateshead and ‘Why could I never please?’; chapter 4 for Jane's confrontation with Mrs Reed and ‘I am not deceitful’; chapter 12 for the claim that ‘women feel just as men feel’ and ‘I desired liberty; for liberty I gasped’; chapter 27 for ‘my spirit that addresses your spirit’; and the closing paragraphs of chapter 38 for ‘Reader, I married him.’ This transcription italicises words with underscores, as in ‘_you;_’; quote the words without the markup. Public domain in the USA."
+        },
+        {
+         "title": "[2] J. W. von Goethe, Wilhelm Meister's Apprenticeship, trans. Thomas Carlyle, Book I chapter I and Book II chapter I",
+         "url": "https://www.gutenberg.org/ebooks/36483.txt.utf-8",
+         "note": "Read the opening of Book I, chapter I, which begins ‘The play was late in breaking up’, and the opening of Book II, chapter I, where the narrator explains passing over several years and says that once a matter is decided ‘we turn our eyes away from him’. This volume also contains Meister's Travels, so check which work a passage belongs to before citing it. Public domain in the USA."
+        },
+        {
+         "title": "[3] The Victorian Web, Charlotte Brontë author index",
+         "url": "https://victorianweb.org/authors/bronte/cbronte/index.html",
+         "note": "Use this index to reach short critical pieces on Jane Eyre, providence and the novel's endings. Read one and treat it as a secondary interpretation to be tested against the chapters, since the ending's status is genuinely disputed."
+        }
+       ],
+       "visual": {
+        "title": "Tracing an arc as capacity, test and cost",
+        "description": "The bildungsroman read as a series of testable claims, with the retrospective teller's selection kept in view.",
+        "steps": [
+         "Capacity stated at the outset: ‘Why could I never please?’ names the problem the arc will resolve",
+         "Competing teaching: Helen Burns offers ‘Life appears to me too short to be spent in nursing animosity’",
+         "Theory articulated: ‘women feel just as men feel’ and ‘they must have action; and they will make it if they cannot find it’",
+         "Test under cost: refusing Rochester on stated terms, leaving without money or protection",
+         "Further test: refusing St John Rivers with reasons rather than feeling",
+         "Settlement questioned: ‘Reader, I married him’ — an active verb whose conditions the plot has arranged",
+         "Genre parallel: Goethe's narrator announces that he will ‘pass over several years’ to follow striving rather than settlement"
+        ]
+       }
+      },
+      {
+       "id": "48",
+       "title": "Satire and the risk of misreading tone: A Modest Proposal",
+       "explanation": "Satire works by adopting a voice it does not share, and its central risk is that a reader will take the voice at face value. Swift's A Modest Proposal is the standard case. Its opening sentence sounds like an earnest reformer: ‘It is a melancholy object to those, who walk through this great town, or travel in the country, when they see the streets, the roads, and cabbin-doors crowded with beggars of the female sex, followed by three, four, or six children, all in rags, and importuning every passenger for an alms.’ The distress is real, and the proposal that follows is that the poor should sell their children as food, with the pricing worked out in detail: ‘I have reckoned upon a medium, that a child just born will weigh 12 pounds, and in a solar year, if tolerably nursed, encreaseth to 28 pounds’, and ‘ten shillings for the carcass of a good fat child’, against a nursing cost of ‘the value of two shillings’, so that ‘the mother will have eight shillings neat profit’. Nothing in the pamphlet announces that the speaker is not Swift. The reader has to earn that conclusion by finding the norm against which the proposal is outrageous — which is why satire is the genre where misreading tone has consequences [1].",
+       "example": "Run the four tests for ironic tone on the proposal's most famous paragraph. Step one, paraphrase literally: the author advocates infanticide as a solution to poverty, dress the meat, and reserve ‘twenty thousand’ children ‘for breed, whereof only one fourth part to be males’. Step two, coherence: does the literal reading make the pamphlet's other sentences work? It does not. The proposal claims to aim at ‘relieving the poor’, yet its remedy multiplies the harm; it explains its reasoning by analogy with livestock — ‘which is more than we allow to sheep, black cattle, or swine’ — and that analogy is the joke rather than the argument. Step three, entitlement and self-incrimination: the speaker says what no honest projector would say, offering ‘ten shillings for the carcass’ as a benefit to tenants, and his sharpest sentence is an admission disguised as praise — landlords ‘as they have already devoured most of the parents, seem to have the best title to the children’. That word ‘devoured’ is the hinge: the pamphlet literalises a metaphor that rent and absent landlordism had already made true, so the cannibalism it proposes is a figure for a cannibalism already in operation. Step four, evidence of the frame: the closing paragraphs insist the author has no private gain — ‘I have no children, by which I can propose to get a single penny; the youngest being nine years old, and my wife past child-bearing’ — and the disinterestedness is the final irony, since the persona's only conceivable motive, profit, is withdrawn. A counterreading deserves statement: a reader could argue that the pamphlet's contempt extends to the Irish poor themselves, since the persona treats them as cattle. The evidence cuts the other way at the hinge sentence about landlords, and the strongest formulation is therefore bounded: the primary target is a policy and a mentality that convert persons into commodities, and the persona's contempt is a device for exhibiting that conversion [1][2].",
+       "question": "Which feature of A Modest Proposal is the strongest internal evidence that its speaker is a satiric persona rather than the author's own voice?",
+       "answer": "The proposal's own logic contradicts its stated aim of relieving the poor, and its closing disclaimer removes the only motive a sincere projector could have",
+       "distractor": "The proposal is exaggerated, and exaggeration is the sign of a joke",
+       "correction": "Exaggeration alone is not decisive: a reformer can exaggerate a remedy in earnest. What settles the question is internal incoherence between the stated aim and the means, together with the removal of the speaker's interest. Ask whether the literal reading can account for the text's own sentences.",
+       "depth": {
+        "definitions": "Satire ridicules conduct or institutions in order to correct them, and it typically employs irony, in which a speaker's meaning differs from the literal sense of the words. A persona is the constructed speaker of a text, distinct from the author, and free indirect discourse from lesson 33 prepares the vocabulary for its analysis. Tone is the speaker's attitude as inferred from diction and arrangement. Juvenalian satire is harsh and indignant, Horatian satire amused and urbane, and the distinction is a spectrum rather than a taxonomy. The implied author names the norm-governed construct a reader infers from the whole work, which is what makes an ironic reading available. Prerequisites: irony and its evidence standard from lesson 35, and the interest-versus-falsehood distinction from lesson 34 [2][3].",
+        "mechanism": "Satire raises three specific risks, and each has a diagnostic. The first is literalisation, where a reader cannot find the norm and acts on the proposal; diagnose it by asking what the literal reading must do with sentences that contradict its own aim. The second is co-option, where a hostile or careless reader detaches the persona's words from the work's norm and reuses them sincerely; the defence is internal, since the text's own contradictions mark the gap, so a careful reader can point at the hinge sentence where the metaphor is literalised. The third is flattening, where an ironic reading cancels all moral seriousness, so the pamphlet becomes a cruel joke about the poor; diagnose that by asking what the literal reading explains better, and by identifying the target — a policy that treats persons as commodities — rather than the persons themselves. Underneath these risks lies a mechanism: satire argues by hypothetical consistency, taking a society's operative principles and following them to their conclusion. The proposal's arithmetic is that device in action, an orderly bookkeeping of human lives, and its orderliness is the indictment. One further check rewards care. The persona's own figures do not agree: one fourth of twenty thousand breeders is five thousand males to fifteen thousand females, which is one male to three females, not the ‘one male will be sufficient to serve four females’ asserted in the same paragraph. Its limits: an ironic reading must be argued from textual signals and not from a reader's confidence about the author's character; and the persona's voice can be more memorable than its target, which is what makes satire co-optable in practice [2][3].",
+        "secondExample": "Compare Swift's own later satire to see a different frame with a different risk. At the end of Gulliver's Travels the narrator reports, of his return to England, that ‘I began last week to permit my wife to sit at dinner’ and explains his horror at the human form, so that Gulliver's derangement is the joke and the norm is his lost judgement. In A Modest Proposal the persona is lucid, coherent and calm; in the Travels the narrator is lucid too, but increasingly deranged. The comparison yields a testable claim about how ironic frames are signalled: in the Travels the frame announces itself through pathology that the reader can diagnose, while in the Proposal every sentence could in principle appear in an authentic pamphlet of political arithmetic, and only the coherence test separates them. That is why the Proposal is the sharper lesson in tone: the reader has to do the work without help from a broken narrator, and the risk of misreading is correspondingly higher [1][3].",
+        "mistake": "Four errors recur. The first reads the pamphlet literally as advocacy and denounces the author, which fails the coherence test and mistakes a persona for a person. The second says the piece is only a joke and so rescinds its argument, missing the hinge sentence about landlords and the consistent target of policy. The third applies the word ‘irony’ to any statement it finds unpleasant, without naming a norm; irony needs the norm stated and the textual pressure quoted, or it is just a mood label. The fourth treats the historical target as closed, so the pamphlet becomes an artefact about eighteenth-century Ireland with no transfer. The transferable question is whether some current arrangement converts a class of persons into an accounting line, and the proposed answer is testable by looking for the equivalent of ‘devoured most of the parents’ — a metaphor a system has already made literal [2][3].",
+        "application": "Choose three sentences from the pamphlet and write for each (a) a literal paraphrase and (b) the reading you would defend, with the norm named and the text's signal quoted. Then write 240–280 words on how the pamphlet's arithmetic works as an argument, including one calculation the persona makes and one computation of your own from the figures he gives. Self-review rubric: two points for genuinely distinct paraphrases; two for a named norm with quoted support; two for the calculation with numbers shown; two for a claim about what the arithmetic is doing; one for a stated falsification condition, such as a contemporary pamphlet that uses the same figures sincerely. Model direction: the strongest claim is that the persona's orderly bookkeeping — nursing cost two shillings against a sale price of ten — converts a moral horror into a margin, and the conversion is the target of the satire rather than its proposal.",
+        "summary": "Satire requires a reader to reconstruct a norm and then read the speaker against it, and A Modest Proposal is the hard case because the persona never breaks character. The tools are consistency, coherence, internal contradiction and the removal of self-interest; the risks are literalisation, co-option and the flattening that turns a moral argument into a cruel joke. Carry the habit of naming the target separately from the voice that attacks it, and of showing your arithmetic, since satiric argument is often quantitative and its numbers can be checked."
+       },
+       "readings": [
+        {
+         "title": "[1] Jonathan Swift, A Modest Proposal (1729)",
+         "url": "https://www.gutenberg.org/ebooks/1080.txt.utf-8",
+         "note": "Read the whole pamphlet, which runs to a few pages. This transcription preserves the original spelling and punctuation, including ‘cabbin-doors’, ‘Papists’ capitalised and ‘neat profit’ where a modern edition might read ‘net’; quote it as printed. Public domain in the USA."
+        },
+        {
+         "title": "[2] Living Handbook of Narratology, ‘Implied Author’ (archive copy sections ‘Definition’ and ‘Explication’)",
+         "url": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/58.html",
+         "note": "Read the two named sections for the norm-governed construct that lets a reader hear a text against its speaker's words, and for the objections to the concept. Treat it as a disputed instrument rather than settled doctrine; the former lhn.uni-hamburg.de address now redirects to this archive host."
+        },
+        {
+         "title": "[3] Jonathan Swift, Gulliver's Travels, Part IV, final chapter",
+         "url": "https://www.gutenberg.org/ebooks/829.txt.utf-8",
+         "note": "Read the closing pages of the fourth voyage for the narrator's derangement — ‘I began last week to permit my wife to sit at dinner’ — as a comparison with the Proposal's unbroken persona. Use it to test how an ironic frame can be signalled by a narrator's condition rather than by contradiction. Public domain in the USA."
+        }
+       ],
+       "visual": {
+        "title": "Four tests for an ironic speaker",
+        "description": "Reconstructing the norm behind A Modest Proposal and separating the persona's voice from the argument's target.",
+        "steps": [
+         "Literal paraphrase: the speaker proposes that poor children be sold and eaten, with prices",
+         "Coherence test: the remedy contradicts the stated aim of relieving the poor",
+         "Self-incrimination: landlords ‘have already devoured most of the parents’ — the metaphor the pamphlet literalises",
+         "Interest removed: ‘I have no children, by which I can propose to get a single penny’",
+         "Arithmetic: two shillings nursing cost against ten shillings sale price becomes a margin, not a mercy",
+         "Comparison: in Gulliver the frame is signalled by the narrator's derangement, here by contradiction alone",
+         "Risk check: name the target before you quote the voice"
+        ]
+       }
+      },
+      {
+       "id": "49",
+       "title": "Comparing two texts on a shared theme with evidence: the house with a hidden life in Jane Eyre and Dr Jekyll and Mr Hyde",
+       "explanation": "Comparison is commonly taught as a list of similarities and differences, which produces two summaries standing side by side and no argument. A comparison becomes an argument when a single claim is made about both texts and each text supplies evidence the other cannot. Take a shared theme with a precise formulation: in both Jane Eyre and Dr Jekyll and Mr Hyde, a respectable house contains a section that hides a life, and in both an ordinary explanation is offered that is true but insufficient. Jane Eyre supplies the pattern in three sentences. Jane explores Thornfield and finds a passage that ‘separating the front and back rooms of the third storey’ is ‘narrow, low, and dim, with only one little window at the far end, and looking, with its two rows of small black doors all shut, like a corridor in some Bluebeard's castle’; she hears a laugh that is ‘curious ... distinct, formal, mirthless’; and when she asks about it, Mrs Fairfax answers, ‘Some of the servants, very likely ... perhaps Grace Poole.’ Jekyll and Hyde supplies the same structure in architectural form: at one point in a busy commercial street ‘a certain sinister block of building thrust forward its gable on the street. It was two storeys high; showed no window, nothing but a door on the lower storey and a blind forehead of discoloured wall on the upper’, and its door ‘was equipped with neither bell nor knocker, was blistered and distained’. Two houses, two hidden lives, two explanations that are true and useless [1][2].",
+       "example": "Build the comparison in five steps, and keep the texts alternating rather than sequential. Step one, state one claim that covers both: domestic architecture is used to represent the division of a self or a household into a public front and a hidden occupant, and the hiding is achieved by the structure's own conventions — corridors, locked doors, unvisited rooms. Step two, match the evidence units so that each text answers the same question. Question: how is the threshold described? Jane Eyre: the passage's ‘two rows of small black doors all shut’. Jekyll and Hyde: the windowless façade with ‘nothing but a door on the lower storey’. Question: what sound or sign marks the hidden occupant? Jane Eyre: a laugh that is ‘distinct, formal, mirthless’. Jekyll and Hyde: footsteps and a door used at night, and Enfield's account of a small figure who trampled a child, of whom he says, ‘He must be deformed somewhere; he gives a strong feeling of deformity, although I couldn't specify the point’. Question: what ordinary explanation is offered? Jane Eyre: ‘perhaps Grace Poole’. Jekyll and Hyde: the lawyer's assumption that a disreputable man has some hold over a respectable one. Question: how adequate is the explanation? In both cases it is literally true — Grace Poole is the person heard, and Hyde does have a door — and in both cases it accounts for the facts while missing the meaning. Step three, name the difference that matters, because a comparison with no difference is a repetition. In Brontë the hidden life is a housed woman whose condition the plot eventually reveals to be the consequence of a colonial marriage and a family's confinement of the mentally ill; the revelation distributes blame onto a system of property and marriage. In Stevenson the hidden life is the same person as the householder, so secrecy protects not another body but a second self, and the blame falls inward. Step four, state what would falsify the claim: if one text's explanation turned out to be complete and adequate, the shared pattern would collapse at that point, leaving a difference rather than a similarity. Step five, price a counterreading: one may object that the parallel is a genre commonplace — Gothic houses always hide something — and the answer is that the claim's substance lies in the parallel inadequacy of the explanations rather than in the presence of a hidden room, which is why Gothic houses without a plausible, insufficient explanation do not produce the same effect [1][2][3].",
+       "question": "What makes the comparison of the two houses a claim rather than a list of similarities?",
+       "answer": "It asserts one thing about both texts — that a respectable house hides a life and offers an explanation that is true but insufficient — and names a difference in where the blame falls",
+       "distractor": "It observes that Gothic novels often have locked rooms, which both texts share",
+       "correction": "A shared genre convention is a description of a tradition, not a claim about these two works, and it predicts nothing. The argumentative comparison specifies a mechanism (the house as a division) and a consequence (where blame is assigned), and it states what would falsify it.",
+       "depth": {
+        "definitions": "A comparative claim asserts something about two or more texts that neither text can establish alone; a similarity list simply reports overlapping features. A theme is a recurring concern rather than a moral, and stating a theme is not yet an argument. An evidence unit is a matched feature — threshold, hidden occupant, explanation, adequacy of explanation — compared like for like. Warrant is the reasoning that connects evidence to claim. A falsification condition states what evidence would defeat a claim. Prerequisites: setting as argument from lesson 39, form and constraint from lesson 41, unreliable narration from lesson 45, and the frame-level vocabulary from lesson 34, since the two novels deliver their evidence through very different narrative arrangements, one a retrospective first-person account and the other a chain of documents ending in a confession [3].",
+        "mechanism": "Comparative argument works by four operations. Selection reduces the two texts to features that both can be asked about, which is why the questions must be formulated before the evidence is gathered. Alternation presents evidence from each text in turn under the same heading, which prevents serial summary and exposes asymmetry. Difference assignment asks what each text does that the other cannot, since a comparison without a difference has no explanatory purchase. Testing then attempts to falsify: look for a passage in either text that fits the claim badly, and report it. Two limits matter. The compared features may look alike while functioning differently because the narrative arrangements differ, so a comparison of a first-person retrospective novel with a documentary one must adjust for who can know what. And over-generalisation is the standing hazard, since any two nineteenth-century novels will share themes if the themes are stated loosely enough, which is why a claim should be narrow enough that a reader could name a text it would fail on [3].",
+        "secondExample": "Test the same method on a harder theme to see where comparisons fail: the feeling of being watched unseen. In Jane Eyre the watcher is an inhabitant of the house whose presence is signalled by sound, and the concealment is maintained by the household's own arrangements — a servant given an explanation and a locked door given a story. In Jekyll and Hyde the watched figure is the householder himself as seen through others' accounts, and the concealment is maintained by documents, keys and wills; Utterson's approach is above all evidentiary, since he seeks the will, the handwriting and the handwriting's match. So the theme of concealment resolves into two different mechanisms, one of surveillance inside a house and one of documentation inside a professional world. The comparison now has a claim with a difference attached: secrecy in Brontë is maintained by a household's willingness not to ask, and in Stevenson by a professional class capable of asking but not of believing. This sharper version predicts where each novel will place its crisis — in a confrontation between persons for the first, in a legal and documentary unmasking for the second — and predictions of that kind are what a comparative claim is for [1][2].",
+        "mistake": "Four errors dominate essays of this kind. The first writes two mini-essays with a connective paragraph, which is comparison as juxtaposition; diagnose it by checking whether every paragraph contains both texts. The second states a theme as the thesis — ‘both novels explore duality’ — which is a topic, not a claim, and predicts nothing; repair it by specifying a mechanism and a consequence. The third picks features for convenience rather than for comparability, so a novel's plot detail is set beside another's imagery, and the comparison collapses because the units do not match. The fourth ignores the difference in narrative arrangement, reading a confessional document as though it carried the authority of a retrospective narration; state who narrates and what each narrator can know before comparing what they report [3].",
+        "application": "Choose a theme you can formulate in one sentence about two of the texts in this level. Build a four-column table — question asked, evidence from text A, evidence from text B, difference that remains — with at least three question rows. Then write 260–300 words presenting the comparative claim, with a matched pair of quotations, the difference named, one counterreading and one falsification condition. Self-review rubric: two points for a claim specific enough to fail on some text; two for matched evidence units; two for an explicit difference with consequences; two for quotations located accurately in named editions; two for a counterreading and a falsification condition. Model direction: the strongest comparative claims name a mechanism both texts use and a consequence each text draws differently, as with the household's willingness not to ask against the professional's inability to believe.",
+        "summary": "Comparison is an argumentative form: state one claim about both texts, match the evidence units, name the difference that the similarity leaves over, and give the claim a way to fail. Comparing Jane Eyre with Jekyll and Hyde shows the method earning its keep, because the houses look alike while the mechanisms of secrecy and the distribution of blame differ. Carry the four-column table into any comparative task, from examination essays to policy options, and remember that alternation is what keeps a comparison from becoming two summaries in a coat."
+       },
+       "readings": [
+        {
+         "title": "[1] Charlotte Brontë, Jane Eyre, chapter 11 (the passage and the laugh) and chapter 12",
+         "url": "https://www.gutenberg.org/ebooks/1260.txt.utf-8",
+         "note": "Read the passage from Jane's exploration of the third storey through Mrs Fairfax's answer about Grace Poole, and the following chapter for the claim about feeling. Note that the laugh's explanation is supplied by a character and that the narration does not contradict it openly; the reader must notice the gap. Public domain in the USA."
+        },
+        {
+         "title": "[2] Robert Louis Stevenson, The Strange Case of Dr Jekyll and Mr Hyde, chapter 1 (the door and the gable) and chapter 10",
+         "url": "https://www.gutenberg.org/ebooks/43.txt.utf-8",
+         "note": "Read chapter 1 for the façade, the door and Enfield's account of Hyde, and chapter 10 for Jekyll's own explanation, which is complete as an account of motive and silent about the architectural secrecy the rest of the book has dwelt on. Public domain in the USA."
+        },
+        {
+         "title": "[3] University of North Carolina Writing Center, ‘Comparing and Contrasting’",
+         "url": "https://writingcenter.unc.edu/tips-and-tools/comparing-and-contrasting/",
+         "note": "Read the sections on formulating a thesis for comparison and on organising by criteria rather than by text; the handout also names the two common failures this lesson corrects, the list of similarities and the two-summaries essay. A free writing guide, not a source about these novels."
+        }
+       ],
+       "visual": {
+        "title": "Four-column comparison",
+        "description": "Matching evidence units across two texts, then naming the difference that remains, so the comparison argues rather than lists.",
+        "steps": [
+         "Question 1 — the threshold: Jane Eyre's ‘two rows of small black doors all shut’ against Hyde's windowless façade with ‘nothing but a door’",
+         "Question 2 — the sign of the hidden occupant: a laugh ‘distinct, formal, mirthless’ against a small figure and a night door",
+         "Question 3 — the explanation offered: ‘perhaps Grace Poole’ against a respectable man's disreputable acquaintance",
+         "Question 4 — adequacy: both explanations are true and insufficient, which is the shared pattern",
+         "Difference that remains: the hidden life is another person in Brontë and the same person in Stevenson",
+         "Consequence: blame falls on property and marriage in one text, inward in the other",
+         "Test: if either explanation were adequate, the claimed similarity would collapse into a difference"
+        ]
+       }
+      },
+      {
+       "id": "50",
+       "title": "Writing a sustained interpretive essay: thesis, counterargument and falsification",
+       "explanation": "An interpretive essay is an argument about a text, and an argument has a shape: a claim, reasons that support it, evidence that can be located, a serious rival reading, and a statement of what would change your mind. The difference between a topic and a thesis is the difference between a subject and a position. ‘Responsibility in Macbeth’ is a topic; it can be developed in any direction and predicts nothing. A thesis reads like this: ‘Macbeth is responsible for Duncan's murder because Act 1 stages the moment at which his alternative policy of waiting becomes unavailable, and after that moment his soliloquies report decision rather than deliberation; the witches' prophecy is a condition of his action, not its cause.’ That sentence names a claim, a piece of the play, an evidentiary kind (the soliloquies), a counter-position (prophecy as cause) and an implicit concession. It is also vulnerable: a reader can point to the prophecy's literal fulfilment and argue that the play rigs the outcome, and that reader is doing exactly what the essay invites. A sustained essay is not longer because it repeats; it is longer because it does four additional jobs — establishing the problem and terms, working the evidence scene by scene, meeting the strongest objection, and setting limits on what the evidence can support [1][2][3].",
+       "example": "Work the counterargument paragraph itself, because it is where most essays collapse. Weak version: ‘Some might say Macbeth was fated, but I think he chose.’ That sentence costs nothing, cites nothing and can be answered by anyone. Strong version proceeds in five moves. Move one, state the rival claim at full strength: the Weird Sisters' predictions are all fulfilled in the plot, and the final battle turns on riddling assurances (‘none of woman born’) that Macbeth misreads, so the play makes prophecy the engine of events. Move two, give the rival its best evidence with locations: the prophecy of kingship is realised, Birnam Wood moves, and Macbeth dies at the hands of a man not born of woman, which means the plot confirms the supernatural rather than testing it. Move three, say what follows if the rival is right: arguing about Macbeth's choices would be an error, because his deliberation would be the mere appearance of agency inside a predetermined script. Move four, answer with evidence that the rival must accommodate rather than ignore: Banquo hears the same prophecy, treats it as a warning — ‘The instruments of darkness tell us truths’ — and is not moved to kill; Macbeth abandons an available policy (‘If chance will have me king, why, chance may crown me, / Without my stir’) only after Duncan names Malcolm his heir, which is a decision with a date; and his own soliloquy concedes that the motive is wanting itself, ‘Vaulting ambition, which o'erleaps itself’. Move five, concede what the rival gets right and bound your claim accordingly: the play does fulfil its prophecies, so the defensible claim is that Macbeth's responsibility is neither denied nor diminished by them but exercised, since the fate is fulfilled through choices the play stages. A paragraph of that kind has done more than a summary of five scenes, and it can be attacked at named points, which is what makes it an argument [1][2].",
+       "question": "What distinguishes a strong counterargument paragraph from a weak one in an interpretive essay?",
+       "answer": "It states the rival reading at full strength with its best evidence, says what would follow if it were correct, answers it with locatable evidence, and concedes what it gets right",
+       "distractor": "It mentions an opposing view briefly so that the essay can show it has considered both sides",
+       "correction": "Mentioning an opposing view without evidence or consequence is decoration: it costs the argument nothing and cannot be tested. The strong version supplies the rival's best case, its implications, a specific answer and an explicit concession, so a reader can see exactly where the disagreement lies.",
+       "depth": {
+        "definitions": "A thesis is a contestable claim about a text; a topic is a subject. A warrant is the reasoning connecting evidence to claim, and without it a quotation is an ornament. A counterargument is the strongest version of a rival reading, a concession is the part of it your claim must grant, and a rebuttal is your answer to the rest. A falsification condition states what evidence would defeat your claim. Textual criticism supplies the edition problem: quotations must match the text actually cited. Secondary sources are arguments to be tested rather than authorities to be cited. Prerequisites: the claim-evidence-warrant-counterreading-falsification sequence from lesson 40, quotation discipline from lesson 41, and the genre-specific tools of this level [1][4].",
+        "mechanism": "An essay works because each paragraph performs one operation in a chain. The topic sentence states a sub-claim rather than a fact, so it commits the writer to something. Evidence arrives as a quotation with a location, kept short enough that the reader can see the words being argued about rather than trusting the essayist's summary. The warrant explains why those words support the sub-claim, which is where most student essays thin out, since a quotation followed by a generalisation leaves the inference unstated. The transition names the consequence, so the next paragraph inherits a problem rather than a topic. Every paragraph should survive the question ‘so what?’, and any paragraph that answers only ‘because this is interesting’ should be cut. Two limits govern the whole. First, textual: an argument about punctuation, metre or rhyme must declare its edition, and an argument that rests on a variant reading should say so. Second, evidentiary: interpretive claims about fictional persons are not psychological findings, and claims about the author's intention require external evidence, which is why attribution to a narrator or persona is part of the argument rather than a preliminary [3][4].",
+        "secondExample": "Apply the same architecture to a text of a different kind to see that it is not a formula for novels alone. A thesis about A Modest Proposal: ‘The pamphlet's target is not the poor but the accounting that converts them into a line of profit, and its evidence is the arithmetic itself: a nursing cost of two shillings against a sale price of ten, with the difference described as “neat profit”.’ The evidence is quotable, the warrant explains that a margin is what the persona is calculating, and the counterargument has a real rival — that the satire's contempt falls on the Irish poor — which must then be met with the hinge sentence about landlords who ‘have already devoured most of the parents’. The falsification condition is specific: a contemporary pamphlet that uses the same figures in good faith would show that the arithmetic alone is not the signal, and the argument would have to rest on contradiction instead. The same skeleton — claim, located evidence, warrant, rival, condition — organises an argument about a poem, a play, a novella or a pamphlet, and the only thing that changes is the kind of evidence available [2][4].",
+        "mistake": "Four errors are standard. The survey essay summarises the text and then appends its meaning; diagnose it by checking whether each paragraph makes a claim a reader could deny, and if every sentence is true and uncontested, the essay has no thesis. The unfalsifiable thesis is one no evidence could defeat — ‘the novel explores the complexity of human nature’ — which should be rewritten until a counterexample is imaginable. The decorative counterargument mentions opposition so the essay can appear balanced; apply the cost test, and if the counterargument does not force a concession, replace it with a stronger one. The decorated quotation appends a line without a warrant; repair it by writing the sentence that begins ‘this matters because’. A fifth error is quoting an edition you did not read, which turns a small slip into an unverifiable claim, and the remedy is to quote exactly what the linked text prints and to say so when editions differ [1][3].",
+        "application": "Capstone task: write a 900–1,200 word interpretive essay on one text from this level. Requirements: a thesis specific enough to fail on some reading; at least four quotations with chapter, scene or line locations from named editions; a warrant sentence after each quotation; one counterargument stating the strongest rival case with its best evidence; one explicit concession; one paragraph on the limits of your evidence, including any edition or performance variation; and one sentence stating what would change your mind. Self-review rubric: three points for a contestable thesis; three for located evidence with warrants; three for a counterargument that costs the thesis something; two for stated limits; two for structure in which every paragraph advances the claim. Model direction: choose the claim you can barely defend rather than the one everyone already believes, and let the last paragraph say what remains unresolved, since a conclusion that resolves everything has usually stopped reading.",
+        "summary": "A sustained interpretive essay is a chain of contestable claims, each supported by located evidence and an explicit warrant, tested against the strongest rival reading and bounded by stated limits. The sequence never changes — claim, evidence, warrant, counterargument, concession, falsification condition — while the kind of evidence does. Writing this way forces the reader's intellectual honesty into the open: you must say what would change your mind, and in saying it you show what your argument rests on."
+       },
+       "readings": [
+        {
+         "title": "[1] William Shakespeare, Macbeth, Act 1 scenes 3–7 and Act 5 scene 8",
+         "url": "https://www.gutenberg.org/ebooks/100.txt.utf-8",
+         "note": "Read Act 1, scene 3 for ‘The instruments of darkness tell us truths’ and ‘If chance will have me king’; scene 4 for Duncan naming Malcolm his heir; scene 7 for the ambition soliloquy; and Act 5, scene 8 for the riddle of the man not born of woman, which is the determinist reading's best evidence. Public domain in the USA."
+        },
+        {
+         "title": "[2] Aristotle, Poetics, trans. S. H. Butcher, chapter 13",
+         "url": "https://www.gutenberg.org/ebooks/1974.txt.utf-8",
+         "note": "Read chapter 13 for the contested account of the protagonist's error, rendered here as coming about ‘not by vice or depravity, but by some error or frailty’. Use it for the terms of the debate, and note that a translation is one reading of a Greek term rather than a settled definition."
+        },
+        {
+         "title": "[3] University of North Carolina Writing Center, ‘Argument’",
+         "url": "https://writingcenter.unc.edu/tips-and-tools/argument/",
+         "note": "Read the sections on thesis statements, on the difference between a claim and a summary, and on using evidence and counterargument. A free writing guide, not a source about the play; use it to check the architecture of your draft."
+        },
+        {
+         "title": "[4] Purdue Online Writing Lab, ‘Argumentative Essays’",
+         "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+         "note": "Read the pages on thesis statements and on organising an argument, including the discussion of counterargument and concession. A free reference; apply its advice to the literary case rather than importing its generic formulas unaltered."
+        }
+       ],
+       "visual": {
+        "title": "The architecture of a sustained argument",
+        "description": "One thesis carried through evidence, warrant, counterargument, concession and falsification condition, with each paragraph performing a single operation.",
+        "steps": [
+         "Thesis: a claim that names a moment in the text, an evidentiary kind and a rival position",
+         "Paragraph operation: sub-claim, then short located quotation, then the warrant sentence beginning ‘this matters because’",
+         "Counterargument at full strength: prophecy fulfilled, Birnam Wood, ‘none of woman born’",
+         "Consequence: if prophecy drives events, deliberation would be the appearance of agency",
+         "Rebuttal with evidence: Banquo resists the same prophecy; the waiting policy is abandoned only after Malcolm is named heir",
+         "Concession: the play does fulfil its prophecies, so the claim is bounded to responsibility exercised through them",
+         "Limits and exit: name edition variation, and state what would change your mind"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-41-50-f",
+       "prompt": "A student objects that a story about an unremarkable clergyman cannot carry moral weight. Which response best follows Eliot's practice in ‘Amos Barton’?",
+       "answer": "The moral weight is carried by selected particulars — a grave, a child's silent grip, a contrast with a wealthy visitor — which make an ordinary life visible rather than by a heroic subject",
+       "distractor": "Weight comes from the narrator's commentary, which tells the reader what to feel about ordinary people",
+       "correction": "Commentary is the weakest instrument in the passage: the burial scene withholds judgement and the detail does the work. The narrator's programme is an argument with an agenda, while the particulars are what a reader can check.",
+       "reviewLessonIds": [
+        "46"
+       ]
+      },
+      {
+       "id": "uq-41-50-g",
+       "prompt": "An essay claims Jane Eyre forms herself through choices alone. Which evidence in the novel most complicates that claim?",
+       "answer": "The inheritance and the fire remove obstacles and change Rochester's condition, so the settlement depends partly on arrangement rather than on Jane's decisions",
+       "distractor": "Jane refuses Rochester, which shows that her choices have real costs and therefore real agency",
+       "correction": "The refusal shows agency exists; it does not show that agency alone produced the ending. A claim about self-formation must account for the plot's coincidences, which the narration reports without explaining.",
+       "reviewLessonIds": [
+        "47"
+       ]
+      },
+      {
+       "id": "uq-41-50-h",
+       "prompt": "A reader insists A Modest Proposal is simply a cruel joke with no target. Which evidence best answers the reader?",
+       "answer": "The proposal's own logic contradicts its stated aim of relieving the poor, and the sentence about landlords who ‘have already devoured most of the parents’ marks the policy the pamphlet attacks",
+       "distractor": "The proposal is exaggerated beyond belief, which shows that the author cannot have meant it",
+       "correction": "Unbelievability proves nothing on its own; the argument is internal. The contradiction between aim and means, plus the metaphor of devouring, identifies the target as a system that converts persons into commodities.",
+       "reviewLessonIds": [
+        "48"
+       ]
+      },
+      {
+       "id": "uq-41-50-i",
+       "prompt": "A draft compares two novels by devoting one paragraph to each and a third to the observation that both are Gothic. What repair does the lesson require?",
+       "answer": "Recast it as one claim about both texts with matched evidence units and a named difference in mechanism or consequence",
+       "distractor": "Add a fourth paragraph listing further similarities so that the comparison is more complete",
+       "correction": "More similarities produce a longer list, not an argument. Comparison requires the same questions asked of both texts and a difference that reports what each text does which the other cannot, with a falsification condition.",
+       "reviewLessonIds": [
+        "49"
+       ]
+      },
+      {
+       "id": "uq-41-50-j",
+       "prompt": "An essay includes the paragraph ‘Some readers think Macbeth was fated, but I believe he chose freely.’ What must be added?",
+       "answer": "The rival reading at full strength with its best evidence, its implications if true, a located rebuttal, and an explicit concession of what it gets right",
+       "distractor": "A quotation from the play to demonstrate that fate is a theme the essay has noticed",
+       "correction": "A quotation without a warrant and a rival stated as a rumour are both decoration. The counterargument must carry the rival's evidence and force the thesis to adjust, or the essay has not engaged the strongest objection.",
+       "reviewLessonIds": [
+        "50"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "lq-41-50-a",
+     "prompt": "Two essays read the same sonnet. One interprets its argument without mentioning form; the other marks the octave and sestet and argues that the turn is where the poem hands its question to another speaker. Which reading is stronger, and why?",
+     "answer": "The formal reading, because it locates the change of speaker at a point the rhyme scheme independently marks, and it states what the opposite reading must explain",
+     "distractor": "The thematic reading, because arguments belong to meaning while line-endings belong to technique",
+     "correction": "Technique is meaning when a division is what licenses the shift of voice: the sestet's new rhyme pattern and the reply from ‘patience’ coincide, so the formal observation is evidence. The thematic reading is not wrong, only thinner, unless it can account for the placement.",
+     "reviewLessonIds": [
+      "41",
+      "37"
+     ]
+    },
+    {
+     "id": "lq-41-50-b",
+     "prompt": "An essay asserts that Macbeth is a tragedy of a fatal flaw, that hamartia means a character defect, and that the play therefore teaches a moral lesson. Which revision is required?",
+     "answer": "Hamartia is a contested term, rendered by Butcher as ‘some error or frailty’ rather than vice, and the play's evidence is better described as a staged choice with a visible alternative",
+     "distractor": "The essay should replace the word hamartia with catastrophe, since the play's ending is catastrophic",
+     "correction": "The problem is the equation of a translated term with a settled doctrine. Aristotle's criteria describe the plays he knew, so the essay should argue the transfer and point to the scene where a rival path is visible, as Banquo's resistance supplies.",
+     "reviewLessonIds": [
+      "42",
+      "50"
+     ]
+    },
+    {
+     "id": "lq-41-50-c",
+     "prompt": "A reader argues that Twelfth Night cannot be cruel to Malvolio because the play ends with music, marriages and the Duke's order to ‘entreat him to a peace’. Which cumulative objection applies?",
+     "answer": "The ending is a convention and a promise of repair that arrives after the victim's exit, so the reading must explain why the play supplies the language of abuse and withholds reintegration",
+     "distractor": "The objection fails because comedies always reconcile their antagonists, which is what the marriages demonstrate",
+     "correction": "A convention cannot answer a question about a particular play's allocations. Count who gains, who pays and who is present at the close; the comedy's own words — ‘most notoriously abus'd’ — then become evidence rather than atmosphere.",
+     "reviewLessonIds": [
+      "43",
+      "35"
+     ]
+    },
+    {
+     "id": "lq-41-50-d",
+     "prompt": "A draft claims the windowless façade in Jekyll and Hyde proves that the building is supernatural. Which correction follows the level's standards for symbolic and uncanny reading?",
+     "answer": "The description is an ordinary architectural fact whose explanation is withheld, and the uncanny effect is produced by that withholding rather than proving anything beyond the ordinary",
+     "distractor": "The façade is a symbol of Jekyll's sin, and symbols in Gothic fiction are always supernatural in reference",
+     "correction": "Both claims outrun the evidence. Locate the literal function first — a windowless service building with a disused door on a commercial street — then describe the effect and argue for any moral mapping with a warrant and a falsification condition.",
+     "reviewLessonIds": [
+      "44",
+      "40"
+     ]
+    },
+    {
+     "id": "lq-41-50-e",
+     "prompt": "Two critics disagree about the governess in The Turn of the Screw: one says the text signals her unreliability, the other that the reader's norms produce it. Which procedure gives the dispute a checkable shape?",
+     "answer": "Name the criterion being used — contradiction, inference beyond evidence, missing corroboration, shaping rhetoric or framing — then state what evidence would settle it and treat the two approaches as rival norms",
+     "distractor": "Appeal to the author's stated intention in a preface, since the author decides what the text means",
+     "correction": "Intention is external evidence and does not settle the reading of a published text; the approaches differ about where norms live, so the productive move is to declare the norm and test the account against it, keeping the question of what happened separate from the question of warranted inference.",
+     "reviewLessonIds": [
+      "45",
+      "34"
+     ]
+    },
+    {
+     "id": "lq-41-50-f",
+     "prompt": "An essay quotes a narrator's defence of commonplace subjects as proof that the novel values ordinary lives, then ignores a passage in which the same narrator mocks a character. What cumulative repair is needed?",
+     "answer": "Attribute the programme to its narrator, then test the practice against the programme, since the same voice can argue for sympathy and condescend to a character it describes",
+     "distractor": "Delete the mockery passage, because a narrator's stated programme is the text's position",
+     "correction": "Deleting evidence is the error, not the repair. Narrator and text are distinct, and the strongest reading reports both the argument and the practice and asks what the discrepancy shows. That is also the method for distinguishing interior report from generalisation.",
+     "reviewLessonIds": [
+      "46",
+      "32"
+     ]
+    },
+    {
+     "id": "lq-41-50-g",
+     "prompt": "A student claims a novel's protagonist ‘grows into herself’ because the chapters follow her from childhood to marriage. Which requirement does the claim fail?",
+     "answer": "It substitutes sequence for a claim about a capacity tested under cost, and it ignores that a retrospective narrator selects the episodes that make the arc look inevitable",
+     "distractor": "It relies on chapters rather than on scenes, and only scenes can show development",
+     "correction": "The problem is not the unit of evidence but the absence of a stated change, a test and a cost. Add the before-and-after comparison and note the teller's shaping, then the arc becomes a claim a reader could contest.",
+     "reviewLessonIds": [
+      "47",
+      "31"
+     ]
+    },
+    {
+     "id": "lq-41-50-h",
+     "prompt": "An essay about A Modest Proposal states that the pamphlet's figures show the author's contempt for the poor. Which additional step would make the argument responsible?",
+     "answer": "Compute the persona's arithmetic from the figures he gives, then show what the bookkeeping does to persons, and treat contempt for the poor as a rival reading to be met with the landlords sentence",
+     "distractor": "Quote the most shocking sentence, since the strongest evidence of contempt is the proposal to eat children",
+     "correction": "Shock is not analysis, and the arithmetic is checkable: twenty thousand reserved for breed leaves one hundred thousand for sale, and a two-shilling cost against a ten-shilling price is a margin. Showing what the calculation performs locates the target before the reading assigns contempt.",
+     "reviewLessonIds": [
+      "48",
+      "50"
+     ]
+    },
+    {
+     "id": "lq-41-50-i",
+     "prompt": "Two texts are compared because both contain a hidden room. Which reformulation turns the observation into an argument?",
+     "answer": "A single claim about how each text uses domestic architecture to divide a public front from a hidden life, with matched evidence units and a named difference in where blame falls",
+     "distractor": "A claim that Gothic fiction uses hidden rooms to generate suspense, illustrated from both texts",
+     "correction": "A genre generalisation is a description of a tradition and predicts nothing about these two works. The argumentative version asks the same questions of each text, names the surviving difference and states what would falsify the claim.",
+     "reviewLessonIds": [
+      "49",
+      "39"
+     ]
+    },
+    {
+     "id": "lq-41-50-j",
+     "prompt": "A thesis reads: ‘This play explores the complexity of human nature and the ambiguity of moral choice.’ Which diagnosis and repair apply?",
+     "answer": "The thesis is unfalsifiable, so it should be rewritten until a competing reading could defeat it, naming a moment, an evidentiary kind and a rival position",
+     "distractor": "The thesis is acceptable because ambiguous works generate ambiguous theses",
+     "correction": "A claim that no evidence could refute cannot be argued with, which is the test applied throughout this level to irony, symbol and unreliability alike. Specify the scene, the evidence and the opposing reading, and add the condition under which you would withdraw.",
+     "reviewLessonIds": [
+      "50",
+      "40"
+     ]
+    },
+    {
+     "id": "lq-41-50-k",
+     "prompt": "Task: build one claim that spans a verse passage and a prose passage from this level. Which plan meets the level's standard?",
+     "answer": "Quote both from named editions, state one claim both support, give a warrant for each piece of evidence, name the difference in what each passage can show, then add a counterreading and a falsification condition",
+     "distractor": "Quote both, summarise the techniques of each, and conclude that verse and prose represent experience in complementary ways",
+     "correction": "Summary and complementarity are not claims, and the comparison must show what each passage supplies that the other cannot — a formal constraint in one case, a selected detail in the other — with a stated falsification condition.",
+     "reviewLessonIds": [
+      "41",
+      "46",
+      "49"
+     ]
+    },
+    {
+     "id": "lq-41-50-l",
+     "prompt": "A draft quotes a modernised sonnet reading ‘Ere half my days’ while citing a transcription that prints ‘E're half my days’, and uses the modernised line to support a metrical claim. What must be corrected, and why does it matter?",
+     "answer": "Quote the edition actually cited or cite the edition quoted, then re-count the beats in that text, because metrical and formal claims are claims about a specific printing",
+     "distractor": "Standardise the quotation to modern spelling, since a metrical pattern is unaffected by accidentals",
+     "correction": "Spelling and punctuation affect syllable counts and line-division evidence, and a quotation detached from its source cannot be checked. This level pairs every formal claim with a named edition for that reason.",
+     "reviewLessonIds": [
+      "41",
+      "38"
+     ]
+    }
+   ]
+  }
+ ]
+}

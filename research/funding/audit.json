@@ -102,53 +102,53 @@
   "allDepartments": [
     {
       "id": "russian",
-      "levels": 5,
-      "topics": 60
-    },
-    {
-      "id": "business-funding",
-      "levels": 7,
+      "levels": 6,
       "topics": 70
     },
     {
+      "id": "business-funding",
+      "levels": 8,
+      "topics": 80
+    },
+    {
       "id": "literature",
-      "levels": 4,
-      "topics": 40
+      "levels": 5,
+      "topics": 50
     },
     {
       "id": "neuroscience",
-      "levels": 4,
-      "topics": 40
+      "levels": 5,
+      "topics": 50
     },
     {
       "id": "veterinary-science",
-      "levels": 4,
-      "topics": 40
+      "levels": 5,
+      "topics": 50
     },
     {
       "id": "theology",
-      "levels": 4,
-      "topics": 40
+      "levels": 5,
+      "topics": 50
     },
     {
       "id": "finance",
-      "levels": 4,
-      "topics": 40
+      "levels": 5,
+      "topics": 50
     },
     {
       "id": "music",
-      "levels": 4,
-      "topics": 40
+      "levels": 5,
+      "topics": 50
     },
     {
       "id": "skincare",
-      "levels": 3,
-      "topics": 30
+      "levels": 4,
+      "topics": 40
     },
     {
       "id": "psychiatry",
-      "levels": 4,
-      "topics": 40
+      "levels": 5,
+      "topics": 50
     },
     {
       "id": "philosophy",

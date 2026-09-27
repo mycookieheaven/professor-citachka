@@ -1,0 +1,1427 @@
+{
+ "subject": "russian",
+ "levels": [
+  {
+   "title": "Recipients, means, and motion: cases that carry a conversation",
+   "units": [
+    {
+     "title": "Whom you give it to and what you use: dative and instrumental in action",
+     "lessons": [
+      {
+       "id": "61",
+       "title": "The dative for the recipient: whom you give, write, or speak to",
+       "explanation": "You have already handed one object to one person with a dative ending (lesson 34). This lesson makes that ending productive for every noun, so the recipient slot stops being a memorised phrase. Compare two sentences that differ only in role. Я читаю книгу (ya chee-TA-yu KNEE-goo) — I am reading a book: книгу is the thing acted on, the accusative direct object. Я пишу маме (ya pee-SHOO MA-mye) — I am writing to mum: маме is the person who receives, and Russian marks a recipient with the dative case. The endings are short and predictable. Masculine and neuter nouns add -у, spelled -ю after a soft stem: брат (brat) — brother becomes брату (BRA-too); учитель (oo-CHEE-tyel) — teacher becomes учителю (oo-CHEE-tye-lyu). Feminine nouns in -а swap that -а for -е: мама (MA-ma) — mum becomes маме; Анна (AN-na) — Anna becomes Анне. Feminine names in -ия take -ии: Мария (ma-REE-ya) — Maria becomes Марии (ma-REE-ee). Every gender takes -ам, or -ям after a soft stem, in the plural: друзьям (drooz-YAM) — to friends. The pronouns are learned as a closed set, each with its own stressed shape: Мне (MNYE) to me, Тебе (tee-BYE) to you, Ему (ye-MOO) to him, Ей (YEY) to her, Нам (NAM) to us, Вам (VAM) to you, Им (EEM) to them. Spanish offers a genuine bridge here: le escribo a mi mamá uses a clitic le plus a, and мне and ему sit in exactly that slot. The difference is that Spanish keeps the extra preposition and Russian does not, so the ending alone must carry the meaning.",
+       "example": "Take one verb, пишу (PEE-shoo) I write, and change only the person. Я пишу маме (ya pee-SHOO MA-mye) — I am writing to mum, where мама changes its ending. Я пишу брату (ya pee-SHOO BRA-too) — I am writing to my brother, where брат gains -у. Я пишу друзьям (ya pee-SHOO drooz-YAM) — I am writing to my friends, plural dative. Now add a thing and watch two cases stand in one clause: Я дала маме книгу (ya da-LA MA-mye KNEE-goo) — I gave mum a book. English would allow the same order, and Spanish would say le di un libro a mamá; in the Russian sentence маме is dative because she receives, and книгу is accusative because it is handed over. Read each pair slowly with the marked stress, then at normal speed, and name the recipient aloud before you say the ending: the naming step, not the sound, is what keeps the two cases apart.",
+       "question": "Why is Я звоню брату (ya zva-NYOO BRA-too) — I am phoning my brother correct, while Я звоню брата is not?",
+       "answer": "The verb звонить to phone governs the dative for the person phoned, so the brother takes the dative ending -у.",
+       "distractor": "Брат is animate, so an animate noun in object position must take the genitive-shaped accusative.",
+       "correction": "Animacy changes the shape of an accusative object (lesson 51), but the brother here is not an object of the accusative kind at all. Some verbs hand a person straight into the dative slot: звонить to phone, помогать to help, отвечать to answer. The test is the verb, not the animacy of the noun: ask what case this verb wants for a person, then supply that ending. Звонить wants the dative, so the form is брату regardless of how animate the brother is.",
+       "depth": {
+        "definitions": "The dative is the case of the recipient, the beneficiary, and the person affected by a state rather than by an action. It is the case label Russian grammars attach to the -u/-e family of endings and to the pronoun set мне, тебе, ему, ей, нам, вам, им. A direct object is the thing or person a verb acts on; an indirect object is the person for whom the action happens, and in Russian that second role is what the dative marks. Verb government is the property of a verb that fixes the case of the noun it takes; it must be learned per verb because it does not follow from meaning.",
+        "mechanism": "Russian marks the recipient inside the noun rather than in a prepositional phrase, so the information English and Spanish put in word order or particles lives in the ending. Cornell's dative page groups the endings by declension: -у for the zero-ending masculine and o-declension nouns, -е for the a-declension, -ии for feminine -ия nouns, and -ам/-ям in the plural for all declensions. Two consequences deserve stating. First, the dative singular of a feminine -а noun is spelled -е, exactly like the prepositional singular of the same noun: маме is the shape the ending takes in both cases, and only the verb or the preposition tells you which case you are in — пишу маме to mum against думаю о маме about mum. Second, the dative plural can never be confused with the accusative plural, which means plural recipients are where a beginner's dative is most audible and least risky.",
+        "secondExample": "Move the same recipient through three verbs to see that the ending travels with the noun, not with the verb's meaning: Я помогаю сестре (ya pa-ma-GA-yu sees-TRYE) — I help my sister; Я отвечаю сестре (ya at-vee-CHA-yu sees-TRYE) — I answer my sister; Я показываю сестре фотографии (ya pa-KA-zy-va-yu sees-TRYE fa-ta-GRA-fee-ee) — I show my sister the photographs. The last sentence contains a dative recipient (сестре) and an accusative thing (фотографии) at the same time, which is the shape most Russian transactions take. Notice as well that сестра loses its -а and does not keep a separate possessive word: Russian normally prefers сестре to моей сестре when context is clear.",
+        "mistake": "Three errors recur. The first uses the accusative for a person because English and Spanish make the person look like a direct object: Я помогаю сестру, where сестре is required. The second imports the Spanish preposition and writes к маме for a plain recipient, which changes the meaning toward movement in the direction of someone. The third over-applies the -е ending to masculine nouns, producing пишу брате. Diagnose by naming the verb first and asking which case it governs, then checking the noun's gender before writing a single letter; if the role analysis is right and only the ending is wrong, record this as a form-retrieval gap rather than a case confusion.",
+        "application": "Optional practice: write five sentences about your own week using the verbs дать, писать, звонить, помогать, and отвечать, with a different person as recipient each time and at least one plural. Model response for one line: Вчера я помогла брату (vchee-RA ya pa-mag-LA BRA-too) — yesterday I helped my brother, with a feminine past form because the speaker is a woman. Self-review checks four points: the verb's governing case, the noun's declension, the single or plural number, and the absence of an added preposition. Then read the five sentences aloud and underline every dative ending, which converts an abstract label into a visible marking habit. The task is nonblocking and worth repeating after a week.",
+        "summary": "The dative is the case of the person who receives, benefits, or is affected, and it is written on the noun as -у/-ю, -е, -ии, or -ам/-ям. Because the endings are largely unique to this case in the plural, the plural is where a beginner's dative is heard most clearly. Transfer the habit of asking first which case a verb governs, then which declension the noun belongs to."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Dative case endings (nouns and adjectives)",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_a_1_a.htm",
+         "note": "Read the ending table only, and note the two spelling rules it states: -у becomes -ю after a soft stem, and feminine -ия nouns take -ии. Every ending used in this lesson comes from that table. Access caveat: this is a 1981/1991 teaching grammar whose legacy encoding renders stress marks as unfamiliar glyphs, so read the Cyrillic for its endings rather than for its accent marks."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Use Dative with certain verbs",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_a_2_1.htm",
+         "note": "Read the opening paragraph and the verb list; it is the source of the claim that the person, not the thing, normally stands in the dative, and it names дать, писать, говорить, отвечать, and помогать as verbs that take it. Useful precisely because it also records the exception where the thing is dative, so the rule is not oversold."
+        },
+        {
+         "title": "[3] Wikipedia — Russian declension, section 'First declension' and 'Personal pronouns'",
+         "url": "https://en.wikipedia.org/wiki/Russian_declension",
+         "note": "Use two sections as form confirmation only: the first-declension tables show the dative singular -е and dative plural -ам, and the personal-pronoun table fixes мне, тебе, ему, ей, нам, вам, им. Encyclopaedia-level corroboration of paradigms, not a teaching sequence; do not read it as a usage guide."
+        }
+       ],
+       "visual": {
+        "title": "The recipient slot: one ending per gender",
+        "description": "A labelled sequence for producing a dative form from a dictionary entry, and for separating the recipient from the direct object.",
+        "steps": [
+         "Identify the verb and decide whether the person is a recipient (dat.) or the thing acted on (acc.).",
+         "Look at the noun's dictionary form and classify it: masculine or neuter consonant stem, feminine -а, feminine -ия, or plural.",
+         "Write the dative: -у (-ю after a soft stem), -е, -ии, or -ам/-ям.",
+         "Replace a pronoun with the fixed set мне, тебе, ему, ей, нам, вам, им rather than calculating one.",
+         "Say the sentence and confirm that no preposition was inserted before the recipient."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я пишу маме",
+         "latin": "ya pee-SHOO MA-mye",
+         "meaning": "I am writing to mum"
+        },
+        {
+         "text": "Я пишу брату",
+         "latin": "ya pee-SHOO BRA-too",
+         "meaning": "I am writing to my brother"
+        },
+        {
+         "text": "Я пишу друзьям",
+         "latin": "ya pee-SHOO drooz-YAM",
+         "meaning": "I am writing to my friends"
+        },
+        {
+         "text": "Я дала маме книгу",
+         "latin": "ya da-LA MA-mye KNEE-goo",
+         "meaning": "I gave mum a book"
+        },
+        {
+         "text": "Я звоню брату",
+         "latin": "ya zva-NYOO BRA-too",
+         "meaning": "I am phoning my brother"
+        },
+        {
+         "text": "Я помогаю сестре",
+         "latin": "ya pa-ma-GA-yu sees-TRYE",
+         "meaning": "I help my sister"
+        },
+        {
+         "text": "Я отвечаю сестре",
+         "latin": "ya at-vee-CHA-yu sees-TRYE",
+         "meaning": "I answer my sister"
+        },
+        {
+         "text": "Я показываю сестре фотографии",
+         "latin": "ya pa-KA-zy-va-yu sees-TRYE fa-ta-GRA-fee-ee",
+         "meaning": "I show my sister the photographs"
+        },
+        {
+         "text": "Мне",
+         "latin": "MNYE",
+         "meaning": "to me"
+        },
+        {
+         "text": "Ему",
+         "latin": "ye-MOO",
+         "meaning": "to him"
+        },
+        {
+         "text": "Ей",
+         "latin": "YEY",
+         "meaning": "to her"
+        },
+        {
+         "text": "Им",
+         "latin": "EEM",
+         "meaning": "to them"
+        }
+       ]
+      },
+      {
+       "id": "62",
+       "title": "Impersonal sentences: Мне холодно, мне нужно, мне нравится",
+       "explanation": "Russian often describes a state without naming anyone as subject. Instead of saying I am cold, it says, roughly, to me it is cold: Мне холодно (mnye KHO-lad-na) — I am cold. Мне is the dative pronoun you met in lesson 61, and холодно is a predicative form, a word that behaves like is plus an adjective without ever taking one. The same frame carries a whole family of states: тепло (teep-LO) warm, жарко (ZHAR-ka) hot, скучно (SKOOSH-na) bored, трудно (TROOD-na) hard for me, легко (lyeg-KO) easy for me, интересно (in-tee-RYES-na) interesting to me, ясно (YAS-na) clear to me. Because nothing is the subject, the sentence has no nominative noun and no nominative pronoun. Spanish gives you two very different bridges here. For sensations Spanish says tengo frío, literally I have cold, which makes the person the subject and therefore teaches the wrong reflex; Russian keeps the person in the dative. For liking, Spanish says me gusta la música, and that structure matches Russian almost perfectly: Мне нравится музыка (mnye NRA-veet-sya MOO-zy-ka) — I like music. Where Russian goes further is that the state can be put in the past or the future by adding a form of быть: Мне было холодно (mnye BY-la KHO-lad-na) — I was cold; Мне будет скучно (mnye BOO-det SKOOSH-na) — I will be bored.",
+       "example": "Build the frame in three steps with the same person. Step one, a state: Мне холодно (mnye KHO-lad-na) — I am cold. Step two, a need with a thing: Мне нужна ручка (mnye noozh-NA ROOCH-ka) — I need a pen. Here нужна is not a verb but a short-form word that agrees with the thing needed, so the pen's gender chooses the shape. Change the thing and the shape follows: Мне нужно время (mnye NOOZH-na VRYE-mya) — I need time, neuter; Мне нужны билеты (mnye noozh-NY bee-LYE-ty) — I need tickets, plural. Step three, a need with an action: Мне нужно работать (mnye NOOZH-na ra-BO-tat) — I need to work, where the infinitive replaces the thing. Now move the whole frame into the past: Мне была нужна ручка (mnye by-LA noozh-NA ROOCH-ka) — I needed a pen. Read each sentence with the stress marks, then say it at normal speed while asking one question aloud: what word, if any, is in the nominative here? In Мне холодно the answer is none, and in Мне нужна ручка it is ручка.",
+       "question": "Why does Мне нравятся эти книги (mnye NRA-vyat-sya EH-tee KNEE-gee) — I like these books take a plural verb, while Мне холодно has no subject to agree with at all?",
+       "answer": "Нравиться is a verb whose grammatical subject is the thing liked, so these books, being plural, control the plural ending; холодно is a predicative word in a subjectless sentence, so nothing agrees with anything.",
+       "distractor": "The plural ending agrees with мне, because the person is the one doing the liking and therefore the logical subject.",
+       "correction": "Agreement never runs from the dative experiencer. In Мне нравятся эти книги the nominative noun книги is the subject and fixes the verb's number and person; мне only says who experiences the liking. In Мне холодно there is no nominative noun at all, which is why Russian grammars call such sentences impersonal and why no agreement question even arises. The two frames look alike because both begin with мне, but they are different machines: one hides a nominative subject behind a dative experiencer, the other has no subject.",
+       "depth": {
+        "definitions": "An impersonal sentence is one with no grammatical subject in the nominative. A predicative (Russian grammars also say category of state or o-form) is a word such as холодно, нужно, or скучно that functions as the predicate of such a sentence, carrying the is of English without any verb. The experiencer is the person who feels or needs something; in Russian dative impersonals the experiencer stands in the dative. Agreement is the matching of a verb or short-form word to the number and gender of its nominative subject. These four terms are what the rest of this lesson turns on.",
+        "mechanism": "The dative frame exists because Russian can express a state without claiming that anyone is its agent. Cold is not something the speaker does; it is a condition that holds of the speaker, and the grammar encodes that by removing the nominative position entirely. Where a thing is needed, a second mechanism appears: short-form нужен, нужна, нужно, нужны agrees with the needed thing rather than with the person, so the sentence contains a nominative subject even though the person remains dative. Wikipedia's account of Russian impersonal sentences classifies these as dative impersonals and notes explicitly that the analysis is disputed, since some scholars treat the dative experiencer as an oblique subject rather than as an object. The teaching consequence is honest and simple: use the construction confidently, but do not treat the label subjectless as a settled theoretical claim. One limit matters for production: an o-form predicate has no agreement slot, so you cannot make it match the person; only the нужен family and ordinary verbs have something to match.",
+        "secondExample": "Two sentences, two tenses, two different agreement behaviours. Мне было холодно утром (mnye BY-la KHO-lad-na OO-tram) — I was cold in the morning: было is the neuter past of быть used because there is no subject to agree with, and холодно never changes. Теперь мне нужны тёплые ботинки (tee-PYER mnye noozh-NY TYO-ply-ye ba-TEEN-kee) — now I need warm boots: need is now carried by a short form that agrees with ботинки in the plural, and the adjective тёплые agrees with the same noun. Put the two sentences side by side and the contrast is mechanical: in the first, nothing agrees; in the second, two words must agree with the thing rather than with the person.",
+        "mistake": "Four errors recur. The first makes the person a subject: Я холодно or Я скучно, which a Russian speaker hears as a broken sentence. The second fixes the shape of нужно and ignores the thing: Мне нужно билеты instead of Мне нужны билеты. The third uses a full adjective where a short form or predicative is required: Мне холодный or Мне нужная ручка. The fourth puts the liking in the wrong place: Я нравлюсь книги, which in fact means the books like me, a genuinely confusing sentence to produce. Diagnose in this order: name the person, confirm they are in the dative; name the thing, if there is one, and check that any agreeing word matches it; then check whether the sentence needs a verb at all.",
+        "application": "Optional practice: write six impersonal sentences about a single day, using at least two o-forms, two нужен-family sentences with different genders, and one past-tense sentence with было. Model response for one line: Утром мне было холодно, а теперь мне нужен горячий чай (OO-tram mnye BY-la KHO-lad-na, a tee-PYER mnye NOO-zhen ga-RYA-chee chai) — in the morning I was cold, and now I need hot tea. Self-review checks four things: the person is dative, the state word is an o-form or short form rather than a full adjective, any agreeing word matches the thing and not the person, and past or future time is carried by было or будет. Read the six sentences aloud and mark each one as subjectless or subject-bearing, which is the single most useful diagnostic in this construction. The task is nonblocking.",
+        "summary": "Dative impersonals let Russian state a condition without a nominative subject: the person stands in the dative and the state is carried by a predicative o-form, by нужно, or by a short form that agrees with the thing involved. Spanish tengo frío is a false friend in structure, while me gusta is a genuine one. Separate the two machines clearly: one has no subject at all, the other hides a nominative subject behind a dative experiencer."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Use Dative with o-forms",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_a_2_3.htm",
+         "note": "Read the whole short page: it states the rule that predicate forms ending in -o govern dative forms for the person involved, and it gives the exact set used here, including Мне холодно, Мне скучно, Мне трудно, and the 'it is clear/interesting to me that' pattern. This is the primary source for the o-form half of the lesson. Legacy encoding caveat as elsewhere on this site: the Cyrillic renders with unfamiliar stress glyphs."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Dative with нужен",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_a_2_4.htm",
+         "note": "Read the three examples. They supply the thing-agreement point directly: Мне нужна была ручка shows a feminine short form in the past, and Тебе будут нужны ручки shows the plural with a future form of быть. Nothing more than those two distinctions is needed for this lesson."
+        },
+        {
+         "title": "[3] Wikipedia — Russian grammar, section 'Impersonal sentences'",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar#Impersonal_sentences",
+         "note": "Read only this subsection. It classifies the dative type as usually expressing personal feelings and, importantly, records that the analysis is disputed and that such sentences are sometimes described as having an oblique subject. This lesson cites it for that caution, not for a rule. Encyclopaedia summary, not a teaching grammar."
+        },
+        {
+         "title": "[4] Cornell Beginning Russian Grammar — Past and future tenses of short adjectives",
+         "url": "https://russian.cornell.edu/grammar/html/le31_40_d.htm",
+         "note": "Skim the examples that combine a dative person with нужен and forms of быть, such as Мне нужна была ручка and Мне нужны будут карандаши. Use it to confirm the tense-building pattern rather than to learn new material."
+        }
+       ],
+       "visual": {
+        "title": "Two machines that begin with мне",
+        "description": "A labelled decision sequence for the dative experiential construction, separating subjectless states from need-and-liking sentences that hide a nominative subject.",
+        "steps": [
+         "Ask what kind of meaning you are expressing: a physical or emotional state, a need for a thing, a need to act, or a liking.",
+         "For a state, use an o-form with the person in the dative and build past or future with было or будет; nothing agrees.",
+         "For a thing needed, use нужен / нужна / нужно / нужны and make it agree with the thing, not with the person.",
+         "For an action needed, use нужно or надо plus an infinitive, with the person still dative.",
+         "For a liking, use нравится or нравятся, and let the thing liked be the nominative subject that fixes the verb's number.",
+         "Check the finished sentence for any nominative word, and confirm it is the thing (if any), never the person."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Мне холодно",
+         "latin": "mnye KHO-lad-na",
+         "meaning": "I am cold"
+        },
+        {
+         "text": "Мне нужна ручка",
+         "latin": "mnye noozh-NA ROOCH-ka",
+         "meaning": "I need a pen"
+        },
+        {
+         "text": "Мне нужно время",
+         "latin": "mnye NOOZH-na VRYE-mya",
+         "meaning": "I need time"
+        },
+        {
+         "text": "Мне нужны билеты",
+         "latin": "mnye noozh-NY bee-LYE-ty",
+         "meaning": "I need tickets"
+        },
+        {
+         "text": "Мне нужно работать",
+         "latin": "mnye NOOZH-na ra-BO-tat",
+         "meaning": "I need to work"
+        },
+        {
+         "text": "Мне была нужна ручка",
+         "latin": "mnye by-LA noozh-NA ROOCH-ka",
+         "meaning": "I needed a pen"
+        },
+        {
+         "text": "Мне нравится музыка",
+         "latin": "mnye NRA-veet-sya MOO-zy-ka",
+         "meaning": "I like music"
+        },
+        {
+         "text": "Мне нравятся эти книги",
+         "latin": "mnye NRA-vyat-sya EH-tee KNEE-gee",
+         "meaning": "I like these books"
+        },
+        {
+         "text": "Мне было холодно",
+         "latin": "mnye BY-la KHO-lad-na",
+         "meaning": "I was cold"
+        },
+        {
+         "text": "Мне будет скучно",
+         "latin": "mnye BOO-det SKOOSH-na",
+         "meaning": "I will be bored"
+        },
+        {
+         "text": "Мне было холодно утром",
+         "latin": "mnye BY-la KHO-lad-na OO-tram",
+         "meaning": "I was cold in the morning"
+        },
+        {
+         "text": "Теперь мне нужны тёплые ботинки",
+         "latin": "tee-PYER mnye noozh-NY TYO-ply-ye ba-TEEN-kee",
+         "meaning": "now I need warm boots"
+        }
+       ]
+      },
+      {
+       "id": "63",
+       "title": "The instrumental for the means: writing with a pen, paying by card",
+       "explanation": "Spanish and English both use a small word before the instrument: escribir con un bolígrafo, write with a pen. Russian uses no such word. It changes the ending of the noun instead: Я пишу ручкой (ya pee-SHOO ROOCH-kay) — I write with a pen. The ending -ой on ручкой is the instrumental case, and the instrumental's core job is to name the means by which something is done. The forms are regular. Masculine and neuter nouns take -ом, spelled -ем after a soft stem: нож (nozh) — knife becomes ножом (na-ZHOM); словарь becomes словарём. Feminine -а nouns take -ой, spelled -ей after a soft stem: ручка (ROOCH-ka) — pen becomes ручкой (ROOCH-kay); ложка (LOSH-ka) — spoon becomes ложкой (LOSH-kay). Feminine nouns with a soft-sign ending take -ью: дверь (dvyer) — door becomes дверью. In the plural every gender takes -ами, or -ями after a soft stem: руками (roo-KA-mee) — with hands; деньгами (dyen-GA-mee) — with money. Because no preposition is used, the ending does all the work, and that is exactly why the common error here is to add the Spanish preposition's Russian cousin с: Я пишу с ручкой sounds like writing in the company of a pen. Cornell warns about this directly. The instrumental plural -ами is also easy to confuse with the dative plural -ам you learned in lesson 61, so pay attention to the final sound: друзьям (drooz-YAM) to friends against друзьями (drooz-YA-mee) with friends.",
+       "example": "Describe a small domestic task and watch the case do all the work. Я режу хлеб ножом (ya RYE-zhoo khlyeb na-ZHOM) — I cut bread with a knife: хлеб is the thing acted on, accusative; ножом is the instrument, instrumental; no preposition appears. Я ем суп ложкой (ya yem soop LOSH-kay) — I eat soup with a spoon, same pattern with a feminine noun. Я открываю дверь ключом (ya at-kry-VA-yu dvyer klyoo-CHOM) — I open the door with a key. Now change one word to see that the case choice is a choice about meaning, not decoration: Я ем суп со сметаной (ya yem soop sa smee-TA-nay) — I eat soup with sour cream. Sour cream is not the means of eating; it is an addition, so the sentence uses с plus the instrumental. The difference between ложкой and со сметаной is the difference between the tool and the company. Contrast the instrument with a carried object in one more pair: Я пришла с ручкой (ya preesh-LA s ROOCH-kay) — I arrived with a pen, where the pen is something I brought, against Я пишу ручкой, where it is the means. Read the four sentences aloud with the marked stress, then say them at normal speed while asking one question per sentence: is this noun the means, or is it something added?",
+       "question": "Why does Я пишу ручкой (ya pee-SHOO ROOCH-kay) need no preposition when Spanish says con un bolígrafo?",
+       "answer": "The instrumental ending itself means 'by means of', so the case carries the relation that Spanish puts in the preposition con.",
+       "distractor": "Russian drops prepositions before any noun that names a physical object, so no rule is involved.",
+       "correction": "The omission is not general: the same noun in an accompaniment sense does take a preposition, as in Я пришла с ручкой (ya preesh-LA s ROOCH-kay) — I arrived with a pen, where the pen is an object I brought, not the means I used. Russian therefore distinguishes instrument from companion by the presence or absence of с, while Spanish leaves both meanings to con. Learn the pair together rather than treating the bare instrumental as a missing preposition.",
+       "depth": {
+        "definitions": "The instrumental case marks the means, instrument, or agent through which an action is carried out. It also marks accompaniment when it follows the preposition с, and it marks the role in predicate constructions, which lesson 64 develops. The relevant ending families are -ом/-ем (masculine and neuter singular), -ой/-ей and -ью (feminine singular), and -ами/-ями (all genders in the plural). An instrument is a physical or abstract tool; an accompaniment is something or someone present along with the subject. Distinguishing those two roles is the whole task of this lesson.",
+        "mechanism": "The reason Russian can express the instrument without a preposition is that its case endings are semantically loaded: the instrumental ending is a small morpheme meaning by means of. Once that morpheme exists, an extra preposition would be redundant for the instrument and is therefore reserved for a different meaning. Cornell's instrumental page states the contrast explicitly, warning that using с where no preposition belongs shifts the meaning to something else entirely, and its companion page shows that the instrumental with с, под, между, and за expresses accompaniment or spatial relations instead. Two limits are worth knowing early. First, not every means of doing something is a physical tool: the same ending covers abstract means such as деньгами with money, so the category is semantic, not physical. Second, the instrumental is not the only way Russian expresses how something is done; adverbs such as пешком on foot do the same job lexically, and lesson 66 meets them again with means of transport.",
+        "secondExample": "Hold the verb платить (pla-TEET) to pay fixed and vary the means. Я плачу картой (ya pla-CHOO KAR-tay) — I pay by card. Я плачу наличными (ya pla-CHOO na-LEECH-ny-mee) — I pay in cash, an instrumental plural that behaves as a set phrase. Now change to accompaniment and the sentence needs a human: Я плачу за обед (ya pla-CHOO za a-BYED) — I pay for lunch, which is a different prepositional pattern again. The three sentences share a verb and a situation but three different structures, which is precisely why paying vocabulary is worth drilling as whole phrases rather than as isolated words. Note also that картой and наличными are not optional decorations: without the instrumental ending the sentence would have no way to say how the payment happened, since Russian has no equivalent of the English preposition by in this construction.",
+        "mistake": "Three errors recur. The first transfers Spanish con and writes Я пишу с ручкой, which means writing in the pen's company. The second keeps the dictionary form and writes Я режу хлеб нож, leaving the means unmarked. The third confuses the two plural endings and writes Я пишу друзьям when the friends are companions and друзьями when they are means, or the reverse; the failure is not pronunciation but case identification. Diagnose by asking a single question of each noun in the sentence: is this the thing acted on, the means, or something accompanying me? Only after that answer should you write an ending, and only the means answer takes a bare instrumental.",
+        "application": "Optional practice: choose five ordinary tasks you did today, such as writing, cutting, opening, paying, and travelling, and write one sentence for each with an instrumental of means; then write two sentences in which the same object appears as an accompaniment with с, and mark the meaning difference in one clause each. Model response for a pair: Я открыла дверь ключом (ya at-KRY-la dvyer klyoo-CHOM) — I opened the door with a key, against Я пришла с ключом (ya preesh-LA s klyoo-CHOM) — I came with the key (in my bag). Self-review checks three things: no preposition before a means, correct ending family for the noun's gender and number, and a clear English gloss that says by means of or with in the tool sense. Read the sentences aloud and underline the instrumental endings. The task is nonblocking.",
+        "summary": "The instrumental names the means by which an action is done and does so without a preposition, because the ending itself carries the meaning by means of. Adding с changes the role from instrument to accompaniment, which is why the same noun can appear in both shapes with different meanings. Learn the plural pair -ам (recipient) against -ами (means) as a deliberate contrast, and treat task vocabulary such as платить картой as a phrase rather than a word."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Instrumental to express 'with, by means of'",
+         "url": "https://russian.cornell.edu/grammar/html/gr06_a_2_1.htm",
+         "note": "This very short page is the key source for the lesson: it gives Я пишу карандашом, Я ем суп ложкой, and then states plainly that no preposition is used and that adding с changes the meaning, with Я ем суп со сметаной as the contrast. Read it twice, once for the examples and once for that warning. Cypress-free but legacy-encoded: read the Cyrillic for endings, not for stress marks."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Instrumental case endings (nouns and adjectives)",
+         "url": "https://russian.cornell.edu/grammar/html/gr06_a_1_a.htm",
+         "note": "Read the ending table and the two spelling-rule notes: -ом/-ой are spelled -ем/-ей after soft stems and unstressed after the noisy consonants, -ью appears with soft-sign feminine nouns, and -ами/-ями is the plural for all declensions. The example pairs с новым студентом and между этими книгами are worth saying aloud as endings practice."
+        },
+        {
+         "title": "[3] Wikipedia — Instrumental case, sections 'General discussion' and the Russian paragraph",
+         "url": "https://en.wikipedia.org/wiki/Instrumental_case",
+         "note": "Read the opening Russian example Я написал письмо пером and the following paragraph listing the Russian instrumental endings -ом, -ою/-ой, and -ами. The article also warns that English with covers instrumental, comitative, and other relations, which is the same warning Cornell gives in Russian terms. Encyclopaedia-level confirmation of endings and of the ambiguity of with; not a usage guide."
+        }
+       ],
+       "visual": {
+        "title": "Means or companion? The preposition test",
+        "description": "A labelled decision sequence for choosing between a bare instrumental and с plus the instrumental after a verb of doing.",
+        "steps": [
+         "Identify the noun's role in the action: is it the thing acted on, the means, or something present along with the subject?",
+         "For the means, write the instrumental with no preposition: -(о)м, -(е)м, -ой/-ей, -ью, or -ами/-ями.",
+         "For accompaniment, write с (or со before awkward clusters) plus the same instrumental ending.",
+         "Check the plural ending against the dative plural: -ами means 'with, by means of', -ам marks a recipient.",
+         "Say both versions of one sentence, one with the bare instrumental and one with с, and state the difference in English.",
+         "Confirm no preposition was inserted in front of a means."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я пишу ручкой",
+         "latin": "ya pee-SHOO ROOCH-kay",
+         "meaning": "I write with a pen"
+        },
+        {
+         "text": "Я режу хлеб ножом",
+         "latin": "ya RYE-zhoo khlyeb na-ZHOM",
+         "meaning": "I cut bread with a knife"
+        },
+        {
+         "text": "Я ем суп ложкой",
+         "latin": "ya yem soop LOSH-kay",
+         "meaning": "I eat soup with a spoon"
+        },
+        {
+         "text": "Я открываю дверь ключом",
+         "latin": "ya at-kry-VA-yu dvyer klyoo-CHOM",
+         "meaning": "I open the door with a key"
+        },
+        {
+         "text": "Я ем суп со сметаной",
+         "latin": "ya yem soop sa smee-TA-nay",
+         "meaning": "I eat soup with sour cream"
+        },
+        {
+         "text": "Я пришла с ручкой",
+         "latin": "ya preesh-LA s ROOCH-kay",
+         "meaning": "I arrived with a pen"
+        },
+        {
+         "text": "Я плачу картой",
+         "latin": "ya pla-CHOO KAR-tay",
+         "meaning": "I pay by card"
+        },
+        {
+         "text": "Я плачу наличными",
+         "latin": "ya pla-CHOO na-LEECH-ny-mee",
+         "meaning": "I pay in cash"
+        },
+        {
+         "text": "друзьям",
+         "latin": "drooz-YAM",
+         "meaning": "to friends (dative)"
+        },
+        {
+         "text": "друзьями",
+         "latin": "drooz-YA-mee",
+         "meaning": "with friends (instrumental)"
+        },
+        {
+         "text": "Я открыла дверь ключом",
+         "latin": "ya at-KRY-la dvyer klyoo-CHOM",
+         "meaning": "I opened the door with a key"
+        },
+        {
+         "text": "Я пришла с ключом",
+         "latin": "ya preesh-LA s klyoo-CHOM",
+         "meaning": "I came with the key"
+        }
+       ]
+      },
+      {
+       "id": "64",
+       "title": "Instrumental for company and for roles: с другом, работает врачом",
+       "explanation": "Lesson 63 gave the instrumental to the means. The same case has a second large job: naming the company you keep and the role you hold. Company takes the preposition с: Я иду в кино с другом (ya ee-DOO f kee-NO s DROO-gam) — I am going to the cinema with a friend. Я живу с родителями (ya zhee-VOO s ra-DEE-tye-lya-mee) — I live with my parents. Before an awkward cluster, с becomes со: со мной (sa MNOY) with me, со сметаной with sour cream. Roles are expressed by the instrumental with no preposition at all, and this is where English and Spanish lead you astray. Spanish says trabaja como médica; Russian says Она работает врачом (a-NA ra-BO-ta-yet VRA-chom) — she works as a doctor, with no word for as. The verbs that take a role this way are called linking verbs: работать to work, стать to become, быть to be in the past or future, считаться to be considered. Because the role names the same person as the subject, Russian marks that sameness with the instrumental rather than with a separate word. Compare the two present-tense sentences that exist side by side: Она врач (a-NA vrach) — she is a doctor, where there is no verb and both words stand in the nominative, and Она работает врачом, where the role must take the instrumental. Spanish gets you halfway here as well, since ser médico uses a bare noun, but it gives you no signal that Russian's verbless present behaves differently from Russian's verbs of role.",
+       "example": "Build the role sentence in three tenses, then add company. Present with a verb: Мой брат работает инженером (moy brat ra-BO-ta-yet in-zhee-NYE-ram) — my brother works as an engineer. Present without a verb: Мой брат инженер (moy brat in-zhee-NYER) — my brother is an engineer, with no instrumental because there is no verb to govern it. Past: Раньше он был инженером (RAN-she on byl in-zhee-NYE-ram) — he used to be an engineer. Future or intention: Он хочет стать инженером (on KHO-chet stat in-zhee-NYE-ram) — he wants to become an engineer. Now add company to the same family scene: Вчера я была в театре с сестрой (vchee-RA ya by-LA f tee-A-trye s sees-TROY) — yesterday I was at the theatre with my sister. The penultimate and final sentences both end in an instrumental, but one marks a role and the other a companion; only the preposition tells them apart. Read the five sentences with the stress marks, then at normal speed, saying the label role or company after each noun.",
+       "question": "What is the difference between Она врач (a-NA vrach) and Она работает врачом (a-NA ra-BO-ta-yet VRA-chom), and why does only one of them contain an instrumental?",
+       "answer": "They describe the same role; the verbless present equates subject and role with two nominative words, while работать is a linking verb that governs the instrumental for the role.",
+       "distractor": "Она врач describes a permanent situation and Она работает врачом a temporary one, and Russian marks the difference with the case.",
+       "correction": "Nothing in the two sentences concerns permanence. Russian expresses am/is/are with no verb at all in the present, and a linking verb such as работать, стать, or быть takes the instrumental because the role word names the same person as the subject. So the presence of the instrumental is a consequence of the verb, not of how long the job lasts. The same contrast appears in the past: Он врач now, Он был врачом before, with the instrumental appearing only once быть enters the sentence.",
+       "depth": {
+        "definitions": "A linking verb joins two words that refer to the same entity, as in John became a doctor, where John and doctor name one person. The instrumental case marks the second name in such constructions, and it also marks accompaniment when introduced by с. Accompaniment means being present together with someone or something; a role predicate means being identified as something. с plus the genitive is a different construction entirely, meaning from or off, as in упала со стола. Finally, the preposition со is simply the form с takes before clusters that begin with с, з, ш, ж, or мн.",
+        "mechanism": "The predicate instrumental exists because Russian needs a way to show that a noun is a second designation of the subject rather than a separate entity. If the role were simply another accusative object, Он работает врачом would be indistinguishable in shape from Он видит врача, and the language would lose the sameness that linking verbs assert. Cornell's page on linking verbs notes honestly that the category is vague and that even работать counts as a linking verb only when it is synonymous with быть, and it adds the important practical point that a good dictionary, not intuition, settles which case a given verb wants. Extension at the edge of the pattern: some verbs take two objects with a linking relationship, and there the first stands in the accusative and the second in the instrumental, as in Сашу выбрали председателем (SA-shoo VY-bra-lee pree-see-DA-tye-lyem) — they elected Sasha chairman. The pattern is productive but not unlimited, which is why the dictionary caveat matters.",
+        "secondExample": "Two minimal pairs keep the two jobs apart. First, company against origin: Я гуляла с братом (ya goo-LYA-la s BRA-tam) — I was walking with my brother, companion, instrumental; Я вернулась с работы (ya vyer-NOO-las s ra-BO-ty) — I came back from work, origin, genitive. Second, role in the present against role in the past: Сейчас она врач (see-CHAAS a-NA vrach) — she is a doctor now; Десять лет назад она была врачом (DYE-syat lyet na-ZAD a-NA by-LA VRA-chom) — ten years ago she was a doctor. The change of case across time in the second pair is caused entirely by the arrival of был, and the change of case across the first pair is caused entirely by the meaning of с. Nothing about the nouns themselves changed.",
+        "mistake": "Four errors recur. The first uses the instrument only and forgets the companion preposition: Я иду в кино другом. The second adds the preposition where a role is meant: Она работает с врачом means she works alongside a doctor, not that she is one, so the missing preposition is meaningful. The third imports Spanish como or English as and writes Она работает как врач, which is not the Russian construction. The fourth drops работать or стать altogether and writes Он врачом without a verb to govern the case. Diagnose by locating the verb first: if the verb is работать, стать, быть, or считаться, the role word is instrumental; if there is no verb, the role word is nominative.",
+        "application": "Optional practice: write five sentences about the occupations and family roles of people you know, using работать plus instrumental in at least two, a verbless present in one, and был or была in one; then add three sentences about whom you did things with this week, using с plus instrumental. Model response for one line: Моя сестра работает учительницей (ma-YA sees-TRA ra-BO-ta-yet oo-chee-TYEL-nee-tsay) — my sister works as a teacher, feminine instrumental in -ей after a soft stem. Self-review checks four things: the verb is a linking verb or absent, the role ending matches gender and number, the companion sentences keep с, and the с-plus-genitive meaning from or off was not confused with с plus instrumental. Read the eight sentences aloud and mark each instrumental as role or company. The task is nonblocking.",
+        "summary": "The instrumental carries two distinct jobs beyond the means: company, introduced by с, and role, governed by linking verbs such as работать, стать, быть, and считаться. The preposition is the whole difference between с другом with a friend and работает врачом works as a doctor, so it must never be added or dropped carelessly. When in doubt about which case a verb wants, the dictionary is the authority, and Russian's verbless present is the one place where no instrumental appears at all."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Instrumental with с, под, между, and за",
+         "url": "https://russian.cornell.edu/grammar/html/gr06_a_2_2.htm",
+         "note": "Read the first two blocks only: the note that с plus instrumental expresses with, along with, and the explicit genitive contrast Я гуляла по парку с мужем against Книга упала со стола. Those two lines are the source of the company-versus-origin pair in this lesson's second example."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — The preposition с/со; Instrumental vs. Genitive",
+         "url": "https://russian.cornell.edu/grammar/html/le41_50_d.htm",
+         "note": "Read the opening paragraphs, which give the accompaniment sense of с plus instrumental with a person, state when the variant со is used before clusters beginning with с, з, ш, ж, or мн, and then give the genitive examples meaning from or off. The note that usage varies by region is worth keeping: this lesson teaches the standard pattern, not the only one attested."
+        },
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — Instrumental with the verbs работать, интересоваться, and заниматься",
+         "url": "https://russian.cornell.edu/grammar/html/gr06_a_2_3.htm",
+         "note": "Read the three question-and-answer examples, especially Кем вы работаете? — Врачом. This is the shortest possible evidence that работать governs the instrumental for a role, and it supplies the two other verbs that take the instrumental as a government pattern."
+        },
+        {
+         "title": "[4] Cornell Beginning Russian Grammar — Instrumental with linking verbs and double-object verbs",
+         "url": "https://russian.cornell.edu/grammar/html/le103_110_k.htm",
+         "note": "Read the whole page. It defines a linking verb, gives Он врач against Он работает врачом as the key contrast, lists стал, был, считается, and хочу быть, and then adds the double-object pattern Сашу выбрали председателем. It also states the honest limitation this lesson repeats: the category is vague and the dictionary decides doubtful verbs."
+        }
+       ],
+       "visual": {
+        "title": "Role or company? Two labels on one case",
+        "description": "A labelled sequence for deciding whether an instrumental noun is a role predicate or an accompaniment, and for choosing the right sentence shape.",
+        "steps": [
+         "Find the main verb and ask whether it is a linking verb: работать, стать, быть, считаться, or a verbless present.",
+         "If the verb is a linking verb and the noun renames the subject, write the instrumental with no preposition.",
+         "If there is no verb and the noun simply equates with the subject, write two nominative words instead.",
+         "If the noun is a companion, keep с (or со before an awkward cluster) and write the same instrumental ending.",
+         "If the noun means from or off, keep с but write the genitive, not the instrumental.",
+         "Check the finished sentence for a second nominative or a missing с before a companion."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Я иду в кино с другом",
+         "latin": "ya ee-DOO f kee-NO s DROO-gam",
+         "meaning": "I am going to the cinema with a friend"
+        },
+        {
+         "text": "Я живу с родителями",
+         "latin": "ya zhee-VOO s ra-DEE-tye-lya-mee",
+         "meaning": "I live with my parents"
+        },
+        {
+         "text": "Она работает врачом",
+         "latin": "a-NA ra-BO-ta-yet VRA-chom",
+         "meaning": "she works as a doctor"
+        },
+        {
+         "text": "Она врач",
+         "latin": "a-NA vrach",
+         "meaning": "she is a doctor"
+        },
+        {
+         "text": "Мой брат работает инженером",
+         "latin": "moy brat ra-BO-ta-yet in-zhee-NYE-ram",
+         "meaning": "my brother works as an engineer"
+        },
+        {
+         "text": "Мой брат инженер",
+         "latin": "moy brat in-zhee-NYER",
+         "meaning": "my brother is an engineer"
+        },
+        {
+         "text": "Раньше он был инженером",
+         "latin": "RAN-she on byl in-zhee-NYE-ram",
+         "meaning": "he used to be an engineer"
+        },
+        {
+         "text": "Он хочет стать инженером",
+         "latin": "on KHO-chet stat in-zhee-NYE-ram",
+         "meaning": "he wants to become an engineer"
+        },
+        {
+         "text": "Вчера я была в театре с сестрой",
+         "latin": "vchee-RA ya by-LA f tee-A-trye s sees-TROY",
+         "meaning": "yesterday I was at the theatre with my sister"
+        },
+        {
+         "text": "Я гуляла с братом",
+         "latin": "ya goo-LYA-la s BRA-tam",
+         "meaning": "I was walking with my brother"
+        },
+        {
+         "text": "Я вернулась с работы",
+         "latin": "ya vyer-NOO-las s ra-BO-ty",
+         "meaning": "I came back from work"
+        },
+        {
+         "text": "Сашу выбрали председателем",
+         "latin": "SA-shoo VY-bra-lee pree-see-DA-tye-lyem",
+         "meaning": "they elected Sasha chairman"
+        },
+        {
+         "text": "Моя сестра работает учительницей",
+         "latin": "ma-YA sees-TRA ra-BO-ta-yet oo-chee-TYEL-nee-tsay",
+         "meaning": "my sister works as a teacher"
+        }
+       ]
+      },
+      {
+       "id": "65",
+       "title": "One transaction, four roles: reading a real exchange",
+       "explanation": "You now own four role markers: the accusative for the thing acted on, the dative for the recipient, the instrumental without a preposition for the means, and the instrumental with с for company. Real sentences use several at once, so the skill this lesson builds is not another ending but a routine for reading a whole exchange. Take a short shopping scene. — Что ты ищешь? (shto ty EE-shchesh) — what are you looking for? — Я ищу подарок маме (ya ee-SHCHOO pa-DA-rak MA-mye) — I am looking for a gift for mum. The answer contains two roles in three words: подарок is the thing, accusative and unchanged in shape because it is an inanimate masculine noun; маме is a recipient in the dative, and it needs no preposition. The conversation continues: — А платить картой? (a pla-TEET KAR-tay) — and are you paying by card? — Да, картой — yes, by card: a bare instrumental of means. Put the whole thing in one narrated sentence: Вчера я купила маме подарок и заплатила картой (vchee-RA ya koo-PEE-la MA-mye pa-DA-rak ee za-pla-TEE-la KAR-tay) — yesterday I bought mum a gift and paid by card. Spanish would say le compré un regalo a mi mamá y pagué con tarjeta, spreading the same information across le, a, and con; Russian carries all of it inside two noun endings and one verb ending. Russian also allows the recipient to move for emphasis, so Маме я купила подарок is a legitimate variant, which means word order is not a reliable clue and the endings must be read first.",
+       "example": "Read a second transaction the same way, one role at a time. Scene: you show friends photographs, and you took them with your phone. Я показала друзьям фотографии (ya pa-ka-ZA-la drooz-YAM fa-ta-GRA-fee-ee) — I showed my friends the photographs: друзьям is a dative plural recipient in -ям, фотографии is an accusative plural thing. Я сняла их телефоном (ya SNEE-la eekh tee-lye-FO-nam) — I took them with my phone: их is the accusative object pronoun, телефоном is a bare instrumental of means; there is no preposition and none is needed. Now add company and a place: Вчера я ходила в парк с братом (vchee-RA ya kha-DEE-la f park s BRA-tam) — yesterday I went to the park with my brother, where в парк is direction, accusative, and с братом is company, instrumental. Four sentences, six case decisions. Before each ending, say the role out loud: recipient, thing, means, company, direction. Only then write or read the ending, and only then check whether a preposition is present or absent.",
+       "question": "In Я купила маме подарок и заплатила картой, which noun is dative and which is instrumental, and what does each role mean?",
+       "answer": "Маме is dative and marks the recipient or beneficiary, while картой is instrumental and marks the means of payment; neither noun takes a preposition.",
+       "distractor": "Маме is dative and marks the means of payment, while картой is instrumental and marks the person who benefits.",
+       "correction": "The roles are fixed by the verbs, not by the nouns' shapes. Купить in this pattern places the person in the dative as beneficiary and the thing in the accusative, while платить takes a bare instrumental for the means of payment, which is also why paying vocabulary is learned as whole phrases. Reversing the two roles produces a sentence in which mum is the means of payment, which is nonsense but grammatically well formed, and that is exactly why the roles, not the endings, must be decided first.",
+       "depth": {
+        "definitions": "A role in this lesson means the semantic part a noun plays in the clause: recipient, thing acted on, means, companion, or direction. Russian marks roles with case endings and, for some roles, with prepositions attached to particular verbs, a property grammars call government. Government is a property of the verb, so купить and платить differ not in meaning alone but in the bare or prepositional shapes they require. Word order in Russian carries emphasis and information structure rather than grammatical role, which is the assumption that makes the labelling routine necessary.",
+        "mechanism": "The whole system works because Russian splits role marking between endings and prepositions, while Spanish and English lean on small words and position. Once you notice that, the reading routine becomes mechanical: identify the verb, list the roles it needs, assign each noun to a role, then write the case that role requires, adding a preposition only where a specific verb requires one. Cornell's pages on prepositions make this concrete, showing verbs whose government pattern fixes a particular preposition and case, such as перевести на plus accusative for translate into, играть в plus accusative for play a game, and попросить у plus genitive for request from somebody. The limitation to state plainly is that no general rule predicts an individual verb's government pattern, and Russian dictionaries record it entry by entry, so a beginner should treat each new verb as carrying a small note about the cases it wants. Word order adds one more caution: because emphasis can move the recipient to the front, a sentence's first noun is not automatically its subject, and the endings remain the reliable evidence.",
+        "secondExample": "A work message using three roles at once: Скажи, пожалуйста, директору, что я отправила ему отчёт утром (ska-ZHEE pa-ZHA-loos-ta dee-RYEK-ta-roo, shto ya at-PRA-vee-la ye-MOO at-CHYOT OO-tram) — please tell the director that I sent him the report in the morning. Директору is a dative recipient governed by сказать; ему is the dative pronoun for the same person as the indirect object of отправить; отчёт is the accusative thing sent. Nothing here needs a preposition, and nothing here depends on position: the time phrase could equally stand first, as Утром я отправила директору отчёт, and every case ending would stay exactly as it is. That stability is the point to notice. Moving words in Russian changes emphasis and information structure; it never changes which noun is the recipient and which is the thing, because the endings carry that information independently of order.",
+        "mistake": "Three errors recur once several roles appear together. The first assigns cases by position and treats the first noun as the recipient or the last noun as the thing, which fails the moment a speaker reorders for emphasis. The second adds a preposition because Spanish would: пишу к маме for a plain recipient, or плачу с картой for a means. The third collapses the two instrumentals into one and writes с другом for a means, which turns an instrument into company. Diagnose by writing the roles in a column before the endings, then checking two things only: does the role normally take a preposition, and does the verb's entry say otherwise? If the roles are correct and the endings are wrong, the gap is form retrieval; if the roles are wrong, the gap is the labelling routine itself, and that is the higher-priority repair.",
+        "application": "Optional practice: take one real five-line exchange from your week, such as arranging where to meet or buying something, and write it out in Russian with a role label above every noun. Then produce a single narrated sentence that reports the exchange using at least one dative recipient, one instrumental of means, and one accusative thing. Model response: Сегодня я звонила сестре, и мы вместе купили билеты в театр; я заплатила картой (see-VOD-nya ya zva-NEE-la sees-TRYE, ee my VMYE-stye koo-PEE-lee bee-LYE-ty f tee-ATR; ya za-pla-TEE-la KAR-tay) — today I phoned my sister, and together we bought theatre tickets; I paid by card. Self-review checks four things: every noun has a role label, every ending matches the role and the noun's declension, prepositions appear only where the verb requires one, and the English gloss accounts for every ending rather than silently dropping one. The task is nonblocking and is the natural preparation for the unit quiz.",
+        "summary": "Real Russian distributes meaning across endings and prepositions while leaving word order free for emphasis. The reliable routine is to name each noun's role, retrieve the case that role requires, and add a preposition only when the verb's own entry requires one. Spanish gives you useful role intuitions through le and a, but it also tempts you to add prepositions where Russian has none, so the presence or absence of a preposition is a fact to verify, not to guess."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Basic meanings of по, к, на, в, от, у, о, and из",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_b_1.htm",
+         "note": "Read the list as a reference table of preposition-plus-case pairings, and note specifically that one preposition can carry several meanings depending on the case it governs, such as на plus accusative for motion onto and на plus prepositional for location. This is the page that justifies the lesson's claim that the ending and the preposition must be read together rather than separately."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Prepositions на, в, and у in verb phrases",
+         "url": "https://russian.cornell.edu/grammar/html/gr05_b_2.htm",
+         "note": "Read the whole short page. It is the evidence for government as a verb-by-verb property: перевести на plus accusative, говорить на plus prepositional, играть в plus accusative, and попросить у plus genitive. The point to carry away is that no general rule predicts these, which is why this lesson tells you to consult a dictionary rather than guess."
+        },
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — Instrumental to express 'with, by means of'",
+         "url": "https://russian.cornell.edu/grammar/html/gr06_a_2_1.htm",
+         "note": "Re-read the two-line contrast between Я ем суп ложкой and Я ем суп со сметаной with this lesson's transaction in mind. It is the source for the claim that a bare instrumental marks a means while с plus instrumental marks something added, which is the distinction you must apply when a payment sentence contains both card and cash."
+        }
+       ],
+       "visual": {
+        "title": "Role labels before endings",
+        "description": "A labelled reading sequence for a multi-role sentence, which is the skill the unit quiz asks for.",
+        "steps": [
+         "Find the main verb and write down which roles it needs to fill.",
+         "Label each noun in the sentence with one role: thing, recipient, means, company, or direction.",
+         "For each role, retrieve the case: accusative for the thing, dative for the recipient, instrumental for the means, с plus instrumental for company, accusative after directional prepositions.",
+         "Check the verb's entry, not the Spanish sentence, before adding or omitting any preposition.",
+         "Do not trust position: allow the recipient or a time phrase to stand first, and re-read the endings to confirm roles.",
+         "Say the sentence aloud and gloss each ending in English so nothing is silently skipped."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Что ты ищешь?",
+         "latin": "shto ty EE-shchesh",
+         "meaning": "what are you looking for?"
+        },
+        {
+         "text": "Я ищу подарок маме",
+         "latin": "ya ee-SHCHOO pa-DA-rak MA-mye",
+         "meaning": "I am looking for a gift for mum"
+        },
+        {
+         "text": "А платить картой?",
+         "latin": "a pla-TEET KAR-tay",
+         "meaning": "and are you paying by card?"
+        },
+        {
+         "text": "Вчера я купила маме подарок и заплатила картой",
+         "latin": "vchee-RA ya koo-PEE-la MA-mye pa-DA-rak ee za-pla-TEE-la KAR-tay",
+         "meaning": "yesterday I bought mum a gift and paid by card"
+        },
+        {
+         "text": "Я показала друзьям фотографии",
+         "latin": "ya pa-ka-ZA-la drooz-YAM fa-ta-GRA-fee-ee",
+         "meaning": "I showed my friends the photographs"
+        },
+        {
+         "text": "Я сняла их телефоном",
+         "latin": "ya SNEE-la eekh tee-lye-FO-nam",
+         "meaning": "I took them with my phone"
+        },
+        {
+         "text": "Вчера я ходила в парк с братом",
+         "latin": "vchee-RA ya kha-DEE-la f park s BRA-tam",
+         "meaning": "yesterday I went to the park with my brother"
+        },
+        {
+         "text": "Скажи, пожалуйста, директору, что я отправила ему отчёт утром",
+         "latin": "ska-ZHEE pa-ZHA-loos-ta dee-RYEK-ta-roo, shto ya at-PRA-vee-la ye-MOO at-CHYOT OO-tram",
+         "meaning": "please tell the director that I sent him the report in the morning"
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-61-70-a",
+       "prompt": "A learner wants to say 'I answered my sister' and writes Я ответила сестру. Diagnose the error and name what the verb actually requires.",
+       "answer": "The person must stand in the dative: Я ответила сестре, because отвечать governs the dative for the person answered, with no preposition.",
+       "distractor": "The noun is right but the aspect is wrong, because ответить is perfective and therefore cannot describe a single completed answer.",
+       "correction": "The error is one of case government, not aspect: ответить is the natural perfective for a single completed act, and the sentence is fine once the person takes the dative ending -е. The accusative сестру would make the sister the thing answered rather than the person addressed. Cornell's verb list for the dative names отвечать among the verbs that place the person in this case, which is why the repair is a change of ending rather than of verb.",
+       "reviewLessonIds": [
+        "61"
+       ]
+      },
+      {
+       "id": "uq-61-70-b",
+       "prompt": "Complete the sentence Мне ___ эти фотографии, meaning that you like them, and state which word determines the form you chose.",
+       "answer": "нравятся, because эти фотографии is the nominative subject and a plural subject forces the plural verb form, while мне only names the person who experiences the liking.",
+       "distractor": "нравится, because impersonal sentences always keep the verb in a fixed singular form regardless of the nouns around it.",
+       "correction": "The fixed-singular assumption is true of the o-form type such as Мне холодно, which has no subject at all, but false for нравиться, which is an ordinary verb with a nominative subject. Distinguish the two machines before choosing a form: check whether any noun in the sentence could be its subject, and if one can, the verb must agree with it.",
+       "reviewLessonIds": [
+        "62"
+       ]
+      },
+      {
+       "id": "uq-61-70-c",
+       "prompt": "At the till a learner says Я плачу с картой. What has gone wrong, and what should the sentence be?",
+       "answer": "The card is the means of payment, so it takes a bare instrumental with no preposition: Я плачу картой.",
+       "distractor": "The card should stand in the genitive after с, giving Я плачу с карты, because с always requires the genitive case.",
+       "correction": "The preposition с does not always take the genitive: с plus the instrumental marks company, while с plus the genitive marks origin or separation, as in книга упала со стола. Since a card here is the means rather than a companion, no preposition belongs in the sentence at all, and that absence is exactly what makes the meaning unambiguous.",
+       "reviewLessonIds": [
+        "63",
+        "64"
+       ]
+      },
+      {
+       "id": "uq-61-70-d",
+       "prompt": "A friend has just qualified and now works as a nurse. Write the Russian sentence and explain the case of the role word; then say what changes if the verb is dropped.",
+       "answer": "Она работает медсестрой, with the role in the instrumental because работать is a linking verb; without a verb the present-tense equation reads Она медсестра, with two nominative words and no instrumental.",
+       "distractor": "Она работает медсестра, because Russian keeps the nominative for a role whenever the same person is the subject of the sentence.",
+       "correction": "The nominative role word belongs only to the verbless present, where nothing governs a case. As soon as a linking verb such as работать, стать, быть, or считаться appears, the role word is governed in the instrumental. Notice too that Spanish trabaja como enfermera invites you to insert a word for as, and Russian has none.",
+       "reviewLessonIds": [
+        "64"
+       ]
+      },
+      {
+       "id": "uq-61-70-e",
+       "prompt": "Report one day in a single sentence: yesterday you wrote to your mother and sent her photographs using your phone. Identify each noun's role and case.",
+       "answer": "Вчера я написала маме и отправила ей фотографии телефоном, where маме and ей are dative recipients, фотографии is the accusative thing sent, and телефоном is a bare instrumental of means.",
+       "distractor": "Вчера я написала маму и отправила её фотографии с телефоном, where the recipient is accusative and the means is expressed with с plus the instrumental.",
+       "correction": "Писать and отправить both take the person in the dative, and the pronoun ей substitutes for маме without changing the case. Фотографии is plural accusative and stays accusative because it is inanimate. The means of sending takes the bare instrumental, which is why телефоном has no preposition; adding с would turn the phone into an object accompanying you rather than the instrument of the action.",
+       "reviewLessonIds": [
+        "61",
+        "63",
+        "65"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Getting there, staying put, and saying what must be done",
+     "lessons": [
+      {
+       "id": "66",
+       "title": "Going and going regularly: идти and ходить, ехать and ездить",
+       "explanation": "Russian has no single verb for go. It has pairs whose members differ in how the motion is shaped, not in how far it goes. Идти (eet-TEE) describes motion on foot in one direction, in progress, right now: Сейчас я иду в библиотеку (see-CHAAS ya ee-DOO v beeb-lee-a-TYE-koo) — right now I am walking to the library. Ходить (kha-DEET) describes the same on-foot motion when it is habitual, round-trip, or directionless: Я хожу в библиотеку каждый день (ya kha-ZHOO v beeb-lee-a-TYE-koo KAZH-dy dyen) — I go to the library every day. The pair for motion by vehicle is ехать (YE-khat) and ездить (YEZ-deet): Я еду в Москву (ya YE-doo v mask-VOO) — I am travelling to Moscow; Я езжу в Москву каждый год (ya YEZ-zhoo v mask-VOO KAZH-dy got) — I go to Moscow every year. The choice depends on the kind of motion, never on the distance: a two-minute walk across a room still uses идти, and a two-hour drive still uses ехать. Two further forms make the system usable. Пойти and поехать are perfective and mean set out or take off, used for a plan: Завтра я поеду в Москву (ZAF-tra ya pa-YE-doo v mask-VOO) — tomorrow I will travel to Moscow. Сходить and съездить are perfective and mean the motion has been completed and returned from: Я сходила в аптеку (ya skha-DEE-la v ap-TYE-koo) — I went to the pharmacy and came back. Spanish has nothing like this split, since voy covers both standing there and going regularly, so the learner must consciously decide which shape of motion is meant before choosing a verb.",
+       "example": "Contrast one day against one habit with the same destination. Yesterday, one completed trip: Вчера я ходила в кино (vchee-RA ya kha-DEE-la f kee-NO) — yesterday I went to the cinema, round trip, so the multi-directional verb is used. In the middle of that same trip: Когда я шла в кино, я встретила друга (kag-DA ya shla f kee-NO, ya FSTRYE-tee-la DROO-ga) — while I was walking to the cinema I met a friend, one-directional motion in progress, so идти appears in its past form шла, feminine because the speaker is a woman. Now a habit: Я хожу в кино каждую субботу (ya kha-ZHOO f kee-NO KAZH-doo-yoo soo-BO-too) — I go to the cinema every Saturday. And a plan: Завтра я пойду в кино (ZAF-tra ya pay-DOO f kee-NO) — tomorrow I will go to the cinema, where пойду is a perfective non-past form, which is how Russian builds a future for motion. Read the four sentences aloud, marking each one aloud as one-way, round-trip, habit, or plan before you say it, because the label is what selects the verb.",
+       "question": "A learner writes Каждый день я иду в библиотеку for I go to the library every day. What is wrong, and why?",
+       "answer": "The repeated round trip requires the multi-directional verb: Каждый день я хожу в библиотеку, because идти describes one-directional motion in progress.",
+       "distractor": "Nothing is wrong with the verb; the error is the preposition, since в should be на with the word библиотека.",
+       "correction": "The preposition в is correct: библиотека is an ordinary enclosed place, so в plus the accusative marks the destination. The failure is the verb's shape. Идти reports motion happening in one direction at one moment, so it cannot describe a daily routine; ходить reports the motion as a habit or as a completed round trip. The test is not distance or frequency words alone but the shape of the motion: if you are on the way now, use идти; if you go and come back as a matter of habit, use ходить.",
+       "depth": {
+        "definitions": "Verbs of motion form pairs whose members are traditionally labelled one-way (also determinate) and non-one-way (also multidirectional or indeterminate). Идти and ехать are one-way; ходить and ездить are non-one-way. Aspect is a separate axis: all four unprefixed verbs are imperfective, while пойти, поехать, сходить, and съездить are perfective. Means of conveyance selects the root, not the prefix: on foot versus by vehicle. Directionality, aspect, and conveyance are three independent choices, and every motion sentence involves all three.",
+        "mechanism": "The pair exists because Russian encodes the shape of an event rather than only its occurrence. Wikipedia's account of Russian verbs of motion describes Russian as a satellite-framed language, in which the manner of motion is carried by the verb root and the path by prefixes, and it lists the standard pairs including идти and ходить, ехать and ездить, лететь and летать. That framing explains why the same root recurs with different prefixes: the root supplies the kind of movement and the prefix supplies the route through space, a division of labour lesson 67 uses directly. Three limits deserve emphasis. First, English and Spanish do not require you to state this distinction, so translating your intended English sentence will not reveal which verb Russian wants; you must decide the shape first. Second, the non-one-way verb is the normal choice for a completed round trip, which is why Я ходила в кино means I went and came back, while Я шла в кино only reports being on the way. Third, a handful of verbs of motion behave idiomatically, as in идёт дождь for rain is falling, so the pattern is productive rather than exceptionless.",
+        "secondExample": "Use the same habit frame to choose between walking and riding, and between habit and plan. Habit on foot: Я хожу на работу пешком (ya kha-ZHOO na ra-BO-too pyesh-KOM) — I walk to work, on foot, where пешком is the adverb on foot and no verb root for riding appears. Habit by vehicle: Я езжу на работу на метро (ya YEZ-zhoo na ra-BO-too na meet-RO) — I go to work by metro, where на plus the prepositional names the vehicle. Plan: Завтра я поеду на работу на автобусе (ZAF-tra ya pa-YE-doo na ra-BO-too na af-TO-boo-sye) — tomorrow I will go to work by bus. Notice that the phrase for by a vehicle stays на plus the prepositional in all three sentences, while the verb changes with the shape of the motion. The one phrase that never changes is пешком, which is not a vehicle at all and belongs to the on-foot root.",
+        "mistake": "Three errors recur. The first uses идти for a habit, producing Каждый день я иду в библиотеку. The second uses ходить while standing in the middle of a journey, so that Я хожу в магазин cannot describe what you are doing right now; only Я иду в магазин can. The third mixes roots and conveyance and produces Я езжу пешком or Я хожу на машине, which contradict themselves. Diagnose by answering three questions in order: is the motion in progress in one direction, or habitual and round-trip, or a plan, or a completed trip; is the mover on foot or in a vehicle; and is the means of transport named with на plus the prepositional. Only then choose the verb.",
+        "application": "Optional practice: write six sentences about your own movement through a normal week, using both one-way and non-one-way verbs, one perfective plan form, one round-trip form, at least one vehicle phrase with на plus the prepositional, and the adverb пешком once. Model response for a pair: Обычно я хожу в магазин пешком, но вчера я ехала туда на автобусе (a-BYCH-na ya kha-ZHOO v ma-ga-ZEEN pyesh-KOM, no vchee-RA ya YE-kha-la too-DA na af-TO-boo-sye) — usually I walk to the shop, but yesterday I was riding there by bus: the first verb is habitual on foot, the second reports motion by vehicle in progress, and the feminine past form marks the speaker as a woman. Self-review checks four things: the shape of the motion matches the verb, the conveyance matches the root, vehicle phrases use на plus the prepositional, and any perfective form is glossed as a plan or a completed trip rather than as a general habit. The task is nonblocking.",
+        "summary": "Russian asks which shape the motion has before asking which verb to use: one-way in progress, habitual or round-trip, a plan, or a completed trip. Идти and ходить pair for the feet, ехать and ездить for vehicles, and the perfectives пойти, поехать, сходить, and съездить handle setting out and returning. Spanish voy conceals the contrast, so decide the shape first and let the verb follow."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — One-Way and Non-One-Way verbs of motion",
+         "url": "https://russian.cornell.edu/grammar/html/gr12_a_a.htm",
+         "note": "Read the two-column table in full: it pairs идти/ходить, ехать/ездить, лететь/летать, нести/носить, везти/возить, and вести/водить, and gives the key forms including the irregular past шёл, шла, шли. This is the source of the pairs and of the on-foot versus vehicle division. Legacy encoding caveat: read the Cyrillic for forms, not for stress marks."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Perfective verbs of motion",
+         "url": "https://russian.cornell.edu/grammar/html/gr12_a_c.htm",
+         "note": "Read the whole page. It is the source for two claims used here: that по- on the one-way verb forms the normal perfective meaning a departure or the start of movement, and that the special perfective with с- on the non-one-way verb means a quick round trip, as in Он сходил домой against Он пошёл домой."
+        },
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — Round trip vs. One-way motion",
+         "url": "https://russian.cornell.edu/grammar/html/le57_62_i.htm",
+         "note": "Read the short dialogue: Я вчера ходила на футбол against Я его видела, когда я шла на матч. It shows a native-style contrast between a completed round trip and motion in progress, and the note that English can express the one-way idea but does not have to is worth reading for the warning it gives a Spanish speaker."
+        },
+        {
+         "title": "[4] Cornell Beginning Russian Grammar — Verbs for travelling by X",
+         "url": "https://russian.cornell.edu/grammar/html/le71_78_m.htm",
+         "note": "Read for the transport phrases: На чём ты едешь в Калифорнию, на машине?, the point that flying takes its own verb rather than a vehicle phrase, and пешком for on foot. Use it as a phrase list rather than as a rule about conjugation."
+        },
+        {
+         "title": "[5] Wikipedia — Russian grammar, section 'Verbs of motion'",
+         "url": "https://en.wikipedia.org/wiki/Russian_grammar#Verbs_of_motion",
+         "note": "Read the first paragraph and the directionality list. It supplies the framing used in this lesson: the pairs are labelled unidirectional and multidirectional, manner of motion is carried by the root, and path by prefixes. Encyclopaedia-level framing, not a teaching sequence."
+        }
+       ],
+       "visual": {
+        "title": "Four shapes of motion, four verb choices",
+        "description": "A labelled decision sequence for choosing among the Russian verbs of motion before saying a sentence.",
+        "steps": [
+         "Decide the shape of the motion: in progress in one direction, habitual, a completed round trip, or a plan to set out.",
+         "Decide the conveyance: on foot uses идти or ходить; a vehicle, animal, or means of riding uses ехать or ездить.",
+         "For a plan or a departure, use the perfective with по-: пойду, поеду.",
+         "For a completed trip that includes coming back, use the perfective with с-: сходила, съездил.",
+         "Add the destination with в or на plus the accusative, and name a vehicle with на plus the prepositional.",
+         "Say the sentence aloud and restate the shape label in English to confirm the verb matches it."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Сейчас я иду в библиотеку",
+         "latin": "see-CHAAS ya ee-DOO v beeb-lee-a-TYE-koo",
+         "meaning": "right now I am walking to the library"
+        },
+        {
+         "text": "Я хожу в библиотеку каждый день",
+         "latin": "ya kha-ZHOO v beeb-lee-a-TYE-koo KAZH-dy dyen",
+         "meaning": "I go to the library every day"
+        },
+        {
+         "text": "Я еду в Москву",
+         "latin": "ya YE-doo v mask-VOO",
+         "meaning": "I am travelling to Moscow"
+        },
+        {
+         "text": "Я езжу в Москву каждый год",
+         "latin": "ya YEZ-zhoo v mask-VOO KAZH-dy got",
+         "meaning": "I go to Moscow every year"
+        },
+        {
+         "text": "Завтра я поеду в Москву",
+         "latin": "ZAF-tra ya pa-YE-doo v mask-VOO",
+         "meaning": "tomorrow I will travel to Moscow"
+        },
+        {
+         "text": "Я сходила в аптеку",
+         "latin": "ya skha-DEE-la v ap-TYE-koo",
+         "meaning": "I went to the pharmacy and came back"
+        },
+        {
+         "text": "Вчера я ходила в кино",
+         "latin": "vchee-RA ya kha-DEE-la f kee-NO",
+         "meaning": "yesterday I went to the cinema (and came back)"
+        },
+        {
+         "text": "Когда я шла в кино, я встретила друга",
+         "latin": "kag-DA ya shla f kee-NO, ya FSTRYE-tee-la DROO-ga",
+         "meaning": "while I was walking to the cinema I met a friend"
+        },
+        {
+         "text": "Я хожу в кино каждую субботу",
+         "latin": "ya kha-ZHOO f kee-NO KAZH-doo-yoo soo-BO-too",
+         "meaning": "I go to the cinema every Saturday"
+        },
+        {
+         "text": "Завтра я пойду в кино",
+         "latin": "ZAF-tra ya pay-DOO f kee-NO",
+         "meaning": "tomorrow I will go to the cinema"
+        },
+        {
+         "text": "Я хожу на работу пешком",
+         "latin": "ya kha-ZHOO na ra-BO-too pyesh-KOM",
+         "meaning": "I walk to work"
+        },
+        {
+         "text": "Я езжу на работу на метро",
+         "latin": "ya YEZ-zhoo na ra-BO-too na meet-RO",
+         "meaning": "I go to work by metro"
+        },
+        {
+         "text": "Завтра я поеду на работу на автобусе",
+         "latin": "ZAF-tra ya pa-YE-doo na ra-BO-too na af-TO-boo-sye",
+         "meaning": "tomorrow I will go to work by bus"
+        },
+        {
+         "text": "Обычно я хожу в магазин пешком, но вчера я ехала туда на автобусе",
+         "latin": "a-BYCH-na ya kha-ZHOO v ma-ga-ZEEN pyesh-KOM, no vchee-RA ya YE-kha-la too-DA na af-TO-boo-sye",
+         "meaning": "usually I walk to the shop, but yesterday I was riding there by bus"
+        }
+       ]
+      },
+      {
+       "id": "67",
+       "title": "Prefixes give the path: прийти, уйти, выйти, дойти",
+       "explanation": "Lesson 66 gave you roots that say how you move: идти on foot, ехать by vehicle. This lesson adds prefixes, which say which way through space you move. The pattern is regular: a prefix plus the one-way root produces a perfective verb, and its imperfective partner is the same prefix plus the non-one-way root. So войти (vay-TEE) / входить (vkha-DEET) pair for entering, выйти (VY-tee) / выходить (vy-kha-DEET) for exiting, прийти (preet-TEE) / приходить (pree-kha-DEET) for arriving, уйти (oo-TEE) / уходить (oo-kha-DEET) for leaving, and до- adds reaching as far as a point: дойти (day-TEE) to get as far as. The meanings of the common prefixes are worth learning as a set: в- or во- in; вы- out; при- hither, arriving; у- away, leaving; от- away from, especially when carrying something; до- as far as; пере- across; под- up to; за- dropping in; про- past or through. The vehicle roots behave the same way with one adjustment: the imperfective partners are built with -езжать, giving въехать (v-YE-khat) against въезжать (v-yez-ZHAT), приехать (pree-YE-khat) against приезжать (pree-yez-ZHAT), and уехать (oo-YE-khat) against уезжать (oo-yez-ZHAT). The direction cases become systematic too: куда asks where to and takes the accusative, as in в магазин; откуда asks where from and takes the genitive, as in из магазина or с работы; где asks where at and takes the prepositional, as in в магазине. Spanish solves the same problem with separate verbs such as entrar, salir, llegar, irse, and volver, which is easier at first because they are memorised individually, and harder later because Spanish offers no pattern to extend. Russian offers one pattern you can apply to a whole family of meanings.",
+       "example": "Use four prefixes with the verb идти and let each one change both the path and the tense machinery. Утром я вышла из дома в восемь (OO-tram ya VYSH-la eez DO-ma v VO-syem) — in the morning I left the house at eight: вы- gives exiting, and из plus the genitive gives the place left. Потом я пришла на работу в девять (pa-TOM ya preesh-LA na ra-BO-too v DYE-vyat) — then I arrived at work at nine: при- gives arriving, and на plus the accusative gives the destination. Вечером я зашла к подруге (VYE-chye-ram ya zash-LA k pad-ROO-gye) — in the evening I dropped in at a friend's place: за- gives a brief stop, and к plus the dative names the person visited. Домой я дошла пешком (da-MOY ya dash-LA pyesh-KOM) — I got home on foot: до- gives reaching as far as, and the distance is implied as completed. And a promise for later: Я зайду к тебе (ya zay-DOO k tee-BYE) — I will drop in at your place, where за- with к plus the dative names the person visited rather than the place entered. Read the four sentences with the stress marks, then say them at normal speed, naming the prefix's direction aloud each time: out, in, aside, as far as. Notice that all four verbs are past-tense perfectives formed from the one-way root; when you want a present-tense or habitual sentence, you switch to прихожу, выхожу, захожу, дохожу.",
+       "question": "A learner asks Как дойти до метро? (kak day-TEE da meet-RO) — how do I get to the metro? Why дойти with до rather than войти with в?",
+       "answer": "До- means to reach as far as, and it takes до plus the genitive; asking for directions is asking how to reach a place, not how to enter it.",
+       "distractor": "Войти cannot be used with метро because метро is an indeclinable noun and therefore cannot take a case ending after в.",
+       "correction": "Indeclinable nouns do keep one shape in every case, but that is not why войти is wrong here. Войти means to go into an enclosed space, and it is the natural verb after you are already standing at the entrance; дойти means to get as far as a point, which is exactly what a person asking for directions wants to know. Choose by the path you are describing, not by the noun's declension. Cornell shows the same point in its directions phrase Дойдите до второго светофора.",
+       "depth": {
+        "definitions": "A prefix is a small morpheme attached before a root that adds a path or direction meaning. The one-way root is the determinate member of a motion pair, and a prefix on it yields a perfective verb; the non-one-way root with the same prefix yields the imperfective partner. Куда, откуда, and где are the three direction questions, answered with the accusative, the genitive, and the prepositional respectively. The verbs входить, приходить, уходить, выходить, and доходить are the imperfective partners of the prefixed perfectives used above.",
+        "mechanism": "The reason the pattern works so consistently is that Russian divides the labour cleanly: the root carries the manner of movement and the prefix carries the path. Cornell states the pairing rule plainly, that a one-way verb with a prefix is perfective while its imperfective partner is the prefixed non-one-way verb, and it records the single systematic exception, namely that ехать and ездить build their imperfectives with -езжать. Two limits should be kept in view. First, the meanings of prefixes are tendencies rather than one-to-one labels: у- and от- both express motion away, but the sources distinguish them by whether the speaker's interest lies in the destination or in the absence from the origin, and вы- is used when a closed space is left. That nuance is real but fine-grained, and where textbooks differ the dictionary is the arbiter. Second, the perfective partner cannot carry present meaning: прихожу means I arrive habitually or I am on my way in, while приду or пришла report specific completed events.",
+        "secondExample": "Follow one person through a doorway and out again, watching the case of the noun change with the path. Она вышла из дома (a-NA VYSH-la eez DO-ma) — she left the house: из plus the genitive, because the house is the source. Она вошла в дом (a-NA vash-LA v dom) — she went into the house: в plus the accusative, because the house is the destination. Она прошла через парк (a-NA prash-LA CHYE-ryez park) — she walked across the park: про- with через plus the accusative expresses passing through. Сейчас она в доме (see-CHAAS a-NA v DO-mye) — she is in the house now: в plus the prepositional, because this is location rather than motion. Four sentences, one person, and the endings alone tell you whether she is moving out of, moving towards, passing through, or simply there.",
+        "mistake": "Four errors recur. The first uses the wrong root with a prefix, producing въехать for a motion on foot; the prefix is right and the root's manner is wrong. The second carries a prefix onto an imperfective present and produces present-tense perfectives such as я пришёл every day instead of я прихожу каждый день. The third mixes the direction cases, writing из магазин or в магазина. The fourth translates Spanish verbs one by one and loses the shared pattern, so each new sentence must be memorised separately instead of reusing при-, у-, вы-, and до-. Diagnose by naming the path first in plain words, going in, coming out, arriving, leaving, dropping in, getting as far as, then choosing the prefix, then switching roots for aspect only if you need a non-perfective form.",
+        "application": "Optional practice: narrate one journey in five perfective sentences, then rewrite the same journey as a habitual routine in the present using the imperfective partners. Model response for the first pair: Вчера я вышла из дома, пришла в университет и зашла к деканату (…) — against Каждый день я выхожу из дома, прихожу в университет и захожу в библиотеку (…) — yesterday I left home, arrived at the university, and dropped in at the dean's office, against every day I leave home, arrive at the university, and stop by the library. Self-review checks four things: the prefix matches the path described, the perfective forms are used only for single completed events, the direction case matches the question the phrase answers, and vehicle motion uses the -езжать imperfective rather than a mixed form. The task is nonblocking.",
+        "summary": "Prefixes turn one root into a family of path meanings: в-, вы-, при-, у-, от-, до-, пере-, под-, за-, and про-. A prefixed one-way verb is perfective and its imperfective partner is the prefixed non-one-way verb, with ехать and ездить forming their partners in -езжать. Direction is also coded in the case after the preposition: accusative for where to, genitive for where from, prepositional for where at."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Prefixed verbs of motion: usage and examples",
+         "url": "https://russian.cornell.edu/grammar/html/gr12_b_a.htm",
+         "note": "Read the whole page. It states the pairing rule used in this lesson, that a one-way verb with a prefix is perfective and its imperfective partner is the prefixed non-one-way verb, lists в-/вы- and при-/у- with their meanings, and shows the -езжать exception for ехать/ездить. It is the single most important reading for this lesson."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — More perfective and imperfective prefixed verbs of motion",
+         "url": "https://russian.cornell.edu/grammar/html/gr12_b_c.htm",
+         "note": "Use the two tables as a form reference: войти/входить, выйти/выходить, прийти/приходить, уйти/уходить, plus the vehicle and carrying counterparts. Read down the columns for the pairing rule and read only the шесть rows relevant to walking and riding."
+        },
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — The prefixes от-/у-/вы-",
+         "url": "https://russian.cornell.edu/grammar/html/gr12_b_e.htm",
+         "note": "Read the three short definitions and the three example sentences. This is the source for the lesson's caution that away-motion prefixes are not interchangeable: от- foregrounds the destination, у- foregrounds absence from the origin, and вы- requires a closed space to leave. The three glosses Отнесите, Унесите, and Вынесите make the difference visible in one line each."
+        },
+        {
+         "title": "[4] Cornell Beginning Russian Grammar — Verb prefix до-",
+         "url": "https://russian.cornell.edu/grammar/html/gr13_c_c.htm",
+         "note": "Read the two examples, Дойдите до второго светофора and Как дойти до ресторана. They are the direct source for the direction-asking pattern with до plus the genitive that this lesson's retrieval question asks about."
+        },
+        {
+         "title": "[5] Cornell Beginning Russian Grammar — Verb prefix за-",
+         "url": "https://russian.cornell.edu/grammar/html/gr13_c_d.htm",
+         "note": "Read the two senses listed: за- with к plus the dative for stopping in at somebody's place, and за- with за plus the instrumental for calling for somebody. Both examples are given, including Я зайду за вами в пять, which is worth contrasting with Я зайду к тебе."
+        },
+        {
+         "title": "[6] Cornell Beginning Russian Grammar — Conjugation of -йти/-ходить",
+         "url": "https://russian.cornell.edu/grammar/html/gr12_b_b.htm",
+         "note": "Read for the two spelling changes when идти is prefixed: во- replaces в-, and идти is written -йти with the stem ид- written -йд-, except in прийти/придёт. This is the page to consult before writing forms such as придёшь or войдёшь."
+        }
+       ],
+       "visual": {
+        "title": "Path first, prefix second, case third",
+        "description": "A labelled sequence for building a prefixed motion sentence, including the direction case that follows each preposition.",
+        "steps": [
+         "State the path in plain words: going in, coming out, arriving, leaving, dropping in, getting as far as, passing through.",
+         "Choose the prefix that carries that path: в-/во-, вы-, при-, у-, от-, за-, до-, про-, пере-, под-.",
+         "Choose the root: one-way for a single completed movement (perfective), non-one-way for habit or incompletion, with -езжать for vehicle verbs.",
+         "Choose the preposition and case for the destination or source: в/на plus accusative for where to, из/с/от plus genitive for where from, в/на plus prepositional for where at.",
+         "For a person or a place visited, use к plus the dative for dropping in.",
+         "Say the sentence and restate the path in English to confirm the prefix matches."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Утром я вышла из дома в восемь",
+         "latin": "OO-tram ya VYSH-la eez DO-ma v VO-syem",
+         "meaning": "in the morning I left the house at eight"
+        },
+        {
+         "text": "Потом я пришла на работу в девять",
+         "latin": "pa-TOM ya preesh-LA na ra-BO-too v DYE-vyat",
+         "meaning": "then I arrived at work at nine"
+        },
+        {
+         "text": "Вечером я зашла к подруге",
+         "latin": "VYE-chye-ram ya zash-LA k pad-ROO-gye",
+         "meaning": "in the evening I dropped in at a friend's place"
+        },
+        {
+         "text": "Домой я дошла пешком",
+         "latin": "da-MOY ya dash-LA pyesh-KOM",
+         "meaning": "I got home on foot"
+        },
+        {
+         "text": "Как дойти до метро?",
+         "latin": "kak day-TEE da meet-RO",
+         "meaning": "how do I get to the metro?"
+        },
+        {
+         "text": "Дойдите до второго светофора",
+         "latin": "day-DEE-tye da vta-RO-va svye-ta-FO-ra",
+         "meaning": "go as far as the second traffic light"
+        },
+        {
+         "text": "Она вышла из дома",
+         "latin": "a-NA VYSH-la eez DO-ma",
+         "meaning": "she left the house"
+        },
+        {
+         "text": "Она вошла в дом",
+         "latin": "a-NA vash-LA v dom",
+         "meaning": "she went into the house"
+        },
+        {
+         "text": "Она прошла через парк",
+         "latin": "a-NA prash-LA CHYE-ryez park",
+         "meaning": "she walked across the park"
+        },
+        {
+         "text": "Сейчас она в доме",
+         "latin": "see-CHAAS a-NA v DO-mye",
+         "meaning": "she is in the house now"
+        },
+        {
+         "text": "Я зайду к тебе",
+         "latin": "ya zay-DOO k tee-BYE",
+         "meaning": "I will drop in at your place"
+        },
+        {
+         "text": "Каждый день я выхожу из дома, прихожу в университет и захожу в библиотеку",
+         "latin": "KAZH-dy dyen ya vy-kha-ZHOO eez DO-ma, pree-kha-ZHOO v oo-nee-vyer-see-TYET ee za-kha-ZHOO v beeb-lee-a-TYE-koo",
+         "meaning": "every day I leave home, arrive at the university, and stop by the library"
+        }
+       ]
+      },
+      {
+       "id": "68",
+       "title": "Where things are and how they get there: стоять, лежать, сидеть",
+       "explanation": "English and Spanish both use a single verb for being in a place: is on the table, está en la mesa. Russian chooses among three. Стоять (sta-YAT) means to be standing, лежать (lye-ZHAT) means to be lying, and сидеть (see-DYET) means to be sitting. Only people and animals sit, so сидеть is never used of objects; objects either stand or lie. The choice between the first two follows a rule of thumb that is worth memorising because it is genuinely reliable: an object with a natural base stands, and everything else lies. A glass has a base, so it stands; a plate has a rim that serves as a base, so it stands; a chair has legs, so it stands. A pen, a book lying flat, a key, a map, and a jacket all lie. Compare two statements about the same surface: Стакан стоит на столе (sta-KAN sta-EET na sta-LYE) — the glass is on the table, against Ручка лежит на столе (ROOCH-ka lye-ZHEET na sta-LYE) — the pen is on the table. Alongside the position verbs there is a second family for changing position, arranged in aspect pairs: вставать and встать to get up, ложиться and лечь to lie down or go to bed, садиться and сесть to sit down, ставить and поставить to put something upright, класть and положить to put something down flat. Spanish gives you a partial bridge here, since sentarse, levantarse, and acostarse map cleanly onto садиться, вставать, and ложиться, but estar gives you no help with the stand-or-lie choice, which is the part Russian speakers notice immediately when a learner gets it wrong.",
+       "example": "Place three objects in one room and watch the verbs divide the work. На столе стоит чашка (na sta-LYE sta-EET CHASH-ka) — there is a cup on the table: a cup has a base, so it stands. На столе лежит книга (na sta-LYE lye-ZHEET KNEE-ga) — there is a book on the table: a book lies. На диване сидит кошка (na dee-VA-nye see-DEET KOSH-ka) — a cat is sitting on the sofa: сидеть for a living creature. Now change the state and change the aspect: Вчера книга лежала на столе, а сегодня я положила её на полку (vchee-RA KNEE-ga lye-ZHA-la na sta-LYE, a see-VOD-nya ya pa-la-ZHY-la yeyo na POL-koo) — yesterday the book was lying on the table, and today I put it on the shelf. The imperfective лежала describes the unchanging state; the perfective положила reports the completed change. Read the sentences with the stress marks, then at normal speed, and say aloud for each one whether you are describing a state or a change, because that label decides the aspect before the vocabulary is even chosen.",
+       "question": "A glass, a pen, and a chair are in a room. Which of стоять, лежать, and сидеть belongs to each, and on what principle?",
+       "answer": "Стакан стоит, ручка лежит, стул стоит: standing belongs to objects with a natural base such as a glass or a chair's legs, lying to everything else, and сидеть is reserved for people and animals.",
+       "distractor": "All three lie, because лежать is the general verb for an object occupying a position and the other two are stylistic variants.",
+       "correction": "Лежать is not a general positional verb; it is the default for objects without a base, and the division between it and стоять is a genuine grammatical choice that native speakers apply automatically. Сидеть would be wrong for the chair because only living beings sit, even though the English sentence says the chair is standing in the corner. The diagnostic is one question: does this object normally rest on a base, such as a bottom, a rim, or legs? If yes, стоять; if no, лежать; if it is alive, сидеть.",
+       "depth": {
+        "definitions": "Verbs of position (стоять, лежать, сидеть) are imperfective and describe a state rather than an event. Verbs of putting and getting (ставить/поставить, класть/положить, садиться/сесть, ложиться/лечь, вставать/встать) are aspect pairs whose perfective member reports a completed change of position. Location answers the question где and takes в or на plus the prepositional case; motion answers куда and takes в or на plus the accusative. A natural base is the surface an object normally rests on, such as the bottom of a glass, the rim of a plate, or the legs of a chair.",
+        "mechanism": "The three-way split exists because Russian treats position as a property of the object rather than purely of the geometry. Cornell states the division plainly: сидеть is never said about objects, and there is a fairly strict distinction between objects that can only stand and those that can only lie, with the base as the practical test. The same page links the position verbs to a second decision, aspect: the imperfective reports the state and the perfective reports the change that produced it, so книга лежала and я положила describe two halves of one story. A further subtlety in the sources is worth recording because it is a genuine limit on the rule of thumb: most change-of-position sentences treat the destination as a point and take the accusative, as in Он сел на стул, but when the destination is a large area rather than a piece of furniture, the prepositional can appear instead, as in Он лёг в гостиной for he lay down in the living room. The sources note that this happens mainly with rooms and other large spaces, so the accusative remains the safe default for chairs and sofas.",
+        "secondExample": "Run one object through a whole day to see state, place, and change interact. Утром книга лежала на столе (OO-tram KNEE-ga lye-ZHA-la na sta-LYE) — in the morning the book was lying on the table: state, imperfective, location in the prepositional. Днём я взяла книгу и положила её в сумку (dnyom ya vzYa-la KNEE-goo ee pa-la-ZHY-la yeyo f SOOM-koo) — during the day I took the book and put it in the bag: two perfective changes, with the destination в сумку in the accusative. Вечером книга лежала в сумке (VYE-chye-ram KNEE-ga lye-ZHA-la f SOOM-kye) — in the evening the book was lying in the bag: back to the state, with the location in the prepositional. Nothing about the book changed except its position, and the case of сумка shifts from accusative to prepositional as the sentence moves from motion to location.",
+        "mistake": "Four errors recur. The first uses one verb for everything, usually лежать, as in Стакан лежит на столе. The second applies сидеть to objects, as in Стул сидит у окна. The third keeps the prepositional after a put-verb and writes Я положила ручку на столе, where the destination requires the accusative. The fourth mixes the two families, choosing a change verb to report a state, as in Ручка положила на столе, instead of the state verb Ручка лежит. Diagnose in two steps: for the base test, ask whether the object rests on a bottom, rim, or legs; for aspect and case, ask whether the sentence reports a state or a change and whether the phrase answers где or куда.",
+        "application": "Optional practice: walk through one room and write six sentences about what is where, using all three position verbs at least once; then write three sentences reporting how three objects got there, using the perfective put-verbs with the accusative of destination. Model response for one pair: На полке стоит ваза, а на столе лежат ключи; Утром я поставила вазу на полку (na POL-kye sta-EET VA-za, a na sta-LYE lye-ZHAT klyoo-CHEE; OO-tram ya pa-STA-vee-la VA-zoo na POL-koo) — a vase stands on the shelf and the keys lie on the table; in the morning I put the vase on the shelf. Self-review checks four things: the position verb matches the object's base and animacy, states are imperfective and changes perfective, locations use the prepositional and destinations the accusative, and the destination phrase uses в or на plus the correct noun form. The task is nonblocking.",
+        "summary": "Russian splits being in a place into standing, lying, and sitting, with the natural base of an object deciding between the first two and animacy reserving the third for living beings. Position verbs are imperfective states and their aspect partners report completed changes of position. The case follows the meaning: где with the prepositional for where something is, куда with the accusative for where it goes."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Standing, lying, and sitting verbs: meaning and usage",
+         "url": "https://russian.cornell.edu/grammar/html/gr11_b_a.htm",
+         "note": "This is the central reading: read the whole page. It gives the three-way chart of be, get, and put verbs, states that сидеть is never used of objects, gives the natural-base rule of thumb for standing versus lying, and shows the case contrast between Он сидел за столом and Он сел за стол. The notes on large areas taking the prepositional are the source for this lesson's stated limit on the rule. Legacy encoding caveat applies to the Cyrillic."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Motion vs. location",
+         "url": "https://russian.cornell.edu/grammar/html/le79_86_k.htm",
+         "note": "Read the four example lines. It is the shortest evidence that сесть and лечь imply motion and therefore take the accusative with куда, while сидел and лежал take the prepositional with где. Use it to check your own sentences, since the pair Где он сидел? against Куда он сел? is exactly the diagnostic this lesson teaches."
+        },
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — Standing, lying, and sitting verbs: conjugation",
+         "url": "https://russian.cornell.edu/grammar/html/gr11_b_b.htm",
+         "note": "Use this page as a form reference only: read the conjugation of стоить/стоять, лежать, сидеть, and the aspect pairs садиться/сесть, ложиться/лечь, вставать/встать, класть/положить, ставить/поставить. Confirm any form you intend to write here rather than guessing at endings."
+        }
+       ],
+       "visual": {
+        "title": "State or change, and where",
+        "description": "A labelled sequence for choosing a position verb and the matching case, from the object's shape to the finished sentence.",
+        "steps": [
+         "Ask whether the sentence reports a state or a change of position; a state takes the imperfective, a change the perfective.",
+         "For a state, check the object: a living being sits with сидеть, an object with a natural base stands with стоять, everything else lies with лежать.",
+         "For a change, choose the pair member: садиться/сесть, ложиться/лечь, вставать/встать, ставить/поставить, or класть/положить.",
+         "Decide whether the place phrase answers где or куда.",
+         "Write the place phrase with в or на plus the prepositional for где, or в or на plus the accusative for куда.",
+         "Say the sentence and restate in English whether you described where something is or where it went."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Стакан стоит на столе",
+         "latin": "sta-KAN sta-EET na sta-LYE",
+         "meaning": "the glass is on the table (standing)"
+        },
+        {
+         "text": "Ручка лежит на столе",
+         "latin": "ROOCH-ka lye-ZHEET na sta-LYE",
+         "meaning": "the pen is on the table (lying)"
+        },
+        {
+         "text": "На столе стоит чашка",
+         "latin": "na sta-LYE sta-EET CHASH-ka",
+         "meaning": "there is a cup on the table"
+        },
+        {
+         "text": "На столе лежит книга",
+         "latin": "na sta-LYE lye-ZHEET KNEE-ga",
+         "meaning": "there is a book on the table"
+        },
+        {
+         "text": "На диване сидит кошка",
+         "latin": "na dee-VA-nye see-DEET KOSH-ka",
+         "meaning": "a cat is sitting on the sofa"
+        },
+        {
+         "text": "Вчера книга лежала на столе, а сегодня я положила её на полку",
+         "latin": "vchee-RA KNEE-ga lye-ZHA-la na sta-LYE, a see-VOD-nya ya pa-la-ZHY-la yeyo na POL-koo",
+         "meaning": "yesterday the book was lying on the table, and today I put it on the shelf"
+        },
+        {
+         "text": "Днём я взяла книгу и положила её в сумку",
+         "latin": "dnyom ya vzYa-la KNEE-goo ee pa-la-ZHY-la yeyo f SOOM-koo",
+         "meaning": "during the day I took the book and put it in the bag"
+        },
+        {
+         "text": "Вечером книга лежала в сумке",
+         "latin": "VYE-chye-ram KNEE-ga lye-ZHA-la f SOOM-kye",
+         "meaning": "in the evening the book was lying in the bag"
+        },
+        {
+         "text": "На полке стоит ваза, а на столе лежат ключи",
+         "latin": "na POL-kye sta-EET VA-za, a na sta-LYE lye-ZHAT klyoo-CHEE",
+         "meaning": "a vase stands on the shelf, and the keys lie on the table"
+        },
+        {
+         "text": "Утром я поставила вазу на полку",
+         "latin": "OO-tram ya pa-STA-vee-la VA-zoo na POL-koo",
+         "meaning": "in the morning I put the vase on the shelf"
+        },
+        {
+         "text": "Он сел на стул",
+         "latin": "ON SYEL na STOOL",
+         "meaning": "he sat down on the chair"
+        },
+        {
+         "text": "Он лёг в гостиной",
+         "latin": "on lyog v gas-TEE-nay",
+         "meaning": "he lay down in the living room"
+        }
+       ]
+      },
+      {
+       "id": "69",
+       "title": "Commands, requests, and obligation: садитесь, сядьте, вы должны",
+       "explanation": "Russian builds commands from the non-past stem with one of three endings. Add -и when the ending is stressed or the stem ends in a consonant cluster: говори (ga-va-REE) speak, скажи (ska-ZHEE) say. Add -ь when the ending is unstressed and the stem ends in a single consonant: поставь (pa-STAF) put, будь (boot) be. Add -й when the stem ends in a vowel: читай (chee-TAY) read, работай (ra-BO-tay) work. For one person in a polite or plural situation, add -те, giving Читайте (chee-TAY-tye) read and Говорите (ga-va-REE-tye) speak. A handful of verbs are irregular and simply have to be learned: дай give, ешь eat, пей drink, стой stand, поезжай go by vehicle. Aspect then does a second job in commands, which Spanish and English rarely make visible. An imperfective command invites someone to begin or to do something as a process, while a perfective command asks for one specific completed action. Cornell's example is exact: a host welcoming a guest says Снимайте пальто, садитесь (snee-MAY-tye pal-TO, sa-DEE-tyes) — take off your coat, have a seat, because a guest is being invited rather than directed; a doctor says Снимите рубашку и сядьте на стол (snee-MEE-tye roo-BASH-koo ee SYAD-tye na stol) — take off your shirt and sit on the table, because he wants those specific actions carried through. Obligation uses a different device again. Должен (DOL-zhen) is a short adjective that agrees with the person, who stays in the nominative: Я должна работать (ya dal-ZHNA ra-BO-tat) — I have to work. Надо and нужно (NA-da, NOOZH-na) are predicative words that put the person in the dative, as in Мне надо работать. Spanish tener que covers both, so the distinction has to be learned deliberately.",
+       "example": "Ask the same person to do the same thing in four ways and watch the aspect and the politeness shift. Imperfective invitation: Садитесь, пожалуйста (sa-DEE-tyes, pa-ZHA-loos-ta) — please have a seat, which in Russian sounds like an open invitation to settle down. Perfective instruction: Сядьте сюда (SYAD-tye syoo-DA) — sit down here, which asks for one specific movement to one specific spot. Singular to a friend: Сядь сюда. Written note: Сядьте, пожалуйста, на этот стул (SYAD-tye, pa-ZHA-loos-ta, na EH-tat stool) — please sit on this chair. Now put obligation beside the commands: Тебе надо позвонить маме (tee-BYE NA-da paz-va-NEET MA-mye) — you have to phone mum, with the person in the dative, against Ты должна позвонить маме (ty dal-ZHNA paz-va-NEET MA-mye) — you have to phone mum, with the person nominative and the short adjective agreeing with her. Read all six aloud, then say for each whether it invites, instructs, or states an obligation, because that label decides both the verb form and the case of the person.",
+       "question": "How do you express 'you have to phone your mother' in two structurally different ways, and what changes between them?",
+       "answer": "Тебе надо позвонить маме puts the person in the dative with the predicative надо, while Ты должна позвонить маме keeps the person nominative and uses the short adjective должна, which agrees with her.",
+       "distractor": "Ты надо позвонить маме is the plain version, because надо takes the nominative whenever the person is expressed by a pronoun.",
+       "correction": "Надо never takes a nominative person: it is a predicative word like холодно, so the person it concerns stands in the dative, which is why Тебе надо is right and Ты надо is not. The alternative construction is the short adjective должна in the feminine, and there the person is the grammatical subject in the nominative, so the short adjective must agree in gender and number. Choose by deciding whether you want a person-centred statement with a subject or a subjectless statement with a dative experiencer; both are standard, and they differ in emphasis rather than in strength.",
+       "depth": {
+        "definitions": "The imperative is the mood of commands and requests, formed in Russian from the non-past stem with -и, -ь, or -й, plus -те for a polite or plural addressee. Aspect is the choice between an imperfective verb that views an action as ongoing, repeated, or merely begun and a perfective verb that views it as a single bounded whole. Obligation can be expressed with the short adjective должен, which agrees with a nominative subject, or with the predicatives надо and нужно, which take a dative person and an infinitive. A short adjective is a form that functions as a predicate, carrying is or are without a verb in the present.",
+        "mechanism": "Aspect in commands is not decoration; it changes what you are asking for. Cornell explains the politeness effect directly: an imperfective imperative sounds friendlier in a host-and-guest situation because it does not tell the other person to complete something, only to start doing it. The same source notes that some verbs cannot be used in the polite imperfective form at all, since their meaning precludes it, and gives Отстань от меня as perfective only, while it also records the opposite extreme, that infinitives are used for the strongest commands, as Сидеть! does in dog training. Two limits follow. First, the politeness contrast is a strong tendency tied to particular situations rather than a fixed social rule, so the same imperative can sound neutral in one setting and brusque in another. Second, negation interacts with aspect in a way this lesson deliberately does not reduce to a rule: Cornell notes that imperfective is the natural choice when the meaning is did not even start, while perfective is used when something was attempted and failed, and calls it a rough rule of thumb rather than a grammatical restriction.",
+        "secondExample": "A short exchange that mixes requests and obligations in three sentences. — Позвони мне, пожалуйста, когда приедешь (paz-va-NEE mnye, pa-ZHA-loos-ta, kag-DA pree-YE-desh) — call me please when you arrive: a singular perfective command for one specific action. — Хорошо, но мне нужно сначала купить билеты (kha-ra-SHO, no mnye NOOZH-na sna-CHA-la koo-PEET bee-LYE-ty) — all right, but I need to buy tickets first: a dative obligation with the infinitive. — Тебе не надо покупать их сегодня (tee-BYE nye NA-da pa-koo-PAT eekh see-VOD-nya) — you do not have to buy them today: negation of надо, which in Russian is ambiguous between must not and need not, with must not the more usual reading; the unambiguous need not is expressed as Ты можешь не покупать их сегодня. That ambiguity is a genuine trap for a literal translator and is handled properly in the next lesson.",
+        "mistake": "Four errors recur. The first uses the wrong imperative ending, most often -й on a consonant stem, as in читать-style patterns applied to говорить. The second forgets -те when speaking politely to one person, which sounds as though you are addressing a child or a close friend. The third mixes the obligation constructions and produces Ты надо работать or Мне должна работать. The fourth treats negation of надо as if it were exactly like English must not or need not without noticing the ambiguity. Diagnose by naming the function first: is this a general invitation, a specific instruction, a request, or a statement of obligation? Then choose aspect, ending, and construction in that order.",
+        "application": "Optional practice: write five instructions for a routine you know well, such as leaving the flat in the morning, mixing at least two imperfective invitations and two perfective instructions, one polite form with -те, and one irregular imperative. Then rewrite three of them as obligations using надо with a dative person, and one of those using должен with a nominative subject. Model response for one line: Закрой окно, пожалуйста; потом тебе надо выключить свет (zak-ROY ak-NO, pa-ZHA-loos-ta; pa-TOM tee-BYE NA-da VY-klyoo-cheet svyet) — close the window please; then you have to switch off the light. Self-review checks four things: the ending matches the stem's stress and shape, -те is present when the addressee is plural or politely singular, aspect matches invitation versus instruction, and the obligation construction keeps the person in the right case. The task is nonblocking.",
+        "summary": "Imperatives are built from the non-past stem with -и, -ь, or -й and take -те for polite or plural address, with a small irregular set that must be memorised. Aspect turns a command into either an open invitation or a specific instruction, and negative commands follow a tendency rather than a strict rule. Obligation divides into a subject-centred construction with должен and a subjectless dative construction with надо or нужно, and Spanish tener que hides the difference."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Imperative form endings",
+         "url": "https://russian.cornell.edu/grammar/html/gr10_c.htm",
+         "note": "Read the ending rules and the four worked verbs позвонить, спросить, открыть, поставить, then note the statement that the вы-form adds -те. The page also refers to a list of irregular imperatives, which is why this lesson presents дай, ешь, пей, стой, and поезжай as memorised items rather than derived forms."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Imperative forms in detail",
+         "url": "https://russian.cornell.edu/grammar/html/le71_78_n.htm",
+         "note": "Read the full rule and the four example verbs читать, говорить, помнить, ответить, plus the irregular table with ехать, есть, пить, дать, давать, стоять. This page supplies the precise statement of when -и, -ь, and -й are used, which is the part of this lesson most likely to need re-reading."
+        },
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — Aspect usage: polite imperatives",
+         "url": "https://russian.cornell.edu/grammar/html/le79_86_j.htm",
+         "note": "Read the whole page; it is the source for the host-and-doctor contrast and for the explanation of why imperfective imperatives sound more polite, namely that they ask someone to begin rather than to finish. It also records the limits honestly: some verbs have no polite imperfective imperative, and infinitives are used for the strongest commands."
+        },
+        {
+         "title": "[4] Cornell Beginning Russian Grammar — The word должен",
+         "url": "https://russian.cornell.edu/grammar/html/le95_102_c.htm",
+         "note": "Read the whole short page. It defines должен as a short adjective meaning should or ought to, gives the past form with был, and states the contrast this lesson uses, that with должен the person is nominative while with the o-form надо the person is dative."
+        },
+        {
+         "title": "[5] Cornell Beginning Russian Grammar — Nado and moch' with ne",
+         "url": "https://russian.cornell.edu/grammar/html/le103_110_a.htm",
+         "note": "Read the first three paragraphs and the four-line table on necessity, prohibition, and no necessity. This is where the lesson's warning about the ambiguity of не надо comes from, and the page also gives the unambiguous alternative with могу не plus an imperfective infinitive and the reply не обязательно."
+        }
+       ],
+       "visual": {
+        "title": "Invitation, instruction, or obligation",
+        "description": "A labelled sequence for choosing an imperative form and an obligation construction for the same message.",
+        "steps": [
+         "Decide what the sentence does: invite someone to start, instruct them to complete one action, or state that something is required.",
+         "For a command, take the non-past stem and choose -й after a vowel, -ь after a single unstressed consonant, -и when the ending is stressed or the stem ends in a cluster.",
+         "Add -те for a plural or politely singular addressee, and check the irregular list for дай, ешь, пей, стой, поезжай.",
+         "Match the aspect to the meaning: imperfective for an open invitation or a general prohibition, perfective for one specific completed instruction.",
+         "For obligation, choose either a nominative person with должен or a dative person with надо or нужно.",
+         "Say the sentence and state the function aloud, then confirm the case of the person matches the construction you chose."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Снимайте пальто, садитесь",
+         "latin": "snee-MAY-tye pal-TO, sa-DEE-tyes",
+         "meaning": "take off your coat, have a seat (invitation)"
+        },
+        {
+         "text": "Снимите рубашку и сядьте на стол",
+         "latin": "snee-MEE-tye roo-BASH-koo ee SYAD-tye na stol",
+         "meaning": "take off your shirt and sit on the table (instruction)"
+        },
+        {
+         "text": "Садитесь, пожалуйста",
+         "latin": "sa-DEE-tyes, pa-ZHA-loos-ta",
+         "meaning": "please have a seat"
+        },
+        {
+         "text": "Сядьте сюда",
+         "latin": "SYAD-tye syoo-DA",
+         "meaning": "sit down here"
+        },
+        {
+         "text": "Читайте",
+         "latin": "chee-TAY-tye",
+         "meaning": "read (polite or plural)"
+        },
+        {
+         "text": "Говорите",
+         "latin": "ga-va-REE-tye",
+         "meaning": "speak (polite or plural)"
+        },
+        {
+         "text": "Тебе надо позвонить маме",
+         "latin": "tee-BYE NA-da paz-va-NEET MA-mye",
+         "meaning": "you have to phone mum (dative person with надо)"
+        },
+        {
+         "text": "Ты должна позвонить маме",
+         "latin": "ty dal-ZHNA paz-va-NEET MA-mye",
+         "meaning": "you have to phone mum (nominative person with должна)"
+        },
+        {
+         "text": "Я должна работать",
+         "latin": "ya dal-ZHNA ra-BO-tat",
+         "meaning": "I have to work"
+        },
+        {
+         "text": "Мне надо работать",
+         "latin": "mnye NA-da ra-BO-tat",
+         "meaning": "I have to work (dative person)"
+        },
+        {
+         "text": "Позвони мне, пожалуйста, когда приедешь",
+         "latin": "paz-va-NEE mnye, pa-ZHA-loos-ta, kag-DA pree-YE-desh",
+         "meaning": "call me please when you arrive"
+        },
+        {
+         "text": "Закрой окно, пожалуйста; потом тебе надо выключить свет",
+         "latin": "zak-ROY ak-NO, pa-ZHA-loos-ta; pa-TOM tee-BYE NA-da VY-klyoo-cheet svyet",
+         "meaning": "close the window please; then you have to switch off the light"
+        }
+       ]
+      },
+      {
+       "id": "70",
+       "title": "Plans, permission, and unreal conditions: можно, нельзя, если бы",
+       "explanation": "This final lesson adds three devices that hold a long conversation together: permission, plans, and unreal conditions. Permission centres on можно and нельзя. Можно войти? (MOZH-na vay-TEE) — may I come in? asks for permission, and нельзя refuses or prohibits it. Neither takes a nominative subject, so if you name the person concerned you use the dative, exactly as with надо: Мне нельзя вставать (mnye NYEL-zya fsta-VAT) — I am not allowed to get up, a sentence the sources put in a doctor's mouth. Aspect does real work here too. Cornell contrasts Тут нельзя переходить улицу (toot NYEL-zya pee-ree-kha-DEET OO-lee-tsoo) — you cannot cross the street here, a general prohibition expressed with the imperfective, against Сейчас нельзя перейти улицу — you cannot cross the street right now, a one-off impossibility expressed with the perfective. Plans use собираться plus an infinitive or a perfective future, and they also use the two-verbs-in-a-row pattern: После обеда я пойду куплю сыр (POS-le a-BYE-da ya pay-DOO koop-LYOO syr) — after dinner I will go and buy cheese, where the first verb of motion carries the future and the second, also perfective and non-past, names the purpose. Unreal conditions use the particle бы with the past-tense form of the verb in both halves of the sentence: Если бы у меня были деньги, я бы поехала в Москву (YES-lee by oo mee-NYA BY-lee DYEN-gee, ya by pa-YE-kha-la v mask-VOO) — if I had money, I would go to Moscow. Spanish offers an interesting contrast, because Spanish distinguishes si tuviera from si hubiera tenido and iría from habría ido, while Russian uses one and the same form for hypothetical and contrary-to-fact conditions and leaves the difference to context.",
+       "example": "Hold a four-turn conversation about a weekend and label each turn. — Что ты собираешься делать в выходные? (shto ty sa-bee-RA-yesh-sya DYE-lat v vy-khad-NY-ye) — what are you planning to do at the weekend? — Я собираюсь поехать к родителям (ya sa-bee-RA-yus pa-YE-khat k ra-DEE-tye-lyam) — I am planning to go to my parents, with собираться plus a perfective infinitive and к plus the dative for the people visited. — А можно с тобой? (a MOZH-na s ta-BOY) — may I come with you?, where с plus the instrumental marks company and можно asks permission. — Конечно, но мне надо купить билеты (ka-NYESH-na, no mnye NA-da koo-PEET bee-LYE-ty) — of course, but I have to buy tickets, a dative obligation. Then add a regret to show the conditional: Если бы билеты были дешевле, я бы ездила чаще (YES-lee by bee-LYE-ty BY-lee dee-SHEV-lye, ya by YEZ-dee-la CHA-shche) — if tickets were cheaper, I would travel more often. Read the five turns with the stress marks, then say them at normal conversational speed, naming each turn's device: plan, plan, permission, obligation, unreal condition.",
+       "question": "Why can Если бы у меня были деньги, я бы поехала в Москву mean both 'if I had money, I would go to Moscow' and 'if I had had money, I would have gone to Moscow'?",
+       "answer": "Russian forms unreal conditions with бы plus the past-tense form in both halves and therefore uses one shape for hypothetical and contrary-to-fact meaning, leaving the difference to context.",
+       "distractor": "The form is past tense throughout, so only the contrary-to-fact reading is possible, and the hypothetical reading needs a different particle.",
+       "correction": "The л-form used with бы is a mood marker rather than a tense marker: Cornell states plainly that since there is no choice of forms, the learner does not have to worry about past, present, or future, or about hypothetical versus contrary-to-fact, and that English distinguishes the two types while Russian does not. Two practical rules follow. The particle бы cannot stand first in its clause, so it clings to the word after the opening conjunction or pronoun. And бы must not be equated with English would, which in reported speech can translate a plain future, as in Он сказал, что придёт.",
+       "depth": {
+        "definitions": "Permission is expressed by the predicatives можно and нельзя, its negative; both are subjectless and take a dative person when one is named. No necessity means you may refrain: Cornell gives не обязательно, or a form of мочь with не placed before the infinitive, as in Ты можешь не покупать их сегодня. An unreal condition is a sentence of the if-then type in which the premise is hypothetical or contrary to fact, formed in Russian with бы plus the л-form in both clauses. A real condition uses если with ordinary tenses, as in Если он придёт, мы поедем за город. Собираться means to intend and takes an infinitive. The two-verbs-in-a-row pattern joins a perfective motion verb with a second perfective verb naming the purpose.",
+        "mechanism": "The permission and obligation constructions share one mechanism, namely the removal of the nominative subject: Russian states a permitted or prohibited action as a general fact about a situation, and the person involved is added in the dative if mentioned at all. Cornell's page on можно and нельзя adds the aspect rule that makes the construction usable, distinguishing a general prohibition in the street from an immediate impossibility now, and it notes that нельзя is the negative of можно because нельзя is a separate word rather than можно plus не. Unreal conditions work differently again: the particle бы converts the past-tense form into a mood marker, and the constraint that it cannot open a clause is a genuine word-order rule the sources state explicitly. Two honest limitations belong here. First, the ambiguity between hypothetical and contrary-to-fact is resolved by context, so a beginner may produce a sentence that is grammatically perfect and still ambiguous, which is normal rather than a failure. Second, permission in conversation is often handled by intonation and by set phrases such as Можно? and Пожалуйста, so no verb at all may appear.",
+        "secondExample": "Compare a real condition, an unreal condition, and a permission refusal on the same topic. Real: Если у меня будет время, я поеду в Москву (YES-lee oo mee-NYA BOO-det VRYE-mya, ya pa-YE-doo v mask-VOO) — if I have time, I will go to Moscow, with a perfective future in each clause. Unreal: Если бы у меня было время, я бы поехала в Москву — if I had time or had had time, I would go or would have gone to Moscow, with бы plus the л-form twice. Refusal of permission: Мне нельзя ехать в Москву (mnye NYEL-zya YE-khat v mask-VOO) — I am not allowed to go to Moscow, a subjectless prohibition with the person in the dative. The three sentences describe overlapping situations and share only one word, поехать. Comparing them side by side is the fastest way to feel the difference between what is likely, what is contrary to fact, and what is permitted.",
+        "mistake": "Four errors recur. The first puts бы in first position, producing Бы если у меня были деньги, which violates the word-order constraint. The second uses a conditional form where a real condition is meant, or the reverse, so an ordinary plan sounds like a fantasy; the test is whether the speaker treats the premise as likely. The third uses можно plus не for a prohibition, as in Можно не курить? when the meaning is that smoking is not permitted; the correct prohibition is Здесь нельзя курить. The fourth names the person in the nominative with a predicative, as in Я нельзя вставать instead of Мне нельзя вставать. Diagnose by classifying the sentence first: permission, prohibition, no-necessity, real condition, or unreal condition, and only then assembling the pieces.",
+        "application": "Optional practice, and the natural close of the level: write a six-turn dialogue in which two people arrange an outing, using at least one plan with собираться, one request with можно, one prohibition with нельзя, one obligation with надо, one real condition with если, and one unreal condition with если бы. Model response for two turns: — Можно я приеду в субботу? — Конечно, если ты не забудешь билеты; если бы они были дешевле, я бы ездила каждую неделю (MOZH-na ya pree-YE-doo f soo-BO-too? ka-NYESH-na, YES-lee ty nye za-BOO-desh bee-LYE-ty; YES-lee by a-NEE BY-lee dee-SHEV-lye, ya by YEZ-dee-la KAZH-doo-yoo nee-DYE-lyoo) — may I come on Saturday? Of course, if you do not forget the tickets; if they were cheaper, I would travel every week. Self-review checks four things: every device from the list appears at least once, permission and obligation sentences keep the person in the dative where required, real conditions use ordinary tenses and unreal ones use бы plus the л-form, and бы never opens a clause. Read the dialogue aloud twice, once labelling each device and once as a conversation.",
+        "summary": "Permission, prohibition, no-necessity, obligation, plans, and conditions are all built by combining a small number of predicative words, the dative, and the particle бы. Можно and нельзя keep the person in the dative and use aspect to separate a general permission from a one-off impossibility; собираться and the two-verbs-in-a-row pattern carry plans; and бы plus the л-form expresses hypothetical and contrary-to-fact conditions with a single shape. Spanish distinguishes conditional and perfect conditional forms where Russian does not, so context, not morphology, resolves the difference."
+       },
+       "readings": [
+        {
+         "title": "[1] Cornell Beginning Russian Grammar — Mozhno and nel'zya",
+         "url": "https://russian.cornell.edu/grammar/html/le103_110_e.htm",
+         "note": "Read the whole page. It gives the aspect contrast between Тут нельзя переходить улицу and Сейчас нельзя перейти улицу, states that нельзя is the negative of можно, and shows the dative with a named person in Врач сказал, что мне нельзя вставать. All three points are used in this lesson."
+        },
+        {
+         "title": "[2] Cornell Beginning Russian Grammar — Real and unreal conditions",
+         "url": "https://russian.cornell.edu/grammar/html/gr12_c_a.htm",
+         "note": "Read the definition of a conditional sentence and the two-line contrast between real conditions, which use если with the appropriate tense, and unreal conditions, which use бы plus the л-form in both clauses. This is the framework the lesson follows before any forms are given."
+        },
+        {
+         "title": "[3] Cornell Beginning Russian Grammar — Conditional sentences: verb forms for unreal conditions",
+         "url": "https://russian.cornell.edu/grammar/html/gr12_c_c.htm",
+         "note": "Read the four examples and, crucially, the statement that because there is no choice of forms, hypothetical and contrary-to-fact readings are not distinguished, and that the same sentence can be read either way. The lesson's retrieval question is built directly on that statement."
+        },
+        {
+         "title": "[4] Cornell Beginning Russian Grammar — Unreal conditionals: бы plus л-forms",
+         "url": "https://russian.cornell.edu/grammar/html/le87_94_d.htm",
+         "note": "Read the word-order rule and the real-versus-unreal comparison. This page supplies two things this lesson relies on: that the unstressed particle бы cannot come first in its clause, and that бы must not be equated with English would, since a reported future such as Он сказал, что придёт takes no бы."
+        },
+        {
+         "title": "[5] Cornell Beginning Russian Grammar — Two verbs in a row: пойду куплю",
+         "url": "https://russian.cornell.edu/grammar/html/le71_78_f.htm",
+         "note": "Read the whole short page for the plans pattern. It shows a sentence in which a perfective motion verb in the future is followed by a second perfective verb naming the purpose, and it notes that other motion verbs work the same way, giving examples of going to look and running to make a phone call. Use it to extend the dialogue task beyond one errand; the page's own Cyrillic renders with legacy stress glyphs, so read the structure rather than the accents."
+        },
+        {
+         "title": "[6] Wikipedia — Conditional mood, section 'Russian'",
+         "url": "https://en.wikipedia.org/wiki/Conditional_mood#Russian",
+         "note": "Read the short Russian subsection and its table. It confirms independently that the conditional is formed by adding бы to a past-tense form, that the particle follows the word marking the supposed subject, and that the masculine and feminine forms differ, as in я бы сказал against я бы сказала. Encyclopaedia-level confirmation, not a teaching sequence."
+        }
+       ],
+       "visual": {
+        "title": "Which device, which case",
+        "description": "A labelled sequence for assembling a conversational turn that expresses a plan, a permission, or a condition without mixing their grammars.",
+        "steps": [
+         "Classify the turn: plan, permission, prohibition, no-necessity, obligation, real condition, or unreal condition.",
+         "For a plan, use собираться plus an infinitive or the two-verbs-in-a-row pattern with a perfective motion verb first.",
+         "For permission or prohibition, use можно or нельзя, name the person in the dative if you name one, and choose aspect: imperfective for a general rule, perfective for a one-off situation.",
+         "For no-necessity, use не надо with care, or better, можешь не plus an imperfective infinitive, or не обязательно.",
+         "For a real condition, use если with ordinary tenses, at least one clause in a perfective future.",
+         "For an unreal condition, use the л-form in both clauses with бы, placed after the first word and never first in the clause.",
+         "Say the turn aloud and name the device, then check that every named person is nominative or dative as that device requires."
+        ]
+       },
+       "russianItems": [
+        {
+         "text": "Можно войти?",
+         "latin": "MOZH-na vay-TEE",
+         "meaning": "may I come in?"
+        },
+        {
+         "text": "Мне нельзя вставать",
+         "latin": "mnye NYEL-zya fsta-VAT",
+         "meaning": "I am not allowed to get up"
+        },
+        {
+         "text": "Тут нельзя переходить улицу",
+         "latin": "toot NYEL-zya pee-ree-kha-DEET OO-lee-tsoo",
+         "meaning": "you cannot cross the street here"
+        },
+        {
+         "text": "После обеда я пойду куплю сыр",
+         "latin": "POS-le a-BYE-da ya pay-DOO koop-LYOO syr",
+         "meaning": "after dinner I will go and buy cheese"
+        },
+        {
+         "text": "Если бы у меня были деньги, я бы поехала в Москву",
+         "latin": "YES-lee by oo mee-NYA BY-lee DYEN-gee, ya by pa-YE-kha-la v mask-VOO",
+         "meaning": "if I had money, I would go to Moscow"
+        },
+        {
+         "text": "Что ты собираешься делать в выходные?",
+         "latin": "shto ty sa-bee-RA-yesh-sya DYE-lat v vy-khad-NY-ye",
+         "meaning": "what are you planning to do at the weekend?"
+        },
+        {
+         "text": "Я собираюсь поехать к родителям",
+         "latin": "ya sa-bee-RA-yus pa-YE-khat k ra-DEE-tye-lyam",
+         "meaning": "I am planning to go to my parents"
+        },
+        {
+         "text": "А можно с тобой?",
+         "latin": "a MOZH-na s ta-BOY",
+         "meaning": "may I come with you?"
+        },
+        {
+         "text": "Конечно, но мне надо купить билеты",
+         "latin": "ka-NYESH-na, no mnye NA-da koo-PEET bee-LYE-ty",
+         "meaning": "of course, but I have to buy tickets"
+        },
+        {
+         "text": "Если бы билеты были дешевле, я бы ездила чаще",
+         "latin": "YES-lee by bee-LYE-ty BY-lee dee-SHEV-lye, ya by YEZ-dee-la CHA-shche",
+         "meaning": "if tickets were cheaper, I would travel more often"
+        },
+        {
+         "text": "Если у меня будет время, я поеду в Москву",
+         "latin": "YES-lee oo mee-NYA BOO-det VRYE-mya, ya pa-YE-doo v mask-VOO",
+         "meaning": "if I have time, I will go to Moscow"
+        },
+        {
+         "text": "Если бы у меня было время, я бы поехала в Москву",
+         "latin": "YES-lee by oo mee-NYA BY-la VRYE-mya, ya by pa-YE-kha-la v mask-VOO",
+         "meaning": "if I had time, I would go to Moscow"
+        },
+        {
+         "text": "Мне нельзя ехать в Москву",
+         "latin": "mnye NYEL-zya YE-khat v mask-VOO",
+         "meaning": "I am not allowed to go to Moscow"
+        },
+        {
+         "text": "Можно я приеду в субботу?",
+         "latin": "MOZH-na ya pree-YE-doo f soo-BO-too",
+         "meaning": "may I come on Saturday?"
+        },
+        {
+         "text": "Конечно, если ты не забудешь билеты; если бы они были дешевле, я бы ездила каждую неделю",
+         "latin": "ka-NYESH-na, YES-lee ty nye za-BOO-desh bee-LYE-ty; YES-lee by a-NEE BY-lee dee-SHEV-lye, ya by YEZ-dee-la KAZH-doo-yoo nee-DYE-lyoo",
+         "meaning": "of course, if you do not forget the tickets; if they were cheaper, I would travel every week"
+        }
+       ]
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-61-70-f",
+       "prompt": "A learner describes a daily routine and writes Каждый день я иду на работу пешком. What must change, and does the transport phrase change with it?",
+       "answer": "The verb must become the multi-directional ходить: Каждый день я хожу на работу пешком, while the phrase пешком stays exactly as it is.",
+       "distractor": "Both the verb and the transport phrase must change, giving Каждый день я езжу на работу на машине, since a routine always takes the vehicle pair.",
+       "correction": "Habitual motion is what selects the multi-directional verb, and on-foot habit selects ходить; the adverb пешком is not tied to either verb in the pair but to the manner of movement, so it does not change. The vehicle pair would be wrong here because пешком states explicitly that no vehicle is involved. The one part of the sentence that must change is the verb's shape, not its meaning.",
+       "reviewLessonIds": [
+        "66"
+       ]
+      },
+      {
+       "id": "uq-61-70-g",
+       "prompt": "You are standing outside a building and want to know how to get to the metro. Write the question and explain why that prefix and preposition are used rather than the pair meaning 'enter'.",
+       "answer": "Как дойти до метро? uses до- with до plus the genitive because the question asks how to reach a place, not how to go inside one.",
+       "distractor": "Как войти в метро? is the natural question, because asking directions always uses the entering verb with в plus the accusative.",
+       "correction": "Войти means to enter an enclosed space and presupposes that you are already at its threshold, which is not what someone asking for directions needs. До- plus до and the genitive expresses reaching a point, and the sources use exactly this pattern in directions such as telling someone to go as far as the second traffic light. The distinction is about the path, so the prefix and the preposition must be chosen together.",
+       "reviewLessonIds": [
+        "67"
+       ]
+      },
+      {
+       "id": "uq-61-70-h",
+       "prompt": "Describe the room you are in: say where a cup, a book, and a cat are, using the right position verb and case for each.",
+       "answer": "На столе стоит чашка, на столе лежит книга, на диване сидит кошка, because the cup has a base, the book lies flat, the cat is a living being, and location takes в or на plus the prepositional.",
+       "distractor": "На столе лежит чашка, на столе лежит книга, на диване лежит кошка, because лежать is the neutral verb for an object occupying a place.",
+       "correction": "Лежать is only neutral for objects without a base; a cup rests on its bottom, so Russian treats it as standing, and a living creature sits rather than lies. The bases differ per object, which is why the rule of thumb rather than the object's material decides the verb. The case is separate from the verb choice: all three sentences answer где and therefore take the prepositional.",
+       "reviewLessonIds": [
+        "68"
+       ]
+      },
+      {
+       "id": "uq-61-70-i",
+       "prompt": "A friend is arriving at your flat and you want to tell her to sit on the sofa, then add that she will need to take off her shoes. Write both and justify the aspect of the command.",
+       "answer": "Сядьте на диван uses a perfective command for one specific act, and Тебе надо снять обувь expresses the second part as a dative obligation with надо and an infinitive.",
+       "distractor": "Садитесь на диван uses a perfective form for the specific act, and Ты надо снять обувь expresses the obligation.",
+       "correction": "Садитесь is the imperfective invitation and сядьте the perfective instruction, so the distractor reverses the aspect labels while also putting the person in the nominative with надо. The obligation requires the dative: тебе надо. Choose the aspect by asking whether you are inviting someone to settle in or directing one completed movement, and choose the case by asking which construction, subjectless or subject-centred, you are using.",
+       "reviewLessonIds": [
+        "69"
+       ]
+      },
+      {
+       "id": "uq-61-70-j",
+       "prompt": "Two colleagues are arranging a trip. Write a two-turn exchange in which one asks for permission to join and the other mentions an obligation, then add one unreal condition about the same trip.",
+       "answer": "Можно с вами? — Конечно, но мне надо купить билеты; если бы билеты были дешевле, мы бы поехали раньше.",
+       "distractor": "Можно я с вами? — Конечно, но я надо купить билеты; если билеты были дешевле, мы поехали раньше.",
+       "correction": "The permission question is fine with or without я, but the obligation cannot put the person in the nominative with надо: the dative мне is required. The unreal condition needs the particle бы in both clauses, and it may not open the clause, so если бы билеты были дешевле must be followed by мы бы поехали раньше. Compare the real condition, which would read если билеты будут дешевле, мы поедем раньше, with ordinary future forms and no бы at all.",
+       "reviewLessonIds": [
+        "69",
+        "70"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "lq-61-70-a",
+     "prompt": "It is your mother's birthday. In one spoken paragraph, say that you bought her a present, paid by card, and showed her the photographs you took on your phone. Then state which four endings you had to choose and what each one marks.",
+     "answer": "Я купила маме подарок и заплатила картой, а потом показала ей фотографии, которые сняла телефоном. The endings are the dative маме and ей for the recipient, the accusative подарок and фотографии for the things, and the instrumentals картой and телефоном for the means, with no prepositions at all.",
+     "distractor": "Я купила маму подарком и заплатила с картой, а потом показала её фотографиям, которые сняла с телефоном. The endings are the accusative маму for the recipient, the instrumental подарком for the thing, and с plus the instrumental for the means.",
+     "correction": "The roles are assigned by the verbs, not by the surface order: купить puts the person in the dative and the thing in the accusative, платить takes a bare instrumental for the means, показать keeps the recipient dative and the thing accusative, and снимать takes a bare instrumental for the instrument. Spanish le compré a mamá and con tarjeta would suggest two separate prepositional words, and Russian has none, which is exactly the trap the distractor illustrates. A further point worth noticing is that the same person can appear in two different cases if her roles differ: as a recipient she is маме or ей, and as the thing acted on she would be маму, which is why the role must be decided before the ending.",
+     "reviewLessonIds": [
+      "61",
+      "63",
+      "65"
+     ]
+    },
+    {
+     "id": "lq-61-70-b",
+     "prompt": "Write four sentences that describe a difficult morning: that you were cold, that you needed a hot drink, that you did not want to get up, and that you are now bored. Use the impersonal frames and justify every agreeing word.",
+     "answer": "Утром мне было холодно; мне был нужен горячий чай; мне не хотелось вставать; сейчас мне скучно. The agreeing words are the neuter past было and the masculine short form нужен, which follows чай.",
+     "distractor": "Утром я была холодная; мне нужно горячий чай; я не хотелась вставать; сейчас я скучная. The agreeing words follow the speaker, who is the subject of every sentence.",
+     "correction": "In dative impersonals there is no nominative subject, so nothing can agree with the speaker: было is the fixed neuter past of быть, and нужен agrees with the thing needed rather than with the person needing it. The distractor makes the speaker a subject throughout, which is the single most common Spanish-influenced error in this construction, since Spanish tengo frío and estoy aburrida both put the person in subject position. The fourth sentence, сейчас мне скучно, is genuinely subjectless and takes no agreeing word at all.",
+     "reviewLessonIds": [
+      "62",
+      "37"
+     ]
+    },
+    {
+     "id": "lq-61-70-c",
+     "prompt": "A classmate writes Я шла в школу с ручкой и с подругой. Both noun phrases look identical in structure but only one is about company in the ordinary sense. Explain what the sentence means, whether it is grammatical, and how you would rewrite it if you meant that you write with a pen.",
+     "answer": "The sentence is grammatical and means I was walking to school with a pen and with a friend, since с plus the instrumental marks accompaniment for both nouns. To express the pen as an instrument, the preposition must disappear: Я пишу ручкой.",
+     "distractor": "The sentence is ungrammatical because с plus the instrumental can only mark a person, so the pen phrase must be rewritten as Я шла в школу с ручкой in the genitive.",
+     "correction": "С plus the instrumental marks accompaniment with people and things alike, which is why с ручкой can only mean with a pen in your possession, and why the sentence is not ungrammatical but simply says something odd. The instrument sense belongs to the bare instrumental, as lesson 63 showed with Я пишу ручкой against Я ем суп со сметаной. The genitive after с would mean from or off, which is a third meaning entirely, as in Книга упала со стола.",
+     "reviewLessonIds": [
+      "63",
+      "64",
+      "35"
+     ]
+    },
+    {
+     "id": "lq-61-70-d",
+     "prompt": "Narrate one day of travel in four sentences using four different members of the motion family: one habit, one motion in progress, one plan, and one completed round trip. Then explain what each choice asserts that the others would not.",
+     "answer": "Я обычно хожу на работу пешком; вчера, когда я шла туда, я встретила друга; завтра я пойду на выставку; а в аптеку я уже сходила. The habit uses ходить, the motion in progress uses идти, the plan uses the perfective пойти, and the completed round trip uses the special perfective сходить.",
+     "distractor": "Я обычно иду на работу пешком; вчера, когда я ходила туда, я встретила друга; завтра я схожу на выставку; а в аптеку я уже пошла. The habit uses идти, the motion in progress uses ходить, the plan uses the с- perfective, and the completed trip uses по-.",
+     "correction": "Идти cannot express a habit because it reports one-directional motion at one moment, and ходить cannot express motion in progress at that moment; the distractor swaps exactly these two. The special perfective with с- reports a trip that has been completed and returned from, so it cannot be the form you use when announcing a plan, and по- cannot report a finished round trip. The four labels, habit, in progress, plan, and completed trip, are what select the verb, and the choice is independent of distance and of means of transport.",
+     "reviewLessonIds": [
+      "66",
+      "58"
+     ]
+    },
+    {
+     "id": "lq-61-70-e",
+     "prompt": "You are lost in an unfamiliar city. Write three sentences: one asking how to reach the railway station, one telling a companion to go as far as the traffic light, and one saying that you dropped in at a shop along the way. Then identify the prefix and the case in each.",
+     "answer": "Как дойти до вокзала?; Дойдите до светофора; по дороге я зашла в магазин. The first two use до- with до plus the genitive, and the third uses за- with в plus the accusative for the place entered.",
+     "distractor": "Как войти до вокзала?; Войдите до светофора; по дороге я вошла к магазину. The first two use в- with до plus the genitive, and the third uses в- with к plus the dative.",
+     "correction": "В- takes в plus the accusative and means entering an enclosed space, so it cannot be combined with до plus the genitive; the distractor mixes the prefix of one path with the preposition of another. За- with в plus the accusative reports a brief stop on the way, while за- with к plus the dative would report dropping in at a person's place, which is why the shop phrase needs в and not к. The direction cases are consistent: accusative for where to, genitive for where from or as far as, dative with к for a person visited.",
+     "reviewLessonIds": [
+      "67",
+      "53"
+     ]
+    },
+    {
+     "id": "lq-61-70-f",
+     "prompt": "Describe your living room in three sentences: say where the lamp is, where the keys are, and where the cat is; then say in two further sentences that yesterday you put the lamp on the table and the keys in the bag. Account for every verb and case choice.",
+     "answer": "В комнате стоит лампа, на столе лежат ключи, а на диване сидит кошка; вчера я поставила лампу на стол и положила ключи в сумку. States take стоять, лежать, and сидеть with the prepositional after в or на, and the changes of position take the perfective поставить and положить with the accusative of destination.",
+     "distractor": "В комнате лежит лампа, на столе стоят ключи, а на диване лежит кошка; вчера я положила лампу на стола и поставила ключи в сумке. States are all expressed with лежать, and the changes take the genitive or prepositional of place.",
+     "correction": "The distractor applies лежать to everything, which fails on two counts: a lamp with a base stands, and a living creature sits. It also keeps the wrong case after the put-verbs, since a destination answers куда and takes the accusative, while the genitive would answer where from and the prepositional where at. Separately, the aspect contrast matters: the state verbs are imperfective reports of how things are, and the put-verbs are perfective reports of completed changes.",
+     "reviewLessonIds": [
+      "68",
+      "52"
+     ]
+    },
+    {
+     "id": "lq-61-70-g",
+     "prompt": "Your neighbour knocks with her shoes on and pushes past you into the flat. Write two commands, one telling her to take off her shoes and one inviting her to sit down, and justify the aspect of each. Then explain what a perfective form would change in each case.",
+     "answer": "Снимите обувь, пожалуйста is a perfective instruction to complete one specific action, and садитесь, пожалуйста is an imperfective invitation to settle down; making the second perfective as сядьте would turn a welcome into a direction to one spot.",
+     "distractor": "Снимайте обувь, пожалуйста is a perfective instruction to complete one specific action, and сядьте, пожалуйста is an imperfective invitation to settle down; making the first imperfective would mean she must finish the action.",
+     "correction": "The distractor reverses the labels and therefore reverses the effects: снимайте is the imperfective, and an imperfective command in this situation asks her to get on with the process rather than to finish it, which is why hosts use imperfective forms for coats and perfective forms for specific instructions like taking off a shirt in a surgery. Aspect in commands tracks what the speaker wants done, not how polite the speaker feels; politeness is carried by пожалуйста, intonation, and the -те ending.",
+     "reviewLessonIds": [
+      "69",
+      "56"
+     ]
+    },
+    {
+     "id": "lq-61-70-h",
+     "prompt": "Your colleague has offered to collect documents from the office. Write the same instruction in two ways, once with the person as a subject and once subjectless, then explain how a Russian speaker distinguishes I do not have to from you must not.",
+     "answer": "Ты должен забрать документы against Тебе надо забрать документы; the first has a nominative subject with the short adjective должен, the second a dative person with the predicative надо. Не надо is ambiguous between must not and need not, so the unambiguous no-necessity is Тебе не надо забирать or, better, Ты можешь не забирать.",
+     "distractor": "Ты надо забрать документы against Тебе должен забрать документы; the first is subjectless and the second has a subject. Не надо is always the unambiguous way to say you do not have to, so no alternative is needed.",
+     "correction": "The constructions cannot be cross-bred: должен agrees with a nominative subject and надо takes a dative person, so the distractor's two sentences are both malformed. On the negation, the sources state that не надо is ambiguous and usually read as must not or should not, while the clear expression of no necessity is a form of мочь with не before an imperfective infinitive, or the predicative не обязательно, which also works as a short answer. Keeping those two devices apart prevents a polite refusal from sounding like a prohibition.",
+     "reviewLessonIds": [
+      "69",
+      "70"
+     ]
+    },
+    {
+     "id": "lq-61-70-i",
+     "prompt": "At a swimming pool, one sign reads Здесь нельзя прыгать. A guard tells you Вам нельзя прыгнуть с этой вышки. Explain why the two sentences use different verb forms and what each one means.",
+     "answer": "Both are prohibitions with the person or situation in question; the sign uses the imperfective because it states a general rule, while the guard uses the perfective because the impossibility applies to one specific occasion and one specific jump.",
+     "distractor": "The sign uses the perfective for a permanent rule, and the guard uses the imperfective because прыгать is the only form that can follow нельзя with a dative person.",
+     "correction": "The aspect labels are reversed in the distractor, and neither form is excluded by the presence of a dative person. The sources make the contrast explicit with a street-crossing pair: a general prohibition takes the imperfective, while an impossibility arising from the present situation takes the perfective. The same distinction carries over to any нельзя sentence, which is why reading a sign and hearing a warning about this jump now feel different in Russian even though English renders both with cannot.",
+     "reviewLessonIds": [
+      "70",
+      "57"
+     ]
+    },
+    {
+     "id": "lq-61-70-j",
+     "prompt": "In a single paragraph, say that you would have gone to the coast if the tickets had been cheaper, but that you will nevertheless go next month if you can take leave, and that your friend says she will come. Use the correct conditional machinery and explain why two of the clauses look identical in form.",
+     "answer": "Если бы билеты были дешевле, я бы поехала на море; но в следующем месяце я поеду, если смогу взять отпуск; подруга сказала, что она приедет. The first half is unreal, with бы plus the л-form in both clauses; the second and third are real, using ordinary future forms.",
+     "distractor": "Если билеты были бы дешевле, я поехала на море; но в следующем месяце я бы поеду, если смогу взять отпуск; подруга сказала, что она бы приехала. The first half is unreal, and the reported speech takes бы because English says would come.",
+     "correction": "Three errors are packed into the distractor. The particle бы cannot be separated from the word it follows in the way the first clause shows, and it must appear in both clauses of an unreal condition. A real future cannot take бы, since бы marks unreality rather than politeness or futurity. And reported speech does not take бы for an English would that is really a future, which is exactly why Он сказал, что придёт has no particle at all; the sources warn against equating бы with English would on that specific ground.",
+     "reviewLessonIds": [
+      "70",
+      "49"
+     ]
+    },
+    {
+     "id": "lq-61-70-k",
+     "prompt": "A friend is moving flat and needs help. Write a five-turn exchange in which you offer to come, ask what you must bring, ask permission to bring another person, hear a prohibition about the lift, and end with a plan naming a time. Then list the device used in each turn.",
+     "answer": "Я могу приехать в субботу; что мне надо взять; можно я приеду с братом; в лифте нельзя ставить коробки, придётся нести по лестнице; хорошо, я приеду к десяти и мы начнём с кухни. The turns use an offer, a dative obligation with надо, a permission request with можно plus с and the instrumental, a prohibition with нельзя, and a plan expressed with a perfective future.",
+     "distractor": "Я могу приехать в субботу; что я надо взять; можно я приеду с братом; в лифте нельзя ставить коробки; хорошо, я бы приеду к десяти и мы бы начали с кухни. The turns use an offer, an obligation, a permission request, a prohibition, and a conditional plan.",
+     "correction": "Two turns are broken in the distractor. The obligation cannot put the person in the nominative with надо, so что мне надо взять is the correct shape. The closing plan is a real arrangement with a fixed time, so it needs ordinary future forms, not the conditional with бы, which would turn a promise into a hypothetical. The permission request is correct as written, since с plus the instrumental marks the extra companion and можно asks leave; the prohibition keeps the dative-free impersonal shape typical of signs and rules.",
+     "reviewLessonIds": [
+      "70",
+      "69",
+      "64"
+     ]
+    },
+    {
+     "id": "lq-61-70-l",
+     "prompt": "Read this account and repair it: Вчера я ходила в магазин, чтобы купить подарок. Я купила маме книгу и платила с картой. Потом я пришла с работы домой и положила книгу на столе. Identify each error, name the case or form that should stand instead, and explain the principle behind each repair.",
+     "answer": "The sentence is largely sound but three items need repair: платила should be заплатила for the completed payment, с картой should be картой because the card is the means rather than a companion, and на столе should be на стол because a put-verb takes the accusative of destination; ходила and купила are correct as a completed round trip and a completed purchase.",
+     "distractor": "Ходила should be шла because the trip was one-way, платила is correct as a completed payment, с картой is correct because с marks the instrument, and на столе is correct because the book is now on the table.",
+     "correction": "The distractor misreads the narrative in three places. Ходила is right because the trip is presented as a completed round trip rather than as motion in progress, and using шла would report being on the way. A completed payment takes the perfective заплатила, and the aspect of the earlier purchase, which the distractor leaves alone, is the clue: the whole account is a chain of completed events. The means of payment takes the bare instrumental, while с plus the instrumental would make the card a companion. Finally, the destination of положить answers куда and takes the accusative, even though the state sentence that follows, книга лежит на столе, takes the prepositional.",
+     "reviewLessonIds": [
+      "65",
+      "66",
+      "68",
+      "59"
+     ]
+    }
+   ]
+  }
+ ]
+}

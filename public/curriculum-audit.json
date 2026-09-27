@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-27T22:11:59.994Z",
+  "generatedAt": "2026-09-27T22:47:56.052Z",
   "scope": "Published inventory including one reviewed continuation level (two units, ten lessons) per course. The current target is 100 core units per course; remaining units are unpublished.",
   "totals": {
     "departments": 11,
     "requestedCoreUnits": 1100,
-    "publishedCoreUnits": 102,
-    "remainingRequestedCoreUnits": 998,
+    "publishedCoreUnits": 122,
+    "remainingRequestedCoreUnits": 978,
     "historicalRequestedLevels": 600,
-    "publishedMainLevels": 51,
-    "freshApplicationAssessments": 66,
-    "lessonsWithCitedReadings": 220,
-    "textStudySequences": 220,
+    "publishedMainLevels": 61,
+    "freshApplicationAssessments": 96,
+    "lessonsWithCitedReadings": 320,
+    "textStudySequences": 320,
     "supplementalSequences": 1,
-    "publishedModernLessons": 520,
-    "modernUnits": 104,
-    "unitQuizzes": 104,
-    "cumulativeLevelTests": 52,
+    "publishedModernLessons": 620,
+    "modernUnits": 124,
+    "unitQuizzes": 124,
+    "cumulativeLevelTests": 62,
     "extendedLegacyLessons": 66,
     "literatureOpeningGuides": 4,
-    "deeplyExpandedThisRevision": 240,
+    "deeplyExpandedThisRevision": 340,
     "modernLessonsNotDeeplyExpandedThisRevision": 280,
-    "newlyAuthoredDepthWords": 148184
+    "newlyAuthoredDepthWords": 242702
   },
   "subjects": [
     {
       "id": "russian",
       "title": "Russian",
       "requestedUnits": 100,
-      "publishedCoreUnits": 10,
-      "remainingRequestedUnits": 90,
+      "publishedCoreUnits": 12,
+      "remainingRequestedUnits": 88,
       "historicalRequestedLevels": 100,
-      "publishedMainLevels": 5,
+      "publishedMainLevels": 6,
       "supplementalSequences": 1,
-      "lessonCount": 60,
+      "lessonCount": 70,
       "units": [
         {
           "id": "unit-1-1",
@@ -176,6 +176,30 @@
             "58",
             "59",
             "60"
+          ]
+        },
+        {
+          "id": "unit-7-1",
+          "title": "Whom you give it to and what you use: dative and instrumental in action",
+          "level": 7,
+          "lessonIds": [
+            "61",
+            "62",
+            "63",
+            "64",
+            "65"
+          ]
+        },
+        {
+          "id": "unit-7-2",
+          "title": "Getting there, staying put, and saying what must be done",
+          "level": 7,
+          "lessonIds": [
+            "66",
+            "67",
+            "68",
+            "69",
+            "70"
           ]
         }
       ],
@@ -321,6 +345,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/russian/level-6",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-7-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-7-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-7-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-7-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-7",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/russian/level-7",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -645,6 +693,86 @@
           "addedWords": 966,
           "readings": 3,
           "textStudySequence": true
+        },
+        {
+          "id": "61",
+          "title": "The dative for the recipient: whom you give, write, or speak to",
+          "route": "/learn/russian/61",
+          "addedWords": 666,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "62",
+          "title": "Impersonal sentences: Мне холодно, мне нужно, мне нравится",
+          "route": "/learn/russian/62",
+          "addedWords": 723,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "63",
+          "title": "The instrumental for the means: writing with a pen, paying by card",
+          "route": "/learn/russian/63",
+          "addedWords": 723,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "64",
+          "title": "Instrumental for company and for roles: с другом, работает врачом",
+          "route": "/learn/russian/64",
+          "addedWords": 723,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "65",
+          "title": "One transaction, four roles: reading a real exchange",
+          "route": "/learn/russian/65",
+          "addedWords": 792,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "66",
+          "title": "Going and going regularly: идти and ходить, ехать and ездить",
+          "route": "/learn/russian/66",
+          "addedWords": 767,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "67",
+          "title": "Prefixes give the path: прийти, уйти, выйти, дойти",
+          "route": "/learn/russian/67",
+          "addedWords": 725,
+          "readings": 6,
+          "textStudySequence": true
+        },
+        {
+          "id": "68",
+          "title": "Where things are and how they get there: стоять, лежать, сидеть",
+          "route": "/learn/russian/68",
+          "addedWords": 753,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "69",
+          "title": "Commands, requests, and obligation: садитесь, сядьте, вы должны",
+          "route": "/learn/russian/69",
+          "addedWords": 767,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "70",
+          "title": "Plans, permission, and unreal conditions: можно, нельзя, если бы",
+          "route": "/learn/russian/70",
+          "addedWords": 859,
+          "readings": 6,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -729,7 +857,17 @@
         "/learn/russian/57",
         "/learn/russian/58",
         "/learn/russian/59",
-        "/learn/russian/60"
+        "/learn/russian/60",
+        "/learn/russian/61",
+        "/learn/russian/62",
+        "/learn/russian/63",
+        "/learn/russian/64",
+        "/learn/russian/65",
+        "/learn/russian/66",
+        "/learn/russian/67",
+        "/learn/russian/68",
+        "/learn/russian/69",
+        "/learn/russian/70"
       ],
       "extendedRoutes": [
         "/subjects/russian/alphabet-foundations",
@@ -762,12 +900,12 @@
       "id": "business-funding",
       "title": "Business Funding & Sales",
       "requestedUnits": 100,
-      "publishedCoreUnits": 14,
-      "remainingRequestedUnits": 86,
+      "publishedCoreUnits": 16,
+      "remainingRequestedUnits": 84,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 7,
+      "publishedMainLevels": 8,
       "supplementalSequences": 0,
-      "lessonCount": 70,
+      "lessonCount": 80,
       "units": [
         {
           "id": "unit-1-1",
@@ -935,6 +1073,30 @@
             "68",
             "69",
             "70"
+          ]
+        },
+        {
+          "id": "unit-8-1",
+          "title": "Reading the file the way underwriting reads it",
+          "level": 8,
+          "lessonIds": [
+            "71",
+            "72",
+            "73",
+            "74",
+            "75"
+          ]
+        },
+        {
+          "id": "unit-8-2",
+          "title": "Negotiating terms, distress conversations and accountable decisions",
+          "level": 8,
+          "lessonIds": [
+            "76",
+            "77",
+            "78",
+            "79",
+            "80"
           ]
         }
       ],
@@ -1106,6 +1268,30 @@
           "route": "/assess/business-funding/level-7",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-8-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/business-funding/unit-8-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-8-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/business-funding/unit-8-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-8",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/business-funding/level-8",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
         }
       ],
       "deeplyExpandedThisRevision": [
@@ -1268,6 +1454,86 @@
           "addedWords": 783,
           "readings": 3,
           "textStudySequence": true
+        },
+        {
+          "id": "71",
+          "title": "Reading a full merchant file: the claim ledger and what silence hides",
+          "route": "/learn/business-funding/71",
+          "addedWords": 972,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "72",
+          "title": "Deposits as evidence: what bank and processor data actually show an underwriter",
+          "route": "/learn/business-funding/72",
+          "addedWords": 929,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "73",
+          "title": "Seasonality: normalizing the year and matching the payment cadence",
+          "route": "/learn/business-funding/73",
+          "addedWords": 903,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "74",
+          "title": "Concentration: when one customer, processor or account carries the file",
+          "route": "/learn/business-funding/74",
+          "addedWords": 936,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "75",
+          "title": "Needs analysis before product: amount, duration, source and timing",
+          "route": "/learn/business-funding/75",
+          "addedWords": 919,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "76",
+          "title": "Covenants and personal guarantees in practice: what actually binds",
+          "route": "/learn/business-funding/76",
+          "addedWords": 875,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "77",
+          "title": "Renewal, refinance and consolidation: the honest test for each",
+          "route": "/learn/business-funding/77",
+          "addedWords": 908,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "78",
+          "title": "Collections, workouts and restructuring conversations under stress",
+          "route": "/learn/business-funding/78",
+          "addedWords": 881,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "79",
+          "title": "Commission conflicts, disclosure and documenting a recommendation",
+          "route": "/learn/business-funding/79",
+          "addedWords": 885,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "80",
+          "title": "Capstone: a defensible recommendation, a clear decline and the conditions that would change it",
+          "route": "/learn/business-funding/80",
+          "addedWords": 889,
+          "readings": 4,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -1392,7 +1658,17 @@
         "/learn/business-funding/67",
         "/learn/business-funding/68",
         "/learn/business-funding/69",
-        "/learn/business-funding/70"
+        "/learn/business-funding/70",
+        "/learn/business-funding/71",
+        "/learn/business-funding/72",
+        "/learn/business-funding/73",
+        "/learn/business-funding/74",
+        "/learn/business-funding/75",
+        "/learn/business-funding/76",
+        "/learn/business-funding/77",
+        "/learn/business-funding/78",
+        "/learn/business-funding/79",
+        "/learn/business-funding/80"
       ],
       "extendedRoutes": []
     },
@@ -1400,12 +1676,12 @@
       "id": "literature",
       "title": "Literature",
       "requestedUnits": 100,
-      "publishedCoreUnits": 8,
-      "remainingRequestedUnits": 92,
+      "publishedCoreUnits": 10,
+      "remainingRequestedUnits": 90,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 4,
+      "publishedMainLevels": 5,
       "supplementalSequences": 0,
-      "lessonCount": 40,
+      "lessonCount": 50,
       "units": [
         {
           "id": "unit-1-1",
@@ -1501,6 +1777,30 @@
             "38",
             "39",
             "40"
+          ]
+        },
+        {
+          "id": "unit-5-1",
+          "title": "Form and genre as arguments: constraint, tragedy, comedy",
+          "level": 5,
+          "lessonIds": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ]
+        },
+        {
+          "id": "unit-5-2",
+          "title": "Modes of the real and the discipline of the essay",
+          "level": 5,
+          "lessonIds": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"
           ]
         }
       ],
@@ -1598,6 +1898,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/literature/level-4",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/literature/unit-5-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/literature/unit-5-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-5",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/literature/level-5",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -1762,6 +2086,86 @@
           "addedWords": 815,
           "readings": 3,
           "textStudySequence": true
+        },
+        {
+          "id": "41",
+          "title": "Constraint and the turn: Milton's sonnet XVI and Pope's closed couplet",
+          "route": "/learn/literature/41",
+          "addedWords": 869,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "42",
+          "title": "Tragic structure and the question of responsibility: Macbeth, Act 1",
+          "route": "/learn/literature/42",
+          "addedWords": 847,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "43",
+          "title": "Comedy's social function and its costs: Twelfth Night and the gulling of Malvolio",
+          "route": "/learn/literature/43",
+          "addedWords": 875,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "44",
+          "title": "The Gothic and the uncanny: the familiar made strange in Dr Jekyll and Mr Hyde",
+          "route": "/learn/literature/44",
+          "addedWords": 900,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "45",
+          "title": "Detecting unreliable narration: the governess in The Turn of the Screw",
+          "route": "/learn/literature/45",
+          "addedWords": 859,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "46",
+          "title": "Realism and the detail that carries moral weight: Scenes of Clerical Life, ‘Amos Barton’",
+          "route": "/learn/literature/46",
+          "addedWords": 886,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "47",
+          "title": "The bildungsroman and the arc of a self: Jane Eyre",
+          "route": "/learn/literature/47",
+          "addedWords": 881,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "48",
+          "title": "Satire and the risk of misreading tone: A Modest Proposal",
+          "route": "/learn/literature/48",
+          "addedWords": 960,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "49",
+          "title": "Comparing two texts on a shared theme with evidence: the house with a hidden life in Jane Eyre and Dr Jekyll and Mr Hyde",
+          "route": "/learn/literature/49",
+          "addedWords": 871,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "50",
+          "title": "Writing a sustained interpretive essay: thesis, counterargument and falsification",
+          "route": "/learn/literature/50",
+          "addedWords": 896,
+          "readings": 4,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -1826,7 +2230,17 @@
         "/learn/literature/37",
         "/learn/literature/38",
         "/learn/literature/39",
-        "/learn/literature/40"
+        "/learn/literature/40",
+        "/learn/literature/41",
+        "/learn/literature/42",
+        "/learn/literature/43",
+        "/learn/literature/44",
+        "/learn/literature/45",
+        "/learn/literature/46",
+        "/learn/literature/47",
+        "/learn/literature/48",
+        "/learn/literature/49",
+        "/learn/literature/50"
       ],
       "extendedRoutes": []
     },
@@ -1834,12 +2248,12 @@
       "id": "neuroscience",
       "title": "Neuroscience",
       "requestedUnits": 100,
-      "publishedCoreUnits": 8,
-      "remainingRequestedUnits": 92,
+      "publishedCoreUnits": 10,
+      "remainingRequestedUnits": 90,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 4,
+      "publishedMainLevels": 5,
       "supplementalSequences": 0,
-      "lessonCount": 40,
+      "lessonCount": 50,
       "units": [
         {
           "id": "unit-1-1",
@@ -1935,6 +2349,30 @@
             "38",
             "39",
             "40"
+          ]
+        },
+        {
+          "id": "unit-5-1",
+          "title": "Cortical organisation, development and neuromodulation",
+          "level": 5,
+          "lessonIds": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ]
+        },
+        {
+          "id": "unit-5-2",
+          "title": "Networks, habits and the appraisal of evidence",
+          "level": 5,
+          "lessonIds": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"
           ]
         }
       ],
@@ -2032,6 +2470,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/neuroscience/level-4",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/neuroscience/unit-5-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/neuroscience/unit-5-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-5",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/neuroscience/level-5",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -2196,6 +2658,86 @@
           "addedWords": 776,
           "readings": 3,
           "textStudySequence": true
+        },
+        {
+          "id": "41",
+          "title": "Cortical maps and topographic organisation: what a map claim requires",
+          "route": "/learn/neuroscience/41",
+          "addedWords": 730,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "42",
+          "title": "How experience wires circuits: pruning, critical periods, and two kinds of plasticity",
+          "route": "/learn/neuroscience/42",
+          "addedWords": 759,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "43",
+          "title": "Dopamine: prediction error, effort, and why 'the pleasure molecule' is a misreading",
+          "route": "/learn/neuroscience/43",
+          "addedWords": 768,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "44",
+          "title": "Stress physiology and its cumulative effects on brain and body",
+          "route": "/learn/neuroscience/44",
+          "addedWords": 791,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "45",
+          "title": "Sleep as a controlled system: two processes, arousal circuits, and what sleep changes",
+          "route": "/learn/neuroscience/45",
+          "addedWords": 799,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "46",
+          "title": "Language and its lateralisation: dissociations, networks, and the limits of left-right claims",
+          "route": "/learn/neuroscience/46",
+          "addedWords": 783,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "47",
+          "title": "Executive function and the limits of grey-matter claims",
+          "route": "/learn/neuroscience/47",
+          "addedWords": 773,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "48",
+          "title": "The biology of habit: goal-directed and habitual control",
+          "route": "/learn/neuroscience/48",
+          "addedWords": 862,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "49",
+          "title": "Reading a neuroscience headline: correlation, causation, and replication",
+          "route": "/learn/neuroscience/49",
+          "addedWords": 811,
+          "readings": 6,
+          "textStudySequence": true
+        },
+        {
+          "id": "50",
+          "title": "Capstone: appraising a causal claim about the brain, from design to headline",
+          "route": "/learn/neuroscience/50",
+          "addedWords": 791,
+          "readings": 5,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -2260,7 +2802,17 @@
         "/learn/neuroscience/37",
         "/learn/neuroscience/38",
         "/learn/neuroscience/39",
-        "/learn/neuroscience/40"
+        "/learn/neuroscience/40",
+        "/learn/neuroscience/41",
+        "/learn/neuroscience/42",
+        "/learn/neuroscience/43",
+        "/learn/neuroscience/44",
+        "/learn/neuroscience/45",
+        "/learn/neuroscience/46",
+        "/learn/neuroscience/47",
+        "/learn/neuroscience/48",
+        "/learn/neuroscience/49",
+        "/learn/neuroscience/50"
       ],
       "extendedRoutes": [
         "/subjects/neuroscience/neural-foundations",
@@ -2274,12 +2826,12 @@
       "id": "veterinary-science",
       "title": "Veterinary Science",
       "requestedUnits": 100,
-      "publishedCoreUnits": 8,
-      "remainingRequestedUnits": 92,
+      "publishedCoreUnits": 10,
+      "remainingRequestedUnits": 90,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 4,
+      "publishedMainLevels": 5,
       "supplementalSequences": 0,
-      "lessonCount": 40,
+      "lessonCount": 50,
       "units": [
         {
           "id": "unit-1-1",
@@ -2375,6 +2927,30 @@
             "38",
             "39",
             "40"
+          ]
+        },
+        {
+          "id": "unit-5-1",
+          "title": "Emergency Assessment and the First Minutes",
+          "level": 5,
+          "lessonIds": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ]
+        },
+        {
+          "id": "unit-5-2",
+          "title": "Stabilisation, Oral Care and the Laboratory Chain",
+          "level": 5,
+          "lessonIds": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"
           ]
         }
       ],
@@ -2472,6 +3048,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/veterinary-science/level-4",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/veterinary-science/unit-5-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/veterinary-science/unit-5-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-5",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/veterinary-science/level-5",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -2636,6 +3236,86 @@
           "addedWords": 701,
           "readings": 3,
           "textStudySequence": true
+        },
+        {
+          "id": "41",
+          "title": "Triage as a system: assigning priority when minutes matter",
+          "route": "/learn/veterinary-science/41",
+          "addedWords": 907,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "42",
+          "title": "Airway and breathing: the first two letters that change everything",
+          "route": "/learn/veterinary-science/42",
+          "addedWords": 878,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "43",
+          "title": "Shock recognition and perfusion assessment",
+          "route": "/learn/veterinary-science/43",
+          "addedWords": 894,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "44",
+          "title": "Cardiopulmonary resuscitation fundamentals and the technician role",
+          "route": "/learn/veterinary-science/44",
+          "addedWords": 952,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "45",
+          "title": "Wound classification and the boundaries of first aid",
+          "route": "/learn/veterinary-science/45",
+          "addedWords": 1017,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "46",
+          "title": "Bandaging and splinting: principles, and the discipline of not bandaging",
+          "route": "/learn/veterinary-science/46",
+          "addedWords": 926,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "47",
+          "title": "Common toxicities and species differences in risk",
+          "route": "/learn/veterinary-science/47",
+          "addedWords": 1067,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "48",
+          "title": "Dentistry and oral assessment: what can be done awake and what cannot",
+          "route": "/learn/veterinary-science/48",
+          "addedWords": 969,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "49",
+          "title": "Laboratory quality: sampling error, haemolysis and the pre-analytical chain",
+          "route": "/learn/veterinary-science/49",
+          "addedWords": 1075,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "50",
+          "title": "Integrated emergency case reconstruction",
+          "route": "/learn/veterinary-science/50",
+          "addedWords": 1000,
+          "readings": 4,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -2700,7 +3380,17 @@
         "/learn/veterinary-science/37",
         "/learn/veterinary-science/38",
         "/learn/veterinary-science/39",
-        "/learn/veterinary-science/40"
+        "/learn/veterinary-science/40",
+        "/learn/veterinary-science/41",
+        "/learn/veterinary-science/42",
+        "/learn/veterinary-science/43",
+        "/learn/veterinary-science/44",
+        "/learn/veterinary-science/45",
+        "/learn/veterinary-science/46",
+        "/learn/veterinary-science/47",
+        "/learn/veterinary-science/48",
+        "/learn/veterinary-science/49",
+        "/learn/veterinary-science/50"
       ],
       "extendedRoutes": [
         "/subjects/veterinary-science/clinical-foundations",
@@ -2714,12 +3404,12 @@
       "id": "theology",
       "title": "Theology",
       "requestedUnits": 100,
-      "publishedCoreUnits": 8,
-      "remainingRequestedUnits": 92,
+      "publishedCoreUnits": 10,
+      "remainingRequestedUnits": 90,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 4,
+      "publishedMainLevels": 5,
       "supplementalSequences": 0,
-      "lessonCount": 40,
+      "lessonCount": 50,
       "units": [
         {
           "id": "unit-1-1",
@@ -2815,6 +3505,30 @@
             "38",
             "39",
             "40"
+          ]
+        },
+        {
+          "id": "unit-5-1",
+          "title": "The Life of Prayer and the Liturgy That Feeds It",
+          "level": 5,
+          "lessonIds": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ]
+        },
+        {
+          "id": "unit-5-2",
+          "title": "Conscience, Communion, and the Questions That Are Not Settled",
+          "level": 5,
+          "lessonIds": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"
           ]
         }
       ],
@@ -2912,6 +3626,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/theology/level-4",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/theology/unit-5-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/theology/unit-5-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-5",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/theology/level-5",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -3076,6 +3814,86 @@
           "addedWords": 997,
           "readings": 5,
           "textStudySequence": true
+        },
+        {
+          "id": "41",
+          "title": "Prayer as grace and as battle: what the Church claims and what it does not",
+          "route": "/learn/theology/41",
+          "addedWords": 1112,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "42",
+          "title": "The senses of Scripture, and how to detect a proof-text",
+          "route": "/learn/theology/42",
+          "addedWords": 1123,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "43",
+          "title": "The liturgy as source and summit: what liturgical reform can and cannot change",
+          "route": "/learn/theology/43",
+          "addedWords": 1087,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "44",
+          "title": "The Eucharist in doctrine and history: presence, sacrifice, and the disputes around them",
+          "route": "/learn/theology/44",
+          "addedWords": 1098,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "45",
+          "title": "Catholic social teaching: four principles and the policy questions they do not settle",
+          "route": "/learn/theology/45",
+          "addedWords": 1129,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "46",
+          "title": "Formed conscience and public dissent: what may be argued, and how",
+          "route": "/learn/theology/46",
+          "addedWords": 1097,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "47",
+          "title": "Ecumenism: unity as communion, not absorption",
+          "route": "/learn/theology/47",
+          "addedWords": 1146,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "48",
+          "title": "Interreligious dialogue: what it is, what it is not, and what remains open",
+          "route": "/learn/theology/48",
+          "addedWords": 1150,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "49",
+          "title": "The problem of suffering: the range of legitimate Catholic responses",
+          "route": "/learn/theology/49",
+          "addedWords": 1227,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "50",
+          "title": "Science, faith, and how to read a question the Church has not settled",
+          "route": "/learn/theology/50",
+          "addedWords": 1334,
+          "readings": 5,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -3140,7 +3958,17 @@
         "/learn/theology/37",
         "/learn/theology/38",
         "/learn/theology/39",
-        "/learn/theology/40"
+        "/learn/theology/40",
+        "/learn/theology/41",
+        "/learn/theology/42",
+        "/learn/theology/43",
+        "/learn/theology/44",
+        "/learn/theology/45",
+        "/learn/theology/46",
+        "/learn/theology/47",
+        "/learn/theology/48",
+        "/learn/theology/49",
+        "/learn/theology/50"
       ],
       "extendedRoutes": [
         "/subjects/theology/how-theology-reasons",
@@ -3154,12 +3982,12 @@
       "id": "finance",
       "title": "Finance",
       "requestedUnits": 100,
-      "publishedCoreUnits": 8,
-      "remainingRequestedUnits": 92,
+      "publishedCoreUnits": 10,
+      "remainingRequestedUnits": 90,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 4,
+      "publishedMainLevels": 5,
       "supplementalSequences": 0,
-      "lessonCount": 40,
+      "lessonCount": 50,
       "units": [
         {
           "id": "unit-1-1",
@@ -3255,6 +4083,30 @@
             "38",
             "39",
             "40"
+          ]
+        },
+        {
+          "id": "unit-5-1",
+          "title": "Reading the Documents and the People Behind Them",
+          "level": 5,
+          "lessonIds": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ]
+        },
+        {
+          "id": "unit-5-2",
+          "title": "Transferring Risk, Shifting the Sequence, and Auditing Claims",
+          "level": 5,
+          "lessonIds": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"
           ]
         }
       ],
@@ -3352,6 +4204,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/finance/level-4",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/finance/unit-5-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/finance/unit-5-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-5",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/finance/level-5",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -3516,6 +4392,86 @@
           "addedWords": 861,
           "readings": 3,
           "textStudySequence": true
+        },
+        {
+          "id": "41",
+          "title": "Find the fees inside a fund prospectus",
+          "route": "/learn/finance/41",
+          "addedWords": 799,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "42",
+          "title": "Broker, adviser, or salesperson: what each owes you",
+          "route": "/learn/finance/42",
+          "addedWords": 741,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "43",
+          "title": "Behavioral biases that cost money: loss aversion, recency, overconfidence, mental accounting",
+          "route": "/learn/finance/43",
+          "addedWords": 827,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "44",
+          "title": "Write your own investment policy statement",
+          "route": "/learn/finance/44",
+          "addedWords": 843,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "45",
+          "title": "Asset location and tax-aware ordering of withdrawals",
+          "route": "/learn/finance/45",
+          "addedWords": 884,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "46",
+          "title": "Sequence-of-returns risk near retirement",
+          "route": "/learn/finance/46",
+          "addedWords": 818,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "47",
+          "title": "Insurance as risk transfer, not investment",
+          "route": "/learn/finance/47",
+          "addedWords": 878,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "48",
+          "title": "Evaluating an annuity honestly",
+          "route": "/learn/finance/48",
+          "addedWords": 895,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "49",
+          "title": "Beneficiaries, probate, and why documents beat intentions",
+          "route": "/learn/finance/49",
+          "addedWords": 885,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "50",
+          "title": "Capstone: audit a financial claim with the whole toolkit",
+          "route": "/learn/finance/50",
+          "addedWords": 869,
+          "readings": 3,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -3580,7 +4536,17 @@
         "/learn/finance/37",
         "/learn/finance/38",
         "/learn/finance/39",
-        "/learn/finance/40"
+        "/learn/finance/40",
+        "/learn/finance/41",
+        "/learn/finance/42",
+        "/learn/finance/43",
+        "/learn/finance/44",
+        "/learn/finance/45",
+        "/learn/finance/46",
+        "/learn/finance/47",
+        "/learn/finance/48",
+        "/learn/finance/49",
+        "/learn/finance/50"
       ],
       "extendedRoutes": [
         "/subjects/finance/cash-flow-basics",
@@ -3594,12 +4560,12 @@
       "id": "music",
       "title": "Music",
       "requestedUnits": 100,
-      "publishedCoreUnits": 8,
-      "remainingRequestedUnits": 92,
+      "publishedCoreUnits": 10,
+      "remainingRequestedUnits": 90,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 4,
+      "publishedMainLevels": 5,
       "supplementalSequences": 0,
-      "lessonCount": 40,
+      "lessonCount": 50,
       "units": [
         {
           "id": "unit-1-1",
@@ -3695,6 +4661,30 @@
             "38",
             "39",
             "40"
+          ]
+        },
+        {
+          "id": "unit-5-1",
+          "title": "How harmony moves: function, the fifths, borrowed colour, bass and the rhythm section",
+          "level": 5,
+          "lessonIds": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ]
+        },
+        {
+          "id": "unit-5-2",
+          "title": "Arranging, moving, balancing and finishing the piece",
+          "level": 5,
+          "lessonIds": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"
           ]
         }
       ],
@@ -3792,6 +4782,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/music/level-4",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/music/unit-5-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/music/unit-5-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-5",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/music/level-5",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -3956,6 +4970,86 @@
           "addedWords": 782,
           "readings": 4,
           "textStudySequence": true
+        },
+        {
+          "id": "41",
+          "title": "Name what each chord is doing, not only what it is",
+          "route": "/learn/music/41",
+          "addedWords": 899,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "42",
+          "title": "Use the circle of fifths as a working tool rather than a diagram",
+          "route": "/learn/music/42",
+          "addedWords": 958,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "43",
+          "title": "Borrowed chords and why they sound the way they do",
+          "route": "/learn/music/43",
+          "addedWords": 1004,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "44",
+          "title": "Let the bass line tell you what the harmony is doing",
+          "route": "/learn/music/44",
+          "addedWords": 928,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "45",
+          "title": "Give the rhythm section separate jobs so guitar and keys stop fighting",
+          "route": "/learn/music/45",
+          "addedWords": 861,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "46",
+          "title": "Write a melody over a progression and test it by ear",
+          "route": "/learn/music/46",
+          "addedWords": 903,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "47",
+          "title": "Build structure from contrast, and mark boundaries a listener can hear",
+          "route": "/learn/music/47",
+          "addedWords": 873,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "48",
+          "title": "Use automation to create movement that repeats identically",
+          "route": "/learn/music/48",
+          "addedWords": 934,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "49",
+          "title": "Balance and pan by subtracting, before adding anything",
+          "route": "/learn/music/49",
+          "addedWords": 923,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "50",
+          "title": "Finish the piece: render it, listen to the file, and write the delivery note",
+          "route": "/learn/music/50",
+          "addedWords": 973,
+          "readings": 2,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -4020,7 +5114,17 @@
         "/learn/music/37",
         "/learn/music/38",
         "/learn/music/39",
-        "/learn/music/40"
+        "/learn/music/40",
+        "/learn/music/41",
+        "/learn/music/42",
+        "/learn/music/43",
+        "/learn/music/44",
+        "/learn/music/45",
+        "/learn/music/46",
+        "/learn/music/47",
+        "/learn/music/48",
+        "/learn/music/49",
+        "/learn/music/50"
       ],
       "extendedRoutes": [
         "/subjects/music/beat-and-counting",
@@ -4041,12 +5145,12 @@
       "id": "skincare",
       "title": "Skincare",
       "requestedUnits": 100,
-      "publishedCoreUnits": 6,
-      "remainingRequestedUnits": 94,
+      "publishedCoreUnits": 8,
+      "remainingRequestedUnits": 92,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 3,
+      "publishedMainLevels": 4,
       "supplementalSequences": 0,
-      "lessonCount": 30,
+      "lessonCount": 40,
       "units": [
         {
           "id": "unit-1-1",
@@ -4118,6 +5222,30 @@
             "28",
             "29",
             "30"
+          ]
+        },
+        {
+          "id": "unit-4-1",
+          "title": "Barrier mechanics: cleansing, moisture, and sensitisation",
+          "level": 4,
+          "lessonIds": [
+            "31",
+            "32",
+            "33",
+            "34",
+            "35"
+          ]
+        },
+        {
+          "id": "unit-4-2",
+          "title": "Light, breakouts, pigment, and active-ingredient control",
+          "level": 4,
+          "lessonIds": [
+            "36",
+            "37",
+            "38",
+            "39",
+            "40"
           ]
         }
       ],
@@ -4191,6 +5319,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/skincare/level-3",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-4-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/skincare/unit-4-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-4-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/skincare/unit-4-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-4",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/skincare/level-4",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -4275,6 +5427,86 @@
           "addedWords": 585,
           "readings": 8,
           "textStudySequence": true
+        },
+        {
+          "id": "31",
+          "title": "The stratum corneum as a brick-and-mortar composite, and what the structure predicts",
+          "route": "/learn/skincare/31",
+          "addedWords": 903,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "32",
+          "title": "Over-cleansing: how surfactants strip the lipid mortar, and why tightness is a warning",
+          "route": "/learn/skincare/32",
+          "addedWords": 931,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "33",
+          "title": "Humectants: what water-binding actually means, and the ambient-humidity caveat",
+          "route": "/learn/skincare/33",
+          "addedWords": 914,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "34",
+          "title": "Emollients and occlusives: filling gaps in the mortar versus forming a film",
+          "route": "/learn/skincare/34",
+          "addedWords": 972,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "35",
+          "title": "Sensitisation, irritation, and patch testing: why a breached barrier admits allergens",
+          "route": "/learn/skincare/35",
+          "addedWords": 1060,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "36",
+          "title": "UVB and UVA: different wavelengths, different depths, different damage",
+          "route": "/learn/skincare/36",
+          "addedWords": 979,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "37",
+          "title": "SPF, broad spectrum, and quantity: reading protective numbers and applying the tested dose",
+          "route": "/learn/skincare/37",
+          "addedWords": 1155,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "38",
+          "title": "Acne as a follicular process, and why drying it out backfires",
+          "route": "/learn/skincare/38",
+          "addedWords": 1052,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "39",
+          "title": "Hyperpigmentation: how melanin gets deposited, and why the marks are stubborn",
+          "route": "/learn/skincare/39",
+          "addedWords": 1045,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "40",
+          "title": "Retinoids: the irritation curve, titrating exposure, and reading a retinol claim sceptically",
+          "route": "/learn/skincare/40",
+          "addedWords": 1189,
+          "readings": 4,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -4329,7 +5561,17 @@
         "/learn/skincare/27",
         "/learn/skincare/28",
         "/learn/skincare/29",
-        "/learn/skincare/30"
+        "/learn/skincare/30",
+        "/learn/skincare/31",
+        "/learn/skincare/32",
+        "/learn/skincare/33",
+        "/learn/skincare/34",
+        "/learn/skincare/35",
+        "/learn/skincare/36",
+        "/learn/skincare/37",
+        "/learn/skincare/38",
+        "/learn/skincare/39",
+        "/learn/skincare/40"
       ],
       "extendedRoutes": [
         "/subjects/skincare/skin-as-an-organ",
@@ -4348,12 +5590,12 @@
       "id": "psychiatry",
       "title": "Psychiatry",
       "requestedUnits": 100,
-      "publishedCoreUnits": 8,
-      "remainingRequestedUnits": 92,
+      "publishedCoreUnits": 10,
+      "remainingRequestedUnits": 90,
       "historicalRequestedLevels": 50,
-      "publishedMainLevels": 4,
+      "publishedMainLevels": 5,
       "supplementalSequences": 0,
-      "lessonCount": 40,
+      "lessonCount": 50,
       "units": [
         {
           "id": "unit-1-1",
@@ -4449,6 +5691,30 @@
             "38",
             "39",
             "40"
+          ]
+        },
+        {
+          "id": "unit-5-1",
+          "title": "Distinguishing the experience, the adaptation, and the alternative explanation",
+          "level": 5,
+          "lessonIds": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+          ]
+        },
+        {
+          "id": "unit-5-2",
+          "title": "Risk, treatment, recovery, and reading the evidence",
+          "level": 5,
+          "lessonIds": [
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"
           ]
         }
       ],
@@ -4546,6 +5812,30 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/psychiatry/level-4",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/psychiatry/unit-5-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-5-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/psychiatry/unit-5-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-5",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/psychiatry/level-5",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -4710,6 +6000,86 @@
           "addedWords": 709,
           "readings": 3,
           "textStudySequence": true
+        },
+        {
+          "id": "41",
+          "title": "Symptom or coping strategy: separating what a person experiences from what they do about it",
+          "route": "/learn/psychiatry/41",
+          "addedWords": 1096,
+          "readings": 2,
+          "textStudySequence": true
+        },
+        {
+          "id": "42",
+          "title": "Substance use, intoxication, and withdrawal as diagnostic confounders",
+          "route": "/learn/psychiatry/42",
+          "addedWords": 1215,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "43",
+          "title": "Neurodevelopmental presentations across the lifespan",
+          "route": "/learn/psychiatry/43",
+          "addedWords": 1167,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "44",
+          "title": "Personality structure versus personality disorder",
+          "route": "/learn/psychiatry/44",
+          "addedWords": 1280,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "45",
+          "title": "Trauma-informed assessment, and why a memory report is not a transcript",
+          "route": "/learn/psychiatry/45",
+          "addedWords": 1285,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "46",
+          "title": "Risk assessment and the real limits of prediction",
+          "route": "/learn/psychiatry/46",
+          "addedWords": 1224,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "47",
+          "title": "What the evidence for psychological therapies does and does not support",
+          "route": "/learn/psychiatry/47",
+          "addedWords": 1184,
+          "readings": 3,
+          "textStudySequence": true
+        },
+        {
+          "id": "48",
+          "title": "Rehabilitation and recovery-oriented practice",
+          "route": "/learn/psychiatry/48",
+          "addedWords": 1201,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "49",
+          "title": "Stigma, language, and iatrogenic harm",
+          "route": "/learn/psychiatry/49",
+          "addedWords": 1202,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "50",
+          "title": "How to read a psychiatric study critically",
+          "route": "/learn/psychiatry/50",
+          "addedWords": 1275,
+          "readings": 6,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -4774,7 +6144,17 @@
         "/learn/psychiatry/37",
         "/learn/psychiatry/38",
         "/learn/psychiatry/39",
-        "/learn/psychiatry/40"
+        "/learn/psychiatry/40",
+        "/learn/psychiatry/41",
+        "/learn/psychiatry/42",
+        "/learn/psychiatry/43",
+        "/learn/psychiatry/44",
+        "/learn/psychiatry/45",
+        "/learn/psychiatry/46",
+        "/learn/psychiatry/47",
+        "/learn/psychiatry/48",
+        "/learn/psychiatry/49",
+        "/learn/psychiatry/50"
       ],
       "extendedRoutes": []
     },
@@ -5572,7 +6952,7 @@
   ],
   "media": {
     "scope": "All published modern lessons, extended lessons and book guides; excludes decorative brand/art. Legacy repeated scene art is retained but not counted as newly authored topic-specific instruction.",
-    "totalLearningEntries": 590,
+    "totalLearningEntries": 690,
     "originalTopicIllustrationsAdded": 4,
     "controllableAnimatedDiagramsAdded": 4,
     "lessonsWithMetadataVerifiedVideo": 8,
@@ -5637,6 +7017,16 @@
       "/learn/russian/58",
       "/learn/russian/59",
       "/learn/russian/60",
+      "/learn/russian/61",
+      "/learn/russian/62",
+      "/learn/russian/63",
+      "/learn/russian/64",
+      "/learn/russian/65",
+      "/learn/russian/66",
+      "/learn/russian/67",
+      "/learn/russian/68",
+      "/learn/russian/69",
+      "/learn/russian/70",
       "/learn/business-funding/01",
       "/learn/business-funding/02",
       "/learn/business-funding/03",
@@ -5707,6 +7097,16 @@
       "/learn/business-funding/68",
       "/learn/business-funding/69",
       "/learn/business-funding/70",
+      "/learn/business-funding/71",
+      "/learn/business-funding/72",
+      "/learn/business-funding/73",
+      "/learn/business-funding/74",
+      "/learn/business-funding/75",
+      "/learn/business-funding/76",
+      "/learn/business-funding/77",
+      "/learn/business-funding/78",
+      "/learn/business-funding/79",
+      "/learn/business-funding/80",
       "/learn/literature/01",
       "/learn/literature/02",
       "/learn/literature/03",
@@ -5747,6 +7147,16 @@
       "/learn/literature/38",
       "/learn/literature/39",
       "/learn/literature/40",
+      "/learn/literature/41",
+      "/learn/literature/42",
+      "/learn/literature/43",
+      "/learn/literature/44",
+      "/learn/literature/45",
+      "/learn/literature/46",
+      "/learn/literature/47",
+      "/learn/literature/48",
+      "/learn/literature/49",
+      "/learn/literature/50",
       "/learn/neuroscience/01",
       "/learn/neuroscience/02",
       "/learn/neuroscience/03",
@@ -5787,6 +7197,16 @@
       "/learn/neuroscience/38",
       "/learn/neuroscience/39",
       "/learn/neuroscience/40",
+      "/learn/neuroscience/41",
+      "/learn/neuroscience/42",
+      "/learn/neuroscience/43",
+      "/learn/neuroscience/44",
+      "/learn/neuroscience/45",
+      "/learn/neuroscience/46",
+      "/learn/neuroscience/47",
+      "/learn/neuroscience/48",
+      "/learn/neuroscience/49",
+      "/learn/neuroscience/50",
       "/learn/veterinary-science/01",
       "/learn/veterinary-science/02",
       "/learn/veterinary-science/03",
@@ -5827,6 +7247,16 @@
       "/learn/veterinary-science/38",
       "/learn/veterinary-science/39",
       "/learn/veterinary-science/40",
+      "/learn/veterinary-science/41",
+      "/learn/veterinary-science/42",
+      "/learn/veterinary-science/43",
+      "/learn/veterinary-science/44",
+      "/learn/veterinary-science/45",
+      "/learn/veterinary-science/46",
+      "/learn/veterinary-science/47",
+      "/learn/veterinary-science/48",
+      "/learn/veterinary-science/49",
+      "/learn/veterinary-science/50",
       "/learn/theology/01",
       "/learn/theology/02",
       "/learn/theology/03",
@@ -5867,6 +7297,16 @@
       "/learn/theology/38",
       "/learn/theology/39",
       "/learn/theology/40",
+      "/learn/theology/41",
+      "/learn/theology/42",
+      "/learn/theology/43",
+      "/learn/theology/44",
+      "/learn/theology/45",
+      "/learn/theology/46",
+      "/learn/theology/47",
+      "/learn/theology/48",
+      "/learn/theology/49",
+      "/learn/theology/50",
       "/learn/finance/01",
       "/learn/finance/02",
       "/learn/finance/03",
@@ -5907,6 +7347,16 @@
       "/learn/finance/38",
       "/learn/finance/39",
       "/learn/finance/40",
+      "/learn/finance/41",
+      "/learn/finance/42",
+      "/learn/finance/43",
+      "/learn/finance/44",
+      "/learn/finance/45",
+      "/learn/finance/46",
+      "/learn/finance/47",
+      "/learn/finance/48",
+      "/learn/finance/49",
+      "/learn/finance/50",
       "/learn/music/01",
       "/learn/music/02",
       "/learn/music/03",
@@ -5947,6 +7397,16 @@
       "/learn/music/38",
       "/learn/music/39",
       "/learn/music/40",
+      "/learn/music/41",
+      "/learn/music/42",
+      "/learn/music/43",
+      "/learn/music/44",
+      "/learn/music/45",
+      "/learn/music/46",
+      "/learn/music/47",
+      "/learn/music/48",
+      "/learn/music/49",
+      "/learn/music/50",
       "/learn/skincare/01",
       "/learn/skincare/02",
       "/learn/skincare/03",
@@ -5977,6 +7437,16 @@
       "/learn/skincare/28",
       "/learn/skincare/29",
       "/learn/skincare/30",
+      "/learn/skincare/31",
+      "/learn/skincare/32",
+      "/learn/skincare/33",
+      "/learn/skincare/34",
+      "/learn/skincare/35",
+      "/learn/skincare/36",
+      "/learn/skincare/37",
+      "/learn/skincare/38",
+      "/learn/skincare/39",
+      "/learn/skincare/40",
       "/learn/psychiatry/01",
       "/learn/psychiatry/02",
       "/learn/psychiatry/03",
@@ -6017,6 +7487,16 @@
       "/learn/psychiatry/38",
       "/learn/psychiatry/39",
       "/learn/psychiatry/40",
+      "/learn/psychiatry/41",
+      "/learn/psychiatry/42",
+      "/learn/psychiatry/43",
+      "/learn/psychiatry/44",
+      "/learn/psychiatry/45",
+      "/learn/psychiatry/46",
+      "/learn/psychiatry/47",
+      "/learn/psychiatry/48",
+      "/learn/psychiatry/49",
+      "/learn/psychiatry/50",
       "/learn/philosophy/03",
       "/learn/philosophy/04",
       "/learn/philosophy/05",
@@ -6227,6 +7707,16 @@
       "/learn/russian/58",
       "/learn/russian/59",
       "/learn/russian/60",
+      "/learn/russian/61",
+      "/learn/russian/62",
+      "/learn/russian/63",
+      "/learn/russian/64",
+      "/learn/russian/65",
+      "/learn/russian/66",
+      "/learn/russian/67",
+      "/learn/russian/68",
+      "/learn/russian/69",
+      "/learn/russian/70",
       "/learn/business-funding/01",
       "/learn/business-funding/02",
       "/learn/business-funding/03",
@@ -6297,6 +7787,16 @@
       "/learn/business-funding/68",
       "/learn/business-funding/69",
       "/learn/business-funding/70",
+      "/learn/business-funding/71",
+      "/learn/business-funding/72",
+      "/learn/business-funding/73",
+      "/learn/business-funding/74",
+      "/learn/business-funding/75",
+      "/learn/business-funding/76",
+      "/learn/business-funding/77",
+      "/learn/business-funding/78",
+      "/learn/business-funding/79",
+      "/learn/business-funding/80",
       "/learn/literature/01",
       "/learn/literature/02",
       "/learn/literature/03",
@@ -6337,6 +7837,16 @@
       "/learn/literature/38",
       "/learn/literature/39",
       "/learn/literature/40",
+      "/learn/literature/41",
+      "/learn/literature/42",
+      "/learn/literature/43",
+      "/learn/literature/44",
+      "/learn/literature/45",
+      "/learn/literature/46",
+      "/learn/literature/47",
+      "/learn/literature/48",
+      "/learn/literature/49",
+      "/learn/literature/50",
       "/learn/neuroscience/01",
       "/learn/neuroscience/02",
       "/learn/neuroscience/03",
@@ -6377,6 +7887,16 @@
       "/learn/neuroscience/38",
       "/learn/neuroscience/39",
       "/learn/neuroscience/40",
+      "/learn/neuroscience/41",
+      "/learn/neuroscience/42",
+      "/learn/neuroscience/43",
+      "/learn/neuroscience/44",
+      "/learn/neuroscience/45",
+      "/learn/neuroscience/46",
+      "/learn/neuroscience/47",
+      "/learn/neuroscience/48",
+      "/learn/neuroscience/49",
+      "/learn/neuroscience/50",
       "/learn/veterinary-science/01",
       "/learn/veterinary-science/02",
       "/learn/veterinary-science/03",
@@ -6417,6 +7937,16 @@
       "/learn/veterinary-science/38",
       "/learn/veterinary-science/39",
       "/learn/veterinary-science/40",
+      "/learn/veterinary-science/41",
+      "/learn/veterinary-science/42",
+      "/learn/veterinary-science/43",
+      "/learn/veterinary-science/44",
+      "/learn/veterinary-science/45",
+      "/learn/veterinary-science/46",
+      "/learn/veterinary-science/47",
+      "/learn/veterinary-science/48",
+      "/learn/veterinary-science/49",
+      "/learn/veterinary-science/50",
       "/learn/theology/01",
       "/learn/theology/02",
       "/learn/theology/03",
@@ -6457,6 +7987,16 @@
       "/learn/theology/38",
       "/learn/theology/39",
       "/learn/theology/40",
+      "/learn/theology/41",
+      "/learn/theology/42",
+      "/learn/theology/43",
+      "/learn/theology/44",
+      "/learn/theology/45",
+      "/learn/theology/46",
+      "/learn/theology/47",
+      "/learn/theology/48",
+      "/learn/theology/49",
+      "/learn/theology/50",
       "/learn/finance/01",
       "/learn/finance/02",
       "/learn/finance/03",
@@ -6497,6 +8037,16 @@
       "/learn/finance/38",
       "/learn/finance/39",
       "/learn/finance/40",
+      "/learn/finance/41",
+      "/learn/finance/42",
+      "/learn/finance/43",
+      "/learn/finance/44",
+      "/learn/finance/45",
+      "/learn/finance/46",
+      "/learn/finance/47",
+      "/learn/finance/48",
+      "/learn/finance/49",
+      "/learn/finance/50",
       "/learn/music/01",
       "/learn/music/02",
       "/learn/music/03",
@@ -6534,6 +8084,16 @@
       "/learn/music/38",
       "/learn/music/39",
       "/learn/music/40",
+      "/learn/music/41",
+      "/learn/music/42",
+      "/learn/music/43",
+      "/learn/music/44",
+      "/learn/music/45",
+      "/learn/music/46",
+      "/learn/music/47",
+      "/learn/music/48",
+      "/learn/music/49",
+      "/learn/music/50",
       "/learn/skincare/01",
       "/learn/skincare/02",
       "/learn/skincare/03",
@@ -6564,6 +8124,16 @@
       "/learn/skincare/28",
       "/learn/skincare/29",
       "/learn/skincare/30",
+      "/learn/skincare/31",
+      "/learn/skincare/32",
+      "/learn/skincare/33",
+      "/learn/skincare/34",
+      "/learn/skincare/35",
+      "/learn/skincare/36",
+      "/learn/skincare/37",
+      "/learn/skincare/38",
+      "/learn/skincare/39",
+      "/learn/skincare/40",
       "/learn/psychiatry/01",
       "/learn/psychiatry/02",
       "/learn/psychiatry/03",
@@ -6604,6 +8174,16 @@
       "/learn/psychiatry/38",
       "/learn/psychiatry/39",
       "/learn/psychiatry/40",
+      "/learn/psychiatry/41",
+      "/learn/psychiatry/42",
+      "/learn/psychiatry/43",
+      "/learn/psychiatry/44",
+      "/learn/psychiatry/45",
+      "/learn/psychiatry/46",
+      "/learn/psychiatry/47",
+      "/learn/psychiatry/48",
+      "/learn/psychiatry/49",
+      "/learn/psychiatry/50",
       "/learn/philosophy/01",
       "/learn/philosophy/02",
       "/learn/philosophy/03",
@@ -7353,6 +8933,106 @@
         "playbackVerified": false
       },
       {
+        "key": "russian/61",
+        "route": "/learn/russian/61",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/62",
+        "route": "/learn/russian/62",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/63",
+        "route": "/learn/russian/63",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/64",
+        "route": "/learn/russian/64",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/65",
+        "route": "/learn/russian/65",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/66",
+        "route": "/learn/russian/66",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/67",
+        "route": "/learn/russian/67",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/68",
+        "route": "/learn/russian/68",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/69",
+        "route": "/learn/russian/69",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/70",
+        "route": "/learn/russian/70",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
         "key": "business-funding/01",
         "route": "/learn/business-funding/01",
         "newTopicIllustration": false,
@@ -8053,6 +9733,106 @@
         "playbackVerified": false
       },
       {
+        "key": "business-funding/71",
+        "route": "/learn/business-funding/71",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/72",
+        "route": "/learn/business-funding/72",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/73",
+        "route": "/learn/business-funding/73",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/74",
+        "route": "/learn/business-funding/74",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/75",
+        "route": "/learn/business-funding/75",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/76",
+        "route": "/learn/business-funding/76",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/77",
+        "route": "/learn/business-funding/77",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/78",
+        "route": "/learn/business-funding/78",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/79",
+        "route": "/learn/business-funding/79",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "business-funding/80",
+        "route": "/learn/business-funding/80",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
         "key": "literature/01",
         "route": "/learn/literature/01",
         "newTopicIllustration": false,
@@ -8445,6 +10225,106 @@
       {
         "key": "literature/40",
         "route": "/learn/literature/40",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/41",
+        "route": "/learn/literature/41",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/42",
+        "route": "/learn/literature/42",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/43",
+        "route": "/learn/literature/43",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/44",
+        "route": "/learn/literature/44",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/45",
+        "route": "/learn/literature/45",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/46",
+        "route": "/learn/literature/46",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/47",
+        "route": "/learn/literature/47",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/48",
+        "route": "/learn/literature/48",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/49",
+        "route": "/learn/literature/49",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "literature/50",
+        "route": "/learn/literature/50",
         "newTopicIllustration": false,
         "newControllableAnimation": false,
         "videoId": null,
@@ -8853,6 +10733,106 @@
         "playbackVerified": false
       },
       {
+        "key": "neuroscience/41",
+        "route": "/learn/neuroscience/41",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/42",
+        "route": "/learn/neuroscience/42",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/43",
+        "route": "/learn/neuroscience/43",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/44",
+        "route": "/learn/neuroscience/44",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/45",
+        "route": "/learn/neuroscience/45",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/46",
+        "route": "/learn/neuroscience/46",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/47",
+        "route": "/learn/neuroscience/47",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/48",
+        "route": "/learn/neuroscience/48",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/49",
+        "route": "/learn/neuroscience/49",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "neuroscience/50",
+        "route": "/learn/neuroscience/50",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
         "key": "veterinary-science/01",
         "route": "/learn/veterinary-science/01",
         "newTopicIllustration": false,
@@ -9245,6 +11225,106 @@
       {
         "key": "veterinary-science/40",
         "route": "/learn/veterinary-science/40",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/41",
+        "route": "/learn/veterinary-science/41",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/42",
+        "route": "/learn/veterinary-science/42",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/43",
+        "route": "/learn/veterinary-science/43",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/44",
+        "route": "/learn/veterinary-science/44",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/45",
+        "route": "/learn/veterinary-science/45",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/46",
+        "route": "/learn/veterinary-science/46",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/47",
+        "route": "/learn/veterinary-science/47",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/48",
+        "route": "/learn/veterinary-science/48",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/49",
+        "route": "/learn/veterinary-science/49",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "veterinary-science/50",
+        "route": "/learn/veterinary-science/50",
         "newTopicIllustration": false,
         "newControllableAnimation": false,
         "videoId": null,
@@ -9653,6 +11733,106 @@
         "playbackVerified": false
       },
       {
+        "key": "theology/41",
+        "route": "/learn/theology/41",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/42",
+        "route": "/learn/theology/42",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/43",
+        "route": "/learn/theology/43",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/44",
+        "route": "/learn/theology/44",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/45",
+        "route": "/learn/theology/45",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/46",
+        "route": "/learn/theology/46",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/47",
+        "route": "/learn/theology/47",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/48",
+        "route": "/learn/theology/48",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/49",
+        "route": "/learn/theology/49",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "theology/50",
+        "route": "/learn/theology/50",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
         "key": "finance/01",
         "route": "/learn/finance/01",
         "newTopicIllustration": false,
@@ -10045,6 +12225,106 @@
       {
         "key": "finance/40",
         "route": "/learn/finance/40",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/41",
+        "route": "/learn/finance/41",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/42",
+        "route": "/learn/finance/42",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/43",
+        "route": "/learn/finance/43",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/44",
+        "route": "/learn/finance/44",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/45",
+        "route": "/learn/finance/45",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/46",
+        "route": "/learn/finance/46",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/47",
+        "route": "/learn/finance/47",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/48",
+        "route": "/learn/finance/48",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/49",
+        "route": "/learn/finance/49",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "finance/50",
+        "route": "/learn/finance/50",
         "newTopicIllustration": false,
         "newControllableAnimation": false,
         "videoId": null,
@@ -10453,6 +12733,106 @@
         "playbackVerified": false
       },
       {
+        "key": "music/41",
+        "route": "/learn/music/41",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/42",
+        "route": "/learn/music/42",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/43",
+        "route": "/learn/music/43",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/44",
+        "route": "/learn/music/44",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/45",
+        "route": "/learn/music/45",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/46",
+        "route": "/learn/music/46",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/47",
+        "route": "/learn/music/47",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/48",
+        "route": "/learn/music/48",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/49",
+        "route": "/learn/music/49",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "music/50",
+        "route": "/learn/music/50",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
         "key": "skincare/01",
         "route": "/learn/skincare/01",
         "newTopicIllustration": false,
@@ -10745,6 +13125,106 @@
       {
         "key": "skincare/30",
         "route": "/learn/skincare/30",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/31",
+        "route": "/learn/skincare/31",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/32",
+        "route": "/learn/skincare/32",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/33",
+        "route": "/learn/skincare/33",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/34",
+        "route": "/learn/skincare/34",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/35",
+        "route": "/learn/skincare/35",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/36",
+        "route": "/learn/skincare/36",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/37",
+        "route": "/learn/skincare/37",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/38",
+        "route": "/learn/skincare/38",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/39",
+        "route": "/learn/skincare/39",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "skincare/40",
+        "route": "/learn/skincare/40",
         "newTopicIllustration": false,
         "newControllableAnimation": false,
         "videoId": null,
@@ -11145,6 +13625,106 @@
       {
         "key": "psychiatry/40",
         "route": "/learn/psychiatry/40",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/41",
+        "route": "/learn/psychiatry/41",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/42",
+        "route": "/learn/psychiatry/42",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/43",
+        "route": "/learn/psychiatry/43",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/44",
+        "route": "/learn/psychiatry/44",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/45",
+        "route": "/learn/psychiatry/45",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/46",
+        "route": "/learn/psychiatry/46",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/47",
+        "route": "/learn/psychiatry/47",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/48",
+        "route": "/learn/psychiatry/48",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/49",
+        "route": "/learn/psychiatry/49",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "psychiatry/50",
+        "route": "/learn/psychiatry/50",
         "newTopicIllustration": false,
         "newControllableAnimation": false,
         "videoId": null,

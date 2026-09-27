@@ -4,16 +4,15 @@ describe('published instruction not outlines',()=>{
  it('publishes eleven paths with complete ten-topic levels and authored funding and Philosophy continuation',()=>{
  expect(programs).toHaveLength(11);
  for(const p of programs){
-  // Original inventory plus reviewed continuation levels: Russian and Funding carry two, Philosophy one,
-  // and this wave added a continuation to every other course except Skincare.
-  expect(p.levels).toHaveLength(p.id==='business-funding'?7:p.id==='russian'?6:p.id==='philosophy'?8:p.id==='skincare'?3:4);
+  // Continuation levels per course: Russian 3, Funding 3, Philosophy 2, Skincare 1, the rest 2.
+  expect(p.levels).toHaveLength(p.id==='business-funding'?8:p.id==='russian'?7:p.id==='philosophy'?8:p.id==='skincare'?4:5);
   const titles=new Set<string>();
   for(const level of p.levels){expect(level.topics).toHaveLength(10);for(const t of level.topics){
    titles.add(t.title); expect(t.explanation.length).toBeGreaterThan(70);expect(t.example.length).toBeGreaterThan(40);expect(t.question.length).toBeGreaterThan(15);expect(t.answer).not.toBe(t.distractor);expect(t.correction.length).toBeGreaterThan(25);
    // Original music lessons carry a micropractice; continuation lessons carry the physical task in depth.application.
    if(p.id==='music') expect((t.practice??t.depth?.application)?.length).toBeGreaterThan(40);
    if(p.id==='russian') {const items=t.russian?[t.russian]:t.russianItems??[];expect(items.length).toBeGreaterThan(0);for(const item of items){expect(item.text).toMatch(/[А-Яа-яЁё]/);expect(item.latin).toMatch(/[A-Z]/);expect(item.meaning.length).toBeGreaterThan(1);}}
-  }}expect(titles.size).toBe(p.id==='business-funding'?70:p.id==='russian'?60:p.id==='philosophy'?80:p.id==='skincare'?30:40);
+  }}expect(titles.size).toBe(p.id==='business-funding'?80:p.id==='russian'?70:p.id==='philosophy'?80:p.id==='skincare'?40:50);
   expect(new Set(p.levels.flatMap(l=>l.topics.map(t=>t.id))).size).toBe(titles.size);
  }
  });
