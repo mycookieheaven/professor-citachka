@@ -4,10 +4,10 @@ it('measures registered inventory against the 100-unit target without inflating 
  const audit=auditCurriculum();expect(audit.subjects.slice(0,2).map(s=>s.id)).toEqual(['russian','business-funding']);
  // Base catalog plus reviewed continuation levels: every course now carries at least one,
  // with Russian, Business Funding and Philosophy carrying more than one.
- expect(audit.totals.publishedModernLessons).toBe(720);
- expect(audit.totals.deeplyExpandedThisRevision).toBe(440);expect(audit.totals.modernLessonsNotDeeplyExpandedThisRevision).toBe(280);
- expect(audit.totals.publishedCoreUnits).toBe(142);expect(audit.totals.requestedCoreUnits).toBe(1100);
+ expect(audit.totals.publishedModernLessons).toBe(820);
+ expect(audit.totals.deeplyExpandedThisRevision).toBe(540);expect(audit.totals.modernLessonsNotDeeplyExpandedThisRevision).toBe(280);
+ expect(audit.totals.publishedCoreUnits).toBe(162);expect(audit.totals.requestedCoreUnits).toBe(1100);
  expect(audit.totals.remainingRequestedCoreUnits+audit.totals.publishedCoreUnits).toBe(audit.totals.requestedCoreUnits);
- expect(audit.totals.freshApplicationAssessments).toBe(126);
+ expect(audit.totals.freshApplicationAssessments).toBe(156);
  const routes=audit.subjects.flatMap(s=>[...s.lessonRoutes,...s.extendedRoutes,...s.assessments.map(a=>a.route)]);expect(new Set(routes).size).toBe(routes.length);
 });
