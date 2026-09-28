@@ -9,6 +9,8 @@ Usage:
     python3 scripts/verify-homepage-release.py [--host cookieheaven.art] [--ip 216.198.79.1]
 """
 
+from __future__ import annotations
+
 import argparse
 import http.client
 import re

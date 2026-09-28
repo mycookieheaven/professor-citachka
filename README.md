@@ -18,10 +18,13 @@ Current scope:
 | Measure | Count |
 |---|---:|
 | Subjects | 11 |
-| Authored lessons | 820 |
-| Published core units | 162 of a planned 1,100 |
-| Unit quizzes | 164 |
-| Cumulative level tests | 82 |
+| Authored lessons | 920 |
+| Published core units | 182 of a planned 1,100 |
+| Unit quizzes | 184 |
+| Cumulative level tests | 92 |
+
+The site has an English, Spanish and Russian homepage at `/`, `/es` and `/ru`; the
+curriculum itself begins at `/study`.
 
 Subjects: Russian, business funding and sales, philosophy, neuroscience,
 psychiatry, veterinary science, Catholic theology, finance, literature, music,
