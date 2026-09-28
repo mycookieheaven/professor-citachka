@@ -1,35 +1,87 @@
 /* cookieheaven.art — personal homepage.
 
-   Neon pink and neon yellow woven into a diagonal lattice over a near-black
-   magenta base. The brightness lives in the pattern layer, never in the text:
-   the headings glow, but body copy stays near-white on near-black, which is what
-   keeps long-form reading comfortable and legible for low vision. Neon type on a
-   light background would look the part and be unreadable — this is the version
-   that is both. */
+   Neon pink, glitter, and motion. Three things had to be true at once, and two of
+   them pull against the third:
+
+   1. It has to read as pink and glittery, animated and alive.
+   2. Body copy has to stay legible — this reader has impaired vision, so text keeps
+      near-white on a deep plum ground at roughly 13:1. The pink lives in the
+      background and the glows, never in the text.
+   3. Motion has to be optional in practice. The site ships `data-motion="calm"` by
+      default, so the gentle glitter animates for everyone and the louder, faster
+      layers are gated behind `html[data-motion="lively"]`. Every animation here is
+      switched off entirely under `prefers-reduced-motion`, including the ones that
+      run in Calm — the OS setting is the reader's control and it wins.
+
+   All motion is transform/opacity/background-position only: no layout is animated,
+   so nothing reflows while you read. */
 
 .home {
-  --neon-pink: #ff2fa0;
-  --neon-yellow: #ffe94d;
-  --neon-pink-soft: rgba(255, 47, 160, 0.30);
-  --neon-yellow-soft: rgba(255, 233, 77, 0.24);
-  --home-base: #1b0514;
-  --home-panel: rgba(48, 8, 34, 0.74);
+  --pink-hot: #ff3d9a;
+  --pink-bright: #ff7ac0;
+  --pink-pale: #ffd9ec;
+  --pink-deep: #2a0618;
+  --pink-mid: #4a0f31;
+  --sparkle: #ffffff;
+  --home-base: #1a0410;
+  --home-panel: rgba(58, 10, 40, 0.72);
+  --home-edge: rgba(255, 122, 192, 0.42);
 
   position: relative;
   z-index: 2;
+  overflow: hidden;
   color: var(--ink);
   background-color: var(--home-base);
-  /* Painted back to front: two colour glows, then a pink and a yellow diagonal
-     band crossing each other into a lattice of diamonds. */
+  /* Three soft pink blooms, drifting against each other. Each background layer gets
+     its own position in the keyframes, so one animation moves all three
+     independently — no extra DOM, no JS, no layout work. */
   background-image:
-    radial-gradient(circle at 8% 4%, rgba(255, 47, 160, 0.34), transparent 42%),
-    radial-gradient(circle at 94% 2%, rgba(255, 233, 77, 0.26), transparent 40%),
-    repeating-linear-gradient(45deg, var(--neon-pink-soft) 0 2px, transparent 2px 32px),
-    repeating-linear-gradient(-45deg, var(--neon-yellow-soft) 0 2px, transparent 2px 32px);
-  background-attachment: fixed;
+    radial-gradient(circle at 14% 10%, rgba(255, 61, 154, 0.42), transparent 46%),
+    radial-gradient(circle at 88% 6%, rgba(255, 122, 192, 0.34), transparent 44%),
+    radial-gradient(circle at 50% 96%, rgba(214, 51, 132, 0.30), transparent 52%);
+  background-size: 140% 140%, 130% 130%, 150% 150%;
+  animation: pink-bloom-drift 46s ease-in-out infinite;
+}
+
+/* Glitter, layer one: fine warm-white sparkle. */
+.home::before {
+  content: "";
+  position: absolute;
+  inset: -22%;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.95) 0 1.1px, transparent 1.7px),
+    radial-gradient(circle, rgba(255, 217, 236, 0.85) 0 1.5px, transparent 2.2px),
+    radial-gradient(circle, rgba(255, 61, 154, 0.72) 0 2.1px, transparent 2.9px);
+  background-size: 137px 137px, 211px 211px, 313px 313px;
+  background-position: 0 0, 71px 109px, 149px 43px;
+  opacity: 0.62;
+  animation: glitter-drift 34s linear infinite;
+}
+
+/* Glitter, layer two: sparser, larger, moving the other way. Because it beats
+   against layer one at a different speed and tile size, the field reads as
+   twinkling rather than as a scrolling texture. */
+.home::after {
+  content: "";
+  position: absolute;
+  inset: -30%;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.9) 0 1.9px, transparent 2.6px),
+    radial-gradient(circle, rgba(255, 122, 192, 0.8) 0 2.6px, transparent 3.6px),
+    linear-gradient(112deg, transparent 38%, rgba(255, 255, 255, 0.16) 50%, transparent 62%);
+  background-size: 269px 269px, 401px 401px, 220% 220%;
+  background-position: 40px 30px, 210px 160px, -60% 0;
+  opacity: 0.5;
+  animation: glitter-drift-reverse 47s linear infinite, glitter-twinkle 6.5s ease-in-out infinite;
 }
 
 .home-inner {
+  position: relative;
+  z-index: 1;
   max-width: 1080px;
   margin: 0 auto;
   padding: clamp(38px, 6vw, 76px) clamp(20px, 5vw, 48px) 96px;
@@ -43,14 +95,16 @@
   align-items: center;
   gap: clamp(26px, 5vw, 56px);
   padding-bottom: clamp(30px, 5vw, 52px);
-  border-bottom: 1px solid var(--neon-pink-soft);
+  border-bottom: 1px solid var(--home-edge);
 }
 
 .home-hero-copy { min-width: 0; }
 
 .home .eyebrow {
-  color: var(--neon-yellow);
-  text-shadow: 0 0 14px rgba(255, 233, 77, 0.5);
+  color: var(--pink-bright);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-shadow: 0 0 16px rgba(255, 61, 154, 0.6);
 }
 
 .home h1 {
@@ -62,16 +116,27 @@
   letter-spacing: -0.03em;
   color: #fff6fc;
   text-shadow:
-    0 0 16px rgba(255, 47, 160, 0.75),
-    0 0 44px rgba(255, 47, 160, 0.42);
+    0 0 18px rgba(255, 61, 154, 0.8),
+    0 0 48px rgba(255, 61, 154, 0.45),
+    0 2px 0 rgba(42, 6, 24, 0.4);
 }
 
 .home-lede {
   max-width: 60ch;
-  margin: 0 0 26px;
+  margin: 0 0 22px;
   font-size: clamp(19px, 1.6vw, 22px);
   line-height: 1.72;
   color: #ffeaf6;
+}
+
+.home-location {
+  margin: 0 0 26px;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pink-pale);
+  text-shadow: 0 0 14px rgba(255, 61, 154, 0.55);
 }
 
 .home-actions {
@@ -79,16 +144,6 @@
   flex-wrap: wrap;
   gap: 14px;
   align-items: center;
-}
-
-.home-location {
-  margin: 0 0 24px;
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--neon-yellow);
-  text-shadow: 0 0 12px rgba(255, 233, 77, 0.45);
 }
 
 /* Language switch. Three plain links, so the pages work without JavaScript and
@@ -102,56 +157,56 @@
 
 .home-languages a {
   padding: 6px 14px;
-  border: 2px solid rgba(255, 233, 77, 0.55);
+  border: 2px solid rgba(255, 122, 192, 0.6);
   border-radius: 999px;
-  color: var(--neon-yellow);
+  color: var(--pink-pale);
   font-weight: 700;
   font-size: 16px;
   text-decoration: none;
+  background: rgba(42, 6, 24, 0.5);
 }
 
 .home-languages a[aria-current="page"] {
-  border-color: var(--neon-pink);
-  color: var(--night);
-  background: var(--neon-pink);
-  box-shadow: 0 0 18px rgba(255, 47, 160, 0.5);
+  border-color: var(--pink-hot);
+  color: #240310;
+  background: var(--pink-hot);
+  box-shadow: 0 0 22px rgba(255, 61, 154, 0.65);
 }
 
 .home-languages a:focus-visible {
-  outline: 3px solid var(--neon-yellow);
+  outline: 3px solid var(--pink-pale);
   outline-offset: 3px;
 }
 
-/* Dark type on a neon fill: roughly 8:1 contrast, so the buttons are loud and
-   still readable. */
+/* Near-black on hot pink is about 7:1, so the button is loud and still readable. */
 .home .primary-action {
-  background: var(--neon-pink);
-  color: #20040f;
+  background: linear-gradient(135deg, var(--pink-hot), var(--pink-bright));
+  color: #240310;
   border: 0;
   font-weight: 800;
   font-size: 19px;
-  box-shadow: 0 0 24px rgba(255, 47, 160, 0.6);
+  box-shadow: 0 0 26px rgba(255, 61, 154, 0.6);
 }
 
 .home .primary-action:hover,
 .home .primary-action:focus-visible {
-  background: var(--neon-yellow);
-  color: #241c00;
+  background: linear-gradient(135deg, var(--pink-bright), var(--pink-pale));
+  color: #240310;
 }
 
 .home .secondary-action {
-  color: var(--neon-yellow);
-  border: 2px solid var(--neon-yellow);
-  background: transparent;
+  color: var(--pink-pale);
+  border: 2px solid var(--pink-pale);
+  background: rgba(42, 6, 24, 0.45);
   font-weight: 800;
   font-size: 19px;
-  box-shadow: 0 0 18px rgba(255, 233, 77, 0.28);
+  box-shadow: 0 0 20px rgba(255, 122, 192, 0.3);
 }
 
 .home .secondary-action:hover,
 .home .secondary-action:focus-visible {
-  background: var(--neon-yellow);
-  color: #241c00;
+  background: var(--pink-pale);
+  color: #240310;
 }
 
 .home-spotify {
@@ -165,6 +220,7 @@
   font-weight: 800;
   font-size: 18px;
   text-decoration: none;
+  background: rgba(6, 37, 16, 0.35);
 }
 
 .home-spotify:hover,
@@ -175,30 +231,39 @@
 
 /* ---------- portrait ---------- */
 
+/* A 3:4 photograph of a person should not be cropped to a circle: the crop takes
+   the top of the head and the bow tie with it. The frame is a rounded portrait
+   card instead, sized to the photograph's own aspect ratio. */
 .home-portrait {
-  width: clamp(190px, 26vw, 300px);
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 3px solid var(--neon-yellow);
+  width: clamp(210px, 30vw, 340px);
+  aspect-ratio: 3 / 4;
+  padding: 9px;
+  border-radius: 28px;
+  background: linear-gradient(148deg, var(--pink-hot), var(--pink-pale) 42%, var(--pink-bright) 68%, var(--pink-hot));
   box-shadow:
-    0 0 30px rgba(255, 233, 77, 0.45),
-    0 18px 46px rgba(10, 2, 8, 0.6);
-  background: var(--home-panel);
+    0 0 44px rgba(255, 61, 154, 0.55),
+    0 26px 62px rgba(10, 2, 8, 0.66);
+  animation: portrait-float 8s ease-in-out infinite;
 }
 
 .home-portrait img {
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 20px;
   object-fit: cover;
+  background: var(--pink-deep);
+}
+
+.home-portrait:hover img {
+  filter: saturate(1.06) brightness(1.03);
 }
 
 /* ---------- sections ---------- */
 
 .home-section {
   padding: clamp(34px, 5vw, 56px) 0;
-  border-bottom: 1px solid rgba(255, 233, 77, 0.22);
+  border-bottom: 1px solid rgba(255, 122, 192, 0.24);
 }
 
 .home-section:last-of-type { border-bottom: 0; }
@@ -212,8 +277,8 @@
   letter-spacing: -0.02em;
   color: #fff6fc;
   text-shadow:
-    0 0 14px rgba(255, 233, 77, 0.6),
-    0 0 38px rgba(255, 233, 77, 0.3);
+    0 0 16px rgba(255, 61, 154, 0.7),
+    0 0 42px rgba(255, 61, 154, 0.35);
 }
 
 .home-section p {
@@ -232,17 +297,18 @@
 }
 
 .home-inline-link {
-  color: var(--neon-yellow);
+  color: var(--pink-pale);
   font-weight: 800;
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
 }
 
 .home-empty {
   margin: 0;
   padding: 22px 24px;
-  border: 2px dashed rgba(255, 233, 77, 0.5);
-  border-radius: 16px;
+  border: 2px dashed rgba(255, 122, 192, 0.55);
+  border-radius: 18px;
   font-size: 18px;
   line-height: 1.6;
   color: #ffe4f4;
@@ -262,11 +328,11 @@
 
 .gallery-item {
   margin: 0;
-  border: 2px solid rgba(255, 47, 160, 0.45);
-  border-radius: 18px;
+  border: 2px solid var(--home-edge);
+  border-radius: 20px;
   overflow: hidden;
   background: var(--home-panel);
-  box-shadow: 0 0 22px rgba(255, 47, 160, 0.18);
+  box-shadow: 0 0 26px rgba(255, 61, 154, 0.22);
 }
 
 .gallery-item a {
@@ -283,7 +349,7 @@
 }
 
 .gallery-item a:focus-visible {
-  outline: 3px solid var(--neon-yellow);
+  outline: 3px solid var(--pink-pale);
   outline-offset: -3px;
 }
 
@@ -318,9 +384,9 @@
 
 .music-card {
   padding: 20px 22px;
-  border: 2px solid rgba(255, 233, 77, 0.4);
-  border-left: 5px solid var(--neon-pink);
-  border-radius: 16px;
+  border: 2px solid rgba(255, 122, 192, 0.34);
+  border-left: 5px solid var(--pink-hot);
+  border-radius: 18px;
   background: var(--home-panel);
 }
 
@@ -335,7 +401,7 @@
   display: block;
   margin-top: 4px;
   font-size: 18px;
-  color: var(--neon-yellow);
+  color: var(--pink-bright);
 }
 
 .music-card .music-note {
@@ -350,7 +416,7 @@
   margin-top: 14px;
   font-size: 18px;
   font-weight: 800;
-  color: var(--neon-yellow);
+  color: var(--pink-pale);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -381,14 +447,91 @@
 }
 
 .global-quick-nav a:focus-visible {
-  outline: 3px solid var(--neon-yellow);
+  outline: 3px solid var(--pink-pale);
   outline-offset: 2px;
 }
 
 .home a:focus-visible,
 .home button:focus-visible {
-  outline: 3px solid var(--neon-yellow);
+  outline: 3px solid var(--pink-pale);
   outline-offset: 3px;
+}
+
+/* ---------- motion ---------- */
+
+@keyframes pink-bloom-drift {
+  0%, 100% { background-position: 0% 0%, 100% 0%, 50% 100%; }
+  33% { background-position: 22% 26%, 74% 34%, 34% 72%; }
+  66% { background-position: 8% 52%, 92% 12%, 66% 40%; }
+}
+
+@keyframes glitter-drift {
+  0% { background-position: 0 0, 71px 109px, 149px 43px; }
+  100% { background-position: 137px 137px, -140px 320px, 462px -270px; }
+}
+
+@keyframes glitter-drift-reverse {
+  0% { background-position: 40px 30px, 210px 160px, -60% 0; }
+  100% { background-position: -229px 299px, -191px -241px, 160% 0; }
+}
+
+@keyframes glitter-twinkle {
+  0%, 100% { opacity: 0.42; }
+  50% { opacity: 0.66; }
+}
+
+@keyframes portrait-float {
+  0%, 100% { transform: translateY(0) rotate(-0.4deg); }
+  50% { transform: translateY(-10px) rotate(0.4deg); }
+}
+
+/* Lively adds the faster, brighter layers. Calm keeps only the slow glitter, which
+   is movement you notice without being asked to watch it. */
+html[data-motion="lively"] .home::before {
+  opacity: 0.8;
+  animation-duration: 19s;
+}
+
+html[data-motion="lively"] .home::after {
+  opacity: 0.72;
+  animation-duration: 23s, 4.2s;
+}
+
+html[data-motion="lively"] .home h1,
+html[data-motion="lively"] .home h2 {
+  animation: pink-title-pulse 5.5s ease-in-out infinite;
+}
+
+@keyframes pink-title-pulse {
+  0%, 100% {
+    text-shadow:
+      0 0 18px rgba(255, 61, 154, 0.8),
+      0 0 48px rgba(255, 61, 154, 0.45),
+      0 2px 0 rgba(42, 6, 24, 0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 26px rgba(255, 122, 192, 0.95),
+      0 0 66px rgba(255, 61, 154, 0.6),
+      0 2px 0 rgba(42, 6, 24, 0.4);
+  }
+}
+
+/* The reader's OS setting is the final word: no animation reaches them at all.
+   The glitter is left visible but static, so the page is still pink and sparkling
+   rather than simply stripped. */
+@media (prefers-reduced-motion: reduce) {
+  .home,
+  .home::before,
+  .home::after,
+  .home-portrait,
+  html[data-motion="lively"] .home h1,
+  html[data-motion="lively"] .home h2 {
+    animation: none !important;
+  }
+
+  .home::before { opacity: 0.55; }
+  .home::after { opacity: 0.4; }
 }
 
 /* ---------- small screens ---------- */
@@ -400,7 +543,7 @@
   }
 
   .home-portrait {
-    width: min(230px, 62vw);
+    width: min(260px, 68vw);
     order: -1;
   }
 

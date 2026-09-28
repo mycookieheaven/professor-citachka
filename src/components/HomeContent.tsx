@@ -120,8 +120,10 @@ export function HomeContent({
           </div>
           {portrait ? (
             <div className="home-portrait">
+              {/* Intrinsic size, not a square: the photograph is 3:4 and a square
+                  box would stretch it. */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={portrait.src} alt={portraitAlt} width={640} height={640} />
+              <img src={portrait.src} alt={portraitAlt} width={825} height={1100} />
             </div>
           ) : null}
         </section>

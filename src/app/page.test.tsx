@@ -55,9 +55,21 @@ describe("cookieheaven.art homepage", () => {
     expect(screen.getAllByText(/will appear in this section as they are added/i).length).toBe(2);
   });
 
-  it("does not show a portrait while no portrait file exists", () => {
+  it("shows her portrait, labelled for a screen reader and not stretched", () => {
     const { container } = render(<HomePage />);
-    expect(container.querySelector(".home-portrait")).toBeNull();
+    const frame = container.querySelector(".home-portrait");
+    expect(frame).not.toBeNull();
+
+    const img = frame?.querySelector("img");
+    expect(img).toHaveAttribute("src", "/images/portrait.jpg");
+    // Alt text has to describe her, not the filename.
+    expect(img?.getAttribute("alt")).toMatch(/melissa aguilera/i);
+
+    // The photograph is 3:4. Declaring it square would squash it in every browser
+    // that reserves space from the attributes before the image loads.
+    const width = Number(img?.getAttribute("width"));
+    const height = Number(img?.getAttribute("height"));
+    expect(width / height).toBeCloseTo(3 / 4, 2);
   });
 
   it("never prints a placeholder music entry of its own invention", () => {
