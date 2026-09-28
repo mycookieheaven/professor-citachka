@@ -7,7 +7,7 @@ export default function RussianCurriculumIndex() {
   return (
     <main className="subject-room-page">
       <div className="subject-room-orbit" aria-hidden="true" />
-      <header className="lesson-topbar"><Link href="/" className="back-link"><span aria-hidden="true">←</span> Professor’s Study</Link><span className="room-state">24-week pathway</span></header>
+      <header className="lesson-topbar"><Link href="/study" className="back-link"><span aria-hidden="true">←</span> Professor’s Study</Link><span className="room-state">24-week pathway</span></header>
       <article className="subject-room-content">
         <p className="eyebrow">Professor Citachka · Russian</p><h1>Russian Study Map</h1><ProgramPath subject="russian" />
         <p className="room-description">A complete beginner route from Cyrillic literacy to practical A2-style conversations. Each weekly lesson includes a spoken phrase, scene, and retrieval check.</p>

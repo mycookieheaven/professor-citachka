@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function LiteraturePage() {
   return (
     <main className={`subject-room-page ${styles.room}`}>
-      <header className="lesson-topbar"><Link href="/" className="back-link">← Professor’s Study</Link><span className="room-state">Four guides available now</span></header>
+      <header className="lesson-topbar"><Link href="/study" className="back-link">← Professor’s Study</Link><span className="room-state">Four guides available now</span></header>
       <div className={`subject-room-content ${styles.content}`}>
         <div className="room-code"><SubjectIcon subject="literature" /></div>
         <p className="eyebrow">Professor Citachka · Department</p>
@@ -46,7 +46,7 @@ export default function LiteraturePage() {
           <a className={styles.back} href="#orientation">Back to reading orientation ↑</a>
         </article>)}</section>
         <section className={styles.panel} aria-labelledby="future"><h2 id="future">Future expansion · not yet published</h2><p>The four guides above are the current teaching content. The following are proposed extensions, not available lessons or promised release dates.</p><ul><li><strong>Broader foundations:</strong> short stories, poetry, meter, and Shakespearean drama with guided passages.</li><li><strong>Intermediate studies:</strong> Dickens, the Brontës beyond Jane Eyre, historical context, and sustained essay revision.</li><li><strong>Advanced seminars:</strong> modernism, postcolonial responses to the canon, critical theory, scholarly source evaluation, and a research portfolio.</li></ul><p>For advanced work now, complete the comparative capstone in the Gatsby guide. A suggested self-review rubric: a focused claim; accurately located evidence; explanation of wording; a serious counterargument; and a revision that makes the claim more precise. Automated checks here do not grade essays.</p></section>
-        <Link className="back-link" href="/">← Return to all departments</Link>
+        <Link className="back-link" href="/study">← Return to all departments</Link>
       </div>
     </main>
   );

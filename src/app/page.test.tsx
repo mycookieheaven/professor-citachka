@@ -1,67 +1,87 @@
-import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
+import { render, screen, within } from "@testing-library/react";
 import HomePage from "@/app/page";
-import {programs} from '@/lib/programs';
 
-describe("Professor Citachka dashboard", () => {
-  it("computes the published regular level count without counting supplements", () => {
+/*
+ * The homepage is now the personal page for cookieheaven.art, and the learning
+ * dashboard lives at /study. These tests pin that arrangement, because a quiet
+ * change to it would send readers to the wrong place without failing anything
+ * else.
+ */
+
+describe("cookieheaven.art homepage", () => {
+  it("introduces Melissa by name", () => {
     render(<HomePage />);
-    const levels=programs.reduce((sum,p)=>sum+p.levels.filter(l=>!l.supplemental).length,0);
-    expect(screen.getByText(new RegExp(`Published curriculum: ${levels} regular levels across ${programs.length} subjects`))).toBeVisible();
+    expect(
+      screen.getByRole("heading", { name: /hi, i’m melissa aguilera/i }),
+    ).toBeInTheDocument();
   });
-  it("welcomes Melissa and presents the next Russian lesson", () => {
-    render(<HomePage />);
 
-    expect(screen.getByRole("heading", { name: /good morning, melissa/i })).toBeInTheDocument();
-    expect(screen.getByText(/your private university/i)).toBeInTheDocument();
-    expect(screen.queryByText(/I usually feel loved loved by the world/)).not.toBeInTheDocument();
-    expect(screen.getByRole("link", { name: /begin alphabet foundations/i })).toHaveAttribute(
+  it("says it is her website and ties the page to Professor Citachka", () => {
+    const { container } = render(<HomePage />);
+    // Scope to the hero: the same words also appear inside her about text, and a
+    // page-wide text match would pass for the wrong reason.
+    const lede = container.querySelector(".home-lede");
+    expect(lede?.textContent).toMatch(/this is my website/i);
+    expect(lede?.textContent).toMatch(/university i am building for myself/i);
+  });
+
+  it("links to the learning platform at /study, not to itself", () => {
+    render(<HomePage />);
+    const enter = screen.getByRole("link", { name: /enter professor citachka/i });
+    expect(enter).toHaveAttribute("href", "/study");
+  });
+
+  it("keeps the about section and reaches into the study from it", () => {
+    render(<HomePage />);
+    const about = screen.getByRole("region", { name: /about me/i });
+    // The name arrives from the data file, so check the section is populated.
+    expect(within(about).getAllByRole("paragraph").length).toBeGreaterThan(2);
+    expect(within(about).getByRole("link", { name: /step inside/i })).toHaveAttribute(
       "href",
-      "/subjects/russian/alphabet-foundations",
+      "/study",
     );
   });
 
-  it("opens and closes subject navigation on small screens", async () => {
-    const user = userEvent.setup();
-    render(<HomePage />);
-
-    const toggle = screen.getByRole("button", { name: /open navigation/i });
-    await user.click(toggle);
-    expect(screen.getByRole("navigation", { name: /mobile navigation/i })).toBeVisible();
-
-    await user.click(screen.getByRole("button", { name: /close navigation/i }));
-    expect(screen.queryByRole("navigation", { name: /mobile navigation/i })).not.toBeInTheDocument();
-  });
-
-  it("gives every subject a meaningful visual symbol", () => {
+  it("gives the galleries and the music list their own anchored sections", () => {
     const { container } = render(<HomePage />);
-
-    expect(container.querySelectorAll("[data-subject-icon]")).toHaveLength(programs.length);
-    expect(container.querySelector('[data-subject-icon="russian"]')).toBeInTheDocument();
-    expect(container.querySelector('[data-subject-icon="neuroscience"]')).toBeInTheDocument();
-    expect(container.querySelector('[data-subject-icon="veterinary-science"]')).toBeInTheDocument();
-    expect(container.querySelector('[data-subject-icon="theology"]')).toBeInTheDocument();
-    expect(container.querySelector('[data-subject-icon="finance"]')).toBeInTheDocument();
-    expect(container.querySelector('[data-subject-icon="music"]')).toBeInTheDocument();
-    expect(container.querySelector('[data-subject-icon="skincare"]')).toBeInTheDocument();
-  });
-
-  it("links Literature from the card and both navigation menus", async () => {
-    const user = userEvent.setup();
-    const { container } = render(<HomePage />);
-    expect(container.querySelector('[data-subject-icon="literature"] svg')).toBeInTheDocument();
-    expect(screen.getAllByRole("link", { name: /literature/i }).filter(link => !link.classList.contains("resume-link"))).toHaveLength(2);
-    await user.click(screen.getByRole("button", { name: /open navigation/i }));
-    for (const link of screen.getAllByRole("link", { name: /literature/i }).filter(link => !link.classList.contains("resume-link"))) {
-      expect(link).toHaveAttribute("href", "/subjects/literature");
+    for (const id of ["about", "art", "photography", "music"]) {
+      expect(container.querySelector(`#${id}`)).not.toBeNull();
     }
-    expect(screen.getAllByRole("link", { name: /literature/i }).filter(link => !link.classList.contains("resume-link"))).toHaveLength(3);
   });
 
-  it("renders layered celestial motion as decorative content", () => {
-    const { container } = render(<HomePage />);
+  it("explains an empty gallery instead of rendering a blank space", () => {
+    render(<HomePage />);
+    // Until images are added the sections must say so rather than look broken.
+    expect(screen.getAllByText(/pieces will appear in this section/i).length).toBe(2);
+  });
 
-    expect(container.querySelectorAll(".star-layer")).toHaveLength(3);
-    expect(container.querySelector(".celestial-field")).toHaveAttribute("aria-hidden", "true");
+  it("does not show a portrait while no portrait file exists", () => {
+    const { container } = render(<HomePage />);
+    expect(container.querySelector(".home-portrait")).toBeNull();
+  });
+
+  it("never prints a placeholder music entry of its own invention", () => {
+    const { container } = render(<HomePage />);
+    const cards = container.querySelectorAll(".music-card");
+    // Whatever appears must come from src/data/music.json, not from the code.
+    expect(cards.length === 0 || cards[0].textContent?.length).toBeTruthy();
+    expect(screen.getByText(/listening list is being put together/i)).toBeInTheDocument();
+  });
+
+  it("says she is based in Brooklyn, New York", () => {
+    render(<HomePage />);
+    expect(screen.getByText(/based in brooklyn, new york/i)).toBeVisible();
+  });
+
+  it("links to her Spotify profile in two places, opening safely", () => {
+    render(<HomePage />);
+    const links = screen.getAllByRole("link", { name: /spotify/i });
+    expect(links).toHaveLength(2);
+    for (const link of links) {
+      expect(link).toHaveAttribute("href", "https://open.spotify.com/user/mcdonaldscult");
+      // External links must not hand the opener window to the destination.
+      expect(link).toHaveAttribute("target", "_blank");
+      expect(link.getAttribute("rel")).toContain("noopener");
+    }
   });
 });

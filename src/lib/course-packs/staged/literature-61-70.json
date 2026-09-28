@@ -1,0 +1,762 @@
+{
+ "subject": "literature",
+ "levels": [
+  {
+   "title": "Words, lines and contested texts: reading at the smallest scale and arguing about poems",
+   "units": [
+    {
+     "title": "Reading at the smallest scale: one word, one line, one sound, one whole poem",
+     "lessons": [
+      {
+       "id": "61",
+       "title": "The work one word does: ‘charter’d’ and ‘mark’ in Blake’s ‘London’",
+       "explanation": "Close reading often begins with the largest units — plot, character, theme — and works downward. This lesson begins at the other end, with a single word, because in Blake’s ‘London’ the difference between two printings of the stanza’s third line changes the grammar of the whole stanza, and therefore changes who is doing what. The plate text, as transcribed on Wikisource under the 1826 copy of Songs of Innocence and of Experience, reads: ‘I wander thro’ each charter’d street, / Near where the charter’d Thames does flow, / And mark in every face I meet, / Marks of weakness, marks of woe.’ The 1901 letterpress edition on Project Gutenberg prints the same stanza as ‘I wander through each chartered street, / Near where the chartered Thames does flow, / A mark in every face I meet, / Marks of weakness, marks of woe.’ One word: ‘And mark’ against ‘A mark’. With ‘And mark’, the wandering speaker is the subject of his own act of reading: I wander and I mark, and the line’s object is what he finds — marks of weakness, marks of woe. With ‘A mark’, that verb disappears; ‘a mark in every face I meet’ is a noun phrase, and the next line’s plural ‘Marks’ has to carry the sentence as a verb, so the mark itself does the meaning-work: every face bears a mark, and the mark signifies weakness and woe. The reprint is therefore not merely modernising orthography. It withdraws the walker from the act of interpretation, in a poem whose last stanza has him hear a harlot’s curse that ‘Blasts the new born Infant’s tear’. Word-level choices also carry metre and personification: the plate’s apostrophes in ‘charter’d’, ‘thro’’, ‘mind-forg’d’ and ‘black’ning’ are printed instructions to elide, keeping the first three lines at eight syllables each and the fourth at seven, and the plate’s capitals in ‘every Man’, ‘the Chimney-sweeper’s cry’, ‘Church’, ‘Soldier’s’, ‘Harlot’s’ and ‘Marriage hearse’ treat those nouns as agents rather than as background scenery [1][2][3].",
+       "example": "Work the argument as evidence rather than as preference. Three witnesses are available to anyone with a browser, and each one costs something. First, the Wikisource transcription of the plate under the 1826 copy gives ‘And mark in every face I meet’; the page itself carries a ‘no scan’ notice, so what you are reading is a transcription, not the engraved plate, and you should say so in any citation. Second, the Notebook draft of 1793, also transcribed on Wikisource, gives ‘And [see del.] mark in every face I meet’, where the transcriber marks an earlier word ‘see’ as deleted and ‘mark’ as surviving; it also shows the openings that were later replaced, ‘I wander thro’ each dirty street’ for ‘charter’d street’, and a version of the last stanza ending ‘smites with plagues the Marriage hearse’. Third, the 1901 letterpress reprint gives ‘A mark’. Two witnesses, one of them the poet’s own draft, print a verb; the nineteenth-century reprint prints a noun. That is not proof of what the plate’s copper shows, but it is a reason to trust ‘And mark’ and to treat ‘A mark’ as an editorial change introduced after Blake’s death. The rest of the collation supports the same picture: the plate and draft print ‘The mind-forg’d manacles’, ‘Every black’ning Church appalls’, ‘Runs in blood down Palace walls’, while the reprint prints ‘mind-forged’, ‘blackening’, ‘appals’ and ‘palace-walls’. Note which differences are inert — ‘appalls’ and ‘appals’ mean the same thing — and which are not: ‘A mark’ is the only one that rewrites a clause. A useful model response states the variant, names the witnesses, says which reading it adopts, and says what would change its mind; a response that simply calls the modern spelling ‘wrong’ has not yet made an argument [2][3].",
+       "question": "Two witnesses to a line differ as ‘And mark’ and ‘A mark’. What is the strongest evidential use of that difference?",
+       "answer": "Name both witnesses, show that the difference changes the clause’s subject and verb, and treat the noun reading as a posthumous editorial change that further witnesses can overturn",
+       "distractor": "Prefer the older witness without discussion, because the earliest printing is always closest to the author’s intention",
+       "correction": "Antiquity is a relevant consideration, not a rule, and it is worth saying why here: the draft and the plate transcription both give a verb, and the witness that gives the noun is a reprint made long after the poet’s death. But the argument has to be stated as an inference from named witnesses, with the ‘no scan’ limitation acknowledged, and with a sentence about what evidence would reverse it. ‘Earliest wins’ would reach the right answer for the wrong reason.",
+       "depth": {
+        "definitions": "A textual variant is a place where witnesses to the same work differ in wording, punctuation or spelling. A witness is any document that carries the text — an author’s draft, a printed edition, a transcription, a manuscript copy. Collation is the systematic comparison of witnesses. A plate text is the wording engraved on a Blake plate, which might differ from any printed edition made from it. Elision is the dropping of a syllable in pronunciation, often cued in print by an apostrophe, as in ‘charter’d’. Prerequisites: lesson 40 on symbol, over-reading and the defensible claim, and lesson 37 on line-by-line reading; the distinction between a report about an author’s intention and an interpretive claim comes from lesson 40.",
+        "mechanism": "Variants matter in proportion to what they change. Four grades are worth separating. Orthographic variants (‘appalls’ against ‘appals’, ‘palace-walls’ against ‘Palace walls’) alter the look of the page and can alter emphasis but not the sentence. Elision cues (‘charter’d’ against ‘chartered’) alter the reader’s performance of the line while leaving its sense intact; the apostrophe is a metrical instruction, and the modern spelling removes the instruction without altering the underlying count of eight syllables in the line ‘I wander thro’ each charter’d street’. Personification cues are capitalisation, which in the plate marks ‘Man’, ‘Church’, ‘Soldier’ and ‘Harlot’ as agents; lowercasing them demotes them towards background. Grammatical variants — ‘And mark’ against ‘A mark’ — are the most consequential, because they change which entity is the subject of a verb, and therefore change what the poem reports as happening. The mechanism to carry away is that editorial change is cumulative and directional: a reprint that normalises spelling usually also normalises grammar and personification, so that the cumulative effect can be a different poem, not merely a tidier one.",
+        "secondExample": "Apply the same four grades to a second poem from this level, Keats’s ‘Ode on a Grecian Urn’. Between the 1820 volume as reprinted by Project Gutenberg and the 1884 Poetical Works transcribed on Wikisource, you can observe ‘Thou still unravish’d bride of quietness,’ against ‘Thou still unravish’d bride of quietness!’, ‘leaf-fring’d’ against ‘leaf-fringed’, ‘For ever wilt thou love’ against ‘Forever wilt thou love’, and ‘What maiden’s loth’ style punctuation differences in the fourth line of the first stanza. The exclamation mark after ‘quietness’ is not orthography: it converts an address into an exclamation, which changes the tone of the opening. Both witnesses, however, agree on the punctuation of the final two lines, which is why the question raised in lesson 65 is a genuine crux rather than an artefact of one careless editor.",
+        "mistake": "The common misconception is that spelling and punctuation are pre-argument decoration, so that the only real interpretive questions are about imagery and theme. Diagnose it by asking what the poem’s first sentence is about: if the answer changes when the third word of a clause changes from a verb to a noun, then the variant is doing argumentative work. A second misconception is the reverse — treating every difference as meaningful. ‘Appals’ and ‘appalls’ are the same word; claiming otherwise inflates the evidence and weakens the parts of the argument that do hold. The diagnostic question for both errors is the same: what, precisely, would be read differently?",
+        "application": "Nonblocking task: collate the fourth stanza of ‘London’ across the plate transcription and the 1901 reprint, then write 150 words that (a) lists every difference, (b) grades each one as orthographic, elisional, personifying or grammatical, and (c) states one interpretive consequence of the grammatical grade, if there is one. Model response, self-reviewed: ‘The plate prints “the hapless Soldier’s sigh” and “Runs in blood down Palace walls”; the reprint prints the same with “palace-walls” hyphenated and lowercased. The hyphenation and the lower case are personification and typographic cues; the clause is unchanged. The one grammatical variant in the poem is in stanza one. Because the fourth stanza has no grammatical variant, the only defensible interpretive claim about it concerns emphasis rather than agency.’ A satisfactory answer names witnesses and grades differences; an excellent answer withdraws a claim it cannot support.",
+        "summary": "Read at the scale of the word and you find that editorial decisions are interpretive decisions. The practical discipline is to name the witness, grade the difference, and state what would change your mind — the same discipline that lessons 65 to 70 apply to whole poems and to critical arguments."
+       },
+       "readings": [
+        {
+         "title": "[1] William Blake, ‘London’, Songs of Innocence and of Experience (1826 copy), Wikisource",
+         "url": "https://en.wikisource.org/wiki/Songs_of_Innocence_and_of_Experience_(1826)/Songs_of_Experience/London",
+         "note": "Read the poem entire and check the third line, ‘And mark in every face I meet’. Note the page’s ‘no scan’ notice: this is a transcription of the plate text, not an image of it. Public domain (poem first published 1794; this transcription is of the 1826 copy of the combined Songs)."
+        },
+        {
+         "title": "[2] William Blake, ‘London’, Songs of Innocence and of Experience, ed. R. Brimley Johnson (1901), Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/1934.txt.utf-8",
+         "note": "Read the ‘London’ page and compare it word by word with [1]. Search the file for ‘A mark’ and for ‘chartered’ to see how quickly the letterpress normalises contractions, capitals and hyphens. Public domain in the USA."
+        },
+        {
+         "title": "[3] William Blake, ‘London’, Notebook draft (1793), Wikisource",
+         "url": "https://en.wikisource.org/wiki/London_(Notebook)",
+         "note": "Read the transcription of Notebook page 109, where deletions are marked. The draft shows ‘I wander thro’ each dirty street’ and ‘And [see del.] mark in every face I meet’, which is evidence about what was cancelled and what survived. Public domain."
+        },
+        {
+         "title": "[4] John Keats, ‘Ode on a Grecian Urn’, in Keats: Poems Published in 1820, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/23684.txt.utf-8",
+         "note": "Used in this lesson for a single well-defined purpose: the same collation drill on a different poem. Compare the punctuated address in the first stanza and the placement of quotation marks in the last two lines, and note which differences are inert and which alter an inference. Public domain in the USA."
+        },
+        {
+         "title": "[5] John Keats, ‘Ode on a Grecian Urn’, in The Poetical Works of John Keats (1884), Wikisource",
+         "url": "https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/Ode_on_a_Grecian_Urn",
+         "note": "The second witness used for the collation drill in this lesson’s second example. Check ‘quietness!’, ‘leaf-fringed’, ‘Forever wilt thou love’ and ‘what maidens loath?’ against the 1820-volume readings in [4]. Public domain."
+        }
+       ],
+       "visual": {
+        "title": "One word, four grades of change: collating the opening stanza of ‘London’",
+        "description": "A four-row comparison grid in which the plate transcription, the 1793 draft and the 1901 reprint are lined up clause by clause so that the single grammatical variant can be separated from spelling and typographic noise.",
+        "steps": [
+         "Row 1 — clause: ‘I wander … each charter’d street’ / ‘each dirty street’ (draft) / ‘each chartered street’: orthographic and elisional only",
+         "Row 2 — the crux: ‘And mark in every face I meet’ / ‘And [see del.] mark in every face I meet’ (draft) / ‘A mark in every face I meet’: grammatical, because the clause gains or loses a verb",
+         "Row 3 — personification: ‘every Man’, ‘Church’, ‘Soldier’s’, ‘Harlot’s’, ‘Marriage hearse’ on the plate against lower case in the reprint",
+         "Row 4 — inert difference: ‘appalls’ against ‘appals’, which changes no meaning and must not be over-read",
+         "Ask of each row: who is the subject, and what work does the reader do? Only row 2 changes the answer",
+         "State the conclusion with its limit: two of three witnesses print a verb, but the plate witness is a transcription with no scan attached"
+        ]
+       }
+      },
+      {
+       "id": "62",
+       "title": "The line against the sentence: enjambment and suspended syntax in Paradise Lost, Book I",
+       "explanation": "A line is a unit of measure; a sentence is a unit of grammar. When the two do not coincide, the reader’s ear is told to pause where the syntax has not finished, and that disagreement is enjambment. Milton makes the disagreement into a procedure and defends it in print. In the note on ‘The Verse’ prefixed to the poem, transcribed from the 1674 printing on Wikisource, he writes that his measure ‘is English Heroic Verse without Rime as that of Homer in Greek, and of Virgil in Latin’, that rime is ‘no necessary Adjunct or true Ornament of Poem or good Verse’, and that the music of his verse ‘consists only in apt Numbers, fit quantity of Syllables, and the sense variously drawn out from one Verse into another, not in the jingling sound of like endings’. The phrase to keep is the last one: the sense is drawn out from one verse into another. Count the suspension in the poem’s opening. The first sentence is not a sentence about disobedience; it is a purpose-clause whose main verb arrives six lines in: ‘Of Man’s first disobedience, and the fruit / Of that forbidden tree whose mortal taste / Brought death into the World, and all our woe, / With loss of Eden, till one greater Man / Restore us, and regain the blissful seat, / Sing, Heavenly Muse, that, on the secret top / Of Oreb, or of Sinai, didst inspire / That shepherd who first taught the chosen seed’. Read the line-endings alone and you hear six stops; read the syntax alone and there is no stop before ‘Sing’. The whole aim of the sentence — ‘That, to the height of this great argument, / I may assert Eternal Providence, / And justify the ways of God to men’ — is the last thing you reach [1][2].",
+       "example": "Take the two hardest cases in the book’s first fifty lines and work them as arguments about effect rather than as impressions. Case one is the interrupted question in lines 27 to 36: ‘Say first--for Heaven hides nothing from thy view, / Nor the deep tract of Hell--say first what cause / Moved our grand parents, in that happy state, / Favoured of Heaven so highly, to fall off / From their Creator, and transgress his will / For one restraint, lords of the World besides. / Who first seduced them to that foul revolt? / Th’ infernal Serpent; he it was whose guile, / Stirred up with envy and revenge, deceived / The mother of mankind’. The speaker begins a question, breaks it for a parenthetical oath, begins it again with the same words ‘say first’, completes it, adds a second question, and answers both with a two-word identification before the sentence is finished. The line-endings fall in the middle of the delay, so the pause marks not a thought completed but a thought withheld. Case two is the inversion at lines 44 to 47: ‘Him the Almighty Power / Hurled headlong flaming from th’ ethereal sky, / With hideous ruin and combustion, down / To bottomless perdition’. The object sits at the end of one line, its agent and verb at the start of the next, and the prepositional phrase ‘To bottomless perdition’ arrives after two lines of turbulence. The rival explanation must be stated in its strongest form: Milton is imitating Latin word order, and a reader who knows Latin hears nothing more than respectable syntax; on that account the fall of the sentence across the line is a side-effect of a borrowed grammar rather than a designed effect. The interpretive question is then which account explains more — including the note on ‘The Verse’, where the poet himself advertises the technique as a virtue [1].",
+       "question": "A student writes: ‘Milton’s enjambment imitates natural speech, which is why the sentences run past the lines.’ What is the main difficulty with that claim?",
+       "answer": "Milton’s own defence rests on the opposite of natural speech, since he claims a recovered ancient liberty and a music of apt numbers rather than the jingling of rhyme, and the suspensions are longer and more contrived than speech",
+       "distractor": "There is no difficulty, because enjambment always reflects the rhythms of spoken language",
+       "correction": "Enjambment can imitate speech, but in this poem the technique is theorised in print as an art derived from Homer and Virgil and set against rhyme; the point of the note on ‘The Verse’ is that the reader should attend to numbers and quantities, not to conversational ease. The suspensions of five and six lines in the opening are also far longer than any speech unit, so the claim fails on both the documentary and the descriptive evidence.",
+       "depth": {
+        "definitions": "Enjambment is the continuation of a syntactic unit past the end of a line of verse; the opposite is a line whose end coincides with a syntactic boundary. Suspension is the delay of a required element — often the main verb — across several lines, so that the reader holds an incomplete structure. Blank verse is unrhymed iambic pentameter. Heroic verse, in Milton’s phrasing, is the verse of epic. A purpose clause (‘That … I may assert’) states the aim of the main clause. Prerequisites: lesson 38 on metre and form, and lesson 37 on line-by-line reading; the difference between a fact about syntax and a claim about effect is from lesson 40.",
+        "mechanism": "Holding a sentence open across a line break has three measurable consequences. It lengthens the reader’s working memory: six lines of subordinate material must be carried until ‘Sing’ supplies a verb, so the line-end pauses function as breaths rather than as logical stops. It redistributes emphasis: whatever falls immediately after the break is heard as arriving under pressure, which is why ‘Hurled headlong’ and ‘Sing’ land harder than they would mid-line. And it makes retrospection unavoidable: the reader who has finished line five cannot parse it until line six arrives, so the poem enforces a second pass — a rereading built into the metre. The limitation is that none of this is automatic. Enjambment is a real syntactic fact and can be counted in code; the claim that a particular suspension feels like hesitation or like falling is an interpretation, supported by the poet’s own note and by the pattern of use across the book, and stated as contestable.",
+        "secondExample": "Contrast a passage where Milton does the opposite: the opening of Book I line 27 to 29, as quoted above, suspends, but the famous description of the host in Book I lines 50 to 60 is built on clause-by-clause completion, with ‘Nine times the space that measures day and night / To mortal men, he, with his horrid crew, / Lay vanquished, rolling in the fiery gulf’ closing at the line-end. There, sentence and line agree, and the effect is a slow, level accounting suited to a catalogue of loss. The method generalises beyond Milton. In the 1901 Blake and 1826 Blake witnesses collated in lesson 61, the quatrain is end-stopped almost throughout, and the single grammatical variant in stanza one therefore carries the whole weight of the opening. Same technique, different distribution: where lines are closed, a single enjambment or a single syntactic variant becomes an event.",
+        "mistake": "The typical error is to treat enjambment as a mood-word rather than a structure, writing that the verse feels ‘flowing’ without identifying which phrase crosses which boundary. Diagnose by asking for the boundary and the phrase: if the writer cannot name both, there is no observation to evaluate. The second error is to claim that Latin syntax explains the inversions and therefore that no interpretation is warranted; the presence of a cause is not a demonstration that the effect is inert, and in this case the poem’s own prefatory note tells you the poet considered the technique a designed feature.",
+        "application": "Nonblocking task: take lines 1 to 26 and mark every place where a clause boundary crosses a line-end, then write 200 words arguing whether the first sentence’s long suspension prepares the reader for the assertion ‘And justify the ways of God to men’, with one sentence stating the counter-argument that the delay is merely Virgilian imitation. Model response, self-reviewed: ‘Four of the six line-ends in the opening six lines occur inside noun phrases … the suspension makes the reader supply the verb, so the assertion about Providence arrives as a completion the reader has been holding open … The counter-argument is that the same suspensions occur throughout Latin epic and carry no local emphasis; it is weakened, not refuted, by the prefatory note, and a full answer would collate two or three comparable suspensions elsewhere in Book I.’ A satisfactory answer names boundaries; an excellent one keeps the counter-argument alive.",
+        "summary": "Milton prints a theory of the line and then writes sentences that test it. Reading the disagreement between line and sentence is a transferable technique: it tells you where a poem expects you to pause, and where it expects you to continue, and those two instructions are the raw material of prosodic interpretation."
+       },
+       "readings": [
+        {
+         "title": "[1] John Milton, Paradise Lost, Book I, in the 1674 printing, Wikisource transcription",
+         "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1674)/Book_I",
+         "note": "Read lines 1–33 and 44–49 closely, marking every line-end and asking whether a clause boundary falls there. This transcription normalises some spelling and capitalisation relative to the first edition, so quote it as the transcription it is. Public domain."
+        },
+        {
+         "title": "[2] John Milton, ‘The Verse’, in Paradise Lost (1674), Wikisource transcription",
+         "url": "https://en.wikisource.org/wiki/Paradise_Lost_(1674)/The_Verse",
+         "note": "Read the whole note. The two sections that matter for this lesson are the sentence on rime as ‘no necessary Adjunct’ and the phrase ‘the sense variously drawn out from one Verse into another’. Public domain."
+        },
+        {
+         "title": "[3] Representative Poetry Online, ‘Paradise Lost, Book I’, University of Toronto",
+         "url": "https://rpo.library.utoronto.ca/content/paradise-lost-book-i",
+         "note": "An annotated scholarly edition useful for checking lineation and for the editor’s notes on individual allusions. Read the notes to the first thirty lines and compare the editor’s punctuation with [1]; the two are reading texts of the same poem, not rival poems."
+        },
+        {
+         "title": "[4] John Milton, Paradise Lost, Project Gutenberg e-text (edition not identified by the source)",
+         "url": "https://www.gutenberg.org/ebooks/26.txt.utf-8",
+         "note": "A second plain-text witness. Its wording for lines 1–20 agrees with [1] apart from apostrophe forms, which is exactly the use you want from it: a check that the lineation you are analysing is not an artefact of one transcription. The book’s own preface states that its source edition was never identified, so do not treat it as an authority on spelling."
+        }
+       ],
+       "visual": {
+        "title": "Where the sentence breaks and where the line breaks: Paradise Lost, Book I, lines 1–6",
+        "description": "A two-track diagram of the poem’s opening, with the syntactic track running continuously and the metrical track stopping at every line-end, so that the six-line suspension of the verb can be seen rather than described.",
+        "steps": [
+         "Metrical track: line 1 ends after ‘fruit’; line 2 after ‘taste’; line 3 after ‘woe’; line 4 after ‘Man’; line 5 after ‘seat’; line 6 contains the first main verb, ‘Sing’",
+         "Syntactic track: ‘Of Man’s first disobedience … till one greater Man / Restore us, and regain the blissful seat’ is all subordinate material; nothing is asserted yet",
+         "The collision: five line-end pauses are heard inside a structure that is not finished, so each pause is a breath, not a full stop",
+         "The turn: ‘Sing’ arrives at the head of line 6, immediately after the previous line-end, so the poem’s first action is an imperative addressed to the Muse",
+         "Second collision: lines 44–47 place the object ‘Him’ at a line-end and its agent and verb at the next line’s start",
+         "Counter-diagram: lines 50–52, where clause and line end together, to show what the poem sounds like when the two tracks agree"
+        ]
+       }
+      },
+      {
+       "id": "63",
+       "title": "The extended conceit as argument: Donne’s compasses and Johnson’s objection",
+       "explanation": "A conceit is a figure that is developed at length and that organises a whole passage rather than decorating one line. Donne’s ‘A Valediction: forbidding mourning’ ends on the best-known example in English, and the printed text in the Grierson edition on Project Gutenberg reads: ‘If they be two, they are two so / As stiffe twin compasses are two, / Thy soule the fixt foot, makes no show / To move, but doth, if the’other doe. / And though it in the center sit, / Yet when the other far doth rome, / It leanes, and hearkens after it, / And growes erect, as that comes home. / Such wilt thou be to mee, who must / Like th’other foot, obliquely runne; / Thy firmnes makes my circle just, / And makes me end, where I begunne.’ The figure is not a comparison of lovers to an instrument in the way a simile is; it is a machine with parts, and the parts have to correspond to the claim’s parts. The claim is that two souls are one (‘Our two soules therefore, which are one’) and that absence cannot breach that unity. The compasses can carry the claim because they have exactly two members, one that stays and one that travels, and because the traveller’s completion depends on the stayer: the moving foot draws a circle only if the fixed foot holds. The poem also shows what the figure costs. Earlier figures — melting, gold beaten to ‘ayery thinnesse’ — say that the lovers separate without breaking; the compasses go further and say that separation is what makes the union legible. That is a stronger claim and it is why the last couplet can be a proof rather than a farewell [1].",
+       "example": "Set the figure against its best-attested hostile reading. In the Life of Cowley, in the 1891 Cassell edition on Project Gutenberg, Johnson defines a kind of wit as ‘a kind of discordia concors; a combination of dissimilar images, or discovery of occult resemblances in things apparently unlike’, and then delivers the sentence that has followed the metaphysicals ever since: ‘The most heterogeneous ideas are yoked by violence together’. His complaint is not that the figure is unclear but that clarity is not the point: ‘the reader commonly thinks his improvement dearly bought, and though he sometimes admires, is seldom pleased’. Now test the objection against this specific passage. The compasses are two things: a mating pair and a draughting instrument, and Johnson’s charge is that only violence holds them together. A defence can be precise about where the violence is. The correspondence of parts is exact, so the figure is not incongruous at the level of structure; what it does impose is a subordinate role on the woman, who is the fixed foot, and a rôle of wandering on the speaker, which is a claim about the relationship disguised as geometry. The strongest form of Johnson’s objection, therefore, is not that the image is remote but that the image’s internal relations smuggle in a moral hierarchy the poem never argues for. A reader who answers that the fixed foot is ‘the center’ and therefore honoured has answered an argument the poem makes; a reader who says nothing has left the objection standing [2].",
+       "question": "What does the compasses figure add that the earlier melting and gold-beating figures do not?",
+       "answer": "It supplies two distinct parts with distinct motions, so the separation itself becomes the mechanism that completes the union rather than a loss the union survives",
+       "distractor": "It supplies a more dignified image, since a scientific instrument suits a serious poem about death better than melting metal does",
+       "correction": "Dignity is a matter of register and cannot explain the placement of the figure as the poem’s conclusion. The melting and gold figures say the lovers are divided but not destroyed; the compasses add structure, since one member must stay for the other’s motion to draw anything at all. That is why the final couplet can present constancy as the cause of arrival, and it is the feature a hostile critic like Johnson attacks when he calls the association violent.",
+       "depth": {
+        "definitions": "A conceit is a developed, often surprising figure extended across a passage. A vehicle is the image used (compasses); a tenor is what it is applied to (the lovers’ relationship); a ground is the respect in which they correspond. Discordia concors, in Johnson’s use, is a discordant union of images. Hyperbole is exaggeration; here the poem’s hyperboles are astronomical and geometric. Prerequisites: lesson 40 on symbol and over-reading, and lesson 38 on metre; the distinction between a figure’s structure and its moral implications is new at this level.",
+        "mechanism": "An extended conceit argues in three moves. Selection: only figures with the right number of internal parts can carry a claim with two parts, which is why the compasses displace melting. Mapping: each part of the vehicle is assigned to a part of the tenor — fixed foot to the beloved, moving foot to the speaker, the drawn circle to the completed relationship — and the mapping must be consistent, or the figure collapses into wordplay. Inference: once the mapping holds, the figure licenses conclusions the earlier figures could not reach, such as ‘Thy firmnes makes my circle just’. The limitation to state in any essay is that the inference is only as good as the mapping, and the mapping is chosen by the poet. That is precisely Johnson’s point, and it is why the compasses passage is a better test case for his objection than any figure he actually quotes.",
+        "secondExample": "Apply the three moves to a figure from this level’s other poems. In Hopkins’s ‘God’s Grandeur’ the image is electrical and agricultural at once: divine presence ‘will flame out, like shining from shook foil’, and simultaneously ‘It gathers to a greatness, like the ooze of oil / Crushed’. Two vehicles, two industrial processes, and one tenor; the mapping is partial because the poem does not say which process corresponds to which divine action, and the reader must decide whether the two images are alternatives or stages. That is a different conceit problem: not violence of association but under-specification of the mapping. Comparing the two passages teaches the diagnostic question — is the figure’s structure carrying the argument, or is the argument being carried by the figure’s associations alone?",
+        "mistake": "Two misconceptions recur. The first is that an extended conceit is decoration that can be replaced by any equally striking image; the diagnostic is to try the substitution — replace the compasses with a lighthouse and ask whether the poem still proves that constancy completes a circle. The second is that Johnson’s objection can be answered by pointing out that the image is ingenious, which concedes his point. The objection is about the cost to the reader and the smuggled premise, not about ingenuity, and a good answer engages the cost.",
+        "application": "Nonblocking task: write 250 words that (a) states the mapping in the compasses stanza as a four-item list, (b) identifies one place where the mapping is not exact, and (c) answers Johnson’s objection with a reply that concedes at least one of his complaints. Model response, self-reviewed: ‘Fixed foot = beloved; moving foot = speaker; the drawn circle = the completed relationship; firmness of the fixed foot = constancy that ensures return. The mapping is inexact at “growes erect, as that comes home”, where the compasses’ behaviour at closure is a mechanical necessity rather than a choice, which removes the woman’s agency. Against Johnson, I concede that the association of instrument and marriage is remote and that the reader pays for the conceit in effort; I reply that the effort is repaid because the figure supplies the argument’s structure, and I note that Johnson’s own definition of discordia concors describes the figure accurately without yet showing it to be a fault.’ A satisfactory answer maps the parts; an excellent one finds the inexactness without abandoning the argument.",
+        "summary": "Ask of any figure what its internal parts are and whether those parts match the parts of the claim. Where they match, the figure is doing argumentative work; where they do not, the discrepancy is either an artefact of the poet’s choice or the point of the passage, and only evidence can settle which."
+       },
+       "readings": [
+        {
+         "title": "[1] John Donne, ‘A Valediction: forbidding mourning’, in The Poems of John Donne, Volume 1, ed. Herbert J. C. Grierson, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/48688.txt.utf-8",
+         "note": "Read the poem from ‘As virtuous men passe mildly away’ to ‘And makes me end, where I begunne’, then read the textual apparatus that follows it. That apparatus is the reason this edition is the lesson’s primary: it records what later seventeenth-century printings and Walton’s Life read where the copy-text does not. Public domain in the USA."
+        },
+        {
+         "title": "[2] Samuel Johnson, ‘Cowley’, in Lives of the English Poets: Waller, Milton, Cowley (Cassell, 1891), Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/5098.txt.utf-8",
+         "note": "Read the passage on ‘the metaphysical poets’, beginning with ‘Wit, like all other things subject by their nature to the choice of man, has its changes and fashions’. The two sentences to locate are the definition of discordia concors and the charge that heterogeneous ideas are yoked by violence. Cassell’s transcription prints italics with underscores."
+        },
+        {
+         "title": "[3] Gerard Manley Hopkins, ‘God’s Grandeur’, in Poems of Gerard Manley Hopkins, ed. Robert Bridges (1918), Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/22403.txt.utf-8",
+         "note": "Read for the contrast drawn in this lesson: Hopkins develops two vehicles for one tenor — ‘like shining from shook foil’ and ‘like the ooze of oil / Crushed’ — without stating which corresponds to which divine action. That under-specified mapping is the opposite problem to Donne’s over-determined compasses. Public domain in the USA."
+        }
+       ],
+       "visual": {
+        "title": "Mapping a conceit’s parts: the compasses stanza against the poem’s claim",
+        "description": "A two-column mapping diagram in which the poem’s assertions are aligned with the parts of the instrument, so that the exact correspondences and the inexact ones are visible side by side.",
+        "steps": [
+         "Claim 1 — two souls are one: vehicle provides exactly two members, so the figure can carry an ‘if they be two’ hypothesis",
+         "Claim 2 — absence does not breach the union: vehicle provides one member that does not move, so absence is assigned to the other member",
+         "Claim 3 — constancy ensures return: vehicle provides a fixed foot on which the travelled circle depends",
+         "Inexact zone — ‘growes erect, as that comes home’ describes mechanical necessity, whereas the poem’s tenor concerns a chosen fidelity",
+         "Johnson’s test applied — is any pairing held together only by the reader’s willingness? Answer: no pairing, but a hierarchy is smuggled in",
+         "Conclusion to state in writing: the figure does argumentative work and imposes a cost, and both facts belong in the analysis"
+        ]
+       }
+      },
+      {
+       "id": "64",
+       "title": "Stress, ear and a poet’s own theory: Hopkins’s sprung rhythm in ‘God’s Grandeur’ and ‘The Windhover’",
+       "explanation": "Hopkins is the rare case of a poet whose prosodic theory survives in print alongside the poems it governs — the Author’s Preface stands at the head of the 1918 volume — which means his metre can be checked against his own description rather than only against an editor’s labels. In the Author’s Preface printed in the 1918 edition of his Poems on Project Gutenberg, he writes: ‘Sprung Rhythm, as used in this book, is measured by feet of from one to four syllables, regularly, and for … particular effects any number of weak or slack syllables may be used.’ (The ellipsis marks a page number printed inside the sentence in this edition.) A little later he adds, in the note on the nature and history of sprung rhythm, that ‘Sprung Rhythm is the most natural of things’, and he claims that it is ‘the rhythm of common speech and of written prose, when rhythm is perceived in them’. Two consequences follow for the reader. First, the counting unit is the foot containing one stress, not the syllable, so a line may have four stresses and eleven syllables, and the syllable count will tell you very little. Second, because stresses can be packed together — ‘Generations have trod, have trod, have trod’ — the poem’s insistent effects are produced by adjacent stresses rather than by long vowels or rhyme. ‘God’s Grandeur’ begins with an assertion of presence (‘THE world is charged with the grandeur of God’) and then immediately converts presence into potential energy: ‘It will flame out, like shining from shook foil; / It gathers to a greatness, like the ooze of oil / Crushed.’ Three feet of one strong syllable each, in the phrase ‘shook foil’, sit inside a line the ear expects to flow, and the shock is structural rather than merely auditory [1].",
+       "example": "Read ‘God’s Grandeur’ as a sonnet whose argument is carried by where the stresses fall. The octave runs through human damage — ‘Generations have trod, have trod, have trod; / And all is seared with trade; bleared, smeared with toil; / And wears man’s smudge and shares man’s smell: the soil / Is bare now, nor can foot feel, being shod’ — and two things are audible at once: the alliterative pile-up of monosyllables in ‘seared’, ‘trade’, ‘bleared’, ‘smeared’, ‘smudge’, ‘smell’, and the way the repeated ‘have trod’ converts a verb into a drumbeat. Then the volta: ‘And for all this, nature is never spent; / There lives the dearest freshness deep down things’. The claim turns on ‘And for all this’, five words that concede the whole indictment before answering it, and the answering line is the only one in the poem whose stresses are comparatively spaced out. The sestet closes with a suspension that is itself the argument: ‘Because the Holy Ghost over the bent / World broods with warm breast and with ah! bright wings.’ The exclamation ‘ah!’ is a slack syllable doing expressive work — under Hopkins’s own rules any number of weak syllables may be used for particular effects, so the interjection is licensed by the theory rather than smuggled in. Now apply the same method to ‘The Windhover’, where the 1918 text prints compounds broken at the line-end: ‘morning’s minion, king- / dom of daylight’s dauphin, dapple-dawn-drawn Fal- / con, in his riding / Of the rolling level underneath him steady air’. The break inside ‘kingdom’ and inside ‘Falcon’ makes the reader pause where no word ends, so the metrical unit and the lexical unit disagree at exactly the point where the poem describes a bird’s suspended flight. A rival reading is available and should be stated: the hyphens may be a compositor’s convenience for a long line rather than a designed effect, and this edition’s text prints ‘ecstacy’ where modern editions print ‘ecstasy’, which is a reminder that you are reading an edition of 1918. The argument for the designed effect therefore rests on the density of the occurrences, not on one instance [1][2].",
+       "question": "Under sprung rhythm, what determines the length of a line?",
+       "answer": "The number of stressed feet, each carrying one stress and one to four syllables, so syllable totals vary while the stress pattern stays fixed",
+       "distractor": "The number of syllables, since each foot contains exactly two, as in running rhythm",
+       "correction": "Two-syllable feet describe running or common rhythm, which Hopkins contrasts with sprung rhythm in the same preface. In sprung rhythm the foot is defined by its one stress, and the syllable count may vary from one to four per foot, so scanning by syllables produces the wrong count and obscures the effects the poet is engineering.",
+       "depth": {
+        "definitions": "Metre is a patterned arrangement of stresses; scansion is the act of marking it. A foot is a metrical unit with one principal stress; a slack syllable is unstressed. Running or common rhythm is Hopkins’s term for the ordinary two- or three-syllable-foot English measure; sprung rhythm is his alternative, measured by feet of one to four syllables. Counterpoint rhythm is the mounting of a second rhythm on the first. Inscape, in Hopkins’s vocabulary, is a thing’s individuating form. Prerequisites: lesson 38 on metre and form, lesson 37 on line-by-line reading, and lesson 62 on the disagreement between line and syntax, which is the same technique applied to Milton.",
+        "mechanism": "Sprung rhythm changes three things at once. It makes stress rather than syllable count the organising unit, which is why a line can be scanned with four stresses and eleven syllables without becoming irregular. It permits clusters of stressed syllables, which is how ‘have trod, have trod, have trod’ can function as a repeated beat rather than as a phrase. And it licenses extreme slacks, so an interjection like ‘ah!’ can occupy the position of a slack syllable and still register as an event. The limitation to keep in view is that Hopkins’s theory is a producer’s account, not a neutral description; it tells you what he intended the reader to hear. A sceptical reading exists in the scholarly literature — the Victorian Web essay listed below puts it as a paraphrase rather than a quotation, namely that almost none of what Hopkins argued for was new in English poetry, and adds that ‘no other poet has since used sprung rhythm regularly’ — and that observation is a real qualification of the theoretical claim while leaving the local effects intact.",
+        "secondExample": "Use the same procedure on a poet who never wrote a preface. In Blake’s ‘London’, the quatrain’s fourth line has three stresses against the first three lines’ four, and the stresses are almost entirely monosyllabic: ‘Marks of weakness, marks of woe’. Nothing in the poem explains the pattern, so the reader must infer it from repetition across the sixteen lines, and any claim about its meaning is an interpretation. Hopkins supplies the theory and loses a degree of freedom: you cannot say the pattern is accidental, but you can ask whether the theory accounts for every effect it claims. Comparing the two is the fastest way to see how much interpretive work a poet’s own manifesto does for, and to, a reader.",
+        "mistake": "The usual error is to scan Hopkins’s lines by counting syllables and then declare the metre irregular or ‘free’. Diagnose it by applying the poet’s own definition: count stresses, not syllables, and see whether four or five stresses recur. A second error is to treat the published theory as proof of the poem’s quality; the theory explains a procedure, and it neither guarantees the procedure’s success nor establishes its novelty, which is a separate question the secondary reading addresses.",
+        "application": "Nonblocking task: scan the first eight lines of ‘God’s Grandeur’ by stress only, marking each foot as one, two, three or four syllables, then write 150 words on whether the octave’s stress pattern differs from the sestet’s, with one sentence on what the difference would mean if it does not exist. Model response, self-reviewed: ‘The octave is dominated by one- and two-syllable feet and by adjacent stresses in “seared”, “trade”, “bleared”, “smeared” … The sestet admits a three-syllable foot at “dearest freshness” and a four-syllable stretch around “with warm breast and with ah!” … If the counts were identical across octave and sestet, the volta would have to be argued on lexical and syntactical grounds alone, since metre could not be carrying it.’ A satisfactory answer counts stresses; an excellent one names what it would lose if the counts matched.",
+        "summary": "A poet’s own prosodic theory is both a gift and a trap: it supplies a vocabulary and a set of rules, and it tempts the reader to accept the poet’s account of novelty and effect. The discipline is to use the theory to scan, then to test the theory’s claims against the poems and against other readers."
+       },
+       "readings": [
+        {
+         "title": "[1] Gerard Manley Hopkins, ‘God’s Grandeur’ and ‘The Windhover’, in Poems of Gerard Manley Hopkins, ed. Robert Bridges (1918), Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/22403.txt.utf-8",
+         "note": "Read the Author’s Preface first, then the two poems, then the editorial note on the text. This edition prints ‘ecstacy’ in ‘The Windhover’ and breaks ‘king- / dom’ and ‘Fal- / con’ at line-ends; both features are described in the lesson as features of this text. Public domain in the USA."
+        },
+        {
+         "title": "[2] Glenn Everett, ‘Sprung Rhythm in Hopkins’, The Victorian Web",
+         "url": "https://victorianweb.org/authors/hopkins/hopkins13.html",
+         "note": "A short scholarly account that treats sprung rhythm as a nineteenth-century theory rather than as an unheard-of invention, and observes that later poets did not adopt it. Useful as the counterweight to Hopkins’s own preface; read it after the poems, not instead of them."
+        },
+        {
+         "title": "[3] William Blake, ‘London’, Songs of Innocence and of Experience (1901 letterpress), Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/1934.txt.utf-8",
+         "note": "Read as the counter-example: a poet who never published a theory of his metre, whose quatrain’s fourth line carries three stresses against the first three lines’ four. Compare how much interpretive work Hopkins’s printed preface does for the reader and how much Blake leaves to inference. Public domain in the USA."
+        }
+       ],
+       "visual": {
+        "title": "Stress before syllables: scanning a sprung-rhythm octave and sestet",
+        "description": "A scan diagram of ‘God’s Grandeur’ in which every foot is marked with one stress and a syllable count, so that clusters of stress and stretches of slack can be compared between octave and sestet.",
+        "steps": [
+         "Line 1 — assertion: stresses on ‘world’, ‘charged’, ‘grand’, ‘God’; feet mostly three syllables, so the line feels level",
+         "Line 6 — cluster: ‘seared’, ‘trade’, ‘bleared’, ‘smeared’ pile four stresses into a short span, which no two-syllable-foot measure permits easily",
+         "Line 5 — repetition: ‘have trod, have trod, have trod’ converts a verb into a beat, so the stress pattern carries the moral complaint",
+         "Line 9 — volta: ‘And for all this’ concedes before it answers; its stresses are the sparsest in the poem",
+         "Line 14 — slack licensed by theory: ‘with ah! bright wings’ sets an interjection where a pause would otherwise fall",
+         "Test applied — count stresses per line, not syllables; then ask whether the sestet’s pattern differs from the octave’s, and what the analysis loses if it does not"
+        ]
+       }
+      },
+      {
+       "id": "65",
+       "title": "The whole poem as one claim: Keats’s ‘Ode on a Grecian Urn’ and the line that speaks",
+       "explanation": "Reading a whole poem as one argument means asking what the poem asserts, what it merely asks, and which voice does the asserting — and then checking whether the text you have actually answers that last question. Keats’s ‘Ode on a Grecian Urn’ begins as an address to a thing that cannot answer: ‘Thou still unravish’d bride of quietness, / Thou foster-child of silence and slow time, / Sylvan historian, who canst thus express / A flowery tale more sweetly than our rhyme’ (1820 volume text, as reprinted by Project Gutenberg). The first stanza is almost entirely questions (‘What leaf-fring’d legend haunts about thy shape … What men or gods are these? What maidens loth?’), and the poem’s middle stanzas continue with paradoxes rather than statements: ‘Heard melodies are sweet, but those unheard / Are sweeter’, and ‘For ever wilt thou love, and she be fair!’. The urn’s advantage is stated as a lack — the figures cannot age because they cannot finish anything. Only in the fifth stanza does a general claim appear: ‘Thou, silent form, dost tease us out of thought / As doth eternity: Cold Pastoral!’, and then the two lines that have been argued over since 1820: ‘“Beauty is truth, truth beauty,”--that is all / Ye know on earth, and all ye need to know.’ Look at the punctuation in the two witnesses below. Both print an opening quotation mark before ‘Beauty’ and close it after ‘truth beauty,’ — so in both, the words ‘that is all / Ye know on earth, and all ye need to know’ fall outside the urn’s reported speech. The poem therefore leaves undetermined whether the urn says the whole sentence or only its first half, and a reading that asserts either must say so as an inference with evidence [1][2].",
+       "example": "Build the whole-poem argument, then test it on the crux. Step one, form: the ode runs five ten-line stanzas with a rhyme scheme that keeps turning back on itself, and the fifth stanza’s final couplet is the only place where the poem stops asking and asserts. Step two, content: the poem’s four stanzas of address establish a contrast between living passion which ‘leaves a heart high-sorrowful and cloy’d’ and art which is ‘For ever warm and still to be enjoy’d’. Step three, tension: the same permanence is described as ‘Cold Pastoral!’, so the poem’s own evaluation of the state it praises is divided — the exclamation can be admiration or recoil, and the syntax does not settle it. Step four, the crux: if the urn speaks the whole final sentence, the poem ends with an object instructing the reader about knowledge, which sits oddly with four stanzas in which the urn could not answer anything; if the urn speaks only ‘Beauty is truth, truth beauty’, the last two lines are the poet’s own voice ventriloquising the urn, and the poem ends on a claim that the poet has not earned elsewhere. Both readings can be defended. Collation sharpens the question because the witnesses differ in their punctuation elsewhere in the poem: the 1820 volume text has ‘Thou still unravish’d bride of quietness,’ while the 1884 Poetical Works transcribed on Wikisource prints ‘quietness!’, and the 1884 text prints ‘Thou, silent form! dost tease us out of thought’ where the 1820 volume prints ‘Thou, silent form, dost tease us out of thought’. Since the two witnesses disagree about the force of address in three places, the fact that they agree about the quotation marks in the last two lines is real evidence — evidence about what the 1884 editor saw in the 1820 volume, and not proof about Keats’s manuscript. One further claim circulates: a university teaching page states that the version printed in the Annals of the Fine Arts in the same year carries no quotation marks at all. I could not fetch that printing, so it is recorded here as a claim by that page and nothing more, which is exactly how an unresolved textual question should be handled in an essay [1][2][3].",
+       "question": "Both fetched witnesses print ‘“Beauty is truth, truth beauty,”--that is all / Ye know on earth, and all ye need to know.’ What follows for interpretation?",
+       "answer": "The closing quotation mark falls before the final two lines, so the text does not settle who speaks them, and any claim about the urn’s or the poet’s voice must be argued rather than cited",
+       "distractor": "The urn speaks all three lines, since the whole passage follows the poet’s address to the urn and the quotation marks enclose the sentence",
+       "correction": "The quotation marks do not enclose the sentence; they close after ‘truth beauty,’ and ‘that is all / Ye know on earth…’ lies outside them in both witnesses checked. The reading that the urn speaks everything may be defensible, but it cannot be produced by pointing at punctuation that does not say so; the correct form is an argument from the poem’s structure, with the punctuation given its true state.",
+       "depth": {
+        "definitions": "An ode is a lyric poem of elevated address; a crux is a passage where the text is disputed or where the sense cannot be settled without interpretation. A witness is a document carrying the text (see lesson 61). Address is the poem’s turning towards a listener or object — here, the urn. Apostrophe is address to an absent or inanimate thing. A volta is a turn in argument, usually marked in sonnets and often unmarked in odes. Prerequisites: lessons 37, 38 and 40 on form, metre and the defensible claim, and lesson 61 on collation.",
+        "mechanism": "Whole-poem argument works by converting a list of observations into a structure with dependencies. The claim must explain why the poem’s questions precede its answers, why its praises of permanence are also complaints, and why the final couplet’s register is more proverbial than the stanzas that precede it. The crux functions as a test: if a reading of the whole poem requires the urn to speak all three lines, the reading is exposed to the punctuation evidence, which neither supports nor refutes it. The limitation to state is that punctuation in an 1820 volume is a compositor’s work as well as a poet’s, so an argument from a comma is weaker than an argument from a clause distribution that survives across witnesses — and where the witnesses disagree, as they do at ‘quietness’ and at ‘silent form’, the reader must say which witness carries the claim.",
+        "secondExample": "Run the same test on Shelley’s ‘Ozymandias’ in the next lesson’s comparison. There the words spoken by the statue are unambiguously quoted inside the traveller’s report: the 1818 Examiner text gives ‘“My name is Ozymandias, King of Kings.”’ followed by ‘Look on my works ye Mighty, and despair!’, and the 1819 text keeps the report but moves the closing quotation mark, so that the despairing command falls inside the speech. The difference between the two poems is instructive: Shelley’s crux is inside the architecture of a framed report, whereas Keats’s crux concerns whether a reported speaker or the poet is speaking at all. In both cases the discipline is identical — describe the punctuation you actually have, name the witness, and then argue.",
+        "mistake": "The inherited misconception is that the ode’s last two lines are simply ‘the urn’s message’, repeated in thousands of summaries. Diagnose it by asking which edition the summary used and what its quotation marks enclose; in the two witnesses fetched here, they do not enclose the last two lines. The opposite error is to conclude that the passage is therefore meaningless or that Keats was careless. A textual crux is a place where interpretation must do work, not a defect, and it is perfectly possible for the strongest reading to be one in which the poem deliberately leaves the voice unsettled.",
+        "application": "Nonblocking task: write 250 words arguing for one answer to the crux — urn, poet, or deliberate indeterminacy — using at least two pieces of internal evidence and one statement of what textual evidence would change your mind. Model response, self-reviewed: ‘The fifth stanza’s first eight lines are addressed to the urn, and the urn is credited with saying only “Beauty is truth, truth beauty”. The final two lines use “Ye”, a plural address that appears nowhere else in the poem, which suggests a change of addressee and therefore a change of speaker. Internal evidence: the poem’s four earlier stanzas never let the urn speak, so a sudden two-line lecture from the urn would be unmotivated. I would abandon the reading if a manuscript witness showed the quotation marks enclosing all three lines; the 1820 volume and the 1884 edition both close them earlier.’ A satisfactory answer commits; an excellent one names the evidence that would move it.",
+        "summary": "A poem’s meaning is not the sum of its images but the dependency structure of its claims and questions — and where the text is a crux, the honest essay reports the state of the evidence instead of borrowing a conclusion from habit."
+       },
+       "readings": [
+        {
+         "title": "[1] John Keats, ‘Ode on a Grecian Urn’, in Keats: Poems Published in 1820, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/23684.txt.utf-8",
+         "note": "Read the ode entire in printed order, then read the editor’s introduction to the four odes, which offers a confident reading of the poem that you can test against the text. The volume reprints the 1820 collection; its front matter states that the edition reproduces the 1820 volume. Public domain in the USA."
+        },
+        {
+         "title": "[2] John Keats, ‘Ode on a Grecian Urn’, in The Poetical Works of John Keats (1884), Wikisource",
+         "url": "https://en.wikisource.org/wiki/The_Poetical_Works_of_John_Keats/Ode_on_a_Grecian_Urn",
+         "note": "A second witness. Compare ‘quietness,’ with ‘quietness!’, ‘leaf-fring’d’ with ‘leaf-fringed’, ‘For ever wilt thou love’ with ‘Forever wilt thou love’, and ‘Thou, silent form, dost’ with ‘Thou, silent form! dost’; then check where the quotation marks in the last two lines fall. Public domain."
+        },
+        {
+         "title": "[3] ‘Grecian Urn—Notes’, British Literature Wiki, University of Delaware",
+         "url": "https://sites.udel.edu/britlitwiki/grecian-urn--notes",
+         "note": "A teaching reference: read its notes on ‘cold pastoral’ and on the last two lines, including its claim that a version printed in the Annals of the Fine Arts in 1820 carries no quotation marks. I could not fetch that printing, so the claim is cited as the page’s claim, not as verified fact."
+        },
+        {
+         "title": "[4] Percy Bysshe Shelley, ‘Ozymandias’, The Examiner (London), 11 January 1818, Wikisource",
+         "url": "https://en.wikisource.org/wiki/The_Examiner_(London)/Ozymandias",
+         "note": "Read for the comparison made in this lesson’s second example: an inscription that is unambiguously marked as speech. Compare where the quotation marks close here with where they close in Keats’s ode, and see lesson 66 for the poem’s two early texts. Public domain."
+        }
+       ],
+       "visual": {
+        "title": "Questions, paradoxes and the crux: the five-stanza structure of the ‘Ode on a Grecian Urn’",
+        "description": "A stanza-by-stanza diagram of the ode tracking whether each stanza asks, praises or asserts, ending in a quotation-mark diagram of the disputed final couplet.",
+        "steps": [
+         "Stanza 1 — questions only: ‘What leaf-fring’d legend’, ‘What men or gods are these?’; the poem addresses a silent object",
+         "Stanza 2 — paradox stated: ‘Heard melodies are sweet, but those unheard / Are sweeter’; the urn’s gain is a form of loss",
+         "Stanza 3 — accumulation: ‘For ever warm and still to be enjoy’d’ builds a permanence that the stanza’s own words make feverish",
+         "Stanza 4 — the town emptied: the urn’s permanence is now described as desolation, which complicates any simple praise",
+         "Stanza 5 — the only assertion: ‘Thou, silent form, dost tease us out of thought / As doth eternity: Cold Pastoral!’",
+         "Crux diagram: opening quotation mark before ‘Beauty is truth’, closing mark after ‘truth beauty,’; the final two lines lie outside the marks in both witnesses fetched, so the speaker is undetermined"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-61-70-a",
+       "prompt": "An editor preparing a school anthology of Blake’s ‘London’ decides to print ‘A mark in every face I meet’ because that reading appears in a widely used 1901 edition, and adds a note saying the wording is identical in all sources. A reviewer objects. Which objection is best supported by the evidence available?",
+       "answer": "The note is false and the choice is consequential: the plate transcription and the poet’s own draft both print a verb, and the noun reading changes which entity governs the clause",
+       "distractor": "The note is false because no two witnesses ever agree in early modern printing, so the editor should have collated at least twenty copies before printing",
+       "correction": "The reviewer’s point is not that collation was insufficiently wide but that the two named witnesses support the other reading and that the difference is grammatical rather than cosmetic. Claiming universal agreement is a factual error, and choosing the noun reading on the authority of a single posthumous reprint quietly converts an editorial decision into an interpretive one.",
+       "reviewLessonIds": [
+        "61"
+       ]
+      },
+      {
+       "id": "uq-61-70-b",
+       "prompt": "A student analyses a blank-verse passage and reports that the poet ‘breaks the lines to create a feeling of disorder’. Asked to support the claim, the student points to a line that ends with a comma. What is the most useful diagnosis?",
+       "answer": "No boundary has been identified: the claim needs a named phrase crossing a named line-end, and a comma at the line-end marks a pause where syntax and line agree",
+       "distractor": "The claim is fine, because any line ending in punctuation signals tension between metre and meaning",
+       "correction": "The evidential unit in prosody is the boundary, not the mood: a reader must be able to say which syntactic unit crosses which line-end, as with the five-line suspension before ‘Sing’ in Paradise Lost, Book I. A comma at a line-end is the opposite case, since the pause and the syntax coincide; treating it as disorder inverts the observation the claim requires.",
+       "reviewLessonIds": [
+        "62"
+       ]
+      },
+      {
+       "id": "uq-61-70-c",
+       "prompt": "An essay argues that Donne’s compasses ‘show how much the lovers love each other’, citing the figure’s beauty. A tutor asks for the mapping. Which answer would most nearly satisfy the demand?",
+       "answer": "Fixed foot is the beloved, moving foot is the speaker, the drawn circle is the completed relationship, and constancy in the fixed foot is what makes the completion possible",
+       "distractor": "The compasses are a technical instrument, so the figure shows that the love is precise, measured and rational rather than emotional",
+       "correction": "The second answer reads a property of the vehicle as though it were a property of the tenor and never builds the correspondence. The first answer supplies the parts and their relations, which is what an argument from a conceit requires, and it also exposes the place where the mapping is inexact, since the moving foot’s return is mechanical while the poem’s fidelity is chosen.",
+       "reviewLessonIds": [
+        "63",
+        "40"
+       ]
+      },
+      {
+       "id": "uq-61-70-d",
+       "prompt": "A reader scans ‘God’s Grandeur’ by counting syllables, finds that the lines vary between nine and eleven, and concludes that the poem is unmetred. Which correction is best?",
+       "answer": "Sprung rhythm is measured by stressed feet of one to four syllables, so a variable syllable count is compatible with a fixed pattern of stresses, which must be counted instead",
+       "distractor": "The lines are unmetred, since a regular English line must keep a constant syllable count as in running rhythm",
+       "correction": "The reader has applied the rules of common rhythm to a poem whose theory of rhythm is printed with it. Counting stresses rather than syllables shows recurring four- and five-stress lines, and the variation in slack syllables is precisely the licence Hopkins describes ‘for particular effects’. The error is not in the counting but in the unit being counted.",
+       "reviewLessonIds": [
+        "64",
+        "38"
+       ]
+      },
+      {
+       "id": "uq-61-70-e",
+       "prompt": "A study guide states that the urn in Keats’s ode ‘delivers its famous message: Beauty is truth, truth beauty, that is all ye know on earth’. A careful student checks two witnesses and finds the closing quotation mark after ‘truth beauty,’ in both. What follows?",
+       "answer": "The guide has asserted a speaker the text does not assign; the last two lines lie outside the quotation marks in the witnesses checked, so the question of voice must be argued rather than assumed",
+       "distractor": "The guide is right in substance, because quotation marks in a nineteenth-century volume are compositor’s marks and carry no evidential weight",
+       "correction": "Dismissing punctuation entirely is as unhelpful as resting a whole reading on it. What the check establishes is a limit: these witnesses place the final two lines outside the urn’s speech, so the guide’s flat attribution is not supported by them, and any argument about voice must proceed from the poem’s structure and must name the printed evidence, including its weakness.",
+       "reviewLessonIds": [
+        "65",
+        "61"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Arguing about poems: comparison, adverse cases, replies and your own sustained case",
+     "lessons": [
+      {
+       "id": "66",
+       "title": "Grounds for comparison: two ‘Ozymandias’ sonnets and Shelley’s two texts",
+       "explanation": "Comparison is only as good as its ground — the respect in which two works are being compared. Shelley and his friend Horace Smith each wrote a sonnet on the same subject: Shelley’s was printed in The Examiner, whose page gives the date 11 January 1818, and the Wikisource transcription of Smith’s poem records that it was published in the same magazine a month later. The Wikisource transcription of the first printing in The Examiner gives Shelley’s poem beginning ‘I met a Traveller from an antique land, / Who said, “Two vast and trunkless legs of stone / Stand in the desart’ and ending ‘Look on my works ye Mighty, and despair! / No thing beside remains. Round the decay / Of that Colossal Wreck, boundless and bare, / The lone and level sands stretch far away.’ It is signed ‘Glirastes’. Smith’s sonnet, transcribed on Wikisource from a later collection, begins in the desert rather than in a report of it — ‘In Egypt’s sandy silence, all alone, / Stands a gigantic Leg, which far off throws / The only shadow that the Desert knows’ — gives the inscription as direct speech from the stone itself, ‘“I am great Ozymandias,” saith the stone’, and then, in its closing six lines, turns the moral on England: ‘We wonder,—and some Hunter may express / Wonder like ours, when thro’ the wilderness / Where London stood, holding the Wolf in chace, / He meets some fragment huge, and stops to guess / What powerful but unrecorded race / Once dwelt in that annihilated place.’ The ground of comparison is therefore unusually clean: same occasion, same form, same subject, same length, and one crucial structural difference — Shelley encloses the whole scene inside a reported speech by an unnamed traveller, while Smith narrates it directly and then applies it [1][2].",
+       "example": "Use the two texts of Shelley’s own poem to show how much turns on one word and one mark of punctuation. The 1818 Examiner text has ‘My name is Ozymandias, King of Kings.’ inside quotation marks, then, outside them, ‘Look on my works ye Mighty, and despair!’ The 1819 text printed with Rosalind and Helen has ‘“My name is Ozymandias, king of kings: / Look on my works, ye Mighty, and despair!”’ — the colon and the moved closing mark place the despairing command inside the king’s reported speech. The 1819 text also closes the sentence as ‘Nothing beside remains’, where the 1818 text reads ‘No thing beside remains’. That is not a spelling difference: ‘no thing’ keeps ‘thing’ as a noun with a negation, while ‘nothing’ is a single pronoun, and the effect of the line shifts from a residual absence of one particular thing to total vacancy. A modern critical edition adds a third piece of evidence: the Project Gutenberg Complete Poetical Works prints ‘Nothing beside remains’, dates the poem to the Examiner, and notes a manuscript variant for line 9, where the Bodleian manuscript reads ‘this legend clear’ in place of ‘these words appear’. Now compare Smith’s sonnet on the same two points. Smith’s inscription is a boast spoken by the statue and his poem ends by naming London, so the moral has a target; Shelley’s traveller never mentions England, and the poem’s last line is sand. The comparison yields a claim you can defend: Shelley’s frame and his refusal to apply the lesson are doing the same work, since distance is what the poem is about. Smith’s sonnet, by contrast, spends its frame on a different device — a future hunter — and so must name its own city. Neither poem is thereby better; they solve the same problem two ways [3][4].",
+       "question": "Which formulation states the comparison’s ground most usefully?",
+       "answer": "Two sonnets written on one occasion treat one subject and one inscription, and differ principally in whether the scene is reported by an anonymous traveller or narrated directly with an application to a modern city",
+       "distractor": "Two Romantic sonnets about Egypt show that Romantic poets of the same generation were interested in ruins and empire",
+       "correction": "The second statement is true and almost useless: it identifies a shared topic but no point of difference that can be argued about. A ground of comparison must name the respect in which the works are alike and the respect in which they diverge, so that evidence on both sides bears on the same question. Here the organising difference is the frame and its consequences, and the shared subject matter is what makes that difference observable.",
+       "depth": {
+        "definitions": "A ground of comparison is the respect in which two works are compared; a frame is a narrative device placing one account inside another. Reported speech is speech presented by another speaker. A crux is a disputed passage (lesson 65). Collation is systematic comparison of witnesses (lesson 61). Prerequisites: lessons 34 and 45 on frames and unreliable narration, lesson 49 on comparing two texts with evidence, and lesson 61 on witnesses.",
+        "mechanism": "Comparison works by holding variables constant and then explaining variation. Because the two sonnets share occasion, form, subject and approximate date, any difference in effect is more plausibly attributable to structure than to period or taste. The frame is the structural variable: testimony at second hand cannot specify what the traveller did not see, so Shelley’s poem cannot mention London, and its silence about England is a consequence of its narrative choice rather than a political abstention. Smith’s direct narration can name the Wolf and the wilderness by the Thames, and so can moralise. The limitation is that a single pair of poems cannot establish a general rule about frames; what it can establish is that the frame is doing work in this poem, which is a claim about this poem and no more.",
+        "secondExample": "Test the frame’s consequences against a different pairing from an earlier lesson: two translations of the same Odyssey passage, or Lamb’s prose paraphrase of Macbeth against Shakespeare’s verse. In the Lamb case a change of medium removes the metre and part of the character’s interiority, so the comparison isolates medium rather than narrative structure. Applying that lesson here: if you want to compare Shelley and Smith, you should also be able to say what a change of medium would do to the same content — for instance, a prose paraphrase of Shelley’s sonnet retains the frame and still cannot name London, which shows that the frame is doing the work rather than the verse form.",
+        "mistake": "The usual error is to compare works on a topic — ‘both poems are about the transience of power’ — and then to treat shared themes as the analysis. Diagnose it by asking what a shared theme predicts: nothing, since both poems also share the alphabet. The second error is to treat one poem as the successful version and the other as the failed attempt, which replaces comparison with ranking and usually eliminates the very difference that makes the pair worth reading.",
+        "application": "Nonblocking task: write 300 words comparing the two sonnets on the single variable of who speaks the inscription, quoting one line from each and naming the witness for each quotation. Model response, self-reviewed: ‘Shelley’s 1818 text gives the inscription as “My name is Ozymandias, King of Kings.” and leaves the despairing line outside the quotation marks, so a reader may attribute it to the traveller or to the king; Smith’s text gives “I am great Ozymandias,” saith the stone, leaving no ambiguity of speaker. Since Shelley’s whole scene is already reported speech, an ambiguity at second hand deepens the distance the frame creates. I note that the 1819 text of Shelley’s poem moves the closing quotation mark, which shows that even this local question has a textual history, and I name the printing I quoted.’ A satisfactory answer isolates a variable; an excellent one names its witnesses and its uncertainty.",
+        "summary": "Choose the ground before you choose the evidence. A comparison that isolates one structural variable produces a claim you can test; a comparison that lists shared themes produces a paragraph you cannot defend."
+       },
+       "readings": [
+        {
+         "title": "[1] Percy Bysshe Shelley, ‘Ozymandias’, The Examiner (London), 11 January 1818, Wikisource",
+         "url": "https://en.wikisource.org/wiki/The_Examiner_(London)/Ozymandias",
+         "note": "The first printing as transcribed from the Examiner page scan: note ‘Stand in the desart’, the punctuation of the inscription, ‘No thing beside remains’, and the signature ‘Glirastes’. Public domain."
+        },
+        {
+         "title": "[2] Horace Smith, ‘Ozymandias’, Wikisource",
+         "url": "https://en.wikisource.org/wiki/Ozymandias_(Smith)",
+         "note": "Smith’s sonnet from a later collection, with its note that he published a month after Shelley and later retitled the poem. Compare the opening, the speaker of the inscription, and the closing turn to London. Public domain."
+        },
+        {
+         "title": "[3] Percy Bysshe Shelley, ‘Sonnet. Ozymandias’, Rosalind and Helen, A Modern Eclogue (1819), Wikisource",
+         "url": "https://en.wikisource.org/wiki/Rosalind_and_Helen,_A_Modern_Eclogue_(1819)/Sonnet",
+         "note": "The second authorised printing, transcribed from the volume’s page 92. Read the inscription and the following line to see where the quotation marks close, and note ‘Nothing beside remains’ against the 1818 ‘No thing beside remains’."
+        },
+        {
+         "title": "[4] Percy Bysshe Shelley, ‘Ozymandias’, in The Complete Poetical Works of Percy Bysshe Shelley, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/4800.txt.utf-8",
+         "note": "A modern critical text with a publication note and a variant note for line 9 giving the Bodleian manuscript reading. Use it to see how an editor presents witnesses; the transcription is plain text and its own heading states the poems’ sources."
+        }
+       ],
+       "visual": {
+        "title": "One occasion, two structures: comparing the ‘Ozymandias’ sonnets",
+        "description": "A side-by-side diagram of the two sonnets’ architectures, showing where the frame sits, who speaks the inscription, and what the closing lines address.",
+        "steps": [
+         "Shelley 1818 — frame opened by an unnamed traveller; the scene is second-hand, so no speaker in the poem can report anything in England",
+         "Shelley 1818 — inscription: ‘My name is Ozymandias, King of Kings.’; the despairing line stands outside the quotation marks",
+         "Shelley 1819 — same frame, but the colon and moved closing mark place ‘Look on my works, ye Mighty, and despair!’ inside the king’s speech",
+         "Smith — no frame; the desert is narrated directly and the stone speaks in the first person: ‘I am great Ozymandias,’ saith the stone",
+         "Smith — closing six lines name a future London and a hunter, so the moral has a target; Shelley’s closing line is sand",
+         "Comparison claim: the frame and the refusal to apply the lesson perform the same function, and this variable is observable because occasion and form are held constant"
+        ]
+       }
+      },
+      {
+       "id": "67",
+       "title": "Making the adverse case: Peacock on poetry and Johnson on ‘Lycidas’",
+       "explanation": "An adverse reading is a reading against a text, and it is worth studying because the strongest objections often come from inside the tradition rather than from ignorance. Two public-domain examples make the pair. In 1820 Thomas Love Peacock, himself a poet, published a satire whose thesis is that poetry has become a redundant activity. It opens with a scheme: ‘Poetry, like the world, may be said to have four ages, but in a different order: the first age of poetry being the age of iron; the second, of gold; the third, of silver; and the fourth, of brass.’ The modern poet appears as a social anachronism: ‘A poet in our times is a semi-barbarian in a civilized community’, and ‘The march of his intellect is like that of a crab, backward.’ Peacock’s supporting argument is comparative rather than merely rude: poetry once occupied the whole field of intellect — ‘Poetry was the mental rattle that awakened the attention of intellect in the infancy of civil society’ — and now competes with mathematics, astronomy, chemistry and political economy. His peroration predicts that ‘the subordinacy of the ornamental to the useful will be more and more seen and acknowledged’, and that the decay of poetry will be recognised as dramatic poetry’s decay already is. In the Life of Milton, Samuel Johnson had earlier performed a narrower operation on a single canonical poem. Of ‘Lycidas’ he writes: ‘of which the diction is harsh, the rhymes uncertain, and the numbers unpleasing’, adding that ‘It is not to be considered as the effusion of real passion; for passion runs not after remote allusions and obscure opinions’, and, most memorably, ‘Where there is leisure for fiction, there is little grief’ [1][2].",
+       "example": "Analyse each adverse case by naming its premise and asking what evidence would refute it. Johnson’s premise is a criterion: elegy must be the expression of real passion, and real passion does not reach for ornament. That premise is testable in principle, since it predicts that a mourner’s poetry will be bare, and Johnson himself supplies the test when he contrasts the pastoral apparatus with Cowley’s lines about studying together. He also concedes a great deal — ‘What beauty there is we must therefore seek in the sentiments and images’ — and, of the pastoral form, writes that ‘Its form is that of a pastoral; easy, vulgar, and therefore disgusting’, which shows that his objection is to a genre’s conventions as much as to one poem. Peacock’s premise is different in kind: he assumes that value is measurable by the progress of knowledge and that poetry’s share of the reading public must decline as useful study advances. That premise is an empirical prediction, and it has been refuted, in the plain sense that poetry has not ceased to be written or read. Notice also a difference between an adverse reading and a transcription error — a distinction worth practising on Peacock’s text here. The Wikisource transcription prints ‘taking a retrograde stride to the barbarisms and erude traditions of the age of iron’, where the sense requires ‘rude’. I could not consult the 1820 printing, so I record the oddity as what it is: a probable transcription artefact, not a witness variant of the kind lesson 61 taught you to weigh. Handling the two cases differently is the point of the exercise, since a variant is evidence about a text and an artefact is evidence about a transcriber [1][2].",
+       "question": "Peacock predicts that the decay of poetry will soon be generally recognised. Which feature makes that prediction unlike Johnson’s objection to ‘Lycidas’?",
+       "answer": "It is an empirical forecast about reception that can be checked against what happened next, whereas Johnson’s objection rests on a criterion for elegy that must be argued on evaluative grounds",
+       "distractor": "It is less polite in tone, which is why Peacock’s essay is satire and Johnson’s is criticism",
+       "correction": "Tone distinguishes the essays but does not distinguish the kinds of claim they make. Johnson offers a standard and applies it, so answering him means contesting the standard or the application. Peacock commits himself to a future fact, so answering him can be partly a matter of record: poetry continued to be written and read, and the predicted disappearance did not occur, though the prediction can be rescued in weaker forms.",
+       "depth": {
+        "definitions": "An adverse reading argues against a text or a class of texts. A premise is an unstated or stated proposition on which an argument depends; a criterion is a standard of judgement. Satire is writing that attacks by ridicule. Rebuttal answers an argument; refutation shows its premise false. A transcription artefact is an error introduced in copying, distinct from a variant, which is a genuine difference between witnesses. Prerequisites: lesson 58 on the critic’s job, lesson 63 on Johnson’s objection to metaphysical wit, and lesson 61 on witnesses.",
+        "mechanism": "Adverse cases persuade by three mechanisms, and it helps to know which is operating. First, criterion-shifting: a new standard is introduced under which the work fails, and the reader’s agreement depends on accepting the standard. Second, re-description: the work’s virtues are re-named as vices, as when the pastoral’s ease becomes vulgarity. Third, prediction: a claim about the future of the art, which converts a preference into a historical law. The limitation of all three is that they are answerable — criteria can be contested, re-descriptions can be reversed, predictions can be falsified — and an essay that adopts an adverse reading must say which of the three it is using and where it would break.",
+        "secondExample": "Try the same analysis on an adverse judgement from this level’s own material: the charge that Keats’s final couplet is a platitude rather than a conclusion. The critic’s premise is that a poem’s last line must be earned by the argument that precedes it; the re-description converts a summary into a slogan; the prediction, if any, would be about the poem’s standing with later readers, and history has not cooperated. Comparing that case with Peacock’s shows the same three mechanisms at work on a much smaller object, and it also shows why adverse readings are useful: each one tells you exactly what a poem must do to be good, and a reader who can answer the objection understands the poem better than a reader who has never met it.",
+        "mistake": "Two errors. The first is to answer an adverse case by praising the work harder — pointing out that ‘Lycidas’ is admired — which meets no premise. The second is to accept the adverse case wholesale because it is clever, which usually means importing the critic’s criterion without noticing. The diagnostic for both: state the critic’s premise in one sentence and then say whether you accept it, reject it, or accept it and argue about the application.",
+        "application": "Nonblocking task: in 250 words, reconstruct Peacock’s argument as a numbered chain of premises and conclusion, identify the weakest link, and state one piece of evidence that would test it. Model response, self-reviewed: ‘Premise 1: the value of an activity is a function of its contribution to useful knowledge. Premise 2: poetry contributed to knowledge when it was the sole repository of learning. Premise 3: poetry no longer contributes, since mathematics and political economy have taken the field. Conclusion: poetry’s readership and standing must decline. The weakest link is premise 1, which is assumed rather than argued and would be denied by anyone who thinks pleasure is a good; the testable part is premise 3 read as a prediction about readership, which is checkable against publication figures for the decades after 1820, and which the text does not attempt to support from data.’ A satisfactory answer numbers premises; an excellent one identifies which premise the author never defends.",
+        "summary": "An adverse reading is a specification of what a text would have to be. Treat each one as an argument with premises, hidden criteria and, often, a falsifiable prediction — and treat oddities in the transcription as evidence about the transcriber rather than about the author."
+       },
+       "readings": [
+        {
+         "title": "[1] Thomas Love Peacock, ‘The Four Ages of Poetry’ (1820), Wikisource",
+         "url": "https://en.wikisource.org/wiki/The_Four_Ages_of_Poetry",
+         "note": "Read the opening scheme of four ages, the description of the modern poet as a semi-barbarian, and the final pages on the subordinacy of the ornamental to the useful. The transcription contains at least one apparent copying error (‘erude traditions’); treat it as an artefact of the transcription, since I could not consult the 1820 printing. Public domain."
+        },
+        {
+         "title": "[2] Samuel Johnson, ‘Milton’, in Lives of the English Poets: Waller, Milton, Cowley (Cassell, 1891), Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/5098.txt.utf-8",
+         "note": "Read the passage on ‘Lycidas’, beginning with the sentence that calls its diction harsh and its rhymes uncertain. Note how much Johnson concedes before he objects, and note that his criterion — that passion does not run after remote allusions — is stated, not assumed. Public domain in the USA."
+        }
+       ],
+       "visual": {
+        "title": "Anatomy of an adverse reading: premise, re-description, prediction",
+        "description": "A three-column diagram arranging the objections of Peacock and Johnson under the mechanism each one uses, so that the contestable premise in each case is visible.",
+        "steps": [
+         "Mechanism 1 — criterion: Johnson requires that elegy express real passion, and declares that ‘passion runs not after remote allusions’",
+         "Mechanism 2 — re-description: Johnson converts the pastoral’s ease into vulgarity, and Peacock converts the poet’s learning into barbarism",
+         "Mechanism 3 — prediction: Peacock forecasts that the decay of poetry will be generally recognised, a claim about reception rather than about texts",
+         "Concession column: Johnson grants that beauty lies in the sentiments and images; Peacock grants that poets were once the only custodians of knowledge",
+         "Evidence test for each: a criterion is contested by argument, a re-description by counter-description, a prediction by record",
+         "Artefact vs variant: ‘erude traditions’ in the transcription is evidence about a transcriber, not evidence about the 1820 print"
+        ]
+       }
+      },
+      {
+       "id": "68",
+       "title": "The reply that changes the terms: Shelley’s ‘A Defence of Poetry’",
+       "explanation": "The most instructive replies do not deny the opponent’s premises; they show that the premises presuppose something the opponent has not accounted for. Shelley’s ‘A Defence of Poetry’, printed as the final item in the Project Gutenberg collection A Defence of Poetry and Other Essays, answers the position Peacock had taken by redefining the word in dispute. Poetry, in this essay, is not verse: ‘Poetry, in a general sense, may be defined to be “the expression of the imagination”’. Once that definition is in place, the argument about whether versifiers are useful to a scientific age has changed its subject, because imagination is what the scientific age is using. Shelley divides the mental operations explicitly: ‘Reason is the enumeration of quantities already known; imagination is the perception of the value of those quantities, both separately and as a whole’, and he adds the subordination that does the argumentative work — ‘Reason is to the imagination as the instrument to the agent, as the body to the spirit, as the shadow to the substance.’ The reply to utilitarianism is then direct: ‘The great instrument of moral good is the imagination’, and a society with abundant knowledge and no imaginative faculty is diagnosed as one whose ‘calculations have outrun conception’. His most quoted sentence is also his most unguarded: ‘Poets are the unacknowledged legislators of the world’ [1][2].",
+       "example": "Read the reply as a sequence of moves and then decide which moves are sound. Move one, re-definition: ‘poetry’ is enlarged from metrical composition to imaginative expression, which makes Peacock’s evidence — the diminishing audience for verse — a fact about one medium rather than about poetry. Move two, re-description of the dispute: the question is no longer whether poetry is useful but what usefulness presupposes, and Shelley’s answer is that the valuation of any quantity is an imaginative act. Move three, concession: ‘We have more moral, political and historical wisdom, than we know how to reduce into practice’, which grants Peacock’s point about accumulating knowledge and then relocates it, since the failure is not knowledge but the faculty that would apply it, expressed in the phrase ‘We want the creative faculty to imagine that which we know’. Move four, assertion: the final paragraph’s ‘Poets are the unacknowledged legislators of the world’. The last move is the weakest as argument, and the reason is worth stating precisely. The intervening passage accumulates metaphors — poets as hierophants, mirrors, words, trumpets — and a cadence of parallel clauses; the claim about legislation is the peak of a rhetorical ascent rather than the conclusion of a demonstration. Two further facts about the text should be recorded in any citation: the edition I fetched prints the essay without a date note, and it marks several of the volume’s other pieces as written in one year and published in another, so the essay’s dating should be sought elsewhere rather than inferred from this edition. A fair assessment therefore separates the reply — which is a real answer, because it exposes an unexamined premise about value — from the closing flourish, which asks the reader to be moved rather than convinced. Distinguishing those two functions is a transferable skill and it is exactly what the capstone in lesson 70 requires [1][2].",
+       "question": "What is the strongest part of Shelley’s reply to Peacock?",
+       "answer": "The argument that reason’s operations presuppose an imaginative act of valuing, which converts Peacock’s contrast between useful knowledge and ornamental poetry into a relation of dependence",
+       "distractor": "The final sentence about unacknowledged legislators, since it states the social importance of poets in a form that is easy to remember",
+       "correction": "Memorability is not argument, and the closing sentence is preceded by eight metaphors and parallel clauses, which is the form of a peroration rather than of a proof. The load-bearing part of the essay is the reason-and-imagination distinction, because it engages Peacock’s premise about what is useful instead of merely denying that poetry is useless.",
+       "depth": {
+        "definitions": "Utility is usefulness, often measured by contribution to practical ends; the utilitarianism of Shelley’s moment treats value as a function of such contribution. Imagination, in this essay, is the faculty that perceives value and composes new wholes; reason is the faculty that enumerates and analyses what is already known. Peroration is the closing movement of a speech or essay, often designed to move rather than to prove. Re-definition is a move that changes a key term’s extension. Prerequisites: lesson 67 on adverse cases, and lesson 58 on review, scholarship and appreciation.",
+        "mechanism": "Re-definition does two things at once: it enlarges the class of things defended and it makes the opponent’s examples look partial. Its cost is that the dispute can become verbal, a risk Coleridge names when he remarks that controversy is often excited by ‘the disputants attaching each a different meaning to the same word’. The mechanism to extract from Shelley is therefore double-edged. Where the two writers use ‘poetry’ in different senses, the disagreement is partly about a word; where they agree that knowledge must be valued to be used, the disagreement is substantive and Shelley has the argument. A reader who cannot tell the two apart will either dismiss the essay as rhetoric or accept it as proof.",
+        "secondExample": "Test the same method on a reply in an earlier lesson: Lamb’s prose paraphrase of Shakespeare against the verse, where the question is what a change of medium preserves. There, the reply to ‘prose is enough’ is not that prose is bad but a demonstration that something has been lost, and the demonstration is a comparison rather than a re-definition. The two replies together give a small taxonomy: repair the vocabulary, or repair the evidence. An essay that confuses the two — arguing about definitions while claiming to have settled facts — is the commonest failure of undergraduate writing on criticism, and the diagnostic is to ask which of the two operations each paragraph is performing.",
+        "mistake": "The characteristic error is to treat Shelley’s essay as the correct answer to Peacock, as if a question of value could be closed by one eloquent document. Diagnose it by asking what Shelley conceded and what the peroration asserts without argument; a reader who cannot answer both has adopted the essay rather than assessed it. The opposite error, treating the essay as pure rhetoric, misses the genuine argument about valuation, which survives the peroration’s inflation.",
+        "application": "Nonblocking task: write 200 words assessing one sentence from the Defence as argument, one as rhetoric, and one as both, quoting each exactly and naming the edition. Model response, self-reviewed: ‘Argument: “Reason is the enumeration of quantities already known; imagination is the perception of the value of those quantities”, which is a premise with consequences and can be contested by anyone who thinks valuation is a form of calculation. Rhetoric: “Poets are the unacknowledged legislators of the world”, which compresses a complex claim into an image and offers no evidence of legislative effect. Both: “We want the creative faculty to imagine that which we know”, which states a diagnosis and does so in a phrase that would not survive being unpacked into literal terms.’ A satisfactory answer sorts sentences; an excellent one shows why a sentence can belong to two categories.",
+        "summary": "A strong reply identifies the premise it does not share and then shows what the opponent’s position presupposes. Separating argument from peroration keeps the analysis honest, because the rhetorical peak of an essay is often the part that carries least evidential weight."
+       },
+       "readings": [
+        {
+         "title": "[1] Percy Bysshe Shelley, ‘A Defence of Poetry’, in A Defence of Poetry and Other Essays, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/5428.txt.utf-8",
+         "note": "Read the essay from its first paragraph on reason and imagination to its final sentence. The edition prints Greek terms as bracketed placeholders and carries no date note for this essay, so do not quote the bracketed words or infer a date from the file. Public domain in the USA."
+        },
+        {
+         "title": "[2] Thomas Love Peacock, ‘The Four Ages of Poetry’ (1820), Wikisource",
+         "url": "https://en.wikisource.org/wiki/The_Four_Ages_of_Poetry",
+         "note": "Reread the closing pages, this time alongside Shelley, to see which of Peacock’s claims Shelley answers and which he ignores. The distinction is the lesson: a reply may be a reply without being complete."
+        },
+        {
+         "title": "[3] Samuel Taylor Coleridge, Biographia Literaria, chapter XIV, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/6081.txt.utf-8",
+         "note": "Read the definition of a poem and the sentence warning that controversy is often excited by disputants attaching different meanings to the same word. It names the risk that this lesson asks you to detect in Shelley’s redefinition of poetry. Public domain in the USA."
+        }
+       ],
+       "visual": {
+        "title": "Four moves in Shelley’s reply, and where the argument stops",
+        "description": "A sequence diagram of the Defence showing the re-definition of poetry, the re-description of the dispute, the concession about knowledge, and the peroration, with an evidential status marked for each move.",
+        "steps": [
+         "Move 1 — re-definition: poetry becomes ‘the expression of the imagination’, so verse is one medium rather than the whole subject",
+         "Move 2 — re-description: reason enumerates known quantities, imagination perceives their value, so valuation is prior to utility",
+         "Move 3 — concession: knowledge accumulates faster than it can be applied, which grants Peacock’s observation and relocates the failure",
+         "Move 4 — ascent: hierophants, mirrors, words, trumpets, and finally ‘Poets are the unacknowledged legislators of the world’",
+         "Status column: moves 1 and 2 are arguments that can be contested; move 3 is a concession; move 4 is a peroration, which moves rather than proves",
+         "Transfer: name the move you are making whenever you answer a critic, because the moves have different standards of success"
+        ]
+       }
+      },
+      {
+       "id": "69",
+       "title": "Arguing about method: Wordsworth’s Preface and Coleridge’s equivocation",
+       "explanation": "Disagreement is easier to argue about when the two positions are printed and can be quoted, and this lesson’s pair is a model case: a poet’s manifesto and a poet-critic’s examination of it. In the Preface to the second edition of Lyrical Ballads as printed in Project Gutenberg’s 1800 volume, Wordsworth describes his experiment as one of ‘fitting to metrical arrangement a selection of the real language of men in a state of vivid sensation’, says that his principal object was ‘to make the incidents of common life interesting by tracing in them, truly though not ostentatiously, the primary laws of our nature’, and explains that ‘Low and rustic life was generally chosen because in that situation the essential passions of the heart find a better soil in which they can attain their maturity’. Later he summarises his practice: he has ‘chosen subjects from common life’ and ‘endeavoured to bring my language near to the real language of men’. He also offers a definition: ‘Poetry is the spontaneous overflow of powerful feelings: it takes its origin from emotion recollected in tranquillity’. In Biographia Literaria, chapter XVII, Coleridge sets out to examine what he calls the tenets peculiar to Mr. Wordsworth, summarising his own chapter as follows: ‘Rustic life (above all, low and rustic life) especially unfavourable to the formation of a human diction--The best parts of language the product of philosophers, not of clowns or shepherds--Poetry essentially ideal and generic--The language of Milton as much the language of real life, yea, incomparably more so than that of the cottager.’ His central complaint is a logical one: ‘I object, in the very first instance, to an equivocation in the use of the word “real.”’ [1][2]",
+       "example": "Two lessons come out of this pair, and the second one is about evidence discipline. The first is Coleridge’s method of locating the disagreement. He refuses to argue about whether Wordsworth’s poems are good, and instead restates the propositions he means to oppose, quoting them: ‘a selection of the real language of men’, and then what he calls the sentence against which ‘exclusively’ his opposition is directed: ‘Between the language of prose and that of metrical composition, there neither is, nor can be, any essential difference’. Having isolated the claim, he defines the real question in a way that makes it answerable: ‘whether there are not modes of expression, a construction, and an order of sentences, which are in their fit and natural place in a serious prose composition, but would be disproportionate and heterogeneous in metrical poetry’. The equivocation charge follows: ‘real’ slides between what a peasant actually says, what is common to all users of the language, and what is true to feeling, and Coleridge proposes a replacement term, ‘For “real” therefore, we must substitute ordinary, or lingua communis.’ The second lesson is subtler and it concerns your own practice as a reader. Coleridge quotes Wordsworth as writing ‘I have proposed to myself to imitate, and, as far as is possible, to adopt the very language of men’. In the 1800 Preface text I fetched, those words do not appear; the corresponding sentence is the one quoted in the explanation — ‘endeavoured to bring my language near to the real language of men’. The reason is almost certainly that the Preface was revised in later editions and Coleridge quotes the later wording, which I could not fetch to confirm. So the correct conclusion is not ‘Coleridge misquotes’, nor ‘Coleridge quotes accurately’, but: an edition a disputant uses may not be the edition you are reading, and before alleging misquotation you must establish which version the disputant had in front of him. That is the same discipline as the collation in lesson 61, applied to prose about poems [1][2].",
+       "question": "Coleridge’s first objection to Wordsworth’s Preface is that the word ‘real’ is used equivocally. Why does that objection have to precede the others?",
+       "answer": "Because the claim being opposed depends on the word: if ‘real language’ can mean common language, actual rustic speech, or language true to feeling, then the supporting evidence differs for each sense and the argument cannot be assessed until the sense is fixed",
+       "distractor": "Because equivocation is a formal fallacy, and any argument containing a fallacy is invalid from the start and needs no further examination",
+       "correction": "The reason is about the shape of the dispute, not about formal validity. A term used in more than one sense makes the evidence underdetermined, since the same example can confirm one reading and refute another; fixing the sense is what makes the subsequent objections testable. Calling the argument invalid and stopping would leave Coleridge’s own substitute term unexamined, and his chapter goes on to make substantive claims about diction that deserve assessment in their own right.",
+       "depth": {
+        "definitions": "An equivocation is the use of one word in two senses within an argument; the ‘real question’ is a formulation that puts a dispute in testable form. Poetic diction is the vocabulary and usage deemed appropriate to verse. Lingua communis, in Coleridge’s phrase, is language common to all users rather than peculiar to a class. Concession is a point granted to an opponent. Prerequisites: lesson 67 on adverse cases, lesson 68 on re-definition, and lesson 61 on witnesses and editions.",
+        "mechanism": "Coleridge’s chapter performs four operations in order: it restates the opponent’s propositions in the opponent’s own words, isolates the one proposition he opposes, reformulates the question so that it can be answered by examples, and then supplies counter-examples from the poems. The order matters, because an objection to a position requires a fixed target; an essay that objects without isolating the claim will be answered by the observation that the author said something else elsewhere. The limitation is that restating an opponent’s words is itself an interpretive act, as the quotation question in this lesson shows; Coleridge’s target is a text he does not name by edition, so a reader cannot always tell which version of the Preface the target is.",
+        "secondExample": "Apply the four operations to Wordsworth’s own defence of metre, which is where the two writers come closest. Wordsworth argues that metre is justified because the pleasure it gives qualifies the emotion, and Coleridge argues from the origin of metre as a ‘spontaneous effort’ that holds passion in check. Both accounts make metre a moderator of feeling, so the disagreement at this point is about mechanism rather than about value, and it can be stated as a question with two candidate answers. Writing that comparison forces precision of a kind that writing about taste does not, and it is the same operation as Coleridge’s restatement, performed on two texts rather than one.",
+        "mistake": "The standing misconception is that a dispute about method is a dispute about quality, so that siding with Coleridge means thinking less of Wordsworth’s poems. Diagnose it by separating the claim from the poems: Coleridge’s chapter concedes much of Wordsworth’s practice while denying his theory of diction, and a reader who cannot state which of the two is being assessed has not yet entered the argument. The second misconception is the mirror image, treating the Preface as a description of the poems; a manifesto is evidence about intention, not about the texts.",
+        "application": "Nonblocking task: choose one proposition from the Preface, quote it with the edition you used, and write 250 words that (a) restates it in your own words, (b) names one poem or passage that would test it, and (c) reports whether your test supports, complicates or refutes it. Model response, self-reviewed: ‘Proposition quoted: “Poetry is the spontaneous overflow of powerful feelings: it takes its origin from emotion recollected in tranquillity”. Restated: composition begins from a recalled emotion that the writer then contemplates. Test: the ‘Tintern Abbey’ lines on returning to the Wye, where the poem narrates the recollection it describes. Result: complicates rather than confirms, because the poem’s account of tranquillity is an argument the poem makes about itself, so the test is circular unless I find evidence outside the poem — a letter or a draft — about how it was written.’ A satisfactory answer quotes with a source; an excellent one notices when its own test is circular.",
+        "summary": "To argue about method, isolate the claim, fix the senses of its key words, and separate a doctrine from the works it claims to explain. Then check the edition, because a quotation you cannot locate may belong to a version you have not read."
+       },
+       "readings": [
+        {
+         "title": "[1] William Wordsworth, Preface to Lyrical Ballads, in Lyrical Ballads, with Other Poems, 1800, Volume 1, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/8905.txt.utf-8",
+         "note": "Read the Preface in full, particularly the paragraphs on the choice of common life, on bringing language near to ‘the real language of men’, and on poetry as the spontaneous overflow of powerful feelings. This is the 1800 version, which matters for the quotation question discussed in the lesson."
+        },
+        {
+         "title": "[2] Samuel Taylor Coleridge, Biographia Literaria, chapter XVII, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/6081.txt.utf-8",
+         "note": "Read from the chapter summary that begins ‘Examination of the tenets peculiar to Mr. Wordsworth’ through the objection about the word ‘real’ and the restatement of the true question. Chapter XIV’s definition of a poem and its remark about disputants attaching different meanings to the same word are worth reading in the same sitting. Public domain in the USA."
+        }
+       ],
+       "visual": {
+        "title": "Four operations of a disputant: how Coleridge argues with a preface",
+        "description": "A flow diagram of chapter XVII’s method, from restating the opponent’s propositions to isolating one claim, reformulating the question, and testing it against examples.",
+        "steps": [
+         "Operation 1 — restate: Coleridge quotes Wordsworth’s phrasing, including ‘a selection of the real language of men’",
+         "Operation 2 — isolate: he names the single proposition he opposes, that prose and metrical composition differ in no essential respect",
+         "Operation 3 — reformulate: the real question becomes whether certain constructions are proper in prose but disproportionate in metre",
+         "Operation 4 — test: counter-examples are sought in the poems themselves, and the substitute term ‘ordinary, or lingua communis’ is proposed",
+         "Edition check: the words Coleridge quotes as Wordsworth’s (‘adopt the very language of men’) do not appear in the 1800 Preface fetched here, so the version quoted must be established before alleging misquotation",
+         "Transfer rule: fix the target, fix the senses, then object — in that order"
+        ]
+       }
+      },
+      {
+       "id": "70",
+       "title": "Capstone: your own comparative case, with its strongest objection and a falsification test",
+       "explanation": "The level ends with production rather than reception: you will build a comparative argument about two poems you have read closely, state the strongest objection to it, answer the objection, and specify what evidence would make you withdraw the thesis. Everything in lessons 61 to 69 feeds this task. The reading for the exercise is a paragraph of literary criticism rather than a poem, because criticism is where comparisons are usually made and where they usually go wrong. In chapter XIV of Biographia Literaria, Coleridge offers a definition — ‘A poem is that species of composition, which is opposed to works of science, by proposing for its immediate object pleasure, not truth’ — and then a warning that applies to every comparison you will write: ‘Controversy is not seldom excited in consequence of the disputants attaching each a different meaning to the same word’. Earlier in the same chapter he had described the effect of the Lyrical Ballads plan as procuring ‘that willing suspension of disbelief for the moment, which constitutes poetic faith’. Read together, these three sentences give the capstone its shape: define your terms before you compare (61, 65), isolate the respect in which the works are being compared (66), represent the opposing case at its strongest (67), show which of your opponent’s premises you accept and which you dispute (68), and check the edition of everything you quote (69) [1]",
+       "example": "Here is the task in full, with the rubric exposed. Choose two poems from this level: any pair from Blake’s ‘London’, Milton’s Book I opening, Donne’s ‘A Valediction: forbidding mourning’, Hopkins’s ‘God’s Grandeur’ or ‘The Windhover’, Keats’s ‘Ode on a Grecian Urn’, Shelley’s ‘Ozymandias’ or Smith’s. Write 800 to 1,000 words with the following five components, each of which is separately scored. Component one, a thesis stating a claim about how the two poems differ in one named respect, not a claim that both poems are about X. Component two, at least two quotations per poem, each attributed to a named witness with the edition identified, and each verified against the text you actually consulted. Component three, the strongest objection to your thesis, stated in a form its own defender would accept, which usually means granting the descriptive facts and disputing the inference. Component four, your answer to the objection, which must concede something. Component five, a falsification clause: the specific textual or historical evidence that would make you abandon the thesis. A model thesis, on the pair used in lesson 66: ‘Smith’s sonnet can name London and Shelley’s cannot, because Shelley’s scene is enclosed in a traveller’s report; the difference is structural rather than temperamental.’ The strongest objection: ‘The frame is a convention of Romantic orientalism and carries no argumentative weight, so the difference in naming is a difference of opportunity, not of design.’ The answer concedes the convention and replies that a convention can be used, pointing to the moved quotation mark between the 1818 and 1819 texts, which shows the poet revising the boundary of the reported speech. The falsification clause: if a draft or a letter showed the traveller’s frame added late, after the moral was written, the structural claim would weaken considerably. Note what the rubric forces: every component can fail on its own, and the falsification clause is not decoration — an argument that cannot imagine its own refutation is, on this rubric, incomplete [1][2][3].",
+       "question": "Which sentence satisfies the falsification requirement of the capstone rubric?",
+       "answer": "If a draft or letter showed that the traveller’s frame was added after the moral, the claim that the frame does the argumentative work would be weakened and I would revise it",
+       "distractor": "My claim is supported by two quotations from each poem, so no further evidence could overturn it",
+       "correction": "Evidence that supports a thesis cannot also be the condition of its defeat, and no thesis is beyond revision. A falsification clause names a specific, imaginable piece of evidence and says what would follow from finding it, which is what makes the argument honest and testable. The correct answer does both, and it also says what would change rather than simply asserting confidence.",
+       "depth": {
+        "definitions": "A thesis is a contestable claim about the text; an objection is the strongest reason against it; a reply concedes something and answers anyway; a falsification clause specifies evidence that would defeat the thesis. Attribution means naming the witness and edition for every quotation. A rubric is a scoring description of what success looks like. Prerequisites: the whole level, especially lessons 61 on witnesses, 65 on whole-poem argument, 66 on grounds of comparison, 67 on adverse readings and 69 on disputation.",
+        "mechanism": "The five components work because each one closes a route of escape. The named-respect thesis prevents the essay from retreating into shared themes; the attributed quotations prevent unattributable paraphrase; the objection requirement forces engagement with the best counter-case rather than a straw one; the concession prevents the reply from being a denial; and the falsification clause converts the essay from an assertion into an argument with a stated failure condition. The limitation is that no rubric guarantees quality; it can be satisfied by an incompetent argument that names its respects and its evidence. That is why the level closes with the reminder that completing a rubric is not the same as being right, and why the parent course does not treat these quizzes as evidence of professional competence.",
+        "secondExample": "Run the rubric against a weaker version of the same task to see what it excludes. A weaker essay might claim: ‘Both Shelley and Smith use the image of a ruined statue to show that power does not last.’ It has a topic, no named respect of difference, no attributed witnesses, an objection that would be ‘some might disagree’, a reply that repeats the thesis louder, and a falsification clause that says the evidence is plentiful. Revising only the first component — naming the respect of difference as the presence or absence of a frame — changes the whole essay, because it tells the writer what evidence to gather. This is why the order of the rubric is not arbitrary, and why component one is worth revising first.",
+        "mistake": "The most common failure is a thesis that cannot be false, such as ‘Both poems explore the transience of earthly power with rich imagery’. Diagnose it by asking what evidence would refute it; if nothing would, it is a description and not a thesis. The second failure is quoting from memory without checking the text — the specific danger this subject’s rules exist to prevent, since a plausible-looking line that does not appear in any edition is indistinguishable, in an essay, from a fabricated one.",
+        "application": "Nonblocking task: complete the five-component essay as described, using the model thesis, objection, reply and falsification clause as structural guides rather than as content to reproduce. Model response, self-reviewed against the rubric: ‘Thesis names one respect: the frame. Quotations: two from each poem, each with edition and witness identified, both checked against the text I fetched. Objection: stated in a form a defender of the opposing view would accept, and it is granted the convention. Reply: concedes the convention’s existence and argues from the moved quotation mark between the 1818 and 1819 printings. Falsification: a draft showing the frame added late, with the consequence stated. Self-review: my weakest component is the reply, because the moved quotation mark is evidence about punctuation and not yet about intention; I have said so rather than pretending otherwise.’",
+        "summary": "An interpretation is finished when it can state its own strongest objection and the evidence that would end it. That standard is stricter than being persuasive, and it is the standard the whole course has been building toward since the first defensible claim."
+       },
+       "readings": [
+        {
+         "title": "[1] Samuel Taylor Coleridge, Biographia Literaria, chapters XIV and XVII, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/6081.txt.utf-8",
+         "note": "Read the definition of a poem and the sentence about disputants attaching different meanings to the same word (chapter XIV), then reread the chapter XVII summary of Wordsworth’s tenets. These three sentences are the capstone’s structural reading."
+        },
+        {
+         "title": "[2] Percy Bysshe Shelley, ‘A Defence of Poetry’, Project Gutenberg",
+         "url": "https://www.gutenberg.org/ebooks/5428.txt.utf-8",
+         "note": "Reread the definition of poetry and the final paragraphs as an example of an essay that states a case, presses it, and closes on a peroration that is not proof. Useful as a model of structure to imitate and of over-claiming to avoid."
+        },
+        {
+         "title": "[3] Purdue Online Writing Lab, ‘Argumentative Essays’",
+         "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+         "note": "A free writing reference for thesis construction, evidence and counter-argument. Use it only for the mechanics of argument; it is not a source about any literary text in this course."
+        }
+       ],
+       "visual": {
+        "title": "Five components of a defensible comparative essay",
+        "description": "A rubric diagram connecting each required component to the failure it prevents, drawn as a chain from thesis to falsification clause.",
+        "steps": [
+         "Component 1 — thesis naming one respect of difference, which prevents a comparison that only lists shared themes",
+         "Component 2 — two attributed and verified quotations per poem, which prevents paraphrase from memory",
+         "Component 3 — the strongest objection, stated as its defender would state it, which prevents the straw opponent",
+         "Component 4 — a reply that concedes something, which prevents the reply that merely repeats the thesis",
+         "Component 5 — a falsification clause naming evidence and the consequence of finding it, which converts assertion into argument",
+         "Self-review column completed honestly, including which component is weakest and why"
+        ]
+       }
+      }
+     ],
+     "questions": [
+      {
+       "id": "uq-61-70-f",
+       "prompt": "A student compares Shelley’s and Smith’s ‘Ozymandias’ sonnets and writes that both poems show pride punished by time, which proves that Romantic poets shared a single view of empire. A tutor asks for the ground of comparison. What is missing?",
+       "answer": "A named respect in which the poems differ, since shared themes predict nothing and cannot be tested by evidence from either poem",
+       "distractor": "A third poem by a different author, since comparison requires at least three texts to establish a general claim",
+       "correction": "The number of texts is not the problem; the missing element is a variable. Because the two sonnets share occasion, form and subject, the comparison becomes informative only when one respect of difference is isolated, such as the presence of a traveller’s frame in Shelley against direct narration and a named modern city in Smith. Shared themes are what makes the pair comparable, not what the comparison demonstrates.",
+       "reviewLessonIds": [
+        "66",
+        "49"
+       ]
+      },
+      {
+       "id": "uq-61-70-g",
+       "prompt": "A seminar attacks Peacock’s essay by observing that poetry is still being written and read two centuries later. Which assessment of that rejoinder is most accurate?",
+       "answer": "It refutes one part of Peacock’s case, his prediction about reception, while leaving his premise about the measurement of value and his criterion of usefulness untouched",
+       "distractor": "It refutes the whole essay, since a prediction that fails destroys the argument that contained it",
+       "correction": "Peacock’s essay contains claims of different kinds, and they do not all stand or fall together. Falsifying the forecast addresses one of them; the prior premise that value is a function of contribution to useful knowledge, and the criterion by which poetry is judged ornamental, remain to be argued about, which is why lesson 67 insists that an adverse case be disaggregated before it is answered.",
+       "reviewLessonIds": [
+        "67",
+        "68"
+       ]
+      },
+      {
+       "id": "uq-61-70-h",
+       "prompt": "A reader says Shelley’s essay answers Peacock because it is more eloquent and ends with the memorable sentence about unacknowledged legislators. Which correction is most useful?",
+       "answer": "Eloquence is not the measure: the substantive answer lies in the argument that reason presupposes the imagination’s act of valuing, while the closing sentence is a peroration that moves rather than proves",
+       "distractor": "The essay does not answer Peacock at all, since Shelley never mentions him by name and never quotes his essay",
+       "correction": "Not naming an opponent is not the same as not answering him: Shelley’s redefinition of poetry as imaginative expression and his claim that valuation precedes utility engage the position directly. But the strength is located in those arguments, not in the rhetorical climax, and a reader who cannot say which sentence does which job has adopted the essay instead of assessing it.",
+       "reviewLessonIds": [
+        "68",
+        "58"
+       ]
+      },
+      {
+       "id": "uq-61-70-i",
+       "prompt": "An essay states that Wordsworth and Coleridge disagreed because Coleridge preferred Milton’s diction to rustic speech, and therefore Coleridge thought Wordsworth’s poems bad. Which criticism is best supported by the texts?",
+       "answer": "The second inference overreaches: Coleridge restates and grants much of Wordsworth’s practice, and his chapter opposes a theory of diction rather than condemning the poems",
+       "distractor": "The first statement is false because Coleridge never mentions Milton in the chapter",
+       "correction": "Coleridge’s own chapter summary makes the Milton comparison explicitly, calling the language of Milton more the language of real life than that of the cottager, so the first statement stands. What fails is the step from a disagreement about diction to a verdict on the poems, which the chapter does not support and which confuses a claim about method with a judgement of quality.",
+       "reviewLessonIds": [
+        "69",
+        "62"
+       ]
+      },
+      {
+       "id": "uq-61-70-j",
+       "prompt": "A student’s capstone thesis reads: ‘Both poems use vivid imagery to explore how human beings confront mortality, and each does so in its own way.’ A reviewer returns it. What is the reviewer’s strongest ground?",
+       "answer": "The thesis cannot be false, names no respect in which the poems differ, and offers no evidence that would count against it, so it describes rather than argues",
+       "distractor": "The thesis is too long and uses the word ‘vivid’, which is a subjective term inappropriate to academic writing",
+       "correction": "Length and word choice are minor; the failure is structural. A thesis must be contestable and must direct the reader to evidence, and this one accommodates any two poems on any theme, so no quotation could confirm or disconfirm it. The repair is to name a single respect of difference and then collect evidence that bears on it, which is what lesson 70’s rubric requires.",
+       "reviewLessonIds": [
+        "70",
+        "50",
+        "65"
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "id": "lq-61-70-a",
+     "prompt": "Two nineteenth-century reprints of a lyric silently normalise the contractions, capitals and hyphens of the original printing, while the wording of the clauses is unchanged. A student concludes that the reprints are textually identical to the original and can be quoted interchangeably. Assess the conclusion, and say what kind of personification evidence the normalisation may have removed.",
+     "answer": "The conclusion covers only wording: the contractions cue elision in performance and the capitals mark personified agents, so the reprints may quote clause for clause while still altering how the poem is read aloud and who counts as an agent in it",
+     "distractor": "The conclusion is correct because textual identity is determined by wording, and punctuation, capitalisation and contractions are matters of typography rather than text",
+     "correction": "Wording is one witness layer among several. In the poem studied in lesson 61, the plate’s apostrophes instruct the reader to elide, and its capitals mark ‘Man’, ‘Church’ and ‘Harlot’ as agents; a reprint that removes both leaves the clauses identical and the reading different. The student is right about wording and wrong to extend that to identity, and the useful essay would grade the differences as elisional, personifying and inert.",
+     "reviewLessonIds": [
+      "61",
+      "40"
+     ]
+    },
+    {
+     "id": "lq-61-70-b",
+     "prompt": "A poem suspends its main verb across five lines while the line-ends coincide with no clause boundary, and elsewhere places an object at a line-end with its agent and verb at the start of the next line. A reader claims both devices create hesitation. Which assessment best distinguishes the two? Assess the reader’s claim, name the syntactic feature that distinguishes the two devices, and state what a defender of the single-device view would have to show.",
+     "answer": "The suspension delays a required element and is measurable as a syntactic fact, whereas the inverted placement moves emphasis within a clause the reader can already parse, so only the first forces the reader to hold a structure open",
+     "distractor": "Both devices are the same phenomenon, since any mismatch between line and syntax produces the same effect of hesitation",
+     "correction": "The two are distinguishable in principle and in the text. A five-line suspension withholds a constituent the sentence cannot do without, so the reader’s parse is incomplete at every pause; putting an object before its subject and verb reorganises a structure that becomes complete within two lines. Treating them as one device is the error that makes prosodic claims unfalsifiable, since no arrangement of lines could then count as evidence against the claim.",
+     "reviewLessonIds": [
+      "62",
+      "38",
+      "37"
+     ]
+    },
+    {
+     "id": "lq-61-70-c",
+     "prompt": "An essay argues that a poet’s figurative language is ‘rich and suggestive’, illustrating the claim with four images from four different poems. A second reader objects that the essay describes rather than argues. What would the second reader require of the essay, and what would the first need to abandon? State precisely what the second reader would require the first essay to produce, and name the inference about imagery that the first essay would have to abandon in order to meet it.",
+     "answer": "A mapping of at least one figure’s parts onto the parts of the claim it carries, together with a statement of where the mapping is inexact; the first essay would have to abandon the inference that quantity of imagery indicates quality",
+     "distractor": "A statement of the poet’s intentions, since description becomes argument once the poet’s design has been established from letters or prefaces",
+     "correction": "Intentions are evidence about intention, not a substitute for an argument about the text. The requested operation is structural: name the vehicle’s parts, assign them to the tenor, and say where the correspondence strains, as with the compasses whose fixed foot is mechanical at the moment the poem needs fidelity to be chosen. Quantity of imagery measures nothing, and the second reader’s demand is a demand for a testable claim.",
+     "reviewLessonIds": [
+      "63",
+      "40",
+      "59"
+     ]
+    },
+    {
+     "id": "lq-61-70-d",
+     "prompt": "A student scans a poem by syllables, reports that the metre is irregular, and then claims the poet wrote free verse before free verse existed. The poem’s author published a preface describing feet of one to four syllables with one principal stress each. What does the preface change about the analysis? Explain what the preface changes about the analysis, and separate that question from the separate question whether the prefix’s claims about the rhythm’s novelty can themselves be tested.",
+     "answer": "It supplies the unit of measurement, so the analysis must count stresses per line and may legitimately find a regular pattern that a syllable count cannot detect",
+     "distractor": "It proves the poet’s metrical system was successful, since a poet who theorises his own rhythm must have understood it correctly",
+     "correction": "The preface changes the unit of measurement, not the verdict on success. Counting stresses may reveal four- and five-stress lines where syllables vary, which defeats the free-verse claim; but the preface is a producer’s account, and its claims about the rhythm’s naturalness and novelty are open to challenge by later scholarship, which is a separate question from how the lines scan.",
+     "reviewLessonIds": [
+      "64",
+      "38"
+     ]
+    },
+    {
+     "id": "lq-61-70-e",
+     "prompt": "Two witnesses of a poem agree in the punctuation of a disputed final couplet but disagree in three earlier places, including one exclamation mark that changes an address into an exclamation. A student argues that the agreement about the couplet settles the question of who speaks the last two lines. How should that inference be qualified?",
+     "answer": "Agreement between two witnesses is evidence that the reading was transmitted, not that it was intended, and the punctuation itself places the last two lines outside the quoted speech rather than assigning them to a speaker",
+     "distractor": "The inference is sound, because any reading shared by two independent witnesses must reproduce what the author wrote",
+     "correction": "Two witnesses to the same printed tradition are not two independent origins, especially when the later one may derive from the earlier volume. What the agreement supports is the state of the transmitted text, which is precisely what makes the crux a crux: in both witnesses the closing quotation mark falls before the final two lines, so no speaker is assigned and the question must be argued on structural evidence, with the limitation stated.",
+     "reviewLessonIds": [
+      "65",
+      "61"
+     ]
+    },
+    {
+     "id": "lq-61-70-f",
+     "prompt": "Two sonnets were written on the same occasion, in the same form, on the same subject, and one encloses its scene inside a traveller’s report while the other narrates directly and closes by naming the poet’s own city. A critic claims the structural difference is merely a difference of technique and has no bearing on the poems’ arguments. Build the best answer to that critique.",
+     "answer": "The frame restricts what the poem can report, so the absence of a named modern city follows from the narrative choice rather than from the poet’s indifference, and the difference is therefore argumentative in its consequences",
+     "distractor": "The critique is right, because technique and argument are separate departments of a poem and only the argument can be assessed",
+     "correction": "Technique and argument are separable in analysis but not in consequence. A reported scene cannot contain what the reporter did not witness, so the poem’s silence about its own nation is entailed by its structure, and the moral has nowhere to land except on sand. The critic’s premise is that effects must be stated in the poem’s themes rather than traced through its architecture, and the answer shows what that premise costs. Evidence for the answer includes the poet’s own revision of the boundary of the reported speech between the two early printings.",
+     "reviewLessonIds": [
+      "66",
+      "34",
+      "45"
+     ]
+    },
+    {
+     "id": "lq-61-70-g",
+     "prompt": "A critic argues that a genre has become obsolete because the knowledge it once carried is now carried by other disciplines, and predicts that its audience will dwindle to nothing. A second critic attacks one poem for relying on conventions that no longer move a reader, calling its diction harsh and its rhymes uncertain. Compare the two adverse cases in terms of what would be needed to answer each.",
+     "answer": "The first requires an empirical answer to a forecast about reception plus an argument about the premise that value tracks contribution to knowledge, while the second requires contesting a criterion of sincerity and then arguing about its application to one poem",
+     "distractor": "Both require the same answer, namely that each work is widely admired, since reception is the only available evidence about literary value",
+     "correction": "The two cases fail differently. A forecast can be checked against the record, which makes part of the first objection answerable by evidence, though the unstated premise about usefulness must still be argued. A criterion of sincerity cannot be checked against the record; it must be contested or applied differently, and the second critic’s own concessions about beauty in the poem’s sentiments show how a criterion-based attack is conducted. Answering both with applause meets neither case.",
+     "reviewLessonIds": [
+      "67",
+      "63",
+      "58"
+     ]
+    },
+    {
+     "id": "lq-61-70-h",
+     "prompt": "An essay replies to a critic by arguing that the critic uses a key word in two senses, and then treats the dispute as settled. A second essay replies by showing what the critic’s own position presupposes. Which reply is stronger, and what does the weaker one leave undone? Decide which reply is stronger, and state what the weaker of the two leaves unassessed once the terminology has been repaired.",
+     "answer": "The second is stronger because it engages the substance of the position; the first fixes a term but leaves the underlying claim unassessed, and a dispute can be partly verbal while still containing a real difference",
+     "distractor": "The first is stronger because establishing an equivocation refutes the argument outright, and nothing remains to be answered",
+     "correction": "Naming an equivocation is a necessary repair, not a refutation, and Coleridge’s warning that disputants often attach different meanings to the same word cuts both ways. Once the sense of the term is fixed, the substantive question remains: whether valuation is prior to utility, or whether certain constructions belong to verse rather than prose. The second essay does that work; the first stops at the vocabulary and would have to continue.",
+     "reviewLessonIds": [
+      "68",
+      "69",
+      "58"
+     ]
+    },
+    {
+     "id": "lq-61-70-i",
+     "prompt": "You are asked to assess a dispute between a poet’s preface and a critic’s examination of that preface. The critic quotes a sentence from the preface that does not appear in the edition you have fetched, and the critic states the question at issue as whether verse admits constructions that would be alien in serious prose. What should your essay do, and in what order?",
+     "answer": "Establish which version of the preface each text quotes, then separate the doctrine from the poems, then assess whether the restated question is answerable by examples and whether the critic’s substitute term improves the formulation",
+     "distractor": "Conclude that the critic misquotes and therefore misrepresents, since a quotation that cannot be located in the only edition available must be erroneous",
+     "correction": "An unlocatable quotation is a problem about editions before it is a problem about honesty: the preface was revised, and the words may belong to a version not fetched, which is why the first step is bibliographic. Only then can the doctrine be tested against the poems, and only then can the reformulated question be evaluated. Declaring misrepresentation on the strength of one edition inverts the order and converts a scholarly question into an accusation.",
+     "reviewLessonIds": [
+      "69",
+      "61",
+      "62"
+     ]
+    },
+    {
+     "id": "lq-61-70-j",
+     "prompt": "A student’s comparative essay names a respect of difference, quotes two lines from each poem with editions identified, states an objection in the opponent’s own terms, replies with a concession, and adds a falsification clause. A reviewer says the essay is now defensible. Which residue of risk remains, and how should the essay disclose it?",
+     "answer": "The rubric can be satisfied by an argument whose quotations, though verified, do not bear on the named respect of difference, so the essay must say explicitly which of its quotations supports the thesis and which merely illustrates it",
+     "distractor": "None remains, because a thesis, attributed evidence, an objection, a reply and a falsification clause together constitute a complete argument",
+     "correction": "Completeness of form is not soundness of support. A quotation can be accurate and irrelevant, which is the commonest way a well-structured essay fails; the remedy is to state, quotation by quotation, what claim it supports, and to name the component of the argument that is weakest. The capstone’s own model response does this by conceding that its reply rests on punctuation evidence and not yet on intention.",
+     "reviewLessonIds": [
+      "70",
+      "50",
+      "65"
+     ]
+    },
+    {
+     "id": "lq-61-70-k",
+     "prompt": "A teacher selects three poems from this level to teach the difference between a variant, a transcription artefact and an editorial normalisation. For each category, name the evidence a student would need in order to place a given difference correctly, and say what follows about the strength of any interpretive claim built on it.",
+     "answer": "A variant needs at least two witnesses compared, an artefact needs a source that is more authoritative than the copy in hand, and a normalisation needs the edition’s stated policy; claims built on artefacts are the weakest because the difference may not exist in any document the author saw",
+     "distractor": "All three categories require the same evidence, namely the earliest available printing, which by definition preserves what the author wrote",
+     "correction": "The three cases rest on different comparisons. A variant is established by comparing witnesses and stating which reading each carries; an artefact is a difference that disappears when a more reliable copy is consulted, as with a probable copying error in a transcription; a normalisation is a documented decision by an editor, stated in a preface or a note. Earliest-wins collapses them and also fails on its own terms, since the earliest printing may be a transcription of a lost manuscript.",
+     "reviewLessonIds": [
+      "61",
+      "65",
+      "67"
+     ]
+    },
+    {
+     "id": "lq-61-70-l",
+     "prompt": "A seminar asks you to defend the proposition that a poem’s meaning includes the state of its text. Using two of this level’s poems, set out the strongest version of that proposition, the best objection to it, and the evidence that would settle the dispute in each case. Set out the strongest version of the proposition, the best objection to it, and the evidence that would settle the dispute in each of your two chosen cases.",
+     "answer": "The proposition holds where a textual difference alters an inferable structure such as who speaks or who acts, and fails where the difference is inert; in each poem the settling evidence would be a witness showing the other reading in the poet’s own hand or in the printing he oversaw",
+     "distractor": "The proposition is true for all poems, since every mark on a page is part of the work and no difference between witnesses can ever be dismissed as inert",
+     "correction": "Universalising the proposition destroys its usefulness, because a claim that everything matters cannot be tested by any evidence. The defensible version is local: a variant matters when it changes what can be inferred, as when a verb becomes a noun and the agent of perception changes, and it does not matter when it alters only spelling. The objection is that meaning should be identified with an authorial text rather than with a set of documents, and the evidence that settles each local case is a witness closer to the author — a manuscript or an overseen printing — which is exactly the evidence collation seeks and rarely finds.",
+     "reviewLessonIds": [
+      "61",
+      "65",
+      "66",
+      "62"
+     ]
+    }
+   ]
+  }
+ ]
+}

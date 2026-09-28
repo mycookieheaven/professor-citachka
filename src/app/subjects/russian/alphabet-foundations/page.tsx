@@ -107,7 +107,7 @@ export default function AlphabetFoundationsPage() {
     <main className="lesson-page">
       <div className="lesson-stars" aria-hidden="true" />
       <header className="lesson-topbar">
-        <Link href="/" className="back-link"><span aria-hidden="true">←</span> Professor’s Study</Link>
+        <Link href="/study" className="back-link"><span aria-hidden="true">←</span> Professor’s Study</Link>
         <div className="lesson-progress" aria-label="Lesson one of six">
           <span>Russian foundations</span>
           <div><i /></div>
@@ -174,7 +174,7 @@ export default function AlphabetFoundationsPage() {
         </section>
 
         <div className="lesson-finish">
-          <Link href="/" className="secondary-action">Return to the Study</Link>
+          <Link href="/study" className="secondary-action">Return to the Study</Link>
           <LegacyCompletion lessonId={lessonId} model="The lookalike Cyrillic letter shaped like Latin C represents an s sound. Retrieve the sound, rather than borrowing the English letter name; compare with the letter and item-level audio above." onComplete={markComplete} completed={completed} />
         </div>
       </article>

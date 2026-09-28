@@ -39,7 +39,7 @@ export default function TheologyStudyMapPage() {
   return (
     <main className="subject-room-page">
       <header className="lesson-topbar">
-        <Link href="/" className="back-link"><span aria-hidden="true">←</span> Professor’s Study</Link>
+        <Link href="/study" className="back-link"><span aria-hidden="true">←</span> Professor’s Study</Link>
         <span className="room-state">Five-lesson sequence</span>
       </header>
       <article className="subject-room-content">

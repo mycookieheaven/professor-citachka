@@ -4,6 +4,7 @@ import "./globals.css";
 import "./learning.css";
 import "./motion.css";
 import "./unit-path.css";
+import "./landing.css";
 import {StudyAtmosphere} from "@/components/StudyAtmosphere";
 import {StudyCelebration} from "@/components/StudyCelebration";
 import { PinkGlitterCursor } from "@/components/PinkGlitterCursor";

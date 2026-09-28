@@ -1,0 +1,5 @@
+{
+  "_instructions": "Optional wording for images in public/art and public/photography. Key each entry by the exact filename. Anything you leave out still appears on the page, captioned from its filename. 'alt' is what a screen reader announces, so describe what is in the image; 'caption' is the line shown underneath.",
+  "art": {},
+  "photography": {}
+}

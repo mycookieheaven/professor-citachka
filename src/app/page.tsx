@@ -1,26 +1,208 @@
-"use client";
-import Link from 'next/link';
-import {useState} from 'react';
-import {SubjectIcon,type SubjectIconName} from '@/components/SubjectIcon';
-import {BrandMark} from '@/components/Brand';
-import {SubjectProgress,StorageNotice} from '@/components/Learning';
-import {programs} from '@/lib/programs';
-import {ProfessorChat} from '@/components/ProfessorChat';
-const navItems=[['Study','/'],...programs.map(p=>[p.title,`/subjects/${p.id}`])];
-export default function HomePage(){
- const [mobileOpen,setMobileOpen]=useState(false);
- return <div className="site-shell"><div className="monchhichi-wallpaper" aria-hidden="true"/><div className="celestial-field" aria-hidden="true"><span className="star-layer star-layer-near"/><span className="star-layer star-layer-middle"/><span className="star-layer star-layer-far"/><span className="wandering-star wandering-star-one"/><span className="wandering-star wandering-star-two"/></div>
-  <header className="mobile-header"><Link className="mobile-brand" href="/"><BrandMark/><span>Professor Citachka</span></Link><button className="menu-button" aria-label={mobileOpen?'Close navigation':'Open navigation'} aria-expanded={mobileOpen} onClick={()=>setMobileOpen(!mobileOpen)}><span/><span/></button></header>
-  {mobileOpen&&<nav className="mobile-nav" aria-label="Mobile navigation">{navItems.map(([label,href])=><Link key={href} href={href} onClick={()=>setMobileOpen(false)}>{label}</Link>)}</nav>}
-  <aside className="sidebar"><Link className="brand" href="/" aria-label="Professor Citachka home"><BrandMark/><div><strong>Professor Citachka</strong><span>Melissa’s private university</span></div></Link><nav className="primary-nav" aria-label="Primary navigation"><p className="nav-label">Your study rooms</p>{navItems.map(([label,href])=><Link key={href} href={href} className={href==='/'?'active':''}><span className="nav-marker" aria-hidden="true"/>{label}</Link>)}</nav><div className="sidebar-note"><p>Professor’s principle</p><blockquote>“Knowledge expands the boundaries of agency.”</blockquote></div></aside>
-  <main className="dashboard" id="main-content">
-   <section className="dashboard-heading" aria-labelledby="welcome-title"><div><p className="eyebrow">Professor’s Study · your growing library</p><h1 id="welcome-title">Good morning, Melissa.</h1><p>Your private university, one clear idea at a time. Every subject remembers its own place. Pick the thread you want to follow today.</p></div><div className="date-seal"><span>Your rhythm</span><strong>Small & steady</strong></div></section>
-   <section className="next-lesson" aria-labelledby="next-lesson-title"><div className="lesson-index" aria-hidden="true"><span>First steps</span><strong>Ж</strong></div><div className="lesson-copy"><p className="eyebrow">An extended Russian introduction</p><h2 id="next-lesson-title">Alphabet Foundations</h2><p>Prefer a longer opening lesson? Meet six Cyrillic letters with listening and retrieval. Your personalized, ten-topic paths are below.</p></div><Link className="primary-action" href="/subjects/russian/alphabet-foundations">Begin Alphabet Foundations <span aria-hidden="true">→</span></Link><div className="orbit-mark" aria-hidden="true"><span/></div></section>
-   <ProfessorChat/>
-   <section className="study-section" aria-labelledby="subjects-title"><div className="section-heading"><div><p className="eyebrow">{programs.length} departments · a place for every curiosity</p><h2 id="subjects-title">Where would you like to grow?</h2></div><p>Choose your next unfinished topic or open a department to review. Each saved check counts as study; simply visiting does not.</p></div>
-    <div className="subject-list learning-subject-list">{programs.map(p=><article className="subject-study-card" key={p.id}><Link className="subject-row" href={`/subjects/${p.id}`}><span className="subject-code pink"><SubjectIcon subject={p.id as SubjectIconName}/></span><span className="subject-copy"><strong>{p.title}</strong><span>{p.description}</span></span><span className="row-arrow" aria-hidden="true">↗</span></Link><SubjectProgress subject={p.id} compact/></article>)}</div>
-   </section><StorageNotice/>
-   <footer className="dashboard-footer"><p>Professor Citachka · Academia mode</p><p>Published curriculum: {programs.reduce((sum,p)=>sum+p.levels.filter(level=>!level.supplemental).length,0)} regular levels across {programs.length} subjects, plus optional Russian strong language. See each department for its published count. The full requested curriculum is not yet authored.</p></footer>
-  </main>
- </div>;
+import type { Metadata } from "next";
+import Link from "next/link";
+import fs from "node:fs";
+import path from "node:path";
+import { readGallery, readPortrait, type GalleryImage } from "@/lib/gallery";
+
+/*
+ * cookieheaven.art — the personal homepage.
+ *
+ * This page is a server component, so it can read the content folders at build
+ * time. Adding a file to `public/art/` or `public/photography/` is enough to put
+ * it on this page; wording lives in `src/data/gallery.json`, music in
+ * `src/data/music.json`, and the introduction in `src/data/about.json`.
+ */
+
+export const metadata: Metadata = {
+  title: "Melissa Aguilera — cookieheaven.art",
+  description:
+    "Melissa Aguilera's own corner of the internet: her art, photography and music, and Professor Citachka — the university she is building for herself.",
+};
+
+type About = { heading: string; paragraphs: string[]; portraitAlt?: string };
+type Track = { title: string; artist: string; note?: string; link?: string };
+
+function readData<T>(relative: string, fallback: T): T {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(process.cwd(), relative), "utf8")) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+function GallerySection({
+  id,
+  title,
+  note,
+  images,
+}: {
+  id: string;
+  title: string;
+  note: string;
+  images: GalleryImage[];
+}) {
+  return (
+    <section className="home-section" id={id} aria-labelledby={`${id}-title`}>
+      <h2 id={`${id}-title`}>{title}</h2>
+      <p className="home-note">{note}</p>
+      {images.length === 0 ? (
+        <p className="home-empty">
+          Nothing here yet. Pieces will appear in this section as they are added.
+        </p>
+      ) : (
+        <ul className="gallery-grid">
+          {images.map((image) => (
+            <li className="gallery-item" key={image.src}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={image.src} alt={image.alt} loading="lazy" decoding="async" />
+              {image.caption ? (
+                <div className="gallery-meta">
+                  <p className="gallery-title">{image.title}</p>
+                  <p className="gallery-caption">{image.caption}</p>
+                </div>
+              ) : null}
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}
+
+export default function HomePage() {
+  const about = readData<About>("src/data/about.json", {
+    heading: "About me",
+    paragraphs: [],
+  });
+  const music = readData<{ tracks: Track[] }>("src/data/music.json", { tracks: [] });
+
+  const art = readGallery("art");
+  const photography = readGallery("photography");
+  const portrait = readPortrait();
+
+  const tracks = (Array.isArray(music.tracks) ? music.tracks : []).filter(
+    (track): track is Track => Boolean(track && track.title && track.artist),
+  );
+
+  const paragraphs = Array.isArray(about.paragraphs) ? about.paragraphs : [];
+
+  return (
+    <main className="home" id="main-content">
+      <div className="home-inner">
+      <section className="home-hero" aria-labelledby="home-title">
+        <div className="home-hero-copy">
+          <p className="eyebrow">cookieheaven.art</p>
+          <h1 id="home-title">Hi, I&rsquo;m Melissa Aguilera.</h1>
+          <p className="home-lede">
+            This is my website. The art I make, the photographs I take, the music I keep
+            returning to, and the university I am building for myself all live here.
+          </p>
+          <p className="home-location">
+            Based in Brooklyn, New York
+          </p>
+          <div className="home-actions">
+            <Link className="primary-action" href="/study">
+              Enter Professor Citachka <span aria-hidden="true">→</span>
+            </Link>
+            <Link className="secondary-action" href="#about">
+              About me
+            </Link>
+            {/* Spotify renders profiles in JavaScript, so this link could not be
+                machine-verified from the server — a 200 from their app shell
+                proves nothing. Confirm it opens your profile when you look. */}
+            <a
+              className="home-spotify"
+              href="https://open.spotify.com/user/mcdonaldscult"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Spotify <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+        {portrait ? (
+          <div className="home-portrait">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={portrait.src}
+              alt={about.portraitAlt ?? "Portrait of Melissa Aguilera"}
+              width={640}
+              height={640}
+            />
+          </div>
+        ) : null}
+      </section>
+
+      <section className="home-section" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">{about.heading}</h2>
+        {paragraphs.map((text, index) => (
+          <p key={index}>{text}</p>
+        ))}
+        <p className="home-note">
+          Professor Citachka is the university built out of all of this.{" "}
+          <Link className="home-inline-link" href="/study">
+            Step inside
+          </Link>
+          .
+        </p>
+      </section>
+
+      <GallerySection
+        id="art"
+        title="Art"
+        note="Pieces I have made."
+        images={art}
+      />
+
+      <GallerySection
+        id="photography"
+        title="Photography"
+        note="Photographs I have taken."
+        images={photography}
+      />
+
+      <section className="home-section" id="music" aria-labelledby="music-title">
+        <h2 id="music-title">Music I love</h2>
+        <p className="home-note">
+          What I am listening to, and why it stays with me. Links go to the official
+          release, not to copies. My full profile is on{" "}
+          <a
+            className="home-inline-link"
+            href="https://open.spotify.com/user/mcdonaldscult"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Spotify <span aria-hidden="true">↗</span>
+          </a>
+          .
+        </p>
+        {tracks.length === 0 ? (
+          <p className="home-empty">
+            The listening list is being put together. It will appear here.
+          </p>
+        ) : (
+          <ul className="music-list">
+            {tracks.map((track) => (
+              <li className="music-card" key={`${track.artist}—${track.title}`}>
+                <strong>{track.title}</strong>
+                <span className="music-artist">{track.artist}</span>
+                {track.note ? <p className="music-note">{track.note}</p> : null}
+                {track.link ? (
+                  <a
+                    className="music-link"
+                    href={track.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Listen <span aria-hidden="true">↗</span>
+                  </a>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+      </div>
+    </main>
+  );
 }

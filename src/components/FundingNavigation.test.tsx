@@ -1,6 +1,6 @@
 import {expect,it,vi} from 'vitest';
 import {fireEvent,render,screen,within} from '@testing-library/react';
-import HomePage from '@/app/page';
+import HomePage from '@/app/study/page';
 import {SiteNavigation} from './SiteNavigation';
 vi.mock('next/navigation',()=>({usePathname:()=>'/subjects/business-funding'}));
 it('shows priority two consistently in cards, desktop, mobile and department navigation with an actual icon',()=>{
