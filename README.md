@@ -3,7 +3,7 @@
 A personal, accessible learning platform — a private university covering eleven
 subjects, built for sustained daily study rather than casual browsing.
 
-**Live site:** https://professor-citachka.vercel.app
+**Live site:** https://cookieheaven.art
 
 ## What it is
 
@@ -18,10 +18,10 @@ Current scope:
 | Measure | Count |
 |---|---:|
 | Subjects | 11 |
-| Authored lessons | 420 |
-| Published core units | 82 of a planned 1,100 |
-| Unit quizzes | 84 |
-| Cumulative level tests | 42 |
+| Authored lessons | 820 |
+| Published core units | 162 of a planned 1,100 |
+| Unit quizzes | 164 |
+| Cumulative level tests | 82 |
 
 Subjects: Russian, business funding and sales, philosophy, neuroscience,
 psychiatry, veterinary science, Catholic theology, finance, literature, music,

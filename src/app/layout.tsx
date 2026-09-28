@@ -24,6 +24,7 @@ const body = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://cookieheaven.art"),
   title: "Professor Citachka",
   description: "Melissa's private university for disciplined, lifelong learning.",
   icons: {icon:[{url:"/favicon.ico"},{url:"/icons/panda-32.png",type:"image/png",sizes:"32x32"}],apple:[{url:"/icons/panda-180.png",sizes:"180x180"}]},
