@@ -1,0 +1,57 @@
+{
+  "_note": "Todo el texto de la página de inicio, en español. Edita lo que quieras aquí.",
+  "htmlLang": "es",
+  "nav": {
+    "about": "Sobre mí",
+    "art": "Arte",
+    "photography": "Fotografía",
+    "music": "Música",
+    "study": "El Estudio del Profesor",
+    "language": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "cookieheaven.art",
+    "title": "Hola, soy Melissa Aguilera.",
+    "lede": "Este es mi sitio web. El arte que hago, las fotografías que tomo, la música a la que siempre vuelvo y la universidad que estoy construyendo para mí viven aquí.",
+    "location": "Con base en Brooklyn, Nueva York",
+    "portraitAlt": "Retrato de Melissa Aguilera",
+    "enter": "Entrar a Professor Citachka",
+    "aboutCta": "Sobre mí",
+    "spotify": "Spotify"
+  },
+  "about": {
+    "heading": "Sobre mí",
+    "paragraphs": [
+      "Hola, me llamo Melissa Aguilera y este es mi sitio web.",
+      "Soy autista y tengo TDAH. Es una combinación, no dos cosas separadas, y da forma a mi manera de aprender. Significa una concentración profunda y sostenida en lo que me importa, y una mente que casi nunca deja de hacer preguntas. He dejado de tratar eso como algo que hay que arreglar y empecé a construir un lugar donde juega a mi favor.",
+      "Me encanta aprender cosas nuevas. Eso es lo más simple y lo más cierto de mí. No acumular datos, sino entender de verdad cómo funciona algo, y volverme mejor en el oficio mismo de aprender.",
+      "Uno de mis intereses principales siempre ha sido aprender idiomas. El ruso es el que estoy trabajando ahora, empezando desde el principio y haciéndolo bien: cirílico, pronunciación, comprensión auditiva y lectura real en lugar de frases memorizadas.",
+      "Todo esto vive aquí, en cookieheaven.art, y la mayor parte vive dentro de Professor Citachka, la universidad que estoy construyendo para mí. Once materias, escritas como realmente las necesito: con paciencia, con precisión, accesibles y nunca diluidas. Ese proyecto empezó como una manera de estudiar ruso y creció hasta ser algo mucho más grande, porque una sola materia nunca iba a ser suficiente.",
+      "El arte, las fotografías y la música de esta página están aquí por la misma razón. Una mente como la mía no se queda en un solo carril, y prefiero mostrar todo el rango antes que fingir que es más estrecho de lo que es.",
+      "Si eres de las personas que tampoco dejan nunca de aprender, aquí eres bienvenida."
+    ]
+  },
+  "aboutNote": {
+    "prefix": "Professor Citachka es la universidad construida a partir de todo esto.",
+    "link": "Entra",
+    "suffix": ""
+  },
+  "art": {
+    "title": "Arte",
+    "note": "Piezas que he hecho.",
+    "empty": "Todavía no hay nada aquí. Las piezas aparecerán en esta sección a medida que se añadan."
+  },
+  "photography": {
+    "title": "Fotografía",
+    "note": "Fotografías que he tomado.",
+    "empty": "Todavía no hay nada aquí. Las fotografías aparecerán en esta sección a medida que se añadan."
+  },
+  "music": {
+    "title": "Música que amo",
+    "notePrefix": "Lo que estoy escuchando y por qué se queda conmigo. Los enlaces van al lanzamiento oficial, no a copias. Mi perfil completo está en",
+    "profileLink": "Spotify",
+    "noteSuffix": ".",
+    "empty": "La lista de escucha se está armando. Aparecerá aquí.",
+    "listen": "Escuchar"
+  }
+}

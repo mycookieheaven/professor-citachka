@@ -92,7 +92,8 @@ const PORTRAIT_NAMES = [
  *
  * Drop any one of the names above into `public/images/` and it appears in the
  * hero automatically — no code change. Alt text is supplied by the page (from
- * about.json) so it can say something meaningful rather than "portrait".
+ * `src/data/i18n/*.json`) so it can say something meaningful, and in the right
+ * language, rather than "portrait".
  */
 export function readPortrait(): { src: string } | null {
   for (const name of PORTRAIT_NAMES) {

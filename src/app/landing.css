@@ -91,6 +91,37 @@
   text-shadow: 0 0 12px rgba(255, 233, 77, 0.45);
 }
 
+/* Language switch. Three plain links, so the pages work without JavaScript and
+   each language has its own address. */
+.home-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 28px 0 0;
+}
+
+.home-languages a {
+  padding: 6px 14px;
+  border: 2px solid rgba(255, 233, 77, 0.55);
+  border-radius: 999px;
+  color: var(--neon-yellow);
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.home-languages a[aria-current="page"] {
+  border-color: var(--neon-pink);
+  color: var(--night);
+  background: var(--neon-pink);
+  box-shadow: 0 0 18px rgba(255, 47, 160, 0.5);
+}
+
+.home-languages a:focus-visible {
+  outline: 3px solid var(--neon-yellow);
+  outline-offset: 3px;
+}
+
 /* Dark type on a neon fill: roughly 8:1 contrast, so the buttons are loud and
    still readable. */
 .home .primary-action {

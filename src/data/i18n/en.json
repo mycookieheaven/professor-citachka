@@ -1,0 +1,57 @@
+{
+  "_note": "All homepage copy, English. Edit anything here and the page follows. The About text is yours — change it freely.",
+  "htmlLang": "en",
+  "nav": {
+    "about": "About",
+    "art": "Art",
+    "photography": "Photography",
+    "music": "Music",
+    "study": "Professor’s Study",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "cookieheaven.art",
+    "title": "Hi, I’m Melissa Aguilera.",
+    "lede": "This is my website. The art I make, the photographs I take, the music I keep returning to, and the university I am building for myself all live here.",
+    "location": "Based in Brooklyn, New York",
+    "portraitAlt": "Portrait of Melissa Aguilera",
+    "enter": "Enter Professor Citachka",
+    "aboutCta": "About me",
+    "spotify": "Spotify"
+  },
+  "about": {
+    "heading": "About me",
+    "paragraphs": [
+      "Hi, my name is Melissa Aguilera, and this is my website.",
+      "I am autistic with ADHD — a combination, not two separate things, and it shapes the way I learn. It means deep, sustained focus on what I care about, and a mind that rarely stops asking questions. I have stopped treating that as something to fix and started building a place where it works in my favour.",
+      "I love learning new things. That is the simplest and truest thing about me. Not collecting facts, but actually understanding how something works — and getting better at the craft of learning itself.",
+      "One of my main interests has always been learning languages. Russian is the one I am working on now, starting from the very beginning and doing it properly: Cyrillic, pronunciation, listening, and real reading rather than memorised phrases.",
+      "All of it lives here at cookieheaven.art, and most of it lives inside Professor Citachka — the university I am building for myself. Eleven subjects, written the way I actually need them: patient, precise, accessible, and never watered down. That project began as a way to study Russian and grew into something much larger, because one subject was never going to be enough.",
+      "The art, the photographs and the music on this page are here for the same reason. A mind like mine does not stay in one lane, and I would rather show the whole range than pretend it is narrower than it is.",
+      "If you are someone who never really stops learning either, you are welcome here."
+    ]
+  },
+  "aboutNote": {
+    "prefix": "Professor Citachka is the university built out of all of this.",
+    "link": "Step inside",
+    "suffix": ""
+  },
+  "art": {
+    "title": "Art",
+    "note": "Pieces I have made.",
+    "empty": "Nothing here yet. Pieces will appear in this section as they are added."
+  },
+  "photography": {
+    "title": "Photography",
+    "note": "Photographs I have taken.",
+    "empty": "Nothing here yet. Photographs will appear in this section as they are added."
+  },
+  "music": {
+    "title": "Music I love",
+    "notePrefix": "What I am listening to, and why it stays with me. Links go to the official release, not to copies. My full profile is on",
+    "profileLink": "Spotify",
+    "noteSuffix": ".",
+    "empty": "The listening list is being put together. It will appear here.",
+    "listen": "Listen"
+  }
+}

@@ -52,7 +52,7 @@ describe("cookieheaven.art homepage", () => {
   it("explains an empty gallery instead of rendering a blank space", () => {
     render(<HomePage />);
     // Until images are added the sections must say so rather than look broken.
-    expect(screen.getAllByText(/pieces will appear in this section/i).length).toBe(2);
+    expect(screen.getAllByText(/will appear in this section as they are added/i).length).toBe(2);
   });
 
   it("does not show a portrait while no portrait file exists", () => {
