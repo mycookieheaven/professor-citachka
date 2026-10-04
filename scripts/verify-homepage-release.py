@@ -20,29 +20,28 @@ import time
 
 PAGES = {
     "/": {
-        "title": "Melissa Aguilera — cookieheaven.art",
+        "title": "cookieheaven",
         "lang": "en",
         "must": [
-            "Hi, I’m Melissa Aguilera.",
-            "This is my website.",
-            "Based in Brooklyn, New York",
+            "cookieheaven",
+            "I love the world",
+            "knowledge is its most powerful tool",
             "Enter Professor Citachka",
+            "/professorcitachka",
             "open.spotify.com/user/mcdonaldscult",
-            "autistic with ADHD",
             "/images/portrait.jpg",
         ],
         "must_not": ["Hola, soy", "Привет, я"],
     },
     "/es": {
-        "title": "Melissa Aguilera — cookieheaven.art",
+        "title": "cookieheaven",
         "lang": "es",
         "must": [
-            "Hola, soy Melissa Aguilera.",
-            "Este es mi sitio web.",
-            "Con base en Brooklyn, Nueva York",
+            "cookieheaven",
+            "Amo el mundo",
             "Entrar a Professor Citachka",
+            "/professorcitachka",
             "open.spotify.com/user/mcdonaldscult",
-            "Soy autista y tengo TDAH",
             "Español",
             "Русский",
             "/images/portrait.jpg",
@@ -50,15 +49,14 @@ PAGES = {
         "must_not": ["Hi, I’m Melissa", "Привет, я Мелисса"],
     },
     "/ru": {
-        "title": "Мелисса Агилера — cookieheaven.art",
+        "title": "cookieheaven",
         "lang": "ru",
         "must": [
-            "Привет, я Мелисса Агилера.",
-            "Это мой сайт.",
-            "Живу в Бруклине, Нью-Йорк",
-            "Войти в университет",
+            "cookieheaven",
+            "Я люблю мир",
+            "Войти к Профессору Цитачке",
+            "/professorcitachka",
             "open.spotify.com/user/mcdonaldscult",
-            "У меня аутизм и СДВГ",
             "Русский",
             "Español",
             "/images/portrait.jpg",
@@ -170,21 +168,21 @@ def main() -> int:
         else:
             print(f"  ok    {path}  ({spec['lang']})")
 
-    # The dashboard moved to /study; if that 404s the whole restructure broke links.
+    # Professor Citachka is a deliberate destination, never part of the homepage.
     try:
-        status, body = fetch(args.host, "/study", args.ip)
+        status, body = fetch(args.host, "/professorcitachka", args.ip)
         if status != 200:
-            print(f"  FAIL  /study: HTTP {status}")
+            print(f"  FAIL  /professorcitachka: HTTP {status}")
             failures += 1
         else:
             missing = [needle for needle in STUDY_MUST if needle not in body]
             if missing:
-                print(f"  FAIL  /study: missing {missing}")
+                print(f"  FAIL  /professorcitachka: missing {missing}")
                 failures += 1
             else:
-                print("  ok    /study  (dashboard intact)")
+                print("  ok    /professorcitachka  (Professor Citachka intact)")
     except Exception as exc:
-        print(f"  FAIL  /study: request failed — {exc}")
+        print(f"  FAIL  /professorcitachka: request failed — {exc}")
         failures += 1
 
     # Her portrait has to be a real, served image — not merely referenced.

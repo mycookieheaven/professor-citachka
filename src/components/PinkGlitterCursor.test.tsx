@@ -3,7 +3,7 @@ import { afterEach, expect, it, vi } from 'vitest';
 import { PinkGlitterCursor } from './PinkGlitterCursor';
 
 afterEach(() => { cleanup(); vi.unstubAllGlobals(); delete document.documentElement.dataset.motion; });
-it('removes the custom cursor in Calm mode and restores native fallback until moved again',()=>{media();const {container}=render(<PinkGlitterCursor/>);fireEvent.pointerMove(window,{clientX:80,clientY:90});document.documentElement.dataset.motion='calm';fireEvent(window,new Event('citachka-atmosphere-change'));expect(container.querySelector('.pink-glitter-cursor')).toBeNull();document.documentElement.dataset.motion='lively';fireEvent(window,new Event('citachka-atmosphere-change'));expect(container.querySelector('.pink-glitter-cursor')).toHaveAttribute('data-active','false');});
+it('keeps the pixel cookie cursor available on cookieheaven in Calm mode',()=>{media();const {container}=render(<PinkGlitterCursor/>);fireEvent.pointerMove(window,{clientX:80,clientY:90});document.documentElement.dataset.motion='calm';fireEvent(window,new Event('citachka-atmosphere-change'));expect(container.querySelector('.pink-glitter-cursor')).toHaveClass('pixel-cookie-cursor');expect(container.querySelector('.pixel-cursor-cookie')).not.toBeNull();document.documentElement.dataset.motion='lively';fireEvent(window,new Event('citachka-atmosphere-change'));expect(container.querySelector('.pink-glitter-cursor')).toHaveAttribute('data-active','false');});
 function media(reduced = false, fine = true) {
  vi.stubGlobal('matchMedia', vi.fn((query: string) => ({matches: query.includes('pointer') ? fine : reduced, addEventListener: vi.fn(), removeEventListener: vi.fn()})));
 }

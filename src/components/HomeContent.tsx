@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { CSSProperties } from "react";
 import type { GalleryImage } from "@/lib/gallery";
 import {
   LOCALES,
@@ -19,6 +20,18 @@ import {
 /** Spotify renders profiles in JavaScript, so this link cannot be verified from
  *  the server — a 200 from their app shell would prove nothing. */
 export const SPOTIFY_URL = "https://open.spotify.com/user/mcdonaldscult";
+
+const PIXEL_COOKIES = ["one", "two", "three", "four", "five", "six", "seven", "eight"];
+
+function PixelCookieField() {
+  return (
+    <div className="pixel-cookie-field" aria-hidden="true">
+      {PIXEL_COOKIES.map((cookie, index) => (
+        <span className={`pixel-cookie pixel-cookie-${cookie}`} key={cookie} style={{ "--cookie-index": index } as CSSProperties} />
+      ))}
+    </div>
+  );
+}
 
 function GallerySection({
   id,
@@ -80,15 +93,15 @@ export function HomeContent({
 
   return (
     <main className="home" id="main-content" lang={dict.htmlLang}>
+      <PixelCookieField />
       <div className="home-inner">
         <section className="home-hero" aria-labelledby="home-title">
           <div className="home-hero-copy">
             <p className="eyebrow">{dict.hero.eyebrow}</p>
             <h1 id="home-title">{dict.hero.title}</h1>
             <p className="home-lede">{dict.hero.lede}</p>
-            <p className="home-location">{dict.hero.location}</p>
             <div className="home-actions">
-              <Link className="primary-action" href="/study">
+              <Link className="primary-action" href="/professorcitachka">
                 {dict.hero.enter} <span aria-hidden="true">→</span>
               </Link>
               <Link className="secondary-action" href="#about">
@@ -118,6 +131,11 @@ export function HomeContent({
               ))}
             </nav>
           </div>
+          <div className="pixel-cat-guardian">
+            {/* Pixel artwork is intentionally a local SVG: sharp edges survive every display density. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/pixel-cat-cookie.svg" alt="Black pixel cat with green-yellow eyes holding a cookie" width={288} height={288} />
+          </div>
           {portrait ? (
             <div className="home-portrait">
               {/* Intrinsic size, not a square: the photograph is 3:4 and a square
@@ -135,7 +153,7 @@ export function HomeContent({
           ))}
           <p className="home-note">
             {dict.aboutNote.prefix}{" "}
-            <Link className="home-inline-link" href="/study">
+            <Link className="home-inline-link" href="/professorcitachka">
               {dict.aboutNote.link}
             </Link>
             {dict.aboutNote.suffix}

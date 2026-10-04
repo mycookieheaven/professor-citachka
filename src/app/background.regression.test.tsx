@@ -1,7 +1,7 @@
 import {expect,it,vi} from 'vitest';
 import {render,cleanup} from '@testing-library/react';
 import {readFileSync} from 'node:fs';
-import Study from './study/page';
+import Study from './professorcitachka/page';
 import {LearningLesson} from '@/components/Learning';
 import {getProgram} from '@/lib/programs';
 vi.mock('next/navigation',()=>({useRouter:()=>({push:vi.fn()}),usePathname:()=>'/'}));

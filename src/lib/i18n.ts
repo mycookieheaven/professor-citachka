@@ -40,7 +40,6 @@ export type Dictionary = {
     eyebrow: string;
     title: string;
     lede: string;
-    location: string;
     portraitAlt: string;
     enter: string;
     aboutCta: string;

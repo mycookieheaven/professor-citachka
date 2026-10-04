@@ -3,9 +3,9 @@ import { HomeContent } from "@/components/HomeContent";
 import { homepageData } from "@/lib/homepage";
 
 export const metadata: Metadata = {
-  title: "Мелисса Агилера — cookieheaven.art",
+  title: "cookieheaven",
   description:
-    "Собственный уголок Мелиссы Агилеры в интернете: её творчество, фотография и музыка, и «Профессор Цитачка» — университет, который она строит для себя.",
+    "cookieheaven: небольшой архив творчества, фотографий, музыки и вопросов, за которыми стоит идти.",
   alternates: { canonical: "/ru", languages: { en: "/", es: "/es", ru: "/ru" } },
 };
 

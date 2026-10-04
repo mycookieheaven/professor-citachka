@@ -102,8 +102,8 @@ html[data-motion="lively"] .celebration-petal {display:block;animation:petal-bur
 /* Calm also silences inherited glitter/shimmer and restores native cursor lifecycle. */
 html[data-motion="calm"] {scroll-behavior:auto;}
 html[data-motion="calm"] *,html[data-motion="calm"] *::before,html[data-motion="calm"] *::after {animation:none!important;transition:none!important;}
-html[data-motion="calm"] :is(.pink-glitter-cursor,.celebration-petals) {display:none!important;}
-html[data-motion="calm"]:has(.pink-glitter-cursor[data-active="true"]),html[data-motion="calm"]:has(.pink-glitter-cursor[data-active="true"]) * {cursor:auto!important;}
+html[data-motion="calm"] :is(.pink-glitter-cursor:not(.pixel-cookie-cursor),.celebration-petals) {display:none!important;}
+html[data-motion="calm"]:has(.pink-glitter-cursor[data-active="true"]:not(.pixel-cookie-cursor)),html[data-motion="calm"]:has(.pink-glitter-cursor[data-active="true"]:not(.pixel-cookie-cursor)) * {cursor:auto!important;}
 html[data-focus="on"] :is(.celestial-field,.star-field,.quote-sparkle,.orbit-mark,.dashboard::after) {visibility:hidden;}
 html[data-focus="on"] .monchhichi-wallpaper {opacity:.12;}
 html[data-focus="on"] :is(.learning-panel,.subject-progress-card,.path-unit,.subject-study-card,.dashboard-heading,.section-heading) {background:#47152f;box-shadow:none;}

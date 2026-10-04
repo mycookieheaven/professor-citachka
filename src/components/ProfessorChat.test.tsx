@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import HomePage from '@/app/study/page';
+import HomePage from '@/app/professorcitachka/page';
 
 describe('Ask Professor Citachka bubble', () => {
   it('keeps chat in a visible side bubble until the learner opens it on the dashboard', () => {

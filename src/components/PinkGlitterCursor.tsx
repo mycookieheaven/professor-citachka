@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 type Sparkle = {
@@ -13,6 +14,8 @@ type Sparkle = {
 };
 
 export function PinkGlitterCursor() {
+  const pathname = usePathname();
+  const isCookieheaven = pathname === "/" || pathname === "/es" || pathname === "/ru";
   const [enabled, setEnabled] = useState(false);
   const [position, setPosition] = useState({ x: -100, y: -100 });
   const [sparkles, setSparkles] = useState<Sparkle[]>([]);
@@ -22,7 +25,7 @@ export function PinkGlitterCursor() {
   useEffect(() => {
     const finePointer = window.matchMedia("(pointer: fine)");
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const isEnabled = () => finePointer.matches && !reducedMotion.matches && document.documentElement.dataset.motion !== 'calm';
+    const isEnabled = () => finePointer.matches && !reducedMotion.matches && (isCookieheaven || document.documentElement.dataset.motion !== 'calm');
     const updateEnabled = () => {setEnabled(isEnabled());setPosition({x:-100,y:-100});setSparkles([]);};
     updateEnabled();
     finePointer.addEventListener("change", updateEnabled);
@@ -61,13 +64,13 @@ export function PinkGlitterCursor() {
       window.removeEventListener("pointermove", onMove);
       document.documentElement.removeEventListener("mouseleave", onLeave);
     };
-  }, []);
+  }, [isCookieheaven]);
 
   if (!enabled) return null;
 
   return (
-    <div className="pink-glitter-cursor" data-active={position.x >= 0 && position.y >= 0} aria-hidden="true">
-      {sparkles.map((sparkle) => (
+    <div className={`pink-glitter-cursor${isCookieheaven ? " pixel-cookie-cursor" : ""}`} data-active={position.x >= 0 && position.y >= 0} aria-hidden="true">
+      {isCookieheaven ? null : sparkles.map((sparkle) => (
         <i
           className="pink-cursor-sparkle"
           key={sparkle.id}
@@ -83,7 +86,12 @@ export function PinkGlitterCursor() {
           } as React.CSSProperties}
         />
       ))}
-      <span className="pink-cursor-star" style={{ left: position.x, top: position.y }}>✦</span>
+      <span
+        className={isCookieheaven ? "pixel-cursor-cookie" : "pink-cursor-star"}
+        style={{ left: position.x, top: position.y }}
+      >
+        {isCookieheaven ? null : "✦"}
+      </span>
     </div>
   );
 }

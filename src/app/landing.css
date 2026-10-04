@@ -20,8 +20,9 @@
   --pink-hot: #ff3d9a;
   --pink-bright: #ff7ac0;
   --pink-pale: #ffd9ec;
+  --star-gold: #ffe86b;
+  --star-warm: #fff5b0;
   --pink-deep: #2a0618;
-  --pink-mid: #4a0f31;
   --sparkle: #ffffff;
   --home-base: #1a0410;
   --home-panel: rgba(58, 10, 40, 0.72);
@@ -50,10 +51,12 @@
   inset: -22%;
   z-index: 0;
   pointer-events: none;
+  /* Yellow stars, not vague glitter: the crisp multi-point star is built from
+     radial points plus a faint halo. The two layers drift against each other. */
   background-image:
-    radial-gradient(circle, rgba(255, 255, 255, 0.95) 0 1.1px, transparent 1.7px),
-    radial-gradient(circle, rgba(255, 217, 236, 0.85) 0 1.5px, transparent 2.2px),
-    radial-gradient(circle, rgba(255, 61, 154, 0.72) 0 2.1px, transparent 2.9px);
+    radial-gradient(circle, var(--star-warm) 0 1.15px, rgba(255, 232, 107, 0.34) 1.7px, transparent 3px),
+    radial-gradient(circle, var(--star-gold) 0 1.7px, rgba(255, 232, 107, 0.30) 2.6px, transparent 4px),
+    radial-gradient(circle, rgba(255, 247, 179, 0.92) 0 2.3px, rgba(255, 232, 107, 0.20) 3.6px, transparent 5.3px);
   background-size: 137px 137px, 211px 211px, 313px 313px;
   background-position: 0 0, 71px 109px, 149px 43px;
   opacity: 0.62;
@@ -70,9 +73,9 @@
   z-index: 0;
   pointer-events: none;
   background-image:
-    radial-gradient(circle, rgba(255, 255, 255, 0.9) 0 1.9px, transparent 2.6px),
-    radial-gradient(circle, rgba(255, 122, 192, 0.8) 0 2.6px, transparent 3.6px),
-    linear-gradient(112deg, transparent 38%, rgba(255, 255, 255, 0.16) 50%, transparent 62%);
+    radial-gradient(circle, var(--star-warm) 0 1.9px, rgba(255, 232, 107, 0.28) 3.1px, transparent 5px),
+    radial-gradient(circle, var(--star-gold) 0 2.7px, rgba(255, 232, 107, 0.23) 4.4px, transparent 7px),
+    linear-gradient(112deg, transparent 38%, rgba(255, 245, 168, 0.24) 50%, transparent 62%);
   background-size: 269px 269px, 401px 401px, 220% 220%;
   background-position: 40px 30px, 210px 160px, -60% 0;
   opacity: 0.5;
@@ -87,11 +90,50 @@
   padding: clamp(38px, 6vw, 76px) clamp(20px, 5vw, 48px) 96px;
 }
 
-/* ---------- hero ---------- */
+
+/* ---------- pixel world ----------
+   The homepage is an Explore surface: scattered cookies create the atmosphere;
+   the cat is a single clear landmark, never a generic decorative illustration. */
+.pixel-cookie-field {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.pixel-cookie {
+  position: absolute;
+  display: block;
+  width: 38px;
+  height: 38px;
+  background: url("/images/pixel-cookie.svg") center / contain no-repeat;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 0 8px rgba(255, 232, 107, 0.58));
+  animation: pixel-cookie-drift 16s steps(12, end) infinite alternate;
+}
+.pixel-cookie-one { left: 5%; top: 12%; }
+.pixel-cookie-two { left: 88%; top: 14%; transform: scale(.72); }
+.pixel-cookie-three { left: 76%; top: 37%; transform: scale(.58); }
+.pixel-cookie-four { left: 11%; top: 48%; transform: scale(.65); }
+.pixel-cookie-five { left: 91%; top: 62%; transform: scale(.82); }
+.pixel-cookie-six { left: 4%; top: 79%; transform: scale(.52); }
+.pixel-cookie-seven { left: 69%; top: 86%; transform: scale(.66); }
+.pixel-cookie-eight { left: 36%; top: 94%; transform: scale(.48); }
+
+.pixel-cat-guardian {
+  width: clamp(122px, 17vw, 202px);
+  align-self: end;
+  margin: 0 -26px 2px 0;
+  filter: drop-shadow(0 0 16px rgba(168, 255, 69, 0.42));
+  animation: pixel-cat-watch 2.8s steps(2, end) infinite;
+}
+.pixel-cat-guardian img { display: block; width: 100%; height: auto; image-rendering: pixelated; }
+
 
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) minmax(122px, 202px) auto;
   align-items: center;
   gap: clamp(26px, 5vw, 56px);
   padding-bottom: clamp(30px, 5vw, 52px);
@@ -109,11 +151,12 @@
 
 .home h1 {
   margin: 10px 0 18px;
-  font-family: var(--font-display), Georgia, serif;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco, Consolas, monospace;
+  text-transform: lowercase;
   font-size: clamp(40px, 6.2vw, 72px);
+  letter-spacing: -0.06em;
   font-weight: 800;
   line-height: 1.02;
-  letter-spacing: -0.03em;
   color: #fff6fc;
   text-shadow:
     0 0 18px rgba(255, 61, 154, 0.8),
@@ -459,6 +502,18 @@
 
 /* ---------- motion ---------- */
 
+@keyframes pixel-cookie-drift {
+  0% { translate: 0 0; rotate: -8deg; }
+  35% { translate: 20px -32px; rotate: 8deg; }
+  68% { translate: -14px -62px; rotate: -4deg; }
+  100% { translate: 27px -92px; rotate: 10deg; }
+}
+
+@keyframes pixel-cat-watch {
+  0%, 75%, 100% { translate: 0 0; }
+  80%, 92% { translate: 0 -5px; }
+}
+
 @keyframes pink-bloom-drift {
   0%, 100% { background-position: 0% 0%, 100% 0%, 50% 100%; }
   33% { background-position: 22% 26%, 74% 34%, 34% 72%; }
@@ -525,7 +580,8 @@ html[data-motion="lively"] .home h2 {
   .home::before,
   .home::after,
   .home-portrait,
-  html[data-motion="lively"] .home h1,
+  .pixel-cat-guardian,
+  .pixel-cookie,
   html[data-motion="lively"] .home h2 {
     animation: none !important;
   }
@@ -545,6 +601,12 @@ html[data-motion="lively"] .home h2 {
   .home-portrait {
     width: min(260px, 68vw);
     order: -1;
+  }
+
+  .pixel-cat-guardian {
+    width: min(160px, 48vw);
+    margin: 0;
+    order: -2;
   }
 
   .gallery-grid { grid-template-columns: 1fr; }

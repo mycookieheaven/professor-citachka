@@ -3,9 +3,9 @@ import { HomeContent } from "@/components/HomeContent";
 import { homepageData } from "@/lib/homepage";
 
 export const metadata: Metadata = {
-  title: "Melissa Aguilera — cookieheaven.art",
+  title: "cookieheaven",
   description:
-    "El rincón propio de Melissa Aguilera en internet: su arte, su fotografía y su música, y Professor Citachka, la universidad que está construyendo para sí misma.",
+    "cookieheaven: un pequeño archivo de arte, fotografías, música y preguntas que vale la pena seguir.",
   alternates: { canonical: "/es", languages: { en: "/", es: "/es", ru: "/ru" } },
 };
 

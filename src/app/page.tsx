@@ -12,9 +12,9 @@ import { homepageData } from "@/lib/homepage";
  */
 
 export const metadata: Metadata = {
-  title: "Melissa Aguilera — cookieheaven.art",
+  title: "cookieheaven",
   description:
-    "Melissa Aguilera's own corner of the internet: her art, photography and music, and Professor Citachka — the university she is building for herself.",
+    "cookieheaven — a small archive of art, photographs, music, and questions worth following.",
   alternates: { canonical: "/", languages: { en: "/", es: "/es", ru: "/ru" } },
 };
 

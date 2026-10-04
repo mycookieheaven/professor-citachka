@@ -2,38 +2,33 @@
   "_note": "All homepage copy, English. Edit anything here and the page follows. The About text is yours — change it freely.",
   "htmlLang": "en",
   "nav": {
-    "about": "About",
+    "about": "The premise",
     "art": "Art",
     "photography": "Photography",
     "music": "Music",
-    "study": "Professor’s Study",
+    "study": "Professor Citachka",
     "language": "Language"
   },
   "hero": {
     "eyebrow": "cookieheaven.art",
-    "title": "Hi, I’m Melissa Aguilera.",
-    "lede": "This is my website. The art I make, the photographs I take, the music I keep returning to, and the university I am building for myself all live here.",
-    "location": "Based in Brooklyn, New York",
+    "title": "cookieheaven",
+    "lede": "I love the world, and I believe knowledge is its most powerful tool — the one thing that grows when it is shared, the one treasure that teaches us how to see.",
     "portraitAlt": "Portrait of Melissa Aguilera",
     "enter": "Enter Professor Citachka",
-    "aboutCta": "About me",
+    "aboutCta": "The premise",
     "spotify": "Spotify"
   },
   "about": {
-    "heading": "About me",
+    "heading": "A small doctrine",
     "paragraphs": [
-      "Hi, my name is Melissa Aguilera, and this is my website.",
-      "I am autistic with ADHD — a combination, not two separate things, and it shapes the way I learn. It means deep, sustained focus on what I care about, and a mind that rarely stops asking questions. I have stopped treating that as something to fix and started building a place where it works in my favour.",
-      "I love learning new things. That is the simplest and truest thing about me. Not collecting facts, but actually understanding how something works — and getting better at the craft of learning itself.",
-      "One of my main interests has always been learning languages. Russian is the one I am working on now, starting from the very beginning and doing it properly: Cyrillic, pronunciation, listening, and real reading rather than memorised phrases.",
-      "All of it lives here at cookieheaven.art, and most of it lives inside Professor Citachka — the university I am building for myself. Eleven subjects, written the way I actually need them: patient, precise, accessible, and never watered down. That project began as a way to study Russian and grew into something much larger, because one subject was never going to be enough.",
-      "The art, the photographs and the music on this page are here for the same reason. A mind like mine does not stay in one lane, and I would rather show the whole range than pretend it is narrower than it is.",
-      "If you are someone who never really stops learning either, you are welcome here."
+      "The world is stranger, larger, and more beautiful than it first appears. To learn is to keep meeting it again with better eyes.",
+      "Knowledge is not decoration. It is our most valuable asset: a way to name what is real, resist what is false, and become less easily ruled by fear.",
+      "This is a small archive of things I make, things I notice, and questions I refuse to stop asking."
     ]
   },
   "aboutNote": {
-    "prefix": "Professor Citachka is the university built out of all of this.",
-    "link": "Step inside",
+    "prefix": "For the work of studying seriously, there is another room.",
+    "link": "Enter Professor Citachka",
     "suffix": ""
   },
   "art": {

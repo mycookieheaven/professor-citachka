@@ -7,7 +7,7 @@ import {programs} from '@/lib/programs';
 /**
  * Site-wide header.
  *
- * Hidden on `/study`, where the Professor's Study dashboard supplies its own
+ * Hidden on `/professorcitachka`, where the Professor Citachka dashboard supplies its own
  * full sidebar navigation; showing both would be two competing menus.
  *
  * On the personal homepage it becomes the homepage header: the brand reads
@@ -18,14 +18,14 @@ import {programs} from '@/lib/programs';
 const HOME_LABELS: Record<string,{
   about:string;art:string;photography:string;music:string;study:string;ariaLabel:string;
 }>={
-  '/':{about:'About',art:'Art',photography:'Photography',music:'Music',study:'Professor’s Study',ariaLabel:'Site sections'},
-  '/es':{about:'Sobre mí',art:'Arte',photography:'Fotografía',music:'Música',study:'El Estudio del Profesor',ariaLabel:'Secciones del sitio'},
-  '/ru':{about:'Обо мне',art:'Творчество',photography:'Фотография',music:'Музыка',study:'Кабинет профессора',ariaLabel:'Разделы сайта'},
+  '/':{about:'The premise',art:'Art',photography:'Photography',music:'Music',study:'Professor Citachka',ariaLabel:'Site sections'},
+  '/es':{about:'La premisa',art:'Arte',photography:'Fotografía',music:'Música',study:'Professor Citachka',ariaLabel:'Secciones del sitio'},
+  '/ru':{about:'Исходная мысль',art:'Творчество',photography:'Фотография',music:'Музыка',study:'Профессор Цитачка',ariaLabel:'Разделы сайта'},
 };
 
 export function SiteNavigation(){
  const path=usePathname();
- if(path==='/study')return null;
+ if(path==='/professorcitachka')return null;
  const labels=HOME_LABELS[path];
  const onHome=Boolean(labels);
  return <header className="global-study-header">
@@ -35,8 +35,8 @@ export function SiteNavigation(){
    <Link href="#art">{labels.art}</Link>
    <Link href="#photography">{labels.photography}</Link>
    <Link href="#music">{labels.music}</Link>
-   <Link href="/study">{labels.study}</Link>
+   <Link href="/professorcitachka">{labels.study}</Link>
   </nav>}
-  <details className="all-departments"><summary>All departments</summary><nav aria-label="All subject navigation"><Link href="/study">Professor’s Study</Link>{programs.map(p=><Link key={p.id} aria-current={path.includes('/'+p.id)?'page':undefined} href={`/subjects/${p.id}`}>{p.title}</Link>)}</nav></details>
+  <details className="all-departments"><summary>All departments</summary><nav aria-label="All subject navigation"><Link href="/professorcitachka">Professor’s Study</Link>{programs.map(p=><Link key={p.id} aria-current={path.includes('/'+p.id)?'page':undefined} href={`/subjects/${p.id}`}>{p.title}</Link>)}</nav></details>
  </header>;
 }

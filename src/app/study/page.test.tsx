@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import HomePage from "@/app/study/page";
+import HomePage from "@/app/professorcitachka/page";
 import {programs} from '@/lib/programs';
 
 describe("Professor Citachka dashboard", () => {

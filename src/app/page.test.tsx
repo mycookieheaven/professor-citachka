@@ -3,42 +3,39 @@ import HomePage from "@/app/page";
 
 /*
  * The homepage is now the personal page for cookieheaven.art, and the learning
- * dashboard lives at /study. These tests pin that arrangement, because a quiet
+ * dashboard lives at /professorcitachka. These tests pin that arrangement, because a quiet
  * change to it would send readers to the wrong place without failing anything
  * else.
  */
 
 describe("cookieheaven.art homepage", () => {
-  it("introduces Melissa by name", () => {
+  it("uses cookieheaven as the title, not a personal introduction", () => {
     render(<HomePage />);
-    expect(
-      screen.getByRole("heading", { name: /hi, i’m melissa aguilera/i }),
-    ).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "cookieheaven" })).toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: /hi, i.m melissa/i })).not.toBeInTheDocument();
   });
 
-  it("says it is her website and ties the page to Professor Citachka", () => {
+  it("makes the premise philosophical and knowledge-forward", () => {
     const { container } = render(<HomePage />);
-    // Scope to the hero: the same words also appear inside her about text, and a
-    // page-wide text match would pass for the wrong reason.
     const lede = container.querySelector(".home-lede");
-    expect(lede?.textContent).toMatch(/this is my website/i);
-    expect(lede?.textContent).toMatch(/university i am building for myself/i);
+    expect(lede?.textContent).toMatch(/love the world/i);
+    expect(lede?.textContent).toMatch(/knowledge is its most powerful tool/i);
   });
 
-  it("links to the learning platform at /study, not to itself", () => {
+  it("links to the learning platform at /professorcitachka, not to itself", () => {
     render(<HomePage />);
-    const enter = screen.getByRole("link", { name: /enter professor citachka/i });
-    expect(enter).toHaveAttribute("href", "/study");
+    const enter = screen.getAllByRole("link", { name: /enter professor citachka/i });
+    expect(enter).toHaveLength(2);
+    for (const link of enter) expect(link).toHaveAttribute("href", "/professorcitachka");
   });
 
-  it("keeps the about section and reaches into the study from it", () => {
+  it("keeps an indirect premise section and reaches the university from it", () => {
     render(<HomePage />);
-    const about = screen.getByRole("region", { name: /about me/i });
-    // The name arrives from the data file, so check the section is populated.
-    expect(within(about).getAllByRole("paragraph").length).toBeGreaterThan(2);
-    expect(within(about).getByRole("link", { name: /step inside/i })).toHaveAttribute(
+    const premise = screen.getByRole("region", { name: /a small doctrine/i });
+    expect(within(premise).getAllByRole("paragraph").length).toBeGreaterThan(2);
+    expect(within(premise).getByRole("link", { name: /enter professor citachka/i })).toHaveAttribute(
       "href",
-      "/study",
+      "/professorcitachka",
     );
   });
 
@@ -72,6 +69,13 @@ describe("cookieheaven.art homepage", () => {
     expect(width / height).toBeCloseTo(3 / 4, 2);
   });
 
+  it("shows a black pixel cat holding a cookie and a moving cookie field", () => {
+    const { container } = render(<HomePage />);
+    const cat = screen.getByRole("img", { name: /black pixel cat.*holding a cookie/i });
+    expect(cat).toHaveAttribute("src", "/images/pixel-cat-cookie.svg");
+    expect(container.querySelectorAll(".pixel-cookie")).toHaveLength(8);
+  });
+
   it("never prints a placeholder music entry of its own invention", () => {
     const { container } = render(<HomePage />);
     const cards = container.querySelectorAll(".music-card");
@@ -80,9 +84,9 @@ describe("cookieheaven.art homepage", () => {
     expect(screen.getByText(/listening list is being put together/i)).toBeInTheDocument();
   });
 
-  it("says she is based in Brooklyn, New York", () => {
+  it("does not expose the old Brooklyn location line on the indirect landing page", () => {
     render(<HomePage />);
-    expect(screen.getByText(/based in brooklyn, new york/i)).toBeVisible();
+    expect(screen.queryByText(/based in brooklyn/i)).not.toBeInTheDocument();
   });
 
   it("links to her Spotify profile in two places, opening safely", () => {

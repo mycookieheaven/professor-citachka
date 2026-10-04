@@ -10,9 +10,9 @@ import { LOCALES, loadDictionary } from "@/lib/i18n";
  */
 
 const ENGLISH_ONLY = [
-  /this is my website/i,
-  /based in brooklyn/i,
-  /about me/i,
+  /i love the world/i,
+  /knowledge is its most powerful tool/i,
+  /a small doctrine/i,
   /music i love/i,
 ];
 
@@ -21,8 +21,8 @@ describe("Spanish homepage at /es", () => {
     const { container } = render(<EsPage />);
     const main = container.querySelector("main.home");
     expect(main).toHaveAttribute("lang", "es");
-    expect(screen.getByText(/hola, soy melissa aguilera/i)).toBeVisible();
-    expect(screen.getByText(/con base en brooklyn, nueva york/i)).toBeVisible();
+    expect(screen.getByRole("heading", { name: "cookieheaven" })).toBeVisible();
+    expect(screen.getByText(/amo el mundo/i)).toBeVisible();
   });
 
   it("does not leave English copy standing in for a translation", () => {
@@ -35,10 +35,12 @@ describe("Spanish homepage at /es", () => {
 
   it("keeps the study link and the Spotify link", () => {
     render(<EsPage />);
-    expect(screen.getByRole("link", { name: /entrar a professor citachka/i })).toHaveAttribute(
-      "href",
-      "/study",
-    );
+    for (const link of screen.getAllByRole("link", { name: /entrar a professor citachka/i })) {
+      expect(link).toHaveAttribute(
+        "href",
+        "/professorcitachka",
+      );
+    }
     expect(screen.getAllByRole("link", { name: /spotify/i })).toHaveLength(2);
   });
 
@@ -54,8 +56,8 @@ describe("Russian homepage at /ru", () => {
     const { container } = render(<RuPage />);
     const main = container.querySelector("main.home");
     expect(main).toHaveAttribute("lang", "ru");
-    expect(screen.getByText(/привет, я мелисса агилера/i)).toBeVisible();
-    expect(screen.getByText(/живу в бруклине/i)).toBeVisible();
+    expect(screen.getByRole("heading", { name: "cookieheaven" })).toBeVisible();
+    expect(screen.getByText(/я люблю мир/i)).toBeVisible();
   });
 
   it("does not leave English copy standing in for a translation", () => {
@@ -68,10 +70,12 @@ describe("Russian homepage at /ru", () => {
 
   it("keeps the study link and the Spotify link", () => {
     render(<RuPage />);
-    expect(screen.getByRole("link", { name: /войти в университет/i })).toHaveAttribute(
-      "href",
-      "/study",
-    );
+    for (const link of screen.getAllByRole("link", { name: /войти к профессору цитачке/i })) {
+      expect(link).toHaveAttribute(
+        "href",
+        "/professorcitachka",
+      );
+    }
     expect(screen.getAllByRole("link", { name: /spotify/i })).toHaveLength(2);
   });
 
@@ -88,19 +92,18 @@ describe("every locale is complete", () => {
   it("has the same number of About paragraphs, so no text was dropped", () => {
     const counts = LOCALES.map((locale) => loadDictionary(locale).about.paragraphs.length);
     expect(new Set(counts).size).toBe(1);
-    expect(counts[0]).toBeGreaterThan(4);
+    expect(counts[0]).toBeGreaterThan(2);
   });
 
-  it("has a real greeting and location line in every locale", () => {
-    const greetings = LOCALES.map((locale) => loadDictionary(locale).hero.title);
-    expect(new Set(greetings).size).toBe(LOCALES.length);
+  it("has a shared brand title and distinct translated philosophical copy in every locale", () => {
+    const titles = LOCALES.map((locale) => loadDictionary(locale).hero.title);
+    expect(new Set(titles)).toEqual(new Set(["cookieheaven"]));
     for (const locale of LOCALES) {
       const dict = loadDictionary(locale);
       // Every string that shows on the page must actually carry words.
       const strings = [
         dict.hero.title,
         dict.hero.lede,
-        dict.hero.location,
         dict.hero.enter,
         dict.hero.aboutCta,
         dict.hero.portraitAlt,
