@@ -15,10 +15,11 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
           <div className="home-hero-copy">
             <p className="eyebrow">{dict.hero.eyebrow}</p>
             <h1 id="home-title">{dict.hero.title}</h1>
+            <a className="home-instagram" href="https://www.instagram.com/cookieswpeanutbutter/" target="_blank" rel="noopener noreferrer">Instagram · @cookieswpeanutbutter <span aria-hidden="true">↗</span></a>
             <p className="home-lede">{dict.hero.lede}</p>
             <blockquote className="cookie-quote">“Knowledge is the most valuable thing we have because it cannot be diminished by being shared.”</blockquote>
             <p className="cookie-business-line">I am trying to save cookie businesses, too. Small good things deserve to survive.</p>
-            <div className="home-actions"><Link className="primary-action" href="/professorcitachka">{dict.hero.enter} <span aria-hidden="true">→</span></Link></div>
+            <div className="home-actions" aria-hidden="true" />
             <nav className="home-languages" aria-label={dict.nav.language}>
               {LOCALES.map((option) => <Link key={option} href={LOCALE_PATHS[option]} lang={option} hrefLang={option} aria-current={option === locale ? "page" : undefined} className={option === locale ? "is-current" : undefined}>{LOCALE_NAMES[option]}</Link>)}
             </nav>

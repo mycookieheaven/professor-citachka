@@ -27,15 +27,9 @@ export function SiteNavigation(){
  const path=usePathname();
  if(path==='/professorcitachka')return null;
  const labels=HOME_LABELS[path];
- const onHome=Boolean(labels);
- return <header className="global-study-header">
-  <Link href="/" className="global-brand" aria-label={onHome?'cookieheaven.art home':'Professor Citachka home'}><BrandMark/><strong>{onHome?'cookieheaven.art':'Professor Citachka'}</strong></Link>
-  {labels&&<nav className="global-quick-nav" aria-label={labels.ariaLabel}>
-   <Link href="/art">{labels.art}</Link>
-   <Link href="/photography">{labels.photography}</Link>
-   <Link href="/music">{labels.music}</Link>
-   <Link href="/professorcitachka">{labels.study}</Link>
-  </nav>}
+ if(labels) return <details className="home-side-tabs"><summary aria-label="Open cookieheaven sections">sections</summary><nav aria-label={labels.ariaLabel}><Link href="/art">{labels.art}</Link><Link href="/photography">{labels.photography}</Link><Link href="/music">{labels.music}</Link><Link href="/professorcitachka">{labels.study}</Link></nav></details>;
+  return <header className="global-study-header">
+  <Link href="/professorcitachka" className="global-brand" aria-label="Professor Citachka home"><BrandMark/><strong>Professor Citachka</strong></Link>
   <details className="all-departments"><summary>All departments</summary><nav aria-label="All subject navigation"><Link href="/professorcitachka">Professor’s Study</Link>{programs.map(p=><Link key={p.id} aria-current={path.includes('/'+p.id)?'page':undefined} href={`/subjects/${p.id}`}>{p.title}</Link>)}</nav></details>
  </header>;
 }

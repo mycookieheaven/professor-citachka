@@ -58,6 +58,8 @@ def main() -> int:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Keep pixel-art assets resolving to the deployed site when this preview opens as a file. -->
+<base href="https://cookieheaven.art/">
 <title>Homepage preview — cookieheaven.art</title>
 <style>
 {chr(10).join(css_parts)}
