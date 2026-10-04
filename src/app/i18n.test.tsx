@@ -33,14 +33,10 @@ describe("Spanish homepage at /es", () => {
     }
   });
 
-  it("keeps the separate Professor Citachka destination", () => {
+  it("keeps the home screen free of Professor Citachka text", () => {
     render(<EsPage />);
-    for (const link of screen.getAllByRole("link", { name: /entrar a professor citachka/i })) {
-      expect(link).toHaveAttribute(
-        "href",
-        "/professorcitachka",
-      );
-    }
+    expect(screen.queryByText(/professor citachka/i)).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /@cookieswpeanutbutter/i })).toHaveAttribute("href", "https://www.instagram.com/cookieswpeanutbutter/");
   });
 
   it("marks Spanish as the current language", () => {
@@ -67,14 +63,10 @@ describe("Russian homepage at /ru", () => {
     }
   });
 
-  it("keeps the separate Professor Citachka destination", () => {
+  it("keeps the home screen free of Professor Citachka text", () => {
     render(<RuPage />);
-    for (const link of screen.getAllByRole("link", { name: /войти к профессору цитачке/i })) {
-      expect(link).toHaveAttribute(
-        "href",
-        "/professorcitachka",
-      );
-    }
+    expect(screen.queryByText(/профессор цитачка/i)).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /@cookieswpeanutbutter/i })).toHaveAttribute("href", "https://www.instagram.com/cookieswpeanutbutter/");
   });
 
   it("marks Russian as the current language", () => {

@@ -9,9 +9,11 @@ describe("cookieheaven home screen", () => {
     expect(screen.getByText(/trying to save cookie businesses/i)).toBeInTheDocument();
     expect(screen.queryByText(/portrait of melissa/i)).not.toBeInTheDocument();
   });
-  it("keeps Professor Citachka separate", () => {
+  it("keeps the top screen personal and gives Instagram its own safe link", () => {
     render(<HomePage />);
-    expect(screen.getByRole("link", { name: /enter professor citachka/i })).toHaveAttribute("href", "/professorcitachka");
+    const instagram = screen.getByRole("link", { name: /@cookieswpeanutbutter/i });
+    expect(instagram).toHaveAttribute("href", "https://www.instagram.com/cookieswpeanutbutter/");
+    expect(screen.queryByText(/professor citachka/i)).not.toBeInTheDocument();
   });
   it("shows the black pixel cat and cookie field", () => {
     const { container } = render(<HomePage />);

@@ -87,8 +87,19 @@
   z-index: 1;
   max-width: 1080px;
   margin: 0 auto;
-  padding: clamp(38px, 6vw, 76px) clamp(20px, 5vw, 48px) 96px;
+  padding: clamp(18px, 3vw, 38px) clamp(20px, 5vw, 48px) 96px;
 }
+
+/* Personal navigation is one quiet side tab; it never borrows the study header. */
+.home-side-tabs { position: fixed; z-index: 40; top: 22px; right: 0; }
+.home-side-tabs summary { list-style: none; min-width: 48px; padding: 12px 9px; border: 2px solid var(--star-gold); border-right: 0; border-radius: 12px 0 0 12px; color: #32111f; background: var(--star-gold); box-shadow: 0 0 18px rgba(255,232,107,.72); font: 800 12px/1 ui-monospace, monospace; letter-spacing: .06em; text-transform: uppercase; cursor: pointer; }
+.home-side-tabs summary::-webkit-details-marker { display: none; }
+.home-side-tabs nav { position: absolute; right: 0; top: 52px; display: grid; min-width: 216px; padding: 12px; border: 2px solid var(--star-gold); border-right: 0; border-radius: 12px 0 0 12px; background: #260715; box-shadow: 0 10px 34px rgba(0,0,0,.45); }
+.home-side-tabs nav a { min-height: 44px; display: flex; align-items: center; padding: 5px 12px; color: #fff4c9; font-weight: 800; text-decoration: none; }
+.home-side-tabs nav a:hover, .home-side-tabs nav a:focus-visible { color: #2a0618; background: var(--star-gold); outline: none; }
+
+.home-instagram { display: inline-block; margin: -5px 0 20px; color: var(--star-warm); font: 800 16px/1.4 ui-monospace, monospace; text-decoration: none; text-shadow: 0 0 10px rgba(255,232,107,.58); }
+.home-instagram:hover, .home-instagram:focus-visible { color: #fff8cd; text-decoration: underline; outline: 3px solid var(--star-gold); outline-offset: 4px; }
 
 
 /* ---------- pixel world ----------
