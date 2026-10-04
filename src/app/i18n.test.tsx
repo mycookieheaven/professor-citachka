@@ -33,7 +33,7 @@ describe("Spanish homepage at /es", () => {
     }
   });
 
-  it("keeps the study link and the Spotify link", () => {
+  it("keeps the separate Professor Citachka destination", () => {
     render(<EsPage />);
     for (const link of screen.getAllByRole("link", { name: /entrar a professor citachka/i })) {
       expect(link).toHaveAttribute(
@@ -41,7 +41,6 @@ describe("Spanish homepage at /es", () => {
         "/professorcitachka",
       );
     }
-    expect(screen.getAllByRole("link", { name: /spotify/i })).toHaveLength(2);
   });
 
   it("marks Spanish as the current language", () => {
@@ -68,7 +67,7 @@ describe("Russian homepage at /ru", () => {
     }
   });
 
-  it("keeps the study link and the Spotify link", () => {
+  it("keeps the separate Professor Citachka destination", () => {
     render(<RuPage />);
     for (const link of screen.getAllByRole("link", { name: /войти к профессору цитачке/i })) {
       expect(link).toHaveAttribute(
@@ -76,7 +75,6 @@ describe("Russian homepage at /ru", () => {
         "/professorcitachka",
       );
     }
-    expect(screen.getAllByRole("link", { name: /spotify/i })).toHaveLength(2);
   });
 
   it("marks Russian as the current language", () => {

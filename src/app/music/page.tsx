@@ -1,0 +1,4 @@
+import Link from "next/link";
+import { readMusic } from "@/lib/i18n";
+const SPOTIFY_URL = "https://open.spotify.com/user/mcdonaldscult";
+export default function MusicPage() { const tracks=readMusic(); return <main className="home collection-page" id="main-content"><div className="home-inner"><section className="home-section"><p className="eyebrow">cookieheaven</p><h1>Music</h1><p className="home-note">Things that stay with me. The full listening archive is on <a href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer">Spotify</a>.</p>{tracks.length ? <ul className="music-list">{tracks.map(track=><li className="music-card" key={`${track.artist}-${track.title}`}><strong>{track.title}</strong><span>{track.artist}</span></li>)}</ul> : <p className="home-empty">The listening list is gathering itself.</p>}<Link className="secondary-action" href="/">Back to cookieheaven</Link></section></div></main>; }

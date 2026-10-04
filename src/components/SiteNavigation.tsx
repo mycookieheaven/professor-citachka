@@ -31,10 +31,9 @@ export function SiteNavigation(){
  return <header className="global-study-header">
   <Link href="/" className="global-brand" aria-label={onHome?'cookieheaven.art home':'Professor Citachka home'}><BrandMark/><strong>{onHome?'cookieheaven.art':'Professor Citachka'}</strong></Link>
   {labels&&<nav className="global-quick-nav" aria-label={labels.ariaLabel}>
-   <Link href="#about">{labels.about}</Link>
-   <Link href="#art">{labels.art}</Link>
-   <Link href="#photography">{labels.photography}</Link>
-   <Link href="#music">{labels.music}</Link>
+   <Link href="/art">{labels.art}</Link>
+   <Link href="/photography">{labels.photography}</Link>
+   <Link href="/music">{labels.music}</Link>
    <Link href="/professorcitachka">{labels.study}</Link>
   </nav>}
   <details className="all-departments"><summary>All departments</summary><nav aria-label="All subject navigation"><Link href="/professorcitachka">Professor’s Study</Link>{programs.map(p=><Link key={p.id} aria-current={path.includes('/'+p.id)?'page':undefined} href={`/subjects/${p.id}`}>{p.title}</Link>)}</nav></details>

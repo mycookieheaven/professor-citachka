@@ -1,5 +1,5 @@
 {
-  "_note": "All homepage copy, English. Edit anything here and the page follows. The About text is yours — change it freely.",
+  "_note": "Homepage copy. The root is intentionally quote-led; art, photography, music, and Professor Citachka have their own tabs.",
   "htmlLang": "en",
   "nav": {
     "about": "The premise",
@@ -12,7 +12,7 @@
   "hero": {
     "eyebrow": "cookieheaven.art",
     "title": "cookieheaven",
-    "lede": "I love the world, and I believe knowledge is its most powerful tool — the one thing that grows when it is shared, the one treasure that teaches us how to see.",
+    "lede": "I love the world, and I believe knowledge is its most powerful tool — the one treasure that grows when it is shared and teaches us how to see.",
     "portraitAlt": "Portrait of Melissa Aguilera",
     "enter": "Enter Professor Citachka",
     "aboutCta": "The premise",
