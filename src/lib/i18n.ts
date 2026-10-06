@@ -35,7 +35,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
 
 export type Dictionary = {
   htmlLang: string;
-  nav: { about: string; art: string; photography: string; music: string; study: string; language: string };
+  nav: { about: string; art: string; photography: string; music: string; study: string; language: string; sideTab: string };
   hero: {
     eyebrow: string;
     title: string;
@@ -44,6 +44,11 @@ export type Dictionary = {
     enter: string;
     aboutCta: string;
     spotify: string;
+    quote: string;
+    cookieBusinesses: string;
+    instagram: string;
+    catAlt: string;
+    byline: string;
   };
   about: { heading: string; paragraphs: string[] };
   aboutNote: { prefix: string; link: string; suffix: string };

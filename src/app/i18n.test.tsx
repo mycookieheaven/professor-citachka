@@ -12,8 +12,8 @@ import { LOCALES, loadDictionary } from "@/lib/i18n";
 const ENGLISH_ONLY = [
   /i love the world/i,
   /knowledge is its most powerful tool/i,
-  /a small doctrine/i,
-  /music i love/i,
+  /knowledge is the most valuable thing/i,
+  /trying to save cookie businesses/i,
 ];
 
 describe("Spanish homepage at /es", () => {
@@ -96,7 +96,10 @@ describe("every locale is complete", () => {
         dict.hero.lede,
         dict.hero.enter,
         dict.hero.aboutCta,
-        dict.hero.portraitAlt,
+        dict.hero.catAlt,
+        dict.hero.byline,
+        dict.hero.quote,
+        dict.hero.cookieBusinesses,
         dict.about.heading,
         dict.aboutNote.prefix,
         dict.aboutNote.link,

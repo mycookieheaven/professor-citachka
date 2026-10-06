@@ -7,7 +7,8 @@
     "photography": "Fotografía",
     "music": "Música",
     "study": "Professor Citachka",
-    "language": "Idioma"
+    "language": "Idioma",
+    "sideTab": "secciones"
   },
   "hero": {
     "eyebrow": "cookieheaven.art",
@@ -16,7 +17,12 @@
     "portraitAlt": "Retrato de Melissa Aguilera",
     "enter": "Entrar a Professor Citachka",
     "aboutCta": "La premisa",
-    "spotify": "Spotify"
+    "spotify": "Spotify",
+    "quote": "El conocimiento es lo más valioso que tenemos porque no disminuye al compartirse.",
+    "cookieBusinesses": "También intento salvar negocios de galletas. Las cosas pequeñas y buenas merecen sobrevivir.",
+    "instagram": "Instagram",
+    "catAlt": "Gato negro de píxeles con ojos verde-amarillos sosteniendo una galleta",
+    "byline": "por Melissa Aguilera"
   },
   "about": {
     "heading": "Una pequeña doctrina",
