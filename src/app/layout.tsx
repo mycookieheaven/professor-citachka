@@ -5,10 +5,9 @@ import "./learning.css";
 import "./motion.css";
 import "./unit-path.css";
 import "./landing.css";
-import {StudyAtmosphere} from "@/components/StudyAtmosphere";
 import {StudyCelebration} from "@/components/StudyCelebration";
 import { PinkGlitterCursor } from "@/components/PinkGlitterCursor";
-import {QuoteBanner} from "@/components/Brand";
+import { SiteChrome } from "@/components/SiteChrome";
 import {SiteNavigation} from "@/components/SiteNavigation";
 import {ReadAloudControls} from "@/components/ReadAloudControls";
 
@@ -35,9 +34,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" data-motion="calm">
       <body className={`${display.variable} ${body.variable}`}>
-        <QuoteBanner />
+        <SiteChrome />
         <SiteNavigation />
-        <StudyAtmosphere />
         <StudyCelebration />
         <PinkGlitterCursor />
         {children}

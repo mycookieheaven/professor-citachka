@@ -98,6 +98,7 @@ describe("every locale is complete", () => {
         dict.hero.aboutCta,
         dict.hero.catAlt,
         dict.hero.byline,
+        dict.hero.worldQuote,
         dict.hero.quote,
         dict.hero.cookieBusinesses,
         dict.about.heading,
