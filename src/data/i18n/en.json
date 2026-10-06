@@ -7,7 +7,8 @@
     "photography": "Photography",
     "music": "Music",
     "study": "Professor Citachka",
-    "language": "Language"
+    "language": "Language",
+    "sideTab": "sections"
   },
   "hero": {
     "eyebrow": "cookieheaven.art",
@@ -16,7 +17,12 @@
     "portraitAlt": "Portrait of Melissa Aguilera",
     "enter": "Enter Professor Citachka",
     "aboutCta": "The premise",
-    "spotify": "Spotify"
+    "spotify": "Spotify",
+    "quote": "Knowledge is the most valuable thing we have because it cannot be diminished by being shared.",
+    "cookieBusinesses": "I am trying to save cookie businesses, too. Small good things deserve to survive.",
+    "instagram": "Instagram",
+    "catAlt": "Black pixel cat with green-yellow eyes holding a cookie",
+    "byline": "by Melissa Aguilera"
   },
   "about": {
     "heading": "A small doctrine",
