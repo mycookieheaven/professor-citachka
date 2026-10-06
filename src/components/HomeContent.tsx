@@ -13,7 +13,6 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
       <div className="home-inner">
         <section className="home-hero home-hero-solo" aria-labelledby="home-title">
           <div className="home-hero-copy">
-            <p className="eyebrow">{dict.hero.eyebrow}</p>
             <h1 id="home-title">{dict.hero.title}</h1>
             <p className="home-byline">{dict.hero.byline}</p>
             <a className="home-instagram" href="https://www.instagram.com/cookieswpeanutbutter/" target="_blank" rel="noopener noreferrer">{dict.hero.instagram} · @cookieswpeanutbutter <span aria-hidden="true">↗</span></a>
@@ -25,6 +24,7 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
               {LOCALES.map((option) => <Link key={option} href={LOCALE_PATHS[option]} lang={option} hrefLang={option} aria-current={option === locale ? "page" : undefined} className={option === locale ? "is-current" : undefined}>{LOCALE_NAMES[option]}</Link>)}
             </nav>
           </div>
+          <aside className="home-floating-quote">{dict.hero.worldQuote}</aside>
           <div className="pixel-starfish-field" aria-hidden="true">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img className="pixel-starfish pixel-starfish-one" src="/images/pixel-starfish.svg" alt="" width={160} height={160} />

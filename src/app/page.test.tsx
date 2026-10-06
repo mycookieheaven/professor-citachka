@@ -7,6 +7,7 @@ describe("cookieheaven home screen", () => {
     expect(screen.getByRole("heading", { name: "cookieheaven" })).toBeInTheDocument();
     expect(screen.getByText(/knowledge is the most valuable thing/i)).toBeInTheDocument();
     expect(screen.getByText(/trying to save cookie businesses/i)).toBeInTheDocument();
+    expect(screen.getByText(/usually loved by the world/i)).toHaveClass("home-floating-quote");
     expect(screen.queryByText(/portrait of melissa/i)).not.toBeInTheDocument();
   });
   it("keeps the top screen personal and gives Instagram its own safe link", () => {

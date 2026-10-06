@@ -49,6 +49,7 @@ export type Dictionary = {
     instagram: string;
     catAlt: string;
     byline: string;
+    worldQuote: string;
   };
   about: { heading: string; paragraphs: string[] };
   aboutNote: { prefix: string; link: string; suffix: string };
