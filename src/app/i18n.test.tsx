@@ -21,7 +21,7 @@ describe("Spanish homepage at /es", () => {
     const { container } = render(<EsPage />);
     const main = container.querySelector("main.home");
     expect(main).toHaveAttribute("lang", "es");
-    expect(screen.getByRole("heading", { name: "cookieheaven" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "COOKIE HEAVEN" })).toBeVisible();
     expect(screen.getByText(/amo el mundo/i)).toBeVisible();
   });
 
@@ -51,7 +51,7 @@ describe("Russian homepage at /ru", () => {
     const { container } = render(<RuPage />);
     const main = container.querySelector("main.home");
     expect(main).toHaveAttribute("lang", "ru");
-    expect(screen.getByRole("heading", { name: "cookieheaven" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "COOKIE HEAVEN" })).toBeVisible();
     expect(screen.getByText(/я люблю мир/i)).toBeVisible();
   });
 
@@ -87,7 +87,7 @@ describe("every locale is complete", () => {
 
   it("has a shared brand title and distinct translated philosophical copy in every locale", () => {
     const titles = LOCALES.map((locale) => loadDictionary(locale).hero.title);
-    expect(new Set(titles)).toEqual(new Set(["cookieheaven"]));
+    expect(new Set(titles)).toEqual(new Set(["COOKIE HEAVEN"]));
     for (const locale of LOCALES) {
       const dict = loadDictionary(locale);
       // Every string that shows on the page must actually carry words.
