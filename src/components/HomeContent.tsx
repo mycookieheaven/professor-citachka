@@ -2,19 +2,23 @@ import Link from "next/link";
 import { LOCALES, LOCALE_NAMES, LOCALE_PATHS, type Dictionary, type Locale } from "@/lib/i18n";
 
 /** A deliberately abundant, deterministic cookie field; positions never jump between renders. */
-const PIXEL_COOKIES = Array.from({ length: 28 }, (_, index) => ({
+const PIXEL_COOKIES = Array.from({ length: 64 }, (_, index) => ({
   id: index,
-  left: 3 + ((index * 37) % 94),
-  top: 4 + ((index * 53) % 90),
-  scale: 0.44 + ((index * 19) % 48) / 100,
-  delay: -(index * 1.15),
+  left: 2 + ((index * 37) % 96),
+  top: 2 + ((index * 53) % 94),
+  scale: 0.38 + ((index * 19) % 58) / 100,
+  delay: -(index * 0.73),
+  duration: 8.5 + ((index * 13) % 47) / 10,
+  driftX: -34 + ((index * 29) % 69),
+  driftY: -48 + ((index * 41) % 97),
+  turn: -18 + ((index * 17) % 37),
 }));
 
 export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale }) {
   return (
     <main className="home" id="main-content" lang={dict.htmlLang}>
       <div className="pixel-cookie-field" aria-hidden="true">
-        {PIXEL_COOKIES.map((cookie) => <span className="pixel-cookie" key={cookie.id} style={{ left: `${cookie.left}%`, top: `${cookie.top}%`, transform: `scale(${cookie.scale})`, animationDelay: `${cookie.delay}s` }} />)}
+        {PIXEL_COOKIES.map((cookie) => <span className="pixel-cookie" key={cookie.id} style={{ left: `${cookie.left}%`, top: `${cookie.top}%`, transform: `scale(${cookie.scale})`, animationDelay: `${cookie.delay}s`, animationDuration: `${cookie.duration}s`, "--cookie-drift-x": `${cookie.driftX}px`, "--cookie-drift-y": `${cookie.driftY}px`, "--cookie-turn": `${cookie.turn}deg` } as React.CSSProperties} />)}
       </div>
       <div className="home-inner">
         <h1 className="home-main-title" id="home-title">{dict.hero.title}</h1>
