@@ -120,8 +120,9 @@
   height: 38px;
   background: url("/images/pixel-cookie.svg") center / contain no-repeat;
   image-rendering: pixelated;
-  filter: drop-shadow(0 0 8px rgba(255, 232, 107, 0.58));
-  animation: pixel-cookie-drift 16s steps(12, end) infinite alternate;
+  filter: drop-shadow(0 0 8px rgba(255, 232, 107, 0.70)) drop-shadow(0 0 15px rgba(255, 80, 158, 0.24));
+  animation: pixel-cookie-float 11s ease-in-out infinite;
+  will-change: translate, rotate;
 }
 .pixel-cookie-one { left: 5%; top: 12%; }
 .pixel-cookie-two { left: 88%; top: 14%; transform: scale(.72); }
@@ -217,16 +218,10 @@
   letter-spacing: 0.02em;
   font-weight: 900;
   line-height: 1.02;
-  color: #ff2e8d;
-  background-image:
-    radial-gradient(circle at 22% 26%, #6e3423 0 4px, transparent 5px),
-    radial-gradient(circle at 72% 72%, #8b4524 0 3px, transparent 4px),
-    linear-gradient(135deg, #ff1f8d 0%, #ff70b6 48%, #ed197e 100%);
-  background-size: 28px 28px, 28px 28px, 100% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 2px 3px 0 #fff0a4, 0 0 13px rgba(255, 44, 141, .62);
+  /* Solid, saturated lettering—never translucent against the busy cookie sky. */
+  color: #bc0b57;
+  -webkit-text-fill-color: #bc0b57;
+  text-shadow: 3px 3px 0 #fff3aa, 0 0 3px #fff3aa, 0 0 15px rgba(255, 24, 132, .95), 0 0 28px rgba(183, 24, 100, .65);
 }
 
 .home-lede {
@@ -567,11 +562,11 @@
 
 /* ---------- motion ---------- */
 
-@keyframes pixel-cookie-drift {
-  0% { translate: 0 0; rotate: -8deg; }
-  35% { translate: 20px -32px; rotate: 8deg; }
-  68% { translate: -14px -62px; rotate: -4deg; }
-  100% { translate: 27px -92px; rotate: 10deg; }
+@keyframes pixel-cookie-float {
+  0%, 100% { translate: 0 0; rotate: calc(var(--cookie-turn) * -0.35); }
+  22% { translate: calc(var(--cookie-drift-x) * .62) calc(var(--cookie-drift-y) * -.42); rotate: calc(var(--cookie-turn) * .65); }
+  51% { translate: var(--cookie-drift-x) var(--cookie-drift-y); rotate: var(--cookie-turn); }
+  76% { translate: calc(var(--cookie-drift-x) * -.46) calc(var(--cookie-drift-y) * .48); rotate: calc(var(--cookie-turn) * -.55); }
 }
 
 @keyframes pixel-cat-watch {

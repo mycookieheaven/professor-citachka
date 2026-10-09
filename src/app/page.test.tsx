@@ -19,6 +19,6 @@ describe("cookieheaven home screen", () => {
   it("shows the black pixel cat and cookie field", () => {
     const { container } = render(<HomePage />);
     expect(container.querySelector('img[src="/images/pixel-cat-cookie.svg"]')).toBeInTheDocument();
-    expect(container.querySelectorAll(".pixel-cookie")).toHaveLength(28);
+    expect(container.querySelectorAll(".pixel-cookie")).toHaveLength(64);
   });
 });
