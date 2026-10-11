@@ -179,3 +179,107 @@
 @media (prefers-reduced-motion: reduce) {
   .peek img { animation: none; transform: translate(-50%, -50%); }
 }
+
+/* ---------- the full-screen stage ----------
+   Play from the small window lands here. The page is the game: a thin bar, and
+   then a canvas that takes everything left over, with the scoreboard floating on
+   top of it rather than pushing the play area around. Nothing else of the site is
+   on the page — no header, no sidebar, no lesson chrome. */
+
+.page {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 10px;
+  padding: 10px clamp(10px, 1.6vw, 20px) 12px;
+  background: linear-gradient(#ffe89a, #ffd05d 70%, #f6bd45);
+  color: #7d1145;
+  font-family: ui-rounded, "Arial Rounded MT Bold", "Nunito", sans-serif;
+}
+
+.bar { display: flex; align-items: center; gap: 12px; }
+.barActions { margin-left: auto; display: flex; gap: 8px; }
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 2px solid #c31563;
+  border-radius: 999px;
+  background: #fff6c9;
+  color: #c31563;
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.back:hover { background: #c31563; color: #fff6c9; }
+
+.barButton {
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: #c31563;
+  color: #fff6c9;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.barButton:hover { background: #a51050; }
+.back:focus-visible, .barButton:focus-visible { outline: 3px solid #c31563; outline-offset: 2px; }
+
+.pageStage {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #ffe08a;
+  box-shadow: inset 0 0 0 4px rgba(183, 24, 100, 0.45);
+}
+.pageStage .canvas { border-radius: 18px; }
+
+.page .overlay { border-radius: 18px; gap: 14px; }
+.page .overlayTitle { font-size: clamp(19px, 2.6vw, 32px); }
+.page .overlayHint { font-size: clamp(14px, 1.4vw, 18px); max-width: 52ch; }
+.page .button { font-size: clamp(17px, 1.8vw, 22px); padding: 14px 26px; }
+
+/* The scoreboard floats over the play area, so the game keeps the whole screen. */
+.page .footer {
+  position: absolute;
+  left: clamp(14px, 2vw, 26px);
+  bottom: clamp(14px, 2vw, 24px);
+  z-index: 2;
+  width: min(430px, 46vw);
+  padding: 12px 14px;
+  border: 3px solid rgba(183, 24, 100, 0.5);
+  border-radius: 18px;
+  background: rgba(255, 252, 228, 0.94);
+  box-shadow: 0 12px 30px rgba(183, 24, 100, 0.22);
+}
+.page .stats dt { font-size: 11px; }
+.page .stats dd { font-size: 19px; }
+.page > .hint {
+  position: absolute;
+  left: clamp(14px, 2vw, 26px);
+  bottom: clamp(14px, 2vw, 24px);
+  z-index: 2;
+  width: min(430px, 46vw);
+  padding: 12px 14px;
+  border: 3px solid rgba(183, 24, 100, 0.5);
+  border-radius: 18px;
+  background: rgba(255, 252, 228, 0.94);
+}
+
+@media (max-width: 760px) {
+  .page { gap: 8px; padding: 8px 10px 10px; }
+  .page .bar h2 { font-size: 16px; }
+  .barButton, .back { padding: 8px 12px; font-size: 14px; }
+  .page .footer, .page > .hint { left: 10px; right: 10px; bottom: 10px; width: auto; }
+  .page .board { grid-auto-flow: column; grid-auto-columns: 1fr; overflow-x: auto; }
+}

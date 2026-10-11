@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   PLAYER_START_RADIUS,
@@ -60,7 +61,18 @@ function writeBest(score: number): void {
   }
 }
 
-export function CookieIoGame({ labels }: { labels: Labels }) {
+export function CookieIoGame({
+  labels,
+  variant = "panel",
+  gameHref = "/game",
+  backHref = "/",
+}: {
+  labels: Labels;
+  variant?: "panel" | "stage";
+  gameHref?: string;
+  backHref?: string;
+}) {
+  const onStage = variant === "stage";
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const worldRef = useRef<World | null>(null);
   const keysRef = useRef<Set<string>>(new Set());
@@ -108,6 +120,15 @@ export function CookieIoGame({ labels }: { labels: Labels }) {
       goTo("playing");
     }
   }, [goTo]);
+
+  /** The page already fills the window; this hands it the whole display. */
+  const toggleFullscreen = useCallback(() => {
+    if (document.fullscreenElement) {
+      void document.exitFullscreen?.().catch(() => {});
+      return;
+    }
+    void document.documentElement.requestFullscreen?.().catch(() => {});
+  }, []);
 
   /* Pausing when the tab is hidden is what keeps a game from being lost to a pocket. */
   useEffect(() => {
@@ -231,14 +252,49 @@ export function CookieIoGame({ labels }: { labels: Labels }) {
           ? labels.playing
           : "";
 
+  /* The small window does not play any more: it is the way in. Playing it inside
+     a 236px stage was the complaint, so Play opens the stage instead. */
+  if (!onStage) {
+    return (
+      <section className={styles.window} aria-labelledby="cookie-io-title">
+        <div className={styles.header}>
+          <h2 className={styles.title} id="cookie-io-title">{labels.title}</h2>
+          <span className={styles.badge} aria-hidden="true">{labels.play}</span>
+        </div>
+        <div className={styles.stage}>
+          <div className={styles.peek} aria-hidden="true">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/pixel-cookie.svg" alt="" width={92} height={92} />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className={styles.peekSmall} src="/images/pixel-cookie.svg" alt="" width={92} height={92} />
+          </div>
+          <div className={styles.overlay}>
+            <p className={styles.overlayTitle}>{labels.tagline}</p>
+            <p className={styles.overlayHint}>{labels.opensFullScreen}</p>
+            <Link className={styles.button} href={gameHref}>{labels.play}</Link>
+          </div>
+        </div>
+        <p className={styles.hint}>{labels.hint}</p>
+      </section>
+    );
+  }
+
   return (
-    <section className={styles.window} aria-labelledby="cookie-io-title">
-      <div className={styles.header}>
+    <section className={styles.page} aria-labelledby="cookie-io-title">
+      <div className={styles.bar}>
+        <Link className={styles.back} href={backHref}>
+          <span aria-hidden="true">←</span> {labels.backHome}
+        </Link>
         <h2 className={styles.title} id="cookie-io-title">{labels.title}</h2>
-        <span className={styles.badge} aria-hidden="true">{armed ? `${labels.score} ${hud.score}` : labels.play}</span>
+        <div className={styles.barActions}>
+          <button type="button" className={styles.barButton} onClick={toggleFullscreen}>{labels.fullscreen}</button>
+          {state === "playing" ? (
+            <button type="button" className={styles.barButton} onClick={togglePause}>{labels.pause}</button>
+          ) : null}
+        </div>
       </div>
 
-      <div className={styles.stage}>
+      <div className={styles.pageStage}>
         {armed ? (
           <canvas
             ref={canvasRef}
@@ -321,13 +377,8 @@ export function CookieIoGame({ labels }: { labels: Labels }) {
               {labels.snack}
             </span>
           </p>
-          {/* One control at a time: the overlay owns Pause while it is showing,
-              so a screen reader never meets two buttons with the same name. */}
-          {state === "playing" ? (
-            <button type="button" className={styles.pauseButton} onClick={togglePause}>
-              {labels.pause}
-            </button>
-          ) : null}
+          {/* Pause lives in the bar, and the overlay owns it while it is showing:
+              never two buttons with the same name on screen. */}
         </div>
       ) : (
         <p className={styles.hint}>{labels.hint}</p>

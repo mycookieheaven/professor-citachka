@@ -21,12 +21,13 @@ afterEach(() => {
 });
 
 describe("cookie.io, before it is played", () => {
-  it("names itself, explains the rules, and waits", () => {
-    const { container } = render(<CookieIoGame labels={labels} />);
+  it("names itself, explains itself, and offers the way into the full-screen game", () => {
+    const { container } = render(<CookieIoGame labels={labels} gameHref="/game" />);
     expect(screen.getByRole("heading", { name: "cookie.io" })).toBeInTheDocument();
     expect(screen.getByText(labels.tagline)).toBeInTheDocument();
-    expect(screen.getByText(labels.keys)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: labels.play })).toBeInTheDocument();
+    expect(screen.getByText(labels.opensFullScreen)).toBeInTheDocument();
+    /* A link, not a button: the small window does not play any more. */
+    expect(screen.getByRole("link", { name: labels.play })).toHaveAttribute("href", "/game");
     expect(container.querySelector("canvas")).toBeNull();
   });
 
@@ -37,9 +38,11 @@ describe("cookie.io, before it is played", () => {
 });
 
 describe("cookie.io, once it is played", () => {
-  it("mounts the stage, the score and the board, and keeps the score on screen", () => {
+  it("fills the display on the stage, with the score, the board and the way back", () => {
     blindCanvas();
-    const { container } = render(<CookieIoGame labels={labels} />);
+    const { container } = render(<CookieIoGame labels={labels} variant="stage" backHref="/" />);
+    expect(screen.getByRole("link", { name: labels.backHome })).toHaveAttribute("href", "/");
+    expect(screen.getByRole("button", { name: labels.fullscreen })).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: labels.play }));
     const canvas = container.querySelector("canvas");
     expect(canvas).not.toBeNull();
@@ -57,7 +60,7 @@ describe("cookie.io, once it is played", () => {
 describe("cookie.io, from the keyboard", () => {
   it("pauses and resumes, and never lets a steering key scroll the page", () => {
     blindCanvas();
-    const { container } = render(<CookieIoGame labels={labels} />);
+    const { container } = render(<CookieIoGame labels={labels} variant="stage" />);
     fireEvent.click(screen.getByRole("button", { name: labels.play }));
     const canvas = container.querySelector("canvas") as HTMLCanvasElement;
 

@@ -40,7 +40,10 @@
     radial-gradient(circle at 44px 90px, #6e3423 0 4px, transparent 4.8px),
     linear-gradient(135deg, #ffe481, #ffd05d);
   background-size: 112px 112px, 137px 137px, 163px 163px, 100% 100%;
-  animation: cookie-wallpaper-drift 46s linear infinite;
+  /* Deliberately not animated. Moving a full-page background repaints the whole
+     viewport sixty times a second, which is one of the two things that made the
+     pointer drag on this page. The dough stays still; everything that moves above
+     it is composited. */
 }
 
 /* Glitter, layer one: fine warm-white sparkle. */
@@ -60,6 +63,7 @@
   background-position: 0 0, 71px 109px, 149px 43px;
   opacity: 0.62;
   animation: glitter-drift 34s linear infinite;
+  will-change: transform;
 }
 
 /* Glitter, layer two: sparser, larger, moving the other way. Because it beats
@@ -79,6 +83,7 @@
   background-position: 40px 30px, 210px 160px, -60% 0;
   opacity: 0.5;
   animation: glitter-drift-reverse 47s linear infinite, glitter-twinkle 6.5s ease-in-out infinite;
+  will-change: transform, opacity;
 }
 
 .home-inner {
@@ -206,6 +211,7 @@
   z-index: 0;
   overflow: hidden;
   pointer-events: none;
+  contain: paint;
 }
 
 .pixel-cookie {
@@ -215,7 +221,8 @@
   height: 38px;
   background: url("/images/pixel-cookie.svg") center / contain no-repeat;
   image-rendering: pixelated;
-  filter: drop-shadow(0 0 8px rgba(255, 232, 107, 0.70)) drop-shadow(0 0 15px rgba(255, 80, 158, 0.24));
+  /* One shadow, not two: this element is duplicated thirty times and animates. */
+  filter: drop-shadow(0 0 9px rgba(255, 200, 120, 0.62));
   animation: pixel-cookie-float 11s ease-in-out infinite;
   will-change: translate, rotate;
 }
@@ -229,6 +236,7 @@
 .pixel-cookie-eight { left: 36%; top: 94%; transform: scale(.48); }
 
 .pixel-cat-guardian {
+  position: relative;
   width: clamp(122px, 17vw, 202px);
   align-self: end;
   margin: 0 -26px 2px 0;
@@ -236,6 +244,29 @@
   animation: pixel-cat-watch 2.8s steps(2, end) infinite;
 }
 .pixel-cat-guardian img { display: block; width: 100%; height: auto; image-rendering: pixelated; }
+
+/* The tail is a sprite of its own, four frames wide, so it can wag without the cat
+   being redrawn. It hangs at the cat's hip and swings continuously. */
+.pixel-cat-tail {
+  --tail-w: clamp(58px, 7.2vw, 96px);
+  --tail-h: calc(var(--tail-w) * 16 / 14);
+  position: absolute;
+  left: 56%;
+  bottom: 3%;
+  width: var(--tail-w);
+  height: var(--tail-h);
+  background-image: url("/images/pixel-cat-tail.svg");
+  background-repeat: no-repeat;
+  background-size: calc(var(--tail-w) * 4) var(--tail-h);
+  background-position: 0 0;
+  image-rendering: pixelated;
+  animation: cat-tail-wag 780ms steps(4) infinite;
+}
+
+@keyframes cat-tail-wag {
+  from { background-position-x: 0; }
+  to { background-position-x: calc(var(--tail-w) * -4); }
+}
 
 .home-top-characters {
   position: relative;
@@ -732,10 +763,7 @@
   80%, 92% { translate: 0 -5px; }
 }
 
-@keyframes cookie-wallpaper-drift {
-  0% { background-position: 0 0, 0 0, 0 0, 0 0; }
-  100% { background-position: 112px 112px, -137px 137px, 163px -163px, 0 0; }
-}
+
 
 @keyframes starfish-wiggle {
   0%, 100% { transform: rotate(-5deg) translateY(0); }
@@ -748,14 +776,16 @@
   66% { background-position: 8% 52%, 92% 12%, 66% 40%; }
 }
 
+/* Translated, not repositioned: a transform is handled by the compositor, a
+   changed background-position is a repaint of the whole layer. */
 @keyframes glitter-drift {
-  0% { background-position: 0 0, 71px 109px, 149px 43px; }
-  100% { background-position: 137px 137px, -140px 320px, 462px -270px; }
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(137px, 137px, 0); }
 }
 
 @keyframes glitter-drift-reverse {
-  0% { background-position: 40px 30px, 210px 160px, -60% 0; }
-  100% { background-position: -229px 299px, -191px -241px, 160% 0; }
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-229px, 299px, 0); }
 }
 
 @keyframes glitter-twinkle {
@@ -777,11 +807,11 @@
    rule they answer does, and they are more specific, so they win.
    Everything for the study app is untouched, and Lively still adds its faster
    layers on top. */
-html[data-motion="calm"] .home { animation: cookie-wallpaper-drift 46s linear infinite !important; }
 html[data-motion="calm"] .home::before { animation: glitter-drift 34s linear infinite !important; }
 html[data-motion="calm"] .home::after { animation: glitter-drift-reverse 47s linear infinite, glitter-twinkle 6.5s ease-in-out infinite !important; }
 html[data-motion="calm"] .pixel-cookie { animation: pixel-cookie-float 11s ease-in-out infinite !important; }
 html[data-motion="calm"] .pixel-cat-guardian { animation: pixel-cat-watch 2.8s steps(2, end) infinite !important; }
+html[data-motion="calm"] .pixel-cat-tail { animation: cat-tail-wag 780ms steps(4) infinite !important; }
 html[data-motion="calm"] .pixel-starfish { animation: starfish-wiggle 3.8s ease-in-out infinite !important; }
 html[data-motion="calm"] .home-cat-lane { animation: home-cat-patrol-cross 44s linear infinite !important; }
 html[data-motion="calm"] .home .cat-sprite { animation: cat-paws 520ms steps(4) infinite !important; }
@@ -837,9 +867,13 @@ html[data-motion="lively"] .home h2 {
   .pixel-cat-guardian,
   .pixel-starfish,
   .pixel-cookie,
+  .pixel-cat-tail,
   html[data-motion="lively"] .home h2 {
     animation: none !important;
   }
+
+  /* Still alive, just slower: a tail is not the kind of motion that setting is for. */
+  .pixel-cat-tail { animation: cat-tail-wag 2600ms steps(4) infinite !important; }
 
   .home::before { opacity: 0.55; }
   .home::after { opacity: 0.4; }

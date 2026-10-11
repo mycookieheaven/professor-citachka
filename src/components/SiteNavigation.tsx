@@ -15,6 +15,9 @@ import {programs} from '@/lib/programs';
  * whichever homepage you are on. Everywhere else it stays the study header with
  * the department menu.
  */
+/* The game has its own page and its own bar; site navigation would be in the way. */
+const GAME_ROUTES = new Set(["/game", "/es/game", "/ru/game"]);
+
 const HOME_LABELS: Record<string,{
   about:string;art:string;photography:string;music:string;study:string;ariaLabel:string;sideTab:string;
 }>={
@@ -26,6 +29,7 @@ const HOME_LABELS: Record<string,{
 export function SiteNavigation(){
  const path=usePathname();
  if(path==='/professorcitachka')return null;
+ if(GAME_ROUTES.has(path))return null;
  const labels=HOME_LABELS[path];
  if(labels) return <details className="home-side-tabs"><summary aria-label={`${labels.sideTab} — ${labels.ariaLabel}`}><span className="home-side-tabs-bars" aria-hidden="true"><span /><span /><span /></span></summary><nav aria-label={labels.ariaLabel}><Link href="/art">{labels.art}</Link><Link href="/photography">{labels.photography}</Link><Link href="/music">{labels.music}</Link><Link href="/professorcitachka">{labels.study}</Link></nav></details>;
   return <header className="global-study-header">

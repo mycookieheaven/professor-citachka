@@ -20,6 +20,13 @@ export const LOCALE_PATHS: Record<Locale, string> = {
   ru: "/ru",
 };
 
+/** The game has its own full-screen page per language, like the homepage. */
+export const GAME_PATHS: Record<Locale, string> = {
+  en: "/game",
+  es: "/es/game",
+  ru: "/ru/game",
+};
+
 /** Language names are written in their own language, never translated. */
 export const LOCALE_NAMES: Record<Locale, string> = {
   en: "English",
@@ -85,6 +92,9 @@ export type Dictionary = {
     overText: string;
     paused: string;
     pausedHint: string;
+    opensFullScreen: string;
+    backHome: string;
+    fullscreen: string;
     playing: string;
     names: string[];
   };

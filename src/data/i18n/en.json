@@ -77,6 +77,9 @@
     "overText": "A cookie heavier than yours touched you.",
     "paused": "Paused",
     "pausedHint": "Press P or choose Resume to go on.",
+    "opensFullScreen": "Opens the full-screen game",
+    "backHome": "cookieheaven",
+    "fullscreen": "Full screen",
     "playing": "Playing",
     "names": ["Sugar", "Chip", "Doughy", "Oatmeal", "Peanut butter", "Snickerdoodle", "Macadamia", "Ginger", "Shortbread"]
   }
