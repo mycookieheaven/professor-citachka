@@ -1,0 +1,43 @@
+/* The cookieheaven cat, walking.
+ *
+ * One sprite strip, two places it appears: patrolling the top of the homepage,
+ * and carrying the loading veil. It is a background image animated with
+ * `steps(4)`, so the four frames advance without a script and without a request
+ * per frame — the whole walk is one 12KB SVG.
+ *
+ * Size comes from `--cat-w` on the container, and the height follows the strip's
+ * own 24:19 frame ratio, so the cat scales from a phone to a wide desktop
+ * without ever stretching. `image-rendering: pixelated` keeps the pixels square.
+ *
+ * The walk is decorative. Under `prefers-reduced-motion` the cat stays on its
+ * first frame: visible, still, and not asked for by anyone who set that. */
+
+.cat-sprite {
+  display: block;
+  width: var(--cat-w, 64px);
+  height: calc(var(--cat-w, 64px) * 19 / 24);
+  background-image: url("/images/pixel-cat-walk.svg");
+  background-repeat: no-repeat;
+  background-size: calc(var(--cat-w, 64px) * 4) calc(var(--cat-w, 64px) * 19 / 24);
+  background-position: 0 0;
+  image-rendering: pixelated;
+  animation: cat-paws 520ms steps(4) infinite;
+}
+
+@keyframes cat-paws {
+  from { background-position-x: 0; }
+  to { background-position-x: calc(var(--cat-w, 64px) * -4); }
+}
+
+/* Reduced motion slows the walk rather than stopping it: the legs still step, at
+   one frame every 400ms, which is a small sprite changing pose and nothing like
+   the travelling motion the setting is there to prevent. The cat crossing the
+   page is stopped separately, in landing.css. */
+@media (prefers-reduced-motion: reduce) {
+  .cat-sprite { animation-duration: 1600ms; }
+}
+
+/* The site default is `data-motion="calm"`, and motion.css switches every
+   animation off there. The cat is the one thing on this page that is alive, so it
+   is switched back on in landing.css and boot.css, which is why those rules carry
+   !important. Reduced motion still slows it, and still stops it crossing. */

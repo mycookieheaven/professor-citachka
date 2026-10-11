@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import { Nunito, Nunito_Sans } from "next/font/google";
 import "./globals.css";
+import "./cat.css";
+import "./boot.css";
 import "./learning.css";
 import "./motion.css";
 import "./unit-path.css";
 import "./landing.css";
+import {CookieBootScreen} from "@/components/CookieBootScreen";
 import {StudyCelebration} from "@/components/StudyCelebration";
 import { PinkGlitterCursor } from "@/components/PinkGlitterCursor";
 import { SiteChrome } from "@/components/SiteChrome";
@@ -34,6 +37,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" data-motion="calm">
       <body className={`${display.variable} ${body.variable}`}>
+        {/* Rendered by the server so it is the first thing painted, and hidden
+            again by its own animation even if no script ever runs. */}
+        <div id="cookie-boot" aria-hidden="true">
+          <span className="cat-sprite boot-cat" />
+          <span className="boot-word">cookieheaven</span>
+        </div>
+        <CookieBootScreen />
         <SiteChrome />
         <SiteNavigation />
         <StudyCelebration />

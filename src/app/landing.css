@@ -89,6 +89,56 @@
   padding: clamp(12px, 2vw, 26px) clamp(20px, 5vw, 48px) 96px;
 }
 
+/* ---------- the cat on patrol ----------
+   A lane the width of the content box, and a cat that crosses it and comes
+   back. The turn happens while the cat is off-screen at either end, which is
+   why the flip sits at 49.9%/50% rather than at a visible moment: at the extremes
+   the two mirrored positions are both outside the lane, so the switch is
+   invisible and the cat never walks backwards. */
+.home-cat-patrol {
+  --cat-w: clamp(52px, 5.4vw, 74px);
+  position: relative;
+  height: calc(var(--cat-w) * 19 / 24);
+  margin: 0 0 clamp(4px, 1vw, 12px);
+  overflow: hidden;
+}
+
+.home-cat-lane {
+  position: absolute;
+  inset: 0;
+  transform-origin: 0 50%;
+  animation: home-cat-patrol-cross 44s linear infinite;
+  will-change: transform;
+}
+
+/* On a narrow screen the tab has to live in the top corner, so the cat's lane
+   starts after it: the cat walks the page without ever walking under a control.
+   The tab's own placement is set down in the tabs section, after the base rule —
+   a media query written here would lose the cascade to it and be ignored. */
+@media (max-width: 899px) {
+  .home-cat-lane.home-cat-lane { left: 56px; }
+}
+
+.home-cat-lane .cat-sprite {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@keyframes home-cat-patrol-cross {
+  0% { transform: translateX(calc(-1 * var(--cat-w) - 10px)) scaleX(1); }
+  49.9% { transform: translateX(100%) scaleX(1); }
+  50% { transform: translateX(calc(100% + var(--cat-w) + 10px)) scaleX(-1); }
+  100% { transform: translateX(0) scaleX(-1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* The cat stops travelling the page and stands at the start, still walking. */
+  .home-cat-lane { animation: none; }
+  .home-cat-lane .cat-sprite { left: 6px; }
+}
+
 /* ---------- the game window ----------
    cookie.io lives in the band that holds the hero. On a genuinely wide display
    that band is three columns — empty margin, the words, empty margin — and the
@@ -117,11 +167,28 @@
   .home-game-slot { grid-column: 1; grid-row: 1; justify-self: end; width: min(100%, 280px); }
 }
 
-/* Personal navigation is one quiet side tab; it never borrows the study header. */
-.home-side-tabs { position: fixed; z-index: 40; top: 22px; right: 0; }
-.home-side-tabs summary { list-style: none; min-width: 48px; padding: 12px 9px; border: 2px solid #c31563; border-right: 0; border-radius: 12px 0 0 12px; color: #c31563; background: #fff0a4; box-shadow: 0 0 18px rgba(255, 46, 141, .42); font: 800 12px/1 ui-rounded, "Arial Rounded MT Bold", sans-serif; letter-spacing: .06em; text-transform: uppercase; cursor: pointer; }
+/* Personal navigation is one quiet tab, three lines tall, and it keeps out of the
+   way of everything: pinned to the left edge and centred vertically, where the
+   gutter beside the words is empty. It sits above the game window, not over the
+   title; the title starts below it and runs the full width of the screen. */
+.home-side-tabs { position: fixed; z-index: 60; left: 0; top: 50%; transform: translateY(-50%); }
+.home-side-tabs summary { display: grid; place-items: center; width: 46px; min-height: 46px; padding: 0; list-style: none; border: 2px solid #c31563; border-left: 0; border-radius: 0 14px 14px 0; background: #fff0a4; box-shadow: 0 0 18px rgba(255, 46, 141, .42); cursor: pointer; }
+.home-side-tabs summary:hover, .home-side-tabs summary:focus-visible { background: #ffe27a; }
 .home-side-tabs summary::-webkit-details-marker { display: none; }
-.home-side-tabs nav { position: absolute; right: 0; top: 52px; display: grid; min-width: 216px; padding: 12px; border: 2px solid #c31563; border-right: 0; border-radius: 12px 0 0 12px; background: #fff0a4; box-shadow: 0 10px 34px rgba(183,24,100,.3); }
+.home-side-tabs-bars { display: grid; gap: 4px; width: 22px; }
+.home-side-tabs-bars span { display: block; height: 3px; border-radius: 2px; background: #c31563; }
+.home-side-tabs[open] summary { border-radius: 0 14px 0 0; }
+/* Narrow screens: the gutter is not wide enough to keep a tab in, so it retires
+   to the top-left corner, where it is clear of the title and everything else.
+   The selector is doubled on purpose. Relying on "declared later wins" is not
+   safe here: the production CSS minifier reorders media blocks, which silently
+   put the tab back in the middle of the screen once already. Specificity does
+   not move. */
+@media (max-width: 899px) {
+  .home-side-tabs.home-side-tabs { top: 8px; transform: none; }
+  .home-side-tabs.home-side-tabs summary { width: 44px; min-height: 44px; }
+}
+.home-side-tabs nav { position: absolute; left: 0; top: 52px; display: grid; min-width: 216px; padding: 12px; border: 2px solid #c31563; border-left: 0; border-radius: 0 0 14px 0; background: #fff0a4; box-shadow: 0 10px 34px rgba(183,24,100,.3); }
 .home-side-tabs nav a { min-height: 44px; display: flex; align-items: center; padding: 5px 12px; color: #c31563; font: 800 16px/1.2 ui-rounded, "Arial Rounded MT Bold", sans-serif; text-decoration: none; }
 .home-side-tabs nav a:hover, .home-side-tabs nav a:focus-visible { color: #fff0a4; background: #c31563; outline: none; }
 
@@ -189,16 +256,28 @@
 .pixel-starfish-two { width: 54%; right: -12%; bottom: -10%; animation-delay: -1.9s; }
 
 
+/* The words sit on a card, not directly on the cookie wallpaper. Pink lettering
+   over a busy dough pattern is legible in theory and tiring in practice, so the
+   hero is a very pale yellow panel with a pink edge: the background stays busy
+   around it, the text inside it stays quiet and readable. */
 .home-hero {
   position: relative;
   display: block;
   max-width: 790px;
   margin: 0 auto;
-  padding-bottom: clamp(30px, 5vw, 52px);
-  border-bottom: 1px solid var(--home-edge);
+  padding: clamp(22px, 2.6vw, 34px) clamp(20px, 2.6vw, 36px) clamp(30px, 5vw, 48px);
+  border: 3px solid rgba(183, 24, 100, 0.5);
+  border-bottom-width: 6px;
+  border-radius: 28px;
+  background: #fffce4;
+  box-shadow:
+    0 18px 40px rgba(183, 24, 100, 0.18),
+    inset 0 0 0 2px rgba(255, 255, 255, 0.7);
 }
 
 .home-hero-copy { min-width: 0; }
+/* Heavier, and with the pink glow pulled back to a whisper: on a pale card the
+   glow only softens the letterforms it was meant to light. */
 .home-hero-copy,
 .home-hero-copy p,
 .home-hero-copy a,
@@ -206,16 +285,18 @@
 .home-languages a {
   color: #c31563;
   font-family: ui-rounded, "Arial Rounded MT Bold", "Nunito", sans-serif;
-  text-shadow: 0 1px #fff3ad, 0 0 9px rgba(255, 46, 141, .36);
+  font-weight: 800;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.85);
 }
 .home-hero-copy .home-lede,
 .home-hero-copy .cookie-quote,
-.home-hero-copy .cookie-business-line { color: #c31563; }
+.home-hero-copy .cookie-business-line { color: #c31563; font-weight: 800; }
+.home-hero-copy .home-lede { font-weight: 900; }
 .home-floating-quote {
   position: absolute;
   z-index: 2;
-  top: 14px;
-  right: 2px;
+  top: 12px;
+  right: 14px;
   width: min(190px, 20vw);
   margin: 0;
   padding: 13px 15px;
@@ -236,20 +317,69 @@
 }
 
 .home h1 {
-  width: 100%;
-  margin: 0 0 clamp(24px, 4vw, 52px);
+  /* The title is not a paragraph: it runs edge to edge, past the content column,
+     because a title that stops at a 1380px gutter is a title with its arms tied.
+     The negative inline margins are exactly the gutter, so the box is the full
+     width of the screen without ever hard-coding a viewport number. */
+  width: auto;
+  max-width: none;
+  margin: 0 calc(50% - 50vw) clamp(24px, 4vw, 52px);
   font-family: ui-rounded, "Arial Rounded MT Bold", "Nunito", sans-serif;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-  font-size: clamp(44px, 10.8vw, 154px);
-  letter-spacing: 0.02em;
+  /* Sized as a fraction of the screen, not of the column: the widest a single
+     line of "COOKIE HEAVEN" can be is 8.11 x its font size, so ~11.6vw is the
+     most that fits a 100vw screen with a margin to spare. */
+  font-size: clamp(28px, 11.6vw, 220px);
+  letter-spacing: -0.01em;
   font-weight: 900;
   line-height: 1.02;
-  /* Solid, saturated lettering—never translucent against the busy cookie sky. */
-  color: #bc0b57;
-  -webkit-text-fill-color: #bc0b57;
-  text-shadow: 3px 3px 0 #fff3aa, 0 0 3px #fff3aa, 0 0 15px rgba(255, 24, 132, .95), 0 0 28px rgba(183, 24, 100, .65);
+  /* Solid, saturated lettering — never translucent against the busy cookie sky.
+     The pink is a flat fill, outlined in cream and lit from behind, which is what
+     keeps it legible at 175px and still reads as candy rather than poster paint. */
+  color: #ff2e8d;
+  -webkit-text-fill-color: #ff2e8d;
+  -webkit-text-stroke: 0.036em #fff8dc;
+  paint-order: stroke fill;
+  text-shadow:
+    0 0 3px #fff3aa,
+    0 0 22px rgba(255, 24, 132, 0.95),
+    0 0 46px rgba(255, 61, 154, 0.7),
+    0 0 92px rgba(183, 24, 100, 0.45);
+}
+
+/* The title's letters, lit one at a time.
+   Each letter carries its own index, so one animation with a per-letter delay
+   becomes a wave that travels the words. Nothing changes colour in the resting
+   state: the letters are pink, and hover sends a bright pulse along them. Only
+   the text itself triggers it, not the full-width band the title sits in. */
+.home-title-text { display: inline-block; }
+.home-title-letter { display: inline-block; }
+
+@media (hover: hover) {
+  .home-title-text:hover .home-title-letter {
+    animation: title-letter-light calc(var(--title-letters, 13) * 82ms) linear infinite;
+    animation-delay: calc(var(--letter-index, 0) * 82ms);
+  }
+}
+
+@keyframes title-letter-light {
+  0%, 100% {
+    color: #ff2e8d;
+    -webkit-text-fill-color: #ff2e8d;
+    text-shadow: 0 0 3px #fff3aa, 0 0 22px rgba(255, 24, 132, 0.95), 0 0 46px rgba(255, 61, 154, 0.7);
+  }
+  5% {
+    color: #fff4fb;
+    -webkit-text-fill-color: #fff4fb;
+    text-shadow: 0 0 12px #ffffff, 0 0 34px #ffb5dc, 0 0 68px rgba(255, 61, 154, 0.98), 0 0 120px rgba(255, 24, 132, 0.8);
+  }
+  12% {
+    color: #ff2e8d;
+    -webkit-text-fill-color: #ff2e8d;
+    text-shadow: 0 0 3px #fff3aa, 0 0 22px rgba(255, 24, 132, 0.95), 0 0 46px rgba(255, 61, 154, 0.7);
+  }
 }
 
 .home-lede {
@@ -638,6 +768,28 @@
   50% { transform: translateY(-10px) rotate(0.4deg); }
 }
 
+/* ---------- Calm still moves ----------
+   motion.css silences every animation on the site while `data-motion="calm"`, which
+   is the default. That is the right instinct for the study app and the wrong one
+   for this page: the paragraph above describes Calm as keeping the slow glitter,
+   and a frozen homepage is not calm, it is switched off. These rules restore only
+   this page's slow layers, and the cat, in Calm. They carry !important because the
+   rule they answer does, and they are more specific, so they win.
+   Everything for the study app is untouched, and Lively still adds its faster
+   layers on top. */
+html[data-motion="calm"] .home { animation: cookie-wallpaper-drift 46s linear infinite !important; }
+html[data-motion="calm"] .home::before { animation: glitter-drift 34s linear infinite !important; }
+html[data-motion="calm"] .home::after { animation: glitter-drift-reverse 47s linear infinite, glitter-twinkle 6.5s ease-in-out infinite !important; }
+html[data-motion="calm"] .pixel-cookie { animation: pixel-cookie-float 11s ease-in-out infinite !important; }
+html[data-motion="calm"] .pixel-cat-guardian { animation: pixel-cat-watch 2.8s steps(2, end) infinite !important; }
+html[data-motion="calm"] .pixel-starfish { animation: starfish-wiggle 3.8s ease-in-out infinite !important; }
+html[data-motion="calm"] .home-cat-lane { animation: home-cat-patrol-cross 44s linear infinite !important; }
+html[data-motion="calm"] .home .cat-sprite { animation: cat-paws 520ms steps(4) infinite !important; }
+html[data-motion="calm"] .home-title-text:hover .home-title-letter {
+  animation: title-letter-light calc(var(--title-letters, 13) * 82ms) linear infinite !important;
+  animation-delay: calc(var(--letter-index, 0) * 82ms) !important;
+}
+
 /* Lively adds the faster, brighter layers. Calm keeps only the slow glitter, which
    is movement you notice without being asked to watch it. */
 html[data-motion="lively"] .home::before {
@@ -658,15 +810,17 @@ html[data-motion="lively"] .home h2 {
 @keyframes pink-title-pulse {
   0%, 100% {
     text-shadow:
-      0 0 18px rgba(255, 61, 154, 0.8),
-      0 0 48px rgba(255, 61, 154, 0.45),
-      0 2px 0 rgba(42, 6, 24, 0.4);
+      0 0 3px #fff3aa,
+      0 0 22px rgba(255, 24, 132, 0.9),
+      0 0 46px rgba(255, 61, 154, 0.64),
+      0 0 92px rgba(183, 24, 100, 0.4);
   }
   50% {
     text-shadow:
-      0 0 26px rgba(255, 122, 192, 0.95),
-      0 0 66px rgba(255, 61, 154, 0.6),
-      0 2px 0 rgba(42, 6, 24, 0.4);
+      0 0 6px #fff8dc,
+      0 0 34px rgba(255, 122, 192, 1),
+      0 0 74px rgba(255, 61, 154, 0.85),
+      0 0 132px rgba(255, 24, 132, 0.6);
   }
 }
 
@@ -674,6 +828,8 @@ html[data-motion="lively"] .home h2 {
    The glitter is left visible but static, so the page is still pink and sparkling
    rather than simply stripped. */
 @media (prefers-reduced-motion: reduce) {
+  .home-title-text:hover .home-title-letter { animation: none; }
+
   .home,
   .home::before,
   .home::after,
@@ -700,7 +856,7 @@ html[data-motion="lively"] .home h2 {
   .home-top-characters { min-height: 144px; gap: 18px; }
   .home-top-characters .pixel-cat-guardian { width: min(156px, 45vw); }
   .home-top-characters .pixel-starfish-field { width: min(120px, 34vw); min-height: 128px; }
-  .home h1 { font-size: clamp(28px, 10vw, 44px); letter-spacing: .02em; }
+  .home h1 { font-size: clamp(26px, 11.2vw, 72px); letter-spacing: -0.02em; }
 
   .home-floating-quote {
     position: static;

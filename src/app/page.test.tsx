@@ -21,6 +21,19 @@ describe("cookieheaven home screen", () => {
     expect(container.querySelector('img[src="/images/pixel-cat-cookie.svg"]')).toBeInTheDocument();
     expect(container.querySelectorAll(".pixel-cookie")).toHaveLength(64);
   });
+  it("gives every letter of the title its own span, and still names the words", () => {
+    const { container } = render(<HomePage />);
+    const letters = container.querySelectorAll(".home-main-title .home-title-letter");
+    expect(letters).toHaveLength("COOKIE HEAVEN".replace(/ /g, "").length);
+    expect(screen.getByRole("heading", { name: "COOKIE HEAVEN" })).toBeInTheDocument();
+  });
+  it("sends the cat along the top of the page, and keeps it out of the way of readers", () => {
+    const { container } = render(<HomePage />);
+    const patrol = container.querySelector(".home-cat-patrol");
+    expect(patrol).not.toBeNull();
+    expect(patrol).toHaveAttribute("aria-hidden", "true");
+    expect(patrol?.querySelector(".home-cat-lane .cat-sprite")).not.toBeNull();
+  });
   it("carries the small cookie game, closed, in the margin beside the hero", () => {
     const { container } = render(<HomePage />);
     const slot = container.querySelector(".home-hero-band .home-game-slot");

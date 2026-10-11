@@ -1,0 +1,67 @@
+/* The loading veil: the cat walks while the page arrives.
+ *
+ * Two things decide how this behaves, and both are deliberate:
+ *
+ *   1. It leaves on its own even if nothing else happens. The base rule fades it
+ *      out after a fixed beat, so a slow network, a failed script or JavaScript
+ *      switched off entirely can never leave a visitor staring at a cat instead
+ *      of the page. `CookieBootScreen` only makes it leave *sooner*, when the
+ *      page is genuinely ready.
+ *   2. It is `aria-hidden` and ends at `visibility: hidden`, so it is invisible
+ *      to assistive technology and cannot swallow a click once it has gone.
+ *
+ * The veil is rendered by the server layout, so it is the first thing painted
+ * rather than something that appears after hydration has already shown the page. */
+
+#cookie-boot {
+  --cat-w: clamp(76px, 9vw, 120px);
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 18px;
+  background:
+    radial-gradient(circle at 50% 38%, #fff8cd 0 22%, transparent 62%),
+    linear-gradient(#ffe89a, #ffd05d 72%, #f6bd45);
+  animation: boot-veil-away 620ms ease 1250ms forwards;
+}
+
+.boot-cat {
+  filter: drop-shadow(0 6px 0 rgba(183, 42, 104, 0.18));
+}
+
+.boot-word {
+  font-family: ui-rounded, "Arial Rounded MT Bold", "Nunito", sans-serif;
+  font-size: clamp(20px, 3.4vw, 30px);
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  color: #bc0b57;
+  text-shadow: 0 2px 0 #fff3aa, 0 0 18px rgba(255, 24, 132, 0.35);
+}
+
+/* motion.css silences animations under `data-motion="calm"`, the site default, so
+   the veil's exit is restored here. CookieBootScreen also sets display:none when
+   it dismisses, which is the guarantee; this is what makes it a fade. */
+html[data-motion="calm"] #cookie-boot { animation: boot-veil-away 620ms ease 1250ms forwards !important; }
+html[data-motion="calm"] #cookie-boot.boot-done { animation: boot-veil-away 420ms ease forwards !important; }
+html[data-motion="calm"] #cookie-boot .cat-sprite { animation: cat-paws 520ms steps(4) infinite !important; }
+
+/* Added by CookieBootScreen the moment the page is ready. */
+#cookie-boot.boot-done {
+  animation: boot-veil-away 420ms ease forwards;
+}
+
+@keyframes boot-veil-away {
+  to { opacity: 0; visibility: hidden; }
+}
+
+/* Without motion the cat still holds the veil, it simply stands still, and the
+   veil still leaves on the same beat. */
+@media (prefers-reduced-motion: reduce) {
+  #cookie-boot,
+  #cookie-boot.boot-done {
+    animation: boot-veil-away 200ms ease 900ms forwards;
+  }
+}
