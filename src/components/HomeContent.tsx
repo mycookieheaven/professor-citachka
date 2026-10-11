@@ -22,7 +22,25 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
         {PIXEL_COOKIES.map((cookie) => <span className="pixel-cookie" key={cookie.id} style={{ left: `${cookie.left}%`, top: `${cookie.top}%`, transform: `scale(${cookie.scale})`, animationDelay: `${cookie.delay}s`, animationDuration: `${cookie.duration}s`, "--cookie-drift-x": `${cookie.driftX}px`, "--cookie-drift-y": `${cookie.driftY}px`, "--cookie-turn": `${cookie.turn}deg` } as React.CSSProperties} />)}
       </div>
       <div className="home-inner">
-        <h1 className="home-main-title" id="home-title">{dict.hero.title}</h1>
+        {/* The cat walks the width of the page and back, forever, above the title. */}
+        <div className="home-cat-patrol" aria-hidden="true">
+          <span className="home-cat-lane">
+            <span className="cat-sprite" />
+          </span>
+        </div>
+        {/* Split into letters so a hover can light them one at a time. The
+            accessible name is unchanged: spans concatenate to the same words. */}
+        <h1 className="home-main-title" id="home-title" style={{ "--title-letters": Array.from(dict.hero.title).length } as React.CSSProperties}>
+          <span className="home-title-text">
+            {Array.from(dict.hero.title).map((letter, index) =>
+              letter === " " ? (
+                " "
+              ) : (
+                <span key={`${letter}-${index}`} className="home-title-letter" style={{ "--letter-index": index } as React.CSSProperties}>{letter}</span>
+              ),
+            )}
+          </span>
+        </h1>
         <div className="home-top-characters" aria-hidden="true">
           <div className="pixel-starfish-field">
             {/* eslint-disable-next-line @next/next/no-img-element */}
