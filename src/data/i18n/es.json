@@ -55,5 +55,29 @@
     "noteSuffix": ".",
     "empty": "La lista de escucha se está armando. Aparecerá aquí.",
     "listen": "Escuchar"
+  },
+  "game": {
+    "title": "cookie.io",
+    "tagline": "Come las migas. Crece. No toques otra galleta.",
+    "hint": "Un juego pequeño sobre seguir viva y hacerse más grande. Tú eres la galleta con el anillo rosa.",
+    "keys": "Flechas o W A S D para girar. Espacio para correr. P para pausar.",
+    "play": "Jugar",
+    "pause": "Pausa",
+    "resume": "Continuar",
+    "restart": "Jugar otra vez",
+    "score": "Puntos",
+    "time": "Tiempo",
+    "size": "Tamaño",
+    "best": "Récord",
+    "board": "Las galletas más grandes",
+    "you": "Tú",
+    "danger": "pesa más que tú",
+    "snack": "te la puedes comer",
+    "over": "Desmigada",
+    "overText": "Te tocó una galleta más pesada que la tuya.",
+    "paused": "En pausa",
+    "pausedHint": "Pulsa P o elige Continuar para seguir.",
+    "playing": "Jugando",
+    "names": ["Azúcar", "Chispas", "Masa", "Avena", "Cacahuete", "Canela", "Macadamia", "Jengibre", "Mantecada"]
   }
 }

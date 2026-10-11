@@ -1,0 +1,181 @@
+/* cookie.io — the game window beside the homepage.
+
+   The page around it is a bright yellow cookie wall with pink lettering, so the
+   window is built from the same three materials (cream, deep pink, plum ink) and
+   reads as an object sitting on the page rather than a panel pasted over it:
+   a thick pink frame, a soft drop shadow, and an inset highlight.
+
+   Sizes are small on purpose. This is a window in the margin of a page someone
+   came to for other reasons; the stage is square so the camera never has to
+   guess at an aspect ratio, and every control is at least 40px tall because it
+   has to be usable on a phone as well as a desktop.
+
+   The game itself is movement. It is never movement the reader did not ask for:
+   nothing animates until Play is pressed, and the decorative bobbing cookie is
+   switched off entirely under `prefers-reduced-motion`. */
+
+.window {
+  display: grid;
+  gap: 10px;
+  position: relative;
+  padding: 12px 12px 14px;
+  border: 3px solid #c31563;
+  border-radius: 22px;
+  background: linear-gradient(#fff9d6, #ffe89a);
+  box-shadow:
+    0 16px 34px rgba(183, 24, 100, 0.26),
+    inset 0 0 0 2px rgba(255, 255, 255, 0.6);
+  color: #7d1145;
+  font-family: ui-rounded, "Arial Rounded MT Bold", "Nunito", sans-serif;
+}
+
+.header { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+
+.title {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  color: #bc0b57;
+  text-shadow: 0 1px #fff3aa;
+}
+
+.badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: #c31563;
+  color: #fff6c9;
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.stage {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  background: #ffe08a;
+  box-shadow: inset 0 0 0 3px rgba(183, 24, 100, 0.4);
+}
+
+.canvas { display: block; width: 100%; height: 100%; cursor: crosshair; touch-action: none; }
+
+.canvas:focus-visible { outline: 3px solid #c31563; outline-offset: -4px; }
+
+.peek { position: absolute; inset: 0; background: radial-gradient(circle at 50% 42%, #fff5c0, #ffd873); }
+.peek img { position: absolute; image-rendering: pixelated; filter: drop-shadow(0 5px 0 rgba(183, 42, 104, 0.18)); }
+.peek img:first-child {
+  left: 50%;
+  top: 46%;
+  width: 44%;
+  animation: cookie-io-bob 3.6s ease-in-out infinite;
+}
+.peekSmall { left: 74%; top: 72%; width: 20%; animation: cookie-io-bob 3.6s ease-in-out -1.7s infinite; }
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 14px;
+  text-align: center;
+  background: rgba(59, 16, 45, 0.87);
+  color: #ffeaf6;
+}
+
+.overlayTitle { margin: 0; font-size: 17px; font-weight: 900; line-height: 1.25; }
+.overlayHint { margin: 0; font-size: 13px; font-weight: 700; line-height: 1.45; color: #ffd7ec; }
+
+.button {
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: #ff3d9a;
+  color: #3b102d;
+  font: inherit;
+  font-size: 17px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 4px 0 rgba(120, 8, 56, 0.5);
+}
+
+.button:hover { background: #ffd9ec; }
+.button:focus-visible { outline: 3px solid #fff6c9; outline-offset: 3px; }
+
+.finalStats { display: flex; gap: 14px; margin: 0; }
+.finalStats dd { margin: 0; font-size: 17px; font-weight: 900; }
+.finalStats dt { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #ffb5dc; }
+
+.footer { display: grid; gap: 8px; }
+
+.stats { display: flex; justify-content: space-between; gap: 6px; margin: 0; }
+.stats div { display: grid; gap: 1px; text-align: center; }
+.stats dd { margin: 0; font-size: 15px; font-weight: 900; font-variant-numeric: tabular-nums; }
+.stats dt { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #a2104f; }
+
+.board { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+.boardTitle { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #a2104f; }
+.boardRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.55);
+  font-size: 12.5px;
+  font-weight: 800;
+}
+.boardRow[data-player="true"] { background: #c31563; color: #fff6c9; }
+.rank { width: 14px; text-align: center; font-weight: 900; opacity: 0.8; }
+.who { flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.girth { font-variant-numeric: tabular-nums; opacity: 0.85; }
+
+.legend { display: flex; align-items: center; flex-wrap: wrap; gap: 5px; margin: 0; font-size: 11.5px; font-weight: 700; line-height: 1.3; color: #8d174d; }
+.legendItem { display: inline-flex; align-items: center; gap: 5px; }
+.swatchDanger { width: 15px; height: 15px; border-radius: 50%; border: 3px dashed #b71864; }
+.swatchSnack { width: 15px; height: 15px; border-radius: 50%; border: 2px solid #1f6b2e; margin-left: 6px; }
+
+.pauseButton {
+  min-height: 42px;
+  border: 2px solid #c31563;
+  border-radius: 999px;
+  background: transparent;
+  color: #c31563;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.pauseButton:hover { background: #c31563; color: #fff6c9; }
+.pauseButton:focus-visible { outline: 3px solid #c31563; outline-offset: 2px; }
+
+.hint { margin: 0; font-size: 13px; font-weight: 700; line-height: 1.45; color: #8d174d; }
+
+/* Visible to a screen reader, never to the eye: the game's status, announced
+   only when it changes, so a finished game is not a silent one. */
+.live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+@keyframes cookie-io-bob {
+  0%, 100% { transform: translate(-50%, -50%) rotate(-3deg); }
+  50% { transform: translate(-50%, calc(-50% - 7px)) rotate(3deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .peek img { animation: none; transform: translate(-50%, -50%); }
+}

@@ -21,4 +21,13 @@ describe("cookieheaven home screen", () => {
     expect(container.querySelector('img[src="/images/pixel-cat-cookie.svg"]')).toBeInTheDocument();
     expect(container.querySelectorAll(".pixel-cookie")).toHaveLength(64);
   });
+  it("carries the small cookie game, closed, in the margin beside the hero", () => {
+    const { container } = render(<HomePage />);
+    const slot = container.querySelector(".home-hero-band .home-game-slot");
+    expect(slot).not.toBeNull();
+    expect(screen.getByRole("heading", { name: "cookie.io" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Play" })).toBeInTheDocument();
+    /* Nothing is playing until it is asked to. */
+    expect(slot?.querySelector("canvas")).toBeNull();
+  });
 });
