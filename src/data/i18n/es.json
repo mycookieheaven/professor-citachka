@@ -77,6 +77,9 @@
     "overText": "Te tocó una galleta más pesada que la tuya.",
     "paused": "En pausa",
     "pausedHint": "Pulsa P o elige Continuar para seguir.",
+    "opensFullScreen": "Abre el juego a pantalla completa",
+    "backHome": "cookieheaven",
+    "fullscreen": "Pantalla completa",
     "playing": "Jugando",
     "names": ["Azúcar", "Chispas", "Masa", "Avena", "Cacahuete", "Canela", "Macadamia", "Jengibre", "Mantecada"]
   }

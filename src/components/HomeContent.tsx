@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { CookieIoGame } from "@/components/CookieIoGame";
-import { LOCALES, LOCALE_NAMES, LOCALE_PATHS, type Dictionary, type Locale } from "@/lib/i18n";
+import { GAME_PATHS, LOCALES, LOCALE_NAMES, LOCALE_PATHS, type Dictionary, type Locale } from "@/lib/i18n";
 
 /** A deliberately abundant, deterministic cookie field; positions never jump between renders. */
-const PIXEL_COOKIES = Array.from({ length: 64 }, (_, index) => ({
+const PIXEL_COOKIES = Array.from({ length: 30 }, (_, index) => ({
   id: index,
   left: 2 + ((index * 37) % 96),
   top: 2 + ((index * 53) % 94),
@@ -51,6 +51,8 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
           <div className="pixel-cat-guardian">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/images/pixel-cat-cookie.svg" alt="" width={288} height={288} />
+            {/* Its own sprite, so the tail can wag without the cat being redrawn. */}
+            <span className="pixel-cat-tail" aria-hidden="true" />
           </div>
         </div>
         <div className="home-hero-band">
@@ -72,7 +74,8 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
               below it on anything narrower. It is an aside, so it comes after the
               words in reading order however it is placed on the glass. */}
           <aside className="home-game-slot">
-            <CookieIoGame labels={dict.game} />
+            {/* The window does not play: it opens the stage. */}
+            <CookieIoGame labels={dict.game} gameHref={GAME_PATHS[locale]} />
           </aside>
         </div>
       </div>

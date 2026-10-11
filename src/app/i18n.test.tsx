@@ -47,7 +47,7 @@ describe("Spanish homepage at /es", () => {
 
   it("offers the game in Spanish rather than leaving the English rules standing", () => {
     render(<EsPage />);
-    expect(screen.getByRole("button", { name: "Jugar" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Jugar" })).toBeInTheDocument();
     expect(screen.queryByText(/Eat the crumbs/i)).not.toBeInTheDocument();
   });
 });
@@ -85,7 +85,7 @@ describe("Russian homepage at /ru", () => {
 
   it("offers the game in Russian rather than leaving the English rules standing", () => {
     render(<RuPage />);
-    expect(screen.getByRole("button", { name: "Играть" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Играть" })).toBeInTheDocument();
     expect(screen.queryByText(/Eat the crumbs/i)).not.toBeInTheDocument();
   });
 });
@@ -121,6 +121,9 @@ describe("every locale is complete", () => {
         game.overText,
         game.paused,
         game.pausedHint,
+        game.opensFullScreen,
+        game.backHome,
+        game.fullscreen,
         game.playing,
       ];
       for (const value of strings) {

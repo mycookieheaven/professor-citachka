@@ -65,6 +65,61 @@ describe("the cat on patrol", () => {
   });
 });
 
+/** Every rule written for Calm mode in a stylesheet, wherever it sits in the file. */
+const calmLines = (source: string) => source.split("\n").filter((line) => line.startsWith('html[data-motion="calm"]'));
+
+describe("the tail", () => {
+  const tail = readFileSync("public/images/pixel-cat-tail.svg", "utf8");
+
+  it("is a sprite of its own, four frames wide", () => {
+    expect(tail).toMatch(/width="56" height="16"/);
+    expect(tail).toMatch(/viewBox="0 0 56 16"/);
+    expect(tail).toContain("wagging");
+  });
+
+  it("wags continuously, without the cat being redrawn", () => {
+    const sprite = rule(landing, ".pixel-cat-tail");
+    expect(sprite).toMatch(/url\("\/images\/pixel-cat-tail\.svg"\)/);
+    expect(sprite).toMatch(/animation:\s*cat-tail-wag\s+780ms\s+steps\(4\)\s+infinite/);
+    expect(sprite).toMatch(/background-size:\s*calc\(var\(--tail-w\) \* 4\)/);
+  });
+
+  it("keeps wagging in Calm, and only slows down when motion is unwelcome", () => {
+    expect(calmLines(landing).join("\n")).toMatch(/\.pixel-cat-tail \{ animation: cat-tail-wag 780ms steps\(4\) infinite !important/);
+    /* Asserted against the whole stylesheet: the file has more than one
+       reduced-motion block, and the first is not the one about the tail. */
+    expect(landing).toMatch(/\.pixel-cat-tail \{ animation: cat-tail-wag 2600ms steps\(4\) infinite !important; \}/);
+  });
+});
+
+describe("the cost of the motion", () => {
+  it("moves the glitter with transforms, not by repainting a page-sized background", () => {
+    const drift = landing.slice(landing.indexOf("@keyframes glitter-drift"), landing.indexOf("@keyframes glitter-twinkle"));
+    expect(drift).toMatch(/from \{ transform: translate3d\(0, 0, 0\); \}/);
+    expect(drift).not.toMatch(/background-position:/);
+  });
+
+  it("leaves the full-page wallpaper still", () => {
+    expect(rule(landing, ".home")).not.toMatch(/animation:/);
+  });
+
+  it("gives the floating cookies one shadow each, not two", () => {
+    const cookie = rule(landing, ".pixel-cookie");
+    expect((cookie.match(/drop-shadow/g) ?? []).length).toBe(1);
+    expect(rule(landing, ".pixel-cookie-field")).toMatch(/contain:\s*paint/);
+  });
+
+  it("keeps the pointer off React: it is moved by the animation frame", () => {
+    const cursor = readFileSync("src/components/PinkGlitterCursor.tsx", "utf8");
+    /* A composited transform, never left/top, and no render per event. */
+    expect(cursor).toMatch(/node\.style\.transform = `translate3d/);
+    expect(cursor).not.toMatch(/style\.left =/);
+    /* No setState in the pointermove handler itself. */
+    const handler = cursor.slice(cursor.indexOf("const onMove"), cursor.indexOf("const onLeave"));
+    expect(handler).not.toMatch(/setPosition/);
+  });
+});
+
 describe("Calm mode", () => {
   /*
    * The site ships `data-motion="calm"` by default and motion.css switches every

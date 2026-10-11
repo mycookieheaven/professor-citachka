@@ -19,7 +19,9 @@ describe("cookieheaven home screen", () => {
   it("shows the black pixel cat and cookie field", () => {
     const { container } = render(<HomePage />);
     expect(container.querySelector('img[src="/images/pixel-cat-cookie.svg"]')).toBeInTheDocument();
-    expect(container.querySelectorAll(".pixel-cookie")).toHaveLength(64);
+    /* Thirty, not sixty-four: each one animates and carries a shadow, and the field
+       is decorative. The count is a paint-cost decision. */
+    expect(container.querySelectorAll(".pixel-cookie")).toHaveLength(30);
   });
   it("gives every letter of the title its own span, and still names the words", () => {
     const { container } = render(<HomePage />);
@@ -34,13 +36,19 @@ describe("cookieheaven home screen", () => {
     expect(patrol).toHaveAttribute("aria-hidden", "true");
     expect(patrol?.querySelector(".home-cat-lane .cat-sprite")).not.toBeNull();
   });
+  it("gives the cat a tail of its own, so it can wag", () => {
+    const { container } = render(<HomePage />);
+    const tail = container.querySelector(".pixel-cat-guardian .pixel-cat-tail");
+    expect(tail).not.toBeNull();
+    expect(tail).toHaveAttribute("aria-hidden", "true");
+  });
   it("carries the small cookie game, closed, in the margin beside the hero", () => {
     const { container } = render(<HomePage />);
     const slot = container.querySelector(".home-hero-band .home-game-slot");
     expect(slot).not.toBeNull();
     expect(screen.getByRole("heading", { name: "cookie.io" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "Play" })).toBeInTheDocument();
-    /* Nothing is playing until it is asked to. */
+    /* Play is a link to the game's own page, not a button that plays in place. */
+    expect(screen.getByRole("link", { name: "Play" })).toHaveAttribute("href", "/game");
     expect(slot?.querySelector("canvas")).toBeNull();
   });
 });
