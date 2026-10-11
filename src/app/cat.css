@@ -15,10 +15,10 @@
 .cat-sprite {
   display: block;
   width: var(--cat-w, 64px);
-  height: calc(var(--cat-w, 64px) * 19 / 24);
+  height: var(--cat-w, 64px);
   background-image: url("/images/pixel-cat-walk.svg");
   background-repeat: no-repeat;
-  background-size: calc(var(--cat-w, 64px) * 4) calc(var(--cat-w, 64px) * 19 / 24);
+  background-size: calc(var(--cat-w, 64px) * 4) var(--cat-w, 64px);
   background-position: 0 0;
   image-rendering: pixelated;
   animation: cat-paws 520ms steps(4) infinite;
