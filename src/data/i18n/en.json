@@ -55,5 +55,29 @@
     "noteSuffix": ".",
     "empty": "The listening list is being put together. It will appear here.",
     "listen": "Listen"
+  },
+  "game": {
+    "title": "cookie.io",
+    "tagline": "Eat the crumbs. Grow. Do not touch another cookie.",
+    "hint": "A small game about staying alive and getting bigger. You are the cookie with the pink ring.",
+    "keys": "Arrow keys or W A S D to steer. Space to hurry. P to pause.",
+    "play": "Play",
+    "pause": "Pause",
+    "resume": "Resume",
+    "restart": "Play again",
+    "score": "Score",
+    "time": "Time",
+    "size": "Size",
+    "best": "Best",
+    "board": "Biggest cookies",
+    "you": "You",
+    "danger": "heavier than you",
+    "snack": "yours to eat",
+    "over": "Crumbled",
+    "overText": "A cookie heavier than yours touched you.",
+    "paused": "Paused",
+    "pausedHint": "Press P or choose Resume to go on.",
+    "playing": "Playing",
+    "names": ["Sugar", "Chip", "Doughy", "Oatmeal", "Peanut butter", "Snickerdoodle", "Macadamia", "Ginger", "Shortbread"]
   }
 }

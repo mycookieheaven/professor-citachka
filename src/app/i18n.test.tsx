@@ -44,6 +44,12 @@ describe("Spanish homepage at /es", () => {
     const back = screen.getByRole("link", { name: "Español" });
     expect(back).toHaveAttribute("aria-current", "page");
   });
+
+  it("offers the game in Spanish rather than leaving the English rules standing", () => {
+    render(<EsPage />);
+    expect(screen.getByRole("button", { name: "Jugar" })).toBeInTheDocument();
+    expect(screen.queryByText(/Eat the crumbs/i)).not.toBeInTheDocument();
+  });
 });
 
 describe("Russian homepage at /ru", () => {
@@ -76,6 +82,12 @@ describe("Russian homepage at /ru", () => {
       "page",
     );
   });
+
+  it("offers the game in Russian rather than leaving the English rules standing", () => {
+    render(<RuPage />);
+    expect(screen.getByRole("button", { name: "Играть" })).toBeInTheDocument();
+    expect(screen.queryByText(/Eat the crumbs/i)).not.toBeInTheDocument();
+  });
 });
 
 describe("every locale is complete", () => {
@@ -83,6 +95,41 @@ describe("every locale is complete", () => {
     const counts = LOCALES.map((locale) => loadDictionary(locale).about.paragraphs.length);
     expect(new Set(counts).size).toBe(1);
     expect(counts[0]).toBeGreaterThan(2);
+  });
+
+  it("carries the whole game in every locale, including the cookie names", () => {
+    for (const locale of LOCALES) {
+      const game = loadDictionary(locale).game;
+      const strings = [
+        game.title,
+        game.tagline,
+        game.hint,
+        game.keys,
+        game.play,
+        game.pause,
+        game.resume,
+        game.restart,
+        game.score,
+        game.time,
+        game.size,
+        game.best,
+        game.board,
+        game.you,
+        game.danger,
+        game.snack,
+        game.over,
+        game.overText,
+        game.paused,
+        game.pausedHint,
+        game.playing,
+      ];
+      for (const value of strings) {
+        expect(typeof value).toBe("string");
+        expect(value.trim().length).toBeGreaterThan(0);
+      }
+      expect(game.names).toHaveLength(9);
+      for (const name of game.names) expect(name.trim().length).toBeGreaterThan(0);
+    }
   });
 
   it("has a shared brand title and distinct translated philosophical copy in every locale", () => {

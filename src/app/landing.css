@@ -89,6 +89,34 @@
   padding: clamp(12px, 2vw, 26px) clamp(20px, 5vw, 48px) 96px;
 }
 
+/* ---------- the game window ----------
+   cookie.io lives in the band that holds the hero. On a genuinely wide display
+   that band is three columns — empty margin, the words, empty margin — and the
+   window takes the left one, so the page reads the same as it always did with a
+   small game sitting beside it. Everything narrower is a single column and the
+   window drops below the hero: a 200px canvas is not worth wrapping text
+   around, and a cramped game is worse than a stacked one. */
+.home-hero-band {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(26px, 3vw, 36px);
+  align-items: start;
+}
+
+.home-game-slot {
+  justify-self: center;
+  width: min(100%, 340px);
+}
+
+@media (min-width: 1340px) {
+  .home-hero-band { grid-template-columns: minmax(0, 1fr) minmax(0, 680px) minmax(0, 1fr); }
+  /* Both items are given a row on purpose. Auto-placement moves forwards only, so
+     an item that wants column 1 after the hero has taken column 2 lands in the
+     next row — which silently puts the game under the hero instead of beside it. */
+  .home-hero-band > .home-hero { grid-column: 2; grid-row: 1; }
+  .home-game-slot { grid-column: 1; grid-row: 1; justify-self: end; width: min(100%, 280px); }
+}
+
 /* Personal navigation is one quiet side tab; it never borrows the study header. */
 .home-side-tabs { position: fixed; z-index: 40; top: 22px; right: 0; }
 .home-side-tabs summary { list-style: none; min-width: 48px; padding: 12px 9px; border: 2px solid #c31563; border-right: 0; border-radius: 12px 0 0 12px; color: #c31563; background: #fff0a4; box-shadow: 0 0 18px rgba(255, 46, 141, .42); font: 800 12px/1 ui-rounded, "Arial Rounded MT Bold", sans-serif; letter-spacing: .06em; text-transform: uppercase; cursor: pointer; }

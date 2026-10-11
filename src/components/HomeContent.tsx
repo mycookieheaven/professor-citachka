@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieIoGame } from "@/components/CookieIoGame";
 import { LOCALES, LOCALE_NAMES, LOCALE_PATHS, type Dictionary, type Locale } from "@/lib/i18n";
 
 /** A deliberately abundant, deterministic cookie field; positions never jump between renders. */
@@ -34,20 +35,28 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
             <img src="/images/pixel-cat-cookie.svg" alt="" width={288} height={288} />
           </div>
         </div>
-        <section className="home-hero home-hero-solo" aria-labelledby="home-title">
-          <div className="home-hero-copy">
-            <p className="home-byline">{dict.hero.byline}</p>
-            <a className="home-instagram" href="https://www.instagram.com/cookieswpeanutbutter/" target="_blank" rel="noopener noreferrer">{dict.hero.instagram} · @cookieswpeanutbutter <span aria-hidden="true">↗</span></a>
-            <p className="home-lede">{dict.hero.lede}</p>
-            <blockquote className="cookie-quote">“{dict.hero.quote}”</blockquote>
-            <p className="cookie-business-line">{dict.hero.cookieBusinesses}</p>
-            <div className="home-actions" aria-hidden="true" />
-            <nav className="home-languages" aria-label={dict.nav.language}>
-              {LOCALES.map((option) => <Link key={option} href={LOCALE_PATHS[option]} lang={option} hrefLang={option} aria-current={option === locale ? "page" : undefined} className={option === locale ? "is-current" : undefined}>{LOCALE_NAMES[option]}</Link>)}
-            </nav>
-          </div>
-          <aside className="home-floating-quote">{dict.hero.worldQuote}</aside>
-        </section>
+        <div className="home-hero-band">
+          <section className="home-hero home-hero-solo" aria-labelledby="home-title">
+            <div className="home-hero-copy">
+              <p className="home-byline">{dict.hero.byline}</p>
+              <a className="home-instagram" href="https://www.instagram.com/cookieswpeanutbutter/" target="_blank" rel="noopener noreferrer">{dict.hero.instagram} · @cookieswpeanutbutter <span aria-hidden="true">↗</span></a>
+              <p className="home-lede">{dict.hero.lede}</p>
+              <blockquote className="cookie-quote">“{dict.hero.quote}”</blockquote>
+              <p className="cookie-business-line">{dict.hero.cookieBusinesses}</p>
+              <div className="home-actions" aria-hidden="true" />
+              <nav className="home-languages" aria-label={dict.nav.language}>
+                {LOCALES.map((option) => <Link key={option} href={LOCALE_PATHS[option]} lang={option} hrefLang={option} aria-current={option === locale ? "page" : undefined} className={option === locale ? "is-current" : undefined}>{LOCALE_NAMES[option]}</Link>)}
+              </nav>
+            </div>
+            <aside className="home-floating-quote">{dict.hero.worldQuote}</aside>
+          </section>
+          {/* The game sits in the empty margin beside the hero on a wide screen, and
+              below it on anything narrower. It is an aside, so it comes after the
+              words in reading order however it is placed on the glass. */}
+          <aside className="home-game-slot">
+            <CookieIoGame labels={dict.game} />
+          </aside>
+        </div>
       </div>
     </main>
   );

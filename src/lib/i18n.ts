@@ -63,6 +63,31 @@ export type Dictionary = {
     empty: string;
     listen: string;
   };
+  /** The words of cookie.io, the small game that sits beside the home hero. */
+  game: {
+    title: string;
+    tagline: string;
+    hint: string;
+    keys: string;
+    play: string;
+    pause: string;
+    resume: string;
+    restart: string;
+    score: string;
+    time: string;
+    size: string;
+    best: string;
+    board: string;
+    you: string;
+    danger: string;
+    snack: string;
+    over: string;
+    overText: string;
+    paused: string;
+    pausedHint: string;
+    playing: string;
+    names: string[];
+  };
 };
 
 export type MusicTrack = { title: string; artist: string; note?: string; link?: string };
