@@ -21,4 +21,9 @@ describe("the homepage sections tab", () => {
     expect(container.querySelector(".home-side-tabs summary")).toHaveAccessibleName(/sections/i);
     expect(container.querySelector(".home-side-tabs nav")).toHaveAccessibleName(/sections/i);
   });
+
+  it("links to the prose collection", () => {
+    const { getByRole } = render(<SiteNavigation />);
+    expect(getByRole("link", { name: "Prose" })).toHaveAttribute("href", "/prose");
+  });
 });
