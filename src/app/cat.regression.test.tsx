@@ -120,68 +120,20 @@ describe("the cost of the motion", () => {
   });
 });
 
-describe("the starfish", () => {
-  const art = readFileSync("public/images/pixel-starfish.svg", "utf8");
+describe("the smiling cookie", () => {
+  const art = readFileSync("public/images/pixel-smile-cookie.svg", "utf8");
+  const home = readFileSync("src/components/HomeContent.tsx", "utf8");
 
-  /* The one the user asked me to get rid of was five <ellipse> petals rotated 72
-     degrees apart around a central circle, which is a flower with a face on it.
-     Drawn as pixels in the same grid as the cat, that cannot come back. */
-  it("is drawn as pixels, not as petals round a circle", () => {
-    expect(art).not.toContain("<ellipse");
-    expect(art).not.toMatch(/rotate\(72/);
+  it("replaces every homepage starfish with a kawaii, pixel-rendered cookie", () => {
     expect(art).toMatch(/shape-rendering="crispEdges"/);
-    expect(art).toContain("Kawaii pixel starfish");
+    expect(art).toContain("Kawaii smiling pixel cookie");
+    expect(art).toContain("pink cheeks");
+    expect(home).toContain('/images/pixel-smile-cookie.svg');
+    expect(home).not.toContain("starfish");
   });
 
-  /* Arms that taper into notches are a starfish; arms that merge are a blob. The
-     silhouette is measured rather than eyeballed: five peaks, and deep valleys
-     between them. */
-  it("has five tapering arms with notches between them", () => {
-    const cells = new Set<string>();
-    /* Spread first: a matchAll iterator has no length, so testing one for truth
-       silently reads as empty and the whole check passes on nothing. */
-    const painted = [...art.matchAll(/<g fill="[^"]*">([\s\S]*?)<\/g>/g)];
-    expect(painted.length).toBeGreaterThan(3);
-    for (const [, body] of painted) {
-      for (const [, x, y, w, h] of body.matchAll(/<rect x="(\d+)" y="(\d+)" width="(\d+)" height="(\d+)"/g)) {
-        for (let row = +y; row < +y + +h; row += 1) {
-          for (let col = +x; col < +x + +w; col += 1) cells.add(`${col},${row}`);
-        }
-      }
-    }
-    expect(cells.size).toBeGreaterThan(60);
-
-    const cx = 11.5;
-    const cy = 12.2;
-    const profile: number[] = [];
-    for (let i = 0; i < 72; i += 1) {
-      const angle = ((i * 5 - 90) * Math.PI) / 180;
-      let reach = 0;
-      for (let r = 0; r <= 13; r += 0.25) {
-        const x = Math.round(cx + Math.cos(angle) * r);
-        const y = Math.round(cy + (Math.sin(angle) * r) / 1.04);
-        if (cells.has(`${x},${y}`)) reach = r;
-      }
-      profile.push(reach);
-    }
-
-    /* Count arms as the stretches that reach past the halfway radius, not as local
-       maxima: on a pixel grid a flat-topped arm wobbles and counts twice. */
-    const halfway = (Math.max(...profile) + Math.min(...profile)) / 2;
-    let arms = 0;
-    for (let i = 0; i < profile.length; i += 1) {
-      const above = profile[i] > halfway;
-      const wasAbove = profile[(i + profile.length - 1) % profile.length] > halfway;
-      if (above && !wasAbove) arms += 1;
-    }
-    expect(arms).toBe(5);
-
-    /* The valleys have to bite in. A rosette of petals has almost no valley. */
-    expect(Math.min(...profile) / Math.max(...profile)).toBeLessThan(0.62);
-  });
-
-  it("is drawn as pixels at any size", () => {
-    expect(rule(landing, ".pixel-starfish")).toMatch(/image-rendering:\s*pixelated/);
+  it("keeps the smiling cookie crisp at any size", () => {
+    expect(rule(landing, ".pixel-smile-cookie")).toMatch(/image-rendering:\s*pixelated/);
   });
 });
 

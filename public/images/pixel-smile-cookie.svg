@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 16 16" shape-rendering="crispEdges" role="img" aria-labelledby="title desc">
+  <title id="title">Kawaii smiling pixel cookie</title>
+  <desc id="desc">A golden round pixel cookie with chocolate chips, sparkling eyes, pink cheeks, and a tiny smile.</desc>
+  <path fill="#4a2116" d="M5 1h6v1h2v2h1v2h1v5h-1v2h-2v2H5v-1H3v-2H1V6h1V4h2V2h1z"/>
+  <path fill="#f0a94f" d="M5 2h6v1h2v2h1v5h-1v2h-2v1H5v-1H3v-2H2V6h1V4h2z"/>
+  <path fill="#ffd77d" d="M6 2h4v1h2v2h1v4h-1v2h-2v1H6v-1H4V9H3V6h1V4h2z"/>
+  <path fill="#9b4d27" d="M5 4h2v2H5zm5-1h2v2h-2zM4 10h1v1H4zm7 1h2v2h-2z"/>
+  <path fill="#4a2116" d="M5 7h2v2H5zm4 0h2v2H9zm-1 3h1v1H8z"/>
+  <path fill="#fffdf2" d="M5 7h1v1H5zm4 0h1v1H9z"/>
+  <path fill="#ff8eae" d="M3 9h2v1H3zm8 0h2v1h-2z"/>
+  <path fill="#4a2116" d="M7 11h3v1H9v1H8v-1H7z"/>
+</svg>

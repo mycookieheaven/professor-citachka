@@ -42,11 +42,11 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
           </span>
         </h1>
         <div className="home-top-characters" aria-hidden="true">
-          <div className="pixel-starfish-field">
+          <div className="pixel-smile-cookie-field">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="pixel-starfish pixel-starfish-one" src="/images/pixel-starfish.svg" alt="" width={160} height={160} />
+            <img className="pixel-smile-cookie pixel-smile-cookie-one" src="/images/pixel-smile-cookie.svg" alt="" width={160} height={160} />
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="pixel-starfish pixel-starfish-two" src="/images/pixel-starfish.svg" alt="" width={160} height={160} />
+            <img className="pixel-smile-cookie pixel-smile-cookie-two" src="/images/pixel-smile-cookie.svg" alt="" width={160} height={160} />
           </div>
           <div className="pixel-cat-guardian">
             {/* eslint-disable-next-line @next/next/no-img-element */}
