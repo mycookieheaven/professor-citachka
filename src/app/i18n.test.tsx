@@ -91,6 +91,12 @@ describe("Russian homepage at /ru", () => {
 });
 
 describe("every locale is complete", () => {
+  it("does not put an em dash in the floating homepage quote", () => {
+    for (const locale of LOCALES) {
+      expect(loadDictionary(locale).hero.worldQuote).not.toContain("—");
+    }
+  });
+
   it("has the same number of About paragraphs, so no text was dropped", () => {
     const counts = LOCALES.map((locale) => loadDictionary(locale).about.paragraphs.length);
     expect(new Set(counts).size).toBe(1);

@@ -279,12 +279,12 @@
   margin: calc(clamp(24px, 4vw, 52px) * -0.9) 0 clamp(12px, 2vw, 24px);
 }
 .home-top-characters .pixel-cat-guardian { width: clamp(136px, 18vw, 218px); margin: 0; }
-.home-top-characters .pixel-starfish-field { width: clamp(108px, 15vw, 170px); min-height: clamp(120px, 16vw, 180px); }
+.home-top-characters .pixel-smile-cookie-field { width: clamp(108px, 15vw, 170px); min-height: clamp(120px, 16vw, 180px); }
 
-.pixel-starfish-field { position: relative; width: clamp(104px, 14vw, 158px); min-height: 168px; align-self: center; }
-.pixel-starfish { position: absolute; width: 100%; height: auto; image-rendering: pixelated; filter: drop-shadow(0 6px 0 rgba(183, 42, 104, .16)); animation: starfish-wiggle 3.8s ease-in-out infinite; }
-.pixel-starfish-one { inset: 0; }
-.pixel-starfish-two { width: 54%; right: -12%; bottom: -10%; animation-delay: -1.9s; }
+.pixel-smile-cookie-field { position: relative; width: clamp(104px, 14vw, 158px); min-height: 168px; align-self: center; }
+.pixel-smile-cookie { position: absolute; width: 100%; height: auto; image-rendering: pixelated; filter: drop-shadow(0 6px 0 rgba(183, 42, 104, .16)); animation: smile-cookie-bob 3.8s ease-in-out infinite; }
+.pixel-smile-cookie-one { inset: 0; }
+.pixel-smile-cookie-two { width: 54%; right: -12%; bottom: -10%; animation-delay: -1.9s; }
 
 
 /* The words sit on a card, not directly on the cookie wallpaper. Pink lettering
@@ -765,7 +765,7 @@
 
 
 
-@keyframes starfish-wiggle {
+@keyframes smile-cookie-bob {
   0%, 100% { transform: rotate(-5deg) translateY(0); }
   50% { transform: rotate(7deg) translateY(-8px); }
 }
@@ -812,7 +812,7 @@ html[data-motion="calm"] .home::after { animation: glitter-drift-reverse 47s lin
 html[data-motion="calm"] .pixel-cookie { animation: pixel-cookie-float 11s ease-in-out infinite !important; }
 html[data-motion="calm"] .pixel-cat-guardian { animation: pixel-cat-watch 2.8s steps(2, end) infinite !important; }
 html[data-motion="calm"] .pixel-cat-tail { animation: cat-tail-wag 780ms steps(4) infinite !important; }
-html[data-motion="calm"] .pixel-starfish { animation: starfish-wiggle 3.8s ease-in-out infinite !important; }
+html[data-motion="calm"] .pixel-smile-cookie { animation: smile-cookie-bob 3.8s ease-in-out infinite !important; }
 html[data-motion="calm"] .home-cat-lane { animation: home-cat-patrol-cross 44s linear infinite !important; }
 html[data-motion="calm"] .home .cat-sprite { animation: cat-paws 520ms steps(4) infinite !important; }
 html[data-motion="calm"] .home-title-text:hover .home-title-letter {
@@ -865,7 +865,7 @@ html[data-motion="lively"] .home h2 {
   .home::after,
   .home-portrait,
   .pixel-cat-guardian,
-  .pixel-starfish,
+  .pixel-smile-cookie,
   .pixel-cookie,
   .pixel-cat-tail,
   html[data-motion="lively"] .home h2 {
@@ -889,7 +889,7 @@ html[data-motion="lively"] .home h2 {
 
   .home-top-characters { min-height: 144px; gap: 18px; }
   .home-top-characters .pixel-cat-guardian { width: min(156px, 45vw); }
-  .home-top-characters .pixel-starfish-field { width: min(120px, 34vw); min-height: 128px; }
+  .home-top-characters .pixel-smile-cookie-field { width: min(120px, 34vw); min-height: 128px; }
   .home h1 { font-size: clamp(26px, 11.2vw, 72px); letter-spacing: -0.02em; }
 
   .home-floating-quote {
@@ -900,7 +900,7 @@ html[data-motion="lively"] .home h2 {
     order: 2;
   }
 
-  .pixel-starfish-field { order: 3; }
+  .pixel-smile-cookie-field { order: 3; }
 
   .home-portrait {
     width: min(260px, 68vw);
