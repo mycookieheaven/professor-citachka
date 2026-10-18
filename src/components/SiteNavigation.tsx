@@ -19,11 +19,11 @@ import {programs} from '@/lib/programs';
 const GAME_ROUTES = new Set(["/game", "/es/game", "/ru/game"]);
 
 const HOME_LABELS: Record<string,{
-  about:string;art:string;photography:string;music:string;study:string;ariaLabel:string;sideTab:string;
+  about:string;art:string;photography:string;music:string;prose:string;study:string;ariaLabel:string;sideTab:string;
 }>={
-  '/':{about:'The premise',art:'Art',photography:'Photography',music:'Music',study:'Professor Citachka',ariaLabel:'Site sections',sideTab:'sections'},
-  '/es':{about:'La premisa',art:'Arte',photography:'Fotografía',music:'Música',study:'Professor Citachka',ariaLabel:'Secciones del sitio',sideTab:'secciones'},
-  '/ru':{about:'Исходная мысль',art:'Творчество',photography:'Фотография',music:'Музыка',study:'Профессор Цитачка',ariaLabel:'Разделы сайта',sideTab:'разделы'},
+  '/':{about:'The premise',art:'Art',photography:'Photography',music:'Music',prose:'Prose',study:'Professor Citachka',ariaLabel:'Site sections',sideTab:'sections'},
+  '/es':{about:'La premisa',art:'Arte',photography:'Fotografía',music:'Música',prose:'Prosa',study:'Professor Citachka',ariaLabel:'Secciones del sitio',sideTab:'secciones'},
+  '/ru':{about:'Исходная мысль',art:'Творчество',photography:'Фотография',music:'Музыка',prose:'Проза',study:'Профессор Цитачка',ariaLabel:'Разделы сайта',sideTab:'разделы'},
 };
 
 export function SiteNavigation(){
@@ -31,7 +31,7 @@ export function SiteNavigation(){
  if(path==='/professorcitachka')return null;
  if(GAME_ROUTES.has(path))return null;
  const labels=HOME_LABELS[path];
- if(labels) return <details className="home-side-tabs"><summary aria-label={`${labels.sideTab} — ${labels.ariaLabel}`}><span className="home-side-tabs-bars" aria-hidden="true"><span /><span /><span /></span></summary><nav aria-label={labels.ariaLabel}><Link href="/art">{labels.art}</Link><Link href="/photography">{labels.photography}</Link><Link href="/music">{labels.music}</Link><Link href="/professorcitachka">{labels.study}</Link></nav></details>;
+ if(labels) return <details className="home-side-tabs"><summary aria-label={`${labels.sideTab}: ${labels.ariaLabel}`}><span className="home-side-tabs-bars" aria-hidden="true"><span /><span /><span /></span></summary><nav aria-label={labels.ariaLabel}><Link href="/art">{labels.art}</Link><Link href="/photography">{labels.photography}</Link><Link href="/music">{labels.music}</Link><Link href="/prose">{labels.prose}</Link><Link href="/professorcitachka">{labels.study}</Link></nav></details>;
   return <header className="global-study-header">
   <Link href="/professorcitachka" className="global-brand" aria-label="Professor Citachka home"><BrandMark/><strong>Professor Citachka</strong></Link>
   <details className="all-departments"><summary>All departments</summary><nav aria-label="All subject navigation"><Link href="/professorcitachka">Professor’s Study</Link>{programs.map(p=><Link key={p.id} aria-current={path.includes('/'+p.id)?'page':undefined} href={`/subjects/${p.id}`}>{p.title}</Link>)}</nav></details>
