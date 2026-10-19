@@ -77,6 +77,7 @@ export function CookieIoGame({
   const worldRef = useRef<World | null>(null);
   const keysRef = useRef<Set<string>>(new Set());
   const pointerRef = useRef<Vec | null>(null);
+  const boostUntilRef = useRef(0);
   const frameRef = useRef(0);
   const lastRef = useRef(0);
   const seedRef = useRef(1);
@@ -181,7 +182,7 @@ export function CookieIoGame({
       if (stateRef.current === "playing" && world.status === "playing") {
         stepWorld(world, delta, {
           turnToward: steeringFor(keysRef.current, pointerRef.current, { width: canvas.clientWidth, height: canvas.clientHeight }),
-          boost: keysRef.current.has("Space"),
+          boost: keysRef.current.has("Space") || now < boostUntilRef.current,
         });
       }
       const size = measure();
@@ -241,6 +242,14 @@ export function CookieIoGame({
   const onPointerUp = (event: React.PointerEvent<HTMLCanvasElement>) => {
     /* A lifted finger should not keep steering: it is not a mouse. */
     if (event.pointerType !== "mouse") pointerRef.current = null;
+  };
+
+  const onDoubleClick = (event: React.MouseEvent<HTMLCanvasElement>) => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const rect = canvas.getBoundingClientRect();
+    pointerRef.current = { x: event.clientX - rect.left, y: event.clientY - rect.top };
+    boostUntilRef.current = performance.now() + 1400;
   };
 
   const live =
@@ -308,6 +317,8 @@ export function CookieIoGame({
             onPointerMove={onPointer}
             onPointerDown={onPointer}
             onPointerUp={onPointerUp}
+            onDoubleClick={onDoubleClick}
+            data-double-click-boost="true"
           />
         ) : (
           <div className={styles.peek} aria-hidden="true">

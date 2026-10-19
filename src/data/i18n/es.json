@@ -60,7 +60,7 @@
     "title": "cookie.io",
     "tagline": "Come las migas. Crece. No toques otra galleta.",
     "hint": "Un juego pequeño sobre seguir viva y hacerse más grande. Tú eres la galleta con el anillo rosa.",
-    "keys": "Flechas o W A S D para girar. Espacio para correr. P para pausar.",
+    "keys": "Flechas o W A S D para girar. Mantén Espacio para acelerar. Haz doble clic para un impulso turbo. P para pausar.",
     "play": "Jugar",
     "pause": "Pausa",
     "resume": "Continuar",

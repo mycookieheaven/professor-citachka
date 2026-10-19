@@ -45,6 +45,7 @@ function stepMany(world: World, seconds: number, dt = FRAME): void {
 describe("the opening board", () => {
   it("starts paused, with a full field of crumbs and every bot on the sheet", () => {
     const world = createWorld(11);
+    expect(ARENA).toBeGreaterThanOrEqual(5400);
     expect(world.status).toBe("ready");
     expect(world.crumbs).toHaveLength(TARGET_CRUMBS);
     expect(world.bots).toHaveLength(BOT_COUNT);
@@ -208,9 +209,18 @@ describe("contact", () => {
 
     const hit = bareWorld(47);
     startWorld(hit);
-    hit.bots = [{ id: 707, nameIndex: 5, x: hit.player.x + reach * 0.8, y: hit.player.y, radius: 13, heading: 0, targetX: 0, targetY: 0, retarget: 0 }];
+    hit.bots = [{ id: 707, nameIndex: 5, x: hit.player.x + reach * 0.6, y: hit.player.y, radius: 13, heading: 0, targetX: 0, targetY: 0, retarget: 0 }];
     stepWorld(hit, 0.0001, { turnToward: null, boost: false });
     expect(hit.status).toBe("over");
+  });
+
+  it("lets the player escape a close pass before an opponent can eat it", () => {
+    const world = bareWorld(48);
+    startWorld(world);
+    const reach = world.player.radius + 13;
+    world.bots = [{ id: 708, nameIndex: 5, x: world.player.x + reach * 0.75, y: world.player.y, radius: 13, heading: 0, targetX: 0, targetY: 0, retarget: 0 }];
+    stepWorld(world, 0.0001, { turnToward: null, boost: false });
+    expect(world.status).toBe("playing");
   });
 
   it("stops the clock at the moment of death", () => {
@@ -277,12 +287,12 @@ describe("hurrying", () => {
     expect(boosted.player.radius).toBeLessThan(plain.player.radius);
   });
 
-  it("does nothing for a cookie that has not grown past its start size", () => {
+  it("lets a newly spawned cookie use a turbo burst", () => {
     const world = bareWorld(62);
     startWorld(world);
     expect(world.player.radius).toBe(PLAYER_START_RADIUS);
     stepWorld(world, FRAME, { turnToward: null, boost: true });
-    expect(world.boosting).toBe(false);
+    expect(world.boosting).toBe(true);
     expect(world.player.radius).toBeGreaterThanOrEqual(PLAYER_START_RADIUS);
   });
 });

@@ -23,7 +23,7 @@ const TAU = Math.PI * 2;
 
 /* ---------- tuning ---------- */
 
-export const ARENA = 1800;
+export const ARENA = 6000;
 export const PLAYER_START_RADIUS = 15;
 export const MAX_RADIUS = 110;
 export const BASE_SPEED = 128;
@@ -45,7 +45,7 @@ export const EAT_RATIO = 1.25;
  * cannot see coming reads as a cheat, and the outlines on screen are the only
  * evidence they have. Set to 1 for literal contact.
  */
-export const CONTACT_GRACE = 0.88;
+export const CONTACT_GRACE = 0.68;
 export const SCORE_CRUMB = 1;
 export const SCORE_CHIP = 4;
 export const SCORE_ABSORB = 20;
@@ -53,13 +53,15 @@ export const TARGET_CRUMBS = 420;
 export const CHIP_CHANCE = 0.18;
 export const SPAWN_MIN_DISTANCE = 130;
 export const SPAWN_MAX_DISTANCE = 520;
-export const BOT_COUNT = 6;
+export const BOT_COUNT = 5;
 export const BOT_GROWTH_PER_SECOND = 0.12;
 export const BOT_BASE_SPEED = 112;
 export const BOT_MIN_SPEED = 70;
 export const BOT_TURN_RATE = 2.6;
-export const BOT_SPAWN_MIN_DISTANCE = 560;
-export const BOT_SPAWN_MAX_DISTANCE = 900;
+export const BOT_SPAWN_MIN_DISTANCE = 1100;
+export const BOT_SPAWN_MAX_DISTANCE = 2000;
+export const BOT_HUNT_DISTANCE = 300;
+export const BOT_HUNT_RATIO = 1.6;
 export const MAX_PARTICLES = 180;
 export const NAME_COUNT = 9;
 
@@ -383,16 +385,15 @@ function nearestCrumb(world: World, cookie: Cookie, within: number): Crumb | nul
   return best;
 }
 
-/** Bots flee what can eat them, hunt what they can eat, and otherwise graze. */
+/** Bots only hunt at close range with a decisive size advantage; otherwise they graze. */
 function thinkBot(world: World, bot: Cookie, dt: number): void {
   const player = world.player;
   const gap = distance(bot, player);
   let desired: Vec | null = null;
 
-  if (world.status === "playing" && gap < 470) {
+  if (world.status === "playing" && gap < 360) {
     if (player.radius >= bot.radius * EAT_RATIO) desired = { x: bot.x - player.x, y: bot.y - player.y };
-    else if (bot.radius >= player.radius * EAT_RATIO) desired = { x: player.x - bot.x, y: player.y - bot.y };
-  } else if (world.status === "playing" && bot.radius >= player.radius * EAT_RATIO && gap < 760) {
+  } else if (world.status === "playing" && bot.radius >= player.radius * BOT_HUNT_RATIO && gap < BOT_HUNT_DISTANCE) {
     desired = { x: player.x - bot.x, y: player.y - bot.y };
   }
 
@@ -520,7 +521,7 @@ export function stepWorld(world: World, dt: number, input: Input): void {
   world.time += step;
 
   const player = world.player;
-  world.boosting = input.boost && player.radius > PLAYER_START_RADIUS + 1;
+  world.boosting = input.boost;
   if (world.boosting) player.radius = Math.max(PLAYER_START_RADIUS, player.radius - BOOST_DRAIN * step);
   player.radius = Math.min(MAX_RADIUS, player.radius + GROWTH_PER_SECOND * step);
   if (input.turnToward && (input.turnToward.x !== 0 || input.turnToward.y !== 0)) {
