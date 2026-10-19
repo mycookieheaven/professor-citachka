@@ -90,6 +90,16 @@ describe("the hero card", () => {
   });
 });
 
+describe("the personal collection pages", () => {
+  it("puts their descriptions in the same pale, pink-edged card as the homepage", () => {
+    const panel = rule(css, ".collection-page .home-section");
+    expect(panel).toMatch(/background:\s*#fffce4/);
+    expect(panel).toMatch(/border:\s*3px solid rgba\(183, 24, 100/);
+    expect(panel).toMatch(/border-radius:\s*28px/);
+    expect(panel).toMatch(/box-shadow:/);
+  });
+});
+
 describe("the game window's place on the page", () => {
   it("is a three-column band on a wide screen: margin, words, margin", () => {
     expect(wideBlock).toMatch(/\.home-hero-band\s*\{[^}]*grid-template-columns:\s*minmax\(0,\s*1fr\)\s*minmax\(0,\s*\d+px\)\s*minmax\(0,\s*1fr\)/);
