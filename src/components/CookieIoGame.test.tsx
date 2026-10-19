@@ -47,6 +47,7 @@ describe("cookie.io, once it is played", () => {
     const canvas = container.querySelector("canvas");
     expect(canvas).not.toBeNull();
     expect(canvas).toHaveAttribute("tabindex", "0");
+    expect(canvas).toHaveAttribute("data-double-click-boost", "true");
     expect(canvas).toHaveAttribute("aria-label", expect.stringContaining(labels.tagline));
     expect(screen.queryByRole("button", { name: labels.play })).toBeNull();
     expect(screen.getByRole("button", { name: labels.pause })).toBeInTheDocument();

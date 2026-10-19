@@ -60,7 +60,7 @@
     "title": "cookie.io",
     "tagline": "Eat the crumbs. Grow. Do not touch another cookie.",
     "hint": "A small game about staying alive and getting bigger. You are the cookie with the pink ring.",
-    "keys": "Arrow keys or W A S D to steer. Space to hurry. P to pause.",
+    "keys": "Arrow keys or W A S D to steer. Hold Space to hurry. Double click for a turbo burst. P to pause.",
     "play": "Play",
     "pause": "Pause",
     "resume": "Resume",
