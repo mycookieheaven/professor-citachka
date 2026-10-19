@@ -560,6 +560,34 @@
 
 .home-section:last-of-type { border-bottom: 0; }
 
+/* The collection pages use the homepage card too: their words sit on quiet cream,
+   not directly on the cookie wallpaper. This keeps each description easy to read. */
+.collection-page .home-section {
+  max-width: 980px;
+  margin: clamp(28px, 6vw, 76px) auto;
+  padding: clamp(26px, 4vw, 48px);
+  border: 3px solid rgba(183, 24, 100, 0.5);
+  border-bottom-width: 6px;
+  border-radius: 28px;
+  background: #fffce4;
+  box-shadow:
+    0 18px 40px rgba(183, 24, 100, 0.18),
+    inset 0 0 0 2px rgba(255, 255, 255, 0.7);
+}
+.collection-page .home-section h1 {
+  width: auto;
+  margin: 0 0 18px;
+  font-size: clamp(42px, 7vw, 78px);
+  text-align: left;
+  white-space: normal;
+}
+.collection-page .home-section p,
+.collection-page .home-section .home-note { color: #c31563; font-weight: 800; text-shadow: 0 1px rgba(255, 255, 255, 0.85); }
+.collection-page .home-section .home-empty { color: #8d174d; background: #fff8bd; }
+.collection-page .home-section .secondary-action { color: #c31563; border-color: #c31563; background: #fff8bd; }
+.collection-page .home-section .secondary-action:hover,
+.collection-page .home-section .secondary-action:focus-visible { color: #fff8bd; background: #c31563; }
+
 .home h2 {
   margin: 0 0 20px;
   font-family: var(--font-display), Georgia, serif;
