@@ -4,12 +4,15 @@ import { usePathname } from "next/navigation";
 import { QuoteBanner } from "./Brand";
 import { StudyAtmosphere } from "./StudyAtmosphere";
 
-const PERSONAL_HOME_ROUTES = new Set(["/", "/es", "/ru", "/game", "/es/game", "/ru/game"]);
+const PERSONAL_SITE_ROUTES = new Set([
+  "/", "/es", "/ru", "/art", "/photography", "/music", "/prose",
+  "/game", "/es/game", "/ru/game", "/professorcitachka",
+]);
 
-/** Keeps study-only controls out of the personal cookieheaven home routes. */
+/** Keeps study-only controls out of every personal cookieheaven page and dashboard. */
 export function SiteChrome() {
   const pathname = usePathname();
-  if (PERSONAL_HOME_ROUTES.has(pathname)) return null;
+  if (PERSONAL_SITE_ROUTES.has(pathname)) return null;
 
   return (
     <>
