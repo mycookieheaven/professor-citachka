@@ -102,8 +102,8 @@
   "allDepartments": [
     {
       "id": "russian",
-      "levels": 10,
-      "topics": 110
+      "levels": 12,
+      "topics": 150
     },
     {
       "id": "business-funding",

@@ -9,7 +9,7 @@ vi.mock('next/navigation',()=>({useRouter:()=>({push:vi.fn()}),notFound:()=>{thr
 it('registers the reviewed continuation level for every course, keeping Russian first and Funding second',()=>{
  expect(programs.slice(0,2).map(p=>p.id)).toEqual(['russian','business-funding']);
  const core=(id:string)=>courseUnits(getProgram(id)!).filter(u=>!getProgram(id)!.levels[u.levelIndex].supplemental).length;
- expect(core('russian')).toBe(20);expect(core('business-funding')).toBe(24);expect(core('philosophy')).toBe(22);
+ expect(core('russian')).toBe(24);expect(core('business-funding')).toBe(24);expect(core('philosophy')).toBe(22);
  for(const id of ['neuroscience','veterinary-science','theology','music','psychiatry'])expect(core(id)).toBe(18);
  expect(core('skincare')).toBe(16);expect(core('finance')).toBe(16);expect(core('literature')).toBe(16);
   expect(allTopics(getProgram('russian')!).map(t=>t.id)).toContain('90');

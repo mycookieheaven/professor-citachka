@@ -17,7 +17,7 @@ it.each(programs)('$title: ungated reading, every unit and level boundary, durab
  const coreAhead=level.supplemental&&!!before&&!level.topics.some(t=>t.id===before)&&!before.startsWith('assessment:unit-3')&&before!=='assessment:level-3';
  const expectedPosition=coreAhead?before:destination.position;
  const view=render(program.id==='business-funding'&&fundingTopics.some(t=>t.id===topic.id)?<FundingLesson topicId={topic.id}/>:<LearningLesson program={program} topicId={topic.id}/>);
- if(level.supplemental)fireEvent.click(screen.getByRole('button',{name:'Enter strong-language lesson'}));
+ if(level.mature)fireEvent.click(screen.getByRole('button',{name:'Enter strong-language lesson'}));
  const arrow=screen.getByRole('button',{name:destination.title});expect(arrow).toBeEnabled();
  // A wrong optional answer does not block the reading action.
  fireEvent.click(screen.getByLabelText(topic.distractor));expect(arrow).toBeEnabled();
@@ -27,7 +27,7 @@ it.each(programs)('$title: ungated reading, every unit and level boundary, durab
  if(destination.position?.startsWith('assessment:')){
   let a=courseAssessments(program).find(a=>a.id===destination.position!.slice(11))!;
   for(;;){const assessmentView=render(<AssessmentLesson program={program} assessmentId={a.id}/>);const next=assessmentDestination(program,a);
-   if(level.supplemental)fireEvent.click(screen.getByRole('button',{name:'Enter strong-language assessment'}));
+   if(level.mature)fireEvent.click(screen.getByRole('button',{name:'Enter strong-language assessment'}));
    expect(screen.getAllByRole('group')).toHaveLength(a.questions.length);
    fireEvent.click(screen.getByRole('button',{name:`→ ${next.title}`}));expect(push).toHaveBeenLastCalledWith(next.url);assessmentView.unmount();
    if(!next.position?.startsWith('assessment:'))break;a=courseAssessments(program).find(a=>a.id===next.position!.slice(11))!;

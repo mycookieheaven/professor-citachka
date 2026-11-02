@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-01T23:35:26.257Z",
+  "generatedAt": "2026-11-02T04:25:53.877Z",
   "scope": "Published inventory of the base catalog plus every reviewed continuation level attached in src/lib/course-pack-registry.ts. The current target is 100 core units per course; remaining units are unpublished.",
   "totals": {
     "departments": 11,
     "requestedCoreUnits": 1100,
-    "publishedCoreUnits": 204,
-    "remainingRequestedCoreUnits": 896,
+    "publishedCoreUnits": 208,
+    "remainingRequestedCoreUnits": 892,
     "historicalRequestedLevels": 600,
-    "publishedMainLevels": 102,
-    "freshApplicationAssessments": 219,
-    "lessonsWithCitedReadings": 730,
-    "textStudySequences": 730,
-    "supplementalSequences": 1,
-    "publishedModernLessons": 1030,
-    "modernUnits": 206,
-    "unitQuizzes": 206,
-    "cumulativeLevelTests": 103,
+    "publishedMainLevels": 104,
+    "freshApplicationAssessments": 231,
+    "lessonsWithCitedReadings": 770,
+    "textStudySequences": 770,
+    "supplementalSequences": 3,
+    "publishedModernLessons": 1070,
+    "modernUnits": 214,
+    "unitQuizzes": 214,
+    "cumulativeLevelTests": 107,
     "extendedLegacyLessons": 66,
     "literatureOpeningGuides": 4,
-    "deeplyExpandedThisRevision": 750,
+    "deeplyExpandedThisRevision": 790,
     "modernLessonsNotDeeplyExpandedThisRevision": 280,
-    "newlyAuthoredDepthWords": 716703
+    "newlyAuthoredDepthWords": 757968
   },
   "subjects": [
     {
       "id": "russian",
       "title": "Russian",
       "requestedUnits": 100,
-      "publishedCoreUnits": 20,
-      "remainingRequestedUnits": 80,
+      "publishedCoreUnits": 24,
+      "remainingRequestedUnits": 76,
       "historicalRequestedLevels": 100,
-      "publishedMainLevels": 10,
-      "supplementalSequences": 1,
-      "lessonCount": 110,
+      "publishedMainLevels": 12,
+      "supplementalSequences": 3,
+      "lessonCount": 150,
       "units": [
         {
           "id": "unit-1-1",
@@ -296,6 +296,102 @@
             "108",
             "109",
             "110"
+          ]
+        },
+        {
+          "id": "unit-12-1",
+          "title": "The complex sentence you build yourself: который from inside the clause, что and чтобы, conditions real and unreal, concession, and the clause in place of a participle",
+          "level": 12,
+          "lessonIds": [
+            "111",
+            "112",
+            "113",
+            "114",
+            "115"
+          ]
+        },
+        {
+          "id": "unit-12-2",
+          "title": "Numbers, time and measure spoken aloud: case government after numerals, nouns without singulars, dates and months, clock time and duration, prices, fractions and figures read as a news bulletin",
+          "level": 12,
+          "lessonIds": [
+            "116",
+            "117",
+            "118",
+            "119",
+            "120"
+          ]
+        },
+        {
+          "id": "unit-13-1",
+          "title": "Official and working Russian: the заявление, the complaint, the email, the telephone and the register ladder",
+          "level": 13,
+          "lessonIds": [
+            "121",
+            "122",
+            "123",
+            "124",
+            "125"
+          ]
+        },
+        {
+          "id": "unit-13-2",
+          "title": "Collocation, idiom and false friends: the verb a noun insists on, the preposition that fixes the case, work, money, weather and health, and the words that betray you",
+          "level": 13,
+          "lessonIds": [
+            "126",
+            "127",
+            "128",
+            "129",
+            "130"
+          ]
+        },
+        {
+          "id": "unit-14-1",
+          "title": "The root families: how mat is built from a few roots, and how to read a form you have never seen",
+          "level": 14,
+          "lessonIds": [
+            "131",
+            "132",
+            "133",
+            "134",
+            "135"
+          ]
+        },
+        {
+          "id": "unit-14-2",
+          "title": "Intensity, target and social risk: what a mat word does, who hears it, and what to say when it is aimed at you",
+          "level": 14,
+          "lessonIds": [
+            "136",
+            "137",
+            "138",
+            "139",
+            "140"
+          ]
+        },
+        {
+          "id": "unit-15-1",
+          "title": "The machinery of a real exchange: fillers, listener reactions, softened agreement, small talk and arrangements",
+          "level": 15,
+          "lessonIds": [
+            "141",
+            "142",
+            "143",
+            "144",
+            "145"
+          ]
+        },
+        {
+          "id": "unit-15-2",
+          "title": "Taken live: the phone and the messenger, the spoken story, humour, the ты and вы switch and a capstone exchange",
+          "level": 15,
+          "lessonIds": [
+            "146",
+            "147",
+            "148",
+            "149",
+            "150"
           ]
         }
       ],
@@ -561,6 +657,102 @@
           "kind": "level",
           "questions": 12,
           "route": "/assess/russian/level-11",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-12-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-12-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-12-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-12-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-12",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/russian/level-12",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-13-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-13-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-13-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-13-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-13",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/russian/level-13",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-14-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-14-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-14-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-14-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-14",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/russian/level-14",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-15-1",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-15-1",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "unit-15-2",
+          "kind": "unit",
+          "questions": 5,
+          "route": "/assess/russian/unit-15-2",
+          "freshApplicationBank": true,
+          "bank": "Separately authored application questions linked to review lessons."
+        },
+        {
+          "id": "level-15",
+          "kind": "level",
+          "questions": 12,
+          "route": "/assess/russian/level-15",
           "freshApplicationBank": true,
           "bank": "Separately authored application questions linked to review lessons."
         }
@@ -1285,6 +1477,326 @@
           "addedWords": 1064,
           "readings": 4,
           "textStudySequence": true
+        },
+        {
+          "id": "111",
+          "title": "который: the case comes from inside the clause, and the preposition comes with it",
+          "route": "/learn/russian/111",
+          "addedWords": 1134,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "112",
+          "title": "что and чтобы: a fact, a purpose, and a wish are three different clauses",
+          "route": "/learn/russian/112",
+          "addedWords": 1062,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "113",
+          "title": "Conditions: если for what may happen, если бы for what did not",
+          "route": "/learn/russian/113",
+          "addedWords": 984,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "114",
+          "title": "Concession: хотя, несмотря на то что, and the obstacle that did not work",
+          "route": "/learn/russian/114",
+          "addedWords": 916,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "115",
+          "title": "Where the clause stands, and how to unpack a participle into one",
+          "route": "/learn/russian/115",
+          "addedWords": 1051,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "116",
+          "title": "Counting: один agrees, два to четыре take the genitive singular, five and up take the genitive plural",
+          "route": "/learn/russian/116",
+          "addedWords": 916,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "117",
+          "title": "Counting what has no singular: сутки, дети, and the collective numerals",
+          "route": "/learn/russian/117",
+          "addedWords": 939,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "118",
+          "title": "Dates and months: naming a day, locating an event, and the year in the prepositional",
+          "route": "/learn/russian/118",
+          "addedWords": 939,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "119",
+          "title": "Clock time and duration: который час, в котором часу, через and назад",
+          "route": "/learn/russian/119",
+          "addedWords": 988,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "120",
+          "title": "Prices, figures and fractions: reading a news bulletin aloud",
+          "route": "/learn/russian/120",
+          "addedWords": 965,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "121",
+          "title": "The заявление: the fixed layout of a Russian application, and why every slot is a case ending",
+          "route": "/learn/russian/121",
+          "addedWords": 1108,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "122",
+          "title": "A complaint and a request: three letters that look alike, and the four sentences that keep them apart",
+          "route": "/learn/russian/122",
+          "addedWords": 1096,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "123",
+          "title": "Email in Russian: the opening and the closing are chosen by the relationship, not by the medium",
+          "route": "/learn/russian/123",
+          "addedWords": 1055,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "124",
+          "title": "On the telephone: identification, request and repair, in the formulas Russian actually uses",
+          "route": "/learn/russian/124",
+          "addedWords": 1054,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "125",
+          "title": "Asking without imposing, and unpacking the noun: the polite request and the register ladder",
+          "route": "/learn/russian/125",
+          "addedWords": 1045,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "126",
+          "title": "Collocations: the verb a noun insists on, and the four families that make them learnable",
+          "route": "/learn/russian/126",
+          "addedWords": 1132,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "127",
+          "title": "The preposition decides the case: the fixed phrases of official Russian and the four that break the pattern",
+          "route": "/learn/russian/127",
+          "addedWords": 1140,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "128",
+          "title": "Idioms of work and money: what each one promises, and the contexts that forbid it",
+          "route": "/learn/russian/128",
+          "addedWords": 1053,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "129",
+          "title": "Weather, health and the proverb: folk expressions and the moment they turn rude",
+          "route": "/learn/russian/129",
+          "addedWords": 973,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "130",
+          "title": "False friends: the words an English or Spanish speaker will actually get wrong",
+          "route": "/learn/russian/130",
+          "addedWords": 988,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "131",
+          "title": "Four roots, one machine: how Russian mat is built, and how to read a form you have never seen",
+          "route": "/learn/russian/131",
+          "addedWords": 1091,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "132",
+          "title": "The хуй (KHUY, 'prick') family: the noun, the derived nouns, the adjective and the fixed idioms",
+          "route": "/learn/russian/132",
+          "addedWords": 1017,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "133",
+          "title": "The пизда (peez-DA) family: a positive slang branch, a verb of stealing, and the line to пиздец",
+          "route": "/learn/russian/133",
+          "addedWords": 977,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "134",
+          "title": "The ебать (ye-BAT', 'to fuck') family: the verb paradigm, the prefixes, ёбнутый and ёб твою мать",
+          "route": "/learn/russian/134",
+          "addedWords": 1091,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "135",
+          "title": "блядь and блять (BLYAT'): one spelling for a noun and an interjection, and the softening chain",
+          "route": "/learn/russian/135",
+          "addedWords": 1077,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "136",
+          "title": "One root, two jobs: mat as an intensifier and mat as an insult, and the affixes that shift the force",
+          "route": "/learn/russian/136",
+          "addedWords": 1125,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "137",
+          "title": "Audience is the variable: friends, strangers, the workplace, the family and the law",
+          "route": "/learn/russian/137",
+          "addedWords": 992,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "138",
+          "title": "The euphemism ladder: блин, ёлки-палки, пипец, фиг, хрен and what each one replaces",
+          "route": "/learn/russian/138",
+          "addedWords": 931,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "139",
+          "title": "When someone swears at you: не надо так, давай спокойно, я не понял, ты чего, and the limit that is not submission",
+          "route": "/learn/russian/139",
+          "addedWords": 941,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "140",
+          "title": "Capstone: reading an exchange for target, force and register, and producing the safe reply",
+          "route": "/learn/russian/140",
+          "addedWords": 1069,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "141",
+          "title": "Fillers that buy time: ну, вот, значит, короче, типа and как бы, and the register each one signals",
+          "route": "/learn/russian/141",
+          "addedWords": 1151,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "142",
+          "title": "The listener's toolbar: да ладно, серьёзно, вот это да, ничего себе, класс, ужас and ой",
+          "route": "/learn/russian/142",
+          "addedWords": 998,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "143",
+          "title": "Softening a yes and a no: согласен and согласна, ну не знаю, может быть, вряд ли, наоборот and дело в том, что",
+          "route": "/learn/russian/143",
+          "addedWords": 1074,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "144",
+          "title": "Opening and closing small talk: как дела, что нового, как прошло, ладно, до связи and созвонимся",
+          "route": "/learn/russian/144",
+          "addedWords": 1035,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "145",
+          "title": "Invitations and arrangements: давай, пойдём, в субботу сможешь, я за, я пас and какие планы",
+          "route": "/learn/russian/145",
+          "addedWords": 1019,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "146",
+          "title": "On the phone and in the messenger: алло, я не слышу, набери мне, скинь, голосовое and the short forms спс, пож, чё",
+          "route": "/learn/russian/146",
+          "addedWords": 973,
+          "readings": 5,
+          "textStudySequence": true
+        },
+        {
+          "id": "147",
+          "title": "Holding a listener through a story: представляешь, короче, в общем, в итоге and the tense switching of spoken narrative",
+          "route": "/learn/russian/147",
+          "addedWords": 1052,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "148",
+          "title": "Humour and irony markers: шутка, да шучу я, ну ты чего, and the ones that do not cross into English",
+          "route": "/learn/russian/148",
+          "addedWords": 1066,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "149",
+          "title": "Switching ты and вы inside a conversation: the pronouns, who may propose the change, and when the shift is an insult",
+          "route": "/learn/russian/149",
+          "addedWords": 1027,
+          "readings": 4,
+          "textStudySequence": true
+        },
+        {
+          "id": "150",
+          "title": "Capstone: a fast exchange, move by move, and the reply you owe each move",
+          "route": "/learn/russian/150",
+          "addedWords": 1021,
+          "readings": 4,
+          "textStudySequence": true
         }
       ],
       "notDeeplyExpandedThisRevision": [
@@ -1419,7 +1931,47 @@
         "/learn/russian/107",
         "/learn/russian/108",
         "/learn/russian/109",
-        "/learn/russian/110"
+        "/learn/russian/110",
+        "/learn/russian/111",
+        "/learn/russian/112",
+        "/learn/russian/113",
+        "/learn/russian/114",
+        "/learn/russian/115",
+        "/learn/russian/116",
+        "/learn/russian/117",
+        "/learn/russian/118",
+        "/learn/russian/119",
+        "/learn/russian/120",
+        "/learn/russian/121",
+        "/learn/russian/122",
+        "/learn/russian/123",
+        "/learn/russian/124",
+        "/learn/russian/125",
+        "/learn/russian/126",
+        "/learn/russian/127",
+        "/learn/russian/128",
+        "/learn/russian/129",
+        "/learn/russian/130",
+        "/learn/russian/131",
+        "/learn/russian/132",
+        "/learn/russian/133",
+        "/learn/russian/134",
+        "/learn/russian/135",
+        "/learn/russian/136",
+        "/learn/russian/137",
+        "/learn/russian/138",
+        "/learn/russian/139",
+        "/learn/russian/140",
+        "/learn/russian/141",
+        "/learn/russian/142",
+        "/learn/russian/143",
+        "/learn/russian/144",
+        "/learn/russian/145",
+        "/learn/russian/146",
+        "/learn/russian/147",
+        "/learn/russian/148",
+        "/learn/russian/149",
+        "/learn/russian/150"
       ],
       "extendedRoutes": [
         "/subjects/russian/alphabet-foundations",
@@ -12610,7 +13162,7 @@
   ],
   "media": {
     "scope": "All published modern lessons, extended lessons and book guides; excludes decorative brand/art. Legacy repeated scene art is retained but not counted as newly authored topic-specific instruction.",
-    "totalLearningEntries": 1100,
+    "totalLearningEntries": 1140,
     "originalTopicIllustrationsAdded": 4,
     "controllableAnimatedDiagramsAdded": 4,
     "lessonsWithMetadataVerifiedVideo": 8,
@@ -12725,6 +13277,46 @@
       "/learn/russian/108",
       "/learn/russian/109",
       "/learn/russian/110",
+      "/learn/russian/111",
+      "/learn/russian/112",
+      "/learn/russian/113",
+      "/learn/russian/114",
+      "/learn/russian/115",
+      "/learn/russian/116",
+      "/learn/russian/117",
+      "/learn/russian/118",
+      "/learn/russian/119",
+      "/learn/russian/120",
+      "/learn/russian/121",
+      "/learn/russian/122",
+      "/learn/russian/123",
+      "/learn/russian/124",
+      "/learn/russian/125",
+      "/learn/russian/126",
+      "/learn/russian/127",
+      "/learn/russian/128",
+      "/learn/russian/129",
+      "/learn/russian/130",
+      "/learn/russian/131",
+      "/learn/russian/132",
+      "/learn/russian/133",
+      "/learn/russian/134",
+      "/learn/russian/135",
+      "/learn/russian/136",
+      "/learn/russian/137",
+      "/learn/russian/138",
+      "/learn/russian/139",
+      "/learn/russian/140",
+      "/learn/russian/141",
+      "/learn/russian/142",
+      "/learn/russian/143",
+      "/learn/russian/144",
+      "/learn/russian/145",
+      "/learn/russian/146",
+      "/learn/russian/147",
+      "/learn/russian/148",
+      "/learn/russian/149",
+      "/learn/russian/150",
       "/learn/business-funding/01",
       "/learn/business-funding/02",
       "/learn/business-funding/03",
@@ -13825,6 +14417,46 @@
       "/learn/russian/108",
       "/learn/russian/109",
       "/learn/russian/110",
+      "/learn/russian/111",
+      "/learn/russian/112",
+      "/learn/russian/113",
+      "/learn/russian/114",
+      "/learn/russian/115",
+      "/learn/russian/116",
+      "/learn/russian/117",
+      "/learn/russian/118",
+      "/learn/russian/119",
+      "/learn/russian/120",
+      "/learn/russian/121",
+      "/learn/russian/122",
+      "/learn/russian/123",
+      "/learn/russian/124",
+      "/learn/russian/125",
+      "/learn/russian/126",
+      "/learn/russian/127",
+      "/learn/russian/128",
+      "/learn/russian/129",
+      "/learn/russian/130",
+      "/learn/russian/131",
+      "/learn/russian/132",
+      "/learn/russian/133",
+      "/learn/russian/134",
+      "/learn/russian/135",
+      "/learn/russian/136",
+      "/learn/russian/137",
+      "/learn/russian/138",
+      "/learn/russian/139",
+      "/learn/russian/140",
+      "/learn/russian/141",
+      "/learn/russian/142",
+      "/learn/russian/143",
+      "/learn/russian/144",
+      "/learn/russian/145",
+      "/learn/russian/146",
+      "/learn/russian/147",
+      "/learn/russian/148",
+      "/learn/russian/149",
+      "/learn/russian/150",
       "/learn/business-funding/01",
       "/learn/business-funding/02",
       "/learn/business-funding/03",
@@ -15903,6 +16535,406 @@
       {
         "key": "russian/110",
         "route": "/learn/russian/110",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/111",
+        "route": "/learn/russian/111",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/112",
+        "route": "/learn/russian/112",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/113",
+        "route": "/learn/russian/113",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/114",
+        "route": "/learn/russian/114",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/115",
+        "route": "/learn/russian/115",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/116",
+        "route": "/learn/russian/116",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/117",
+        "route": "/learn/russian/117",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/118",
+        "route": "/learn/russian/118",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/119",
+        "route": "/learn/russian/119",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/120",
+        "route": "/learn/russian/120",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/121",
+        "route": "/learn/russian/121",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/122",
+        "route": "/learn/russian/122",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/123",
+        "route": "/learn/russian/123",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/124",
+        "route": "/learn/russian/124",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/125",
+        "route": "/learn/russian/125",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/126",
+        "route": "/learn/russian/126",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/127",
+        "route": "/learn/russian/127",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/128",
+        "route": "/learn/russian/128",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/129",
+        "route": "/learn/russian/129",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/130",
+        "route": "/learn/russian/130",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/131",
+        "route": "/learn/russian/131",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/132",
+        "route": "/learn/russian/132",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/133",
+        "route": "/learn/russian/133",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/134",
+        "route": "/learn/russian/134",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/135",
+        "route": "/learn/russian/135",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/136",
+        "route": "/learn/russian/136",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/137",
+        "route": "/learn/russian/137",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/138",
+        "route": "/learn/russian/138",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/139",
+        "route": "/learn/russian/139",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/140",
+        "route": "/learn/russian/140",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/141",
+        "route": "/learn/russian/141",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/142",
+        "route": "/learn/russian/142",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/143",
+        "route": "/learn/russian/143",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/144",
+        "route": "/learn/russian/144",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/145",
+        "route": "/learn/russian/145",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/146",
+        "route": "/learn/russian/146",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/147",
+        "route": "/learn/russian/147",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/148",
+        "route": "/learn/russian/148",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/149",
+        "route": "/learn/russian/149",
+        "newTopicIllustration": false,
+        "newControllableAnimation": false,
+        "videoId": null,
+        "videoMetadataAndProviderEmbedVerified": false,
+        "captionsVerified": false,
+        "playbackVerified": false
+      },
+      {
+        "key": "russian/150",
+        "route": "/learn/russian/150",
         "newTopicIllustration": false,
         "newControllableAnimation": false,
         "videoId": null,
