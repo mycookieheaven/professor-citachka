@@ -1,7 +1,7 @@
 import type {Program,Topic} from './programs';
 import type {LessonDepth} from './lesson-depth';
 export type PackQuestion={id:string;prompt:string;answer:string;distractor:string;correction:string;reviewLessonIds:string[]};
-export type CoursePack={subject:string;levels:{title:string;units:{title:string;lessons:(Topic&{depth:LessonDepth;readings:{title:string;url:string;note:string}[];visual:{title:string;description:string;steps:string[]}})[];questions:PackQuestion[]}[];questions:PackQuestion[]}[]};
+export type CoursePack={subject:string;levels:{title:string;supplemental?:boolean;mature?:boolean;units:{title:string;lessons:(Topic&{depth:LessonDepth;readings:{title:string;url:string;note:string}[];visual:{title:string;description:string;steps:string[]}})[];questions:PackQuestion[]}[];questions:PackQuestion[]}[]};
 function assessmentTopic(q:PackQuestion):Topic{return {id:q.id,title:'Application review',explanation:'',example:'',question:q.prompt,answer:q.answer,distractor:q.distractor,correction:q.correction,reviewLessonIds:q.reviewLessonIds};}
 export function attachCoursePacks(base:Program[],packs:CoursePack[]):Program[]{
  const known=new Map(base.map(p=>[p.id,p]));
@@ -48,6 +48,6 @@ export function attachCoursePacks(base:Program[],packs:CoursePack[]):Program[]{
  }
  return base.map(program=>{
   const own=packs.filter(pack=>pack.subject===program.id);if(!own.length)return program;
-  return {...program,levels:[...program.levels,...own.flatMap(pack=>pack.levels.map(level=>({title:level.title,topics:level.units.flatMap(unit=>unit.lessons),unitDefinitions:level.units.map(unit=>({title:unit.title,topicIds:unit.lessons.map(t=>t.id),questions:unit.questions.map(assessmentTopic)})),assessmentQuestions:level.questions.map(assessmentTopic)})))]};
+  return {...program,levels:[...program.levels,...own.flatMap(pack=>pack.levels.map(level=>({title:level.title,supplemental:level.supplemental,mature:level.mature,topics:level.units.flatMap(unit=>unit.lessons),unitDefinitions:level.units.map(unit=>({title:unit.title,topicIds:unit.lessons.map(t=>t.id),questions:unit.questions.map(assessmentTopic)})),assessmentQuestions:level.questions.map(assessmentTopic)})))]};
  });
 }

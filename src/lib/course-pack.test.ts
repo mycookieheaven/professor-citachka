@@ -32,6 +32,15 @@ describe('reviewed course pack integration',()=>{
   expect(result.levels[3].assessmentQuestions).toHaveLength(12);
   expect(result.levels[3].topics[0].depth?.mechanism).toBe('TEST mechanism 0');
  });
+ it('attaches an optional adult sequence as supplemental instead of counting it as core instruction',()=>{
+  const pack=fixture();pack.levels[0].supplemental=true;
+  const program=attachCoursePacks([getProgram('russian')!],[pack])[0];
+  expect(program.levels.at(-1)?.supplemental).toBe(true);
+  const units=courseUnits(program);
+  expect(units).toHaveLength(8);
+  // The shared Russian fixture already carries the base optional strong-language level at index 2.
+  expect(units.filter(unit=>!program.levels[unit.levelIndex].supplemental).map(unit=>unit.id)).toEqual(['unit-1-1','unit-1-2','unit-2-1','unit-2-2']);
+ });
  it.each(['duplicate-id','unknown-subject','thin-content','missing-source','invalid-url','empty-depth','invalid-review','ambiguous-answer','short-level-test','incomplete-unit','duplicate-question','missing-russian-audio'] as const)('rejects %s instead of publishing a partial or misleading course pack',failure=>{
   const pack=fixture();const level=pack.levels[0];const unit=level.units[0];const lesson=unit.lessons[0];
   if(failure==='duplicate-id')lesson.id='01';

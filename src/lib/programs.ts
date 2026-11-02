@@ -9,7 +9,7 @@ import { attachCoursePacks } from './course-pack';
 import { reviewedCoursePacks } from './course-pack-registry';
 export type LanguageItem={text:string;latin:string;meaning:string};
 export type Topic = {id:string;title:string;explanation:string;example:string;question:string;answer:string;distractor:string;correction:string;practice?:string;russian?:LanguageItem;russianItems?:LanguageItem[];depth?:import('./lesson-depth').LessonDepth;readings?:{title:string;url:string;note:string}[];visual?:{title:string;description:string;steps:string[]};reviewLessonIds?:string[]};
-export type Program = {id:string;title:string;description:string;levels:{title:string;supplemental?:boolean;topics:Topic[];unitDefinitions?:{title:string;topicIds:string[];questions:Topic[]}[];assessmentQuestions?:Topic[]}[]};
+export type Program = {id:string;title:string;description:string;levels:{title:string;supplemental?:boolean;mature?:boolean;topics:Topic[];unitDefinitions?:{title:string;topicIds:string[];questions:Topic[]}[];assessmentQuestions?:Topic[]}[]};
 const catalog: [string,string,string,string,string][] = [
  ['literature','Literature','Close reading, English-language classics and critical argument.','Reading with evidence','Interpretation and argument'],
  ['russian','Russian','Sound, practical speech and grammar, with an optional strong-language unit.','Sound and first exchanges','Connected speech'],
@@ -29,7 +29,7 @@ export const programs:Program[]=catalog.map(([id,title,description,first,second]
   ...(id==='music'?{practice:musicPractice[i]}:{}),
   ...(id==='russian'?{russian:{text:russianItems[i][0],latin:russianItems[i][1],meaning:russianItems[i][2]}}:{})
  }));
- return {id,title,description,levels:[{title:first,topics:topics.slice(0,10)},{title:second,topics:topics.slice(10,20)},...(id==='philosophy'?philosophyContinuation.map((level,levelIndex)=>({title:level.title,topics:level.rows.map(([title,explanation,example,question,answer,distractor,correction],index)=>({id:String(21+levelIndex*10+index).padStart(2,'0'),title,explanation,example,question,answer,distractor,correction}))})):[]),...(id==='russian'?[{title:'Russian swearing & strong language',supplemental:true,topics:topics.slice(20)}]:[])]};
+ return {id,title,description,levels:[{title:first,topics:topics.slice(0,10)},{title:second,topics:topics.slice(10,20)},...(id==='philosophy'?philosophyContinuation.map((level,levelIndex)=>({title:level.title,topics:level.rows.map(([title,explanation,example,question,answer,distractor,correction],index)=>({id:String(21+levelIndex*10+index).padStart(2,'0'),title,explanation,example,question,answer,distractor,correction}))})):[]),...(id==='russian'?[{title:'Russian swearing & strong language',supplemental:true,mature:true,topics:topics.slice(20)}]:[])]};
 });
 // Shared priority order drives dashboard, desktop and mobile navigation.
 const russianIndex=programs.findIndex(p=>p.id==='russian');
