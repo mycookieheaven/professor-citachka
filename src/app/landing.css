@@ -194,10 +194,10 @@
   .home-side-tabs.home-side-tabs summary { width: 44px; min-height: 44px; }
 }
 .home-side-tabs nav { position: absolute; left: 0; top: 52px; display: grid; min-width: 216px; padding: 12px; border: 2px solid #c31563; border-left: 0; border-radius: 0 0 14px 0; background: #fff0a4; box-shadow: 0 10px 34px rgba(183,24,100,.3); }
-.home-side-tabs nav a { min-height: 44px; display: flex; align-items: center; padding: 5px 12px; color: #c31563; font: 800 16px/1.2 ui-rounded, "Arial Rounded MT Bold", sans-serif; text-decoration: none; }
+.home-side-tabs nav a { min-height: 44px; display: flex; align-items: center; padding: 5px 12px; color: #c31563; font: 700 16px/1.2 var(--font-body), sans-serif; text-decoration: none; }
 .home-side-tabs nav a:hover, .home-side-tabs nav a:focus-visible { color: #fff0a4; background: #c31563; outline: none; }
 
-.home-byline { margin: -10px 0 13px; color: #c31563; font: 800 18px/1.3 ui-rounded, "Arial Rounded MT Bold", sans-serif; }
+.home-byline { margin: -10px 0 13px; color: #c31563; font: 700 19px/1.3 var(--font-display), Georgia, serif; letter-spacing: 0.01em; }
 .home-instagram { display: inline-block; margin: -5px 0 20px; color: #c31563; font: 800 16px/1.4 ui-monospace, monospace; text-decoration: none; text-shadow: 0 1px #fff1a4; }
 .home-instagram:hover, .home-instagram:focus-visible { color: #fff8cd; text-decoration: underline; outline: 3px solid var(--star-gold); outline-offset: 4px; }
 
@@ -315,8 +315,8 @@
 .home-floating-quote,
 .home-languages a {
   color: #c31563;
-  font-family: ui-rounded, "Arial Rounded MT Bold", "Nunito", sans-serif;
-  font-weight: 800;
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 700;
   text-shadow: 0 1px rgba(255, 255, 255, 0.85);
 }
 .home-hero-copy .home-lede,
@@ -336,15 +336,18 @@
   color: #8d174d;
   background: rgba(255, 248, 189, .93);
   box-shadow: 4px 5px 0 rgba(183, 24, 100, .22);
-  font: 800 clamp(14px, 1.35vw, 17px)/1.28 ui-rounded, "Arial Rounded MT Bold", sans-serif;
+  font: 700 clamp(14px, 1.35vw, 17px)/1.32 var(--font-display), Georgia, serif;
   transform: rotate(3deg);
 }
 
 .home .eyebrow {
-  color: var(--pink-bright);
-  letter-spacing: 0.14em;
+  /* Deep pink rather than the bright one: on buttery-yellow paper the light pink
+     only held up because a glow was holding it, and the glow is gone. */
+  color: #c31563;
+  font-family: var(--font-display), Georgia, serif;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  text-shadow: 0 0 16px rgba(255, 61, 154, 0.6);
+  text-shadow: none;
 }
 
 .home h1 {
@@ -355,7 +358,7 @@
   width: auto;
   max-width: none;
   margin: 0 calc(50% - 50vw) clamp(24px, 4vw, 52px);
-  font-family: ui-rounded, "Arial Rounded MT Bold", "Nunito", sans-serif;
+  font-family: var(--font-display), Georgia, serif;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -363,21 +366,18 @@
      line of "COOKIE HEAVEN" can be is 8.11 x its font size, so ~11.6vw is the
      most that fits a 100vw screen with a margin to spare. */
   font-size: clamp(28px, 11.6vw, 220px);
-  letter-spacing: -0.01em;
-  font-weight: 900;
+  /* A hair of positive tracking: a serif this size wants air between letters,
+     where the rounded face it replaced wanted them pressed together. */
+  letter-spacing: 0.012em;
+  font-weight: 700;
   line-height: 1.02;
   /* Solid, saturated lettering — never translucent against the busy cookie sky.
-     The pink is a flat fill, outlined in cream and lit from behind, which is what
-     keeps it legible at 175px and still reads as candy rather than poster paint. */
+     No glow and no outline: the pink is a flat fill, and a single cream edge
+     underneath it lifts the letters off the dough without lighting them up. */
   color: #ff2e8d;
-  -webkit-text-fill-color: #ff2e8d;
-  -webkit-text-stroke: 0.036em #fff8dc;
-  paint-order: stroke fill;
   text-shadow:
-    0 0 3px #fff3aa,
-    0 0 22px rgba(255, 24, 132, 0.95),
-    0 0 46px rgba(255, 61, 154, 0.7),
-    0 0 92px rgba(183, 24, 100, 0.45);
+    0 2px 0 rgba(255, 250, 224, 0.92),
+    0 5px 16px rgba(183, 24, 100, 0.16);
 }
 
 /* The title's letters, lit one at a time.
@@ -395,21 +395,26 @@
   }
 }
 
+/* The pulse is a lighter pink travelling along the words, not a glow: the point
+   is that a letter lifts, the way a serif catches light, not that it ignites. */
 @keyframes title-letter-light {
   0%, 100% {
     color: #ff2e8d;
-    -webkit-text-fill-color: #ff2e8d;
-    text-shadow: 0 0 3px #fff3aa, 0 0 22px rgba(255, 24, 132, 0.95), 0 0 46px rgba(255, 61, 154, 0.7);
+    text-shadow:
+      0 2px 0 rgba(255, 250, 224, 0.92),
+      0 5px 16px rgba(183, 24, 100, 0.16);
   }
   5% {
-    color: #fff4fb;
-    -webkit-text-fill-color: #fff4fb;
-    text-shadow: 0 0 12px #ffffff, 0 0 34px #ffb5dc, 0 0 68px rgba(255, 61, 154, 0.98), 0 0 120px rgba(255, 24, 132, 0.8);
+    color: #ff70b5;
+    text-shadow:
+      0 2px 0 rgba(255, 252, 236, 0.98),
+      0 6px 18px rgba(183, 24, 100, 0.2);
   }
   12% {
     color: #ff2e8d;
-    -webkit-text-fill-color: #ff2e8d;
-    text-shadow: 0 0 3px #fff3aa, 0 0 22px rgba(255, 24, 132, 0.95), 0 0 46px rgba(255, 61, 154, 0.7);
+    text-shadow:
+      0 2px 0 rgba(255, 250, 224, 0.92),
+      0 5px 16px rgba(183, 24, 100, 0.16);
   }
 }
 
@@ -917,7 +922,7 @@ html[data-motion="lively"] .home h2 {
   .home-top-characters { min-height: 144px; gap: 18px; }
   .home-top-characters .pixel-cat-guardian { width: min(156px, 45vw); }
   .home-top-characters .pixel-smile-cookie-field { width: min(120px, 34vw); min-height: 128px; }
-  .home h1 { font-size: clamp(26px, 11.2vw, 72px); letter-spacing: -0.02em; }
+  .home h1 { font-size: clamp(26px, 11.2vw, 72px); letter-spacing: 0.012em; }
 
   .home-floating-quote {
     position: static;
