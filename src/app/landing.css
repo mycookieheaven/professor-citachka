@@ -945,3 +945,85 @@ html[data-motion="lively"] .home h2 {
 
   .global-quick-nav { width: 100%; }
 }
+
+/* ---------- prose ---------- */
+
+/* Prose is read, not scanned, so the card gives the words room: one column,
+   cream paper, dark plum ink, and a size that stays comfortable when the eyes
+   are tired. Everything here overrides the shouty collection-page paragraph
+   style (neon pink, bold, glow) that suits one-line descriptions but not an
+   essay. */
+
+.prose-page .home-section { max-width: 900px; }
+
+.prose-entry { margin: clamp(30px, 4vw, 46px) 0 0; }
+
+.prose-entry + .prose-entry {
+  margin-top: clamp(36px, 5vw, 58px);
+  padding-top: clamp(28px, 4vw, 42px);
+  border-top: 2px solid rgba(183, 24, 100, 0.22);
+}
+
+.prose-entry-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0 0 22px;
+}
+
+.prose-page .prose-entry-title {
+  margin: 0;
+  width: auto;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(30px, 4vw, 46px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #6d0f3d;
+  text-shadow: none;
+}
+
+.prose-page .prose-entry-date {
+  display: inline-block;
+  padding: 7px 16px;
+  border: 2px solid rgba(183, 24, 100, 0.45);
+  border-radius: 999px;
+  background: #fff8bd;
+  color: #6d0f3d;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.prose-page .prose-body p {
+  max-width: 64ch;
+  margin: 0 0 22px;
+  color: #3d0a22;
+  font-size: clamp(19px, 1.5vw, 22px);
+  font-weight: 600;
+  line-height: 1.9;
+  text-shadow: none;
+}
+
+.prose-page .prose-body p:last-child { margin-bottom: 0; }
+
+/* A printed first letter, the way an essay opens in a book. It is a size
+   signal, not decoration: it tells the eye where the piece begins. */
+.prose-page .prose-body p:first-of-type::first-letter {
+  float: left;
+  padding: 8px 12px 0 0;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 3.6em;
+  font-weight: 800;
+  line-height: 0.78;
+  color: #c31563;
+}
+
+@media (max-width: 640px) {
+  .prose-page .home-section { padding: 22px 18px; }
+  .prose-page .prose-body p { font-size: 19px; line-height: 1.8; }
+  .prose-page .prose-body p:first-of-type::first-letter { font-size: 3em; }
+}
