@@ -20,6 +20,14 @@ export type GalleryImage = {
   title: string;
   caption: string;
   kind: "art" | "photography";
+  /**
+   * The photograph's own pixel size, when it can be read from the file's header.
+   * The page emits these so the browser reserves the right space before the
+   * image arrives; on a wall of photographs that is the difference between a
+   * page that settles and one that jumps as each picture lands. `null` when the
+   * format is one this reader does not parse — the picture still appears.
+   */
+  size: { width: number; height: number } | null;
 };
 
 type Wording = { title?: string; alt?: string; caption?: string };
@@ -50,6 +58,60 @@ function readWording(): GalleryWording {
   }
 }
 
+/**
+ * Pixel size from an image's header, without loading the picture.
+ *
+ * Only the first few kilobytes are read, and only JPEG, PNG and GIF are parsed:
+ * every format this site has ever been given. Anything else returns `null`, and
+ * the gallery falls back to the browser working the size out itself.
+ */
+const HEADER_BYTES = 64 * 1024;
+
+function readImageSize(filePath: string): { width: number; height: number } | null {
+  let handle: number | undefined;
+  try {
+    handle = fs.openSync(filePath, "r");
+    const header = Buffer.alloc(HEADER_BYTES);
+    const read = fs.readSync(handle, header, 0, HEADER_BYTES, 0);
+    return parseImageSize(header.subarray(0, read));
+  } catch {
+    return null;
+  } finally {
+    if (handle !== undefined) fs.closeSync(handle);
+  }
+}
+
+function parseImageSize(header: Buffer): { width: number; height: number } | null {
+  // PNG: the IHDR chunk always begins at byte 16.
+  if (header.length >= 24 && header.readUInt32BE(0) === 0x89504e47) {
+    return { width: header.readUInt32BE(16), height: header.readUInt32BE(20) };
+  }
+
+  // GIF: a fixed-size logical screen descriptor at bytes 6 and 8, little-endian.
+  if (header.length >= 10 && header.subarray(0, 3).toString("latin1") === "GIF") {
+    return { width: header.readUInt16LE(6), height: header.readUInt16LE(8) };
+  }
+
+  // JPEG: walk the segment chain to the first start-of-frame marker, which is
+  // the only place the frame size is recorded. C4/C8/CC look like SOF markers
+  // by number but are Huffman tables, JPEG extensions and arithmetic coding.
+  if (header.length >= 4 && header[0] === 0xff && header[1] === 0xd8) {
+    let offset = 2;
+    while (offset + 9 <= header.length) {
+      if (header[offset] !== 0xff) return null;
+      const marker = header[offset + 1];
+      if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
+        return { height: header.readUInt16BE(offset + 5), width: header.readUInt16BE(offset + 7) };
+      }
+      const length = header.readUInt16BE(offset + 2);
+      if (length < 2) return null;
+      offset += 2 + length;
+    }
+  }
+
+  return null;
+}
+
 export function readGallery(kind: "art" | "photography"): GalleryImage[] {
   const directory = path.join(PUBLIC_DIR, kind);
   if (!fs.existsSync(directory)) return [];
@@ -71,6 +133,7 @@ export function readGallery(kind: "art" | "photography"): GalleryImage[] {
         title: entry.title ?? fallback,
         caption: entry.caption ?? "",
         kind,
+        size: readImageSize(path.join(directory, name)),
       } satisfies GalleryImage;
     });
 }
