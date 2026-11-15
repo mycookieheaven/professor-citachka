@@ -5,7 +5,7 @@ import path from "node:path";
  * Homepage translations.
  *
  * Each locale is one JSON file under src/data/i18n/. The page exists at three
- * URLs — `/` for English, `/es` for Spanish, `/ru` for Russian — so every visitor
+ * URLs: `/` for English, `/es` for Spanish, `/ru` for Russian, so every visitor
  * gets a real address they can bookmark or share, and the pages work with
  * JavaScript disabled.
  */

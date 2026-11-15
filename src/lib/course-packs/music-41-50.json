@@ -26,18 +26,18 @@
               },
               "readings": [
                 {
-                  "title": "[30] Open Music Theory — Introduction to Harmony, Cadences, and Phrase Endings",
+                  "title": "[30] Open Music Theory: Introduction to Harmony, Cadences, and Phrase Endings",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony",
                   "note": "Read the Key Takeaways, then the sections Introduction to Harmony and Introduction to Cadences. The Key Takeaways define authentic and half cadences, and the harmonic-function list gives the exact three categories, with strong and weak predominants named, that this lesson uses."
                 },
                 {
-                  "title": "[31] Open Music Theory — Introduction to Harmonic Schemas in Pop Music",
+                  "title": "[31] Open Music Theory: Introduction to Harmonic Schemas in Pop Music",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-pop-schemas",
                   "note": "Read the opening paragraphs and the schema table. Use the Singer/Songwriter row for the vi-IV-I-V loop and its rotations, and the Circle-of-fifths and Plagal rows when the next lesson asks why one root motion feels more directed than another."
                 }
               ],
               "visual": {
-                "title": "Name what each chord is doing, not only what it is — reasoning sequence",
+                "title": "Name what each chord is doing, not only what it is, reasoning sequence",
                 "description": "The same pitch collections become different trajectories when their functions are reordered.",
                 "steps": [
                   "Establish tonic: C major, one chord per bar at 100 BPM, bar = 2.4 s, loop = 9.6 s.",
@@ -67,18 +67,18 @@
               },
               "readings": [
                 {
-                  "title": "[32] Open Music Theory — Diatonic Sequences in Middles",
+                  "title": "[32] Open Music Theory: Diatonic Sequences in Middles",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/diatonic-sequences/",
                   "note": "Read the Key Takeaways, then the section Descending fifths (a.k.a. circle-of-fifths). It defines the sequence, the model and the copy, gives the naming caveat about alternative labels, and explains that the pattern is named for descending fifths which are ascending fourths inverted."
                 },
                 {
-                  "title": "[10] Open Music Theory — Major Scales, Scale Degrees, and Key Signatures",
+                  "title": "[10] Open Music Theory: Major Scales, Scale Degrees, and Key Signatures",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/major-scales/",
                   "note": "Re-read only the Key Signatures and The Circle of Fifths sections. That subsection is where the last-sharp and second-to-last-flat rules live, and it is the source for the accidental-counting procedure used in this lesson's example."
                 }
               ],
               "visual": {
-                "title": "Use the circle of fifths as a working tool rather than a diagram — reasoning sequence",
+                "title": "Use the circle of fifths as a working tool rather than a diagram, reasoning sequence",
                 "description": "Keys are derived by counting fifths, and the same relationship generates directed root motion.",
                 "steps": [
                   "Clockwise from C: G (1 sharp), D (2), A (3), E (4), B (5), F sharp (6), C sharp (7).",
@@ -108,23 +108,23 @@
               },
               "readings": [
                 {
-                  "title": "[33] Open Music Theory — Modal Mixture",
+                  "title": "[33] Open Music Theory: Modal Mixture",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/modal-mixture",
                   "note": "Read the Key Takeaways first, including the statement that mixture changes a chord's quality but not its function and the flat-sign convention for lowered roots. Then read Chords with le only, which covers ii, ii half-diminished and iv, and Altering Chord Roots, which covers flat VI, flat III and flat VII."
                 },
                 {
-                  "title": "[14] Open Music Theory — Four-Chord Schemas",
+                  "title": "[14] Open Music Theory: Four-Chord Schemas",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/4-chord-schemas/",
                   "note": "Read the schema entries again with mixture in mind. The plagal sigh variation and the lament schema given here are the two places where a borrowed chord is part of the pattern rather than an added colour."
                 }
               ],
               "visual": {
-                "title": "Borrowed chords and why they sound the way they do — reasoning sequence",
+                "title": "Borrowed chords and why they sound the way they do, reasoning sequence",
                 "description": "Count borrowed notes against the parallel minor and keep the function unchanged.",
                 "steps": [
                   "Parallel key of C major is C minor; the three differences are E flat (down-3), A flat (down-6), B flat (down-7).",
-                  "iv in C: F, A flat, C — one borrowed note (the lowered sixth).",
-                  "Flat VI in C: A flat, C, E flat — two borrowed notes. Flat VII in C: B flat, D, F — one.",
+                  "iv in C: F, A flat, C, one borrowed note (the lowered sixth).",
+                  "Flat VI in C: A flat, C, E flat, two borrowed notes. Flat VII in C: B flat, D, F, one.",
                   "Function check: iv remains a predominant, so the dominant and the return are still in the same positions.",
                   "Timing: one chord per bar at 84 BPM = about 2.857 s per bar and about 11.43 s for four bars."
                 ]
@@ -149,18 +149,18 @@
               },
               "readings": [
                 {
-                  "title": "[34] Open Music Theory — Inversion",
+                  "title": "[34] Open Music Theory: Inversion",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/inversion",
                   "note": "Read the Key Takeaways and the section Triadic Inversion, including the root and bass summary table. The sentence stating that the bass voice is not the same thing as the chord's root, and the slash-chord convention, are both there and are the basis for this lesson's example."
                 },
                 {
-                  "title": "[35] Open Music Theory — Texture in Pop Music",
+                  "title": "[35] Open Music Theory: Texture in Pop Music",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/texture-in-pop-music",
                   "note": "Read the definition of the functional bass layer near the top. It describes bass-register instruments as providing the harmonic foundation for the track, which is the arrangement-level version of what the inversion chapter states theoretically."
                 }
               ],
               "visual": {
-                "title": "Let the bass line tell you what the harmony is doing — reasoning sequence",
+                "title": "Let the bass line tell you what the harmony is doing, reasoning sequence",
                 "description": "Chord identity and bass note are tracked as two separate decisions.",
                 "steps": [
                   "Loop: C - G - Am - F at 100 BPM; bar = 2.4 s, loop = 9.6 s.",
@@ -190,18 +190,18 @@
               },
               "readings": [
                 {
-                  "title": "[35] Open Music Theory — Texture in Pop Music",
+                  "title": "[35] Open Music Theory: Texture in Pop Music",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/texture-in-pop-music",
                   "note": "Read the Key Takeaways listing the five functional layers, then the introduction explaining Allan Moore's four layers and the fifth added later, and note the worked example table that assigns instruments to layers. The layer graph discussion is about reading the same information as a diagram."
                 },
                 {
-                  "title": "[36] Open Music Theory — Drumbeats",
+                  "title": "[36] Open Music Theory: Drumbeats",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/drumbeats",
                   "note": "Read the Key Takeaways for the backbeat definition and the list of common drumbeats, then the acoustic drum kit section describing the snare, kick, toms, ride and hi-hats. The kick drum description includes the note that it is often syncopated, which matters when assigning the explicit beat layer."
                 }
               ],
               "visual": {
-                "title": "Give the rhythm section separate jobs so guitar and keys stop fighting — reasoning sequence",
+                "title": "Give the rhythm section separate jobs so guitar and keys stop fighting, reasoning sequence",
                 "description": "Assign functions first; the collision is resolved in the arrangement, not the mix.",
                 "steps": [
                   "Backbeat foundation: kick on 1 and 3, snare on 2 and 4, closed hi-hat on eighths; 8 bars at 96 BPM = 20 s.",
@@ -291,18 +291,18 @@
               },
               "readings": [
                 {
-                  "title": "[37] Open Music Theory — Melody and Phrasing",
+                  "title": "[37] Open Music Theory: Melody and Phrasing",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/melody-and-phrasing/",
                   "note": "Read the opening Key Takeaways for the two-part aa prime, three-part aa prime b and four-part srdc shapes, then the Two-Part and Four-Part sections. Note the statement that a phrase typically lasts four bars and corresponds to one line of lyrics, and the observation that in many songs the relationship is not clear cut."
                 },
                 {
-                  "title": "[38] Open Music Theory — The Basics of Sight-Singing and Dictation",
+                  "title": "[38] Open Music Theory: The Basics of Sight-Singing and Dictation",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/the-basics-of-sight-singing-and-dictation/",
                   "note": "Read the Key Takeaways and the strategies for melodic dictation, which list contour lines, solmization syllables and protonotation. The posture note about sitting forward and breathing from the diaphragm supports the physical step in this lesson's ear test."
                 }
               ],
               "visual": {
-                "title": "Write a melody over a progression and test it by ear — reasoning sequence",
+                "title": "Write a melody over a progression and test it by ear, reasoning sequence",
                 "description": "Phrase shape is fixed before pitch, and the ear test is performed without the instrument.",
                 "steps": [
                   "Fix the frame: I - vi - IV - V in C, one chord per bar at 100 BPM; 8 bars = 19.2 s.",
@@ -332,24 +332,24 @@
               },
               "readings": [
                 {
-                  "title": "[39] Open Music Theory — Introduction to Form in Popular Music",
+                  "title": "[39] Open Music Theory: Introduction to Form in Popular Music",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-form-in-popular-music/",
                   "note": "Read the Key Takeaways, then the sections Sections within Pop Forms and Terminology and Basic Concepts. The list of surface features that make a boundary apparent, with the worked verse-to-chorus example, is the basis for this lesson's definition of an audible boundary, and the core and auxiliary definitions are given there too."
                 },
                 {
-                  "title": "[41] Open Music Theory — AABA Form and Strophic Form",
+                  "title": "[41] Open Music Theory: AABA Form and Strophic Form",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/aaba-form/",
                   "note": "Read how AABA and strophic forms are defined and how their boundaries work, as a contrast to the verse-chorus cycle. The chapter is the source for the point that a returning section can itself serve as the boundary marker."
                 }
               ],
               "visual": {
-                "title": "Build structure from contrast, and mark boundaries a listener can hear — reasoning sequence",
+                "title": "Build structure from contrast, and mark boundaries a listener can hear, reasoning sequence",
                 "description": "Four sections are planned in bars and seconds, and each boundary is tied to a surface feature.",
                 "steps": [
                   "Frame: 32 bars in four 8-bar sections at 100 BPM; bar = 2.4 s, section = 19.2 s, body = 76.8 s.",
                   "A (1-8) introduction: bass and beat plus sparse guitar; deliberately thin.",
                   "B (9-16): marker is a change in instrumentation and a rise in density as filler and melody enter.",
-                  "C (17-24): marker is subtraction — the beat is removed and the melody moves up an octave.",
+                  "C (17-24): marker is subtraction, the beat is removed and the melody moves up an octave.",
                   "D (25-32): marker is a return to A's material at full density, then a planned release."
                 ]
               }
@@ -373,18 +373,18 @@
               },
               "readings": [
                 {
-                  "title": "[27] Image-Line — Automation Clips",
+                  "title": "[27] Image-Line: Automation Clips",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/playlist_automationclip.htm",
                   "note": "Read the introductory paragraphs stating that automation clips move linked controls, are not bound to a pattern and exist as a special type of generator in a channel, then the section Creating Automation Clips for the native-control, VST and event-data conversion routes. The note about automating an audio clip's volume or panning directly is in the same section."
                 },
                 {
-                  "title": "[26] Image-Line — Recording Automation",
+                  "title": "[26] Image-Line: Recording Automation",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_automation.htm",
                   "note": "Read Recording automation filter and Recording automation, then the section Where is my automation data stored, which explains that recorded movements become event data inside the selected pattern and describes converting them. The hint-bar icons that show whether a control is automatable or linkable are described just above."
                 }
               ],
               "visual": {
-                "title": "Use automation to create movement that repeats identically — reasoning sequence",
+                "title": "Use automation to create movement that repeats identically, reasoning sequence",
                 "description": "A planned change is computed, stored as linked control data, and verified by hearing the render.",
                 "steps": [
                   "Decide the change: pad level from -12 dB to 0 dB across one 4-bar section at 100 BPM (9.6 s).",
@@ -414,28 +414,28 @@
               },
               "readings": [
                 {
-                  "title": "[8] Image-Line — Levels, Mixing & Clipping",
+                  "title": "[8] Image-Line: Levels, Mixing & Clipping",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer_levelsandmixing.htm",
                   "note": "Read Setting Output Mix Levels, Using FL Studio Peak Meters, and dB change values to remember, which is where the six and twelve decibel correspondences and the one-decibel noticeability note come from. The panning law note under Sampler Channels versus Audio Clips is the source for the three decibel reduction on a centred signal."
                 },
                 {
-                  "title": "[3] Image-Line — Mixer Functions",
+                  "title": "[3] Image-Line: Mixer Functions",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer.htm",
                   "note": "Read Mixer Controls and Routing Instrument Channels to Mixer Tracks. The opening statements that all audio passes through the mixer and that the playlist is not bound to any instrument or mixer track are the reason a clip can move without its destination changing."
                 },
                 {
-                  "title": "[29] Image-Line — Fruity Balance",
+                  "title": "[29] Image-Line: Fruity Balance",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Balance.htm",
                   "note": "Read Parameters on this short page. It describes a simple level and pan effect, which is the cheapest way to test a rebalance before reaching for equalisation."
                 },
                 {
-                  "title": "[28] Image-Line — Fruity Parametric EQ 2",
+                  "title": "[28] Image-Line: Fruity Parametric EQ 2",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Parametric%20EQ%202.htm",
                   "note": "Read the Parameters section for band types, centre frequency and width controls, and note the framing of equalisation as changing the level of specific frequencies. Width is what makes a narrow subtractive cut possible."
                 }
               ],
               "visual": {
-                "title": "Balance and pan by subtracting, before adding anything — reasoning sequence",
+                "title": "Balance and pan by subtracting, before adding anything, reasoning sequence",
                 "description": "Priority is named first, then changes are made subtractively and checked at the loudest point and in mono.",
                 "steps": [
                   "Name the priority: the guitar figure carries the material, so it stays at its level.",
@@ -465,18 +465,18 @@
               },
               "readings": [
                 {
-                  "title": "[4] Image-Line — Exporting Audio & MIDI",
+                  "title": "[4] Image-Line: Exporting Audio & MIDI",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm",
                   "note": "Read About Rendering, Render length and Recording External Hardware. About Rendering gives the statement that the master mixer track is rendered by default, the note that MIDI is not an audio format, and the render-length hierarchy that includes the tail setting; Recording External Hardware lists the steps needed for hardware sound to appear in a render."
                 },
                 {
-                  "title": "[19] MIDI.org — About MIDI, Part 1: Overview",
+                  "title": "[19] MIDI.org. About MIDI, Part 1: Overview",
                   "url": "https://midi.org/about-midi-part-1overview",
                   "note": "Read the section headed MIDI is not audio and the surrounding paragraphs on flexibility. It is the standard reference for the distinction between instructions and recorded sound that this lesson applies when a rendered file turns out to be silent where a hardware part was expected."
                 }
               ],
               "visual": {
-                "title": "Finish the piece: render it, listen to the file, and write the delivery note — reasoning sequence",
+                "title": "Finish the piece: render it, listen to the file, and write the delivery note, reasoning sequence",
                 "description": "A fixed version is rendered, heard end to end, and documented against the plan.",
                 "steps": [
                   "Fix the scope before rendering: section map, bar count, tempo, target format.",

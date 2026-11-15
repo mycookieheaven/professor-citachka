@@ -5,7 +5,7 @@ import { GAME_PATHS, loadDictionary } from "@/lib/i18n";
 export function generateMetadata(): Metadata {
   const dict = loadDictionary("es");
   return {
-    title: "cookie.io — cookieheaven",
+    title: "cookie.io, cookieheaven",
     description: dict.game.tagline,
     alternates: { canonical: GAME_PATHS.es, languages: { en: GAME_PATHS.en, es: GAME_PATHS.es, ru: GAME_PATHS.ru } },
   };

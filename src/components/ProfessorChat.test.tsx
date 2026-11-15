@@ -13,7 +13,7 @@ describe('Ask Professor Citachka bubble', () => {
     const draft = screen.getByRole('textbox', { name: 'Your question (unsent draft)' });
     fireEvent.change(draft, { target: { value: 'Explain musical intervals.' } });
     expect(draft).toHaveValue('Explain musical intervals.');
-    expect(screen.getByRole('button', { name: 'Send — setup required' })).toBeDisabled();
+    expect(screen.getByRole('button', { name: 'Send (setup required)' })).toBeDisabled();
     fireEvent.click(screen.getByRole('button', { name: 'Close Ask Professor Citachka' }));
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
   });

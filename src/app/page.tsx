@@ -3,7 +3,7 @@ import { HomeContent } from "@/components/HomeContent";
 import { homepageData } from "@/lib/homepage";
 
 /*
- * cookieheaven.art — the personal homepage, English.
+ * cookieheaven.art, the personal homepage, English.
  *
  * The words live in `src/data/i18n/en.json`; the Spanish and Russian versions are
  * the same page at `/es` and `/ru`, built from the same component so the three
@@ -14,7 +14,7 @@ import { homepageData } from "@/lib/homepage";
 export const metadata: Metadata = {
   title: "cookieheaven",
   description:
-    "cookieheaven — a small archive of art, photographs, music, and questions worth following.",
+    "cookieheaven: a small archive of art, photographs, music, and questions worth following.",
   alternates: { canonical: "/", languages: { en: "/", es: "/es", ru: "/ru" } },
 };
 

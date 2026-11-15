@@ -12,7 +12,7 @@
               "title": "The capital stack: what each layer claims, costs and controls",
               "explanation": "Your objective is to read a financing plan as a stack of layers competing for the same future cash rather than as a list of separate offers. Every layer can be described with five attributes: what it claims from future receipts, what it claims if value runs short, what control it imposes while outstanding, how long its payments run, and what it costs in dollars over that period. Federal programs show the range. SBA's 7(a) page describes a lender guarantee used for working capital, equipment, real estate and refinancing of existing business debt, with a maximum loan amount of $5 million and eligibility that includes being creditworthy with a reasonable ability to repay. The 504 page describes long-term fixed-rate financing of major fixed assets through Certified Development Companies (CDCs). The microloan page describes loans of up to $50,000 made through designated intermediary lenders. These are program descriptions, not a ranking, a comparison of which is cheaper, or evidence that any particular business would be approved. The structural teaching point is that a layer is not just a price: guarantee-supported amortizing debt, an equipment lease, a receivables facility and an advance repaid out of daily receipts all place different claims on the same operating account. A stack is coherent only when each layer's payments relate to what it financed, when the combined claims still leave room for payroll and suppliers, and when the owner can live with the control conditions. Nothing here is underwriting advice.",
               "example": "Anchor & Oak Kitchen plans $120,000 of uses: $55,000 of build-out, $30,000 of equipment and $35,000 of opening inventory. Its modeled stack is $40,000 of guarantee-supported term debt over 84 months at an assumed 9% annual rate, which is $643.56 a month, $54,059.30 in total and $14,059.30 of interest under those assumptions; $30,000 of equipment finance over 60 months at an assumed 8%, which is $608.29 a month, $36,497.51 in total and $6,497.51 of interest; a $20,000 advance at an assumed 1.35 factor, which is a $27,000 total remittance paid as $1,125 a week for 24 weeks and involves $7,000 of dollar cost inside roughly six months; $5,000 of owner cash; and $25,000 of build-out carried on 90-day supplier terms. Sources add to $120,000 and uses add to $120,000, so the plan balances arithmetically. The first month's financing outflow under these assumptions is $6,126.85, and $4,875 of it, or 79.57%, comes from the smallest layer. That layer is only 16.7% of the money raised yet supplies most of the early burden. Total modeled financing dollars are $27,556.81, which is 22.96% of uses. The factor is a multiplier applied to the amount purchased and must never be restated as an annual percentage rate; a compliant annualized figure would require the amounts and timing of value received and payments made.",
-              "question": "Does the modeled $27,556.81 of financing cost on $120,000 of uses—about 23%—show that Anchor & Oak can carry this stack?",
+              "question": "Does the modeled $27,556.81 of financing cost on $120,000 of uses, about 23%, show that Anchor & Oak can carry this stack?",
               "answer": "No. A share of project size is not a payment schedule. The 24-week layer creates $4,875 of the $6,126.85 first-month outflow, and duration, collateral and control conditions still have to be tested against dated receipts.",
               "distractor": "Yes. At under 23% of total uses the financing dollars look modest for the project, so the stack can be treated as affordable.",
               "correction": "Total cost and payment timing are different quantities. A dollar total divided by project size describes the project, not any week's bank balance, and the short layer concentrates its claim into weeks when the build-out has produced nothing yet.",
@@ -26,22 +26,22 @@
               },
               "readings": [
                 {
-                  "title": "SBA — 7(a) loans: guarantee, uses and eligibility",
+                  "title": "SBA, 7(a) loans: guarantee, uses and eligibility",
                   "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
                   "note": "Read 'What is a 7(a) loan?', 'Am I eligible?' and the repayment section. These are SBA program statements; the loan maximum, guarantee and eligibility described are program-level facts, not a prediction about any application."
                 },
                 {
-                  "title": "SBA — 504 loans: long-term financing of major fixed assets",
+                  "title": "SBA, 504 loans: long-term financing of major fixed assets",
                   "url": "https://www.sba.gov/funding-programs/loans/504-loans",
                   "note": "Read 'What is the 504 loan program?' and 'Am I eligible?' for how fixed-asset financing differs by term and delivery channel (CDCs). Do not read the fixed-rate description as an offer or as a rate available to any reader."
                 },
                 {
-                  "title": "SBA — Terms, conditions and eligibility for 7(a): guarantees, fees and maturities",
+                  "title": "SBA. Terms, conditions and eligibility for 7(a): guarantees, fees and maturities",
                   "url": "https://www.sba.gov/partners/lenders/7a-loan-program/terms-conditions-eligibility",
                   "note": "Read 'Percentage of guaranty', 'Maturity terms' and 'Fees'. Useful for seeing that guarantee percentage and fees are program parameters that vary by loan size, and that some fees may be passed to the borrower while others may not."
                 },
                 {
-                  "title": "SBA — Microloans: what the program covers",
+                  "title": "SBA. Microloans: what the program covers",
                   "url": "https://www.sba.gov/funding-programs/loans/microloans",
                   "note": "Read 'What is a microloan?' and 'How do I use my microloan?' for the maximum amount and eligible uses. Program description only; an intermediary makes its own credit decision and this lesson predicts no outcome."
                 }
@@ -77,17 +77,17 @@
               },
               "readings": [
                 {
-                  "title": "OCC Comptroller's Handbook — Asset-Based Lending: 'ABL Structures', 'Term Loans' and the overview",
+                  "title": "OCC Comptroller's Handbook. Asset-Based Lending: 'ABL Structures', 'Term Loans' and the overview",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Read the Overview and the 'ABL Structures' and 'Term Loans' sections for how revolving facilities are designed around collateral conversion while term facilities serve longer-lived needs. Supervisory guidance for bank examiners, not a product catalogue or an advance-rate schedule; every figure in the lesson is fictional."
                 },
                 {
-                  "title": "OCC Comptroller's Handbook — Lease Financing (v2.0, September 2023): equipment finance agreements, sale-leaseback and renewals",
+                  "title": "OCC Comptroller's Handbook. Lease Financing (v2.0, September 2023): equipment finance agreements, sale-leaseback and renewals",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/lease-financing/pub-ch-lease-financing.pdf",
                   "note": "Read 'Other Lease Financing Products and Alternatives', 'Renewals, Extensions, and Off-Lease Property' and 'Valuation and Residual Analysis' to see why ownership, residuals and end-of-term options change the economics. This booklet also addresses leases made by banks; it is not consumer-leasing guidance."
                 },
                 {
-                  "title": "SBA — 504 loans: fixed assets and long-term structure",
+                  "title": "SBA, 504 loans: fixed assets and long-term structure",
                   "url": "https://www.sba.gov/funding-programs/loans/504-loans",
                   "note": "Read the program description for an example of long-term, fixed-rate financing aimed at major fixed assets rather than at inventory or receivables. Use it to practise reading use-of-proceeds limits, not as evidence about approval."
                 }
@@ -123,17 +123,17 @@
               },
               "readings": [
                 {
-                  "title": "Code of Virginia — Chapter 22.1, Sales-Based Financing Providers, especially § 6.2-2228 definitions",
+                  "title": "Code of Virginia: Chapter 22.1, Sales-Based Financing Providers, especially § 6.2-2228 definitions",
                   "url": "https://law.lis.virginia.gov/vacodefull/title6.2/chapter22.1/",
                   "note": "Read the definitions of 'sales-based financing', which expressly covers both percentage-of-revenue repayment and fixed payments with a true-up, and note that a broker cannot be a recipient. This is one state's statute: it defines terms for its own scope and does not describe every agreement."
                 },
                 {
-                  "title": "DFPI (California) — California Financing Law: Commercial Financing Disclosures",
+                  "title": "DFPI (California). California Financing Law: Commercial Financing Disclosures",
                   "url": "https://dfpi.ca.gov/regulated-industries/california-financing-law/about-california-financing-law/california-financing-law-commercial-financing-disclosures/",
                   "note": "Read the list of required disclosure items (total funds provided, total dollar cost, term or estimated term, method, frequency and amount of payments, prepayment policies) and the note that the annualized-rate item applied until January 1, 2024. Jurisdiction-specific; verify current status with compliance or counsel rather than assuming it applies elsewhere."
                 },
                 {
-                  "title": "NY DFS — 23 NYCRR Part 600: commercial financing disclosure text",
+                  "title": "NY DFS, 23 NYCRR Part 600: commercial financing disclosure text",
                   "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
                   "note": "Read the definitions and the sales-based financing disclosure provisions for a second, differently drafted jurisdictional example. The URL resolves to a PDF. Applicability and current obligations require qualified review; do not generalise one state's method to another."
                 }
@@ -169,17 +169,17 @@
               },
               "readings": [
                 {
-                  "title": "FTC — 'Strictly Business' Forum Staff Perspective (February 2020): true-ups, stacking and collection practices",
+                  "title": "FTC, 'Strictly Business' Forum Staff Perspective (February 2020): true-ups, stacking and collection practices",
                   "url": "https://www.ftc.gov/reports/staff-perspective-paper-ftcs-strictly-business-forum",
                   "note": "The page links the staff paper as a PDF. Read the section on concerns regarding merchant cash advances, which discusses providers failing to conduct promised true-ups or reconciliations, the stacking phenomenon, factors commonly described in the range of 20% to 50%, and confessions of judgment. Staff perspectives on marketplace conduct, not rules that govern every contract."
                 },
                 {
-                  "title": "Code of Virginia — § 6.2-2228, definition of sales-based financing including true-up mechanisms",
+                  "title": "Code of Virginia: § 6.2-2228, definition of sales-based financing including true-up mechanisms",
                   "url": "https://law.lis.virginia.gov/vacodefull/title6.2/chapter22.1/",
                   "note": "Read the definitions section for statutory language that expressly includes a fixed payment with a reconciliation adjusting to a percentage of sales or revenue. One state's definition within its own scope; it does not oblige every provider to offer a true-up."
                 },
                 {
-                  "title": "NY DFS — 23 NYCRR Part 600: sales-based financing disclosure and estimation provisions",
+                  "title": "NY DFS, 23 NYCRR Part 600: sales-based financing disclosure and estimation provisions",
                   "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
                   "note": "Read the sales-based financing disclosure provisions which address estimated payments and the assumptions behind them. The URL resolves to a PDF; applicability and current requirements need qualified compliance review."
                 }
@@ -215,32 +215,32 @@
               },
               "readings": [
                 {
-                  "title": "Federal Reserve Small Business Credit Survey — 2026 Report on Employer Firms, 'Debt and credit demand'",
+                  "title": "Federal Reserve Small Business Credit Survey: 2026 Report on Employer Firms, 'Debt and credit demand'",
                   "url": "https://www.fedsmallbusiness.org/reports/survey/2026/2026-report-on-employer-firms",
                   "note": "Read the 'Debt and credit demand' findings, which report the share of firms with debt that used a personal guarantee, and 'Financing applications and outcomes'. Aggregate survey findings about a large sample of employer firms; they describe the market rather than any individual application."
                 },
                 {
-                  "title": "Uniform Commercial Code § 9-324 — priority of purchase-money security interests",
+                  "title": "Uniform Commercial Code § 9-324: priority of purchase-money security interests",
                   "url": "https://www.law.cornell.edu/ucc/9/9-324",
                   "note": "Read subsection (a), which conditions purchase-money priority over a conflicting interest in goods other than inventory on perfection by the time the debtor receives possession or within 20 days thereafter, and note the separate inventory conditions in subsection (b). This is the model Act text; your state's enacted version governs."
                 },
                 {
-                  "title": "Uniform Commercial Code § 9-515 — duration and effectiveness of a financing statement",
+                  "title": "Uniform Commercial Code § 9-515: duration and effectiveness of a financing statement",
                   "url": "https://www.law.cornell.edu/ucc/9/9-515",
                   "note": "Read subsections (a), (c) and (d) for five-year effectiveness, lapse, and the six-month continuation window. Confirms that an old filing can lapse and that a continuation must be filed in a defined window; enacted state law and local filing practice still control."
                 },
                 {
-                  "title": "Uniform Commercial Code § 9-310 — when filing is required to perfect a security interest",
+                  "title": "Uniform Commercial Code § 9-310: when filing is required to perfect a security interest",
                   "url": "https://www.law.cornell.edu/ucc/9/9-310",
                   "note": "Read subsection (a), the general rule that a financing statement must be filed to perfect a security interest or agricultural lien, and note that subsection (b) lists exceptions covered elsewhere in Article 9. Model Act text: your state's enacted version and its filing office practice control."
                 },
                 {
-                  "title": "Code of Virginia — § 6.2-2229, exemptions from the sales-based financing chapter",
+                  "title": "Code of Virginia: § 6.2-2229, exemptions from the sales-based financing chapter",
                   "url": "https://law.lis.virginia.gov/vacodefull/title6.2/chapter22.1/",
                   "note": "Read § 6.2-2229 for the exemptions that keep certain providers and transactions out of that chapter, including financial institutions, no more than five transactions with a recipient in a 12-month period, and a single transaction over $500,000. One state's thresholds, quoted to show that scope varies; not a general rule."
                 },
                 {
-                  "title": "Utah Department of Financial Institutions — Commercial Financing Registration and Disclosure Act",
+                  "title": "Utah Department of Financial Institutions: Commercial Financing Registration and Disclosure Act",
                   "url": "https://dfi.utah.gov/non-depository/commercial-financing/",
                   "note": "Read the summary of Utah Code sections 7-27-201 (registration required before engaging in commercial financing in Utah or with a Utah resident) and 7-27-202 (disclosures), and the department's frequently asked questions PDF. One state's regime; it determines its own scope and compliance questions belong with the department or counsel."
                 }
@@ -336,17 +336,17 @@
               },
               "readings": [
                 {
-                  "title": "OCC Comptroller's Handbook — Asset-Based Lending: 'Borrower Analysis' and repayment capacity",
+                  "title": "OCC Comptroller's Handbook. Asset-Based Lending: 'Borrower Analysis' and repayment capacity",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Read 'Borrower Analysis' for how analysts assess capacity to repay from operating cash flow and what information they consider reliable. Supervision-oriented guidance written for bank examiners and bankers, not a formula prescribed for merchants."
                 },
                 {
-                  "title": "SBA — 7(a) loans: the creditworthiness and repayment-ability condition",
+                  "title": "SBA, 7(a) loans: the creditworthiness and repayment-ability condition",
                   "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
                   "note": "Read 'Am I eligible?' to see that demonstrating a reasonable ability to repay is an eligibility condition. This is a program condition and says nothing about whether a specific financing structure is affordable for a specific business."
                 },
                 {
-                  "title": "DFPI (California) — Commercial financing disclosure items: total dollar cost and payment method",
+                  "title": "DFPI (California). Commercial financing disclosure items: total dollar cost and payment method",
                   "url": "https://dfpi.ca.gov/regulated-industries/california-financing-law/about-california-financing-law/california-financing-law-commercial-financing-disclosures/",
                   "note": "Read the disclosure list, particularly 'total dollar cost of financing' and 'method, frequency and amount of payments', as the figures to place inside a unit-margin model. Jurisdiction-specific; current requirements need compliance review."
                 }
@@ -382,17 +382,17 @@
               },
               "readings": [
                 {
-                  "title": "OCC Comptroller's Handbook — Lease Financing: 'Renewals, Extensions, and Off-Lease Property' and 'Valuation and Residual Analysis'",
+                  "title": "OCC Comptroller's Handbook. Lease Financing: 'Renewals, Extensions, and Off-Lease Property' and 'Valuation and Residual Analysis'",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/lease-financing/pub-ch-lease-financing.pdf",
                   "note": "Read those two sections for how end-of-term decisions create valuation and residual risk that a monthly payment comparison hides. Bank supervision guidance; the concept transfers to any staged facility, and the lesson's figures are fictional."
                 },
                 {
-                  "title": "FTC — 'Strictly Business' Forum Staff Perspective: stacking, fixed fees and early-repayment expectations",
+                  "title": "FTC, 'Strictly Business' Forum Staff Perspective: stacking, fixed fees and early-repayment expectations",
                   "url": "https://www.ftc.gov/reports/staff-perspective-paper-ftcs-strictly-business-forum",
                   "note": "The staff paper is linked as a PDF. Read the discussion of merchants renewing advances or taking multiple advances against the same receipts, and the finding that borrowers mistakenly expected early repayment to save money where a fixed fee applies. Marketplace perspective and enforcement context, not a statement about any particular contract."
                 },
                 {
-                  "title": "New York Attorney General — Settlement with Yellowstone Capital regarding MCAs",
+                  "title": "New York Attorney General: Settlement with Yellowstone Capital regarding MCAs",
                   "url": "https://ag.ny.gov/resources/individuals/credit-debt-lending/yellowstone-settlement",
                   "note": "Read the case summary and the frequently asked questions, which describe cancelled merchant debts, vacated judgments and lien terminations in that settlement. Case-specific relief: it must never be promised to, or assumed by, merchants in other arrangements; the page also notes that the office cannot give legal advice."
                 }
@@ -401,7 +401,7 @@
                 "title": "Two rounds on one calendar",
                 "description": "The renewal is priced across the full lifecycle, with the payoff decision shown as a fork.",
                 "steps": [
-                  "Weeks 1–14 of the original: 14 × $2,750 = $38,500 paid, $27,500 of remittance remaining",
+                  "Weeks 1 to 14 of the original: 14 × $2,750 = $38,500 paid, $27,500 of remittance remaining",
                   "Renewal at week 14: $40,000 advance less $1,500 = $38,500 net; 1.30 factor gives a $52,000 total over 20 weeks at $2,600",
                   "Fork A, payoff: $38,500 − $27,500 = $11,000 spendable now; lifecycle total $90,500 versus $66,000",
                   "Fork B, no payoff: $2,750 + $2,600 = $5,350 weekly; $38,500 covers about 7.2 weeks",
@@ -428,17 +428,17 @@
               },
               "readings": [
                 {
-                  "title": "OCC Comptroller's Handbook — Asset-Based Lending: 'Borrower Analysis' and the business-cycle framing",
+                  "title": "OCC Comptroller's Handbook. Asset-Based Lending: 'Borrower Analysis' and the business-cycle framing",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Read the Overview statement that repayment of a revolving facility comes from conversion of collateral to cash over the company's business cycle, and the 'Borrower Analysis' discussion of liquidity and projections. Supervisory guidance; seasonality analysis here is an original teaching application."
                 },
                 {
-                  "title": "Code of Virginia — Chapter 22.1: percentage-of-revenue financing and true-up mechanisms",
+                  "title": "Code of Virginia. Chapter 22.1: percentage-of-revenue financing and true-up mechanisms",
                   "url": "https://law.lis.virginia.gov/vacodefull/title6.2/chapter22.1/",
                   "note": "Read § 6.2-2228 for the definition covering percentage-of-sales repayment and fixed payments with a true-up. Statutory definitions within one state's scope, and they do not require any provider to offer a flexible structure."
                 },
                 {
-                  "title": "DFPI (California) — Commercial financing disclosures: term or estimated term and payment frequency",
+                  "title": "DFPI (California). Commercial financing disclosures: term or estimated term and payment frequency",
                   "url": "https://dfpi.ca.gov/regulated-industries/california-financing-law/about-california-financing-law/california-financing-law-commercial-financing-disclosures/",
                   "note": "Read the items covering 'the term or estimated term' and 'the method, frequency, and amount of payments', which is what a variable structure must be documented with. Jurisdiction-specific requirements; confirm current applicability with compliance personnel."
                 }
@@ -474,17 +474,17 @@
               },
               "readings": [
                 {
-                  "title": "FTC — 'Strictly Business' Forum Staff Perspective: misleading claims, disclosure metrics and stacking",
+                  "title": "FTC, 'Strictly Business' Forum Staff Perspective: misleading claims, disclosure metrics and stacking",
                   "url": "https://www.ftc.gov/reports/staff-perspective-paper-ftcs-strictly-business-forum",
                   "note": "Read 'Consumer Protection Concerns', especially the discussion of inconsistent cost disclosures (APR, total cost of capital, fees, factor rate), the note that TILA's APR requirement generally does not apply to small business financing, the factor range observed in MCA agreements, and the caution to brokers and lead generators about false or unsubstantiated advertising claims. A staff perspective, not a rulebook for every product."
                 },
                 {
-                  "title": "FTC — RAM Capital Funding settlement: alleged guarantees, fees and funding shortfalls",
+                  "title": "FTC. RAM Capital Funding settlement: alleged guarantees, fees and funding shortfalls",
                   "url": "https://www.ftc.gov/news-events/news/press-releases/2022/01/merchant-cash-advance-providers-banned-industry-ordered-redress-small-businesses",
                   "note": "Read the allegations regarding personal guarantees, upfront fees, funding below promised amounts and debits above stated amounts, and the settlement's lien and judgment relief. Case-specific allegations and a specific order; they illustrate why material claims must match documents, and they are not a finding about any other provider."
                 },
                 {
-                  "title": "CFPB — Regulation B, § 1002.9 Notifications: business credit applicants",
+                  "title": "CFPB. Regulation B, § 1002.9 Notifications: business credit applicants",
                   "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
                   "note": "Read paragraph (a)(3), which sets notification rules for business credit, including the different treatment of businesses at or below $1 million of gross revenues and of trade credit, credit incident to a factoring agreement and similar business credit. Regulation text; individual transactions and any exceptions require qualified compliance review."
                 }
@@ -521,17 +521,17 @@
               },
               "readings": [
                 {
-                  "title": "CFPB — Small business lending rulemaking (section 1071): coverage, data and compliance date",
+                  "title": "CFPB. Small business lending rulemaking (section 1071): coverage, data and compliance date",
                   "url": "https://www.consumerfinance.gov/1071-rule/",
                   "note": "Read the summary of the rule implementing section 1071 of the Dodd-Frank Act and the May 2026 reconsideration rule, which the page states extends the compliance date to January 1, 2028, and amends coverage, definitions and data points. Institutional recordkeeping and reporting duties, not advice about any individual application."
                 },
                 {
-                  "title": "CFPB — Regulation B, § 1002.9: notifications to business credit applicants",
+                  "title": "CFPB. Regulation B, § 1002.9: notifications to business credit applicants",
                   "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
                   "note": "Read paragraph (a)(3) for the business-credit notification rules and note the thresholds and credit-type exceptions, including trade credit and credit incident to a factoring agreement. Regulation text; applicability to a specific transaction requires qualified compliance review."
                 },
                 {
-                  "title": "OCC Comptroller's Handbook — Asset-Based Lending: 'Borrower Analysis'",
+                  "title": "OCC Comptroller's Handbook. Asset-Based Lending: 'Borrower Analysis'",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Revisit 'Borrower Analysis' when challenging whether the proposed backup weakens alongside receipts: the same customer behaviour that reduces operating cash can reduce collateral support. Supervisory guidance, used here as a reasoning check rather than as an underwriting formula."
                 }

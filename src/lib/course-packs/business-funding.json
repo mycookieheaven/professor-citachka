@@ -26,12 +26,12 @@
               },
               "readings": [
                 {
-                  "title": "[6] SBA — 7(a) loans: eligibility and repayment",
+                  "title": "[6] SBA, 7(a) loans: eligibility and repayment",
                   "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
                   "note": "Read 'Am I eligible?' and 'How do I pay back my 7(a) loan?' for repayment ability and cash-flow context. These are SBA-specific statements, not approval criteria for every product."
                 },
                 {
-                  "title": "[1] OCC — Asset-Based Lending: borrower analysis and concentrations",
+                  "title": "[1] OCC. Asset-Based Lending: borrower analysis and concentrations",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Read Borrower Analysis and Concentrations. Public PDF intended for bank supervision; apply the reasoning about liquidity and dependence, not its sample terms as market offers."
                 }
@@ -66,7 +66,7 @@
               },
               "readings": [
                 {
-                  "title": "[1] OCC — Asset-Based Lending: Establishing and Monitoring the Borrowing Base",
+                  "title": "[1] OCC. Asset-Based Lending: Establishing and Monitoring the Borrowing Base",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Read Establishing the Borrowing Base, Concentrations, Dilution, Controls and the glossary. The PDF is supervisory guidance, not a universal advance-rate schedule; all lesson rates and exclusions are fictional."
                 }
@@ -101,7 +101,7 @@
               },
               "readings": [
                 {
-                  "title": "[1] OCC — Asset-Based Lending: Borrower Analysis and Controls",
+                  "title": "[1] OCC. Asset-Based Lending: Borrower Analysis and Controls",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Read the liquidity-projection and ongoing-monitoring discussion. The lesson's forecast bridge and sales scripts are original teaching applications, not OCC-prescribed forms."
                 }
@@ -136,9 +136,9 @@
               },
               "readings": [
                 {
-                  "title": "[2] NY DFS — Part 600: APR and product-specific disclosures",
+                  "title": "[2] NY DFS. Part 600: APR and product-specific disclosures",
                   "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
-                  "note": "Read sections 600.2–600.3 and the relevant product disclosure section. The official URL resolves to a PDF. Applicability and current jurisdictional obligations require qualified compliance review."
+                  "note": "Read sections 600.2 to 600.3 and the relevant product disclosure section. The official URL resolves to a PDF. Applicability and current jurisdictional obligations require qualified compliance review."
                 }
               ],
               "visual": {
@@ -171,12 +171,12 @@
               },
               "readings": [
                 {
-                  "title": "[2] NY DFS — Part 600: sales-based financing disclosure",
+                  "title": "[2] NY DFS. Part 600: sales-based financing disclosure",
                   "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
                   "note": "Read the sales-based disclosure requirements and estimation provisions. The example's reconciliation terms are hypothetical, not a claim that the regulation supplies those terms to every agreement."
                 },
                 {
-                  "title": "[5] NY Attorney General — Yellowstone settlement",
+                  "title": "[5] NY Attorney General: Yellowstone settlement",
                   "url": "https://ag.ny.gov/credit-lending/yellowstone-settlement",
                   "note": "Read the lawsuit and settlement explanation for case-specific warnings about arrangements labeled MCAs. Do not generalize cancellation or settlement relief to other providers or merchants."
                 }
@@ -272,12 +272,12 @@
               },
               "readings": [
                 {
-                  "title": "[1] OCC — Asset-Based Lending: liquidity analysis",
+                  "title": "[1] OCC. Asset-Based Lending: liquidity analysis",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Read Evaluating Liquidity for the importance of reliable projections and available resources. This supports the analysis method, not the safety or legal definition of reverse consolidation."
                 },
                 {
-                  "title": "[5] NY Attorney General — Yellowstone settlement: case-specific classification warning",
+                  "title": "[5] NY Attorney General. Yellowstone settlement: case-specific classification warning",
                   "url": "https://ag.ny.gov/credit-lending/yellowstone-settlement",
                   "note": "Read the explanation of the lawsuit. Its relief is specific to the settlement and must not be promised to merchants with other providers."
                 }
@@ -286,8 +286,8 @@
                 "title": "Layered funding through the final tail",
                 "description": "The timeline distinguishes initial deposit-supported relief from later unsupported payments.",
                 "steps": [
-                  "Weeks one–four: $6,000 old + $2,500 new − $5,000 received = $3,500 net weekly outflow",
-                  "Weeks five–ten: deposits and old debits end; $2,500 new weekly debits remain",
+                  "Weeks one-four: $6,000 old + $2,500 new − $5,000 received = $3,500 net weekly outflow",
+                  "Weeks five-ten: deposits and old debits end; $2,500 new weekly debits remain",
                   "Lifecycle: $49,000 all debits − $20,000 deposits = $29,000 net outflow",
                   "Interruption: missing one deposit makes that week's scheduled financing outflow $8,500"
                 ]
@@ -312,12 +312,12 @@
               },
               "readings": [
                 {
-                  "title": "[3] FTC — RCG Advances enforcement: funding and fee representations",
+                  "title": "[3] FTC. RCG Advances enforcement: funding and fee representations",
                   "url": "https://www.ftc.gov/news-events/news/press-releases/2022/06/ftc-action-results-ban-richmond-capital-owner-merchant-cash-advance-debt-collection-industries",
                   "note": "Read the funding shortfall and personal-guarantee discussion. The case supports truthful material claims, not a universal product rule."
                 },
                 {
-                  "title": "[2] NY DFS — Part 600: specific offers and disclosures",
+                  "title": "[2] NY DFS. Part 600: specific offers and disclosures",
                   "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
                   "note": "Read the introduction and specific-offer definition. Confirm applicability and updated disclosures with compliance when actual terms change."
                 }
@@ -352,12 +352,12 @@
               },
               "readings": [
                 {
-                  "title": "[4] FTC — Protecting Personal Information: Take Stock, Scale Down and Lock It",
+                  "title": "[4] FTC. Protecting Personal Information: Take Stock, Scale Down and Lock It",
                   "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
                   "note": "Read the information-inventory, access and minimization principles. They support limiting meeting and document access; they are not a complete transaction-consent checklist."
                 },
                 {
-                  "title": "[2] NY DFS — Part 600: provider and broker roles",
+                  "title": "[2] NY DFS. Part 600: provider and broker roles",
                   "url": "https://www.dfs.ny.gov/industry_guidance/regulations/final_financial_services/rf_finservices_23nycrr600_text",
                   "note": "Review role definitions and duties for covered transactions with qualified compliance personnel. Do not infer universal commission rules from this example."
                 }
@@ -392,12 +392,12 @@
               },
               "readings": [
                 {
-                  "title": "[3] FTC — RCG Advances: funding shortfalls and overcollection",
+                  "title": "[3] FTC. RCG Advances: funding shortfalls and overcollection",
                   "url": "https://www.ftc.gov/news-events/news/press-releases/2022/06/ftc-action-results-ban-richmond-capital-owner-merchant-cash-advance-debt-collection-industries",
                   "note": "Read the alleged funding shortfalls and overcharging sections. Treat the enforcement facts as case-specific, not as a diagnosis of the fictional discrepancy."
                 },
                 {
-                  "title": "[4] FTC — Protecting Personal Information: secure retention and access",
+                  "title": "[4] FTC. Protecting Personal Information: secure retention and access",
                   "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
                   "note": "Read Lock It and Pitch It. Preserve necessary evidence under the applicable retention process while restricting unnecessary access."
                 }
@@ -432,12 +432,12 @@
               },
               "readings": [
                 {
-                  "title": "[6] SBA — 7(a) loans: repayment ability and lender process",
+                  "title": "[6] SBA, 7(a) loans: repayment ability and lender process",
                   "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
                   "note": "Read eligibility and application sections. A lender makes its own program decision; this case exercise does not predict it."
                 },
                 {
-                  "title": "[1] OCC — Asset-Based Lending: liquidity and collateral analysis",
+                  "title": "[1] OCC. Asset-Based Lending: liquidity and collateral analysis",
                   "url": "https://www.occ.treas.gov/publications-and-resources/publications/comptrollers-handbook/files/asset-based-lending/pub-ch-asset-based-lending.pdf",
                   "note": "Revisit Borrower Analysis and Establishing the Borrowing Base to challenge whether the proposed backup weakens alongside receipts."
                 }

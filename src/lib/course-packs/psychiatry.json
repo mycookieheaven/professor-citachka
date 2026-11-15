@@ -26,12 +26,12 @@
               },
               "readings": [
                 {
-                  "title": "NICE NG222: Depression in adults — initial assessment, 1.2.6–1.2.7",
+                  "title": "NICE NG222: Depression in adults, initial assessment, 1.2.6 to 1.2.7",
                   "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
                   "note": "Read duration, course, functioning, and contextual assessment. Public guidance for England; local pathways differ. Source [1]."
                 },
                 {
-                  "title": "NICE CG103: Delirium — indicators at presentation, 1.3",
+                  "title": "NICE CG103: Delirium, indicators at presentation, 1.3",
                   "url": "https://www.nice.org.uk/guidance/cg103/chapter/Recommendations",
                   "note": "Read the acute-change indicators and hypoactive presentation warning. Hospital and long-term-care scope. Source [5]."
                 }
@@ -68,7 +68,7 @@
                 {
                   "title": "NICE NG222: initial assessment and treatment tables on CBT and behavioral activation",
                   "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
-                  "note": "Read 1.2.6–1.2.7 and the treatment-table descriptions, distinguishing assessment domains from proposed therapeutic mechanisms. Public guidance, not a universal causal theory. Source [1]."
+                  "note": "Read 1.2.6 to 1.2.7 and the treatment-table descriptions, distinguishing assessment domains from proposed therapeutic mechanisms. Public guidance, not a universal causal theory. Source [1]."
                 }
               ],
               "visual": {
@@ -136,7 +136,7 @@
               },
               "readings": [
                 {
-                  "title": "NICE CG178: Psychosis and schizophrenia in adults — care across cultures and comprehensive assessment",
+                  "title": "NICE CG178: Psychosis and schizophrenia in adults, care across cultures and comprehensive assessment",
                   "url": "https://www.nice.org.uk/guidance/cg178/chapter/recommendations",
                   "note": "Read sections 1.1 and 1.3.3 for cultural competence, explanatory models, communication, and assessment domains. Public guidance; not a cultural checklist. Source [2]."
                 }
@@ -171,7 +171,7 @@
               },
               "readings": [
                 {
-                  "title": "NICE CG103: Delirium — indicators, assessment, and initial management",
+                  "title": "NICE CG103: Delirium, indicators, assessment, and initial management",
                   "url": "https://www.nice.org.uk/guidance/cg103/chapter/Recommendations",
                   "note": "Read 1.3, 1.6, and 1.7, especially the warning about hypoactive presentations and consideration of multiple causes. Hospital and long-term-care scope. Public full text. Source [5]."
                 }
@@ -271,7 +271,7 @@
                 }
               ],
               "visual": {
-                "title": "Read treatment evidence through population, comparison, and outcome — reasoning sequence",
+                "title": "Read treatment evidence through population, comparison, and outcome, reasoning sequence",
                 "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
                 "steps": [
                   "Specify: population and delivered intervention",
@@ -300,13 +300,13 @@
               },
               "readings": [
                 {
-                  "title": "NICE NG222: treatment tables describing CBT and behavioral activation, sections 1.5–1.6",
+                  "title": "NICE NG222: treatment tables describing CBT and behavioral activation, sections 1.5 to 1.6",
                   "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
                   "note": "Read the specified sections and their scope, not just a treatment name. Public NICE guidance for England; local pathways and legal duties differ. Source [1] in the research handoff."
                 }
               ],
               "visual": {
-                "title": "Connect psychotherapy techniques to hypotheses and feedback — reasoning sequence",
+                "title": "Connect psychotherapy techniques to hypotheses and feedback, reasoning sequence",
                 "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
                 "steps": [
                   "Formulate: identify the proposed maintaining process",
@@ -341,7 +341,7 @@
                 }
               ],
               "visual": {
-                "title": "Medication evidence: separate benefit, burden, and causal attribution — reasoning sequence",
+                "title": "Medication evidence: separate benefit, burden, and causal attribution, reasoning sequence",
                 "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
                 "steps": [
                   "Separate: benefit, adverse event, and functioning",
@@ -370,13 +370,13 @@
               },
               "readings": [
                 {
-                  "title": "NICE NG197: putting shared decision making into practice and communicating risk, sections 1.2–1.4",
+                  "title": "NICE NG197: putting shared decision making into practice and communicating risk, sections 1.2 to 1.4",
                   "url": "https://www.nice.org.uk/guidance/ng197/chapter/Recommendations",
                   "note": "Read the specified sections and their scope, not just a treatment name. Public NICE guidance for England; local pathways and legal duties differ. Source [4] in the research handoff."
                 }
               ],
               "visual": {
-                "title": "Shared decisions require understandable options and revisable plans — reasoning sequence",
+                "title": "Shared decisions require understandable options and revisable plans, reasoning sequence",
                 "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
                 "steps": [
                   "Elicit: identify the person’s priorities",
@@ -405,13 +405,13 @@
               },
               "readings": [
                 {
-                  "title": "NICE NG225: risk assessment tools and scales, psychosocial assessment, and safety planning, sections 1.5–1.7 and 1.11",
+                  "title": "NICE NG225: risk assessment tools and scales, psychosocial assessment, and safety planning, sections 1.5 to 1.7 and 1.11",
                   "url": "https://www.nice.org.uk/guidance/ng225/chapter/Recommendations",
                   "note": "Read the specified sections and their scope, not just a treatment name. Public NICE guidance for England; local pathways and legal duties differ. Source [3] in the research handoff."
                 }
               ],
               "visual": {
-                "title": "Safety and recovery planning without false prediction — reasoning sequence",
+                "title": "Safety and recovery planning without false prediction, reasoning sequence",
                 "description": "A labeled sequence for the reasoning skill, not a video or a self-treatment algorithm.",
                 "steps": [
                   "Assess: current needs and changing circumstances",

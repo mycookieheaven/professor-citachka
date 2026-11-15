@@ -31,7 +31,7 @@
          "note": "Read the opening sections for the standard definitions of validity, soundness, and the deductive/inductive distinction, and for worked examples of valid arguments with false premises. Use it to check your own rendering of the definitions; it is an encyclopedic exposition of a consensus position, not an argument for it. Open access, verified reachable."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Logical Consequence' — section 1, 'Deductive and Inductive Consequence', and section 4, 'Premises and Conclusions'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Logical Consequence', section 1, 'Deductive and Inductive Consequence', and section 4, 'Premises and Conclusions'",
          "url": "https://plato.stanford.edu/entries/logical-consequence/",
          "note": "Section 1 contrasts deductive consequence, which cannot be defeated by added premises, with inductive consequence, which can be, and that contrast explains why an enthymeme's suppressed premise is so consequential. Section 4 examines what counts as a premise and whether an argument can have inconsistent premises. For the formal machinery read section 3 on the model-theoretic account, which is where the counterexample-interpretation test comes from."
         },
@@ -74,7 +74,7 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Fallacies' — section 1, 'The core fallacies', section 3.2, 'Doubts about fallacies', section 4.2, 'The appearance condition', and section 4.4, 'Biases'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Fallacies', section 1, 'The core fallacies', section 3.2, 'Doubts about fallacies', section 4.2, 'The appearance condition', and section 4.4, 'Biases'",
          "url": "https://plato.stanford.edu/entries/fallacies/",
          "note": "Section 1 gives the working definition, the Copi lineage, and the straw man example used in this lesson; section 3.2 contains the Finocchiaro doubts and his alternative treatment of fallaciousness; section 4.2 sets out the appearance condition and the frequency alternative; section 4.4 discusses motivated irrationality. Read sections 3.2 and 4.2 together, since the lesson's argument depends on the contrast between them. Open access; verified as serving the article body, not a placeholder."
         },
@@ -84,7 +84,7 @@
          "note": "A fuller inventory of named fallacies with examples, useful precisely because it exhibits the list-based approach this lesson asks you to evaluate. Classify its entries as formal errors, context-dependent moves, and historical curiosities, and note which of them you have actually seen in argument. Open access, verified reachable."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Argument and Argumentation' — section 2.5, 'Fallacies'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Argument and Argumentation', section 2.5, 'Fallacies'",
          "url": "https://plato.stanford.edu/entries/argument/",
          "note": "Places fallacies within a broader theory of argumentation, which helps you see why fallacy-hunting is a narrow substitute for reasoning about arguments. Read it after the fallacies entry for a wider frame on what argumentation is for."
         }
@@ -121,12 +121,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Thought Experiments' — section 1, 'Important Characteristics of Thought Experiments', section 4.1, 'The Skeptical Objection', section 4.2, 'The Intuition-Based Account', section 4.3, 'The Argument View', section 4.4, 'Conceptual Constructivism', and section 4.5, 'Experimentalism'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Thought Experiments', section 1, 'Important Characteristics of Thought Experiments', section 4.1, 'The Skeptical Objection', section 4.2, 'The Intuition-Based Account', section 4.3, 'The Argument View', section 4.4, 'Conceptual Constructivism', and section 4.5, 'Experimentalism'",
          "url": "https://plato.stanford.edu/entries/thought-experiment/",
          "note": "Section 4.1 contains Duhem's objection, the caveat that Buzzoni contests the standard reading of it, and the point that scientific thought experiments cannot always be physically tested. Section 4.2 gives Brown's account and the Galileo falling-bodies example quoted in this lesson; 4.3 gives Norton's argument view; 4.4 Kuhn's conceptual constructivism; 4.5 Mach's experimentalism. Read 4.2 and 4.3 as a pair, since the lesson's verdict depends on their disagreement. Verified as serving the article body."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Intuition' — section 2.1, 'Philosophical and Non-Philosophical Uses of Intuitions', and section 2.2, 'The Method of Cases'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Intuition', section 2.1, 'Philosophical and Non-Philosophical Uses of Intuitions', and section 2.2, 'The Method of Cases'",
          "url": "https://plato.stanford.edu/entries/intuition/",
          "note": "Section 2.2 examines the method of cases, which is the procedure a thought-experiment-based argument relies on, and it sets out the standard objections to using intuitions as evidence. Read it to place this lesson's scepticism about intuition in its broader context. Verified reachable and serving the article body."
         }
@@ -164,12 +164,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Other Minds' — section 1.1, 'The Argument from Analogy', section 1.2, 'Best Explanation', section 1.3, 'Criteria', section 2, 'The Conceptual Problem of Other Minds', and section 3.1, 'Theory-Theory and Simulation Theory'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Other Minds', section 1.1, 'The Argument from Analogy', section 1.2, 'Best Explanation', section 1.3, 'Criteria', section 2, 'The Conceptual Problem of Other Minds', and section 3.1, 'Theory-Theory and Simulation Theory'",
          "url": "https://plato.stanford.edu/entries/other-minds/",
          "note": "Section 1.1 gives Mill's statement of the argument from analogy and the mid-century framing of the problem around solipsism; 1.2 gives Pargetter's case for best explanation, Hyslop's contrary insistence on one's own case, and Chalmers's remark; 1.3 sets out the criteria/symptom contrast with the Wittgenstein references; 2 draws the conceptual problem apart from the epistemological one; 3.1 covers the naturalist turn. Verified as serving the article body."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Analogy and Analogical Reasoning' — section 2.2, 'Characterization', and section 3, 'Criteria for evaluating analogical arguments'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Analogy and Analogical Reasoning', section 2.2, 'Characterization', and section 3, 'Criteria for evaluating analogical arguments'",
          "url": "https://plato.stanford.edu/entries/reasoning-analogy/",
          "note": "Section 2.2 specifies what an analogical argument is, and section 3 gives the criteria for evaluating one, including the relevance of the shared features and the strength of the disanalogies. Use these criteria to make the single-case objection to the argument from analogy precise rather than merely gestural. Verified as serving the article body."
         }
@@ -207,17 +207,17 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Epistemological Problems of Testimony' — section 1.1, 'Reductionism', section 1.2, 'Non-Reductionism', and section 5, 'Authoritative Testimony'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Epistemological Problems of Testimony', section 1.1, 'Reductionism', section 1.2, 'Non-Reductionism', and section 5, 'Authoritative Testimony'",
          "url": "https://plato.stanford.edu/entries/testimony-episprob/",
          "note": "Section 1.1 states the Positive Reasons requirement, its Humean ancestry, and the gullibility motivation; 1.2 states the Presumptive Right, its Reid ancestry, and the defeater-sensitivity refinement; 5 sets out the layman/epistemic-authority contrast and the preemptive versus non-preemptive accounts. Read sections 1.1 and 1.2 as a direct pair. Verified as serving the article body."
         },
         {
-         "title": "Internet Encyclopedia of Philosophy, 'Epistemology of Testimony' — section 2, 'Recipient (S)-Side Questions', subsections b and c",
+         "title": "Internet Encyclopedia of Philosophy, 'Epistemology of Testimony', section 2, 'Recipient (S)-Side Questions', subsections b and c",
          "url": "https://iep.utm.edu/ep-testi/",
          "note": "Subsection b collects the arguments in favour of imposing demands on testimonially-based beliefs and subsection c the arguments against, which is a compact way to see the shape of the exchange. The entry also distinguishes recipient-side from testifier-side questions, which is useful for keeping the knowledge-transmission problem separate from the justification problem. Verified reachable."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Trust' — section 1, 'The Nature of Trust and Trustworthiness', and section 2, 'The Epistemology of Trust'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Trust': section 1, 'The Nature of Trust and Trustworthiness', and section 2, 'The Epistemology of Trust'",
          "url": "https://plato.stanford.edu/entries/trust/",
          "note": "Section 1 distinguishes motives-based from non-motives-based theories of trust, which matters because trusting a person is not the same as relying on a source; section 2 covers the epistemology of trust, including the contrast between truth-directed and end-directed rationality. Read after the testimony entry to separate the interpersonal question from the epistemic one."
         }
@@ -314,22 +314,22 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'The Ethics of Belief' — section 1.2, 'The ethics of belief before the 19th-century', section 2.1, 'Kinds of norms: prudential, moral, epistemic', section 4.1, 'Strict vs. moderate', and section 6.1, 'Practical non-evidentialism'",
+         "title": "Stanford Encyclopedia of Philosophy, 'The Ethics of Belief', section 1.2, 'The ethics of belief before the 19th-century', section 2.1, 'Kinds of norms: prudential, moral, epistemic', section 4.1, 'Strict vs. moderate', and section 6.1, 'Practical non-evidentialism'",
          "url": "https://plato.stanford.edu/entries/ethics-belief/",
          "note": "Section 2.1 supplies the three-kind norm framework this lesson uses; 4.1 draws the strict/moderate distinction that makes the manager case tractable; 6.1 is where James's practical argument is placed, so read it to see why the prudential and epistemic readings of the will to believe come apart. Open access; verified as serving the article body."
         },
         {
-         "title": "W. K. Clifford, 'The Ethics of Belief' (1877), full text at Wikisource — part I, 'The Duty of Inquiry'",
+         "title": "W. K. Clifford, 'The Ethics of Belief' (1877), full text at Wikisource, part I, 'The Duty of Inquiry'",
          "url": "https://en.wikisource.org/wiki/The_Ethics_of_Belief",
          "note": "Read part I for the shipowner case in Clifford's own words, including the stipulation that the shipowner's guilt would not have been removed had the ship arrived safely, and for the summary sentence about believing on insufficient evidence quoted in this lesson. The text is public domain. Verified: the body contains the shipowner opening and the summary sentence."
         },
         {
-         "title": "William James, 'The Will to Believe' (1896), Project Gutenberg e-text — the sections defining the genuine option and stating the thesis",
+         "title": "William James, 'The Will to Believe' (1896), Project Gutenberg e-text, the sections defining the genuine option and stating the thesis",
          "url": "https://www.gutenberg.org/files/26659/26659-h/26659-h.htm",
          "note": "Read the passage distinguishing living from dead, forced from avoidable, and momentous from trivial options, and the thesis sentence in which James says the passional nature must decide a genuine option that cannot be decided on intellectual grounds. Read also his own concession about audiences whose weakness is believing too readily, which bounds the licence. Verified: the text contains the genuine-option definition and the thesis sentence."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'William James' — the sections on the will to believe and on pragmatism",
+         "title": "Stanford Encyclopedia of Philosophy, 'William James', the sections on the will to believe and on pragmatism",
          "url": "https://plato.stanford.edu/entries/james/",
          "note": "Places the lecture in James's wider programme, which matters because the will to believe is a pragmatic argument about when a question is worth deciding rather than a general licence for belief. Verified reachable and serving the article body."
         }
@@ -367,12 +367,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Sorites Paradox' — section 2, 'Different Formulations of the Paradox', section 3.2, 'The Epistemic Theory', section 3.3, 'Semantic Approaches', and section 5, 'Philosophical Lessons'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Sorites Paradox', section 2, 'Different Formulations of the Paradox', section 3.2, 'The Epistemic Theory', section 3.3, 'Semantic Approaches', and section 5, 'Philosophical Lessons'",
          "url": "https://plato.stanford.edu/entries/sorites-paradox/",
          "note": "Section 2 states the three conditions for a sorites series, including the tolerance property attributed to Wright, which is the framework this lesson uses; 3.2 gives the epistemicist response with its lineage and Williamson's supervenience-on-use point; 3.3 sets out the semantic family and the truth-value-gap picture of borderline cases; 5 draws the lessons about meaning as use, the truth schema, and referential indeterminacy. Verified as serving the article body."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Vagueness' — section 1, 'Inquiry Resistance', section 2, 'Comparison with Ambiguity and Generality', section 5, 'Supervaluationism', and section 7, 'Contextualism'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Vagueness', section 1, 'Inquiry Resistance', section 2, 'Comparison with Ambiguity and Generality', section 5, 'Supervaluationism', and section 7, 'Contextualism'",
          "url": "https://plato.stanford.edu/entries/vagueness/",
          "note": "Section 1 supplies the inquiry-resistance criterion used in the triage example to distinguish vagueness from ignorance; section 2 supplies the ambiguity and generality contrasts used in the secondExample, and is the most practically useful section for diagnosing terms; 5 and 7 give the two semantic approaches named above. Verified as serving the article body."
         }
@@ -412,12 +412,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Probabilistic Causation' — section 2.1, 'Probability-raising and Conditional Probability', section 2.2, 'Screening off', section 2.3, 'The Common Cause Principle', section 2.4, \"Simpson's Paradox and Background Contexts\", and section 3.6, 'Interventions'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Probabilistic Causation', section 2.1, 'Probability-raising and Conditional Probability', section 2.2, 'Screening off', section 2.3, 'The Common Cause Principle', section 2.4, \"Simpson's Paradox and Background Contexts\", and section 3.6, 'Interventions'",
          "url": "https://plato.stanford.edu/entries/causation-probabilistic/",
          "note": "Section 2.1 gives the two equivalent formulations of probability raising and names which authors used which; 2.2 introduces Reichenbach's screening off from The Direction of Time; 2.3 states the common cause principle and the conjunctive fork; 2.4 gives the smoking, residence, and lung cancer illustration whose arithmetic this lesson reproduces; 3.6 explains interventions as the ingredient that licenses causal inference. Verified as serving the article body."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'The Metaphysics of Causation' — section 2, 'Type Causation', including 2.2, 'Net and Component Effects'",
+         "title": "Stanford Encyclopedia of Philosophy, 'The Metaphysics of Causation', section 2, 'Type Causation', including 2.2, 'Net and Component Effects'",
          "url": "https://plato.stanford.edu/entries/causation-metaphysics/",
          "note": "Section 2 sets out the regularity and difference-making approaches to type causation and the distinction between net and component effects, which is the framework behind the aggregation problem in Simpson's paradox. Read it to see how the questions in this lesson are treated as metaphysics rather than statistics."
         },
@@ -461,12 +461,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, '20th Century Theories of Scientific Explanation' — section 2.1, 'The Basic Idea', section 2.4, 'Motivation for the DN Model: Nomic Expectability and a Regularity Account of Causation', section 2.5, 'Explanatory Understanding and Nomic Expectability: Counterexamples to Sufficiency', and section 5, 'A Unificationist Account of Explanation'",
+         "title": "Stanford Encyclopedia of Philosophy, '20th Century Theories of Scientific Explanation', section 2.1, 'The Basic Idea', section 2.4, 'Motivation for the DN Model: Nomic Expectability and a Regularity Account of Causation', section 2.5, 'Explanatory Understanding and Nomic Expectability: Counterexamples to Sufficiency', and section 5, 'A Unificationist Account of Explanation'",
          "url": "https://plato.stanford.edu/entries/scientific-explanation-20th/",
          "note": "This is the current title of the entry that was formerly published as 'Scientific Explanation', and the old URL now serves a document-retired notice pointing here, so cite this one. Section 2.4 gives the motivation for the deductive-nomological model and the nomic-expectability idea; 2.5 contains the flagpole and shadow asymmetry used in this lesson and the counterexamples to sufficiency; 5 sets out the unificationist alternative and the criticism it faces. Verified as serving the article body."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Mechanisms in Science' — section 2.1, 'Depicting Mechanisms', section 3.3, 'Purely Phenomenal Models', section 3.6, 'Intelligibility', and section 5.1, 'Mechanisms Are Defined Relative to Phenomena'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Mechanisms in Science', section 2.1, 'Depicting Mechanisms', section 3.3, 'Purely Phenomenal Models', section 3.6, 'Intelligibility', and section 5.1, 'Mechanisms Are Defined Relative to Phenomena'",
          "url": "https://plato.stanford.edu/entries/science-mechanisms/",
          "note": "Section 2.1 defines a mechanism in terms of components, activities, and organisation; 3.3 draws the contrast with purely phenomenal models that a good predictor may resemble; 3.6 discusses intelligibility, which is the notion this lesson treats as the payoff of mechanistic understanding; 5.1 supplies the point that mechanisms and their boundaries are defined relative to the phenomenon, which limits how far a mechanism claim travels. Verified as serving the article body."
         }
@@ -504,17 +504,17 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Argument and Argumentation' — section 2.5, 'Fallacies', section 3.1, 'Adversarial and cooperative argumentation', and section 5.1, 'Argumentative injustice and virtuous argumentation'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Argument and Argumentation', section 2.5, 'Fallacies', section 3.1, 'Adversarial and cooperative argumentation', and section 5.1, 'Argumentative injustice and virtuous argumentation'",
          "url": "https://plato.stanford.edu/entries/argument/",
          "note": "Section 3.1 separates the descriptive question about how argumentation is conducted from the normative question about how it should be, and names Moulton and Gilbert among critics of adversarial practice; 5.1 explains argumentative injustice and its relation to testimonial injustice, which is where this capstone connects to lesson 87; 2.5 situates fallacies within a wider theory of argumentation. Verified as serving the article body."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Fallacies' — section 1, 'The core fallacies' (the straw man passage), and section 4.2, 'The appearance condition'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Fallacies', section 1, 'The core fallacies' (the straw man passage), and section 4.2, 'The appearance condition'",
          "url": "https://plato.stanford.edu/entries/fallacies/",
          "note": "Section 1 contains the treatment of the straw man as a variation of ignoratio elenchi, with the industrialisation example discussed in this lesson and the point that the falsity of the substituted stronger claim does not establish the falsity of the original. Section 4.2 explains why the seductive appearance of a defective argument is what makes such moves effective, which is the mechanism the capstone method is designed to defeat. Verified as serving the article body."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, 'Donald Davidson' — section 3.3, 'Radical Interpretation'",
+         "title": "Stanford Encyclopedia of Philosophy, 'Donald Davidson', section 3.3, 'Radical Interpretation'",
          "url": "https://plato.stanford.edu/entries/davidson/",
          "note": "The principle of charity receives its most influential development here, as a constraint that makes interpretation possible rather than as a courtesy to the speaker. Read section 3.3 for the argument that interpretation must maximise agreement, and note that the constraint is on reading the words, not on conceding the dispute."
         }

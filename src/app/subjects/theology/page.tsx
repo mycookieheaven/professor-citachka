@@ -50,7 +50,7 @@ export default function TheologyStudyMapPage() {
         <section className="study-map" aria-labelledby="study-map-title">
           <p className="eyebrow">Your pathway</p>
           <h2 id="study-map-title">Study Map</h2>
-          <p>Each lesson names whether it is presenting Catholic doctrine, historical context, or philosophical reasoning—and invites careful retrieval rather than rote agreement.</p>
+          <p>Each lesson names whether it is presenting Catholic doctrine, historical context, or philosophical reasoning, and invites careful retrieval rather than rote agreement.</p>
           <ol>
             {lessons.map((lesson) => (
               <li key={lesson.number}>

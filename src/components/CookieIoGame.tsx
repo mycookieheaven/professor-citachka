@@ -22,7 +22,7 @@ import { cameraFor, paint } from "./cookie-io-paint";
 import styles from "./CookieIoGame.module.css";
 
 /*
- * cookie.io — the small window beside the homepage.
+ * cookie.io, the small window beside the homepage.
  *
  * Three decisions are worth stating, because they are the difference between a
  * game someone plays and a game someone closes:
@@ -254,7 +254,7 @@ export function CookieIoGame({
 
   const live =
     state === "over"
-      ? `${labels.over} — ${labels.score} ${hud.score}`
+      ? `${labels.over}, ${labels.score} ${hud.score}`
       : state === "paused"
         ? `${labels.paused}. ${labels.pausedHint}`
         : state === "playing"

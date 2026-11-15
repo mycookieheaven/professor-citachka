@@ -24,7 +24,7 @@ export default function LiteraturePage() {
         <h1>Literature</h1><ProgramPath subject="literature" />
         <p className="room-description">Read English-language classics with attention, confidence, and an ear for the voice telling the story. Begin with English novels; extend the conversation to an American classic.</p>
         <section className={styles.panel} aria-labelledby="orientation"><h2 id="orientation">Your first reading session</h2>
-          <p>Start with Jane Eyre, chapter 1. Read or listen for 15–20 minutes, pause, and recall three things without looking. Then choose one detail and explain what it suggests. Listening counts as reading; pair audio with print when you want to inspect a sentence.</p>
+          <p>Start with Jane Eyre, chapter 1. Read or listen for 15 to 20 minutes, pause, and recall three things without looking. Then choose one detail and explain what it suggests. Listening counts as reading; pair audio with print when you want to inspect a sentence.</p>
           <p>A sustainable week: two short reading sessions, one rereading session, and one paragraph of analysis. On a busy day, revisit one paragraph for five minutes. If the prose is difficult, shorten the passage rather than lowering the quality of your questions.</p>
           <p><strong>Available now:</strong> four opening-unit reading guides, worked examples, retrieval checks, and self-review models. These are not full chapter-by-chapter courses or complete book texts. Passing a guide’s check records a learning interaction, not completion of the novel or demonstrated mastery.</p>
         </section>

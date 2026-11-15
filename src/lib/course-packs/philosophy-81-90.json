@@ -26,22 +26,22 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Paul Ricoeur’ — section 5, ‘Narrative Identity and the Turn to Selfhood’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Paul Ricoeur’, section 5, ‘Narrative Identity and the Turn to Selfhood’",
          "url": "https://plato.stanford.edu/entries/ricoeur/",
          "note": "Section 5 is the canonical short exposition of narrative identity and of the idem/ipse distinction, and states how Ricoeur connects narrative to ethics and to memory. Read it for the claim that narrative mediates between sameness and selfhood; it is a source of a position, not a proof of it. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Memory’ — section 7, ‘The Self’ (7.1 Personal identity, 7.2 Autobiographical memory)",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Memory’: section 7, ‘The Self’ (7.1 Personal identity, 7.2 Autobiographical memory)",
          "url": "https://plato.stanford.edu/entries/memory/",
          "note": "Section 7 sets out how autobiographical memory relates to personal identity and why memory-based accounts must deal with reconstruction and distortion. Use 7.1 against the memory criterion from lesson 74 and 7.2 for the empirical pressure on self-narrative."
         },
         {
-         "title": "Galen Strawson, ‘Against Narrativity’ (Ratio, 2004) — author copy hosted by UC San Diego’s Laboratory of Comparative Human Cognition",
+         "title": "Galen Strawson, ‘Against Narrativity’ (Ratio, 2004), author copy hosted by UC San Diego’s Laboratory of Comparative Human Cognition",
          "url": "https://lchc.ucsd.edu/mca/Paper/against_narrativity.pdf",
-         "note": "Read the abstract and sections 1–2 for the descriptive denial that all experience is narrative, and the later sections for the ethical denial that we ought to live narratively. This is a course-hosted author copy rather than the publisher’s version of record; it is a polemic, so track which claims are empirical and which are conceptual."
+         "note": "Read the abstract and sections 1 to 2 for the descriptive denial that all experience is narrative, and the later sections for the ethical denial that we ought to live narratively. This is a course-hosted author copy rather than the publisher’s version of record; it is a polemic, so track which claims are empirical and which are conceptual."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Personal Identity and Ethics’ — sections 2 and 6",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Personal Identity and Ethics’, sections 2 and 6",
          "url": "https://plato.stanford.edu/entries/identity-ethics/",
          "note": "Section 2 covers the psychological view and section 6 the connection between identity and responsibility. Useful for seeing how a narrative or psychological criterion is supposed to cash out in claims about what we owe people across time."
         }
@@ -78,22 +78,22 @@
        },
        "readings": [
         {
-         "title": "David J. Chalmers, ‘Facing Up to the Problem of Consciousness’ — sections 2, 5, 6, and 7",
+         "title": "David J. Chalmers, ‘Facing Up to the Problem of Consciousness’, sections 2, 5, 6, and 7",
          "url": "https://consc.net/papers/facing.pdf",
          "note": "Section 2 draws the easy/hard distinction, section 5 argues that an extra ingredient is needed, section 6 discusses nonreductive explanation, and section 7 outlines the author’s own proposal. Read section 2 first and write out his definition of the hard problem verbatim from the text; the later sections are his constructive programme, which is more speculative than the statement of the problem. Author’s website, freely available."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Consciousness’ — section 5, ‘The explanatory question’ (5.2 the explanatory gap, 5.3 reductive and non-reductive explanation, 5.4 prospects of explanatory success)",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Consciousness’, section 5, ‘The explanatory question’ (5.2 the explanatory gap, 5.3 reductive and non-reductive explanation, 5.4 prospects of explanatory success)",
          "url": "https://plato.stanford.edu/entries/consciousness/",
          "note": "Section 5 supplies the neutral map of positions around the gap and is careful to distinguish an epistemic from a metaphysical reading. Use 5.4 to test your own verdict against the survey of prospects."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Qualia’ — section 10, ‘Illusionism about Qualia’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Qualia’: section 10, ‘Illusionism about Qualia’",
          "url": "https://plato.stanford.edu/entries/qualia/",
          "note": "Section 10 states the illusionist option and the objections it faces. Compare it with section 5 on the explanatory gap; the two sections together show the same data read in opposite directions."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Zombies’ — sections 3 and 4",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Zombies’, sections 3 and 4",
          "url": "https://plato.stanford.edu/entries/zombies/",
          "note": "Section 3 states the conceivability argument and section 4 collects the objections, including the phenomenal concept strategy. Read 4.1 and 4.2 together so that the argument and its strongest replies stay paired."
         }
@@ -102,7 +102,7 @@
         "title": "Easy problems, the hard problem, and the four responses",
         "description": "Show a functional description of a system on one side and the question of subjective experience on the other, then lay out how each position attempts to close or deny the distance between them.",
         "steps": [
-         "Easy problems: discrimination, integration, report, attention — each answered by specifying a mechanism that performs the function",
+         "Easy problems: discrimination, integration, report, attention, each answered by specifying a mechanism that performs the function",
          "Hard problem: why the performance of any such function is accompanied by something it is like to be the system",
          "Response A, fundamental-property programme: experience is basic, bridging principles relate it to physical structure",
          "Response B, Russellian monism or panpsychism: experience is the intrinsic nature of the physical, with a remaining combination problem",
@@ -130,17 +130,17 @@
        },
        "readings": [
         {
-         "title": "P. F. Strawson, ‘Freedom and Resentment’ (1962) — university course copy, 15 pages",
+         "title": "P. F. Strawson, ‘Freedom and Resentment’ (1962), university course copy, 15 pages",
          "url": "https://people.brandeis.edu/~teuber/P._F._Strawson_Freedom_&_Resentment.pdf",
          "note": "Read the opening pages for the optimist/pessimist/sceptic division, then the middle section that develops the reactive attitudes and the objective stance, and the closing pages for the discussion of the pessimist’s charge that optimism over-intellectualises the practice. This is a university course copy rather than the publisher’s version; the essay is the primary text, so disagreements with it should cite the passage rather than the summary in this lesson. If the link fails in your environment, the essay is reprinted in Strawson’s collection and in many anthologies."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Responsibility’ — section 2.2, ‘The Reactive Attitudes Approach’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Responsibility’, section 2.2, ‘The Reactive Attitudes Approach’",
          "url": "https://plato.stanford.edu/entries/moral-responsibility/",
          "note": "Section 2.2 situates Strawson’s approach among forward-looking and reasons-responsiveness accounts. Section 3.1 sets out the distinction between attributability and accountability, and section 3.4 covers standing to hold responsible, including cases of hypocrisy and complicity. Read 3.1 and 3.4 together with the second example in this lesson."
         },
         {
-         "title": "Internet Encyclopedia of Philosophy, ‘Free Will’ — section 2 and section 5c, ‘Strawson’s Reactive Attitudes’",
+         "title": "Internet Encyclopedia of Philosophy, ‘Free Will’, section 2 and section 5c, ‘Strawson’s Reactive Attitudes’",
          "url": "https://iep.utm.edu/freewill/",
          "note": "Section 2 catalogues accounts of the will, including the hierarchical and reasons-responsive models, while 5c summarises the reactive-attitudes strategy as an argument against incompatibilism. Useful as an independent second exposition: note where it presents Strawson as making an argument, since that reading is itself contested."
         }
@@ -177,17 +177,17 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Arguments for Incompatibilism’ — section 3.2, ‘Manipulation and Design Arguments’, and section 4, ‘Sourcehood Arguments’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Arguments for Incompatibilism’, section 3.2, ‘Manipulation and Design Arguments’, and section 4, ‘Sourcehood Arguments’",
          "url": "https://plato.stanford.edu/entries/incompatibilism-arguments/",
          "note": "Section 3.2 states the manipulation argument in the form this lesson uses and sets out the main types of reply; section 4 relates it to general sourcehood arguments. Read them together, since the manipulation argument is a sourcehood argument with an especially clear case built in."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Responsibility’ — section 3.9, ‘Personal History and Manipulation’, and section 3.8, ‘Ultimate Responsibility’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Responsibility’, section 3.9, ‘Personal History and Manipulation’, and section 3.8, ‘Ultimate Responsibility’",
          "url": "https://plato.stanford.edu/entries/moral-responsibility/",
          "note": "Section 3.9 covers manipulation cases and the compatibilist responses to them, and 3.8 covers the regress of responsibility for the origins of the self. Use 3.8 to test whether your own verdict requires an agent to be responsible for having been formed as she was."
         },
         {
-         "title": "Internet Encyclopedia of Philosophy, ‘Free Will’ — section 4, arguments for incompatibilism, especially the origination argument",
+         "title": "Internet Encyclopedia of Philosophy, ‘Free Will’, section 4, arguments for incompatibilism, especially the origination argument",
          "url": "https://iep.utm.edu/freewill/",
          "note": "Section 4 presents the consequence and origination arguments in a compact form. The origination argument is the general structure the manipulation cases instantiate, so read it for the abstract shape before returning to the particular cases."
         }
@@ -196,11 +196,11 @@
         "title": "The four-case slide and the two reply strategies",
         "description": "Show a single agent in four increasingly ordinary histories, mark the point at which the cases become indistinguishable in order to identify the argument’s hinge, and lay out the two available replies.",
         "steps": [
-         "Case 1: radical intervention on the moment of decision — non-responsibility agreed by most parties",
-         "Case 2: intervention at the origin of the agent’s character — non-responsibility claimed to transfer",
-         "Case 3: deliberate environmental design of upbringing — non-responsibility claimed to transfer",
-         "Case 4: ordinary social formation, no designer — the slide’s conclusion",
-         "Hinge: the parity premise, that no responsibility-relevant feature distinguishes cases 1–3 from case 4",
+         "Case 1: radical intervention on the moment of decision, non-responsibility agreed by most parties",
+         "Case 2: intervention at the origin of the agent’s character, non-responsibility claimed to transfer",
+         "Case 3: deliberate environmental design of upbringing, non-responsibility claimed to transfer",
+         "Case 4: ordinary social formation, no designer, the slide’s conclusion",
+         "Hinge: the parity premise, that no responsibility-relevant feature distinguishes cases 1 to 3 from case 4",
          "Reply A, soft-line: find a difference that lies in the agent, not in the designer",
          "Reply B, hard-line: keep the ordinary verdict and revise the judgment about the radical cases"
         ]
@@ -225,17 +225,17 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Reasons for Action: Internal vs. External’ — sections 1.1, 2.1, and 3.1–3.2",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Reasons for Action: Internal vs. External’, sections 1.1, 2.1, and 3.1 to 3.2",
          "url": "https://plato.stanford.edu/entries/reasons-internal-external/",
          "note": "Section 1.1 separates varieties of internalism so the labels do not blur, 2.1 states the motivational argument, and 3.1 and 3.2 present the extensional arguments on both sides. Section 2.4, on the conditional fallacy, is worth reading with the mechanism discussion in this lesson."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Practical Reason’ — sections 3, 4, and 5",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Practical Reason’, sections 3, 4, and 5",
          "url": "https://plato.stanford.edu/entries/practical-reason/",
          "note": "Section 3 covers reasons and motivation, section 4 instrumental and structural rationality, and section 5 the question of whether rationality requires maximising. Read section 4 to keep the structural/substantive distinction stable when you assess the second example."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Fitting-Attitude Theories’ — section 3.1, ‘The Wrong Kind of Reason Problem’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Fitting-Attitude Theories’, section 3.1, ‘The Wrong Kind of Reason Problem’",
          "url": "https://plato.stanford.edu/entries/fitting-attitude-theories/",
          "note": "This section formulates the wrong-kind-of-reason problem precisely, with the standard demon and reward cases. Use it rather than relying on the informal statement in this lesson, and note how the proposals designed to solve it differ."
         }
@@ -329,22 +329,22 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Desert’ — sections 1, 2, and 3",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Desert’: sections 1, 2, and 3",
          "url": "https://plato.stanford.edu/entries/desert/",
          "note": "Section 1 gives the structure of desert claims, section 2 distinguishes desert from merit and entitlement, and section 3 treats its role in distributive and retributive justice. Read section 1 first and use its vocabulary when you state a desert claim, since most confusions in this area come from leaving the desert base unspecified."
         },
         {
-         "title": "Internet Encyclopedia of Philosophy, ‘Desert’ — section 5, ‘Some Arguments against Desert’, especially 5a and 5b",
+         "title": "Internet Encyclopedia of Philosophy, ‘Desert’: section 5, ‘Some Arguments against Desert’, especially 5a and 5b",
          "url": "https://iep.utm.edu/desert/",
          "note": "Section 5a presents Rawls’s metaphysical argument and 5b the epistemological and pragmatic arguments. The distinction between the two is the answer to the retrieval question in this lesson, so read them as a pair and note what each concedes."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Equality’ — section 3.6, ‘Responsibility and Luck-Egalitarianism’, and section 4, ‘Relational Equality’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Equality’, section 3.6, ‘Responsibility and Luck-Egalitarianism’, and section 4, ‘Relational Equality’",
          "url": "https://plato.stanford.edu/entries/equality/",
          "note": "Section 3.6 states the responsibility-sensitive criterion and its variants; section 4 covers relational equality and the critiques of the distributive family. Sections 4 and 6.2 together let you see how relational equality differs from prioritarian and sufficientarian alternatives."
         },
         {
-         "title": "Elizabeth S. Anderson, ‘What Is the Point of Equality?’ (Ethics, 1999) — the critique of equality of fortune and the sections titled ‘The Ills of Luck Egalitarianism: A Diagnosis’ and ‘Equality in the Space of Freedom’",
+         "title": "Elizabeth S. Anderson, ‘What Is the Point of Equality?’ (Ethics, 1999), the critique of equality of fortune and the sections titled ‘The Ills of Luck Egalitarianism: A Diagnosis’ and ‘Equality in the Space of Freedom’",
          "url": "https://philosophy.rutgers.edu/joomlatools-files/docman-files/4ElizabethAnderson.pdf",
          "note": "Read the opening pages for the abandonment objections to luck egalitarianism, the diagnosis section for the option-set argument, and the later section for her positive democratic-equality alternative. This is a department-hosted scan of the published article beginning with a JSTOR notice page, so pagination differs from the journal; cite the article rather than the URL for paragraph references."
         }
@@ -381,17 +381,17 @@
        },
        "readings": [
         {
-         "title": "Internet Encyclopedia of Philosophy, ‘Epistemic Injustice’ — sections 1, 2, 6, and 8",
+         "title": "Internet Encyclopedia of Philosophy, ‘Epistemic Injustice’, sections 1, 2, 6, and 8",
          "url": "https://iep.utm.edu/epistemic-injustice/",
          "note": "Section 1 introduces the concept, 2 sets out testimonial injustice and its relation to social power, 6 covers hermeneutical injustice, and 8 collects extensions and challenges. Section 5, on the virtue of testimonial justice, is worth reading for the remedy; section 8 gives the objections a fair hearing."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Feminist Epistemology and Philosophy of Science’ — section 9, ‘Epistemic Authority, Epistemic Injustice, Epistemologies of Ignorance, and Virtue Epistemology’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Feminist Epistemology and Philosophy of Science’, section 9, ‘Epistemic Authority, Epistemic Injustice, Epistemologies of Ignorance, and Virtue Epistemology’",
          "url": "https://plato.stanford.edu/entries/feminism-epistemology/",
          "note": "Section 9 places Fricker’s framework among related accounts, including standpoint theory in section 2 and the epistemologies of ignorance. Read it to see the alternatives to an individual-virtue remedy."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Testimony’ — section 1, ‘Reductionism and Non-Reductionism’, and section 5, ‘Authoritative Testimony’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Testimony’, section 1, ‘Reductionism and Non-Reductionism’, and section 5, ‘Authoritative Testimony’",
          "url": "https://plato.stanford.edu/entries/testimony-episprob/",
          "note": "Section 1 states the default entitlement to believe testimony and the opposing reductionist view, which is the epistemological background the injustice literature modifies; section 5 discusses how authority affects uptake. Keep these separate from the moral question of whether a deficit is unjust."
         }
@@ -429,22 +429,22 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Political Legitimacy’ — sections 2.1–2.3 and 3.2",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Political Legitimacy’, sections 2.1 to 2.3 and 3.2",
          "url": "https://plato.stanford.edu/entries/legitimacy/",
          "note": "Section 2 separates descriptive and normative senses and shows how legitimacy relates to authority and obligation; section 3.2 covers public justification and participation as sources. Section 4.3 completes the democratic discussion and is useful for the institutional question."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Authority’ — sections 1.1, 1.2, and 2.4",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Authority’, sections 1.1, 1.2, and 2.4",
          "url": "https://plato.stanford.edu/entries/authority/",
          "note": "Section 1 clarifies the three concepts of political authority and the normative character of directives; section 2.4 presents instrumentalist justifications, which is where the service conception sits. Compare 2.5 and 2.6 for the consensus and democratic alternatives."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Democracy’ — section 3, ‘The Authority of Democracy’, especially 3.3, ‘Limits to the Authority of Democracy’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Democracy’, section 3, ‘The Authority of Democracy’, especially 3.3, ‘Limits to the Authority of Democracy’",
          "url": "https://plato.stanford.edu/entries/democracy/",
          "note": "Section 3 sets out instrumentalist and intrinsic conceptions of democratic authority and 3.3 states the limits. Section 4 on participation supplies the empirical background for the claim that a voice in rights questions has costs and benefits."
         },
         {
-         "title": "Jeremy Waldron, ‘The Core of the Case Against Judicial Review’ (Yale Law Journal, 2006) — university course copy",
+         "title": "Jeremy Waldron, ‘The Core of the Case Against Judicial Review’ (Yale Law Journal, 2006), university course copy",
          "url": "https://www.humanities.mcmaster.ca/~walucho/3Q3/Waldron.Core%20Case%20Judicial%20Review%20Yale%20LJ.pdf",
          "note": "Read the statement of the four conditions under which his argument applies, then the sections comparing legislative and judicial reasoning about rights. This is a large PDF hosted on a university course page rather than the journal site; look up the four conditions first and read selectively. The essay argues one side of a live dispute and should be paired with a response."
         }
@@ -482,17 +482,17 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Disagreement’ — section 4 and section 5, including 5.1 the equal weight view, 5.2 steadfast views, and 5.4 the total evidence view",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Disagreement’, section 4 and section 5, including 5.1 the equal weight view, 5.2 steadfast views, and 5.4 the total evidence view",
          "url": "https://plato.stanford.edu/entries/disagreement/",
          "note": "Section 4 distinguishes disagreement with peers from disagreement with superiors, inferiors, and unknowns, which is the condition this lesson requires you to check first. Section 5 gives the four views with their proponents; read 5.1 and 5.2 as a pair so the contrast in the retrieval question is sharp."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Epistemology’ — section 5, ‘Methodological: Epistemology Naturalized, Reflective Equilibrium, Rational Choice, and Pragmatic Naturalism’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Epistemology’, section 5, ‘Methodological: Epistemology Naturalized, Reflective Equilibrium, Rational Choice, and Pragmatic Naturalism’",
          "url": "https://plato.stanford.edu/entries/moral-epistemology/",
          "note": "Section 5 describes reflective equilibrium and its methodological alternatives. Read it for the difference between narrow and wide equilibrium and for the objections about whose considered judgements provide the inputs."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Evidence’ — sections 1 and 2",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Evidence’, sections 1 and 2",
          "url": "https://plato.stanford.edu/entries/evidence/",
          "note": "Section 1 gives the notion of evidence as that which justifies belief and section 2 the idea that a rational thinker responds to evidence. These are the object-level notions that higher-order evidence is evidence about, so keep the two levels distinct while reading."
         }
@@ -530,12 +530,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Ethics of Artificial Intelligence and Robotics’ — section 2.3, ‘Epistemic Issues: Opacity and Explainability’, and section 2.4, ‘Good Decisions: Fairness and Bias’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Ethics of Artificial Intelligence and Robotics’, section 2.3, ‘Epistemic Issues: Opacity and Explainability’, and section 2.4, ‘Good Decisions: Fairness and Bias’",
          "url": "https://plato.stanford.edu/entries/ethics-ai/",
          "note": "Sections 2.3 and 2.4 survey the opacity and fairness debates in the form this capstone assumes, and section 2.7 covers responsibility. Read 2.3 first, since most arguments that appeal to explainability are really arguments about contested senses of opacity."
         },
         {
-         "title": "Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan, ‘Inherent Trade-Offs in the Fair Determination of Risk Scores’ — arXiv preprint 1609.05807",
+         "title": "Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan, ‘Inherent Trade-Offs in the Fair Determination of Risk Scores’, arXiv preprint 1609.05807",
          "url": "https://arxiv.org/abs/1609.05807",
          "note": "This is the source of the trade-off result used in the arithmetic. Read the informal introduction and the statement of the impossibility conditions rather than the proofs. It is a preprint that was subsequently published in a theory venue, so cite the paper and note that the impossibility holds under stated assumptions about the predictor and the base rates."
         },
@@ -545,7 +545,7 @@
          "note": "Read both the investigation and its methodology page, then read a documented criticism of its analysis: the article’s central claims about disparate error rates were disputed by other researchers who argued that the instrument is calibrated. This is investigative journalism rather than peer-reviewed research, and the disagreement between the two analyses is itself the best illustration of the trade-off in the previous reading; treat none of the statistics as settled."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Computing and Moral Responsibility’ — section 1, ‘Challenges to Moral Responsibility’, and section 3, ‘Rethinking the Concept of Moral Responsibility’",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Computing and Moral Responsibility’, section 1, ‘Challenges to Moral Responsibility’, and section 3, ‘Rethinking the Concept of Moral Responsibility’",
          "url": "https://plato.stanford.edu/entries/computing-responsibility/",
          "note": "Section 1 sets out the causal contribution, consequence-based, and freedom-based challenges to attributing responsibility in computing contexts, and section 3 covers assigning responsibility and responsibility as a practice. Read it alongside the responsibility-gap discussion in this lesson."
         },

@@ -26,13 +26,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 9.1 Timing of Cash Flows",
+                  "title": "OpenStax, Principles of Finance: 9.1 Timing of Cash Flows",
                   "url": "https://openstax.org/books/principles-finance/pages/9-1-timing-of-cash-flows",
                   "note": "Read 9.1 Timing of Cash Flows. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
                 }
               ],
               "visual": {
-                "title": "Discount dated cash flows before comparing choices — reasoning map",
+                "title": "Discount dated cash flows before comparing choices, reasoning map",
                 "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
                 "steps": [
                   "Identify the valuation date: time zero",
@@ -61,13 +61,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 16.2 Net Present Value (NPV) Method",
+                  "title": "OpenStax, Principles of Finance: 16.2 Net Present Value (NPV) Method",
                   "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method",
                   "note": "Read 16.2 Net Present Value (NPV) Method. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
                 }
               ],
               "visual": {
-                "title": "Net present value and the cost of an alternative — reasoning map",
+                "title": "Net present value and the cost of an alternative, reasoning map",
                 "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
                 "steps": [
                   "Today: pay $10,000",
@@ -96,18 +96,18 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 16.2 Net Present Value (NPV) Method — NPV Profile and discount-rate sensitivity",
+                  "title": "OpenStax, Principles of Finance: 16.2 Net Present Value (NPV) Method. NPV Profile and discount-rate sensitivity",
                   "url": "https://openstax.org/books/principles-finance/pages/16-2-net-present-value-npv-method",
-                  "note": "Read 16.2 Net Present Value (NPV) Method — NPV Profile and discount-rate sensitivity. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
+                  "note": "Read 16.2 Net Present Value (NPV) Method. NPV Profile and discount-rate sensitivity. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
                 },
                 {
-                  "title": "Federal Reserve education — Helen Fessenden, Jargon Alert: Real Interest Rate",
+                  "title": "Federal Reserve education. Helen Fessenden, Jargon Alert: Real Interest Rate",
                   "url": "https://www.federalreserveeducation.org/resources/readings/reading--jargon-alert-real-interest-rate.pdf",
                   "note": "Read the opening distinction between nominal interest and purchasing-power-adjusted interest, and the discussion of expected inflation in investment decisions. Free PDF; historical macroeconomic examples are not current-rate claims. The lesson derives and numerically checks its own discrete-compounding conversion."
                 }
               ],
               "visual": {
-                "title": "Keep nominal, real, and required returns consistent — reasoning map",
+                "title": "Keep nominal, real, and required returns consistent, reasoning map",
                 "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
                 "steps": [
                   "Nominal receipts plus nominal rate form one consistent model",
@@ -136,13 +136,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 16.3 Internal Rate of Return (IRR) Method — disadvantages and scale",
+                  "title": "OpenStax, Principles of Finance: 16.3 Internal Rate of Return (IRR) Method, disadvantages and scale",
                   "url": "https://openstax.org/books/principles-finance/pages/16-3-internal-rate-of-return-irr-method",
-                  "note": "Read 16.3 Internal Rate of Return (IRR) Method — disadvantages and scale. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
+                  "note": "Read 16.3 Internal Rate of Return (IRR) Method, disadvantages and scale. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
                 }
               ],
               "visual": {
-                "title": "When internal rate of return misranks projects — reasoning map",
+                "title": "When internal rate of return misranks projects, reasoning map",
                 "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
                 "steps": [
                   "A: $1,000 today → $1,400 in one year; IRR 40%",
@@ -171,13 +171,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 19.1 What Is Working Capital? — definitions and cash cycle",
+                  "title": "OpenStax, Principles of Finance: 19.1 What Is Working Capital?, definitions and cash cycle",
                   "url": "https://openstax.org/books/principles-finance/pages/19-1-what-is-working-capital",
-                  "note": "Read 19.1 What Is Working Capital? — definitions and cash cycle. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
+                  "note": "Read 19.1 What Is Working Capital?, definitions and cash cycle. This free university textbook supplies the underlying method; the scenarios, calculations, and assessment prompts here are original educational examples, not investment recommendations."
                 }
               ],
               "visual": {
-                "title": "Working capital: why profitable growth consumes cash — reasoning map",
+                "title": "Working capital: why profitable growth consumes cash, reasoning map",
                 "description": "A labeled text sequence showing the assumptions, computation, and interpretation of this lesson. Read in order; no information depends on color.",
                 "steps": [
                   "Inventory $18,000 + receivables $12,000 − payables $9,000",
@@ -263,13 +263,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 20.1 The Importance of Risk Management — uncertainty and cash-flow risk",
+                  "title": "OpenStax, Principles of Finance: 20.1 The Importance of Risk Management, uncertainty and cash-flow risk",
                   "url": "https://openstax.org/books/principles-finance/pages/20-1-the-importance-of-risk-management",
-                  "note": "Read 20.1 The Importance of Risk Management — uncertainty and cash-flow risk. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                  "note": "Read 20.1 The Importance of Risk Management, uncertainty and cash-flow risk. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
                 }
               ],
               "visual": {
-                "title": "Scenario distributions, break-even values, and uncertainty — reasoning map",
+                "title": "Scenario distributions, break-even values, and uncertainty, reasoning map",
                 "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
                 "steps": [
                   "Define mutually exclusive states and probabilities",
@@ -298,13 +298,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 15.2 Risk and Return to Multiple Assets — correlation and systematic risk",
+                  "title": "OpenStax, Principles of Finance: 15.2 Risk and Return to Multiple Assets, correlation and systematic risk",
                   "url": "https://openstax.org/books/principles-finance/pages/15-2-risk-and-return-to-multiple-assets",
-                  "note": "Read 15.2 Risk and Return to Multiple Assets — correlation and systematic risk. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                  "note": "Read 15.2 Risk and Return to Multiple Assets, correlation and systematic risk. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
                 }
               ],
               "visual": {
-                "title": "Quantify diversification with covariance and stress — reasoning map",
+                "title": "Quantify diversification with covariance and stress, reasoning map",
                 "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
                 "steps": [
                   "Weights: 50% A, 50% B; volatilities 20%, 10%",
@@ -333,13 +333,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 15.1 Risk and Return to an Individual Asset — measuring and averaging historical returns",
+                  "title": "OpenStax, Principles of Finance: 15.1 Risk and Return to an Individual Asset, measuring and averaging historical returns",
                   "url": "https://openstax.org/books/principles-finance/pages/15-1-risk-and-return-to-an-individual-asset",
-                  "note": "Read 15.1 Risk and Return to an Individual Asset — measuring and averaging historical returns. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                  "note": "Read 15.1 Risk and Return to an Individual Asset, measuring and averaging historical returns. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
                 }
               ],
               "visual": {
-                "title": "Compounded growth and the order of withdrawals — reasoning map",
+                "title": "Compounded growth and the order of withdrawals, reasoning map",
                 "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
                 "steps": [
                   "No flows: $100 × 1.20 × 0.80 = $96",
@@ -368,13 +368,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 17.1 The Concept of Capital Structure — debt, equity, and opportunity cost",
+                  "title": "OpenStax, Principles of Finance: 17.1 The Concept of Capital Structure, debt, equity, and opportunity cost",
                   "url": "https://openstax.org/books/principles-finance/pages/17-1-the-concept-of-capital-structure",
-                  "note": "Read 17.1 The Concept of Capital Structure — debt, equity, and opportunity cost. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                  "note": "Read 17.1 The Concept of Capital Structure, debt, equity, and opportunity cost. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
                 }
               ],
               "visual": {
-                "title": "Leverage, debt service, and refinancing dependence — reasoning map",
+                "title": "Leverage, debt service, and refinancing dependence, reasoning map",
                 "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
                 "steps": [
                   "$100,000 asset = $60,000 debt + $40,000 equity",
@@ -403,13 +403,13 @@
               },
               "readings": [
                 {
-                  "title": "OpenStax, Principles of Finance — 20.1 The Importance of Risk Management — size, timing, risk, and firm value",
+                  "title": "OpenStax, Principles of Finance: 20.1 The Importance of Risk Management, size, timing, risk, and firm value",
                   "url": "https://openstax.org/books/principles-finance/pages/20-1-the-importance-of-risk-management",
-                  "note": "Read 20.1 The Importance of Risk Management — size, timing, risk, and firm value. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
+                  "note": "Read 20.1 The Importance of Risk Management, size, timing, risk, and firm value. Use this free university textbook for the underlying concepts. All scenarios here are hypothetical, with original calculations and no promised outcomes."
                 }
               ],
               "visual": {
-                "title": "Build an auditable decision memo and a review rule — reasoning map",
+                "title": "Build an auditable decision memo and a review rule, reasoning map",
                 "description": "A labeled sequence connecting the scenario to its calculation and limitations. All relationships are expressed in text, independently of color.",
                 "steps": [
                   "Base NPV $308.39; disclose the forecast assumptions",

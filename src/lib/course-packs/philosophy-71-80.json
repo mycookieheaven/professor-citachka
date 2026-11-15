@@ -26,12 +26,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘The Analysis of Knowledge’ — sections 1 and 3",
+         "title": "Stanford Encyclopedia of Philosophy, ‘The Analysis of Knowledge’, sections 1 and 3",
          "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
          "note": "Section 1 states the justified-true-belief analysis condition by condition; section 3 presents Gettier-style counterexamples to the tripartite analysis and the no-false-lemma response. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘The Analysis of Knowledge’ — sections 4–5",
+         "title": "Stanford Encyclopedia of Philosophy, ‘The Analysis of Knowledge’, sections 4 to 5",
          "url": "https://plato.stanford.edu/entries/knowledge-analysis/",
          "note": "Sections 4 and 5 cover no-false-lemmas and the modal conditions (sensitivity, safety, relevant alternatives). The same page is reused deliberately: read it as a structured menu of competing repairs and note which the entry regards as unresolved."
         }
@@ -65,14 +65,14 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Foundationalist Theories of Epistemic Justification’ — sections 1–2 and 3.2",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Foundationalist Theories of Epistemic Justification’, sections 1 to 2 and 3.2",
          "url": "https://plato.stanford.edu/entries/justep-foundational/",
          "note": "Section 1 gives the regress argument for foundationalism, section 2 the classical analysis of basic justification, and section 3.2 presents the Sellarsian dilemma against it. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Coherentist Theories of Epistemic Justification’ — sections 1, 2, and 5",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Coherentist Theories of Epistemic Justification’, sections 1, 2, and 5",
          "url": "https://plato.stanford.edu/entries/justep-coherence/",
-         "note": "Sections 1–2 contrast coherentism with foundationalism and restate the regress problem; section 5 examines justification by coherence beginning from scratch, which is where the input and isolation objections are addressed. Open access."
+         "note": "Sections 1 to 2 contrast coherentism with foundationalism and restate the regress problem; section 5 examines justification by coherence beginning from scratch, which is where the input and isolation objections are addressed. Open access."
         }
        ],
        "visual": {
@@ -104,12 +104,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Skepticism’ — sections 2, 4, and 5",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Skepticism’, sections 2, 4, and 5",
          "url": "https://plato.stanford.edu/entries/skepticism/",
          "note": "Section 2 distinguishes basic forms of philosophical scepticism, section 4 sets out the closure-based argument for Cartesian scepticism and its premises, and section 5 explains contextualism as one diagnosis. Open access."
         },
         {
-         "title": "René Descartes, Meditations on First Philosophy, Meditations I–II (free modernized English translation, Early Modern Texts)",
+         "title": "René Descartes, Meditations on First Philosophy, Meditations I-II (free modernized English translation, Early Modern Texts)",
          "url": "https://www.earlymoderntexts.com/assets/pdfs/descartes1641.pdf",
          "note": "Read Meditation I for the deceiver hypothesis and the scope of hyperbolic doubt, and Meditation II for the cogito and the wax. This is Jonathan Bennett’s free modernized translation, not a critical scholarly edition, so its wording is simplified."
         }
@@ -143,7 +143,7 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Personal Identity’ — sections 3, 4, and 5",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Personal Identity’, sections 3, 4, and 5",
          "url": "https://plato.stanford.edu/entries/identity-personal/",
          "note": "Section 3 surveys accounts of our persistence, section 4 develops psychological-continuity views in detail, and section 5 presents fission and the questions it raises about what matters. Open access."
         },
@@ -182,12 +182,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Free Will’ — sections 2 and 3",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Free Will’, sections 2 and 3",
          "url": "https://plato.stanford.edu/entries/freewill/",
          "note": "Section 2 analyses the nature of free will, separating freedom to do otherwise from sourcehood accounts; section 3 surveys arguments against and for the reality of free will. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Compatibilism’ — sections 1, 3.1, and 4",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Compatibilism’, sections 1, 3.1, and 4",
          "url": "https://plato.stanford.edu/entries/compatibilism/",
          "note": "Section 1 introduces the causal-determinism problem and compatibilist replies, section 3.1 states the consequence argument, and section 4 covers contemporary compatibilism. Open access."
         },
@@ -268,7 +268,7 @@
       {
        "id": "76",
        "title": "The nature of mind: dualism, physicalism, and the explanatory gap",
-       "explanation": "The mind–body problem asks how mental phenomena relate to physical ones. Dualism says mind is not physical: substance dualism treats mind and body as two kinds of thing, while property dualism accepts one kind of substance but holds that some properties, notably conscious experience, are non-physical. Physicalism says everything, minds included, is physical or wholly constituted by the physical; it comes in reductive forms, which analyse mental states in physical or functional terms, and non-reductive forms, which allow mental properties to be real while denying they can be reduced. Functionalism, a widely held physicalist view, identifies a mental state by its causal role rather than its material substrate, so a state is a pain if it plays the pain role in the system’s economy of inputs, outputs, and other states. The dispute is not merely terminological. It turns on whether consciousness, the felt character of experience, can be captured by a description of structure and function, and each side has a characteristic argument. Dualists appeal to conceivability and to knowledge; physicalists appeal to the completeness of physical explanation and to the causal closure of the physical world.",
+       "explanation": "The mind-body problem asks how mental phenomena relate to physical ones. Dualism says mind is not physical: substance dualism treats mind and body as two kinds of thing, while property dualism accepts one kind of substance but holds that some properties, notably conscious experience, are non-physical. Physicalism says everything, minds included, is physical or wholly constituted by the physical; it comes in reductive forms, which analyse mental states in physical or functional terms, and non-reductive forms, which allow mental properties to be real while denying they can be reduced. Functionalism, a widely held physicalist view, identifies a mental state by its causal role rather than its material substrate, so a state is a pain if it plays the pain role in the system’s economy of inputs, outputs, and other states. The dispute is not merely terminological. It turns on whether consciousness, the felt character of experience, can be captured by a description of structure and function, and each side has a characteristic argument. Dualists appeal to conceivability and to knowledge; physicalists appeal to the completeness of physical explanation and to the causal closure of the physical world.",
        "example": "Frank Jackson’s knowledge argument is the clearest worked case. Mary is a colour scientist who has lived her whole life in a black-and-white room, and who knows every physical fact there is to know about colour vision: the wavelengths, the neurology, the behaviour. When she leaves the room and sees red for the first time, she learns something she did not know before. Premise one: before leaving, Mary knew all the physical facts. Premise two: after leaving, she learns a new fact. Premise three: if she learned a new fact, that fact was not among the physical facts. Conclusion: physicalism is false. The argument is valid; the dispute is whether premise two is true as stated. The ability hypothesis replies that Mary does not acquire a new propositional fact but a new ability, the ability to recognise, imagine, and remember red, and abilities are not facts. The acquaintance reply says she gains a new kind of cognitive contact with an old fact, a new mode of presentation rather than a new item in the world. Mary’s case therefore does genuine work: it forces physicalism to specify exactly what knowledge is, and it is unresolved which reply succeeds.",
        "question": "What do the ability hypothesis and the acquaintance reply have in common as responses to the knowledge argument?",
        "answer": "Both deny that Mary acquires a new physical-independent fact, treating her gain as an ability or a new mode of access to an old fact",
@@ -280,27 +280,27 @@
         "secondExample": "Contrast Mary’s case with a case of ordinary scientific discovery. Suppose a student learns for the first time that water is H2O. It is natural to say the student learns a new fact, but the fact is not a new item in the universe; it is an old fact about water which she did not previously grasp, and her gain is a new concept and a new mode of presenting the same substance. Physicalists extend this model: Mary learns the same physical fact under a new, phenomenal mode of presentation. The crucial question is whether the two cases are really alike. In the water case we can state the old fact in a way that makes the identity transparent once understood, whereas in the colour case there appears to be no description that closes the gap, and this asymmetry is exactly what property dualists press. The contrast therefore does not settle the issue but locates the precise point of disagreement: whether the phenomenal mode of presentation is a mode of access to a physical fact or evidence that there is a further fact to access.",
         "mistake": "Students often assume either that science has already shown the mind is the brain, full stop, or that dualism is obviously true because experience feels non-physical. Both are overconfident. Neuroscience has established extensive correlations, but correlation is not the same as an explanation of consciousness, and the hard problem is precisely the question of whether any such explanation is available in principle. A second mistake is to identify dualism with religious belief; the arguments are metaphysical and largely independent of theology, and there are non-religious property dualists. A third mistake is to think functionalism makes consciousness easy. Functionalism handles cognitive states well, which is why it is popular, but its treatment of the felt character of experience is exactly what critics call its hardest case, since a system could in principle implement the pain function without feeling anything on many accounts. A fourth mistake is to treat the explanatory gap as a proof that consciousness is non-physical; an explanatory gap is a fact about our understanding, and whether it corresponds to a gap in nature is the disputed question.",
         "application": "Nonblocking practice: a researcher can predict every behaviour of a model organism from its neural wiring, but says she still has no account of why its states feel like anything at all. State what position her remarks support and what she would need to show to refute physicalism. Model response: her remarks express the explanatory gap and are congenial to property dualism, but to refute physicalism she needs an argument that the phenomenal facts are not fixed by the physical facts, for instance a successful knowledge argument or a defensible zombie conceivability premise, not merely the observation that we cannot yet explain consciousness. Self-review rubric: (1) did you distinguish an epistemic gap from a metaphysical one? (2) did you state which argument would carry the burden, and what its weak premise is? (3) did you avoid claiming science has settled the question? For a serious objection, consider the physicist’s reply that failure to explain a phenomenon at a given time is poor evidence of its irreducibility, given the history of science.",
-        "summary": "The mind–body debate turns on whether consciousness can be captured by physical or functional description, and it is conducted with arguments whose structure you can now assess: conceivability, causal closure, and the knowledge argument. The mature posture is to state the strongest version of the opposing view before criticising it, and to say whether you are pressing an epistemic or a metaphysical point. Keep the explanatory gap distinct from a proof of dualism, and keep the interaction problem on the table for the dualist. The next lesson turns from what exists to what is true in ethics, where the same question of realism and its alternatives reappears."
+        "summary": "The mind-body debate turns on whether consciousness can be captured by physical or functional description, and it is conducted with arguments whose structure you can now assess: conceivability, causal closure, and the knowledge argument. The mature posture is to state the strongest version of the opposing view before criticising it, and to say whether you are pressing an epistemic or a metaphysical point. Keep the explanatory gap distinct from a proof of dualism, and keep the interaction problem on the table for the dualist. The next lesson turns from what exists to what is true in ethics, where the same question of realism and its alternatives reappears."
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Dualism’ — sections 3 and 4",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Dualism’, sections 3 and 4",
          "url": "https://plato.stanford.edu/entries/dualism/",
          "note": "Section 3 distinguishes varieties of dualism including substance, property, interactionism, and epiphenomenalism; section 4 surveys the arguments for dualism. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Physicalism’ — sections 2 and 3",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Physicalism’, sections 2 and 3",
          "url": "https://plato.stanford.edu/entries/physicalism/",
          "note": "Section 2 covers the completeness question and the supervenience and identity formulations; section 3 distinguishes reductive from non-reductive and a priori from a posteriori physicalism. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Qualia: The Knowledge Argument’ — sections 2, 3, and 4",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Qualia: The Knowledge Argument’, sections 2, 3, and 4",
          "url": "https://plato.stanford.edu/entries/qualia-knowledge/",
          "note": "Section 2 states the basic argument, section 3 clarifies its versions, and section 4 sets out the objections, including the ability hypothesis at 4.3 and the acquaintance hypothesis at 4.5. Open access."
         }
        ],
        "visual": {
-        "title": "The mind–body problem as two axes",
+        "title": "The mind-body problem as two axes",
         "description": "Place theories by whether they posit one or two kinds of substance and whether mental properties reduce to physical ones.",
         "steps": [
          "Substance dualism: mental and physical are distinct kinds of thing",
@@ -319,26 +319,26 @@
        "distractor": "Error theory denies that moral claims have meaning, while non-cognitivism holds that only some moral claims are false",
        "correction": "Error theory does not deny meaning and is a cognitivist position; the difference is at the semantic level, over whether moral sentences express beliefs. Non-cognitivism rejects the fact-stating reading altogether.",
        "depth": {
-        "definitions": "Cognitivism holds that moral judgements express beliefs and are truth-apt. Non-cognitivism holds that they express non-cognitive states such as approval, disapproval, or plans. Realism holds that moral truths are stance-independent, that is, they do not depend on what anyone approves or desires. Error theory is the cognitivist anti-realist view that moral claims have truth value and are systematically false. Expressivism is a non-cognitivist programme that explains moral language as the expression of attitudes, with quasi-realism added to legitimate talk of moral truth. Constructivism holds that moral truths are the output of a suitable procedure, for instance what agents would agree to under conditions of fairness. The Frege–Geach problem concerns how expressivism can handle moral vocabulary in embedded, unasserted contexts, such as conditionals. The open question argument, from Moore, argues that any naturalistic identification of goodness leaves open the question whether the natural property is good, which is used against naturalist realism. The is–ought gap concerns the move from descriptive premises to normative conclusions.",
-        "mechanism": "The structure of the dispute is best seen through what each view must explain. Any metaethical view owes an account of (i) moral language, including embedded uses in conditionals and negations; (ii) moral disagreement, which looks like disagreement about a matter of fact; (iii) moral knowledge or its absence; and (iv) the practicality of moral judgement, the way moral beliefs seem to move us to act. Non-cognitivism is attractive precisely on count (iv): if a moral judgement just is a species of desire-like state, the connection to motivation is immediate, whereas a belief that something is wrong seems to need a separate desire to explain why it moves you. Its difficulty is count (i), the Frege–Geach problem: ‘if lying is wrong, then getting your brother to lie is wrong’ does not express disapproval of lying, and a theory that treats the moral words as univocal owes an account of what they contribute in such contexts. Expressivists have developed sophisticated responses, and whether they succeed is contested. Realism is strong on counts (i) and (ii) and weak on (iv). Mackie’s queerness argument is strong against a naive realism that posits irreducibly action-guiding entities, which is why many realists prefer a naturalist or non-naturalist realism carefully defended. Legal and moral analogues help: a legal fact is stance-dependent but real, and arguing whether morality is more like law or more like arithmetic is one way to structure the issue.",
+        "definitions": "Cognitivism holds that moral judgements express beliefs and are truth-apt. Non-cognitivism holds that they express non-cognitive states such as approval, disapproval, or plans. Realism holds that moral truths are stance-independent, that is, they do not depend on what anyone approves or desires. Error theory is the cognitivist anti-realist view that moral claims have truth value and are systematically false. Expressivism is a non-cognitivist programme that explains moral language as the expression of attitudes, with quasi-realism added to legitimate talk of moral truth. Constructivism holds that moral truths are the output of a suitable procedure, for instance what agents would agree to under conditions of fairness. The Frege-Geach problem concerns how expressivism can handle moral vocabulary in embedded, unasserted contexts, such as conditionals. The open question argument, from Moore, argues that any naturalistic identification of goodness leaves open the question whether the natural property is good, which is used against naturalist realism. The is-ought gap concerns the move from descriptive premises to normative conclusions.",
+        "mechanism": "The structure of the dispute is best seen through what each view must explain. Any metaethical view owes an account of (i) moral language, including embedded uses in conditionals and negations; (ii) moral disagreement, which looks like disagreement about a matter of fact; (iii) moral knowledge or its absence; and (iv) the practicality of moral judgement, the way moral beliefs seem to move us to act. Non-cognitivism is attractive precisely on count (iv): if a moral judgement just is a species of desire-like state, the connection to motivation is immediate, whereas a belief that something is wrong seems to need a separate desire to explain why it moves you. Its difficulty is count (i), the Frege-Geach problem: ‘if lying is wrong, then getting your brother to lie is wrong’ does not express disapproval of lying, and a theory that treats the moral words as univocal owes an account of what they contribute in such contexts. Expressivists have developed sophisticated responses, and whether they succeed is contested. Realism is strong on counts (i) and (ii) and weak on (iv). Mackie’s queerness argument is strong against a naive realism that posits irreducibly action-guiding entities, which is why many realists prefer a naturalist or non-naturalist realism carefully defended. Legal and moral analogues help: a legal fact is stance-dependent but real, and arguing whether morality is more like law or more like arithmetic is one way to structure the issue.",
         "secondExample": "Contrast a robust realist account with a constructivist one on the same case, torture for amusement. The robust realist says the wrongness is a fact that holds independently of what anyone thinks, discovered by moral reflection much as one discovers a mathematical truth. The constructivist agrees the wrongness is objective, meaning that any agent reasoning under suitably fair conditions would reject the practice, but denies there is any fact that floats free of all practical reasoning, so wrongness is constituted by what such reasoning yields rather than tracked by it. The contrast is instructive because it shows that ‘objective’ and ‘mind-independent’ are not synonyms. The constructivist secures objectivity and universality without queerness, at the cost of explaining why the suitable conditions are the right ones; the robust realist secures the seeming independence of moral truth, at the cost of Mackie’s queerness challenge. Which picture fits the phenomenology and the metaphysics is contested, and the honest verdict is that neither has a decisive advantage at present.",
-        "mistake": "The commonest error is to run together non-cognitivism, subjectivism, and relativism, as if all three said morality is merely a matter of taste. They differ: a non-cognitivist can hold that moral attitudes are constrained by consistency, a constructivist can hold that moral truth is objective though procedurally constituted, and Mackie’s error theory denies that moral truth exists while retaining a robust moral psychology. A second error is to think realism implies dogmatism or moral certainty. Realism is a thesis about the status of moral claims, not about how confident we may be; a realist can be a fallibilist who thinks moral knowledge is hard. A third error is to treat the is–ought gap as showing that no descriptive premise can be relevant to a normative conclusion; the gap concerns entailment, not relevance, and descriptive facts plainly bear as evidence on what follows. A fourth error is to hear the queerness argument as merely anecdotal; it is an explanatory argument and must be met with an explanatory reply.",
+        "mistake": "The commonest error is to run together non-cognitivism, subjectivism, and relativism, as if all three said morality is merely a matter of taste. They differ: a non-cognitivist can hold that moral attitudes are constrained by consistency, a constructivist can hold that moral truth is objective though procedurally constituted, and Mackie’s error theory denies that moral truth exists while retaining a robust moral psychology. A second error is to think realism implies dogmatism or moral certainty. Realism is a thesis about the status of moral claims, not about how confident we may be; a realist can be a fallibilist who thinks moral knowledge is hard. A third error is to treat the is-ought gap as showing that no descriptive premise can be relevant to a normative conclusion; the gap concerns entailment, not relevance, and descriptive facts plainly bear as evidence on what follows. A fourth error is to hear the queerness argument as merely anecdotal; it is an explanatory argument and must be met with an explanatory reply.",
         "application": "Nonblocking practice: a colleague says that since moral views have changed over history, morality is just what people happen to believe. Identify the inference and evaluate it. Model response: the move is from observed variation to anti-realism, which is Mackie’s argument from relativity, but variation is equally compatible with realism if moral error is common and knowledge is hard; the argument needs the further premise that realism would predict convergence, which itself needs defence. Self-review rubric: (1) did you name which metaethical thesis is at stake? (2) did you state the missing premise explicitly? (3) did you give the realist’s best reply before judging? For a serious objection, consider whether an error theory can explain the intensity of moral commitment better than a constructivism that treats it as constrained but invented.",
-        "summary": "Metaethics separates two questions: whether moral claims are truth-apt, and whether there are stance-independent moral facts. Realism, error theory, non-cognitivism, and constructivism answer the pair differently and each faces a specific explanatory burden, from the Frege–Geach problem to the queerness challenge. Retain the habit of separating the semantic, metaphysical, and motivational strands rather than collapsing them under the word ‘subjective’. These same tools now bear on the political question of what we owe to a state that claims our obedience, since claims of justice inherit the metaethical stakes of moral truth."
+        "summary": "Metaethics separates two questions: whether moral claims are truth-apt, and whether there are stance-independent moral facts. Realism, error theory, non-cognitivism, and constructivism answer the pair differently and each faces a specific explanatory burden, from the Frege-Geach problem to the queerness challenge. Retain the habit of separating the semantic, metaphysical, and motivational strands rather than collapsing them under the word ‘subjective’. These same tools now bear on the political question of what we owe to a state that claims our obedience, since claims of justice inherit the metaethical stakes of moral truth."
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Realism’ — sections 1, 3, and 6",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Realism’, sections 1, 3, and 6",
          "url": "https://plato.stanford.edu/entries/moral-realism/",
          "note": "Section 1 uses moral disagreement to frame the issue, section 3 examines the metaphysics of moral facts, and section 6 discusses semantic questions. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Anti-Realism’ — sections 1 and 3",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Anti-Realism’, sections 1 and 3",
          "url": "https://plato.stanford.edu/entries/moral-anti-realism/",
          "note": "Section 1 characterises anti-realism and section 3.2 develops error theory, with section 3.1 on noncognitivism. Read this alongside the realism entry for the opposing case. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Cognitivism vs. Non-Cognitivism’ — sections 2 and 3.1",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Moral Cognitivism vs. Non-Cognitivism’, sections 2 and 3.1",
          "url": "https://plato.stanford.edu/entries/moral-cognitivism/",
          "note": "Section 2 details varieties of non-cognitivism including emotivism, prescriptivism, and expressivism; section 3.1 presents the open question argument as a motivation. Open access."
         }
@@ -372,12 +372,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Political Obligation’ — sections 2, 3.1, and 4",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Political Obligation’, sections 2, 3.1, and 4",
          "url": "https://plato.stanford.edu/entries/political-obligation/",
          "note": "Section 2 works through the conceptual distinctions between obligation and duty, political and legal; section 3.1 states philosophical anarchism; section 4 surveys contemporary theories of obligation. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Political Obligation’ — sections 1.3, 1.5, and 3.2",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Political Obligation’, sections 1.3, 1.5, and 3.2",
          "url": "https://plato.stanford.edu/entries/political-obligation/",
          "note": "Read the same entry at 1.3 on the social contract and 1.5 on Kant’s account of legitimacy and obligation for the historical roots of the natural duty view, then 3.2 for replies to philosophical anarchism."
         }
@@ -388,7 +388,7 @@
         "steps": [
          "Is this state legitimate, with standing to coerce and enforce?",
          "Is this particular law just?",
-         "Does this person have a particular moral duty to obey because it is the law? — the particularity problem lives here"
+         "Does this person have a particular moral duty to obey because it is the law?, the particularity problem lives here"
         ]
        }
       },
@@ -411,12 +411,12 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Argument and Argumentation’ — sections 1 and 2",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Argument and Argumentation’, sections 1 and 2",
          "url": "https://plato.stanford.edu/entries/argument/",
          "note": "Section 1 clarifies terminology and section 2 distinguishes deduction, induction, abduction, and analogy, with fallacies at 2.5. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Informal Logic’ — section 3",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Informal Logic’, section 3",
          "url": "https://plato.stanford.edu/entries/logic-informal/",
          "note": "Section 3 covers standardising arguments, including implicit premises and conclusions at 3.1 and the diagramming or tabulation of components at 3.2. Open access."
         }
@@ -450,17 +450,17 @@
        },
        "readings": [
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Fallacies’ — sections 1 and 3",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Fallacies’, sections 1 and 3",
          "url": "https://plato.stanford.edu/entries/fallacies/",
          "note": "Section 1 surveys the core fallacies with their definitions and caveats, and section 3 examines new approaches that treat fallacies as context-sensitive. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Informal Logic’ — section 4",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Informal Logic’, section 4",
          "url": "https://plato.stanford.edu/entries/logic-informal/",
          "note": "Section 4 covers testing arguments, which supplies the procedural counterpart to the fallacy catalogue. Read it as the method for converting a criticism into a testable claim. Open access."
         },
         {
-         "title": "Stanford Encyclopedia of Philosophy, ‘Argument and Argumentation’ — section 2.5",
+         "title": "Stanford Encyclopedia of Philosophy, ‘Argument and Argumentation’, section 2.5",
          "url": "https://plato.stanford.edu/entries/argument/",
          "note": "Section 2.5 places fallacies within the taxonomy of argument types, which helps keep the fallacy label subordinate to the analysis of the inference. Open access."
         }
