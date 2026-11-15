@@ -59,8 +59,22 @@ describe("gallery reader", () => {
     expect(srcs.some((src) => src.endsWith(".gitkeep"))).toBe(false);
   });
 
-  it("returns nothing for a gallery that does not exist yet", () => {
-    expect(readGallery("photography")).toEqual([]);
+  it("returns nothing for a gallery whose folder is not there yet", () => {
+    // public/photography holds real photographs now, so the missing-folder case
+    // is simulated rather than found. Without this guard a folder the reader
+    // could not see would look exactly like a working one with nothing in it.
+    const exists = vi.spyOn(fs, "existsSync").mockReturnValue(false);
+    try {
+      expect(readGallery("photography")).toEqual([]);
+    } finally {
+      exists.mockRestore();
+    }
+  });
+
+  it("never leaves a photograph unlabelled", () => {
+    for (const image of readGallery("photography")) {
+      expect(image.alt.trim().length).toBeGreaterThan(0);
+    }
   });
 
   it("only reports a portrait when a portrait file is actually present", () => {

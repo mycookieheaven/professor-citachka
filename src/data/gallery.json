@@ -1,5 +1,246 @@
 {
   "_instructions": "Optional wording for images in public/art and public/photography. Key each entry by the exact filename. Anything you leave out still appears on the page, captioned from its filename. 'alt' is what a screen reader announces, so describe what is in the image; 'caption' is the line shown underneath.",
   "art": {},
-  "photography": {}
+  "photography": {
+    "01-night-traffic-in-fog.jpg": {
+      "title": "Night Traffic in Fog",
+      "alt": "A city street at night swallowed by fog, with traffic lights glowing green and red through the haze and their reflections smeared across the wet asphalt.",
+      "caption": "The fog eats the avenue two blocks out."
+    },
+    "02-rain-blurred-canyon.jpg": {
+      "title": "Rain-Blurred Canyon",
+      "alt": "A rain-soaked street between tall buildings seen from inside a car, headlights and red tail lights streaked into long reflections on the wet road.",
+      "caption": "Nothing is in focus and that is the point."
+    },
+    "03-pink-neon-wet-street.jpg": {
+      "title": "Pink Neon, Wet Street",
+      "alt": "A midtown street at night with a pink and red neon sign glowing over the pavement, tall buildings closing in above and the wet road carrying the colour back.",
+      "caption": ""
+    },
+    "04-castle-in-green-light.jpg": {
+      "title": "Castle in Green Light",
+      "alt": "A crenellated red-brick building lit with bright green light along every edge at night, bare winter trees standing in front of it and the green glow receding down the wet street.",
+      "caption": "Snow on the ground, green on the walls."
+    },
+    "05-looking-up-into-fog.jpg": {
+      "title": "Looking Up Into Fog",
+      "alt": "A steep upward view of city skyscrapers at night, purple and magenta signage glowing on the facades and the tops of the towers disappearing into low cloud.",
+      "caption": ""
+    },
+    "06-green-light-yellow-cab.jpg": {
+      "title": "Green Light, Yellow Cab",
+      "alt": "A narrow night street walled in by towers with tall green light panels down one side, a yellow taxi and dark cars stopped in the lane ahead on the wet road.",
+      "caption": ""
+    },
+    "07-neon-and-rain.jpg": {
+      "title": "Neon and Rain",
+      "alt": "A night street lined with green vertical neon over a yellow taxi and traffic, raindrops beaded across the lens and the wet road doubling every light.",
+      "caption": "Rain on the lens, green down the block."
+    },
+    "08-screening-time.jpg": {
+      "title": "Screening Time",
+      "alt": "A wet night street beneath a tall billboard reading Screening Time, a yellow Sienna taxi and dark cars stopped ahead, and a rain-covered side mirror in the foreground.",
+      "caption": ""
+    },
+    "09-fire-escape-and-citi-bikes.jpg": {
+      "title": "Fire Escape and Citi Bikes",
+      "alt": "A brick tenement at night with black fire escapes and window air conditioners above a warmly lit restaurant awning, blue Citi Bikes docked along the wet sidewalk in front.",
+      "caption": ""
+    },
+    "10-red-script-neon.jpg": {
+      "title": "Red Script Neon",
+      "alt": "A red neon sign in flowing script mounted on a dark brick wall, with warm pendant bulbs hanging beside it in the shadows.",
+      "caption": ""
+    },
+    "11-walls-of-photographs.jpg": {
+      "title": "Walls of Photographs",
+      "alt": "The interior of a warmly lit bar whose brick walls are papered edge to edge with old photographs above dark banquette seating.",
+      "caption": ""
+    },
+    "12-red-carpet-entrance.jpg": {
+      "title": "Red Carpet Entrance",
+      "alt": "A storefront at night with a red neon sign and a blue-lit awning, a red mat on the pavement and the interior glowing behind the glass.",
+      "caption": ""
+    },
+    "13-golden-arches-at-night.jpg": {
+      "title": "Golden Arches at Night",
+      "alt": "A McDonald's storefront on a city street at night, its yellow arches lit over the entrance, a car and a pedestrian passing in front.",
+      "caption": ""
+    },
+    "14-corner-store-in-snow.jpg": {
+      "title": "Corner Store in Snow",
+      "alt": "A corner storefront at night glowing pink and purple onto a snowy street, with parked cars along the kerb and slush on the ground.",
+      "caption": ""
+    },
+    "15-snow-along-the-park-fence.jpg": {
+      "title": "Snow Along the Park Fence",
+      "alt": "A snowy city street running beside a fenced park, bare trees behind the fence and tall buildings rising beyond, seen on a flat winter afternoon.",
+      "caption": ""
+    },
+    "16-blue-hour-in-the-snow.jpg": {
+      "title": "Blue Hour in the Snow",
+      "alt": "A park edge at dusk with cars parked along the fence, snow banked over the pavement and the wet street holding the last of the blue light.",
+      "caption": ""
+    },
+    "17-tire-tracks-at-dusk.jpg": {
+      "title": "Tire Tracks at Dusk",
+      "alt": "A snow-covered residential street at dusk, bare trees arching overhead and tire tracks cut through the slush past dark townhouses.",
+      "caption": ""
+    },
+    "18-footprints-across-the-field.jpg": {
+      "title": "Footprints Across the Field",
+      "alt": "An open snow-covered park under a flat grey sky, a lone bare tree at the far side and lines of footprints crossing the untouched snow.",
+      "caption": "Someone walked here before us."
+    },
+    "19-lamplight-on-wet-snow.jpg": {
+      "title": "Lamplight on Wet Snow",
+      "alt": "A park path in snow at dusk, the lit windows of townhouses and the glow of street lamps reflected in the wet patches of the path.",
+      "caption": ""
+    },
+    "20-benches-under-snow.jpg": {
+      "title": "Benches Under Snow",
+      "alt": "A row of park benches seen from behind in a snowy park, bare trees and grey sky beyond and footprints trodden into the path.",
+      "caption": ""
+    },
+    "21-quiet-street-in-snow.jpg": {
+      "title": "Quiet Street in Snow",
+      "alt": "A quiet snow-covered street lined with brick townhouses, bare trees above and tire tracks running away into the falling light.",
+      "caption": ""
+    },
+    "22-the-long-path.jpg": {
+      "title": "The Long Path",
+      "alt": "A snow-covered park path with an empty black bench and a lamp post on the left, bare trees and historic low buildings behind.",
+      "caption": ""
+    },
+    "23-snowfield.jpg": {
+      "title": "Snowfield",
+      "alt": "A wide empty field of snow under a grey winter sky with bare trees along the far edge and trails of footprints leading across it.",
+      "caption": ""
+    },
+    "24-cast-iron-corner.jpg": {
+      "title": "Cast Iron Corner",
+      "alt": "A tall cast-iron corner building in the city on a clear blue day, its ornate facade in sun, with cars parked at the kerb and a pedestrian carrying a red bag across the crossing.",
+      "caption": ""
+    },
+    "25-the-tall-one.jpg": {
+      "title": "The Tall One",
+      "alt": "A skyscraper seen from the pavement, leaning up out of frame against a pale hazy sky, with a smaller light-coloured block in front of it.",
+      "caption": ""
+    },
+    "26-red-jacket.jpg": {
+      "title": "Red Jacket",
+      "alt": "The glass entrance of a large building on a bright day, pedestrians crossing the pavement in front, one of them in a red jacket.",
+      "caption": ""
+    },
+    "27-everyone-is-going-somewhere.jpg": {
+      "title": "Everyone Is Going Somewhere",
+      "alt": "A crowded city pavement in daylight, people walking in both directions between tall buildings and traffic stopped at the kerb.",
+      "caption": ""
+    },
+    "28-hydrant-and-blue-sky.jpg": {
+      "title": "Hydrant and Blue Sky",
+      "alt": "A white fire hydrant on a city corner under a hard blue sky, with low brick buildings, parked cars and bare branches behind it.",
+      "caption": ""
+    },
+    "29-the-city-across-the-water.jpg": {
+      "title": "The City Across the Water",
+      "alt": "A downtown skyline seen across open water on an overcast day, with a strip of dry grass in the foreground and the towers greyed by cloud.",
+      "caption": ""
+    },
+    "30-grey-water-grey-skyline.jpg": {
+      "title": "Grey Water, Grey Skyline",
+      "alt": "The same downtown skyline from the far shore under heavy grey cloud, the water flat and the buildings almost the same tone as the sky.",
+      "caption": ""
+    },
+    "31-arches-at-sunset.jpg": {
+      "title": "Arches at Sunset",
+      "alt": "The McDonald's arches on a tall sign against a sky burnt orange and pink at sunset, a silver car and an empty car park below.",
+      "caption": ""
+    },
+    "32-the-chair-by-the-table.jpg": {
+      "title": "The Chair by the Table",
+      "alt": "A black, tan and white dog with speckled chest and folded ears sitting on a wooden spindle-back chair beside a table covered in a fruit-patterned oilcloth, looking straight at the camera.",
+      "caption": "She knows exactly where the food is."
+    },
+    "33-sofa-arm-puppy.jpg": {
+      "title": "Sofa Arm Puppy",
+      "alt": "A black, white and tan puppy resting its chin on the arm of a brown sofa, one white paw tucked under its muzzle and its eyes cast down.",
+      "caption": ""
+    },
+    "34-puppy-and-the-green-toy.jpg": {
+      "title": "Puppy and the Green Toy",
+      "alt": "A puppy asleep on a soft grey cushion, curled around a bright green plush toy and holding it with one white paw.",
+      "caption": ""
+    },
+    "35-head-down.jpg": {
+      "title": "Head Down",
+      "alt": "A close crop of a black, tan and white dog's head tilted down, its nose and eyelashes filling the frame above pale wooden boards.",
+      "caption": ""
+    },
+    "36-through-the-glass-door.jpg": {
+      "title": "Through the Glass Door",
+      "alt": "A large white dog with brown patches over its eyes and muzzle standing on grass behind glass, with the reflection of a person in dark clothing visible across the door.",
+      "caption": ""
+    },
+    "37-monkey-with-a-scarf.jpg": {
+      "title": "Monkey With a Scarf",
+      "alt": "A black, tan and white dog leaning in beside a hand holding a small plush monkey dressed in a red knitted scarf.",
+      "caption": ""
+    },
+    "38-white-room.jpg": {
+      "title": "White Room",
+      "alt": "A tight crop of a black, tan and white dog's head turned to the side, photographed against a plain white background.",
+      "caption": ""
+    },
+    "39-empty-bowl.jpg": {
+      "title": "Empty Bowl",
+      "alt": "A dog's head down inside a metal bowl on a wooden floor, the bowl already empty, with its speckled white chest and one folded ear visible.",
+      "caption": ""
+    },
+    "40-lollipop-inspection.jpg": {
+      "title": "Lollipop Inspection",
+      "alt": "A dog leaning forward to sniff a rainbow-swirled lollipop held out to it on a stick, indoors on a dark floor.",
+      "caption": ""
+    },
+    "41-black-cat-indoors.jpg": {
+      "title": "Black Cat, Indoors",
+      "alt": "A black cat sitting upright on a wooden floor indoors, yellow eyes on the camera, with snow visible through the window behind it.",
+      "caption": ""
+    },
+    "42-black-cat-on-the-floor.jpg": {
+      "title": "Black Cat on the Floor",
+      "alt": "A black cat crossing a wooden floor towards the camera, passing a brass and copper contraption in warm indoor light.",
+      "caption": ""
+    },
+    "43-lets-take-a-break-from-watching.jpg": {
+      "title": "Let's Take a Break From Watching",
+      "alt": "Pencil drawings pinned to a wooden board: animated popcorn, drink and candy boxes walking along, lettered with the words Let's take a break from watching movies at home and go see a movie!",
+      "caption": ""
+    },
+    "44-farm-fresh-ingredients.jpg": {
+      "title": "Farm Fresh Ingredients",
+      "alt": "A white brick wall inside a restaurant with a blue neon sign of a smiling panda face ringed by the words 100% Farm Fresh Ingredients, white orchids and small potted plants on a shelf below.",
+      "caption": ""
+    },
+    "45-departure-gate-panda.jpg": {
+      "title": "Departure Gate Panda",
+      "alt": "A fluffy pink and white panda plush with rosy cheeks and a sunflower bib, its tag still on, propped against a black bag strapped to a suitcase in an airport departure lounge.",
+      "caption": ""
+    },
+    "46-doll-at-the-shore.jpg": {
+      "title": "Doll at the Shore",
+      "alt": "A hand holding up a small doll with a brown fuzzy face and a pink floral silk dress, against a pebbled shore, calm water and a blue sky streaked with cloud.",
+      "caption": ""
+    },
+    "47-popcorn-before-the-film.jpg": {
+      "title": "Popcorn Before the Film",
+      "alt": "A bag of popcorn and a drink on a narrow table in a dark cinema, the only light coming from the screen ahead.",
+      "caption": ""
+    },
+    "48-hippo-and-hare.jpg": {
+      "title": "Hippo and Hare",
+      "alt": "A bronze sculpture of a hippopotamus with its mouth wide open seated at a cafe table opposite a hare in a dress, under the white ribs and red glow of a modern building.",
+      "caption": ""
+    }
+  }
 }

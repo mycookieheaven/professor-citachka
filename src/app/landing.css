@@ -637,17 +637,24 @@
 
 /* ---------- galleries ---------- */
 
+/* A wall rather than a grid. Photographs keep their own proportions and stack
+   in columns, so a tall frame and a wide one hang side by side without either
+   being cropped to match the other — cropping would quietly delete half of what
+   was photographed. column-width does the responsive work on its own: it packs
+   in as many columns as the width allows and drops to a single one on a phone,
+   which is why no breakpoint appears below. */
 .gallery-grid {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 20px;
+  column-width: 260px;
+  column-gap: 20px;
 }
 
 .gallery-item {
-  margin: 0;
+  /* Without this a picture straddling a column break gets sliced in half. */
+  break-inside: avoid;
+  margin: 0 0 20px;
   border: 2px solid var(--home-edge);
   border-radius: 20px;
   overflow: hidden;
@@ -673,23 +680,15 @@
   outline-offset: -3px;
 }
 
-.gallery-meta { padding: 14px 16px; }
-
-.gallery-title {
-  margin: 0 !important;
-  padding: 0;
-  font-size: 19px !important;
-  font-weight: 800 !important;
-  line-height: 1.4 !important;
-  color: #fff6fc !important;
-}
-
-.gallery-caption {
-  margin: 6px 0 0 !important;
-  padding: 0;
-  font-size: 17px !important;
-  line-height: 1.55 !important;
-  color: #ffd7ec !important;
+/* The caption sits on the cream card, so it takes the card's own ink rather than
+   the pale pink that was written for the dark homepage panel. */
+.gallery-item .gallery-caption {
+  margin: 0;
+  padding: 12px 16px 14px;
+  color: #a81358;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 /* ---------- music ---------- */
@@ -940,8 +939,6 @@ html[data-motion="lively"] .home h2 {
     margin: 0;
     order: 4;
   }
-
-  .gallery-grid { grid-template-columns: 1fr; }
 
   .global-quick-nav { width: 100%; }
 }
