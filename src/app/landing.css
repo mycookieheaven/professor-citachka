@@ -362,22 +362,40 @@
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-  /* Sized as a fraction of the screen, not of the column: the widest a single
-     line of "COOKIE HEAVEN" can be is 8.11 x its font size, so ~11.6vw is the
-     most that fits a 100vw screen with a margin to spare. */
-  font-size: clamp(28px, 11.6vw, 220px);
-  /* A hair of positive tracking: a serif this size wants air between letters,
-     where the rounded face it replaced wanted them pressed together. */
-  letter-spacing: 0.012em;
+  /* Sized as a fraction of the screen, not of the column: "COOKIE HEAVEN" set in
+     the wordmark face measures 8.48 x its font size, and 0.01em of tracking over
+     thirteen characters adds 0.13em, so a full line is 8.61em. At 11.1vw that is
+     95.6vw of paint, which fits a 100vw screen with a margin to spare. */
+  font-size: clamp(26px, 11.1vw, 210px);
+  /* A hair of tracking: bubble letters need air between them, or the round
+     shapes touch and the word reads as one long balloon. */
+  letter-spacing: 0.01em;
   font-weight: 700;
-  line-height: 1.02;
+  line-height: 1.06;
   /* Solid, saturated lettering — never translucent against the busy cookie sky.
-     No glow and no outline: the pink is a flat fill, and a single cream edge
-     underneath it lifts the letters off the dough without lighting them up. */
+     No glow: the pink is a flat fill, and a single cream edge underneath it lifts
+     the letters off the dough without lighting them up. */
   color: #ff2e8d;
   text-shadow:
     0 2px 0 rgba(255, 250, 224, 0.92),
     0 5px 16px rgba(183, 24, 100, 0.16);
+}
+
+/* The homepage wordmark, and only the homepage wordmark: a bubble face with an
+   ink outline. Rubik Bubbles ships one weight, so the weight is pinned at 400 and
+   the outline supplies the boldness a 700 would have. The stroke is measured in
+   viewport units because a fixed value disappears on a phone and swallows the
+   letters on a wide monitor, and paint-order draws the edge first so the pink
+   fill sits on top of it instead of being eaten from the inside. The cream shadow
+   stays, one step lower than before, so the letters still sit on the cookie. */
+.home h1.home-main-title {
+  font-family: var(--font-title), ui-rounded, system-ui, sans-serif;
+  font-weight: 400;
+  -webkit-text-stroke: clamp(1.4px, 0.5vw, 7px) #5c0b2c;
+  paint-order: stroke fill;
+  text-shadow:
+    0 3px 0 rgba(255, 250, 224, 0.95),
+    0 7px 18px rgba(92, 11, 44, 0.22);
 }
 
 /* The title's letters, lit one at a time.

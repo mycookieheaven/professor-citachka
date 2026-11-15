@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Nunito_Sans } from "next/font/google";
+import { Playfair_Display, Nunito_Sans, Rubik_Bubbles } from "next/font/google";
 import "./globals.css";
 import "./cat.css";
 import "./boot.css";
@@ -30,6 +30,17 @@ const body = Nunito_Sans({
   weight: ["500", "600", "700", "800"],
 });
 
+/* The homepage wordmark, and nothing else, wears Rubik Bubbles. It is a Latin
+   only display face with a single weight, which is fine here: the two words are
+   always "COOKIE HEAVEN" in every locale, and the ink outline in landing.css
+   supplies the weight the family does not have. Keeping it as a separate
+   variable means the serif still owns every heading inside the site. */
+const title = Rubik_Bubbles({
+  variable: "--font-title",
+  subsets: ["latin"],
+  weight: "400",
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://cookieheaven.art"),
   title: "Professor Citachka",
@@ -40,7 +51,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" data-motion="calm">
-      <body className={`${display.variable} ${body.variable}`}>
+      <body className={`${display.variable} ${body.variable} ${title.variable}`}>
         {/* Rendered by the server so it is the first thing painted, and hidden
             again by its own animation even if no script ever runs. */}
         <div id="cookie-boot" aria-hidden="true">

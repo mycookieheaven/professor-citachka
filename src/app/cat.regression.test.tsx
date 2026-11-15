@@ -190,32 +190,48 @@ describe("the loading veil", () => {
 
 describe("the hero title", () => {
   const title = rule(landing, ".home h1");
+  const wordmark = rule(landing, ".home h1.home-main-title");
 
-  it("is solid bright pink, with no outline and no glow", () => {
+  it("is solid bright pink in a bubble face, with a plum ink outline and no glow", () => {
     expect(title).toMatch(/color:\s*#ff2e8d/);
     expect(title).not.toMatch(/text-fill-color:\s*transparent/);
-    expect(title).not.toMatch(/-webkit-text-stroke/);
-    /* A glow is a shadow with no offset and no spread. The one shadow the title
-       keeps is offset down by 2px, which is an edge, not a halo. */
+    /* The outline is the point of the wordmark now: a bubble face has one weight,
+       so the ink edge is what makes it read as drawn rather than thin. */
+    expect(wordmark).toMatch(/font-family:\s*var\(--font-title\)/);
+    expect(wordmark).toMatch(/-webkit-text-stroke:\s*clamp\(1\.4px, 0\.5vw, 7px\) #5c0b2c/);
+    expect(wordmark).toMatch(/paint-order:\s*stroke fill/);
+    expect(wordmark).toMatch(/font-weight:\s*400/);
+    /* A glow is a shadow with no offset and no spread. Both shadows the wordmark
+       keeps are offset, so they are edges and depth, not a halo. */
+    expect(wordmark).not.toMatch(/text-shadow:[^;]*0 0 [\d.]+px/);
     expect(title).not.toMatch(/text-shadow:[^;]*0 0 [\d.]+px/);
+  });
+
+  it("leaves every other heading on the site in the serif", () => {
+    /* The bubble face is scoped to the homepage h1. If this ever loosens to
+       `.home h1`, the Art, Prose, and Music pages inherit it too. */
+    expect(wordmark).toMatch(/\.home h1\.home-main-title/);
+    expect((landing.match(/--font-title/g) ?? []).length).toBe(1);
   });
 
   it("runs to the edges of the screen rather than stopping at the content column", () => {
     expect(title).toMatch(/margin:\s*0 calc\(50% - 50vw\)/);
-    expect(title).toMatch(/font-size:\s*clamp\(28px, 11\.6vw, 220px\)/);
+    expect(title).toMatch(/font-size:\s*clamp\(26px, 11\.1vw, 210px\)/);
     expect(title).toMatch(/white-space:\s*nowrap/);
   });
 
   it("is sized so one line still fits the screen it is stretched across", () => {
-    /* Measured from the font file itself, at weight 700 with the tracking the
-       rule sets: "COOKIE HEAVEN" runs 8.435 x the font size. Written down here
-       because the number is the whole reason the title does not overflow, and a
-       heavier or wider face would silently break it. */
-    const widestLine = 8.435 * 11.6;
-    expect(widestLine).toBeLessThan(100);
-    /* The ceiling only takes hold once the viewport is wide enough to hold it. */
-    const viewportWhereCeilingBites = (220 / 11.6) * 100;
-    expect(8.435 * 220).toBeLessThan(viewportWhereCeilingBites);
+    /* Measured from Rubik Bubbles itself with fontTools: "COOKIE HEAVEN" runs
+       8.480 x the font size in advance widths, and the rule's 0.01em tracking
+       over thirteen characters adds 0.130em, so the painted line is 8.610em.
+       Written down here because that number is the whole reason the title does
+       not wrap, and swapping in a wider face would silently break it. */
+    const lineEm = 8.48 + 13 * 0.01;
+    expect(lineEm).toBeCloseTo(8.61, 2);
+    expect(lineEm * 11.1).toBeLessThan(100);
+    /* The 210px ceiling only takes hold once the viewport is wide enough for it. */
+    const viewportWhereCeilingBites = (210 / 11.1) * 100;
+    expect(lineEm * 210).toBeLessThan(viewportWhereCeilingBites);
   });
 });
 
