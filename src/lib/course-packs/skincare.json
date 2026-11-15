@@ -32,7 +32,7 @@
                 }
               ],
               "visual": {
-                "title": "Audit a product claim without mistaking registration for approval — decision sequence",
+                "title": "Audit a product claim without mistaking registration for approval, decision sequence",
                 "description": "Separate administrative status from clinical evidence.",
                 "steps": [
                   "Copy the exact claim and identify jurisdiction.",
@@ -67,7 +67,7 @@
                 }
               ],
               "visual": {
-                "title": "Translate sunscreen claims into an exposure plan — decision sequence",
+                "title": "Translate sunscreen claims into an exposure plan, decision sequence",
                 "description": "Map claims to events rather than a safe-exposure countdown.",
                 "steps": [
                   "Broad spectrum → UVA and UVB coverage, not total protection.",
@@ -102,7 +102,7 @@
                 }
               ],
               "visual": {
-                "title": "Design a tolerance trial with honest stopping rules — decision sequence",
+                "title": "Design a tolerance trial with honest stopping rules, decision sequence",
                 "description": "A bounded observation never becomes a universal safety certificate.",
                 "steps": [
                   "Choose an ordinary product and read its actual directions.",
@@ -137,7 +137,7 @@
                 }
               ],
               "visual": {
-                "title": "Audit cumulative dryness without adding another active — decision sequence",
+                "title": "Audit cumulative dryness without adding another active, decision sequence",
                 "description": "Map total exposure before assigning blame to a product.",
                 "steps": [
                   "Timeline: bathing → rubbing → products → wet work → evening care.",
@@ -177,7 +177,7 @@
                 }
               ],
               "visual": {
-                "title": "Triage a new reaction before investigating its cause — decision sequence",
+                "title": "Triage a new reaction before investigating its cause, decision sequence",
                 "description": "Safety decisions precede cause-finding.",
                 "steps": [
                   "Breathing/swallowing difficulty or eye/lip swelling → emergency help now.",
@@ -265,11 +265,11 @@
                 {
                   "title": "[16] 10 tips for clearing acne in darker skin tones",
                   "url": "https://www.aad.org/public/diseases/acne/diy/skin-color",
-                  "note": "Read tips 1–2, gentle care, avoiding picking, procedural cautions, and seeking dermatologic help; ingredient lists are background, not a regimen."
+                  "note": "Read tips 1 to 2, gentle care, avoiding picking, procedural cautions, and seeking dermatologic help; ingredient lists are background, not a regimen."
                 }
               ],
               "visual": {
-                "title": "Separate active acne, residual marks, and procedural risk — reasoning map",
+                "title": "Separate active acne, residual marks, and procedural risk, reasoning map",
                 "description": "Separate observations before choosing the next kind of help.",
                 "steps": [
                   "Current bumps and pain → active concern for clinical assessment.",
@@ -304,7 +304,7 @@
                 }
               ],
               "visual": {
-                "title": "Reconcile skincare with pregnancy and existing treatment — reasoning map",
+                "title": "Reconcile skincare with pregnancy and existing treatment, reasoning map",
                 "description": "Reconcile actual exposure before seeking individualized guidance.",
                 "steps": [
                   "List prescriptions, ordinary cosmetics, and nonprescription actives.",
@@ -349,7 +349,7 @@
                 }
               ],
               "visual": {
-                "title": "Assess storage and contamination without a smell-only test — reasoning map",
+                "title": "Assess storage and contamination without a smell-only test, reasoning map",
                 "description": "Combine date information with actual handling history.",
                 "steps": [
                   "Identity and label → storage and opening guidance.",
@@ -374,7 +374,7 @@
                 "secondExample": "Contrast a person with many stable freckles who notices one unlike the others with someone who has no prior photographs but clearly reports a new symptomatic spot. Both can seek assessment; a baseline photograph is not an entry requirement. AAD’s self-exam guidance includes checking multiple body regions and using mirrors as appropriate.[17] People may need accessible help to examine areas they cannot see comfortably. That does not justify publishing intimate images in a learning assignment or asking an unqualified helper to diagnose the finding. The learner may complete this course task using a fictional body map instead.",
                 "mistake": "A common error is requiring every warning feature before referral: “It is small and mostly one color, so bleeding does not matter.” The AAD referral wording does not require a complete checklist of abnormalities.[17] Another is assuming that a darker skin tone eliminates skin-cancer risk. Skin findings and patterns may vary, but no skin tone gives universal immunity. Conversely, a changing spot is not automatically cancer. The appropriate statement is that the change deserves assessment. This avoids both dismissive reassurance and fear-inducing diagnosis while keeping the next action clear.",
                 "application": "For a nonblocking exercise, write a referral note for the fictional bleeding spot. Include location, first-noticed timing, change, symptoms, relevant attempted products, and the question for the clinician. The rubric asks for descriptive language, explicit uncertainty, a clear recommendation for evaluation, and no cosmetic destruction or public image sharing. A model note is “Reported change and intermittent bleeding in an existing forearm spot; no diagnosis made; requesting dermatologic assessment before cosmetic treatment.” If there is uncontrolled bleeding or another acute serious symptom, obtain appropriate urgent care rather than waiting for routine documentation. The note is a communication aid, not a substitute for care.",
-                "summary": "Observation is most useful when it leads to the right expertise without pretending to replace it. Your task is to notice, describe, and refer—not to identify a disease from a visual stereotype. Keep the fictional note as a model for the capstone, which combines routine simplification, product evidence, and escalation decisions. The final challenge is to show that a good skincare plan can intentionally leave a medical question unanswered while still making the next step safer and more concrete."
+                "summary": "Observation is most useful when it leads to the right expertise without pretending to replace it. Your task is to notice, describe, and refer, not to identify a disease from a visual stereotype. Keep the fictional note as a model for the capstone, which combines routine simplification, product evidence, and escalation decisions. The final challenge is to show that a good skincare plan can intentionally leave a medical question unanswered while still making the next step safer and more concrete."
               },
               "readings": [
                 {
@@ -384,7 +384,7 @@
                 }
               ],
               "visual": {
-                "title": "Document a changing spot for assessment, not cosmetic removal — reasoning map",
+                "title": "Document a changing spot for assessment, not cosmetic removal, reasoning map",
                 "description": "A descriptive handoff avoids both false reassurance and diagnosis.",
                 "steps": [
                   "Locate the spot and record first-noticed timing.",
@@ -454,7 +454,7 @@
                 }
               ],
               "visual": {
-                "title": "Defend a minimal routine and an adverse-event handoff — reasoning map",
+                "title": "Defend a minimal routine and an adverse-event handoff, reasoning map",
                 "description": "Order decisions by safety, evidence, and scope.",
                 "steps": [
                   "Urgency and changing lesions → clinical pathway first.",

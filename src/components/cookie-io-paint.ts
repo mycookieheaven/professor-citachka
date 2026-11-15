@@ -1,5 +1,5 @@
 /*
- * cookie.io — drawing.
+ * cookie.io, drawing.
  *
  * A separate module from the simulation on purpose: the rules decide who lives,
  * and this file only decides what that looks like. It is a single `paint()`
@@ -7,7 +7,7 @@
  *
  * Two things shape every choice here:
  *
- *   1. The stage is small (about 200–300px square) and sits on a bright yellow
+ *   1. The stage is small (about 200 to 300px square) and sits on a bright yellow
  *      page. Contrast between a cookie and the dough is what makes it playable,
  *      so cookies carry a dark outline and a shadow, not just a fill.
  *   2. The reader cannot rely on colour alone. Danger and prey are marked twice:

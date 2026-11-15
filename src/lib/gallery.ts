@@ -5,7 +5,7 @@ import path from "node:path";
  * Build-time gallery reader.
  *
  * Drop image files into `public/art/` or `public/photography/` and they appear on
- * the homepage automatically — no code change needed. Optional per-file wording
+ * the homepage automatically: no code change needed. Optional per-file wording
  * (title, alt text, caption) lives in `src/data/gallery.json`; anything not listed
  * there still appears, with a caption derived from its filename.
  *
@@ -25,7 +25,7 @@ export type GalleryImage = {
    * The page emits these so the browser reserves the right space before the
    * image arrives; on a wall of photographs that is the difference between a
    * page that settles and one that jumps as each picture lands. `null` when the
-   * format is one this reader does not parse — the picture still appears.
+   * format is one this reader does not parse: the picture still appears.
    */
   size: { width: number; height: number } | null;
 };
@@ -154,7 +154,7 @@ const PORTRAIT_NAMES = [
  * A portrait for the homepage, if one has been added.
  *
  * Drop any one of the names above into `public/images/` and it appears in the
- * hero automatically — no code change. Alt text is supplied by the page (from
+ * hero automatically: no code change. Alt text is supplied by the page (from
  * `src/data/i18n/*.json`) so it can say something meaningful, and in the right
  * language, rather than "portrait".
  */

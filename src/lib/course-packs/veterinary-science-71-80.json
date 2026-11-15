@@ -28,12 +28,12 @@
         {
          "title": "MSD Veterinary Manual, Management of Rabbits: examination and sample collection, restraint, and normal parameters",
          "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/rabbits/management-of-rabbits",
-         "note": "Read the examination and sample collection section and the physical examination parameters. The species normal temperature is given here as 100.5–104 °F (39.6–40 °C); compute the conversions yourself, because the printed Celsius range does not match its own Fahrenheit range at the lower bound (104 °F = 40.0 °C, but 100.5 °F = 38.1 °C). The chapter also states that a thorough oral examination including palpation of the face and jaw is important because dental disease is common, and that conscious rabbits usually resist a full dental examination so sedation or anaesthesia is required."
+         "note": "Read the examination and sample collection section and the physical examination parameters. The species normal temperature is given here as 100.5 to 104 °F (39.6 to 40 °C); compute the conversions yourself, because the printed Celsius range does not match its own Fahrenheit range at the lower bound (104 °F = 40.0 °C, but 100.5 °F = 38.1 °C). The chapter also states that a thorough oral examination including palpation of the face and jaw is important because dental disease is common, and that conscious rabbits usually resist a full dental examination so sedation or anaesthesia is required."
         },
         {
          "title": "MSD Veterinary Manual, Management of Pet Birds: restraint, examination and the higher avian metabolic rate",
          "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/pet-birds/management-of-pet-birds",
-         "note": "Read the sections on examination and sample collection and the history. Note the statement that birds have a much higher metabolism than mammals and that oxygen deprivation can occur during restraint, treatment or diagnostic sampling, the normal avian body temperature of 103–106 °F (39–41 °C), and the instruction to palpate the crop before restraint so that regurgitation risk is anticipated."
+         "note": "Read the sections on examination and sample collection and the history. Note the statement that birds have a much higher metabolism than mammals and that oxygen deprivation can occur during restraint, treatment or diagnostic sampling, the normal avian body temperature of 103 to 106 °F (39 to 41 °C), and the instruction to palpate the crop before restraint so that regurgitation risk is anticipated."
         },
         {
          "title": "MSD Veterinary Manual, Management and Husbandry of Reptiles: preferred optimal temperature zone and species tables",
@@ -43,7 +43,7 @@
         {
          "title": "Merck Veterinary Manual, table: Important Husbandry Requirements for Selected Reptiles",
          "url": "https://www.merckvetmanual.com/multimedia/table/important-husbandry-requirements-for-selected-reptiles",
-         "note": "Use this table alongside the previous chapter to see how far the preferred optimal temperature zone moves between species, for example roughly 25–30 °C for a corn snake and roughly 28–31 °C for a boa constrictor, with humidity and lighting columns that differ too. Read it as evidence that species-specific parameters must be looked up per patient rather than generalised from one reptile."
+         "note": "Use this table alongside the previous chapter to see how far the preferred optimal temperature zone moves between species, for example roughly 25 to 30 °C for a corn snake and roughly 28 to 31 °C for a boa constrictor, with humidity and lighting columns that differ too. Read it as evidence that species-specific parameters must be looked up per patient rather than generalised from one reptile."
         },
         {
          "title": "Merck Veterinary Manual, Housing and Nutrition of Guinea Pigs",
@@ -65,12 +65,12 @@
         "title": "Three-layer decision map from familiar patient to unfamiliar species",
         "description": "A labelled diagram showing how a clinical plan divides into a transferable reasoning layer, a species-specific physiology layer, and an unmeasurable-by-weight layer, using two equal-weight patients as the worked contrast.",
         "steps": [
-         "Node 1 — the trigger: an unfamiliar species is presented, or two patients of the same weight are compared. Write the actual weight and species at the top of the map so the temptation to scale is visible.",
-         "Node 2 — transferable layer: list the steps that survive a change of species unchanged, including problem representation, observation-first examination, sample identity and handling, reference interval logic, and objective records.",
-         "Node 3 — species-specific layer: for each remaining step, write what the species changes. Examples to place here include avian rigid-lung ventilation and oxygen risk during restraint, the rabbit's hindgut fermentation and cecotrophy, the guinea pig's absent ascorbic acid synthesis, and the reptile's preferred optimal temperature zone.",
-         "Node 4 — environment as physiology: separate enclosure temperature, humidity, lighting and substrate from amenities, and record them as physiological variables with the time the animal has been outside its preferred range.",
-         "Node 5 — unmeasured-by-weight layer: mark the questions that cannot be answered from mass at all, including distribution of blood flow, shunt fraction, and species-specific metabolism, and route them to the veterinarian as species-specific uncertainty.",
-         "Node 6 — audit arrow: draw an arrow from every published parameter back to a source check, including unit conversions, and note that a source which mis-converts its own range is a reason to verify rather than to discard."
+         "Node 1, the trigger: an unfamiliar species is presented, or two patients of the same weight are compared. Write the actual weight and species at the top of the map so the temptation to scale is visible.",
+         "Node 2, transferable layer: list the steps that survive a change of species unchanged, including problem representation, observation-first examination, sample identity and handling, reference interval logic, and objective records.",
+         "Node 3, species-specific layer: for each remaining step, write what the species changes. Examples to place here include avian rigid-lung ventilation and oxygen risk during restraint, the rabbit's hindgut fermentation and cecotrophy, the guinea pig's absent ascorbic acid synthesis, and the reptile's preferred optimal temperature zone.",
+         "Node 4, environment as physiology: separate enclosure temperature, humidity, lighting and substrate from amenities, and record them as physiological variables with the time the animal has been outside its preferred range.",
+         "Node 5, unmeasured-by-weight layer: mark the questions that cannot be answered from mass at all, including distribution of blood flow, shunt fraction, and species-specific metabolism, and route them to the veterinarian as species-specific uncertainty.",
+         "Node 6, audit arrow: draw an arrow from every published parameter back to a source check, including unit conversions, and note that a source which mis-converts its own range is a reason to verify rather than to discard."
         ]
        }
       },
@@ -122,11 +122,11 @@
         "title": "Air movement and blood flow in three respiratory plans",
         "description": "A labelled three-panel diagram comparing mammal, bird and reptile gas exchange, showing where airflow goes, where blood flow can bypass the lung, and which observation a technician can actually make in each.",
         "steps": [
-         "Panel A — mammal: draw a bellows lung driven by a diaphragm. Label inspiratory muscle effort, alveolar ventilation and the matching requirement between ventilation and perfusion. Technician observation: rate, effort, sound, posture.",
-         "Panel B — bird: draw a largely static lung with parabronchi plus cranial and caudal air sac groups. Label the airway sequence trachea, primary bronchus, dorsobronchi, parabronchial network, ventrobronchi, and show the aerodynamic valve with a note that it is less than 100% efficient and depends on gas density, flow velocity and air sac compliance. Technician observation: pattern, posture, tail movement, voice, crop fullness.",
-         "Panel C — reptile: draw a heart with a shunt arrow allowing right-to-left flow that bypasses the lung, and label the low cardiac output and low minute ventilation relative to a mammal. Technician observation: thermal state first, then behaviour and discharge; conclusions limited because distribution, not only ventilation, is variable.",
-         "Overlay 1 — risk arrow: mark the avian panel with the higher metabolic rate and the aspiration risk of a full crop during restraint, and mark the reptile panel with the slow equilibration of inhaled agents.",
-         "Overlay 2 — evidentiary limit: add a bar under each panel showing how stable physical findings are over a short manipulation, high in the mammal, changed by handling in the bird, and temperature dependent in the reptile."
+         "Panel A, mammal: draw a bellows lung driven by a diaphragm. Label inspiratory muscle effort, alveolar ventilation and the matching requirement between ventilation and perfusion. Technician observation: rate, effort, sound, posture.",
+         "Panel B, bird: draw a largely static lung with parabronchi plus cranial and caudal air sac groups. Label the airway sequence trachea, primary bronchus, dorsobronchi, parabronchial network, ventrobronchi, and show the aerodynamic valve with a note that it is less than 100% efficient and depends on gas density, flow velocity and air sac compliance. Technician observation: pattern, posture, tail movement, voice, crop fullness.",
+         "Panel C, reptile: draw a heart with a shunt arrow allowing right-to-left flow that bypasses the lung, and label the low cardiac output and low minute ventilation relative to a mammal. Technician observation: thermal state first, then behaviour and discharge; conclusions limited because distribution, not only ventilation, is variable.",
+         "Overlay 1, risk arrow: mark the avian panel with the higher metabolic rate and the aspiration risk of a full crop during restraint, and mark the reptile panel with the slow equilibration of inhaled agents.",
+         "Overlay 2, evidentiary limit: add a bar under each panel showing how stable physical findings are over a short manipulation, high in the mammal, changed by handling in the bird, and temperature dependent in the reptile."
         ]
        }
       },
@@ -156,12 +156,12 @@
         {
          "title": "Merck Veterinary Manual, table: Important Husbandry Requirements for Selected Reptiles",
          "url": "https://www.merckvetmanual.com/multimedia/table/important-husbandry-requirements-for-selected-reptiles",
-         "note": "Read the POTZ, humidity and lighting columns across species. Used in this lesson for the comparison between roughly 25–30 °C for a corn snake and roughly 28–31 °C for a boa constrictor, and as evidence that thermal needs are species-specific rather than general to reptiles."
+         "note": "Read the POTZ, humidity and lighting columns across species. Used in this lesson for the comparison between roughly 25 to 30 °C for a corn snake and roughly 28 to 31 °C for a boa constrictor, and as evidence that thermal needs are species-specific rather than general to reptiles."
         },
         {
          "title": "MSD Veterinary Manual, Management of Pet Birds: avian body temperature and overheating during restraint",
          "url": "https://www.msdvetmanual.com/exotic-and-laboratory-animals/pet-birds/management-of-pet-birds",
-         "note": "Read the restraint and examination sections for the statement that obese birds can overheat, especially when held in a towel, and that a bird should be returned to its cage if respirations become increased or laboured or if it becomes weak. The chapter also gives the avian normal body temperature as 103–106 °F (39–41 °C); check the conversions, since 103 °F is 39.4 °C and 106 °F is 41.1 °C. The lesson deliberately does not reproduce the chapter's feeding or fluid volumes."
+         "note": "Read the restraint and examination sections for the statement that obese birds can overheat, especially when held in a towel, and that a bird should be returned to its cage if respirations become increased or laboured or if it becomes weak. The chapter also gives the avian normal body temperature as 103 to 106 °F (39 to 41 °C); check the conversions, since 103 °F is 39.4 °C and 106 °F is 41.1 °C. The lesson deliberately does not reproduce the chapter's feeding or fluid volumes."
         },
         {
          "title": "Williams et al., Ectothermy and cardiac shunts profoundly slow the equilibration of inhaled anaesthetics in a multi-compartment model, Scientific Reports (open access)",
@@ -178,11 +178,11 @@
         "title": "Two thermal risk curves and one environmental gradient",
         "description": "A labelled diagram with three panels: heat loss rising as body size falls, heat retention rising with insulation and metabolic rate, and an ectotherm's position within an environmental gradient.",
         "steps": [
-         "Panel 1 — heat loss versus mass: plot a descending curve labelled heat loss per unit mass against body mass on a log scale, and mark two points, a 25 g rodent and a 25 kg dog. Annotate that surface area scales with the square of a linear dimension while mass scales with its cube, so the ratio falls as mass to the power of minus one third, giving about a tenfold difference here (the cube root of 1000).",
-         "Panel 2 — heat retention: plot a rising curve labelled retained heat against insulation and metabolic rate, and mark the point for an obese small bird in a towel; annotate the documented observation that the wrapped bird can overheat, with the response to watch being increased respiratory effort or weakness.",
-         "Panel 3 — the ectotherm gradient: draw a horizontal temperature axis for one species' enclosure, mark the preferred optimal temperature zone as a band, mark basking at about five degrees above the band and night at about five degrees below, and shade the examination-room temperature as a point outside the band that the animal cannot leave.",
-         "Overlay — biochemical link: add an arrow from panel 3 to a small inset showing a blood-gas partition coefficient increasing as temperature falls, with a note that lower temperature predicts slower equilibration of inhaled agents in the modelled ectotherm.",
-         "Overlay — the record: attach a three-part label to every panel reading expected range for the species, environment the patient came from, and measured body temperature with method, site and time, because a temperature value without these cannot be interpreted."
+         "Panel 1, heat loss versus mass: plot a descending curve labelled heat loss per unit mass against body mass on a log scale, and mark two points, a 25 g rodent and a 25 kg dog. Annotate that surface area scales with the square of a linear dimension while mass scales with its cube, so the ratio falls as mass to the power of minus one third, giving about a tenfold difference here (the cube root of 1000).",
+         "Panel 2, heat retention: plot a rising curve labelled retained heat against insulation and metabolic rate, and mark the point for an obese small bird in a towel; annotate the documented observation that the wrapped bird can overheat, with the response to watch being increased respiratory effort or weakness.",
+         "Panel 3, the ectotherm gradient: draw a horizontal temperature axis for one species' enclosure, mark the preferred optimal temperature zone as a band, mark basking at about five degrees above the band and night at about five degrees below, and shade the examination-room temperature as a point outside the band that the animal cannot leave.",
+         "Overlay, biochemical link: add an arrow from panel 3 to a small inset showing a blood-gas partition coefficient increasing as temperature falls, with a note that lower temperature predicts slower equilibration of inhaled agents in the modelled ectotherm.",
+         "Overlay, the record: attach a three-part label to every panel reading expected range for the species, environment the patient came from, and measured body temperature with method, site and time, because a temperature value without these cannot be interpreted."
         ]
        }
       },
@@ -234,12 +234,12 @@
         "title": "Two nitrogen strategies and the three-site framework",
         "description": "A labelled diagram comparing urea and uric acid excretion, then mapping any renal finding into prerenal, renal and postrenal categories with species-specific qualifications.",
         "steps": [
-         "Panel A — urea route: draw a mammal converting nitrogen to soluble urea, excreting it in urine concentrated by the kidney, and annotate the water cost of that concentration.",
-         "Panel B — uric acid route: draw a bird converting nitrogen to uric acid in the liver, then secreting it actively into the tubule as a suspension; annotate that water movement is required to keep the suspension flowing and that stasis allows precipitation within the tubules.",
-         "Panel C — three-site framework: place a kidney in the centre with an inflow arrow, an internal arrow and an outflow arrow; label the inflow as prerenal causes such as dehydration, hypovolaemia or heart failure, the internal arrow as renal causes reducing glomerular filtration rate, and the outflow as postrenal causes such as obstruction.",
-         "Qualifier box 1 — species and diet: attach a note to the uric acid limb recording that in a granivorous bird on a high protein diet, uric acid stayed within normal limits in the cited study, so a raised value points to renal disease or severe dehydration rather than to protein intake alone.",
-         "Qualifier box 2 — rabbit calcium: attach a note to the mammal limb recording that rabbit urinary calcium carbonate deposition is a described consequence of particular maintenance diets, so sediment requires the diet history to interpret.",
-         "Overlay — observation ladder: draw a rising ladder of evidence for hydration, with a three-part dropping description and serial gram weight in birds, diet and urine character in rabbits, and conventional hydration indices in dogs and cats, each rung carrying a label stating what that evidence cannot show."
+         "Panel A, urea route: draw a mammal converting nitrogen to soluble urea, excreting it in urine concentrated by the kidney, and annotate the water cost of that concentration.",
+         "Panel B, uric acid route: draw a bird converting nitrogen to uric acid in the liver, then secreting it actively into the tubule as a suspension; annotate that water movement is required to keep the suspension flowing and that stasis allows precipitation within the tubules.",
+         "Panel C, three-site framework: place a kidney in the centre with an inflow arrow, an internal arrow and an outflow arrow; label the inflow as prerenal causes such as dehydration, hypovolaemia or heart failure, the internal arrow as renal causes reducing glomerular filtration rate, and the outflow as postrenal causes such as obstruction.",
+         "Qualifier box 1, species and diet: attach a note to the uric acid limb recording that in a granivorous bird on a high protein diet, uric acid stayed within normal limits in the cited study, so a raised value points to renal disease or severe dehydration rather than to protein intake alone.",
+         "Qualifier box 2, rabbit calcium: attach a note to the mammal limb recording that rabbit urinary calcium carbonate deposition is a described consequence of particular maintenance diets, so sediment requires the diet history to interpret.",
+         "Overlay, observation ladder: draw a rising ladder of evidence for hydration, with a three-part dropping description and serial gram weight in birds, diet and urine character in rabbits, and conventional hydration indices in dogs and cats, each rung carrying a label stating what that evidence cannot show."
         ]
        }
       },
@@ -291,9 +291,9 @@
         "title": "Foregut versus hindgut fermentation, and the stasis feedback loop",
         "description": "A labelled diagram of two digestive layouts plus a circular feedback diagram showing how reduced rabbit gut motility reinforces itself, with the technician's observation points marked.",
         "steps": [
-         "Panel A — foregut: draw the tract of a ruminant with the reticulum, rumen and omasum before the true stomach. Label continuous substrate delivery, rumination and saliva recycling, and the absorption of fermentation products before the small intestine.",
-         "Panel B — hindgut: draw the tract of a horse or rabbit with the cecum and large colon after the small intestine. Label enzymatic digestion and absorption in the small intestine, fermentation of what escapes it, little or no protein absorption from the large intestine in equids, and in the rabbit the separation of fine particles into the cecum and the return of cecal contents as cecotrophs.",
-         "Panel C — the feedback circle: draw five nodes connected in a loop, namely low fibre or stress or pain, reduced motility, altered cecal microflora and prolonged retention, fluid absorbed from retained gastric contents causing compaction, discomfort and anorexia, and back to reduced motility. Mark the hairball label with a struck-through correction reading consequence, not cause.",
+         "Panel A, foregut: draw the tract of a ruminant with the reticulum, rumen and omasum before the true stomach. Label continuous substrate delivery, rumination and saliva recycling, and the absorption of fermentation products before the small intestine.",
+         "Panel B, hindgut: draw the tract of a horse or rabbit with the cecum and large colon after the small intestine. Label enzymatic digestion and absorption in the small intestine, fermentation of what escapes it, little or no protein absorption from the large intestine in equids, and in the rabbit the separation of fine particles into the cecum and the return of cecal contents as cecotrophs.",
+         "Panel C, the feedback circle: draw five nodes connected in a loop, namely low fibre or stress or pain, reduced motility, altered cecal microflora and prolonged retention, fluid absorbed from retained gastric contents causing compaction, discomfort and anorexia, and back to reduced motility. Mark the hairball label with a struck-through correction reading consequence, not cause.",
          "Observation points: mark on the circle the places where a technician can gather evidence, namely intake of offered food, number and character of droppings including soft cecal material, serial body weight, abdominal comfort, environment and the times of each observation; annotate that none of these is a diagnosis.",
          "Escalation arrow: draw an arrow out of the circle labelled report to the veterinarian at the next check, with the specific trigger written on it, for example fewer and smaller droppings together with reduced intake or falling weight, and note that the decision and any intervention belong to the veterinarian.",
          "Comparative footnote: attach a small note recording the avian counterpart, in which the crop is palpated as a handling and aspiration risk and in which normal body temperature and hydration are described as prerequisites relevant to stasis before crop feeding."
@@ -406,12 +406,12 @@
         "title": "From test characteristic to patient probability",
         "description": "A labelled diagram showing how a fixed sensitivity and specificity generate different predictive values as prevalence changes, with the four-cell table and the arithmetic written out.",
         "steps": [
-         "Step 1 — the two-by-two: draw the four cells labelled true positive, false negative, false positive and true negative, and write the chapter's worked counts in them, 178, 55, 622 and 818 out of 1,673 results.",
-         "Step 2 — derive the test characteristics: label sensitivity as 178 divided by 233, about 76 percent, and specificity as 818 divided by 1,440, about 57 percent, and note that these two numbers stay fixed as the population changes.",
-         "Step 3 — shift the prevalence axis: draw a horizontal axis from 0 to 100 percent prevalence and plot the positive predictive value curve for sensitivity 90 percent and specificity 95 percent, marking about 15 percent at 1 percent prevalence, about 49 percent at 5 percent, about 86 percent at 25 percent and about 95 percent at 50 percent.",
-         "Step 4 — add the negative predictive value curve: draw the descending companion curve and mark that it is high at low prevalence, which is why a negative result in a screening population is more reassuring than a positive result.",
-         "Step 5 — insert the clinical hinge: attach to the curve an arrow reading what would happen next, with two branches, one for a positive result and one for a negative result, and leave the branch blank if the answer is nothing, because a blank branch means the test should not have been ordered.",
-         "Step 6 — mark the levers: annotate the moving cut-off as a trade between the two error rates, likelihood ratios as a way of keeping the information in a continuous value, and parallel versus series testing as changes to sensitivity and specificity in opposite directions."
+         "Step 1. the two-by-two: draw the four cells labelled true positive, false negative, false positive and true negative, and write the chapter's worked counts in them, 178, 55, 622 and 818 out of 1,673 results.",
+         "Step 2. derive the test characteristics: label sensitivity as 178 divided by 233, about 76 percent, and specificity as 818 divided by 1,440, about 57 percent, and note that these two numbers stay fixed as the population changes.",
+         "Step 3. shift the prevalence axis: draw a horizontal axis from 0 to 100 percent prevalence and plot the positive predictive value curve for sensitivity 90 percent and specificity 95 percent, marking about 15 percent at 1 percent prevalence, about 49 percent at 5 percent, about 86 percent at 25 percent and about 95 percent at 50 percent.",
+         "Step 4. add the negative predictive value curve: draw the descending companion curve and mark that it is high at low prevalence, which is why a negative result in a screening population is more reassuring than a positive result.",
+         "Step 5. insert the clinical hinge: attach to the curve an arrow reading what would happen next, with two branches, one for a positive result and one for a negative result, and leave the branch blank if the answer is nothing, because a blank branch means the test should not have been ordered.",
+         "Step 6. mark the levers: annotate the moving cut-off as a trade between the two error rates, likelihood ratios as a way of keeping the information in a continuous value, and parallel versus series testing as changes to sensitivity and specificity in opposite directions."
         ]
        }
       },
@@ -463,12 +463,12 @@
         "title": "Where one point-of-care result comes from",
         "description": "A labelled chain diagram from patient to recorded number, marking the stages where quality control can see an error and the stages where only quality assurance can.",
         "steps": [
-         "Stage 1 — patient and decision: mark the point at which the test is chosen, with an annotation asking what the result will change; if the answer is nothing, the chain should not start.",
-         "Stage 2 — sample: mark collection technique, site, tube and fill volume, labelling and time; annotate that haemolysis, icterus, lipaemia and incorrect blood-to-anticoagulant ratio are listed interferences that begin here.",
-         "Stage 3 — storage and transport: mark delay and temperature; annotate that handling and storage problems are among the common artifacts described by eClinpath.",
-         "Stage 4 — measurement: draw the instrument with a bias arrow pointing up and an imprecision scatter cloud around the true value; annotate the reported portable lactate meter bias of about 18 percent, mainly additive, and the separate finding that correlation can be high while agreement is imperfect.",
-         "Stage 5 — quality control overlay: place a control material box feeding the instrument and shade stage 4 only, labelled detectable by quality control, then shade stages 1 to 3 and stage 6 with a different pattern labelled detectable only by quality assurance.",
-         "Stage 6 — reporting and record: mark patient identity, device identity, control performance for that day, sample time and any method change, and annotate the operational rule from the instrument evaluation that serial measurements in one animal should be made on the same analyser whenever possible."
+         "Stage 1. patient and decision: mark the point at which the test is chosen, with an annotation asking what the result will change; if the answer is nothing, the chain should not start.",
+         "Stage 2. sample: mark collection technique, site, tube and fill volume, labelling and time; annotate that haemolysis, icterus, lipaemia and incorrect blood-to-anticoagulant ratio are listed interferences that begin here.",
+         "Stage 3. storage and transport: mark delay and temperature; annotate that handling and storage problems are among the common artifacts described by eClinpath.",
+         "Stage 4. measurement: draw the instrument with a bias arrow pointing up and an imprecision scatter cloud around the true value; annotate the reported portable lactate meter bias of about 18 percent, mainly additive, and the separate finding that correlation can be high while agreement is imperfect.",
+         "Stage 5. quality control overlay: place a control material box feeding the instrument and shade stage 4 only, labelled detectable by quality control, then shade stages 1 to 3 and stage 6 with a different pattern labelled detectable only by quality assurance.",
+         "Stage 6. reporting and record: mark patient identity, device identity, control performance for that day, sample time and any method change, and annotate the operational rule from the instrument evaluation that serial measurements in one animal should be made on the same analyser whenever possible."
         ]
        }
       },
@@ -520,12 +520,12 @@
         "title": "From lesion to interpretable slide: the decision chain in cytology",
         "description": "A labelled decision diagram showing technique selection by lesion type, adequacy assessment before interpretation, and the reporting categories with their limits.",
         "steps": [
-         "Step 1 — describe the lesion: mark the four features that determine technique, namely location, whether the lesion is solid or exudative, whether it is dry, crusted or intact-pustular, and whether it is accessible without rupturing fragile structures.",
-         "Step 2 — choose the technique: attach four branches, fine needle aspiration (non-aspiration contact method first for exfoliating tissue, suction for poorly exfoliating masses), impression smear for exudative surfaces and biopsy specimens, tape preparation or swab for dry and hard-to-reach sites, and tissue scraping for flat lesions; annotate that impression smears from ulcerated surfaces may yield only surface contamination.",
-         "Step 3 — prepare and label: mark two or three imprints per slide rather than many, thin spreading to avoid cell rupture, fixation before staining, and labelling of patient identity, site and technique before collection begins.",
-         "Step 4 — assess adequacy first: place a gate before interpretation with four failure exits labelled poor cellularity, heavy blood contamination, smudged or ruptured cells, and sampling error such as adjacent tissue; route each exit to a non-diagnostic report rather than a negative one.",
-         "Step 5 — interpret within categories: branch into no cytologic abnormalities, inflammation in its described forms, hyperplasia or dysplasia, and neoplasia in epithelial, mesenchymal, round cell and endocrine groups, with a note that categories commonly overlap because inflammation can produce dysplasia and accompany neoplasia.",
-         "Step 6 — state the limits: attach a footnote reading that cytology shows cells and not architecture, so invasion and tissue structure require histopathology, and that species-specific appearances exist, with avian and small mammal atlas references listed alongside the canine default."
+         "Step 1. describe the lesion: mark the four features that determine technique, namely location, whether the lesion is solid or exudative, whether it is dry, crusted or intact-pustular, and whether it is accessible without rupturing fragile structures.",
+         "Step 2. choose the technique: attach four branches, fine needle aspiration (non-aspiration contact method first for exfoliating tissue, suction for poorly exfoliating masses), impression smear for exudative surfaces and biopsy specimens, tape preparation or swab for dry and hard-to-reach sites, and tissue scraping for flat lesions; annotate that impression smears from ulcerated surfaces may yield only surface contamination.",
+         "Step 3. prepare and label: mark two or three imprints per slide rather than many, thin spreading to avoid cell rupture, fixation before staining, and labelling of patient identity, site and technique before collection begins.",
+         "Step 4. assess adequacy first: place a gate before interpretation with four failure exits labelled poor cellularity, heavy blood contamination, smudged or ruptured cells, and sampling error such as adjacent tissue; route each exit to a non-diagnostic report rather than a negative one.",
+         "Step 5. interpret within categories: branch into no cytologic abnormalities, inflammation in its described forms, hyperplasia or dysplasia, and neoplasia in epithelial, mesenchymal, round cell and endocrine groups, with a note that categories commonly overlap because inflammation can produce dysplasia and accompany neoplasia.",
+         "Step 6. state the limits: attach a footnote reading that cytology shows cells and not architecture, so invasion and tissue structure require histopathology, and that species-specific appearances exist, with avian and small mammal atlas references listed alongside the canine default."
         ]
        }
       },
@@ -577,9 +577,9 @@
         "title": "Three questions in one culture report",
         "description": "A labelled chain diagram of a microbiology result, showing where sampling, recovery and interpretation can each distort the final category, with the technician's controllable stages marked.",
         "steps": [
-         "Stage 1 — presence: draw a lesion with its resident microbial population and mark the question whether an organism at this site is causing disease or is a commensal. Annotate that presence alone never establishes causation and that pure versus mixed growth is part of the evidence.",
-         "Stage 2 — recovery: draw two sampling routes from the lesion, a swab touching the surface and an aspirate or tissue sample taken from within, and annotate the systematic review's finding that swabs are most common but less representative and more contamination-prone while tissue and aspirates are more reliable. Add two modifying boxes beside this stage, one labelled prior antimicrobial exposure with a note about the reported increase in multidrug-resistant isolates after recent treatment, and one labelled transport time and temperature with a note that these are inconsistently documented.",
-         "Stage 3 — interpretation: draw a measured value passing through a breakpoint filter to produce a category, and annotate that a breakpoint is tied to organism, agent, species and site, so where the exact combination is unavailable the category is extrapolated from another site or species, as the canine blood culture study reports.",
+         "Stage 1. presence: draw a lesion with its resident microbial population and mark the question whether an organism at this site is causing disease or is a commensal. Annotate that presence alone never establishes causation and that pure versus mixed growth is part of the evidence.",
+         "Stage 2. recovery: draw two sampling routes from the lesion, a swab touching the surface and an aspirate or tissue sample taken from within, and annotate the systematic review's finding that swabs are most common but less representative and more contamination-prone while tissue and aspirates are more reliable. Add two modifying boxes beside this stage, one labelled prior antimicrobial exposure with a note about the reported increase in multidrug-resistant isolates after recent treatment, and one labelled transport time and temperature with a note that these are inconsistently documented.",
+         "Stage 3. interpretation: draw a measured value passing through a breakpoint filter to produce a category, and annotate that a breakpoint is tied to organism, agent, species and site, so where the exact combination is unavailable the category is extrapolated from another site or species, as the canine blood culture study reports.",
          "Numerical anchors: place two counters at the recovery stage reading about 13.6 percent clinically relevant growth and about 1.9 percent contamination out of 750 blood cultures, and a third reading one bottle per patient, with a note that single samples force coagulase-negative staphylococci to be classified as contaminants.",
          "Technician control markers: shade stage 2 and the record and label it technician-controllable, listing asepsis, technique matched to the question, labelling, container and transport, and documentation of any recent antimicrobial exposure.",
          "Boundary marker: attach a bar after stage 3 labelled veterinary decision, covering interpretation of growth, choice of agent and any treatment; note that the lesson ends at the shaded stages and that no agent or dose appears anywhere in the diagram."
@@ -634,7 +634,7 @@
         "title": "Decision tree for a constrained diagnostic plan",
         "description": "A labelled tree diagram turning a diagnostic wish list into a prioritised sequence with resource costs, stopping rules and species-specific uncertainty markings.",
         "steps": [
-         "Root — write the question: place the clinical question at the root and require a plain-language statement of what the plan is trying to distinguish; annotate that a plan without a question is a list.",
+         "Root, write the question: place the clinical question at the root and require a plain-language statement of what the plan is trying to distinguish; annotate that a plan without a question is a list.",
          "Constraints layer: attach a belt of constraint nodes around the root listing sample volume available from the patient, handling and anaesthetic tolerance, the species-specific requirements such as a sedated oral examination in a rabbit or a pre-procedure crop check in a bird, turnaround time and cost. Mark each constraint with the source that establishes it.",
          "Branch structure: draw each test as a node with two outgoing arrows for the possible results and a small box at each arrow reading what happens next if that result occurs; annotate that parallel interpretation raises sensitivity and suits rule-out questions while series interpretation raises specificity and suits rule-in questions, and that shared-mechanism tests are not independent evidence.",
          "Pruning rule: place a marked cut point on the tree labelled stopping rule, and draw a line through any branch whose result would change nothing, with an annotation that a test which cannot change the next step should not be drawn at all.",

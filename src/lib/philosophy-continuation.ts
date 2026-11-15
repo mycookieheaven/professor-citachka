@@ -141,7 +141,7 @@ export const philosophyContinuation: {title:string; rows:Row[]}[] = [
 'It identifies a possible observation that would conflict with it','It cannot ever turn out false',
 'A testable theory risks conflict with observation. Immunity to every outcome removes that risk rather than establishing extraordinary confirmation.'],
 ['Auxiliary assumptions and theory testing',
-'An experimental prediction typically follows from a theory together with auxiliary assumptions about apparatus, background conditions, and analysis. When the prediction fails, logic refutes the conjunction, not uniquely the central theory. This is associated with the Duhem–Quine problem. Avoid both extremes: treating one anomaly as automatic total refutation, or endlessly inventing untestable repairs to protect a theory.',
+'An experimental prediction typically follows from a theory together with auxiliary assumptions about apparatus, background conditions, and analysis. When the prediction fails, logic refutes the conjunction, not uniquely the central theory. This is associated with the Duhem-Quine problem. Avoid both extremes: treating one anomaly as automatic total refutation, or endlessly inventing untestable repairs to protect a theory.',
 'A theory predicts a signal if the detector works and the sample is prepared correctly. No signal may implicate the theory, detector, or preparation. An independently calibrated detector and replicated preparation reduce the alternatives. Rechecking auxiliaries is legitimate when tests can expose their failure independently.',
 'What does the missing signal logically refute first?',
 'The combined package of theory and auxiliary assumptions','Only the central theory, irrespective of the apparatus',

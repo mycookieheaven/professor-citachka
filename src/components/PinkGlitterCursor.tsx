@@ -24,7 +24,7 @@ type Sparkle = {
  * mouse event, and it positioned itself with `left`/`top`, which is a layout write
  * per event. Both were unnecessary and both were felt: the pointer trailed the
  * Now the position lives in a ref, the element is moved with a composited
- * `translate3d` — never `left`/`top`, which is a layout write — and React renders
+ * `translate3d`: never `left`/`top`, which is a layout write, and React renders
  * only when the cursor appears or disappears, or when a sparkle joins or leaves.
  *
  * Off the homepage the trail is kept as it was, with its own sparkle state.
@@ -53,8 +53,8 @@ export function PinkGlitterCursor() {
     const isEnabled = () => finePointer.matches && !reducedMotion.matches && (isCookieheaven || document.documentElement.dataset.motion !== "calm");
 
     /** Writes the position straight to the DOM: no React render, no layout pass.
-        One style write per pointer event is free — the browser coalesces style and
-        paint to one per frame regardless — whereas a render per event was not. */
+        One style write per pointer event is free, the browser coalesces style and
+        paint to one per frame regardless: whereas a render per event was not. */
     const apply = () => {
       const node = markerRef.current;
       const root = rootRef.current;

@@ -1,11 +1,11 @@
 /*
- * cookie.io — the small game that lives beside the homepage.
+ * cookie.io, the small game that lives beside the homepage.
  *
  * This file is the whole simulation and nothing else: no canvas, no DOM, no
  * React. That is deliberate. The game has to be reproducible (a seeded
  * generator, so a failing case can be replayed) and verifiable without a
- * browser, so everything that decides an outcome — growth, eating, contact,
- * death, respawn — happens here, and `cookie-io.test.ts` drives it directly.
+ * browser, so everything that decides an outcome, growth, eating, contact,
+ * death, respawn: happens here, and `cookie-io.test.ts` drives it directly.
  *
  * The rules, in the order they matter:
  *
@@ -41,7 +41,7 @@ export const EAT_RATIO = 1.25;
 /**
  * How much two circles must overlap before it counts as touching. At 1 the
  * outlines are enough; below 1 the two cookies have to visibly interpenetrate.
- * The margin runs in the visitor's favour on purpose — a death that a player
+ * The margin runs in the visitor's favour on purpose, a death that a player
  * cannot see coming reads as a cheat, and the outlines on screen are the only
  * evidence they have. Set to 1 for literal contact.
  */
@@ -197,7 +197,7 @@ export const POINTER_DEAD_ZONE = 14;
 /**
  * Where the cookie is being told to go, or null to hold its current heading.
  * Keys outrank the pointer, because a mouse resting off-centre must not fight a
- * held arrow key, and the pointer is only read against the middle of the stage —
+ * held arrow key, and the pointer is only read against the middle of the stage, 
  * the camera is always centred on the player, so a direction is all that matters.
  */
 export function steeringFor(held: Iterable<string>, pointer: Vec | null, view: { width: number; height: number }): Vec | null {
@@ -248,7 +248,7 @@ function makeCrumb(world: World): Crumb {
 function makeBot(world: World, first: boolean): Cookie {
   const point = scatterPoint(world, world.player.x, world.player.y, BOT_SPAWN_MIN_DISTANCE, BOT_SPAWN_MAX_DISTANCE, 70);
   /* The opening board carries one clearly larger cookie, so the first lesson is
-     avoidance rather than a slow drift toward danger — but not so large that a
+     avoidance rather than a slow drift toward danger, but not so large that a
      first-time visitor is caught and killed before they have read the rules. */
   const big = first && world.bots.length === 0;
   const radius = big ? 26 + world.random() * 8 : 12 + world.random() * 14;

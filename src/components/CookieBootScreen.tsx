@@ -31,7 +31,7 @@ export function CookieBootScreen() {
       const remaining = Math.max(0, MINIMUM_VISIBLE_MS - held);
       window.setTimeout(() => {
         /* The class starts the fade. It is not what removes the veil: a browser
-           that runs no animations — and there are such browsers, and settings —
+           that runs no animations: and there are such browsers, and settings, 
            would otherwise sit behind a cat forever. This is the guarantee. */
         veil.classList.add("boot-done");
         veil.style.display = "none";

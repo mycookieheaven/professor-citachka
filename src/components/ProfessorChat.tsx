@@ -25,7 +25,7 @@ export function ProfessorChat() {
           <div><p>Professor Citachka</p><h2 id="ask-professor-title">Ask Professor Citachka</h2></div>
           <button type="button" className={styles.close} aria-label="Close Ask Professor Citachka" onClick={() => setOpen(false)}>×</button>
         </header>
-        <p className={styles.status} role="status">Chat is not connected yet — setup required.</p>
+        <p className={styles.status} role="status">Chat is not connected yet, setup required.</p>
         <p id="professor-chat-status">A secure AI provider and private sign-in are still required. No substitute model or pretend replies.</p>
         <label htmlFor="professor-question">Your question (unsent draft)</label>
         <textarea id="professor-question" rows={4} maxLength={2000}
@@ -35,7 +35,7 @@ export function ProfessorChat() {
         <p id="professor-chat-privacy">This draft is not sent or saved by the site. It disappears when you close this panel or reload the page. Do not enter passwords or private information.</p>
         <div className={styles.actions}>
           <span id="professor-chat-count">{draft.length} / 2,000 characters</span>
-          <button type="button" disabled aria-describedby="professor-chat-status">Send — setup required</button>
+          <button type="button" disabled aria-describedby="professor-chat-status">Send (setup required)</button>
         </div>
       </section>}
     </aside>

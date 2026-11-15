@@ -37,7 +37,7 @@
                 }
               ],
               "visual": {
-                "title": "Build a problem representation without premature closure — reasoning sequence",
+                "title": "Build a problem representation without premature closure, reasoning sequence",
                 "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
                 "steps": [
                   "Identify patient and evidence source",
@@ -82,7 +82,7 @@
                 }
               ],
               "visual": {
-                "title": "Audit the sample-to-result chain — reasoning sequence",
+                "title": "Audit the sample-to-result chain: reasoning sequence",
                 "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
                 "steps": [
                   "Patient and request: verify identity",
@@ -117,7 +117,7 @@
                 }
               ],
               "visual": {
-                "title": "Interpret reference intervals without binary thinking — reasoning sequence",
+                "title": "Interpret reference intervals without binary thinking, reasoning sequence",
                 "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
                 "steps": [
                   "Population comparison: species, age, and method",
@@ -152,7 +152,7 @@
                 }
               ],
               "visual": {
-                "title": "Trace mechanisms rather than diagnose from isolated values — reasoning sequence",
+                "title": "Trace mechanisms rather than diagnose from isolated values, reasoning sequence",
                 "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
                 "steps": [
                   "Define constituent and sampled compartment",
@@ -181,13 +181,13 @@
               },
               "readings": [
                 {
-                  "title": "AAHA: 2022 Pain Management Guidelines for Dogs and Cats — Abstract and Introduction",
+                  "title": "AAHA: 2022 Pain Management Guidelines for Dogs and Cats. Abstract and Introduction",
                   "url": "https://aaha.org/resources/2022-aaha-pain-management-guidelines-for-dogs-and-cats/home-3",
                   "note": "Read Abstract and Introduction on chronic pain, owner evaluation, assessment, and case-specific planning. Treatment sections are for qualified clinicians, not self-directed use."
                 }
               ],
               "visual": {
-                "title": "Integrate pain observations across settings — reasoning sequence",
+                "title": "Integrate pain observations across settings: reasoning sequence",
                 "description": "Read the labeled steps in order; alternatives are hypotheses, not established diagnoses.",
                 "steps": [
                   "Home baseline: familiar activity and owner account",
@@ -279,7 +279,7 @@
                 }
               ],
               "visual": {
-                "title": "Map transmission pathways and layered controls — reasoning sequence",
+                "title": "Map transmission pathways and layered controls, reasoning sequence",
                 "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
                 "steps": [
                   "Possible source: patient-area contact",
@@ -314,7 +314,7 @@
                 }
               ],
               "visual": {
-                "title": "Use surveillance without mistaking detection for incidence — reasoning sequence",
+                "title": "Use surveillance without mistaking detection for incidence, reasoning sequence",
                 "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
                 "steps": [
                   "Define event and eligible patient group",
@@ -354,7 +354,7 @@
                 }
               ],
               "visual": {
-                "title": "Evaluate antimicrobial stewardship as a decision system — reasoning sequence",
+                "title": "Evaluate antimicrobial stewardship as a decision system, reasoning sequence",
                 "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
                 "steps": [
                   "Prevention: reduce avoidable disease opportunities",
@@ -389,7 +389,7 @@
                 }
               ],
               "visual": {
-                "title": "Make consent a conversation rather than a signature — reasoning sequence",
+                "title": "Make consent a conversation rather than a signature, reasoning sequence",
                 "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
                 "steps": [
                   "Proposal: purpose, uncertainty, and reasonable options",
@@ -429,7 +429,7 @@
                 }
               ],
               "visual": {
-                "title": "Close the loop in handover and learning from error — reasoning sequence",
+                "title": "Close the loop in handover and learning from error, reasoning sequence",
                 "description": "An original labeled sequence for paper case analysis, not a procedural treatment protocol.",
                 "steps": [
                   "State concern and separate observed, reported, and provisional evidence",

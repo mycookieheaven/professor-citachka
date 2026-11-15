@@ -26,18 +26,18 @@
               },
               "readings": [
                 {
-                  "title": "[9] Open Music Theory — Notating Rhythm",
+                  "title": "[9] Open Music Theory: Notating Rhythm",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/notating-rhythm/",
                   "note": "Read the Key Takeaways, then the sections Note Values, Rest Values, and Dots and ties. Use the dot and tie examples to check the arithmetic in this lesson. The site occasionally blocks automated tooling; open it in an ordinary browser if a fetch fails."
                 },
                 {
-                  "title": "[6] Open Music Theory — Simple Meter and Time Signatures",
+                  "title": "[6] Open Music Theory: Simple Meter and Time Signatures",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/",
                   "note": "Read Counting in Simple Meter for the numbering system used here, and A Note on Ties for the distinction between a tie and a repeated attack."
                 }
               ],
               "visual": {
-                "title": "Count note values and rests without losing the pulse — reasoning sequence",
+                "title": "Count note values and rests without losing the pulse, reasoning sequence",
                 "description": "Durations are computed inside a metrical frame before any playing begins.",
                 "steps": [
                   "Frame: 4/4 at 90 BPM; beat = 0.667 s; bar = 2.667 s.",
@@ -66,13 +66,13 @@
               },
               "readings": [
                 {
-                  "title": "[12] Open Music Theory — Intervals",
+                  "title": "[12] Open Music Theory: Intervals",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intervals/",
                   "note": "Read the Key Takeaways, then the material on interval size and quality, simple and compound intervals, intervallic inversion, and the consonance and dissonance discussion. The inversion examples let you check the size-sum and semitone-sum rules stated here."
                 }
               ],
               "visual": {
-                "title": "Measure intervals and hear their tension — reasoning sequence",
+                "title": "Measure intervals and hear their tension: reasoning sequence",
                 "description": "Size is counted in letter names; quality is counted in semitones.",
                 "steps": [
                   "Name both pitches and count letter names inclusively: C, D, E -> a third.",
@@ -101,18 +101,18 @@
               },
               "readings": [
                 {
-                  "title": "[10] Open Music Theory — Major Scales, Scale Degrees, and Key Signatures",
+                  "title": "[10] Open Music Theory: Major Scales, Scale Degrees, and Key Signatures",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/major-scales/",
                   "note": "Read Major Scales, then Scale Degrees, Solfege, and Scale-Degree Names, then Key Signatures and The Circle of Fifths. The key-signature section states the last-sharp and second-to-last-flat rules used above."
                 },
                 {
-                  "title": "[11] Open Music Theory — Minor Scales, Scale Degrees, and Key Signatures",
+                  "title": "[11] Open Music Theory: Minor Scales, Scale Degrees, and Key Signatures",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/",
                   "note": "Read The Parallel and Relative Relationships and Minor Key Signatures to fix the three-semitone relationship and to see why natural, harmonic, and melodic forms exist while the signature usually reflects natural minor."
                 }
               ],
               "visual": {
-                "title": "Use key signatures to predict the notes you will play — reasoning sequence",
+                "title": "Use key signatures to predict the notes you will play, reasoning sequence",
                 "description": "Signature, tonic, and chord qualities are derived in order.",
                 "steps": [
                   "Order of sharps: F, C, G, D, A, E, B. Order of flats: B, E, A, D, G, C, F.",
@@ -141,23 +141,23 @@
               },
               "readings": [
                 {
-                  "title": "[5] Open Music Theory — Triads",
+                  "title": "[5] Open Music Theory: Triads",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/triads/",
                   "note": "Read Triadic Qualities and Spelling Triads to verify the semitone counts used above, and note the statement that triads have particular qualities by scale degree within major and minor keys."
                 },
                 {
-                  "title": "[13] Open Music Theory — Roman Numerals",
+                  "title": "[13] Open Music Theory: Roman Numerals",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/roman-numerals/",
                   "note": "Read Roman Numerals and Quality, then Roman Numeral Analysis. The chapter's procedure, identify the key, find the root, write the numeral with correct case, matches the practice sequence in this lesson."
                 },
                 {
-                  "title": "[14] Open Music Theory — Four-Chord Schemas",
+                  "title": "[14] Open Music Theory: Four-Chord Schemas",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/4-chord-schemas/",
                   "note": "Read the Key Takeaways and the Doo-wop, Singer/Songwriter, and Hopscotch sections for named rotations of I, IV, V, and vi. Note the relative-minor reinterpretations listed for the singer/songwriter schema."
                 }
               ],
               "visual": {
-                "title": "Build triads from a key and name the progression — reasoning sequence",
+                "title": "Build triads from a key and name the progression, reasoning sequence",
                 "description": "Scale degrees become labelled chords whose qualities are predictable.",
                 "steps": [
                   "Stack scale degrees 1-3-5, then 2-4-6, and so on through the key.",
@@ -186,18 +186,18 @@
               },
               "readings": [
                 {
-                  "title": "[16] University of Iowa — Music and Medicine: Guitar Playing, Part 1: Health Considerations",
+                  "title": "[16] University of Iowa. Music and Medicine: Guitar Playing, Part 1: Health Considerations",
                   "url": "https://iowaprotocols.medicine.uiowa.edu/protocols/guitar-playing-part-1-health-considerations-music-and-medicine-monday",
                   "note": "Read the Overview and Definitions, then the practical guidance on warming up, keeping the wrist as straight as comfortably possible, avoiding a very low strap, taking breaks, and the ergonomics note on seated versus standing play. This is educational material from a university clinical protocol, not individual medical advice."
                 },
                 {
-                  "title": "[17] World Health Organization — Deafness and hearing loss (fact sheet)",
+                  "title": "[17] World Health Organization: Deafness and hearing loss (fact sheet)",
                   "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
                   "note": "Read Key facts and Causes for the statement that over a billion young adults are at risk of permanent, avoidable hearing loss from unsafe listening practices. Relevant whenever you monitor through headphones or an amplifier."
                 }
               ],
               "visual": {
-                "title": "Change guitar chords cleanly with a relaxed hand — reasoning sequence",
+                "title": "Change guitar chords cleanly with a relaxed hand, reasoning sequence",
                 "description": "Setup, preparation, and timing are checked separately.",
                 "steps": [
                   "Seated setup: flat seat, both feet supported, guitar on the right thigh, neck angled up.",
@@ -283,23 +283,23 @@
               },
               "readings": [
                 {
-                  "title": "[19] MIDI.org — About MIDI, Part 1: Overview",
+                  "title": "[19] MIDI.org. About MIDI, Part 1: Overview",
                   "url": "https://midi.org/about-midi-part-1overview",
                   "note": "Read the section headed MIDI is not audio and the following paragraphs on flexibility. The sheet-music analogy there is the basis for the distinction between instructions and recorded sound."
                 },
                 {
-                  "title": "[20] Image-Line — Controller/MIDI Settings",
+                  "title": "[20] Image-Line: Controller/MIDI Settings",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/envsettings_midi.htm",
                   "note": "Read Basics of connecting a MIDI Device: choose the input device, click enable, watch the activity light. The page also states that MIDI is a control-data connection and points to the debug log for diagnosing controller numbers."
                 },
                 {
-                  "title": "[21] Image-Line — Hardware Controllers",
+                  "title": "[21] Image-Line: Hardware Controllers",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/basics_controllers.htm",
                   "note": "Read Types of Controllers for keyboard, pad, and knob-based options, and note the linked-controller procedure and the score-log dump command mentioned in the notes."
                 }
               ],
               "visual": {
-                "title": "Use the MIDI keyboard as a controller, not a recorder — reasoning sequence",
+                "title": "Use the MIDI keyboard as a controller, not a recorder, reasoning sequence",
                 "description": "Data and audio occupy different positions in one chain.",
                 "steps": [
                   "Key press -> note-on with note number and velocity (MIDI data only).",
@@ -328,28 +328,28 @@
               },
               "readings": [
                 {
-                  "title": "[22] Image-Line — Recording Audio, Scores (Notes) & Automation Overview",
+                  "title": "[22] Image-Line: Recording Audio, Scores (Notes) & Automation Overview",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording.htm",
                   "note": "Read the list of data types FL Studio can record, then the sections on the recording filter for audio, notes, automation, and clips. This is the map for deciding what a session captures."
                 },
                 {
-                  "title": "[23] Image-Line — Note/MIDI Recording",
+                  "title": "[23] Image-Line: Note/MIDI Recording",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_scores.htm",
                   "note": "Read Setup, especially Filtering MIDI data and Timing issues, which explains the playback tracking offset and warns to check input quantising first."
                 },
                 {
-                  "title": "[24] Image-Line — Audio Recording",
+                  "title": "[24] Image-Line: Audio Recording",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_audio.htm",
                   "note": "Read Pre-requisites for recording external audio, Recording into the Playlist, and Loop recording for multiple takes; the notes on arming a mixer track and on effects being recorded correspond to the cautions in this lesson."
                 },
                 {
-                  "title": "[18] World Health Organization — Make Listening Safe",
+                  "title": "[18] World Health Organization: Make Listening Safe",
                   "url": "https://www.who.int/activities/making-listening-safe",
                   "note": "Skim the initiative's aim of reducing the risk of noise-induced hearing loss from recreational listening. It supports the monitoring-level habit in this lesson."
                 }
               ],
               "visual": {
-                "title": "Record a part with a count-in and honest takes — reasoning sequence",
+                "title": "Record a part with a count-in and honest takes, reasoning sequence",
                 "description": "Capture type determines what can be edited later.",
                 "steps": [
                   "Choose capture type: note data (instructions) or audio (recorded sound).",
@@ -378,23 +378,23 @@
               },
               "readings": [
                 {
-                  "title": "[7] Image-Line — Piano roll Quantizer",
+                  "title": "[7] Image-Line: Piano roll Quantizer",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll_qnt.htm",
                   "note": "Read Groove Template, Strength, the Quantize mode options, and Action buttons, then the notes on making groove templates, including the statement that only note position and length are used and that zero velocities delete notes. Note also the remark that Global Snap controls real-time input quantising."
                 },
                 {
-                  "title": "[15] Open Music Theory — Other Rhythmic Essentials",
+                  "title": "[15] Open Music Theory: Other Rhythmic Essentials",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/other-rhythmic-essentials/",
                   "note": "Read Borrowed Divisions for triplets and the idea that a division can be borrowed from another meter, then Syncopation for how ties, dots, rests, and accents create off-beat emphasis. Useful background for deciding what a grid can and cannot represent."
                 },
                 {
-                  "title": "[1] Image-Line — Piano roll",
+                  "title": "[1] Image-Line: Piano roll",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll.htm",
                   "note": "Read Piano roll Basics for the description of notes as horizontal bars and the relationship between the grid, snap, and zoom. Helpful before changing a division setting."
                 }
               ],
               "visual": {
-                "title": "Weigh quantisation against groove — reasoning sequence",
+                "title": "Weigh quantisation against groove: reasoning sequence",
                 "description": "Position, strength, and mode are three separate decisions.",
                 "steps": [
                   "State the intended feel: straight, pushed, shuffled, or triplet-based.",
@@ -423,28 +423,28 @@
               },
               "readings": [
                 {
-                  "title": "[8] Image-Line — Levels, Mixing & Clipping",
+                  "title": "[8] Image-Line: Levels, Mixing & Clipping",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer_levelsandmixing.htm",
                   "note": "Read Setting Output Mix Levels, Using peak meters, and The dB scale used on meters, where the manual gives the correspondences used here, including 6 decibels as about half the level and 12 decibels as about a quarter. Note that the monitor volume knob does not affect rendered levels."
                 },
                 {
-                  "title": "[28] Image-Line — Fruity Parametric EQ 2",
+                  "title": "[28] Image-Line: Fruity Parametric EQ 2",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Parametric%20EQ%202.htm",
                   "note": "Read the introduction and Parameters for the band types, centre frequency, and width controls, plus the global gain slider. The page frames equalisation as changing the level of specific frequencies, which is the role assumed here."
                 },
                 {
-                  "title": "[29] Image-Line — Fruity Balance",
+                  "title": "[29] Image-Line: Fruity Balance",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/plugins/Fruity%20Balance.htm",
                   "note": "A short page describing a simple level and pan effect. Useful for the reference to panning before reaching for equalisation."
                 },
                 {
-                  "title": "[3] Image-Line — Mixer Functions",
+                  "title": "[3] Image-Line: Mixer Functions",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer.htm",
                   "note": "Consult the routing material when a part's level seems to change the wrong thing; it is the reference for where each channel's audio actually goes."
                 }
               ],
               "visual": {
-                "title": "Layer guitar and keyboard without masking — reasoning sequence",
+                "title": "Layer guitar and keyboard without masking: reasoning sequence",
                 "description": "Fix overlap in the arrangement before touching a fader.",
                 "steps": [
                   "State each part's role: pad, rhythm figure, melody, or bass.",
@@ -473,28 +473,28 @@
               },
               "readings": [
                 {
-                  "title": "[27] Image-Line — Automation Clips",
+                  "title": "[27] Image-Line: Automation Clips",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/playlist_automationclip.htm",
                   "note": "Read Automation Clips, Automation Clip Focus, and Creating Automation Clips. The page explains that automation clips move linked controls, are not bound to a pattern, and appear in the playlist as a line graph."
                 },
                 {
-                  "title": "[26] Image-Line — Recording Automation",
+                  "title": "[26] Image-Line: Recording Automation",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_automation.htm",
                   "note": "Read Setup and Recording automation, then the note about control-point density at 96 pulses per quarter note and the option to turn a recording into an automation clip."
                 },
                 {
-                  "title": "[2] Image-Line — The Playlist",
+                  "title": "[2] Image-Line: The Playlist",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/playlist.htm",
                   "note": "Read Patterns, Audio Clips and Automation Clips and Working with Clips for the distinction between the three clip types you place in an arrangement."
                 },
                 {
-                  "title": "[4] Image-Line — Exporting Audio & MIDI",
+                  "title": "[4] Image-Line: Exporting Audio & MIDI",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm",
                   "note": "Read the material on rendering, output formats, effects options, and external hardware. Note that a MIDI file is not a recording of your instrument's sound and that hardware audio must be recorded to appear in a render."
                 }
               ],
               "visual": {
-                "title": "Assemble a first arrangement with sections, dynamics and a delivery note — reasoning sequence",
+                "title": "Assemble a first arrangement with sections, dynamics and a delivery note, reasoning sequence",
                 "description": "Sections are planned in bars and seconds, then verified in the exported file.",
                 "steps": [
                   "Four sections of four bars at 96 BPM: 2.5 s per bar, 10 s per section, 40 s body.",

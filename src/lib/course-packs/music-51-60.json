@@ -26,18 +26,18 @@
               },
               "readings": [
                 {
-                  "title": "[6] Open Music Theory — Simple Meter and Time Signatures",
+                  "title": "[6] Open Music Theory: Simple Meter and Time Signatures",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/",
                   "note": "Read the sections Terminology, Conducting Patterns and Counting in Simple Meter. Terminology fixes the vocabulary of beat and division that this lesson depends on, the conducting patterns show that the position of a beat is something the body performs rather than something the notation states, and the counting sections give the one-e-and-a syllables used in the example."
                 },
                 {
-                  "title": "[44] Open Music Theory — Hypermeter (new version)",
+                  "title": "[44] Open Music Theory: Hypermeter (new version)",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/hypermeter2/",
                   "note": "Read the Key Takeaways, then Overview and the section Hypermeter, Meter, and Tactus. Those sections define the tactus as felt rather than notated and show the tactus changing level between normal, double-speed and half-speed performances of the same excerpt, which is the basis for this lesson's 13.333-second hypermeasure and for the warning that very slow spans are hard to entrain to. The glossary entries for hyperbeat and hypermetric reinterpretation are worth reading as well."
                 }
               ],
               "visual": {
-                "title": "Feel the pulse as a cycle in your body before you count it — reasoning sequence",
+                "title": "Feel the pulse as a cycle in your body before you count it, reasoning sequence",
                 "description": "One tempo, three metrical levels, and a four-bar cycle that decides where a loop can end.",
                 "steps": [
                   "Fix the tempo: 4/4 at 72 BPM means one beat = 0.833 s, one eighth = 0.417 s, one sixteenth = 0.208 s.",
@@ -67,18 +67,18 @@
               },
               "readings": [
                 {
-                  "title": "[46] Image-Line — Options Menu (Switches: Metronome)",
+                  "title": "[46] Image-Line. Options Menu (Switches: Metronome)",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/menu_options.htm",
                   "note": "Read the Switches list and the entry for Metronome (Ctrl+M). It gives the behaviour cited here, a short sound at the beginning of every beat with an accent at the beginning of every bar, together with the note that points to the Transport Panel for the metronome options, including mixer track routing and changing the click sound. That routing detail is what allows the click to be balanced against your playing."
                 },
                 {
-                  "title": "[60] PLOS Computational Biology — Delayed feedback embedded in perception-action coordination cycles results in anticipation behavior during synchronized rhythmic action (2019)",
+                  "title": "[60] PLOS Computational Biology: Delayed feedback embedded in perception-action coordination cycles results in anticipation behavior during synchronized rhythmic action (2019)",
                   "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007371",
                   "note": "Read the Abstract and then the Author summary. The abstract states that people synchronizing with a metronome tend to anticipate the stimulus by tapping slightly before it, that this tendency increases with stimulus periods up to 3500 ms and is less pronounced in trained musicians, and that auditory feedback, a partner and transmission latencies all influence tap timing. It is a dynamical-systems model of laboratory tapping, so treat it as an account of synchronization mechanics rather than a claim about musical expression."
                 }
               ],
               "visual": {
-                "title": "Practise with a metronome without turning your playing mechanical — reasoning sequence",
+                "title": "Practise with a metronome without turning your playing mechanical, reasoning sequence",
                 "description": "The same click placed at four different points trains four different competencies.",
                 "steps": [
                   "Configure the tool: metronome on (Ctrl+M), click sound and mixer-track routing set on the Transport Panel so the click is balanced, not loud.",
@@ -108,28 +108,28 @@
               },
               "readings": [
                 {
-                  "title": "[42] Open Music Theory — Rhythm and Meter in Pop Music",
+                  "title": "[42] Open Music Theory: Rhythm and Meter in Pop Music",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/rhythm-and-meter-in-pop-music/",
                   "note": "Read Straight Syncopation, then Transcribing straight syncopations, then Tresillo. The first section gives the halve-the-first-note-and-shift-the-rest procedure and the rule that the unit of syncopation is half the duration of the straight notes; the tresillo section is the source for the 3+3+2 pattern calculated in this lesson."
                 },
                 {
-                  "title": "[43] Open Music Theory — Metrical Dissonance",
+                  "title": "[43] Open Music Theory: Metrical Dissonance",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/metrical-dissonance/",
                   "note": "Read Displacement Dissonance and Grouping dissonance, including the subsection Grouping dissonance via ostinati. The chapter is based on Krebs's theory and separates the two categories that this lesson uses to describe the same accents, with signed displacement labels and a discussion of how ostinati create grouping dissonance."
                 },
                 {
-                  "title": "[59] Witek, Clarke, Wallentin, Kringelbach and Vuust — Syncopation, Body-Movement and Pleasure in Groove Music, PLOS ONE 9(4): e94446 (2014)",
+                  "title": "[59] Witek, Clarke, Wallentin, Kringelbach and Vuust. Syncopation, Body-Movement and Pleasure in Groove Music, PLOS ONE 9(4): e94446 (2014)",
                   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0094446",
                   "note": "Read the Abstract. It reports a web-based survey of funk drum-breaks with varying degrees of syncopation and audio entropy, using ratings of wanting to move and experienced pleasure, and states that medium degrees of syncopation produced the most of both while entropy predicted neither. Treat it as survey evidence about listeners' ratings, not as a claim about playing."
                 },
                 {
-                  "title": "[36] Open Music Theory — Drumbeats",
+                  "title": "[36] Open Music Theory: Drumbeats",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/drumbeats/",
                   "note": "Re-read The Snare Drum and the Backbeat and the subsections Non-Snare Backbeats and Half- and Double-Time Feels. The backbeat definition is what this lesson contrasts with displacement, because accent on beats two and four creates syncopation by emphasis rather than by shifting attacks."
                 }
               ],
               "visual": {
-                "title": "Play across the beat on purpose: syncopation and groove — reasoning sequence",
+                "title": "Play across the beat on purpose: syncopation and groove, reasoning sequence",
                 "description": "Two families of syncopation, computed at 90 beats per minute, and a grid that can erase either one.",
                 "steps": [
                   "Establish the units: at 90 BPM, beat 0.667 s, eighth 0.333 s, sixteenth 0.167 s, 4/4 bar 2.667 s.",
@@ -159,23 +159,23 @@
               },
               "readings": [
                 {
-                  "title": "[48] JustinGuitar — Using a Capo (BC-163)",
+                  "title": "[48] JustinGuitar: Using a Capo (BC-163)",
                   "url": "https://justinguitar.com/guitar-lessons/using-a-capo-bc-163",
                   "note": "Read the whole lesson text. It states that a capo lets you use the same chord shapes to play in different keys, that singers use it to move a song into a key that suits the voice, that it simplifies songs which would otherwise need barre chords but does not work for every song, and that the capo must sit just behind the fret or buzzing results. Access caveat: this host returns HTTP 403 to an automated command-line fetch even with a browser user agent; the page text was read through a retrieval tool and the lesson renders normally in a browser."
                 },
                 {
-                  "title": "[49] Fender — The Capo: 6 Things You Need to Know",
+                  "title": "[49] Fender. The Capo: 6 Things You Need to Know",
                   "url": "https://www.fender.com/articles/parts-and-accessories/the-capo-6-things-you-need-to-know",
                   "note": "Read items 1, 3, 5 and 6, which cover the capo as a movable nut, the different types of capos, the argument that a capo is not a crutch, and the advice to tune after taking the capo off. Access caveat: this host also returns HTTP 403 to an automated command-line fetch with a browser user agent; the page text was read through a retrieval tool."
                 },
                 {
-                  "title": "[10] Open Music Theory — Major Scales, Scale Degrees, and Key Signatures",
+                  "title": "[10] Open Music Theory: Major Scales, Scale Degrees, and Key Signatures",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/major-scales/",
                   "note": "Re-read the section Key Signatures and, if you have not seen it since lesson 33, the subsection on the order of sharps and flats. The key-signature material is what lets you predict which notes change when you transpose the same progression, which is the written counterpart of moving a shape along the neck."
                 }
               ],
               "visual": {
-                "title": "Play the same music in other keys: movable shapes and the capo — reasoning sequence",
+                "title": "Play the same music in other keys: movable shapes and the capo, reasoning sequence",
                 "description": "One shape, three positions, and the frequencies that confirm each sounding key.",
                 "steps": [
                   "Fix the instrument: 25.5-inch scale = 647.7 mm, so fret 1 is 36.35 mm from the nut, fret 3 is 103.05 mm, fret 12 is 323.85 mm.",
@@ -205,18 +205,18 @@
               },
               "readings": [
                 {
-                  "title": "[50] This is Classical Guitar (Bradford Werner) — Barre Lessons and Exercises for Guitar",
+                  "title": "[50] This is Classical Guitar (Bradford Werner). Barre Lessons and Exercises for Guitar",
                   "url": "https://www.thisisclassicalguitar.com/barre-lessons-and-exercises-for-guitar/",
                   "note": "Read the overview text and follow the linked exercise lesson on bar technique. The page frames barring as an exercise-based technique rather than a strength test and collects the site's barre lessons and exercises in one place, which is the approach this lesson's cycle schedule formalises."
                 },
                 {
-                  "title": "[16] University of Iowa — Music and Medicine: Guitar Playing, Part 1: Health Considerations",
+                  "title": "[16] University of Iowa. Music and Medicine: Guitar Playing, Part 1: Health Considerations",
                   "url": "https://iowaprotocols.medicine.uiowa.edu/protocols/guitar-playing-part-1-health-considerations-music-and-medicine-monday",
                   "note": "Read the Definitions section and the summary points above the video list. It defines playing-related musculoskeletal disorders in the terms quoted in this lesson, reports the failure-to-warm-up finding and the figure of one injury per 2,381 hours of practice, and states that symptoms need healthcare advice or treatment. Treat it as clinical education from a university protocol, not as individual medical advice."
                 }
               ],
               "visual": {
-                "title": "Barre chords and the strength problem, approached safely — reasoning sequence",
+                "title": "Barre chords and the strength problem, approached safely, reasoning sequence",
                 "description": "A duty cycle, a geometry check, and a warm-up that the cited clinical source links to reduced injury risk.",
                 "steps": [
                   "Distribute the load: 4 s hold + 8 s release = a 12 s cycle, so a 300 s set is 25 cycles and about 33 percent loaded.",
@@ -304,23 +304,23 @@
               },
               "readings": [
                 {
-                  "title": "[51] This is Classical Guitar (Bradford Werner) — Alternating Right Hand Fingers for Classical Guitar",
+                  "title": "[51] This is Classical Guitar (Bradford Werner). Alternating Right Hand Fingers for Classical Guitar",
                   "url": "https://thisisclassicalguitar.com/alternating-right-hand-fingers-classical-guitar",
                   "note": "Read the opening paragraphs. It states that right-hand alternation is one of the most important concepts of right-hand fingering and that repeating fingers by accident is a common intermediate mistake, which is the claim this lesson uses for the alternation rule and for the diagnostic in the mistake field."
                 },
                 {
-                  "title": "[52] This is Classical Guitar (Bradford Werner) — How to Play Rest and Free Strokes at the Same Time",
+                  "title": "[52] This is Classical Guitar (Bradford Werner). How to Play Rest and Free Strokes at the Same Time",
                   "url": "https://thisisclassicalguitar.com/rest-free-strokes-together",
                   "note": "Read the question and the answer summary. It addresses exactly the simultaneous combination this lesson tests, a rest-stroke thumb with free-stroke fingers, and its answer is that each technique must first be learned separately and be relaxed, smooth and predictable, with proper finger movement and planting contributing to a simultaneous release."
                 },
                 {
-                  "title": "[35] Open Music Theory — Texture in Pop Music",
+                  "title": "[35] Open Music Theory: Texture in Pop Music",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/texture-in-pop-music",
                   "note": "Re-read the Functional Bass Layer and Melodic layer sections. The separation of a functional bass part from a foreground melody is the arrangement principle behind the thumb and finger split, and it justifies making the two parts differ in rate, register and loudness rather than only in pitch."
                 }
               ],
               "visual": {
-                "title": "Fingerstyle basics: give the thumb and the fingers different clocks — reasoning sequence",
+                "title": "Fingerstyle basics: give the thumb and the fingers different clocks, reasoning sequence",
                 "description": "Two periodicities in one bar at 72 beats per minute, and the meeting points that make the pattern learnable.",
                 "steps": [
                   "Set the units: 72 BPM, so beat 0.833 s, eighth 0.417 s, bar of 4/4 3.333 s.",
@@ -350,23 +350,23 @@
               },
               "readings": [
                 {
-                  "title": "[34] Open Music Theory — Inversion",
+                  "title": "[34] Open Music Theory: Inversion",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/inversion",
                   "note": "Read Triadic Inversion and Spelling Triads in Inversion. The chapter establishes the label system used here and includes the statement that the bass voice of a chord is not the same thing as the chord's root, which is the misconception this lesson's question targets."
                 },
                 {
-                  "title": "[53] Music Theory for the 21st-Century Classroom (Robert Hutchinson) — 6.3 Inverted Triads",
+                  "title": "[53] Music Theory for the 21st-Century Classroom (Robert Hutchinson), 6.3 Inverted Triads",
                   "url": "https://musictheory.pugetsound.edu/mt21c/InvertedTriads.html",
                   "note": "Read section 6.3 and the subsection 6.3.1 on slash chords, which is the lead-sheet notation used in this lesson. The section is written for readers who work at a keyboard, so its examples show the same triad placed in the positions the lesson measures."
                 },
                 {
-                  "title": "[55] Open Music Theory — Jazz Voicings",
+                  "title": "[55] Open Music Theory: Jazz Voicings",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/jazz-voicings/",
                   "note": "Read the opening paragraphs and the section Spacing. It discusses how to distribute chord members across a keyboard texture, states that its written examples keep the root in the left hand so the harmony stays clear, and notes that in performance the root is often omitted because the bass instrument covers it, which is the collaboration point made in the second example. The chords it voices are more extended than the triads here, so read it for the spacing principle rather than for the chord types."
                 }
               ],
               "visual": {
-                "title": "Keyboard voicings: an inversion changes the feel, not the notes — reasoning sequence",
+                "title": "Keyboard voicings: an inversion changes the feel, not the notes, reasoning sequence",
                 "description": "One triad, three bass notes, and the intervals above the bass that a listener actually measures.",
                 "steps": [
                   "Root position: C3 E3 G3 at 130.81, 164.81 and 196.00 Hz; intervals above the bass are 4 and 7 semitones.",
@@ -396,23 +396,23 @@
               },
               "readings": [
                 {
-                  "title": "[58] Segado, Hollinger, Thibodeau, Penhune and Zatorre — Partially Overlapping Brain Networks for Singing and Cello Playing, Frontiers in Neuroscience 12:351 (2018)",
+                  "title": "[58] Segado, Hollinger, Thibodeau, Penhune and Zatorre. Partially Overlapping Brain Networks for Singing and Cello Playing, Frontiers in Neuroscience 12:351 (2018)",
                   "url": "https://www.frontiersin.org/articles/10.3389/fnins.2018.00351/full",
                   "note": "Read the article summary at the top of the page and then the abstract. The title states the finding used in this lesson, that the networks for singing and instrumental playing overlap only partially, which is the evidence for treating the two tasks as sharing resources. It is a neuroimaging study of trained participants, so read it as an account of shared recruitment, not as a learning method or a prediction about your own progress."
                 },
                 {
-                  "title": "[57] National Institute on Deafness and Other Communication Disorders — Taking Care of Your Voice",
+                  "title": "[57] National Institute on Deafness and Other Communication Disorders. Taking Care of Your Voice",
                   "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice",
                   "note": "Read How do you know when your voice is not healthy, What causes voice problems and Healthy habits to take care of your voice. The warning-sign list and the care advice used in this lesson come from those sections, including hydration, vocal naps, humidifier use with a recommended humidity level, and the instruction to have a voice problem assessed by a doctor. It is public health education, not individual diagnosis."
                 },
                 {
-                  "title": "[37] Open Music Theory — Melody and Phrasing",
+                  "title": "[37] Open Music Theory: Melody and Phrasing",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/melody-and-phrasing/",
                   "note": "Re-read the sections on two-, three- and four-part phrase shapes with the voice in mind. The phrase structures described there are what a breath point should respect, so a gap falls at a phrase boundary rather than interrupting a rising line."
                 }
               ],
               "visual": {
-                "title": "Sing while you play: solving the coordination problem — reasoning sequence",
+                "title": "Sing while you play: solving the coordination problem, reasoning sequence",
                 "description": "Two streams with different event rates, one breath point, and a sequencing order that keeps one stream cheap.",
                 "steps": [
                   "Set the piece: 84 BPM, bar 2.857 s, four-bar phrase 11.429 s, 32 bars 91.429 s.",
@@ -442,28 +442,28 @@
               },
               "readings": [
                 {
-                  "title": "[39] Open Music Theory — Introduction to Form in Popular Music",
+                  "title": "[39] Open Music Theory: Introduction to Form in Popular Music",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-form-in-popular-music/",
                   "note": "Read Sections within Pop Forms and the whole of Terminology and Basic Concepts, including the Analytical Notation subsections on capital and lowercase letters. The section-length range and the core-versus-auxiliary distinction used in this lesson come from here, as does the caution that relationships between sections are often not clear cut."
                 },
                 {
-                  "title": "[41] Open Music Theory — AABA Form and Strophic Form",
+                  "title": "[41] Open Music Theory: AABA Form and Strophic Form",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/aaba-and-strophic-form/",
                   "note": "Read the sections on Strophe (A) and Bridge (B) and the material on Introductions and Outros. The bridge exists as a contrast function, which is the job the second section in this lesson performs; the chapter also names the auxiliary sections you can use if the contrast needs a frame."
                 },
                 {
-                  "title": "[56] Open Music Theory — Core Principles of Orchestration",
+                  "title": "[56] Open Music Theory: Core Principles of Orchestration",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/core-principles-of-orchestration/",
                   "note": "Read Simultaneous (Vertical) Combinations, including Voicing chords, Doubling lines and Texture, then Successive (Horizontal) Combinations. The vertical sections supply the register, doubling and density levers used here, and the horizontal section names the crescendo as a change over time, which is the dynamic contrast of this lesson described without a level control."
                 },
                 {
-                  "title": "[14] Open Music Theory — Four-Chord Schemas",
+                  "title": "[14] Open Music Theory: Four-Chord Schemas",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/4-chord-schemas/",
                   "note": "Re-read the Rotation subsections under the Doo-wop and Singer/Songwriter entries. Rotations are exactly the manoeuvre used in the example: the same chords presented with a different starting point, so that the second section sounds related rather than new."
                 }
               ],
               "visual": {
-                "title": "Write a second section that belongs, and change the arrangement without adding a track — reasoning sequence",
+                "title": "Write a second section that belongs, and change the arrangement without adding a track, reasoning sequence",
                 "description": "Hold four parameters, move three, and let arithmetic supply the dynamic shape.",
                 "steps": [
                   "Set A: 8 bars at 90 BPM = 21.333 s, one chord per bar, four-note voicing, middle register, no level change.",
@@ -493,33 +493,33 @@
               },
               "readings": [
                 {
-                  "title": "[47] Sound on Sound (Sam Inglis) — How To Record Yourself And Make It Sound Good",
+                  "title": "[47] Sound on Sound (Sam Inglis): How To Record Yourself And Make It Sound Good",
                   "url": "https://soundonsound.com/techniques/how-record-yourself-and-make-it-sound-good",
                   "note": "Read the introduction and then the sections Be Prepared and Softly Does It. The piece is about solo tracking sessions in which the performer is also the engineer, which is exactly this lesson's situation, and it supports both the preparation advice and the instruction to keep monitoring levels moderate."
                 },
                 {
-                  "title": "[4] Image-Line — Exporting Audio & MIDI",
+                  "title": "[4] Image-Line: Exporting Audio & MIDI",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm",
                   "note": "Re-read About Rendering and Render length. It states that the master mixer track is rendered by default, that a MIDI file is not an audio format, and that the render length follows a hierarchy including a tail setting, which is the documentation behind the render-versus-save distinction in this lesson."
                 },
                 {
-                  "title": "[24] Image-Line — Audio Recording",
+                  "title": "[24] Image-Line: Audio Recording",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/recording_audio.htm",
                   "note": "Read the page for the steps that turn a live input into a recorded audio region, and note which setup steps must be done before the first take rather than during it. This is the documentation for the capture half of this lesson's procedure."
                 },
                 {
-                  "title": "[18] World Health Organization — Make Listening Safe",
+                  "title": "[18] World Health Organization: Make Listening Safe",
                   "url": "https://www.who.int/activities/making-listening-safe",
                   "note": "Read the campaign overview for the two variables that matter when you monitor yourself, level and duration. The companion WHO fact sheet on deafness and hearing loss states that over one billion young adults are at risk of permanent, avoidable hearing loss due to unsafe listening practices, which is the reason this lesson insists on a comfortable monitoring level and regular breaks."
                 },
                 {
-                  "title": "[19] MIDI.org — About MIDI, Part 1: Overview",
+                  "title": "[19] MIDI.org. About MIDI, Part 1: Overview",
                   "url": "https://midi.org/about-midi-part-1overview",
                   "note": "Re-read the sections explaining that MIDI carries performance instructions rather than sound. It is the reference for two claims in this lesson, that a MIDI file needs a sound source, and that a MIDI export is not a recording you can send to someone."
                 }
               ],
               "visual": {
-                "title": "Rehearse and record one piece from start to finish — reasoning sequence",
+                "title": "Rehearse and record one piece from start to finish, reasoning sequence",
                 "description": "A 45-minute session for a 91.429-second piece, with the arithmetic of takes, storage and listening time made explicit.",
                 "steps": [
                   "Fix the piece: 32 bars at 84 BPM means a bar of 2.857 s and a piece of 91.429 s; a two-bar count-in is 5.714 s.",

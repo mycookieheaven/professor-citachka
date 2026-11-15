@@ -17,7 +17,7 @@ describe("VeterinaryLesson", () => {
 
     fireEvent.click(screen.getByRole("button", { name: /confirm patient, medication, dose, route, and time/i }));
 
-    expect(screen.getByRole("status")).toHaveTextContent(/right—those checks interrupt common medication errors/i);
+    expect(screen.getByRole("status")).toHaveTextContent(/right: those checks interrupt common medication errors/i);
   });
 
   it("records passed unit checks locally and unlocks the next unit", () => {

@@ -6,8 +6,8 @@ import path from "node:path";
  *
  * Entries live in src/data/prose.json so the words stay plain and portable: one
  * string per paragraph, no markup to escape, no HTML to trust. The page reads
- * them on the server, so the prose exists in the HTML for anyone — including a
- * visitor with JavaScript switched off — and prints like a page of a book.
+ * them on the server, so the prose exists in the HTML for anyone, including a
+ * visitor with JavaScript switched off: and prints like a page of a book.
  */
 
 export type ProseEntry = {

@@ -26,9 +26,9 @@
               },
               "readings": [
                 {
-                  "title": "[6] Open Music Theory — Simple Meter and Time Signatures",
+                  "title": "[6] Open Music Theory: Simple Meter and Time Signatures",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/simple-meter-and-time-signatures/",
-                  "note": "Open Music Theory — Simple Meter and Time Signatures; read Counting in Simple Meter, including sustained counts and subdivisions."
+                  "note": "Open Music Theory: Simple Meter and Time Signatures; read Counting in Simple Meter, including sustained counts and subdivisions."
                 },
                 {
                   "title": "[1] Piano roll",
@@ -37,7 +37,7 @@
                 }
               ],
               "visual": {
-                "title": "Offbeat attacks without losing the beat — reasoning sequence",
+                "title": "Offbeat attacks without losing the beat: reasoning sequence",
                 "description": "Two aligned timing lanes distinguish reference beats from attacks.",
                 "steps": [
                   "Reference: 1 | 2 | 3 | 4 | next 1",
@@ -66,13 +66,13 @@
               },
               "readings": [
                 {
-                  "title": "[1] Image-Line — Piano roll",
+                  "title": "[1] Image-Line: Piano roll",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll.htm",
-                  "note": "Image-Line — Piano roll; read the introduction and Using the Piano roll, then test the selected instrument."
+                  "note": "Image-Line: Piano roll; read the introduction and Using the Piano roll, then test the selected instrument."
                 }
               ],
               "visual": {
-                "title": "Shape a phrase with note releases — reasoning sequence",
+                "title": "Shape a phrase with note releases: reasoning sequence",
                 "description": "Separate instruction duration from audible decay.",
                 "steps": [
                   "Beat marker → note-on: keep the start fixed.",
@@ -85,7 +85,7 @@
             {
               "id": "23",
               "title": "Hear major and minor by changing the third",
-              "explanation": "Your objective is to change a triad’s quality while preserving its root and fifth, then explain exactly what changed. You already know C–E–G as a major triad. A triad is a three-note chord that can be arranged in thirds; its quality depends on the intervals from its root.[5] Major and minor triads share a perfect fifth but differ in the third. This offers a controlled listening experiment: keep the outside notes, rhythm, register, and sound constant while changing the middle pitch. The aim is not to memorize that major is always happy and minor always sad. Those associations are context-sensitive descriptions, not definitions.",
+              "explanation": "Your objective is to change a triad’s quality while preserving its root and fifth, then explain exactly what changed. You already know C-E-G as a major triad. A triad is a three-note chord that can be arranged in thirds; its quality depends on the intervals from its root.[5] Major and minor triads share a perfect fifth but differ in the third. This offers a controlled listening experiment: keep the outside notes, rhythm, register, and sound constant while changing the middle pitch. The aim is not to memorize that major is always happy and minor always sad. Those associations are context-sensitive descriptions, not definitions.",
               "example": "Locate C, E, and G on a keyboard or in the Piano roll. Play each separately to confirm the notes, then sound them together gently. Repeat with E lowered to E-flat, the black key immediately below E, keeping C and G unchanged. The first collection is C major; the second is C minor. Listen once to the complete sonorities, then alternate E and E-flat against a sustained or repeated C if comfortable. In the DAW, duplicate the original chord and move only its third down one semitone. Label the patterns with their pitch collections, not merely “bright” and “dark.”",
               "question": "What makes C major into C minor with root and fifth fixed?",
               "answer": "Lower E to E-flat",
@@ -94,26 +94,26 @@
               "depth": {
                 "definitions": "The root names the chord’s underlying identity; it is not necessarily the lowest sounding pitch in every arrangement. The third is the chord member a generic third above the root, and its interval quality distinguishes these two chord types. A semitone is the adjacent-key distance on the standard keyboard, including black keys. A pitch class groups octave-related instances of a note name. Quality identifies the interval pattern, whereas voicing identifies how chord members are distributed across actual pitches. Keep those terms separate now so that the next lesson’s inversion work does not accidentally become a different chord-quality exercise.",
                 "mechanism": "Why isolate the third? If you change the bass register, attack level, instrument, and third simultaneously, you may hear a dramatic difference without knowing which change caused it. Fixing other variables creates an interpretable comparison. Open Music Theory describes major and minor triads in terms of their thirds and shared perfect fifth.[5] This does not establish that a listener must attach the same emotional label in every style. A faster minor passage may feel animated; a slow major passage may feel reflective. The structural description survives those changes in interpretation and is therefore the more reliable first answer.",
-                "secondExample": "For a contrasting application, compare A–C–E with A–C-sharp–E. This time the starting triad is minor and raising the third makes it major. Before touching an instrument, say which pitch changes and which stay fixed. A guitar learner can enter these notes separately in software or play them one at a time where comfortable; a new full barre shape is unnecessary. If you arpeggiate rather than sound all notes simultaneously, label that performance choice. The ordered notes still disclose the chord members, but the listening experience differs from a simultaneous block chord.",
+                "secondExample": "For a contrasting application, compare A-C-E with A-C-sharp-E. This time the starting triad is minor and raising the third makes it major. Before touching an instrument, say which pitch changes and which stay fixed. A guitar learner can enter these notes separately in software or play them one at a time where comfortable; a new full barre shape is unnecessary. If you arpeggiate rather than sound all notes simultaneously, label that performance choice. The ordered notes still disclose the chord members, but the listening experience differs from a simultaneous block chord.",
                 "mistake": "The frequent error is lowering every pitch by a semitone and calling the result minor. That operation transposes the entire chord; it preserves the interval relationships and therefore preserves major quality. Another error is lowering the fifth because it is visually closest to the cursor. Read note names after editing instead of relying on the direction of a drag. If your comparison sounds almost identical, verify that the changed note is audible, that the correct pattern is playing, and that the previous sustained chord has stopped. Do not raise monitoring volume to solve a routing or selection problem.",
                 "application": "Practice for two minutes: identify the three chord members, make the one-note change, and listen in alternating order with a short silence between chords. Your self-review rubric asks for correct spellings, unchanged outer notes, equal timing and approximate level, and an explanation based on the third rather than emotion. A model response is “C and G stayed fixed; E became E-flat, so the major third became minor.” For retrieval without an instrument, write the A minor example and circle the single note you would alter to make it major. Check against the contrasting example only after committing to an answer.",
                 "summary": "Triad quality can now be treated as a manipulable relationship rather than an opaque label. You have also practiced a useful production habit: alter one parameter, preserve a comparison version, and listen for the predicted consequence. Next, keep all chord pitch classes unchanged while changing their placement, which creates a new voicing or inversion without automatically changing the chord’s quality."
               },
               "readings": [
                 {
-                  "title": "[5] Open Music Theory — Triads",
+                  "title": "[5] Open Music Theory: Triads",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/triads/",
-                  "note": "Open Music Theory — Triads; read Triadic Qualities and Spelling Triads, distinguishing structure from expressive associations."
+                  "note": "Open Music Theory: Triads; read Triadic Qualities and Spelling Triads, distinguishing structure from expressive associations."
                 }
               ],
               "visual": {
-                "title": "Hear major and minor by changing the third — reasoning sequence",
+                "title": "Hear major and minor by changing the third: reasoning sequence",
                 "description": "A controlled comparison tracks the one changed member.",
                 "steps": [
-                  "C major: root C — third E — fifth G.",
+                  "C major: root C, third E, fifth G.",
                   "Hold C and G fixed.",
                   "Lower E to adjacent E-flat.",
-                  "C minor: root C — third E-flat — fifth G."
+                  "C minor: root C, third E-flat, fifth G."
                 ]
               }
             },
@@ -121,34 +121,34 @@
               "id": "24",
               "title": "Use common tones to make chord changes smaller",
               "explanation": "Your objective is to connect two triads while preserving a common tone and reducing unnecessary movement. Earlier guitar and keyboard work established comfortable, accurate changes. Now the question is not merely whether you reach the next chord but how individual notes travel between chords. A chord can retain its identity when its pitch classes are reordered or doubled.[5] This lets you choose a nearby voicing instead of moving every finger to a new root-position shape. The exercise teaches one local voice-leading choice; it does not claim that the smallest possible motion is always the best musical result.",
-              "example": "Begin with the keyboard pitches C–E–G in a comfortable middle register. Your destination is F major, whose pitch classes are F–A–C. Instead of jumping the entire hand to F–A–C above the original C, keep the original C, move E up to F, and move G up to A. The destination sounds C–F–A from lowest to highest. It is still F major because its members can be reordered F–A–C, but C is now in the bass. Play each line separately before combining them: C stays, E rises to F, and G rises to A. Release and reset whenever holding a position creates tension.",
-              "question": "What is C–F–A from lowest to highest?",
+              "example": "Begin with the keyboard pitches C-E-G in a comfortable middle register. Your destination is F major, whose pitch classes are F-A-C. Instead of jumping the entire hand to F-A-C above the original C, keep the original C, move E up to F, and move G up to A. The destination sounds C-F-A from lowest to highest. It is still F major because its members can be reordered F-A-C, but C is now in the bass. Play each line separately before combining them: C stays, E rises to F, and G rises to A. Release and reset whenever holding a position creates tension.",
+              "question": "What is C-F-A from lowest to highest?",
               "answer": "F major with C in the bass",
               "distractor": "C major because C is lowest",
-              "correction": "The collection rearranges to F–A–C; bass and root are not interchangeable.",
+              "correction": "The collection rearranges to F-A-C; bass and root are not interchangeable.",
               "depth": {
                 "definitions": "A common tone belongs to both adjacent chords. A voice is one traceable line of pitches, not necessarily a human singer or a separate instrument. Voice leading describes how those lines connect. Voicing is the particular register and spacing of chord tones; inversion identifies which chord member is lowest. Root position places the root lowest. A slash chord symbol names a chord followed by its bass pitch, so F/C means F major with C in the bass. The bass may strongly influence perceived stability, but it does not automatically rename the chord after itself.",
                 "mechanism": "The benefit of a common tone is continuity: one part remains stable while other parts signal harmonic change. Physically, smaller movements may also make the transition more manageable, although comfort depends on anatomy, fingering, and instrument. In a Piano roll, draw each chord for the same duration and inspect three horizontal paths. The unchanged C should sit on one pitch row across the boundary. Decide whether to retrigger it or hold it; those are articulation choices with different results. Keep the first comparison simple by retriggering all notes together, then test a held common tone in a separate copy.",
-                "secondExample": "A contrasting destination is A minor. From C–E–G, retain C and E while moving G to A, yielding C–E–A. This preserves two pitch classes rather than one. Listen to the two changes side by side: C major to F/C and C major to A minor with C in the bass. The amount of movement differs, but neither count of shared notes is a universal measure of expressive value. A dramatic leap might suit an arrangement’s climax. For a guitar version, first identify one common sounding pitch in two already comfortable shapes; do not assume that keeping a finger in place always preserves the same sounding note across different strings.",
-                "mistake": "A common misconception is that the lowest note is always the root. In C–F–A, treating C as root obscures the F–A–C triad. Diagnose by collecting the pitch classes and attempting to arrange them in thirds, as in the reading’s triad-identification method.[5] Another error is stretching to hold the common note while the rest of the hand twists. Musical continuity does not require painful physical continuity. Lift, relocate, and replay if needed, or sequence the example and study the sound while developing the physical technique with qualified guidance.",
+                "secondExample": "A contrasting destination is A minor. From C-E-G, retain C and E while moving G to A, yielding C-E-A. This preserves two pitch classes rather than one. Listen to the two changes side by side: C major to F/C and C major to A minor with C in the bass. The amount of movement differs, but neither count of shared notes is a universal measure of expressive value. A dramatic leap might suit an arrangement’s climax. For a guitar version, first identify one common sounding pitch in two already comfortable shapes; do not assume that keeping a finger in place always preserves the same sounding note across different strings.",
+                "mistake": "A common misconception is that the lowest note is always the root. In C-F-A, treating C as root obscures the F-A-C triad. Diagnose by collecting the pitch classes and attempting to arrange them in thirds, as in the reading’s triad-identification method.[5] Another error is stretching to hold the common note while the rest of the hand twists. Musical continuity does not require painful physical continuity. Lift, relocate, and replay if needed, or sequence the example and study the sound while developing the physical technique with qualified guidance.",
                 "application": "For a three-minute nonblocking task, perform or program both destinations and sketch arrows for every voice. Assess four features: correct chord membership, correctly named bass, explicit common tones, and comfortable execution or a stated software alternative. A model annotation is “C remains C; E moves to F; G moves to A; the resulting chord is F/C, not C major.” Then explain what changes if C is retriggered instead of sustained. Keep the answer specific: the chord membership stays the same, while the articulation of the common-tone line changes. If the rhythm becomes uneven, isolate the change silently before restoring the pulse.",
                 "summary": "Small-motion connections integrate harmonic identification with physical planning. The important achievement is being able to account for every voice, not merely arriving at a pleasing shape by accident. Retain your arrow sketch beside the saved patterns. Next, use a short melodic motif over these stable chord changes, preserving enough rhythm for a listener to recognize a return even when the ending changes."
               },
               "readings": [
                 {
-                  "title": "[5] Open Music Theory — Triads",
+                  "title": "[5] Open Music Theory: Triads",
                   "url": "https://viva.pressbooks.pub/openmusictheory/chapter/triads/",
-                  "note": "Open Music Theory — Triads; read Chord Symbols and Identifying Triads, Doubling, and Spacing."
+                  "note": "Open Music Theory: Triads; read Chord Symbols and Identifying Triads, Doubling, and Spacing."
                 }
               ],
               "visual": {
-                "title": "Use common tones to make chord changes smaller — reasoning sequence",
+                "title": "Use common tones to make chord changes smaller, reasoning sequence",
                 "description": "Trace every voice instead of naming a chord from its lowest note.",
                 "steps": [
                   "Lower: C → C, common tone.",
                   "Middle: E → F.",
                   "Upper: G → A.",
-                  "C–F–A rearranges as F–A–C: F/C."
+                  "C-F-A rearranges as F-A-C: F/C."
                 ]
               }
             },
@@ -164,20 +164,20 @@
               "depth": {
                 "definitions": "Contour is the pattern of upward, downward, and repeated pitch motion. Transposition shifts every pitch by the same interval, preserving the interval relationships. Rhythmic variation changes timing or duration, while melodic variation changes pitch choices. A phrase ending can suggest continuation or arrival, but such impressions depend on harmonic and stylistic context. In this exercise, a changed last note is not guaranteed to create a particular emotion or a textbook cadence. Describe what a listener can check before offering an interpretation: three attacks, an ascending shape, a silent fourth beat, and one changed ending pitch.",
                 "mechanism": "Recognition requires a balance of persistence and change. If you alter sound, tempo, rhythm, articulation, and pitches at once, a listener may lose the relationship you intended. By holding rhythm fixed you can test whether a pitch change is enough to create an answer. Add the C-major-to-F/C accompaniment from the preceding lesson only after the melody works alone. Listen for whether the changed F aligns with the harmony rather than assuming that any scale note must sound equally settled against any chord. A dissonance can be intentional, but you should be able to identify its placement and hear how it resolves or persists.",
-                "secondExample": "For a contrasting variation, keep C–E–G unchanged but move the last attack from three to the “and” after three, leaving the bar’s duration intact. This revisits offbeat counting and produces rhythmic rather than pitch contrast. Clap both versions while your foot maintains the beat. On guitar, use one familiar fretted pitch to study the rhythm first; a motif need not demand a new fretboard position immediately. The one-pitch reduction preserves timing but removes melodic contour, so label it as a practice reduction rather than claiming it is the full melody.",
+                "secondExample": "For a contrasting variation, keep C-E-G unchanged but move the last attack from three to the “and” after three, leaving the bar’s duration intact. This revisits offbeat counting and produces rhythmic rather than pitch contrast. Clap both versions while your foot maintains the beat. On guitar, use one familiar fretted pitch to study the rhythm first; a motif need not demand a new fretboard position immediately. The one-pitch reduction preserves timing but removes melodic contour, so label it as a practice reduction rather than claiming it is the full melody.",
                 "mistake": "A frequent error is confusing a new motif with an accidental inconsistency. If the changed ending happens unpredictably because a finger misses, it is not yet a controlled variation. Preserve two clearly named versions and demonstrate that you can reproduce either on request. Another error is filling the final rest because silence feels unfinished. The rest is a feature that gives the idea breathing space and makes its boundary audible. Count it explicitly. When duplicating patterns, verify whether editing the duplicate changes the original too; shared pattern instances and independent patterns behave differently in an arrangement.",
                 "application": "For a three-minute task, make an original three-attack motif, an exact repetition, and one answer that changes only pitch or rhythm. Save or notate all three. Your rubric asks for a reproducible original, an accurate repetition, one named transformation, and an explanation of what remained invariant. A model self-review is “The answer keeps the three onset positions and final rest but lowers the last pitch; I can hear the shared rhythm without looking.” Test that claim by listening with the screen hidden. If recognition is weak, simplify the transformation rather than adding more instruments or louder effects.",
                 "summary": "This unit ends with a small vocabulary you can control: offbeat attacks, intentional releases, major/minor quality, common-tone movement, and motif variation. Those are ingredients, not a finished composition by themselves. Next, move into the production unit by capturing a short performance, preserving an unedited version, and deciding which timing differences are errors and which belong to the motif’s character. The unit quiz checks reasoning; your labeled recordings or scores provide richer evidence of practical progress."
               },
               "readings": [
                 {
-                  "title": "[1] Image-Line — Piano roll",
+                  "title": "[1] Image-Line: Piano roll",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll.htm",
-                  "note": "Image-Line — Piano roll; use Adding Notes to construct these original teaching examples, not as a source of compositional rules."
+                  "note": "Image-Line: Piano roll; use Adding Notes to construct these original teaching examples, not as a source of compositional rules."
                 }
               ],
               "visual": {
-                "title": "Build a recognizable motif and a contrasting answer — reasoning sequence",
+                "title": "Build a recognizable motif and a contrasting answer, reasoning sequence",
                 "description": "Track the invariant rhythm and one changed ending.",
                 "steps": [
                   "A: C on 1, E on 2, G on 3, rest on 4.",
@@ -211,7 +211,7 @@
             },
             {
               "id": "music-u1-c",
-              "prompt": "C–E–G becomes D–F-sharp–A and is labeled minor. Why is this wrong?",
+              "prompt": "C-E-G becomes D-F-sharp-A and is labeled minor. Why is this wrong?",
               "answer": "It was transposed and remains major",
               "distractor": "Every change of root creates minor quality",
               "correction": "Equal pitch displacement preserves chord intervals.",
@@ -224,7 +224,7 @@
               "prompt": "Retain C and E; move G to A. Which analysis follows?",
               "answer": "A minor with C bass and two common tones",
               "distractor": "C major because its lowest note stayed C",
-              "correction": "Reorder the collection A–C–E to identify its root and quality.",
+              "correction": "Reorder the collection A-C-E to identify its root and quality.",
               "reviewLessonIds": [
                 "23",
                 "24"
@@ -265,13 +265,13 @@
               },
               "readings": [
                 {
-                  "title": "[7] Image-Line — Piano roll Quantizer",
+                  "title": "[7] Image-Line: Piano roll Quantizer",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/pianoroll_qnt.htm",
-                  "note": "Image-Line — Piano roll Quantizer; read Strength, quantize modes, and Action buttons."
+                  "note": "Image-Line: Piano roll Quantizer; read Strength, quantize modes, and Action buttons."
                 }
               ],
               "visual": {
-                "title": "Quantize selectively while preserving intention — diagnostic map",
+                "title": "Quantize selectively while preserving intention, diagnostic map",
                 "description": "Decision path preserves musical intent before editing.",
                 "steps": [
                   "State intended onset and release.",
@@ -300,13 +300,13 @@
               },
               "readings": [
                 {
-                  "title": "[8] Image-Line — Levels, Mixing & Clipping",
+                  "title": "[8] Image-Line: Levels, Mixing & Clipping",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer_levelsandmixing.htm",
-                  "note": "Image-Line — Levels, Mixing & Clipping; read Sampler Channels vs Audio Clips and distinguish velocity response from level controls."
+                  "note": "Image-Line: Levels, Mixing & Clipping; read Sampler Channels vs Audio Clips and distinguish velocity response from level controls."
                 }
               ],
               "visual": {
-                "title": "Design accents with velocity rather than force — diagnostic map",
+                "title": "Design accents with velocity rather than force, diagnostic map",
                 "description": "Separate note information from the downstream audio level.",
                 "steps": [
                   "Note event: pitch, timing, velocity.",
@@ -335,19 +335,19 @@
               },
               "readings": [
                 {
-                  "title": "[2] Image-Line — The Playlist",
+                  "title": "[2] Image-Line: The Playlist",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/playlist.htm",
-                  "note": "Image-Line — The Playlist; read Patterns, Audio Clips and Automation Clips and Working with Clips."
+                  "note": "Image-Line: The Playlist; read Patterns, Audio Clips and Automation Clips and Working with Clips."
                 }
               ],
               "visual": {
-                "title": "Arrange eight bars with an audible beginning and ending — diagnostic map",
+                "title": "Arrange eight bars with an audible beginning and ending, diagnostic map",
                 "description": "Eight bars become an audible plan rather than decorative blocks.",
                 "steps": [
-                  "Bars 1–2: motif alone establishes identity.",
-                  "Bars 3–4: beat enters, increasing texture.",
-                  "Bars 5–6: altered answer and chord connection.",
-                  "Bars 7–8: recognizable return and planned release."
+                  "Bars 1 to 2: motif alone establishes identity.",
+                  "Bars 3 to 4: beat enters, increasing texture.",
+                  "Bars 5 to 6: altered answer and chord connection.",
+                  "Bars 7 to 8: recognizable return and planned release."
                 ]
               }
             },
@@ -370,9 +370,9 @@
               },
               "readings": [
                 {
-                  "title": "[8] Image-Line — Levels, Mixing & Clipping",
+                  "title": "[8] Image-Line: Levels, Mixing & Clipping",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/mixer_levelsandmixing.htm",
-                  "note": "Image-Line — Levels, Mixing & Clipping; read Setting Output Mix Levels and Using FL Studio Peak Meters, especially internal versus final output."
+                  "note": "Image-Line: Levels, Mixing & Clipping; read Setting Output Mix Levels and Using FL Studio Peak Meters, especially internal versus final output."
                 },
                 {
                   "title": "[3] Mixer Functions",
@@ -381,7 +381,7 @@
                 }
               ],
               "visual": {
-                "title": "Trace signal flow and balance without chasing loudness — diagnostic map",
+                "title": "Trace signal flow and balance without chasing loudness, diagnostic map",
                 "description": "Trace instructions, audio, and monitoring separately.",
                 "steps": [
                   "MIDI notes → instrument generates audio.",
@@ -410,13 +410,13 @@
               },
               "readings": [
                 {
-                  "title": "[4] Image-Line — Exporting Audio & MIDI",
+                  "title": "[4] Image-Line: Exporting Audio & MIDI",
                   "url": "https://www.image-line.com/fl-studio-learning/fl-studio-online-manual/html/fformats_save_export.htm",
-                  "note": "Image-Line — Exporting Audio & MIDI; read About Rendering, output formats, external hardware, and effects options."
+                  "note": "Image-Line: Exporting Audio & MIDI; read About Rendering, output formats, external hardware, and effects options."
                 }
               ],
               "visual": {
-                "title": "Export, listen back, and defend the miniature — diagnostic map",
+                "title": "Export, listen back, and defend the miniature: diagnostic map",
                 "description": "Separate project preservation from delivery verification.",
                 "steps": [
                   "Save project and note version.",
@@ -503,7 +503,7 @@
           "prompt": "A common C is held across two chords, but the export blurs their boundary. What should be tested?",
           "answer": "Retriggering versus holding C and the instrument release behavior",
           "distractor": "Renaming the second chord C major",
-          "correction": "Articulation changes a boundary without changing F–A–C membership; inspect the sound as well as the note data.",
+          "correction": "Articulation changes a boundary without changing F-A-C membership; inspect the sound as well as the note data.",
           "reviewLessonIds": [
             "22",
             "24",
@@ -560,7 +560,7 @@
         },
         {
           "id": "music-l-g",
-          "prompt": "A learner identifies C–E–A as C major and holds a painful stretch to connect it. Which feedback addresses both errors?",
+          "prompt": "A learner identifies C-E-A as C major and holds a painful stretch to connect it. Which feedback addresses both errors?",
           "answer": "Identify A minor with C bass and use a comfortable reset or sequencing alternative",
           "distractor": "Keep the painful shape because common tones require uninterrupted fingering",
           "correction": "Chord membership establishes identity; musical continuity does not justify physical strain.",

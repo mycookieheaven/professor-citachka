@@ -26,7 +26,7 @@
               },
               "readings": [
                 {
-                  "title": "Summation of Synaptic Potentials — Neuroscience, Purves et al.",
+                  "title": "Summation of Synaptic Potentials: Neuroscience, Purves et al.",
                   "url": "https://www.ncbi.nlm.nih.gov/books/NBK11104/",
                   "note": "Read Figure 7.7 and spatial/temporal summation. Historical 2001 textbook; simplified diagrams are not exhaustive dendritic models."
                 }
@@ -79,8 +79,8 @@
             },
             {
               "id": "23",
-              "title": "Center–surround fields encode contrast",
-              "explanation": "Objective: predict a sensory neuron's response from a stimulus's spatial arrangement rather than its total brightness. The earlier sensory-coding lesson established that perception is not a photograph copied unchanged into the brain. Retinal center–surround organization supplies a concrete circuit example. Some retinal ganglion cells increase firing when light falls in a central region and reduce firing when light falls in a surrounding region; other cells have the opposite arrangement. Webvision describes these ON-center and OFF-center pathways and their retinal circuitry. The relevant stimulus is therefore a relationship between locations. A larger illuminated area need not create a larger response in every neuron.",
+              "title": "Center-surround fields encode contrast",
+              "explanation": "Objective: predict a sensory neuron's response from a stimulus's spatial arrangement rather than its total brightness. The earlier sensory-coding lesson established that perception is not a photograph copied unchanged into the brain. Retinal center-surround organization supplies a concrete circuit example. Some retinal ganglion cells increase firing when light falls in a central region and reduce firing when light falls in a surrounding region; other cells have the opposite arrangement. Webvision describes these ON-center and OFF-center pathways and their retinal circuitry. The relevant stimulus is therefore a relationship between locations. A larger illuminated area need not create a larger response in every neuron.",
               "example": "Consider an idealized ON-center ganglion cell under stable adaptation. A small bright spot confined to the center increases its firing relative to baseline. Enlarge the spot so it covers the surround while keeping the center equally illuminated. The response can become smaller because the surround contributes an antagonistic influence. Finally, illuminate only the surround: firing can fall below baseline. The reasoning compares spatial patterns while keeping center intensity explicit. It is not an assertion that light in the surround physically blocks photons from the center. The difference is produced by neural interactions within the retina, and the baseline matters when calling a response increased or decreased.",
               "question": "Why may enlarging a light spot reduce an ON-center response?",
               "answer": "The enlarged spot recruits the antagonistic surround.",
@@ -89,16 +89,16 @@
               "depth": {
                 "definitions": "A receptive field is the region of sensory space in which a stimulus can influence a specified neuron's response under specified conditions. For this lesson that space is a region of the visual field mapped onto the retina. Center and surround name functionally opposing portions, not necessarily the visible outline of one cell's dendrites. An ON response increases with a light increment in the relevant region; an OFF response favors a light decrement. Contrast is a difference relative to a surrounding or reference intensity. Adaptation refers to changes in sensitivity associated with recent stimulation and background conditions.",
                 "mechanism": "Photoreceptors feed vertical pathways through bipolar cells to ganglion cells, while lateral interactions involve horizontal and amacrine cells. The surrounding illumination can influence the signal reaching the same ganglion cell through those lateral circuits. Thus a ganglion-cell response is already a processed output, not simply a report from one photoreceptor. A simplified center-minus-surround model helps explain why broad uniform illumination can produce less activity than a localized boundary. However, that model describes a functional pattern, not a complete molecular mechanism. The horizontal-cell feedback literature considers proton-mediated, ephaptic, and other signaling accounts; the assigned review separates a well-established antagonistic effect from debates over its implementation. Use historical discussions to learn evidential reasoning, not to assume the field has stood still since publication.",
-                "secondExample": "A contrasting example places a bright–dark edge across a population of neighboring receptive fields. A field wholly inside the bright region has both center and surround illuminated. A field whose center lies on the bright side but whose surround extends into darkness can show stronger imbalance. The population therefore emphasizes the boundary rather than reporting identical activity across the entire bright surface. The comparison predicts a pattern across cells, not the exact brightness a person will consciously experience. Later cortical processing, adaptation, eye movements, and other factors contribute to perception. A retinal model can illuminate one component of an illusion without being a complete explanation of all visual experience.",
+                "secondExample": "A contrasting example places a bright-dark edge across a population of neighboring receptive fields. A field wholly inside the bright region has both center and surround illuminated. A field whose center lies on the bright side but whose surround extends into darkness can show stronger imbalance. The population therefore emphasizes the boundary rather than reporting identical activity across the entire bright surface. The comparison predicts a pattern across cells, not the exact brightness a person will consciously experience. Later cortical processing, adaptation, eye movements, and other factors contribute to perception. A retinal model can illuminate one component of an illusion without being a complete explanation of all visual experience.",
                 "mistake": "One misconception identifies the receptive field with the patch of tissue occupied by a neuron. The field is mapped experimentally by changing the stimulus, whereas a dendritic tree is mapped anatomically. They can be related without being identical. Another error says an ON-center cell must be silent in darkness. Many such cells have baseline activity that can increase or decrease; ON names the sign of a stimulus response, not a binary switch with only two possible states. Correct both errors by stating the stimulus location and the comparison condition.",
                 "application": "Optional task: draw a center circle and surrounding ring, then annotate three stimuli: center only, surround only, and both together. Model response for an idealized ON-center cell: center stimulation favors an increase, surround stimulation favors a decrease, and combined stimulation has competing contributions. Self-review rubric: specify baseline, hold adaptation and relevant intensity conditions stable, avoid assigning exact firing rates without data, and explain why total illuminated area alone is insufficient. As a transfer exercise, reverse the response signs for an OFF-center cell while preserving the spatial logic. This is a diagram exercise, not a vision screening test.",
-                "summary": "The retina demonstrates how circuit organization transforms input before higher-level interpretation. Opposing influences make a neuron sensitive to relationships rather than simply to accumulated energy. Transfer this principle cautiously: center–surround organization is a specific example of contextual computation, not proof that every brain system uses the same wiring or that all perceptual context effects share one mechanism."
+                "summary": "The retina demonstrates how circuit organization transforms input before higher-level interpretation. Opposing influences make a neuron sensitive to relationships rather than simply to accumulated energy. Transfer this principle cautiously: center-surround organization is a specific example of contextual computation, not proof that every brain system uses the same wiring or that all perceptual context effects share one mechanism."
               },
               "readings": [
                 {
-                  "title": "How the Retina Works — Webvision",
+                  "title": "How the Retina Works: Webvision",
                   "url": "https://www.ncbi.nlm.nih.gov/books/NBK610611/",
-                  "note": "Read horizontal cells, bipolar cells, and ON/OFF center–surround ganglion-cell organization in this updated overview."
+                  "note": "Read horizontal cells, bipolar cells, and ON/OFF center-surround ganglion-cell organization in this updated overview."
                 },
                 {
                   "title": "Lateral Inhibition in the Vertebrate Retina: The Case of the Missing Neurotransmitter",
@@ -136,7 +136,7 @@
               },
               "readings": [
                 {
-                  "title": "How the Retina Works — Webvision",
+                  "title": "How the Retina Works: Webvision",
                   "url": "https://www.ncbi.nlm.nih.gov/books/NBK610611/",
                   "note": "Read the abstract and discussion of parallel outputs and feature extraction. Decoder examples are hypothetical methodological applications, not results reported by this overview."
                 }
@@ -171,12 +171,12 @@
               },
               "readings": [
                 {
-                  "title": "Long-Term Synaptic Potentiation — Neuroscience, Purves et al.",
+                  "title": "Long-Term Synaptic Potentiation: Neuroscience, Purves et al.",
                   "url": "https://www.ncbi.nlm.nih.gov/books/NBK10878/",
                   "note": "Read input specificity, associativity, and two-pathway experimental logic in this classic 2001 account."
                 },
                 {
-                  "title": "Molecular Mechanisms Underlying LTP — Neuroscience, Purves et al.",
+                  "title": "Molecular Mechanisms Underlying LTP: Neuroscience, Purves et al.",
                   "url": "https://www.ncbi.nlm.nih.gov/books/NBK11101/",
                   "note": "Read NMDA magnesium block and the calcium trigger. Historical source: old statements about unresolved mechanisms are not presented as current consensus."
                 }
@@ -264,18 +264,18 @@
               },
               "readings": [
                 {
-                  "title": "The hippocampal memory indexing theory — Teyler and DiScenna (1986)",
+                  "title": "The hippocampal memory indexing theory: Teyler and DiScenna (1986)",
                   "url": "https://pubmed.ncbi.nlm.nih.gov/3008780/",
                   "note": "Read the abstract and original theory/predictions if accessible. Historical primary theoretical paper, not a contemporary consensus review; PubMed normally supplies the abstract and full-text links."
                 },
                 {
-                  "title": "Long-Term Synaptic Potentiation — Neuroscience",
+                  "title": "Long-Term Synaptic Potentiation: Neuroscience",
                   "url": "https://www.ncbi.nlm.nih.gov/books/NBK10878/",
                   "note": "Read the final paragraph distinguishing synaptic plasticity from understanding behavioral plasticity."
                 }
               ],
               "visual": {
-                "title": "Hippocampal indexing: a model across explanatory levels — evidence sequence",
+                "title": "Hippocampal indexing: a model across explanatory levels, evidence sequence",
                 "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
                 "steps": [
                   "Encoding proposal: an episode recruits distributed content-related patterns.",
@@ -304,13 +304,13 @@
               },
               "readings": [
                 {
-                  "title": "Neurophysiological investigation of the basis of the fMRI signal — Logothetis et al. (2001)",
+                  "title": "Neurophysiological investigation of the basis of the fMRI signal. Logothetis et al. (2001)",
                   "url": "https://pubmed.ncbi.nlm.nih.gov/11449264/",
                   "note": "Read abstract and the comparison of local field potentials, multi-unit activity, and BOLD. Primary monkey visual-cortex study; PubMed provides an abstract/link record and publisher full text may require access."
                 }
               ],
               "visual": {
-                "title": "BOLD, local field potentials, and what a signal measures — evidence sequence",
+                "title": "BOLD, local field potentials, and what a signal measures, evidence sequence",
                 "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
                 "steps": [
                   "Neural events: synaptic currents and spikes reflect related but different activity.",
@@ -339,13 +339,13 @@
               },
               "readings": [
                 {
-                  "title": "Lateral Inhibition in the Vertebrate Retina: The Case of the Missing Neurotransmitter — Kramer and Davenport (2015)",
+                  "title": "Lateral Inhibition in the Vertebrate Retina: The Case of the Missing Neurotransmitter. Kramer and Davenport (2015)",
                   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675548/",
                   "note": "Read the block-it, move-it, and show-it reasoning and pharmacological limitations. Open-access historical review; used for experimental logic, not to claim that its account is the latest state of the field."
                 }
               ],
               "visual": {
-                "title": "Necessity, sufficiency, and competing causal pathways — evidence sequence",
+                "title": "Necessity, sufficiency, and competing causal pathways, evidence sequence",
                 "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
                 "steps": [
                   "Observation: candidate signal accompanies the response.",
@@ -374,13 +374,13 @@
               },
               "readings": [
                 {
-                  "title": "Can cognitive processes be inferred from neuroimaging data? — Poldrack (2006)",
+                  "title": "Can cognitive processes be inferred from neuroimaging data?. Poldrack (2006)",
                   "url": "https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(05)00336-0",
                   "note": "Read the openly visible abstract on Bayesian analysis and activation selectivity. Publisher full text requires access; no paywalled details are assumed. The PubMed route encountered verification protection during checking."
                 }
               ],
               "visual": {
-                "title": "Reverse inference requires selectivity and a comparison set — evidence sequence",
+                "title": "Reverse inference requires selectivity and a comparison set, evidence sequence",
                 "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
                 "steps": [
                   "Forward: establish how a proposed process relates to a signal.",
@@ -409,7 +409,7 @@
               },
               "readings": [
                 {
-                  "title": "Long-Term Synaptic Potentiation — Neuroscience",
+                  "title": "Long-Term Synaptic Potentiation: Neuroscience",
                   "url": "https://www.ncbi.nlm.nih.gov/books/NBK10878/",
                   "note": "Read the concluding distinction between physiological plasticity and behavioral learning."
                 },
@@ -425,7 +425,7 @@
                 }
               ],
               "visual": {
-                "title": "Build a multi-level evidence argument without overclaiming — evidence sequence",
+                "title": "Build a multi-level evidence argument without overclaiming, evidence sequence",
                 "description": "Follow the labeled relationships in order; this is a text-supported instructional diagram, not a video.",
                 "steps": [
                   "Claim: separate behavioral benefit, cognitive process, neural association, and synaptic mechanism.",
@@ -522,7 +522,7 @@
           "prompt": "A decoder distinguishes edge positions from ganglion-cell activity but stops working when the contrast pattern changes. What should be investigated before claiming an abstract edge code?",
           "answer": "Whether receptive-field responses and the decoder generalize across the changed contrast conditions.",
           "distractor": "Whether each successful trial proves that one ganglion cell stores the complete visual scene.",
-          "correction": "Center–surround responses depend on stimulus relationships. A population decoder may exploit a restricted correlation rather than an invariant edge representation; test held-out conditions.",
+          "correction": "Center-surround responses depend on stimulus relationships. A population decoder may exploit a restricted correlation rather than an invariant edge representation; test held-out conditions.",
           "reviewLessonIds": [
             "23",
             "24",

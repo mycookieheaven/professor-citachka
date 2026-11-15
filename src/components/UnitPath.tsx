@@ -65,19 +65,19 @@ export function UnitPath({ subject }: { subject: string }) {
 
       <ul className="unit-path-stats">
         <li>
-          <strong>{ready ? stats.streak : "—"}</strong>
+          <strong>{ready ? stats.streak : ": "}</strong>
           <span>day streak</span>
         </li>
         <li>
-          <strong>{ready ? crowns : "—"}</strong>
+          <strong>{ready ? crowns : ": "}</strong>
           <span>of {allUnits.length} unit crowns</span>
         </li>
         <li>
-          <strong>{ready ? stats.completed : "—"}</strong>
+          <strong>{ready ? stats.completed : ": "}</strong>
           <span>of {ids.length} lessons read</span>
         </li>
         <li data-state={stats.today ? "done" : "pending"}>
-          <strong>{ready ? (stats.today ? "Met" : "Not yet") : "—"}</strong>
+          <strong>{ready ? (stats.today ? "Met" : "Not yet") : ": "}</strong>
           <span>today&rsquo;s goal: one lesson</span>
         </li>
       </ul>
