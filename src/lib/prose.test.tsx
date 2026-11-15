@@ -29,6 +29,18 @@ describe("prose archive", () => {
     expect(formatProseDate("2026-11-14")).toBe(formatProseDate("2026-11-14"));
   });
 
+  it("uses no em or en dashes anywhere, including the data file's own note", () => {
+    /* House rule from the author: no long dashes. A sentence has to earn its
+       pause with a comma, a colon, or a period instead of a dash. Enforced on
+       the raw file so it cannot creep back in through a title or a note. */
+    const raw = readFileSync("src/data/prose.json", "utf8");
+    const offenders = raw.split("\n").filter((line) => /[\u2014\u2013]/.test(line));
+    expect(offenders).toEqual([]);
+    for (const entry of readProse()) {
+      expect(`${entry.title} ${entry.paragraphs.join(" ")}`).not.toMatch(/[\u2014\u2013]/);
+    }
+  });
+
   it("renders the archive with a machine-readable date and the piece's own words", () => {
     const [entry] = readProse();
     const { container } = render(<ProsePage />);
