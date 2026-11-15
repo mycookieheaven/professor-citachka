@@ -191,11 +191,13 @@ describe("the loading veil", () => {
 describe("the hero title", () => {
   const title = rule(landing, ".home h1");
 
-  it("is solid bright pink outlined in cream, never translucent", () => {
-    expect(title).toMatch(/-webkit-text-fill-color:\s*#ff2e8d/);
+  it("is solid bright pink, with no outline and no glow", () => {
+    expect(title).toMatch(/color:\s*#ff2e8d/);
     expect(title).not.toMatch(/text-fill-color:\s*transparent/);
-    expect(title).toMatch(/-webkit-text-stroke:\s*[\d.]+em #fff8dc/);
-    expect(title).toMatch(/paint-order:\s*stroke fill/);
+    expect(title).not.toMatch(/-webkit-text-stroke/);
+    /* A glow is a shadow with no offset and no spread. The one shadow the title
+       keeps is offset down by 2px, which is an edge, not a halo. */
+    expect(title).not.toMatch(/text-shadow:[^;]*0 0 [\d.]+px/);
   });
 
   it("runs to the edges of the screen rather than stopping at the content column", () => {
@@ -205,12 +207,15 @@ describe("the hero title", () => {
   });
 
   it("is sized so one line still fits the screen it is stretched across", () => {
-    /* "COOKIE HEAVEN" in this face measures 8.11 x the font size. */
-    const widestLine = 8.11 * 11.6;
+    /* Measured from the font file itself, at weight 700 with the tracking the
+       rule sets: "COOKIE HEAVEN" runs 8.435 x the font size. Written down here
+       because the number is the whole reason the title does not overflow, and a
+       heavier or wider face would silently break it. */
+    const widestLine = 8.435 * 11.6;
     expect(widestLine).toBeLessThan(100);
     /* The ceiling only takes hold once the viewport is wide enough to hold it. */
     const viewportWhereCeilingBites = (220 / 11.6) * 100;
-    expect(8.11 * 220).toBeLessThan(viewportWhereCeilingBites);
+    expect(8.435 * 220).toBeLessThan(viewportWhereCeilingBites);
   });
 });
 

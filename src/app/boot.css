@@ -33,12 +33,12 @@
 }
 
 .boot-word {
-  font-family: ui-rounded, "Arial Rounded MT Bold", "Nunito", sans-serif;
+  font-family: var(--font-display), Georgia, serif;
   font-size: clamp(20px, 3.4vw, 30px);
-  font-weight: 900;
-  letter-spacing: 0.06em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
   color: #bc0b57;
-  text-shadow: 0 2px 0 #fff3aa, 0 0 18px rgba(255, 24, 132, 0.35);
+  text-shadow: 0 2px 0 #fff3aa;
 }
 
 /* motion.css silences animations under `data-motion="calm"`, the site default, so

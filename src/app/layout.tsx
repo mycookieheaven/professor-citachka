@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Nunito, Nunito_Sans } from "next/font/google";
+import { Playfair_Display, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import "./cat.css";
 import "./boot.css";
@@ -14,10 +14,14 @@ import { SiteChrome } from "@/components/SiteChrome";
 import {SiteNavigation} from "@/components/SiteNavigation";
 import {ReadAloudControls} from "@/components/ReadAloudControls";
 
-const display = Nunito({
+/* The display face is a high-contrast serif rather than a rounded sans: at the
+   size the title runs, a serif's thick-to-thin stroke is what reads as composed
+   instead of shouted. It still carries Cyrillic, because the Russian lessons use
+   it for their headings too. Left as a variable font so every weight the sheets
+   ask for (400 through 900) comes from one file. */
+const display = Playfair_Display({
   variable: "--font-display",
   subsets: ["latin", "cyrillic"],
-  weight: ["700", "800", "900"],
 });
 
 const body = Nunito_Sans({
