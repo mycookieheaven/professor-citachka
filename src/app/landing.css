@@ -32,6 +32,12 @@
   z-index: 2;
   overflow: hidden;
   color: var(--ink);
+  /* The reading face of the personal site. Scoped to .home on purpose: the study
+     routes do not carry this class, so a serif chosen for the essays and the
+     homepage can never follow a visitor into a lesson. Literata was drawn for
+     long-form reading on screens and carries Cyrillic, so the Russian homepage
+     sets in the same family as the English one. */
+  font-family: var(--font-site), Georgia, serif;
   background-color: var(--home-base);
   /* Buttery-yellow cookie wallpaper: baked dough with repeating chocolate chips. */
   background-image:
@@ -176,7 +182,7 @@
    way of everything: pinned to the left edge and centred vertically, where the
    gutter beside the words is empty. It sits above the game window, not over the
    title; the title starts below it and runs the full width of the screen. */
-.home-side-tabs { position: fixed; z-index: 60; left: 0; top: 50%; transform: translateY(-50%); }
+.home-side-tabs { position: fixed; z-index: 60; left: 0; top: 50%; transform: translateY(-50%); font-family: var(--font-site), Georgia, serif; }
 .home-side-tabs summary { display: grid; place-items: center; width: 46px; min-height: 46px; padding: 0; list-style: none; border: 2px solid #c31563; border-left: 0; border-radius: 0 14px 14px 0; background: #fff0a4; box-shadow: 0 0 18px rgba(255, 46, 141, .42); cursor: pointer; }
 .home-side-tabs summary:hover, .home-side-tabs summary:focus-visible { background: #ffe27a; }
 .home-side-tabs summary::-webkit-details-marker { display: none; }
