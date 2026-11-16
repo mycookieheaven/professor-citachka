@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Nunito_Sans, Rubik_Bubbles } from "next/font/google";
+import { Playfair_Display, Nunito_Sans, Rubik_Bubbles, Literata } from "next/font/google";
 import "./globals.css";
 import "./cat.css";
 import "./boot.css";
@@ -41,6 +41,18 @@ const title = Rubik_Bubbles({
   weight: "400",
 });
 
+/* The reading face for the cookieheaven pages, and only those pages. Literata
+   is a serif drawn for long-form reading on screens, with Cyrillic in the same
+   hand, so the Russian homepage needs no fallback. It is a third variable rather
+   than a change to --font-body because the Professor Citachka lessons keep
+   Nunito Sans: the study surface must not inherit a serif because the personal
+   surface wanted one. */
+const site = Literata({
+  variable: "--font-site",
+  subsets: ["latin", "cyrillic"],
+  style: ["normal"],
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://cookieheaven.art"),
   title: "Professor Citachka",
@@ -51,7 +63,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" data-motion="calm">
-      <body className={`${display.variable} ${body.variable} ${title.variable}`}>
+      <body className={`${display.variable} ${body.variable} ${title.variable} ${site.variable}`}>
         {/* Rendered by the server so it is the first thing painted, and hidden
             again by its own animation even if no script ever runs. */}
         <div id="cookie-boot" aria-hidden="true">

@@ -117,3 +117,21 @@ describe("the game window's place on the page", () => {
     expect(base).toMatch(/justify-self:\s*center/);
   });
 });
+
+describe("the reading face", () => {
+  const studyCss = readFileSync("src/app/globals.css", "utf8");
+
+  it("sets the personal pages in the site serif", () => {
+    expect(rule(css, ".home")).toMatch(/font-family:\s*var\(--font-site\),\s*Georgia,\s*serif/);
+    /* The side tab is the only piece of personal chrome outside main.home. */
+    expect(rule(css, ".home-side-tabs")).toMatch(/font-family:\s*var\(--font-site\)/);
+  });
+
+  it("keeps the serif out of the study surface", () => {
+    /* The lessons read Nunito Sans through --font-body. If --font-site ever
+       appears in globals.css, a face chosen for the essays has reached the
+       lessons, which is the one thing the author ruled out. */
+    expect(studyCss).not.toMatch(/--font-site/);
+    expect(studyCss).toMatch(/font-family:\s*var\(--font-body\)/);
+  });
+});
