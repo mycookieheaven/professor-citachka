@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AskProfessor } from "@/components/AskProfessor";
 import { CookieIoGame } from "@/components/CookieIoGame";
 import { GAME_PATHS, LOCALES, LOCALE_NAMES, LOCALE_PATHS, type Dictionary, type Locale } from "@/lib/i18n";
 
@@ -78,6 +79,9 @@ export function HomeContent({ dict, locale }: { dict: Dictionary; locale: Locale
             <CookieIoGame labels={dict.game} gameHref={GAME_PATHS[locale]} />
           </aside>
         </div>
+        {/* The one place on the site where a visitor can ask a real question and
+            get a real answer, in whichever of the three languages they read. */}
+        <AskProfessor labels={dict.ask} />
       </div>
     </main>
   );

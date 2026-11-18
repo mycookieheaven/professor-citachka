@@ -81,6 +81,28 @@
     "backHome": "cookieheaven",
     "fullscreen": "Pantalla completa",
     "playing": "Jugando",
-    "names": ["Azúcar", "Chispas", "Masa", "Avena", "Cacahuete", "Canela", "Macadamia", "Jengibre", "Mantecada"]
+    "names": [
+      "Azúcar",
+      "Chispas",
+      "Masa",
+      "Avena",
+      "Cacahuete",
+      "Canela",
+      "Macadamia",
+      "Jengibre",
+      "Mantecada"
+    ]
+  },
+  "ask": {
+    "eyebrow": "pregunta lo que sea",
+    "title": "Pregúntale a la Profesora Citachka",
+    "lede": "Cualquier pregunta, cualquier tema. Enseña ruso, neurociencia, psiquiatría, finanzas, música y lo que se te ocurra.",
+    "label": "Tu pregunta",
+    "placeholder": "¿Por qué las neuronas tienen dendritas?",
+    "button": "Preguntar",
+    "thinking": "Pensando.",
+    "privacy": "Las preguntas se envían a un modelo de IA para que responda. En este sitio no se guarda nada. No escribas contraseñas ni datos privados.",
+    "failed": "La respuesta no llegó. Inténtalo otra vez.",
+    "limit": "Son muchas preguntas a la vez. Espera unos minutos."
   }
 }

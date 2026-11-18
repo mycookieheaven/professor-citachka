@@ -81,6 +81,28 @@
     "backHome": "cookieheaven",
     "fullscreen": "Full screen",
     "playing": "Playing",
-    "names": ["Sugar", "Chip", "Doughy", "Oatmeal", "Peanut butter", "Snickerdoodle", "Macadamia", "Ginger", "Shortbread"]
+    "names": [
+      "Sugar",
+      "Chip",
+      "Doughy",
+      "Oatmeal",
+      "Peanut butter",
+      "Snickerdoodle",
+      "Macadamia",
+      "Ginger",
+      "Shortbread"
+    ]
+  },
+  "ask": {
+    "eyebrow": "ask anything",
+    "title": "Ask Professor Citachka",
+    "lede": "Any question, any subject. She teaches Russian, neuroscience, psychiatry, finance, music, and whatever else you are curious about.",
+    "label": "Your question",
+    "placeholder": "Why do neurons have dendrites?",
+    "button": "Ask",
+    "thinking": "Thinking.",
+    "privacy": "Questions are sent to an AI model so it can answer. Nothing is stored on this site. Do not type passwords or private details.",
+    "failed": "That answer did not come through. Try again.",
+    "limit": "That is a lot of questions at once. Wait a few minutes."
   }
 }

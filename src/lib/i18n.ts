@@ -59,6 +59,19 @@ export type Dictionary = {
     worldQuote: string;
   };
   about: { heading: string; paragraphs: string[] };
+  /** The homepage ask panel, the one place a visitor can type a question. */
+  ask: {
+    eyebrow: string;
+    title: string;
+    lede: string;
+    label: string;
+    placeholder: string;
+    button: string;
+    thinking: string;
+    privacy: string;
+    failed: string;
+    limit: string;
+  };
   aboutNote: { prefix: string; link: string; suffix: string };
   art: { title: string; note: string; empty: string };
   photography: { title: string; note: string; empty: string };
