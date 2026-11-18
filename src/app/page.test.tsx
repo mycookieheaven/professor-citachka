@@ -11,10 +11,21 @@ describe("cookieheaven home screen", () => {
     expect(screen.queryByText(/portrait of melissa/i)).not.toBeInTheDocument();
   });
   it("keeps the top screen personal and gives Instagram its own safe link", () => {
-    render(<HomePage />);
+    const { container } = render(<HomePage />);
     const instagram = screen.getByRole("link", { name: /@cookieswpeanutbutter/i });
     expect(instagram).toHaveAttribute("href", "https://www.instagram.com/cookieswpeanutbutter/");
-    expect(screen.queryByText(/professor citachka/i)).not.toBeInTheDocument();
+    /* The study app is not advertised on the top screen. The ask panel at the
+       foot of the page is the one exception, so the check is scoped to the hero
+       band rather than the whole render. */
+    const hero = container.querySelector(".home-hero-band");
+    expect(hero).not.toBeNull();
+    expect(hero?.textContent ?? "").not.toMatch(/professor citachka/i);
+  });
+
+  it("carries the ask panel at the foot of the page, in the reader's language", () => {
+    render(<HomePage />);
+    expect(screen.getByRole("heading", { name: /ask professor citachka/i })).toBeInTheDocument();
+    expect(screen.getByLabelText(/your question/i)).toBeInTheDocument();
   });
   it("shows the black pixel cat and cookie field", () => {
     const { container } = render(<HomePage />);
