@@ -15,15 +15,15 @@ it.each(programs)('$title: ungated reading, every unit and level boundary, durab
  const before=JSON.parse(localStorage.getItem(STORAGE_KEY)??'null')?.subjects?.[program.id]?.position as string|undefined;
  // Optional sequences never regress a core resume that is already further ahead.
  const coreAhead=level.supplemental&&!!before&&!level.topics.some(t=>t.id===before)&&!before.startsWith('assessment:unit-3')&&before!=='assessment:level-3';
- const expectedPosition=coreAhead?before:destination.position;
+ const expectedPosition=coreAhead?before:destination.position??undefined;
  const view=render(program.id==='business-funding'&&fundingTopics.some(t=>t.id===topic.id)?<FundingLesson topicId={topic.id}/>:<LearningLesson program={program} topicId={topic.id}/>);
  if(level.mature)fireEvent.click(screen.getByRole('button',{name:'Enter strong-language lesson'}));
- const arrow=screen.getByRole('button',{name:destination.title});expect(arrow).toBeEnabled();
- // A wrong optional answer does not block the reading action.
- fireEvent.click(screen.getByLabelText(topic.distractor));expect(arrow).toBeEnabled();
+ const arrow=screen.getByRole('button',{name:program.id==='neuroscience'?destination.title.replace('Next lesson: ','Next lecture: '):destination.title});expect(arrow).toBeEnabled();
+ // A wrong optional answer does not block the reading action. Neuroscience has no in-lecture answer control.
+ if(program.id!=='neuroscience')fireEvent.click(screen.getByLabelText(topic.distractor));expect(arrow).toBeEnabled();
  push.mockImplementation(()=>{const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)!);expect(saved.subjects[program.id].completed).toContain(topic.id);expect(saved.subjects[program.id].position).toBe(expectedPosition);});
  fireEvent.click(arrow);expect(push).toHaveBeenLastCalledWith(destination.url);view.unmount();push.mockImplementation(()=>{});
- if(!coreAhead){const dashboard=render(<SubjectProgress subject={program.id}/>);expect(screen.getByRole('link',{name:destination.position?.startsWith('assessment:')?/Continue assessment:/:new RegExp(`Continue ${program.title}:`)})).toHaveAttribute('href',destination.url);dashboard.unmount();}
+ if(!coreAhead){const dashboard=render(<SubjectProgress subject={program.id}/>);if(destination.position===null)expect(screen.getByRole('link',{name:new RegExp(`${program.title} published path complete`)})).toHaveAttribute('href',`${destination.url}#course-path`);else expect(screen.getByRole('link',{name:destination.position.startsWith('assessment:')?/Continue assessment:/:new RegExp(`Continue ${program.title}:`)})).toHaveAttribute('href',destination.url);dashboard.unmount();}
  if(destination.position?.startsWith('assessment:')){
   let a=courseAssessments(program).find(a=>a.id===destination.position!.slice(11))!;
   for(;;){const assessmentView=render(<AssessmentLesson program={program} assessmentId={a.id}/>);const next=assessmentDestination(program,a);

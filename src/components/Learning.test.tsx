@@ -47,6 +47,12 @@ describe('guided learning and resume',()=>{
   expect(screen.getByText('Russian swearing & strong language')).toBeVisible();
   expect(screen.getByText(/Published now: 24 of 100 requested core units/)).toBeVisible();
  });
+ it('keeps neuroscience in a lecture-first path without quiz links between units',()=>{
+  render(<ProgramPath subject="neuroscience"/>);
+  expect(screen.getByText(/Lecture series: 18 published units/)).toBeVisible();
+  expect(screen.queryByText(/Level 1 assessment/)).not.toBeInTheDocument();
+  expect(screen.queryByRole('link',{name:/Unit 1 quiz/})).not.toBeInTheDocument();
+ });
  it('organizes the course as a guided section path with unit guidebooks, lesson nodes, review, and an assessment',()=>{
   render(<ProgramPath subject="finance"/>);
   expect(screen.getByRole('heading',{name:'Your guided study path'})).toBeVisible();
