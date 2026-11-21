@@ -15,6 +15,12 @@ it('saves reading and continues without attempting practice',()=>{
  expect(push).toHaveBeenCalledWith('/learn/philosophy/02');
  const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)!);expect(saved.subjects.philosophy.completed).toContain('01');expect(saved.subjects.philosophy.assessments??{}).toEqual({});
 });
+it('presents neuroscience as reading-first lecture notes without an in-lecture answer test',()=>{
+ const program=getProgram('neuroscience')!;render(<LearningLesson program={program} topicId="01"/>);
+ expect(screen.getByText(/lecture notes/i)).toBeInTheDocument();
+ expect(screen.queryByRole('radio')).not.toBeInTheDocument();
+ expect(screen.getByRole('button',{name:/Next lecture:/})).toBeEnabled();
+});
 it('legacy completion ignores obsolete eligibility without inventing a score',()=>{
  render(<LegacyCompletion lessonId="finance/cash-flow-basics" model="Review cash timing." eligible={false}/>);
  fireEvent.click(screen.getByRole('button',{name:/Next lesson:/}));expect(push).toHaveBeenCalledWith('/subjects/finance/debt-interest-and-risk');

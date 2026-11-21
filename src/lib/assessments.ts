@@ -27,8 +27,9 @@ export function courseAssessments(program:Program):Assessment[]{const units=cour
  {id:`level-${levelIndex+1}`,title:`Cumulative level test: ${level.title}`,kind:'level' as const,levelIndex,questions:level.assessmentQuestions??level.topics,reviewIds:level.topics.map(t=>t.id)}
 ]);}
 export function lessonDestination(program:Program,topicId:string){const unit=courseUnits(program).find(u=>u.topics.some(t=>t.id===topicId));
- if(unit?.topics.at(-1)?.id===topicId)return {url:assessmentHref(program.id,unit.id),position:`assessment:${unit.id}`,title:`Unit quiz: ${unit.title}`};
- const topics=allTopics(program);const index=topics.findIndex(t=>t.id===topicId);const next=topics[index+1];return {url:next?topicHref(program.id,next.id):`/subjects/${program.id}`,position:next?.id??null,title:next?`Next lesson: ${next.title}`:`Review ${program.title}`};
+ const topics=allTopics(program);const index=topics.findIndex(t=>t.id===topicId);const next=topics[index+1];
+ if(program.id!=='neuroscience'&&unit&&unit.topics.at(-1)?.id===topicId)return {url:assessmentHref(program.id,unit.id),position:`assessment:${unit.id}`,title:`Unit quiz: ${unit.title}`};
+ return {url:next?topicHref(program.id,next.id):`/subjects/${program.id}`,position:next?.id??null,title:next?`Next lesson: ${next.title}`:`Review ${program.title}`};
 }
 export function assessmentDestination(program:Program,assessment:Assessment){
  const units=courseUnits(program).filter(u=>u.levelIndex===assessment.levelIndex);const unit=units.find(u=>u.id===assessment.id);
