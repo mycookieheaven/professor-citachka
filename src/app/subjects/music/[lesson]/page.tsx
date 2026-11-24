@@ -1,20 +1,6 @@
 import { notFound } from "next/navigation";
 import { MusicLesson } from "../MusicLesson";
-
-const musicLessonSlugs = [
-  "beat-and-counting",
-  "note-names-and-keyboard-map",
-  "scales-and-chords",
-  "guitar-ready",
-  "guitar-first-chords",
-  "guitar-rhythm-and-song",
-  "keyboard-map-and-posture",
-  "keyboard-first-melody",
-  "keyboard-chords-and-two-hands",
-  "fl-studio-tour",
-  "fl-studio-first-beat",
-  "fl-studio-midi-and-arrangement",
-] as const;
+import { MUSIC_LESSON_SLUGS as musicLessonSlugs } from "@/lib/lesson-slugs";
 
 export function generateStaticParams() {
   return musicLessonSlugs.map((lesson) => ({ lesson }));

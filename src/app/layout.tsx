@@ -55,8 +55,34 @@ const site = Literata({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://cookieheaven.art"),
-  title: "Professor Citachka",
+  /* A lesson names itself first; the site signs it. The homepage keeps its own
+     title, so a browser tab at the front door still says whose house this is. */
+  title: { default: "Professor Citachka", template: "%s · Cookie Heaven" },
   description: "Melissa's private university for disciplined, lifelong learning.",
+  /* Without these, every link to this site, in a message, a bio, or a forum,
+     arrived as a bare grey URL with no title and no picture, which is a link
+     almost nobody clicks. The card is one shared image; the words change per page. */
+  openGraph: {
+    type: "website",
+    siteName: "cookieheaven",
+    title: "Cookie Heaven",
+    description: "Art, photography, music, and a private university, by Melissa Aguilera.",
+    url: "/",
+    images: [
+      {
+        url: "/og/cookieheaven.png",
+        width: 1200,
+        height: 630,
+        alt: "Cookie Heaven: art, photography, music, and a private university, by Melissa Aguilera.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Cookie Heaven",
+    description: "Art, photography, music, and a private university, by Melissa Aguilera.",
+    images: ["/og/cookieheaven.png"],
+  },
   icons: {icon:[{url:"/favicon.ico"},{url:"/icons/panda-32.png",type:"image/png",sizes:"32x32"}],apple:[{url:"/icons/panda-180.png",sizes:"180x180"}]},
 };
 
