@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 16 16" shape-rendering="crispEdges" role="img" aria-label="Pixel cookie">
+  <path fill="#4a2116" d="M4 1h7v1h2v2h2v6h-1v3h-2v2H5v-1H3v-2H1V5h1V3h2z"/>
+  <path fill="#f7bc63" d="M5 2h6v1h2v2h1v5h-1v2h-2v1H6v-1H4v-2H2V6h1V4h2z"/>
+  <path fill="#ffdd8a" d="M6 3h4v1h2v2h1v3h-1v2H9v1H6v-1H4V8H3V6h1V4h2z"/>
+  <path fill="#8b4524" d="M5 5h2v2H5zm5-1h2v2h-2zM8 9h2v2H8zm3 2h1v1h-1zM4 9h1v1H4z"/>
+</svg>
