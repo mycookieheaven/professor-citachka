@@ -3,7 +3,7 @@ import {notFound} from 'next/navigation';
 import {allTopics,getProgram,programs} from '@/lib/programs';
 import {fundingTopics} from '@/lib/funding';
 import {FundingLesson} from '@/components/FundingLesson';
-import {LearningLesson} from '@/components/Learning';
+import {LearningLessonRoute} from '@/components/Learning';
 
 type Params={params:Promise<{subject:string;topic:string}>};
 
@@ -31,4 +31,4 @@ export async function generateMetadata({params}:Params):Promise<Metadata>{
 }
 
 // The original 50 funding lessons keep their specialized writing/roleplay renderer; appended lessons use the depth renderer.
-export default async function Page({params}:Params){const {subject,topic}=await params;const p=getProgram(subject);if(!p||!allTopics(p).some(t=>t.id===topic))notFound();return subject==='business-funding'&&fundingTopics.some(t=>t.id===topic)?<FundingLesson topicId={topic}/>:<LearningLesson program={p} topicId={topic}/>;}
+export default async function Page({params}:Params){const {subject,topic}=await params;const p=getProgram(subject);if(!p||!allTopics(p).some(t=>t.id===topic))notFound();return subject==='business-funding'&&fundingTopics.some(t=>t.id===topic)?<FundingLesson topicId={topic}/>:<LearningLessonRoute subject={subject} topicId={topic}/>;}

@@ -24,6 +24,9 @@ import { neuroscienceLessons } from "@/components/neuroscience/curriculum";
 
 const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://cookieheaven.art").replace(/\/$/, "");
 
+// The map only changes when the site does, so it is written at build time.
+export const dynamic = "force-static";
+
 /** Pages that exist at a fixed address, discovered from the route tree. */
 function staticRoutes(directory = path.join(process.cwd(), "src", "app")): string[] {
   const routes: string[] = [];
