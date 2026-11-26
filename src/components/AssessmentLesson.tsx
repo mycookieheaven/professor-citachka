@@ -2,13 +2,20 @@
 import Link from 'next/link';
 import {useEffect,useRef,useState} from 'react';
 import {useRouter} from 'next/navigation';
-import {allTopics,type Program,topicHref} from '@/lib/programs';
+import {allTopics,getProgram,type Program,topicHref} from '@/lib/programs';
 import {assessmentDestination,courseAssessments,PASS_PERCENT} from '@/lib/assessments';
 import {recordAssessment,recordAssessmentPosition,retryStudySave,useStudy} from '@/lib/study-store';
 import type {AssessmentAttempt} from '@/lib/progress';
 import {StorageNotice} from './Learning';
 import {PronunciationControls} from './PronunciationControls';
 export function AssessmentLesson({program,assessmentId}:{program:Program;assessmentId:string}){return <AssessmentSession key={`${program.id}/${assessmentId}`} program={program} assessmentId={assessmentId}/>;}
+/* The same doorway as the lessons: the page passes strings, the component finds
+   its own course, and no page carries a serialised copy of the whole curriculum. */
+export function AssessmentLessonRoute({subject,assessmentId}:{subject:string;assessmentId:string}){
+ const program=getProgram(subject);
+ if(!program)return null;
+ return <AssessmentLesson program={program} assessmentId={assessmentId}/>;
+}
 function AssessmentSession({program,assessmentId}:{program:Program;assessmentId:string}){
  const router=useRouter();const {progress,ready}=useStudy();const heading=useRef<HTMLHeadingElement>(null);
  const assessment=courseAssessments(program).find(a=>a.id===assessmentId)!;const next=assessmentDestination(program,assessment);

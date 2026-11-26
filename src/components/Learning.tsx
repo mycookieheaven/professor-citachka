@@ -79,6 +79,21 @@ function AssessmentPathLink({subject,id,title,count}:{subject:string;id:string;t
 export function LearningLesson({program,topicId}:{program:Program;topicId:string}){
  return <LessonSession key={`${program.id}/${topicId}`} program={program} topicId={topicId}/>;
 }
+/*
+ * The doorway a page uses.
+ *
+ * The whole course is already inside this bundle, because this file imports it to
+ * work out what is unlocked, so a page that handed a program in as a prop made every
+ * lesson carry a second, serialised copy of the entire course in its HTML. That
+ * was a megabyte per lesson, and four near-copies of it in the export. A page now
+ * passes two strings and the lesson looks up what it needs, from data the browser
+ * has already fetched once for all of them.
+ */
+export function LearningLessonRoute({subject,topicId}:{subject:string;topicId:string}){
+ const program=getProgram(subject);
+ if(!program)return null;
+ return <LearningLesson program={program} topicId={topicId}/>;
+}
 function LessonSession({program,topicId}:{program:Program;topicId:string}){
  const router=useRouter();const {progress,ready}=useStudy();
  const [selected,setSelected]=useState<string|null>(null);const [practiced,setPracticed]=useState(false);const [consent,setConsent]=useState(false);

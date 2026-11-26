@@ -57,6 +57,11 @@ const financeLessonPaths = [
 ] as const;
 
 export type SubjectSlug = keyof typeof rooms;
+
+/* The departments this route answers for. Exported so the page can tell a static
+   build which addresses to write, instead of that list being copied somewhere and
+   quietly going stale the day a department is added. */
+export const SUBJECT_SLUGS = Object.keys(rooms) as SubjectSlug[];
 const veterinaryLessonLinks = ["clinical-foundations", "comparative-anatomy", "physiology-pathology", "pharmacology-diagnostics", "patient-care-practice"] as const;
 export function isSubjectSlug(value: string): value is SubjectSlug { return Object.hasOwn(rooms, value); }
 
