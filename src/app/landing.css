@@ -640,6 +640,30 @@
 
 .home-section p:last-child { margin-bottom: 0; }
 
+/* The ask panel is a cream card living inside .home, so the homepage rules above,
+   which put pale ink on the yellow wallpaper, land on cream and disappear. Inside
+   #ask the ink is dark plum instead, and nothing glows. The glow was the whole
+   problem: near white letters with a pink halo, on a card, is not readable. */
+.home #ask h2 {
+  color: #4a1030;
+  text-shadow: none;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(28px, 3.4vw, 40px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.home #ask p {
+  color: #3d0a22;
+  text-shadow: none;
+}
+
+.home #ask .eyebrow {
+  color: #8d174d;
+  text-shadow: none;
+}
+
 .home-note {
   font-size: 18px;
   color: #ffd7ec;
